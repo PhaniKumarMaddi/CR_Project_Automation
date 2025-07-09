@@ -36,7 +36,7 @@ public class CSAT_TestInitializer extends WaitsManager {
 			WebDriverManager.chromedriver().clearDriverCache().setup();
 			driver = new ChromeDriver();
 			System.out.println("Launching Chrome Browser");
-			logger.info("Launching Chrome Browser");
+			logger.info("Launching Chrome Browser"); 
 
 		}
 		if (browserType.equalsIgnoreCase("Firefox")) {
