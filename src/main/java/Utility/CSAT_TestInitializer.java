@@ -36,7 +36,7 @@ public class CSAT_TestInitializer extends WaitsManager {
 			WebDriverManager.chromedriver().clearDriverCache().setup();
 			driver = new ChromeDriver();
 			System.out.println("Launching Chrome Browser");
-			logger.info("Launching Chrome Browser"); 
+			logger.info("Launching Chrome Browser");
 
 		}
 		if (browserType.equalsIgnoreCase("Firefox")) {
@@ -54,8 +54,8 @@ public class CSAT_TestInitializer extends WaitsManager {
 		DriverManager.setDriver(driver);
 		driver.manage().window().maximize();
 
-		String url = configFile.getProperty("CSAT_Url"); // UAT 
-		
+		String url = configFile.getProperty("CSAT_Url"); // UAT
+
 //		String nameForReport = configFile.getProperty("ReportName");
 //		nameForReport = configFile.getProperty("ReportName");
 

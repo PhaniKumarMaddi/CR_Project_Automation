@@ -126,6 +126,6 @@ public class ValidatingAssertions {
 		assertPassOrFail(pageHeaderVal, result);
 	}
 
-	// CSAT RELATED 
-	
+	// CSAT RELATED
+
 }
