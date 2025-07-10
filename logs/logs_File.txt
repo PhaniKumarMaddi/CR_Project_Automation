@@ -3738,3 +3738,177 @@ Session ID: 92f2884848916e3f00e14e53c7de77dd
 2025-07-09 18:24:39 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
 2025-07-09 18:24:50 [main] INFO : Testing Ended
 2025-07-09 18:24:50 [main] INFO : ***********
+2025-07-10 09:19:41 [main] INFO : Launching Chrome Browser
+2025-07-10 09:19:41 [main] INFO : Report Name :ChatBotPageReport.html
+2025-07-10 09:19:42 [main] INFO : Web Page URL: https://criticalriveruat.devsproject.com/
+2025-07-10 09:19:52 [main] INFO : Inside Test class 
+2025-07-10 09:20:05 [main] INFO : Rejected All Cookies
+2025-07-10 09:20:07 [main] INFO : Banner Value: Your digital game plan just found its power player.
+2025-07-10 09:20:07 [main] INFO : Expected :Your digital game plan just found its power player. and Actual :Your digital game plan just found its power player.
+2025-07-10 09:20:07 [main] INFO : Expected :Your digital game plan just found its power player. and Actual :Your digital game plan just found its power player. both are same
+2025-07-10 09:20:08 [main] INFO : Verify the Terms Link from banner notice
+2025-07-10 09:20:11 [main] INFO : URL : https://criticalriveruat.devsproject.com/terms-of-use/
+2025-07-10 09:20:17 [main] INFO : Validating URL: https://criticalriveruat.devsproject.com/terms-of-use/
+2025-07-10 09:20:17 [main] INFO : Expected :https://criticalriveruat.devsproject.com/terms-of-use/ and Actual :https://criticalriveruat.devsproject.com/terms-of-use/
+2025-07-10 09:20:17 [main] INFO : Expected :https://criticalriveruat.devsproject.com/terms-of-use/ and Actual :https://criticalriveruat.devsproject.com/terms-of-use/ both are same
+2025-07-10 09:20:21 [main] INFO : Verify the Privacy Policy Link from banner notice
+2025-07-10 09:20:24 [main] INFO : URL : https://criticalriveruat.devsproject.com/privacy-policy/
+2025-07-10 09:20:31 [main] INFO : Validating URL: https://criticalriveruat.devsproject.com/privacy-policy/
+2025-07-10 09:20:31 [main] INFO : Expected :https://criticalriveruat.devsproject.com/privacy-policy/ and Actual :https://criticalriveruat.devsproject.com/privacy-policy/
+2025-07-10 09:20:31 [main] INFO : Expected :https://criticalriveruat.devsproject.com/privacy-policy/ and Actual :https://criticalriveruat.devsproject.com/privacy-policy/ both are same
+2025-07-10 09:20:35 [main] INFO : Verify the Cookie Preferences Link from banner notice
+2025-07-10 09:20:38 [main] INFO : URL : https://criticalriveruat.devsproject.com/cookie-policy/
+2025-07-10 09:20:44 [main] INFO : Validating URL: https://criticalriveruat.devsproject.com/cookie-policy/
+2025-07-10 09:20:44 [main] INFO : Expected :https://criticalriveruat.devsproject.com/cookie-policy/ and Actual :https://criticalriveruat.devsproject.com/cookie-policy/
+2025-07-10 09:20:44 [main] INFO : Expected :https://criticalriveruat.devsproject.com/cookie-policy/ and Actual :https://criticalriveruat.devsproject.com/cookie-policy/ both are same
+2025-07-10 09:20:48 [main] INFO : Verify the Learn more Link from banner notice
+2025-07-10 09:20:51 [main] INFO : URL : https://criticalriveruat.devsproject.com/privacy-policy/
+2025-07-10 09:20:58 [main] INFO : Validating URL: https://criticalriveruat.devsproject.com/privacy-policy/
+2025-07-10 09:20:58 [main] INFO : Expected :https://criticalriveruat.devsproject.com/privacy-policy/ and Actual :https://criticalriveruat.devsproject.com/privacy-policy/
+2025-07-10 09:20:58 [main] INFO : Expected :https://criticalriveruat.devsproject.com/privacy-policy/ and Actual :https://criticalriveruat.devsproject.com/privacy-policy/ both are same
+2025-07-10 09:21:04 [main] INFO : Search Button is Disabled
+2025-07-10 09:21:05 [main] INFO : Validating executed prompt: Give me a List of Events Hosted by CriticalRiver in Tabular Format?
+2025-07-10 09:21:05 [main] INFO : Expected :Give me a List of Events Hosted by CriticalRiver in Tabular Format? and Actual :Give me a List of Events Hosted by CriticalRiver in Tabular Format? both are same
+2025-07-10 09:21:17 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c717a7a61a60653939f21d133f72277, getElementText {id=f.EEF270FF06FC6A65DA5C379326940897.d.EC50A25BCE03C8AB362933718D8CF2B7.e.130}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50594}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50594/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7c717a7a61a60653939f21d133f72277)] -> xpath: //div[@class='chat-message bot-message']/div[1]/div/p]
+Session ID: 7c717a7a61a60653939f21d133f72277
+2025-07-10 09:21:17 [main] ERROR: Test Failed :Cannot invoke "String.equals(Object)" because "botResponse" is null
+2025-07-10 09:21:17 [main] INFO : Testing Ended
+2025-07-10 09:21:17 [main] INFO : ***********
+2025-07-10 09:22:20 [main] INFO : Launching Chrome Browser
+2025-07-10 09:22:20 [main] INFO : Report Name :ChatBotPageReport.html
+2025-07-10 09:22:21 [main] INFO : Web Page URL: https://criticalriveruat.devsproject.com/
+2025-07-10 09:22:31 [main] INFO : Inside Test class 
+2025-07-10 09:22:38 [main] INFO : Rejected All Cookies
+2025-07-10 09:22:40 [main] INFO : Banner Value: Your digital game plan just found its power player.
+2025-07-10 09:22:40 [main] INFO : Expected :Your digital game plan just found its power player. and Actual :Your digital game plan just found its power player.
+2025-07-10 09:22:40 [main] INFO : Expected :Your digital game plan just found its power player. and Actual :Your digital game plan just found its power player. both are same
+2025-07-10 09:22:40 [main] INFO : Verify the Terms Link from banner notice
+2025-07-10 09:22:43 [main] INFO : URL : https://criticalriveruat.devsproject.com/terms-of-use/
+2025-07-10 09:22:50 [main] INFO : Validating URL: https://criticalriveruat.devsproject.com/terms-of-use/
+2025-07-10 09:22:50 [main] INFO : Expected :https://criticalriveruat.devsproject.com/terms-of-use/ and Actual :https://criticalriveruat.devsproject.com/terms-of-use/
+2025-07-10 09:22:50 [main] INFO : Expected :https://criticalriveruat.devsproject.com/terms-of-use/ and Actual :https://criticalriveruat.devsproject.com/terms-of-use/ both are same
+2025-07-10 09:22:54 [main] INFO : Verify the Privacy Policy Link from banner notice
+2025-07-10 09:22:57 [main] INFO : URL : https://criticalriveruat.devsproject.com/privacy-policy/
+2025-07-10 09:23:07 [main] INFO : Validating URL: https://criticalriveruat.devsproject.com/privacy-policy/
+2025-07-10 09:23:07 [main] INFO : Expected :https://criticalriveruat.devsproject.com/privacy-policy/ and Actual :https://criticalriveruat.devsproject.com/privacy-policy/
+2025-07-10 09:23:07 [main] INFO : Expected :https://criticalriveruat.devsproject.com/privacy-policy/ and Actual :https://criticalriveruat.devsproject.com/privacy-policy/ both are same
+2025-07-10 09:23:11 [main] INFO : Verify the Cookie Preferences Link from banner notice
+2025-07-10 09:23:14 [main] INFO : URL : https://criticalriveruat.devsproject.com/cookie-policy/
+2025-07-10 09:23:20 [main] INFO : Validating URL: https://criticalriveruat.devsproject.com/cookie-policy/
+2025-07-10 09:23:20 [main] INFO : Expected :https://criticalriveruat.devsproject.com/cookie-policy/ and Actual :https://criticalriveruat.devsproject.com/cookie-policy/
+2025-07-10 09:23:20 [main] INFO : Expected :https://criticalriveruat.devsproject.com/cookie-policy/ and Actual :https://criticalriveruat.devsproject.com/cookie-policy/ both are same
+2025-07-10 09:23:24 [main] INFO : Verify the Learn more Link from banner notice
+2025-07-10 09:23:27 [main] INFO : URL : https://criticalriveruat.devsproject.com/privacy-policy/
+2025-07-10 09:23:34 [main] INFO : Validating URL: https://criticalriveruat.devsproject.com/privacy-policy/
+2025-07-10 09:23:34 [main] INFO : Expected :https://criticalriveruat.devsproject.com/privacy-policy/ and Actual :https://criticalriveruat.devsproject.com/privacy-policy/
+2025-07-10 09:23:34 [main] INFO : Expected :https://criticalriveruat.devsproject.com/privacy-policy/ and Actual :https://criticalriveruat.devsproject.com/privacy-policy/ both are same
+2025-07-10 09:23:40 [main] INFO : Search Button is Disabled
+2025-07-10 09:23:40 [main] INFO : Validating executed prompt: Give me a List of Events Hosted by CriticalRiver in Tabular Format?
+2025-07-10 09:23:40 [main] INFO : Expected :Give me a List of Events Hosted by CriticalRiver in Tabular Format? and Actual :Give me a List of Events Hosted by CriticalRiver in Tabular Format? both are same
+2025-07-10 09:23:52 [main] INFO : Bot Response :Here is a list of recent events hosted by CriticalRiver:
+2025-07-10 09:23:54 [main] INFO : Data is Displayed in Table Format
+2025-07-10 09:23:54 [main] INFO : Validating the Table Header value for first Column: Event Name
+2025-07-10 09:23:54 [main] INFO : Validating the Prompt in Link Preview: Give me a List of Events Hosted by CriticalRiver in Tabular Format?
+2025-07-10 09:23:55 [main] INFO : Expected :Give me a List of Events Hosted by CriticalRiver in Tabular Format? and Actual :Give me a List of Events Hosted by CriticalRiver in Tabular Format? both are same
+2025-07-10 09:23:55 [main] INFO : Validating the Link Description: For more information visit this link
+2025-07-10 09:23:55 [main] INFO : Expected :For more information visit this link and Actual :For more information visit this link both are same
+2025-07-10 09:23:55 [main] INFO : Get Link Value: https://www.criticalriver.com/events
+2025-07-10 09:24:02 [main] INFO : Validating URL after clicking the link: https://www.criticalriver.com/events/
+2025-07-10 09:24:02 [main] INFO : Validating the Table Header value for Link Page: Home / Events
+2025-07-10 09:24:02 [main] INFO : Expected :Home / Events and Actual :Home / Events both are same
+2025-07-10 09:24:17 [main] INFO : Prompts Cleared
+2025-07-10 09:24:18 [main] INFO : Validating executed prompt: Who Are the Key Leaders at CriticalRiver?
+2025-07-10 09:24:18 [main] INFO : Expected :Who Are the Key Leaders at CriticalRiver? and Actual :Who Are the Key Leaders at CriticalRiver? both are same
+2025-07-10 09:24:30 [main] INFO : Bot Response :• Anji Maram – Founder & Chief Executive Officer • Chandra Chandragiri – Co-Founder & Chief Financial Officer • Tarun Srivastava – Global Head of Growth 😊
+2025-07-10 09:24:30 [main] INFO : Validating the Prompt in Link Preview: Who Are the Key Leaders at CriticalRiver?
+2025-07-10 09:24:31 [main] INFO : Expected :Who Are the Key Leaders at CriticalRiver? and Actual :Who Are the Key Leaders at CriticalRiver? both are same
+2025-07-10 09:24:31 [main] INFO : Validating the Link Description: For more information visit this link
+2025-07-10 09:24:31 [main] INFO : Expected :For more information visit this link and Actual :For more information visit this link both are same
+2025-07-10 09:24:31 [main] INFO : Get Link Value: https://www.criticalriver.com/leadership/
+2025-07-10 09:24:34 [main] INFO : Validating URL after clicking the link: https://www.criticalriver.com/leadership/
+2025-07-10 09:24:34 [main] INFO : Validating the Table Header value for Link Page: Home / About – Leadership
+2025-07-10 09:24:34 [main] INFO : Expected :Home / About – Leadership and Actual :Home / About – Leadership both are same
+2025-07-10 09:24:37 [main] INFO : Prompts Cleared
+2025-07-10 09:24:38 [main] INFO : Validating executed prompt: List of Job Openings Offered by CriticalRiver?
+2025-07-10 09:24:38 [main] INFO : Expected :List of Job Openings Offered by CriticalRiver? and Actual :List of Job Openings Offered by CriticalRiver? both are same
+2025-07-10 09:24:51 [main] INFO : Bot Response :CriticalRiver’s current openings are hosted on our regional careers pages. You can explore and apply for USA-based positions at https://www.criticalriver.com/us-jobs/ and APAC/India roles at https://www.criticalriver.com/apac-india-jobs/. For any questions, feel free to reach out to careers@criticalriver.com.
+2025-07-10 09:24:51 [main] INFO : Validating the Prompt in Link Preview: List of Job Openings Offered by CriticalRiver?
+2025-07-10 09:24:51 [main] INFO : Expected :List of Job Openings Offered by CriticalRiver? and Actual :List of Job Openings Offered by CriticalRiver? both are same
+2025-07-10 09:24:51 [main] INFO : Validating the Link Description: For more information visit this link
+2025-07-10 09:24:51 [main] INFO : Expected :For more information visit this link and Actual :For more information visit this link both are same
+2025-07-10 09:24:51 [main] INFO : Get Link Value: https://www.criticalriver.com/us-jobs/
+2025-07-10 09:24:54 [main] INFO : Validating URL after clicking the link: https://www.criticalriver.com/us-jobs/
+2025-07-10 09:24:54 [main] INFO : Validating the Table Header value for Link Page: Home / Explore Job Opportunities in Americas
+2025-07-10 09:24:54 [main] INFO : Expected :Home / Explore Job Opportunities in Americas and Actual :Home / Explore Job Opportunities in Americas both are same
+2025-07-10 09:24:56 [main] INFO : Prompts Cleared
+2025-07-10 09:24:58 [main] INFO : Validating executed prompt: Write a program create a chatbot?
+2025-07-10 09:24:58 [main] INFO : Expected :Write a program create a chatbot? and Actual :Write a program create a chatbot? both are same
+2025-07-10 09:25:10 [main] INFO : Bot Response :I’m sorry, but I don’t have information on writing chatbot programs outside of CriticalRiver’s offerings. Please let me know if you have any questions about CriticalRiver’s AI-powered chatbot solutions or other services, and I’ll be happy to assist you!
+2025-07-10 09:25:12 [main] INFO : Validating executed prompt: 2+2
+2025-07-10 09:25:12 [main] INFO : Expected :2+2 and Actual :2+2 both are same
+2025-07-10 09:25:25 [main] INFO : Bot Response :I’m here to help with questions about CriticalRiver. Could you please let me know what you’d like to know about our services or solutions?
+2025-07-10 09:25:25 [main] INFO : Expected :4 and Actual :I’m here to help with questions about CriticalRiver. Could you please let me know what you’d like to know about our services or solutions? both are same
+2025-07-10 09:25:27 [main] INFO : Validating executed prompt: @#$%^&*(#$%^
+2025-07-10 09:25:27 [main] INFO : Expected :@#$%^&*(#$%^ and Actual :@#$%^&*(#$%^ both are same
+2025-07-10 09:25:39 [main] INFO : Bot Response :I’m sorry, but I don’t have information on that. Please ask questions related to CriticalRiver and I’d be happy to assist.
+2025-07-10 09:25:41 [main] INFO : Validating executed prompt: Can i have Criticalriver CEO mobile number?
+2025-07-10 09:25:41 [main] INFO : Expected :Can i have Criticalriver CEO mobile number? and Actual :Can i have Criticalriver CEO mobile number? both are same
+2025-07-10 09:25:53 [main] INFO : Bot Response :I’m sorry, but I don’t have access to the personal mobile number of CriticalRiver’s CEO. If you’d like to get in touch, I can connect you with a member of our team who can assist you further.
+2025-07-10 09:25:55 [main] INFO : Validating executed prompt: Tell me about CoreInsights the AI Platform of CriticalRiver?
+2025-07-10 09:25:56 [main] INFO : Expected :Tell me about CoreInsights the AI Platform of CriticalRiver? and Actual :Tell me about CoreInsights the AI Platform of CriticalRiver? both are same
+2025-07-10 09:26:07 [main] INFO : Validating the Prompt in Link Preview: Tell me about CoreInsights the AI Platform of CriticalRiver?
+2025-07-10 09:26:07 [main] INFO : Expected :Tell me about CoreInsights the AI Platform of CriticalRiver? and Actual :Tell me about CoreInsights the AI Platform of CriticalRiver? both are same
+2025-07-10 09:26:07 [main] INFO : Validating the Link Description: For more information visit this link
+2025-07-10 09:26:07 [main] INFO : Expected :For more information visit this link and Actual :For more information visit this link both are same
+2025-07-10 09:26:09 [main] INFO : Get Link Value: https://www.criticalriver.com/coreinsights-platform/
+2025-07-10 09:26:12 [main] INFO : Validating URL after clicking the link: https://www.criticalriver.com/coreinsights-platform/
+2025-07-10 09:26:14 [main] INFO : Good and Bad Responses are Enabled
+2025-07-10 09:26:17 [main] INFO : Good and Bad Responses are Disabled
+2025-07-10 09:26:21 [main] INFO : Prompts Cleared
+2025-07-10 09:26:22 [main] INFO : Validating executed prompt: Can you share recent case studies that showcase CriticalRiver’s project successes?
+2025-07-10 09:26:22 [main] INFO : Expected :Can you share recent case studies that showcase CriticalRiver’s project successes? and Actual :Can you share recent case studies that showcase CriticalRiver’s project successes? both are same
+2025-07-10 09:26:30 [main] INFO : Validating the Prompt in Link Preview: Can you share recent case studies that showcase CriticalRiver’s project successes?
+2025-07-10 09:26:30 [main] INFO : Expected :Can you share recent case studies that showcase CriticalRiver’s project successes? and Actual :Can you share recent case studies that showcase CriticalRiver’s project successes? both are same
+2025-07-10 09:26:30 [main] INFO : Validating the Link Description: For more information visit this link
+2025-07-10 09:26:30 [main] INFO : Expected :For more information visit this link and Actual :For more information visit this link both are same
+2025-07-10 09:26:30 [main] INFO : Get Link Value: https://www.criticalriver.com/success-stories/
+2025-07-10 09:26:34 [main] INFO : Validating URL after clicking the link: https://www.criticalriver.com/success-stories/
+2025-07-10 09:26:36 [main] INFO : Good and Bad Responses are Enabled
+2025-07-10 09:26:40 [main] INFO : Bad Response Header : Provide Feedback
+2025-07-10 09:26:40 [main] INFO : Expected :Provide Feedback and Actual :Provide Feedback
+2025-07-10 09:26:40 [main] INFO : Expected :Provide Feedback and Actual :Provide Feedback both are same
+2025-07-10 09:26:40 [main] INFO : Submit Button is Disabled
+2025-07-10 09:26:42 [main] INFO : The response was too generic or vague is selected
+2025-07-10 09:26:44 [main] INFO : Submit Button is Enabled
+2025-07-10 09:26:46 [main] INFO : Good and Bad Responses are Enabled
+2025-07-10 09:26:48 [main] INFO : Prompts Cleared
+2025-07-10 09:26:50 [main] INFO : Validating executed prompt: Can you share recent case studies that showcase CriticalRiver’s project successes?
+2025-07-10 09:26:50 [main] INFO : Expected :Can you share recent case studies that showcase CriticalRiver’s project successes? and Actual :Can you share recent case studies that showcase CriticalRiver’s project successes? both are same
+2025-07-10 09:27:00 [main] INFO : Validating the Prompt in Link Preview: Can you share recent case studies that showcase CriticalRiver’s project successes?
+2025-07-10 09:27:00 [main] INFO : Expected :Can you share recent case studies that showcase CriticalRiver’s project successes? and Actual :Can you share recent case studies that showcase CriticalRiver’s project successes? both are same
+2025-07-10 09:27:00 [main] INFO : Validating the Link Description: For more information visit this link
+2025-07-10 09:27:00 [main] INFO : Expected :For more information visit this link and Actual :For more information visit this link both are same
+2025-07-10 09:27:02 [main] INFO : Good and Bad Responses are Enabled
+2025-07-10 09:27:07 [main] INFO : Submit Button is Disabled
+2025-07-10 09:27:08 [main] INFO : The answer was incorrect or misleading is selected
+2025-07-10 09:27:10 [main] INFO : Submit Button is Enabled
+2025-07-10 09:27:14 [main] INFO : Good and Bad Responses are Disabled
+2025-07-10 09:27:21 [main] INFO : Expected :Give me a List of Events Hosted by CriticalRiver in Tabular Format? and Actual :Give me a List of Events Hosted by CriticalRiver in Tabular Format? both are same
+2025-07-10 09:27:21 [main] INFO : Cancelling the prompt while executing
+2025-07-10 09:27:31 [main] INFO : Expected :Give me a List of Events Hosted by CriticalRiver in Tabular Format? and Actual :Give me a List of Events Hosted by CriticalRiver in Tabular Format? both are same
+2025-07-10 09:27:42 [main] INFO : Expected :Who Are the Key Leaders at CriticalRiver? and Actual :Who Are the Key Leaders at CriticalRiver? both are same
+2025-07-10 09:27:54 [main] INFO : Expected :Give me the press release list in a tabular format? and Actual :Give me the press release list in a tabular format? both are same
+2025-07-10 09:28:09 [main] INFO : Expected :List of Job Openings Offered by CriticalRiver? and Actual :List of Job Openings Offered by CriticalRiver? both are same
+2025-07-10 09:28:21 [main] INFO : Bot Response :I’m sorry, but I don’t have the specific list of current job openings at CriticalRiver. You can explore our U.S. opportunities at https://www.criticalriver.com/us-jobs/ and our APAC/India opportunities at https://www.criticalriver.com/apac-india-jobs/. If you need further assistance or information on specific roles, please let me know or email careers@criticalriver.com so I can connect you with a human representative.
+2025-07-10 09:28:25 [main] INFO : Expected :List of Job Openings Offered by CriticalRiver? and Actual :List of Job Openings Offered by CriticalRiver? both are same
+2025-07-10 09:28:37 [main] INFO : Bot Response :For any questions or to submit your application directly, you can also email careers@criticalriver.com.
+2025-07-10 09:28:38 [main] INFO : Testing Ended
+2025-07-10 09:28:38 [main] INFO : ***********
