@@ -44,8 +44,6 @@ public class TestDataKeys {
 	public String survey_Url="/surveys";
 	public String roles_Url="/roles";
 	public String reports_Url ="/reports";
-//	public String orgMembers_Url="/org-members";
-//	public String teams_Url="/teams";
 	public String orgMembers_Url="/settings/org-members";
 	public String teams_Url="/settings/teams";
 	public String profile_Url ="/profile";
@@ -64,5 +62,15 @@ public class TestDataKeys {
 	public String orgMemebersPage="Org Members";
 	public String teamsPage= "Teams";
 	public String profilePage="Profile";
+	
+	
+	
+	// Project Page 
+	public String sentSurvey="Surveys Sent";
+	public String atRiskSurvey="At Risk Surveys";
+	public String completeSurvey="Completed Surveys";
+	public String csatScore="CSAT Summary";
+	public String newProjectHeader = "New Project Details";
+	
 	
 }

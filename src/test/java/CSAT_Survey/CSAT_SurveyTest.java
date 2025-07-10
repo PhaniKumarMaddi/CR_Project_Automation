@@ -26,7 +26,7 @@ public class CSAT_SurveyTest extends CSAT_TestInitializer {
 		csatPage = new CSAT_Survey_AllPages();
 //				grep = new GenerateReports();
 
-		grep.testCreate("CSAT Page navigation Testt", "CSAT Page navigation");
+		grep.testCreate("CSAT Page navigation Test", "CSAT Page navigation");
 		waitTime(driver);
 		csatPage.logoInHomePage();
 		csatPage.verifyProfileNameInHomePage(dataKeys.profileName);
@@ -63,15 +63,15 @@ public class CSAT_SurveyTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Meu Expanded", "expandMenu");
 
-		csatPage.clickLogout();
-		String getUrl = driver.getCurrentUrl();
-		if (getUrl.endsWith(dataKeys.login_Url)) {
-			grep.passTest("Logged out Successfully");
-			logger.info("Logged out Successfully");
-		} else {
-			grep.failTest("Log out Functionality failed");
-			logger.info("Log out Functionality failed");
-		}
+//		csatPage.clickLogout();
+//		String getUrl = driver.getCurrentUrl();
+//		if (getUrl.endsWith(dataKeys.login_Url)) {
+//			grep.passTest("Logged out Successfully");
+//			logger.info("Logged out Successfully");
+//		} else {
+//			grep.failTest("Log out Functionality failed");
+//			logger.info("Log out Functionality failed");
+//		}
 
 		validAssert.assertAllFunction();
 

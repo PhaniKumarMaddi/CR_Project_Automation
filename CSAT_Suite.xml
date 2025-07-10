@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CSATSuite">
+  <test thread-count="5" name="CSATTest">
+  <parameter name="FileName" value="CSATPageReport.html"/>
+    <classes>
+      <class name="CSAT_Survey.CSAT_SurveyTest"/>
+       <class name="CSAT_Survey.CSAT_ProjectSurveyTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

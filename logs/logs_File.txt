@@ -4532,3 +4532,364 @@ Session ID: 69ac433907645b9861962a9a351cfb4b
 2025-07-10 15:11:28 [main] INFO : Logged out Successfully
 2025-07-10 15:11:29 [main] INFO : Testing Ended
 2025-07-10 15:11:29 [main] INFO : ***********
+2025-07-10 16:10:55 [main] INFO : Launching Chrome Browser
+2025-07-10 16:10:55 [main] INFO : Report Name :CsatPage.html
+2025-07-10 16:11:26 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 16:11:26 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 16:11:26 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 16:12:19 [main] INFO : Logged in to CSAT Application
+2025-07-10 16:12:20 [main] INFO : Testing Ended
+2025-07-10 16:12:20 [main] INFO : ***********
+2025-07-10 16:14:13 [main] INFO : Launching Chrome Browser
+2025-07-10 16:14:14 [main] INFO : Report Name :CsatPage.html
+2025-07-10 16:14:24 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 16:14:24 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 16:14:24 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 16:14:52 [main] INFO : Logged in to CSAT Application
+2025-07-10 16:14:53 [main] INFO : Menu Collapsed
+2025-07-10 16:14:53 [main] INFO : Header is Valid: Projects
+2025-07-10 16:14:54 [main] INFO : popup Header Surveys Sent
+2025-07-10 16:14:54 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-10 16:14:54 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-10 16:14:56 [main] INFO : popup Header At Risk Surveys
+2025-07-10 16:14:56 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-10 16:14:56 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-10 16:14:58 [main] INFO : popup Header Completed Surveys
+2025-07-10 16:14:58 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-10 16:14:58 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-10 16:15:00 [main] INFO : popup Header CSAT Summary
+2025-07-10 16:15:00 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-10 16:15:00 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-10 16:15:01 [main] INFO : Testing Ended
+2025-07-10 16:15:01 [main] INFO : ***********
+2025-07-10 16:18:23 [main] INFO : Launching Chrome Browser
+2025-07-10 16:18:23 [main] INFO : Report Name :CsatPage.html
+2025-07-10 16:18:28 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 16:18:28 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 16:18:28 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 16:18:54 [main] INFO : Logged in to CSAT Application
+2025-07-10 16:18:54 [main] INFO : Menu Collapsed
+2025-07-10 16:18:55 [main] INFO : Header is Valid: Projects
+2025-07-10 16:18:56 [main] INFO : popup Header Surveys Sent
+2025-07-10 16:18:56 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-10 16:18:56 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-10 16:19:00 [main] INFO : popup Header At Risk Surveys
+2025-07-10 16:19:00 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-10 16:19:00 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-10 16:19:03 [main] INFO : popup Header Completed Surveys
+2025-07-10 16:19:03 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-10 16:19:03 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-10 16:19:07 [main] INFO : popup Header CSAT Summary
+2025-07-10 16:19:07 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-10 16:19:07 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-10 16:19:09 [main] INFO : Testing Ended
+2025-07-10 16:19:09 [main] INFO : ***********
+2025-07-10 16:55:17 [main] INFO : Launching Chrome Browser
+2025-07-10 16:55:17 [main] INFO : Report Name :CsatPage.html
+2025-07-10 16:55:39 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 16:55:39 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 16:55:39 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 16:56:23 [main] INFO : Logged in to CSAT Application
+2025-07-10 16:56:24 [main] INFO : Menu Collapsed
+2025-07-10 16:56:25 [main] INFO : Header is Valid: Projects
+2025-07-10 16:56:26 [main] INFO : popup Header Surveys Sent
+2025-07-10 16:56:26 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-10 16:56:26 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-10 16:56:29 [main] INFO : popup Header At Risk Surveys
+2025-07-10 16:56:29 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-10 16:56:29 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-10 16:56:33 [main] INFO : popup Header Completed Surveys
+2025-07-10 16:56:33 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-10 16:56:33 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-10 16:56:36 [main] INFO : popup Header CSAT Summary
+2025-07-10 16:56:36 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-10 16:56:36 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-10 16:56:40 [main] INFO : popup Header New Project Details
+×
+2025-07-10 16:56:40 [main] INFO : Expected :New Project Details and Actual :New Project Details
+×
+2025-07-10 16:56:40 [main] ERROR: Expected and Actual are not same Expected [New Project Details ], but found [New Project Details
+×]
+2025-07-10 16:56:42 [main] INFO : Testing Ended
+2025-07-10 16:56:42 [main] INFO : ***********
+2025-07-10 16:59:02 [main] INFO : Launching Chrome Browser
+2025-07-10 16:59:02 [main] INFO : Report Name :CsatPage.html
+2025-07-10 16:59:06 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 16:59:06 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 16:59:06 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 16:59:35 [main] INFO : Logged in to CSAT Application
+2025-07-10 16:59:35 [main] INFO : Menu Collapsed
+2025-07-10 16:59:36 [main] INFO : Header is Valid: Projects
+2025-07-10 16:59:37 [main] INFO : popup Header Surveys Sent
+2025-07-10 16:59:37 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-10 16:59:37 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-10 16:59:41 [main] INFO : popup Header At Risk Surveys
+2025-07-10 16:59:41 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-10 16:59:41 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-10 16:59:44 [main] INFO : popup Header Completed Surveys
+2025-07-10 16:59:44 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-10 16:59:44 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-10 16:59:48 [main] INFO : popup Header CSAT Summary
+2025-07-10 16:59:48 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-10 16:59:48 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-10 16:59:52 [main] INFO : popup Header New Project Details
+×
+2025-07-10 16:59:52 [main] INFO : Expected :New Project Details and Actual :New Project Details
+×
+2025-07-10 16:59:52 [main] ERROR: Expected and Actual are not same Expected [New Project Details ], but found [New Project Details
+×]
+2025-07-10 16:59:55 [main] INFO : Testing Ended
+2025-07-10 16:59:55 [main] INFO : ***********
+2025-07-10 17:02:43 [main] INFO : Launching Chrome Browser
+2025-07-10 17:02:43 [main] INFO : Report Name :CsatPage.html
+2025-07-10 17:02:46 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 17:02:46 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 17:02:47 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 17:03:15 [main] INFO : Logged in to CSAT Application
+2025-07-10 17:03:16 [main] INFO : Menu Collapsed
+2025-07-10 17:03:16 [main] INFO : Header is Valid: Projects
+2025-07-10 17:03:17 [main] INFO : popup Header Surveys Sent
+2025-07-10 17:03:17 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-10 17:03:17 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-10 17:03:21 [main] INFO : popup Header At Risk Surveys
+2025-07-10 17:03:21 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-10 17:03:21 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-10 17:03:25 [main] INFO : popup Header Completed Surveys
+2025-07-10 17:03:25 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-10 17:03:25 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-10 17:03:28 [main] INFO : popup Header CSAT Summary
+2025-07-10 17:03:28 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-10 17:03:28 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-10 17:03:32 [main] INFO : popup Header New Project Details
+×
+2025-07-10 17:03:32 [main] INFO : Expected :New Project Details and Actual :New Project Details
+×
+2025-07-10 17:03:32 [main] ERROR: Expected and Actual are not same Expected [New Project Details ], but found [New Project Details
+×]
+2025-07-10 17:03:34 [main] INFO : Testing Ended
+2025-07-10 17:03:34 [main] INFO : ***********
+2025-07-10 17:05:50 [main] INFO : Launching Chrome Browser
+2025-07-10 17:05:50 [main] INFO : Report Name :CsatPage.html
+2025-07-10 17:05:53 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 17:05:53 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 17:05:53 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 17:06:25 [main] INFO : Logged in to CSAT Application
+2025-07-10 17:06:25 [main] INFO : Menu Collapsed
+2025-07-10 17:06:26 [main] INFO : Header is Valid: Projects
+2025-07-10 17:06:27 [main] INFO : popup Header Surveys Sent
+2025-07-10 17:06:27 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-10 17:06:27 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-10 17:06:31 [main] INFO : popup Header At Risk Surveys
+2025-07-10 17:06:31 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-10 17:06:31 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-10 17:06:34 [main] INFO : popup Header Completed Surveys
+2025-07-10 17:06:34 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-10 17:06:34 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-10 17:06:38 [main] INFO : popup Header CSAT Summary
+2025-07-10 17:06:38 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-10 17:06:38 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-10 17:06:41 [main] INFO : popup Header New Project Details
+×
+2025-07-10 17:06:41 [main] INFO : Expected :New Project Details and Actual :New Project Details
+×
+2025-07-10 17:06:41 [main] ERROR: Expected and Actual are not same Expected [New Project Details ], but found [New Project Details
+×]
+2025-07-10 17:06:44 [main] INFO : Testing Ended
+2025-07-10 17:06:44 [main] INFO : ***********
+2025-07-10 17:08:54 [main] INFO : Launching Chrome Browser
+2025-07-10 17:08:55 [main] INFO : Report Name :CsatPage.html
+2025-07-10 17:08:58 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 17:08:58 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 17:08:58 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 17:09:28 [main] INFO : Logged in to CSAT Application
+2025-07-10 17:09:29 [main] INFO : Menu Collapsed
+2025-07-10 17:09:29 [main] INFO : Header is Valid: Projects
+2025-07-10 17:09:30 [main] INFO : popup Header Surveys Sent
+2025-07-10 17:09:30 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-10 17:09:30 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-10 17:09:34 [main] INFO : popup Header At Risk Surveys
+2025-07-10 17:09:34 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-10 17:09:34 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-10 17:09:37 [main] INFO : popup Header Completed Surveys
+2025-07-10 17:09:37 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-10 17:09:37 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-10 17:09:41 [main] INFO : popup Header CSAT Summary
+2025-07-10 17:09:41 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-10 17:09:41 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-10 17:09:44 [main] INFO : popup Header New Project Details
+×
+2025-07-10 17:09:44 [main] INFO : Expected :New Project Details and Actual :New Project Details
+×
+2025-07-10 17:09:44 [main] ERROR: Expected and Actual are not same Expected [New Project Details ], but found [New Project Details
+×]
+2025-07-10 17:09:47 [main] INFO : Testing Ended
+2025-07-10 17:09:47 [main] INFO : ***********
+2025-07-10 17:10:22 [main] INFO : Launching Chrome Browser
+2025-07-10 17:10:23 [main] INFO : Report Name :CsatPage.html
+2025-07-10 17:10:26 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 17:10:26 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 17:10:26 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 17:11:00 [main] INFO : Logged in to CSAT Application
+2025-07-10 17:11:00 [main] INFO : Menu Collapsed
+2025-07-10 17:11:01 [main] INFO : Header is Valid: Projects
+2025-07-10 17:11:02 [main] INFO : popup Header Surveys Sent
+2025-07-10 17:11:02 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-10 17:11:02 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-10 17:11:06 [main] INFO : popup Header At Risk Surveys
+2025-07-10 17:11:06 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-10 17:11:06 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-10 17:11:09 [main] INFO : popup Header Completed Surveys
+2025-07-10 17:11:09 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-10 17:11:09 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-10 17:11:12 [main] INFO : popup Header CSAT Summary
+2025-07-10 17:11:12 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-10 17:11:12 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-10 17:11:16 [main] INFO : popup Header New Project Details
+2025-07-10 17:11:16 [main] INFO : Expected :New Project Details and Actual :New Project Details
+2025-07-10 17:11:16 [main] INFO : Expected :New Project Details and Actual :New Project Details both are same
+2025-07-10 17:11:19 [main] INFO : Testing Ended
+2025-07-10 17:11:19 [main] INFO : ***********
+2025-07-10 17:12:00 [main] INFO : Launching Chrome Browser
+2025-07-10 17:12:00 [main] INFO : Report Name :CSATPageReport.html
+2025-07-10 17:12:05 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 17:12:05 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 17:12:05 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 17:12:33 [main] INFO : Logged in to CSAT Application
+2025-07-10 17:12:34 [main] INFO : Menu Collapsed
+2025-07-10 17:12:34 [main] INFO : Header is Valid: Projects
+2025-07-10 17:12:35 [main] INFO : popup Header Surveys Sent
+2025-07-10 17:12:35 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-10 17:12:35 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-10 17:12:39 [main] INFO : popup Header At Risk Surveys
+2025-07-10 17:12:39 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-10 17:12:39 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-10 17:12:42 [main] INFO : popup Header Completed Surveys
+2025-07-10 17:12:42 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-10 17:12:42 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-10 17:12:46 [main] INFO : popup Header CSAT Summary
+2025-07-10 17:12:46 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-10 17:12:46 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-10 17:12:49 [main] INFO : popup Header New Project Details
+2025-07-10 17:12:49 [main] INFO : Expected :New Project Details and Actual :New Project Details
+2025-07-10 17:12:49 [main] INFO : Expected :New Project Details and Actual :New Project Details both are same
+2025-07-10 17:12:52 [main] INFO : Inside Test class 
+2025-07-10 17:12:53 [main] INFO : Logo is Available CSAT Logo
+2025-07-10 17:13:53 [main] ERROR: Test Failed :Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='sidebar p-3 ']/center[2] (tried for 30 second(s) with 500 milliseconds interval)
+2025-07-10 17:13:54 [main] INFO : Menu Collapsed
+2025-07-10 17:14:00 [main] INFO : Inside /surveys Page 
+2025-07-10 17:14:01 [main] INFO : Testing Ended
+2025-07-10 17:14:01 [main] INFO : ***********
+2025-07-10 17:14:42 [main] INFO : Launching Chrome Browser
+2025-07-10 17:14:42 [main] INFO : Report Name :CSATPageReport.html
+2025-07-10 17:14:45 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 17:14:45 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 17:14:45 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 17:15:12 [main] INFO : Logged in to CSAT Application
+2025-07-10 17:15:12 [main] INFO : Inside Test class 
+2025-07-10 17:15:13 [main] INFO : Logo is Available CSAT Logo
+2025-07-10 17:15:13 [main] INFO : Profile Name is Valid: Phani Kumar Maddi
+2025-07-10 17:15:14 [main] INFO : Menu Collapsed
+2025-07-10 17:15:20 [main] INFO : Inside /surveys Page 
+2025-07-10 17:15:20 [main] INFO : /surveys Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/surveys
+2025-07-10 17:15:28 [main] INFO : Inside /roles Page 
+2025-07-10 17:15:28 [main] INFO : /roles Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/roles
+2025-07-10 17:15:35 [main] INFO : Inside /reports Page 
+2025-07-10 17:15:35 [main] INFO : /reports Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/reports
+2025-07-10 17:15:42 [main] INFO : Inside /settings/org-members Page 
+2025-07-10 17:15:42 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/org-members
+2025-07-10 17:15:49 [main] INFO : Inside /profile Page 
+2025-07-10 17:15:49 [main] INFO : /profile Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/profile
+2025-07-10 17:15:57 [main] INFO : Inside /settings/teams Page 
+2025-07-10 17:15:57 [main] INFO : /settings/teams Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/teams
+2025-07-10 17:16:04 [main] INFO : Inside /projects Page 
+2025-07-10 17:16:04 [main] INFO : /projects Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/projects
+2025-07-10 17:16:06 [main] INFO : Menu Expanded
+2025-07-10 17:16:08 [main] INFO : Logged out Successfully
+2025-07-10 17:16:44 [main] INFO : Launching Chrome Browser
+2025-07-10 17:16:44 [main] INFO : Report Name :CSATPageReport.html
+2025-07-10 17:16:47 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 17:16:47 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 17:16:47 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 17:17:17 [main] INFO : Logged in to CSAT Application
+2025-07-10 17:17:17 [main] INFO : Inside Test class 
+2025-07-10 17:17:17 [main] INFO : Logo is Available CSAT Logo
+2025-07-10 17:17:17 [main] INFO : Profile Name is Valid: Phani Kumar Maddi
+2025-07-10 17:17:19 [main] INFO : Menu Collapsed
+2025-07-10 17:17:25 [main] INFO : Inside /surveys Page 
+2025-07-10 17:17:25 [main] INFO : /surveys Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/surveys
+2025-07-10 17:17:32 [main] INFO : Inside /roles Page 
+2025-07-10 17:17:32 [main] INFO : /roles Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/roles
+2025-07-10 17:17:39 [main] INFO : Inside /reports Page 
+2025-07-10 17:17:39 [main] INFO : /reports Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/reports
+2025-07-10 17:17:47 [main] INFO : Inside /settings/org-members Page 
+2025-07-10 17:17:47 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/org-members
+2025-07-10 17:17:54 [main] INFO : Inside /profile Page 
+2025-07-10 17:17:54 [main] INFO : /profile Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/profile
+2025-07-10 17:18:01 [main] INFO : Inside /settings/teams Page 
+2025-07-10 17:18:01 [main] INFO : /settings/teams Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/teams
+2025-07-10 17:18:09 [main] INFO : Inside /projects Page 
+2025-07-10 17:18:09 [main] INFO : /projects Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/projects
+2025-07-10 17:18:11 [main] INFO : Menu Expanded
+2025-07-10 17:18:12 [main] INFO : Menu Collapsed
+2025-07-10 17:18:13 [main] INFO : Header is Valid: Projects
+2025-07-10 17:18:14 [main] INFO : popup Header Surveys Sent
+2025-07-10 17:18:14 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-10 17:18:14 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-10 17:18:17 [main] INFO : popup Header At Risk Surveys
+2025-07-10 17:18:17 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-10 17:18:17 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-10 17:18:21 [main] INFO : popup Header Completed Surveys
+2025-07-10 17:18:21 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-10 17:18:21 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-10 17:18:24 [main] INFO : popup Header 
+2025-07-10 17:18:24 [main] INFO : Expected :CSAT Summary and Actual :
+2025-07-10 17:18:24 [main] ERROR: Expected and Actual are not same Expected [CSAT Summary ], but found []
+2025-07-10 17:18:27 [main] INFO : popup Header New Project Details
+2025-07-10 17:18:27 [main] INFO : Expected :New Project Details and Actual :New Project Details
+2025-07-10 17:18:27 [main] INFO : Expected :New Project Details and Actual :New Project Details both are same
+2025-07-10 17:18:31 [main] INFO : Testing Ended
+2025-07-10 17:18:31 [main] INFO : ***********
+2025-07-10 17:20:31 [main] INFO : Launching Chrome Browser
+2025-07-10 17:20:31 [main] INFO : Report Name :CSATPageReport.html
+2025-07-10 17:20:34 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 17:20:35 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 17:20:35 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 17:21:09 [main] INFO : Logged in to CSAT Application
+2025-07-10 17:21:09 [main] INFO : Inside Test class 
+2025-07-10 17:21:10 [main] INFO : Logo is Available CSAT Logo
+2025-07-10 17:21:10 [main] INFO : Profile Name is Valid: Phani Kumar Maddi
+2025-07-10 17:21:11 [main] INFO : Menu Collapsed
+2025-07-10 17:21:17 [main] INFO : Inside /surveys Page 
+2025-07-10 17:21:17 [main] INFO : /surveys Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/surveys
+2025-07-10 17:21:25 [main] INFO : Inside /roles Page 
+2025-07-10 17:21:25 [main] INFO : /roles Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/roles
+2025-07-10 17:21:32 [main] INFO : Inside /reports Page 
+2025-07-10 17:21:32 [main] INFO : /reports Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/reports
+2025-07-10 17:21:40 [main] INFO : Inside /settings/org-members Page 
+2025-07-10 17:21:40 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/org-members
+2025-07-10 17:21:47 [main] INFO : Inside /profile Page 
+2025-07-10 17:21:47 [main] INFO : /profile Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/profile
+2025-07-10 17:21:54 [main] INFO : Inside /settings/teams Page 
+2025-07-10 17:21:54 [main] INFO : /settings/teams Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/teams
+2025-07-10 17:22:02 [main] INFO : Inside /projects Page 
+2025-07-10 17:22:02 [main] INFO : /projects Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/projects
+2025-07-10 17:22:04 [main] INFO : Menu Expanded
+2025-07-10 17:22:05 [main] INFO : Menu Collapsed
+2025-07-10 17:22:06 [main] INFO : Header is Valid: Projects
+2025-07-10 17:22:07 [main] INFO : popup Header Surveys Sent
+2025-07-10 17:22:07 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-10 17:22:07 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-10 17:22:11 [main] INFO : popup Header At Risk Surveys
+2025-07-10 17:22:11 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-10 17:22:11 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-10 17:22:15 [main] INFO : popup Header Completed Surveys
+2025-07-10 17:22:15 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-10 17:22:15 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-10 17:22:19 [main] INFO : popup Header CSAT Summary
+2025-07-10 17:22:19 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-10 17:22:19 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-10 17:22:23 [main] INFO : popup Header New Project Details
+2025-07-10 17:22:23 [main] INFO : Expected :New Project Details and Actual :New Project Details
+2025-07-10 17:22:23 [main] INFO : Expected :New Project Details and Actual :New Project Details both are same
+2025-07-10 17:22:26 [main] INFO : Testing Ended
+2025-07-10 17:22:26 [main] INFO : ***********
