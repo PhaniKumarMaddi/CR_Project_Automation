@@ -10,12 +10,12 @@ import Utility.DriverManager;
 import Utility.GenerateReports;
 import Utility.WaitsManager;
 
-public class CSAT_Survey_Page extends WaitsManager {
+public class CSAT_Survey_AllPages extends WaitsManager {
 	static WebDriver driver;
-	private static Logger logger = LogManager.getLogger(CSAT_Survey_Page.class);
+	private static Logger logger = LogManager.getLogger(CSAT_Survey_AllPages.class);
 	GenerateReports grep = new GenerateReports();
 
-	public CSAT_Survey_Page() {
+	public CSAT_Survey_AllPages() {
 		this.driver = DriverManager.getDriver();
 	}
 
@@ -134,17 +134,26 @@ public class CSAT_Survey_Page extends WaitsManager {
 			implWait(driver);
 			String menu = driver.findElement(sideMenu).getAttribute("title");
 			WebElement settings = driver.findElement(settingsLink);
-			settings.click();
-			System.out.println("clicked settings before");
 			if (menu.equals("Collapse Sidebar")) {
-				driver.findElement(By.xpath("//div[@class='submenu-below']/a[@href='" + pageName + "']")).click();
-				waitTime(driver);
 				settings.click();
-				System.out.println("clicked settings after");
-
+				waitTime(driver);
+				driver.findElement(By.xpath("//div[@class='submenu-below']/a[@href='" + pageName + "']")).click();
+				waitTime2(driver);
 			} else {
+				settings.click();
+				System.out.println("clicked settings before");
 				driver.findElement(By.xpath("//div[@class='hover-popup']/a[@href='" + pageName + "']")).click();
 			}
+		} catch (Exception e) {
+
+		}
+	}
+
+	public void navigateToSettingsOrgPage() throws Exception {
+		try {
+			implWait(driver);
+			driver.findElement(settingsLink).click();
+
 		} catch (Exception e) {
 
 		}

@@ -4,7 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Test;
 
-import Pages.CSAT_Survey_Page;
+import Pages.CSAT_Survey_AllPages;
 import Utility.CSAT_TestInitializer;
 import Utility.GenerateReports;
 import Utility.TestDataKeys;
@@ -14,7 +14,7 @@ public class CSAT_SurveyTest extends CSAT_TestInitializer {
 
 	private static final Logger logger = LogManager.getLogger(CSAT_SurveyTest.class);
 	GenerateReports grep = new GenerateReports();
-	CSAT_Survey_Page csatPage;
+	CSAT_Survey_AllPages csatPage;
 	TestDataKeys dataKeys = new TestDataKeys();
 	ValidatingAssertions validAssert = new ValidatingAssertions();
 
@@ -23,40 +23,40 @@ public class CSAT_SurveyTest extends CSAT_TestInitializer {
 
 		System.out.println("Inside Test class ");
 		logger.info("Inside Test class ");
-		csatPage = new CSAT_Survey_Page();
+		csatPage = new CSAT_Survey_AllPages();
 //				grep = new GenerateReports();
 
-		grep.testCreate("CR Chat Bot Page UI Validation Test", "CR Chat Bot Page UI");
+		grep.testCreate("CSAT Page navigation Testt", "CSAT Page navigation");
 		waitTime(driver);
 		csatPage.logoInHomePage();
 		csatPage.verifyProfileNameInHomePage(dataKeys.profileName);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Inside CSAT Page", "insideCSATPage");
 		waitTime(driver);
-//		csatPage.collapseSideMenu();
-//		waitTime(driver);
-//		grep.captureScreenshot("pass", "Menu Collapsed", "collapsemenu");
+		csatPage.collapseSideMenu();
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Menu Collapsed", "collapsemenu");
 
-//		grep.infoTest("Navigating To Survey Page");
-//		navigateToAllPagesTest(dataKeys.survey_Url);
-//
-//		grep.infoTest("Navigating To Roles Page");
-//		navigateToAllPagesTest(dataKeys.roles_Url);
-//
-//		grep.infoTest("Navigating To Reports Page");
-//		navigateToAllPagesTest(dataKeys.reports_Url);
+		grep.infoTest("Navigating To Survey Page");
+		navigateToAllPagesTest(dataKeys.survey_Url);
+
+		grep.infoTest("Navigating To Roles Page");
+		navigateToAllPagesTest(dataKeys.roles_Url);
+
+		grep.infoTest("Navigating To Reports Page");
+		navigateToAllPagesTest(dataKeys.reports_Url);
 
 		grep.infoTest("Navigating To Org Members Page");
 		navigateToSettingsPagesTest(dataKeys.orgMembers_Url);
 
+		grep.infoTest("Navigating To Profile Page");
+		navigateToAllPagesTest(dataKeys.profile_Url);
+
 		grep.infoTest("Navigating To Teams Page");
 		navigateToSettingsPagesTest(dataKeys.teams_Url);
 
-//		grep.infoTest("Navigating To Profile Page");
-//		navigateToAllPagesTest(dataKeys.profile_Url);
-//
-//		grep.infoTest("Navigating To Projects Page");
-//		navigateToAllPagesTest(dataKeys.project_Url);
+		grep.infoTest("Navigating To Projects Page");
+		navigateToAllPagesTest(dataKeys.project_Url);
 
 		waitTime(driver);
 		csatPage.expandSideMenu();
@@ -78,54 +78,45 @@ public class CSAT_SurveyTest extends CSAT_TestInitializer {
 	}
 
 	public void navigateToAllPagesTest(String pageNameValue) throws Exception {
-		csatPage = new CSAT_Survey_Page();
+		csatPage = new CSAT_Survey_AllPages();
 
 		waitTime(driver);
 		csatPage.navigateToPage(pageNameValue);
 		waitTime5(driver);
 		logger.info("Inside " + pageNameValue + " Page ");
 		grep.infoTest("Inside " + pageNameValue + " Page ");
-		String getUrl = driver.getCurrentUrl();
-		if (getUrl.endsWith(pageNameValue)) {
-			grep.passTest(pageNameValue + " Url is Valid :" + getUrl);
-			logger.info(pageNameValue + " Url is Valid :" + getUrl);
-			waitTime(driver);
-			grep.captureScreenshot("pass", pageNameValue + "URL is valid", pageNameValue + "Page");
-			waitTime(driver);
-		} else {
-			grep.failTest(pageNameValue + " Url is InValid :" + getUrl);
-			logger.error(pageNameValue + " Url is InValid :" + getUrl);
-			waitTime(driver);
-			grep.captureScreenshot("fail", pageNameValue + "URL is Invalid", pageNameValue + "Page");
-			waitTime(driver);
-		}
+		validateUrl(pageNameValue);
 		waitTime(driver);
 
 	}
 
 	public void navigateToSettingsPagesTest(String pageNameValue) throws Exception {
-		csatPage = new CSAT_Survey_Page();
+		csatPage = new CSAT_Survey_AllPages();
 
 		waitTime(driver);
 		csatPage.navigateToSettingsPage(pageNameValue);
 		waitTime5(driver);
 		logger.info("Inside " + pageNameValue + " Page ");
 		grep.infoTest("Inside " + pageNameValue + " Page ");
+		validateUrl(pageNameValue);
+		waitTime(driver);
+	}
+
+	public void validateUrl(String urlValue) throws Exception {
 		String getUrl = driver.getCurrentUrl();
-		if (getUrl.endsWith(pageNameValue)) {
-			grep.passTest(pageNameValue + " Url is Valid :" + getUrl);
-			logger.info(pageNameValue + " Url is Valid :" + getUrl);
+		if (getUrl.endsWith(urlValue)) {
+			grep.passTest(urlValue + " Url is Valid :" + getUrl);
+			logger.info(urlValue + " Url is Valid :" + getUrl);
 			waitTime(driver);
-			grep.captureScreenshot("pass", pageNameValue + "URL is valid", pageNameValue + "Page");
+			grep.captureScreenshot("pass", urlValue + "URL is valid", urlValue + "Page");
 			waitTime(driver);
 		} else {
-			grep.failTest(pageNameValue + " Url is InValid :" + getUrl);
-			logger.error(pageNameValue + " Url is InValid :" + getUrl);
+			grep.failTest(urlValue + " Url is InValid :" + getUrl);
+			logger.error(urlValue + " Url is InValid :" + getUrl);
 			waitTime(driver);
-			grep.captureScreenshot("fail", pageNameValue + "URL is Invalid", pageNameValue + "Page");
+			grep.captureScreenshot("fail", urlValue + "URL is Invalid", urlValue + "Page");
 			waitTime(driver);
 		}
-		waitTime(driver);
 
 	}
 }

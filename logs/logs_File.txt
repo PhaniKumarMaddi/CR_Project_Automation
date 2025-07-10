@@ -4347,3 +4347,188 @@ Session ID: 69ac433907645b9861962a9a351cfb4b
 2025-07-10 14:40:08 [main] INFO : Logged out Successfully
 2025-07-10 14:40:08 [main] INFO : Testing Ended
 2025-07-10 14:40:08 [main] INFO : ***********
+2025-07-10 14:41:05 [main] INFO : Launching Chrome Browser
+2025-07-10 14:41:05 [main] INFO : Report Name :CsatPage.html
+2025-07-10 14:41:08 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 14:41:08 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 14:41:08 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 14:41:37 [main] INFO : Logged in to CSAT Application
+2025-07-10 14:41:37 [main] INFO : Inside Test class 
+2025-07-10 14:41:37 [main] INFO : Logo is Available CSAT Logo
+2025-07-10 14:41:37 [main] INFO : Profile Name is Valid: Phani Kumar Maddi
+2025-07-10 14:41:45 [main] INFO : Inside /settings/org-members Page 
+2025-07-10 14:41:45 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/org-members
+2025-07-10 14:42:52 [main] INFO : Inside /settings/teams Page 
+2025-07-10 14:42:52 [main] ERROR: /settings/teams Url is InValid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/org-members
+2025-07-10 14:42:54 [main] INFO : Menu Expanded
+2025-07-10 14:42:56 [main] INFO : Logged out Successfully
+2025-07-10 14:42:56 [main] INFO : Testing Ended
+2025-07-10 14:42:56 [main] INFO : ***********
+2025-07-10 14:43:37 [main] INFO : Launching Chrome Browser
+2025-07-10 14:43:38 [main] INFO : Report Name :CsatPage.html
+2025-07-10 14:43:41 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 14:43:41 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 14:43:41 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 14:44:13 [main] INFO : Logged in to CSAT Application
+2025-07-10 14:44:14 [main] INFO : Inside Test class 
+2025-07-10 14:44:14 [main] INFO : Logo is Available CSAT Logo
+2025-07-10 14:44:14 [main] INFO : Profile Name is Valid: Phani Kumar Maddi
+2025-07-10 14:44:23 [main] INFO : Inside /settings/org-members Page 
+2025-07-10 14:44:23 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/org-members
+2025-07-10 14:45:14 [main] INFO : Launching Chrome Browser
+2025-07-10 14:45:15 [main] INFO : Report Name :CsatPage.html
+2025-07-10 14:45:20 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 14:45:20 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 14:45:20 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 14:45:47 [main] INFO : Logged in to CSAT Application
+2025-07-10 14:45:47 [main] INFO : Inside Test class 
+2025-07-10 14:45:47 [main] INFO : Logo is Available CSAT Logo
+2025-07-10 14:45:47 [main] INFO : Profile Name is Valid: Phani Kumar Maddi
+2025-07-10 14:45:56 [main] INFO : Inside /settings/org-members Page 
+2025-07-10 14:45:56 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/org-members
+2025-07-10 14:47:04 [main] INFO : Inside /settings/teams Page 
+2025-07-10 14:47:04 [main] ERROR: /settings/teams Url is InValid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/org-members
+2025-07-10 14:51:33 [main] INFO : Launching Chrome Browser
+2025-07-10 14:51:33 [main] INFO : Report Name :CsatPage.html
+2025-07-10 14:51:39 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 14:51:39 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 14:51:39 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 14:52:35 [main] INFO : Logged in to CSAT Application
+2025-07-10 14:52:35 [main] INFO : Inside Test class 
+2025-07-10 14:52:36 [main] INFO : Logo is Available CSAT Logo
+2025-07-10 14:52:36 [main] INFO : Profile Name is Valid: Phani Kumar Maddi
+2025-07-10 14:52:37 [main] INFO : Menu Collapsed
+2025-07-10 14:52:43 [main] INFO : Inside /surveys Page 
+2025-07-10 14:52:43 [main] INFO : /surveys Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/surveys
+2025-07-10 14:52:51 [main] INFO : Inside /roles Page 
+2025-07-10 14:52:51 [main] INFO : /roles Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/roles
+2025-07-10 14:52:58 [main] INFO : Inside /reports Page 
+2025-07-10 14:52:58 [main] INFO : /reports Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/reports
+2025-07-10 14:53:05 [main] INFO : Inside /settings/org-members Page 
+2025-07-10 14:53:05 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/org-members
+2025-07-10 14:53:13 [main] INFO : Inside /settings/teams Page 
+2025-07-10 14:53:13 [main] INFO : /settings/teams Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/teams
+2025-07-10 14:53:20 [main] INFO : Inside /profile Page 
+2025-07-10 14:53:20 [main] INFO : /profile Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/profile
+2025-07-10 14:53:27 [main] INFO : Inside /projects Page 
+2025-07-10 14:53:27 [main] INFO : /projects Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/projects
+2025-07-10 14:53:30 [main] INFO : Menu Expanded
+2025-07-10 14:53:31 [main] INFO : Logged out Successfully
+2025-07-10 14:53:32 [main] INFO : Testing Ended
+2025-07-10 14:53:32 [main] INFO : ***********
+2025-07-10 14:55:35 [main] INFO : Launching Chrome Browser
+2025-07-10 14:55:35 [main] INFO : Report Name :CsatPage.html
+2025-07-10 14:55:39 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 14:55:39 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 14:55:39 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 14:56:08 [main] INFO : Logged in to CSAT Application
+2025-07-10 14:56:08 [main] INFO : Inside Test class 
+2025-07-10 14:56:09 [main] INFO : Logo is Available CSAT Logo
+2025-07-10 14:56:09 [main] INFO : Profile Name is Valid: Phani Kumar Maddi
+2025-07-10 14:56:16 [main] INFO : Inside /surveys Page 
+2025-07-10 14:56:16 [main] INFO : /surveys Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/surveys
+2025-07-10 14:56:23 [main] INFO : Inside /roles Page 
+2025-07-10 14:56:23 [main] INFO : /roles Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/roles
+2025-07-10 14:56:31 [main] INFO : Inside /reports Page 
+2025-07-10 14:56:31 [main] INFO : /reports Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/reports
+2025-07-10 14:56:41 [main] INFO : Inside /settings/org-members Page 
+2025-07-10 14:56:41 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/org-members
+2025-07-10 14:57:48 [main] INFO : Inside /settings/teams Page 
+2025-07-10 14:57:48 [main] ERROR: /settings/teams Url is InValid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/org-members
+2025-07-10 14:57:56 [main] INFO : Inside /profile Page 
+2025-07-10 14:57:56 [main] INFO : /profile Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/profile
+2025-07-10 14:58:03 [main] INFO : Inside /projects Page 
+2025-07-10 14:58:03 [main] INFO : /projects Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/projects
+2025-07-10 14:58:06 [main] INFO : Menu Expanded
+2025-07-10 14:58:10 [main] INFO : Logged out Successfully
+2025-07-10 14:58:10 [main] INFO : Testing Ended
+2025-07-10 14:58:10 [main] INFO : ***********
+2025-07-10 15:03:01 [main] INFO : Launching Chrome Browser
+2025-07-10 15:03:01 [main] INFO : Report Name :CsatPage.html
+2025-07-10 15:03:05 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 15:03:05 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 15:03:05 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 15:03:33 [main] INFO : Logged in to CSAT Application
+2025-07-10 15:03:33 [main] INFO : Inside Test class 
+2025-07-10 15:03:33 [main] INFO : Logo is Available CSAT Logo
+2025-07-10 15:03:33 [main] INFO : Profile Name is Valid: Phani Kumar Maddi
+2025-07-10 15:03:40 [main] INFO : Inside /surveys Page 
+2025-07-10 15:03:40 [main] INFO : /surveys Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/surveys
+2025-07-10 15:03:47 [main] INFO : Inside /roles Page 
+2025-07-10 15:03:47 [main] INFO : /roles Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/roles
+2025-07-10 15:03:55 [main] INFO : Inside /reports Page 
+2025-07-10 15:03:55 [main] INFO : /reports Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/reports
+2025-07-10 15:05:02 [main] INFO : Inside /settings/org-members Page 
+2025-07-10 15:05:02 [main] ERROR: /settings/org-members Url is InValid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/reports
+2025-07-10 15:05:11 [main] INFO : Launching Chrome Browser
+2025-07-10 15:05:11 [main] INFO : Report Name :CsatPage.html
+2025-07-10 15:05:14 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 15:05:15 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 15:05:15 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 15:05:43 [main] INFO : Logged in to CSAT Application
+2025-07-10 15:05:43 [main] INFO : Inside Test class 
+2025-07-10 15:05:43 [main] INFO : Logo is Available CSAT Logo
+2025-07-10 15:05:43 [main] INFO : Profile Name is Valid: Phani Kumar Maddi
+2025-07-10 15:05:50 [main] INFO : Inside /surveys Page 
+2025-07-10 15:05:50 [main] INFO : /surveys Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/surveys
+2025-07-10 15:05:58 [main] INFO : Inside /roles Page 
+2025-07-10 15:05:58 [main] INFO : /roles Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/roles
+2025-07-10 15:06:05 [main] INFO : Inside /reports Page 
+2025-07-10 15:06:05 [main] INFO : /reports Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/reports
+2025-07-10 15:06:13 [main] INFO : Inside /settings/org-members Page 
+2025-07-10 15:06:13 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/org-members
+2025-07-10 15:07:36 [main] INFO : Launching Chrome Browser
+2025-07-10 15:07:36 [main] INFO : Report Name :CsatPage.html
+2025-07-10 15:07:42 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 15:07:42 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 15:07:42 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 15:08:17 [main] INFO : Logged in to CSAT Application
+2025-07-10 15:08:17 [main] INFO : Inside Test class 
+2025-07-10 15:08:18 [main] INFO : Logo is Available CSAT Logo
+2025-07-10 15:08:18 [main] INFO : Profile Name is Valid: Phani Kumar Maddi
+2025-07-10 15:08:25 [main] INFO : Inside /surveys Page 
+2025-07-10 15:08:25 [main] INFO : /surveys Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/surveys
+2025-07-10 15:08:32 [main] INFO : Inside /roles Page 
+2025-07-10 15:08:32 [main] INFO : /roles Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/roles
+2025-07-10 15:08:39 [main] INFO : Inside /reports Page 
+2025-07-10 15:08:39 [main] INFO : /reports Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/reports
+2025-07-10 15:08:49 [main] INFO : Inside /settings/org-members Page 
+2025-07-10 15:08:49 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/org-members
+2025-07-10 15:08:57 [main] INFO : Inside /profile Page 
+2025-07-10 15:08:57 [main] INFO : /profile Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/profile
+2025-07-10 15:09:07 [main] INFO : Inside /settings/teams Page 
+2025-07-10 15:09:07 [main] INFO : /settings/teams Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/teams
+2025-07-10 15:09:14 [main] INFO : Inside /projects Page 
+2025-07-10 15:09:14 [main] INFO : /projects Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/projects
+2025-07-10 15:09:16 [main] INFO : Menu Expanded
+2025-07-10 15:09:17 [main] INFO : Logged out Successfully
+2025-07-10 15:09:18 [main] INFO : Testing Ended
+2025-07-10 15:09:18 [main] INFO : ***********
+2025-07-10 15:09:57 [main] INFO : Launching Chrome Browser
+2025-07-10 15:09:57 [main] INFO : Report Name :CsatPage.html
+2025-07-10 15:10:04 [main] INFO : Web Page URL: https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/
+2025-07-10 15:10:04 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-10 15:10:04 [main] INFO : Inside Login Page: LOGIN
+2025-07-10 15:10:32 [main] INFO : Logged in to CSAT Application
+2025-07-10 15:10:32 [main] INFO : Inside Test class 
+2025-07-10 15:10:33 [main] INFO : Logo is Available CSAT Logo
+2025-07-10 15:10:33 [main] INFO : Profile Name is Valid: Phani Kumar Maddi
+2025-07-10 15:10:34 [main] INFO : Menu Collapsed
+2025-07-10 15:10:40 [main] INFO : Inside /surveys Page 
+2025-07-10 15:10:40 [main] INFO : /surveys Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/surveys
+2025-07-10 15:10:48 [main] INFO : Inside /roles Page 
+2025-07-10 15:10:48 [main] INFO : /roles Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/roles
+2025-07-10 15:10:55 [main] INFO : Inside /reports Page 
+2025-07-10 15:10:55 [main] INFO : /reports Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/reports
+2025-07-10 15:11:02 [main] INFO : Inside /settings/org-members Page 
+2025-07-10 15:11:02 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/org-members
+2025-07-10 15:11:10 [main] INFO : Inside /profile Page 
+2025-07-10 15:11:10 [main] INFO : /profile Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/profile
+2025-07-10 15:11:17 [main] INFO : Inside /settings/teams Page 
+2025-07-10 15:11:17 [main] INFO : /settings/teams Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/settings/teams
+2025-07-10 15:11:25 [main] INFO : Inside /projects Page 
+2025-07-10 15:11:25 [main] INFO : /projects Url is Valid :https://crsurveyapp-frontend-uat.delightfulwave-3f548879.eastus.azurecontainerapps.io/projects
+2025-07-10 15:11:27 [main] INFO : Menu Expanded
+2025-07-10 15:11:28 [main] INFO : Logged out Successfully
+2025-07-10 15:11:29 [main] INFO : Testing Ended
+2025-07-10 15:11:29 [main] INFO : ***********
