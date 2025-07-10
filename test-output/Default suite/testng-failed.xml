@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ChatBotTest.ChatBotPageTest">
+      <class name="CSAT_Survey.CSAT_SurveyTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="csat_Ui_Test"/>
           <include name="setup"/>
-          <include name="chatBotTest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- ChatBotTest.ChatBotPageTest -->
+      </class> <!-- CSAT_Survey.CSAT_SurveyTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

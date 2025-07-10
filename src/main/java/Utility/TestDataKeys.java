@@ -5,7 +5,7 @@ public class TestDataKeys {
 	public String UserName = "8qtobCWIuA7cb0a";
 	public String Password = "8qtobCWIuA7cb0a";
 
-	public String banner="Your digital game plan just found its power player.";
+	public String banner = "Your digital game plan just found its power player.";
 	// ChatBot Prompts
 	public String chatBotPrompt_1 = "Give me a List of Events Hosted by CriticalRiver in Tabular Format?";
 	public String chatBotPrompt_2 = "Who Are the Key Leaders at CriticalRiver?";
@@ -19,13 +19,13 @@ public class TestDataKeys {
 	public String chatBotPrompt_10 = "What Innovative Solutions does CriticalRiver Offer in the Energy and Water Sector?";
 	public String chatBotPrompt_11 = "Can you share recent case studies that showcase CriticalRiver’s project successes?";
 	public String invalid_ChatBotPrompt = "2+2";
-	public String invalid_SplChar_Prompt="@#$%^&*(#$%^";
-	
+	public String invalid_SplChar_Prompt = "@#$%^&*(#$%^";
+
 	public String personalInformationPrompt = "Can i have Criticalriver CEO mobile number?";
 
 	public String linkPreviewDescription = "For more information visit this link";
-	public String badResponseHeader= "Provide Feedback";
-	
+	public String badResponseHeader = "Provide Feedback";
+
 	public String incorrect_BadResponseReason = "The answer was incorrect or misleading";
 	public String missing_BadResponseReason = "Important information was missing";
 	public String unclear_BadResponseReason = "The response was unclear or confusing";
@@ -34,6 +34,35 @@ public class TestDataKeys {
 	public String offTopic_BadResponseReason = "The response was off-topic or misunderstood my question";
 	public String notActionable_BadResponseReason = "The answer was not actionable";
 
-	// CSAT RELATED 
+	// CSAT RELATED
+
+	public String ssoUserName = "phani.maddi@criticalriver.com";
+	public String ssoPassword = "Rklalitha$67";
+	
+	// pages url
+	public String project_Url ="/projects";
+	public String survey_Url="/surveys";
+	public String roles_Url="/roles";
+	public String reports_Url ="/reports";
+//	public String orgMembers_Url="/org-members";
+//	public String teams_Url="/teams";
+	public String orgMembers_Url="/settings/org-members";
+	public String teams_Url="/settings/teams";
+	public String profile_Url ="/profile";
+	public String login_Url ="/login";
+	public String collpase ="Collapse Sidebar";
+	public String expand ="Expand Sidebar";
+	
+	
+	public String logoutBtn ="Logout";
+	public String profileName="Phani Kumar Maddi";
+	public String projectPage ="Projects";
+	public String surveyPage="Surveys";
+	public String rolesPage="Roles";
+	public String reportsPage="Reports";
+	public String settingsPage ="Settings";
+	public String orgMemebersPage="Org Members";
+	public String teamsPage= "Teams";
+	public String profilePage="Profile";
 	
 }

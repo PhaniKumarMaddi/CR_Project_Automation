@@ -11,6 +11,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
+import Pages.LoginPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 import java.awt.Robot;
@@ -22,6 +23,7 @@ public class CSAT_TestInitializer extends WaitsManager {
 	private PropertiesFile configFile;
 	public GenerateReports grep;
 	protected WebDriver driver;
+	TestDataKeys dataKeys = new TestDataKeys();
 
 	@BeforeTest(description = "Setup and Login To Browser")
 	@Parameters({ "FileName" })
@@ -61,13 +63,33 @@ public class CSAT_TestInitializer extends WaitsManager {
 
 		grep.setupExtentReport(nameForReport);
 		grep.testCreate("Login Page", "Login test");
+
+		LoginPage login = new LoginPage();
+
 		grep.infoTest("Report Name :" + nameForReport);
 		logger.info("Report Name :" + nameForReport);
+
 		driver.get(url);
 
 		System.out.println("Web Page URL: " + url);
 		grep.infoTest("Web Page URL: " + url);
 		logger.info("Web Page URL: " + url);
+
+		login.logoInLoginPage();
+		login.verifyLoginHeader();
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Inside Login Page ", "SSO_Loginpage");
+		waitTime(driver);
+		login.clickSSOLoginBtn();
+		waitTime(driver);
+		login.enterUserName(dataKeys.ssoUserName);
+		login.clickSignIn();
+		waitTime2(driver);
+		login.enterPassword(dataKeys.ssoPassword);
+		login.clickSignIn();
+		waitTime5(driver);
+		// yes or no 
+		login.clickSignIn();
 
 		waitTime10(driver);
 
@@ -78,6 +100,9 @@ public class CSAT_TestInitializer extends WaitsManager {
 			robot.keyRelease(KeyEvent.VK_MINUS);
 			robot.keyRelease(KeyEvent.VK_CONTROL);
 		}
+		
+		grep.infoTest("Logged in to CSAT Application");
+		logger.info("Logged in to CSAT Application");
 	}
 
 	@AfterTest(description = "Quit Browser")
