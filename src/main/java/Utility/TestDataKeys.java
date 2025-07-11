@@ -35,42 +35,71 @@ public class TestDataKeys {
 	public String notActionable_BadResponseReason = "The answer was not actionable";
 
 	// CSAT RELATED
-
 	public String ssoUserName = "phani.maddi@criticalriver.com";
 	public String ssoPassword = "Rklalitha$67";
-	
+
+//	public String ssoUserName = "anwar_hussain@skillsynccr.onmicrosoft.com";
+//	public String ssoPassword = "Solu598232";
+
 	// pages url
-	public String project_Url ="/projects";
-	public String survey_Url="/surveys";
-	public String roles_Url="/roles";
-	public String reports_Url ="/reports";
-	public String orgMembers_Url="/settings/org-members";
-	public String teams_Url="/settings/teams";
-	public String profile_Url ="/profile";
-	public String login_Url ="/login";
-	public String collpase ="Collapse Sidebar";
-	public String expand ="Expand Sidebar";
-	
-	
-	public String logoutBtn ="Logout";
-	public String profileName="Phani Kumar Maddi";
-	public String projectPage ="Projects";
-	public String surveyPage="Surveys";
-	public String rolesPage="Roles";
-	public String reportsPage="Reports";
-	public String settingsPage ="Settings";
-	public String orgMemebersPage="Org Members";
-	public String teamsPage= "Teams";
-	public String profilePage="Profile";
-	
-	
-	
-	// Project Page 
-	public String sentSurvey="Surveys Sent";
-	public String atRiskSurvey="At Risk Surveys";
-	public String completeSurvey="Completed Surveys";
-	public String csatScore="CSAT Summary";
+	public String project_Url = "/projects";
+	public String survey_Url = "/surveys";
+	public String roles_Url = "/roles";
+	public String reports_Url = "/reports";
+	public String orgMembers_Url = "/settings/org-members";
+	public String teams_Url = "/settings/teams";
+	public String profile_Url = "/profile";
+	public String login_Url = "/login";
+	public String collpase = "Collapse Sidebar";
+	public String expand = "Expand Sidebar";
+
+	public String logoutBtn = "Logout";
+	public String profileName = "Phani Kumar Maddi";
+	public String projectPage = "Projects";
+	public String surveyPage = "Surveys";
+	public String rolesPage = "Roles";
+	public String reportsPage = "Reports";
+	public String settingsPage = "Settings";
+	public String orgMemebersPage = "Org Members";
+	public String teamsPage = "Teams";
+	public String profilePage = "Profile";
+
+	// PROJECT PAGE UI
+	public String sentSurvey = "Surveys Sent";
+	public String atRiskSurvey = "At Risk Surveys";
+	public String completeSurvey = "Completed Surveys";
+	public String csatScore = "CSAT Summary";
 	public String newProjectHeader = "New Project Details";
-	
-	
+
+	// BUTTONS
+	public String cancelBtn = "Cancel";
+	public String shareBtn = "Share";
+	public String exportBtn = "Export";
+	public String okBtn = "OK";
+	public String saveBtn = "Save";
+
+	// COLUMN OPTIONS
+	public String colOptions = "Column Options";
+	public String projectName_ColOption = "Project Name";
+	public String startDate_ColOption = "Start Date";
+	public String endDate_ColOption = "End Date";
+	public String csat_ColOption = "CSAT";
+	public String status_ColOption = "Status";
+	public String practicename_ColOption = "Practice Name";
+
+	// STATUS FILTER
+
+	public String allStatusesOption = "All Statuses";
+	public String pipelineStatusOption = "Pipeline";
+	public String inProgressStatusOption = "In Progress";
+	public String completedStatusOption = "Completed";
+
+	// SURVEY RESPONSES
+	// SURVEY / RUDDR PROJECTS
+	// PROJECT ENDING
+	// PRACTICES
+
+	// EXPORT
+	// SEARCH FIELD
+
 }

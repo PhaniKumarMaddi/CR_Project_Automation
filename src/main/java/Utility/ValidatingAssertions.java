@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 import org.testng.asserts.SoftAssert;
 
 import Pages.CR_ChatBot_Page;
+import Pages.CSAT_Project_Page;
 
 public class ValidatingAssertions {
 
@@ -14,6 +15,7 @@ public class ValidatingAssertions {
 	TestDataKeys testData = new TestDataKeys();
 	SoftAssert softAsserts = new SoftAssert();
 	CR_ChatBot_Page crPage = new CR_ChatBot_Page();
+	CSAT_Project_Page csatProject = new CSAT_Project_Page();
 
 	// Validate equal assert
 	public void equalsAssert(String actualResult, String expectedResult) throws Exception {
@@ -128,4 +130,17 @@ public class ValidatingAssertions {
 
 	// CSAT RELATED
 
+	// status filter
+	public void verifyStatusFilters(String statusOption) throws Exception {
+		logger.info("Selecting " + statusOption + " Status Option");
+		grep.infoTest("Selecting " + statusOption + " Status Option");
+		csatProject.selectStatusFilterOption(statusOption);
+		csatProject.verifyStatusSelectedOption(statusOption);
+		String tableColumn = csatProject.verifyStatusColumnInTable();
+		softAsserts.assertEquals(tableColumn, statusOption);
+		System.out.println("Expected :" + tableColumn + " and Actual :" + statusOption);
+		assertPassOrFail(tableColumn, statusOption);
+		grep.captureScreenshot("pass", statusOption + " Status Option", statusOption + "_StatusOption");
+
+	}
 }
