@@ -5,7 +5,7 @@
   <parameter name="FileName" value="CSATPageReport.html"/>
     <classes>
       <class name="CSAT_Survey.CSAT_SurveyTest"/>
-       <class name="CSAT_Survey.CSAT_ProjectSurveyTest"/>
+       <class name="CSAT_Survey.CSAT_ProjectFiltersTest"/>
      
     </classes>
   </test> <!-- Test -->

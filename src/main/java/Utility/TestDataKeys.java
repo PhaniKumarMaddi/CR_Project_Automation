@@ -87,19 +87,42 @@ public class TestDataKeys {
 	public String status_ColOption = "Status";
 	public String practicename_ColOption = "Practice Name";
 
-	// STATUS FILTER
+	// EXPORT
+	public String pdfFormat = "Download PDF";
+	public String csvFormat = "Download CSV";
 
+	// project buttons
+	public String editBtn = "edit";
+	public String deleteBtn = "delete";
+	public String sendBtn = "send";
+
+	// STATUS FILTER
 	public String allStatusesOption = "All Statuses";
 	public String pipelineStatusOption = "Pipeline";
 	public String inProgressStatusOption = "In Progress";
 	public String completedStatusOption = "Completed";
 
 	// SURVEY RESPONSES
-	// SURVEY / RUDDR PROJECTS
-	// PROJECT ENDING
-	// PRACTICES
+	public String allSurveyResponse = "All Survey Responses";
+	public String surveyResponseYes = "Yes";
+	public String surveyResponseNo = "No";
 
-	// EXPORT
+	// SURVEY / RUDDR PROJECTS
+	public String surveyProject = "Survey Projects";
+	public String ruddrProject = "Ruddr Projects";
+	public String ruddrOper= "Ruddr Operations";
+	
+	// PROJECT ENDING
+	public String projectEndingIn = "Projects Ending In";
+	public String days_7 = "7 Days";
+	public String days_60 = "60 Days";
+	// PRACTICES
+	public String allPractices = "All Practices";
+	public String DSandAIPractice = "Data Science and AI";
+	public String ERP_Practice = "ERP Applications";
+	public String Product_Engg_Practice = "Product Engineering Services";
+
 	// SEARCH FIELD
+	public String projectName = "Apollo CRM Upgrade";
 
 }

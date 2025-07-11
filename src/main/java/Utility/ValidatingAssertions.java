@@ -1,5 +1,7 @@
 package Utility;
 
+import static org.testng.Assert.ARRAY_MISMATCH_TEMPLATE;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.asserts.SoftAssert;
@@ -138,9 +140,70 @@ public class ValidatingAssertions {
 		csatProject.verifyStatusSelectedOption(statusOption);
 		String tableColumn = csatProject.verifyStatusColumnInTable();
 		softAsserts.assertEquals(tableColumn, statusOption);
-		System.out.println("Expected :" + tableColumn + " and Actual :" + statusOption);
+		System.out.println("Expected :" + statusOption + " and Actual :" +tableColumn );
 		assertPassOrFail(tableColumn, statusOption);
 		grep.captureScreenshot("pass", statusOption + " Status Option", statusOption + "_StatusOption");
 
 	}
+
+	// survey response filter
+	public void verifySurveyResponseFilters(String surveyOption) throws Exception {
+		logger.info("Selecting " + surveyOption + " Survey response Option");
+		grep.infoTest("Selecting " + surveyOption + " Survey response Option");
+		csatProject.selectSurveyResponseFilterOption(surveyOption);
+		csatProject.verifySurveyResponseSelectedOption(surveyOption);
+		String tableColumn = csatProject.verifySurveyResponseColumnInTable();
+		softAsserts.assertEquals(tableColumn, surveyOption);
+		System.out.println("Expected :" + surveyOption + " and Actual :" +tableColumn );
+		assertPassOrFail(tableColumn, surveyOption);
+		grep.captureScreenshot("pass", surveyOption + " Survey response Option",
+				surveyOption + "_SurveyResponseOption");
+
+	}
+
+	// projects filter
+	public void verifyProjectFilters(String projectOption,String verifyOpt) throws Exception {
+		logger.info("Selecting " + projectOption + " Project Option");
+		grep.infoTest("Selecting " + projectOption + " Project Option");
+		csatProject.selectProjectFilterOption(projectOption);
+		csatProject.verifyProjectSelectedOption(projectOption);
+		String tableColumn = csatProject.verifyProjectColumnInTable();
+		softAsserts.assertEquals(tableColumn, verifyOpt);
+		System.out.println("Expected :" + verifyOpt + " and Actual :" +tableColumn );
+		assertPassOrFail(tableColumn, verifyOpt);
+		grep.captureScreenshot("pass", projectOption + " Project Option", verifyOpt + "_ProjectOption");
+
+	}
+
+	// ending days filter
+	public void verifyEndingDayFilters(String endingDaysOption) throws Exception {
+		logger.info("Selecting " + endingDaysOption + " Ending Days Option");
+		grep.infoTest("Selecting " + endingDaysOption + " Ending Days Option");
+		csatProject.selectEndingDaysFilterOption(endingDaysOption);
+		csatProject.verifyEndingDaysSelectedOption(endingDaysOption);
+//			String tableColumn = csatProject.verifyEndingDaysColumnInTable();
+//			softAsserts.assertEquals(tableColumn, endingDaysOption);
+//			System.out.println("Expected :" + tableColumn + " and Actual :" + endingDaysOption);
+//			assertPassOrFail(tableColumn, endingDaysOption);
+		grep.captureScreenshot("pass", endingDaysOption + " Ending Days Option",
+				endingDaysOption + "_EndingDaysOption");
+
+	}
+
+	// Practices filter
+	public void verifyPracticesFilters(String practiceOption) throws Exception {
+		logger.info("Selecting " + practiceOption + " Practice Option");
+		grep.infoTest("Selecting " + practiceOption + " Practice Option");
+		csatProject.selectPracticeFilterOption(practiceOption);
+		csatProject.verifyPracticeSelectedOption(practiceOption);
+		String tableColumn = csatProject.verifyPracticeColumnInTable();
+		String expectedVal = tableColumn.toLowerCase();
+		String verifyOpt = practiceOption.toLowerCase();
+		softAsserts.assertEquals(expectedVal, verifyOpt);
+		System.out.println("Expected :" +   practiceOption+ " and Actual :" +tableColumn);
+		assertPassOrFail(tableColumn, practiceOption);
+		grep.captureScreenshot("pass", practiceOption + " Practice Option", practiceOption + "_PracticeOption");
+
+	}
+
 }

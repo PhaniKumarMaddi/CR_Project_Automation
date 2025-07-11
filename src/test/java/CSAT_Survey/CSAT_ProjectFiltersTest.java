@@ -11,8 +11,8 @@ import Utility.GenerateReports;
 import Utility.TestDataKeys;
 import Utility.ValidatingAssertions;
 
-public class CSAT_ProjectSurveyTest extends CSAT_TestInitializer {
-	private static final Logger logger = LogManager.getLogger(CSAT_ProjectSurveyTest.class);
+public class CSAT_ProjectFiltersTest extends CSAT_TestInitializer {
+	private static final Logger logger = LogManager.getLogger(CSAT_ProjectFiltersTest.class);
 	GenerateReports grep = new GenerateReports();
 	CSAT_Survey_AllPages csatPage;
 	CSAT_Project_Page csatProject;
@@ -75,6 +75,48 @@ public class CSAT_ProjectSurveyTest extends CSAT_TestInitializer {
 		csatProject.verifyButton(dataKeys.saveBtn);
 		csatProject.clickCloseSurveyPopupBtn();
 
+		grep.testCreate("Download File test ", "Download File");
+		waitTime(driver);
+		logger.info("Download CSV File Format ");
+		grep.infoTest("Download CSV File Format ");
+		csatProject.clickDownloadFileBtn(dataKeys.csvFormat);
+		grep.captureScreenshot("pass", "Download CSV", "CSVFormat");
+		waitTime(driver);
+		logger.info("Download PDF File Format ");
+		grep.infoTest("Download PDF File Format ");
+		csatProject.clickDownloadFileBtn(dataKeys.pdfFormat);
+		grep.captureScreenshot("pass", "Download PDF", "PDFFormat");
+
+		grep.testCreate("Pagination for Table Test", "Pagination for table");
+		waitTime(driver);
+		logger.info("Selecting Pagination 5");
+		grep.infoTest("Selecting Pagination 5");
+		csatProject.selectPagination("5");
+		csatProject.verifyPaginationSelectedOption("5");
+
+		logger.info("Selecting Pagination 50");
+		grep.infoTest("Selecting Pagination 50");
+		csatProject.selectPagination("50");
+		csatProject.verifyPaginationSelectedOption("50");
+
+		logger.info("Selecting Pagination 100");
+		grep.infoTest("Selecting Pagination 100");
+		csatProject.selectPagination("100");
+		csatProject.verifyPaginationSelectedOption("100");
+		waitTime(driver);
+
+		grep.testCreate("Verify Buttons related to project ", "Verify project buttons");
+		waitTime(driver);
+		grep.infoTest("Verify Edit button");
+		logger.info("Verify Edit button");
+		csatProject.verifyProjectBtns(dataKeys.editBtn);
+		grep.infoTest("Verify Delete button");
+		logger.info("Verify Delete button");
+		csatProject.verifyProjectBtns(dataKeys.deleteBtn);
+		grep.infoTest("Verify Send button");
+		logger.info("Verify Send button");
+		csatProject.verifyProjectBtns(dataKeys.sendBtn);
+
 		// Filters Test
 		grep.testCreate("Projects Page Columns Options Filters Test", "Project page Columns Option Filters");
 		waitTime(driver);
@@ -93,6 +135,7 @@ public class CSAT_ProjectSurveyTest extends CSAT_TestInitializer {
 		verifyColumnOptionFunctionality(dataKeys.csat_ColOption);
 		csatProject.clickCloseColumnOptions();
 
+		// Status Filter
 		waitTime(driver);
 		grep.testCreate("Projects Page Status Filters Test", "Projects Page Status Filter");
 
@@ -100,7 +143,52 @@ public class CSAT_ProjectSurveyTest extends CSAT_TestInitializer {
 		validAssert.verifyStatusFilters(dataKeys.pipelineStatusOption);
 		validAssert.verifyStatusFilters(dataKeys.completedStatusOption);
 		validAssert.verifyStatusFilters(dataKeys.inProgressStatusOption);
+		csatProject.selectStatusFilterOption(dataKeys.allStatusesOption);
 
+		// survey response filter
+		waitTime(driver);
+		grep.testCreate("Projects Page Survey Response Filters Test", "Projects Page Survey Response Filter");
+
+		csatProject.verifySurveyResponseSelectedOption(dataKeys.allSurveyResponse);
+		validAssert.verifySurveyResponseFilters(dataKeys.surveyResponseNo);
+		validAssert.verifySurveyResponseFilters(dataKeys.surveyResponseYes);
+		csatProject.selectSurveyResponseFilterOption(dataKeys.allSurveyResponse);
+
+		// projects filter
+		waitTime(driver);
+		grep.testCreate("Projects Page Project Filters Test", "Projects Page Project Filter");
+
+		csatProject.verifyProjectSelectedOption(dataKeys.surveyProject);
+		validAssert.verifyProjectFilters(dataKeys.ruddrProject, dataKeys.ruddrOper);
+		csatProject.selectProjectFilterOption(dataKeys.surveyProject);
+
+		// Practices filter
+		waitTime(driver);
+		grep.testCreate("Projects Page Practices Filters Test", "Projects Page Practices Filter");
+
+		csatProject.verifyPracticeSelectedOption(dataKeys.allPractices);
+//		validAssert.verifyPracticesFilters(dataKeys.DSandAIPractice);
+		validAssert.verifyPracticesFilters(dataKeys.ERP_Practice);
+		validAssert.verifyPracticesFilters(dataKeys.Product_Engg_Practice);
+		csatProject.selectPracticeFilterOption(dataKeys.allPractices);
+
+		// ending days filter
+		waitTime(driver);
+		grep.testCreate("Projects Page Ending Days Filters Test", "Projects Page Ending Days Filter");
+
+		csatProject.verifyEndingDaysSelectedOption(dataKeys.projectEndingIn);
+		validAssert.verifyEndingDayFilters(dataKeys.days_60);
+		validAssert.verifyEndingDayFilters(dataKeys.days_7);
+		csatProject.selectEndingDaysFilterOption(dataKeys.projectEndingIn);
+
+		grep.testCreate("Selecting Multiple Filter Test", "Multiple Filters ");
+		waitTime(driver);
+
+		validAssert.verifyStatusFilters(dataKeys.inProgressStatusOption);
+		validAssert.verifySurveyResponseFilters(dataKeys.surveyResponseNo);
+		validAssert.verifyPracticesFilters(dataKeys.ERP_Practice);
+
+		grep.captureScreenshot("pass", "Multi filter test ", "MultiFilterTest");
 		validAssert.assertAllFunction();
 	}
 

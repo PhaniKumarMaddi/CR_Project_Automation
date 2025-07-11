@@ -1,6 +1,5 @@
 package Pages;
 
-import java.lang.classfile.ClassFile.Option;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
@@ -13,7 +12,6 @@ import org.openqa.selenium.support.ui.Select;
 import Utility.DriverManager;
 import Utility.GenerateReports;
 import Utility.TestDataKeys;
-import Utility.ValidatingAssertions;
 import Utility.WaitsManager;
 
 public class CSAT_Project_Page extends WaitsManager {
@@ -44,23 +42,28 @@ public class CSAT_Project_Page extends WaitsManager {
 	By columnOptionsHeader = By.xpath("//div[@class='column-options-header']/h3");
 	By closeColumn = By.cssSelector("button.close-button");
 
-	By statusFilter = By.cssSelector("select#drpStatus");
-	By statuscolunInTable = By.xpath("//tr[@class='Project-odd-row']/td[5]/div");
-
-	By surveyResponse = By.xpath("//div[@class='Project-filter-box2']/select");
-	By surveyRuddrProject = By.xpath("//div[@class='Project-filter-box3']/select");
-	By projectEnding = By.xpath("//div[@class='Project-filter-box-days']/select");
-	By practicesFilter = By.xpath(
-			"//div[@class='MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiSelect-root css-iz33ar']/select");
-
-	By searchProjects = By.cssSelector("input.Project-search-input");
 	By projectExportBtn = By.cssSelector("div.Project-export-container");
-	By downloadBtn = By.xpath("//div[@class='Project-export-option' and text()='Download CSV']");
 	By paginationEntries = By.cssSelector("select.Project-entries-select");
 
 	By projectEditBtn = By.cssSelector("button.Project-action-button.Project-edit-button");
 	By projectDeleteBtn = By.cssSelector("button.Project-action-button.Project-delete-button");
 	By projectSendBtn = By.cssSelector("button.Project-action-button.Project-send-button");
+
+	By statusFilter = By.cssSelector("select#drpStatus");
+	By statuscolunInTable = By.xpath("//tr[@class='Project-odd-row']/td[5]/div");
+
+	By surveyResponse = By.xpath("//div[@class='Project-filter-box2']/select");
+	By surveyResponseColInTable = By.xpath("//tr[@class='Project-odd-row']/td[8]");
+
+	By surveyRuddrProject = By.xpath("//div[@class='Project-filter-box3']/select");
+	By surveyRuddrColInTable = By.xpath("//tr[@class='Project-odd-row']/td[7]");
+
+	By projectEnding = By.xpath("//div[@class='Project-filter-box-days']/select");
+	By practicesFilter = By.xpath(
+			"//div[@class='MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiSelect-root css-iz33ar']/select");
+	By practiceColInTable = By.xpath("//tr[@class='Project-odd-row']/td[2]");
+
+	By searchProjects = By.cssSelector("input.Project-search-input");
 
 	public void headerValidation() throws Exception {
 		try {
@@ -269,6 +272,55 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 	}
 
+	public void clickProjectBtns(String btnValue) throws Exception {
+		try {
+			implWait(driver);
+//			By button = By.xpath("//button[text()='" + btnValue + "']");
+			By projectEditBtn = By.cssSelector("button.Project-action-button.Project-" + btnValue + "-button");
+
+			List<WebElement> element = driver.findElements(projectEditBtn);
+			if (element.size() > 0) {
+				element.getFirst().click();
+
+			} else {
+				grep.failTest(btnValue + " Button Not Available");
+				logger.error(btnValue + " Button Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void verifyProjectBtns(String btnValue) throws Exception {
+		try {
+			implWait(driver);
+//			By button = By.xpath("//button[text()='" + btnValue + "']");
+			By projectEditBtn = By.cssSelector("button.Project-action-button.Project-" + btnValue + "-button");
+
+			List<WebElement> element = driver.findElements(projectEditBtn);
+			if (element.size() > 0) {
+				String btnTitle = element.getFirst().getAttribute("title").toLowerCase();
+				if (btnTitle.equals(btnValue)) {
+					grep.passTest(btnValue + " Button is available");
+					logger.info(btnValue + " Button is Available");
+				} else {
+					grep.failTest(btnValue + " Button Not Available");
+					logger.error(btnValue + " Button Not Available");
+				}
+
+			} else {
+				grep.failTest(btnValue + " Button Not Available");
+				logger.error(btnValue + " Button Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
 	// FILTERS ON PROJECT PAGE
 
 	// COLUMN OPTIONS
@@ -415,6 +467,90 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 	}
 
+	// Download file
+	public void clickDownloadFileBtn(String fileFormat) throws Exception {
+		try {
+			By downloadBtn = By.xpath("//div[@class='Project-export-option' and text()='" + fileFormat + "']");
+			By successMsg = By.xpath("//div[@class='MuiSnackbarContent-message css-1o19295']");
+			implWait(driver);
+			boolean elementexists = !driver.findElements(projectExportBtn).isEmpty();
+			if (elementexists) {
+				driver.findElement(projectExportBtn).click();
+				driver.findElement(downloadBtn).click();
+				String getSuccessMsg = driver.findElement(successMsg).getText();
+				String trimFormat = fileFormat.replaceAll("Download ", "");
+				if (getSuccessMsg.contains(trimFormat)) {
+					logger.info(getSuccessMsg);
+					grep.passTest(getSuccessMsg);
+
+				} else {
+					logger.error("File Not downloaded");
+					grep.failTest("file not downloaded");
+				}
+
+			} else {
+				grep.failTest("Download Options Not Available");
+				logger.error("Download Options Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void selectPagination(String option) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(paginationEntries).isEmpty();
+			if (elementExist) {
+				WebElement statusOption = driver.findElement(paginationEntries);
+				Select statusOpt = new Select(statusOption);
+				statusOpt.selectByVisibleText(option);
+			} else {
+				grep.failTest(option + " Pagination not Available");
+				logger.error(option + " Pagination Option not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void verifyPaginationSelectedOption(String option) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(paginationEntries).isEmpty();
+			if (elementExist) {
+				WebElement statusOption = driver.findElement(paginationEntries);
+				Select statusOpt = new Select(statusOption);
+
+				String getOption = statusOpt.getFirstSelectedOption().getText();
+				if (getOption.equals(option)) {
+					grep.passTest(getOption + " pagination Option Selected");
+					logger.info(getOption + " pagination Option Selected");
+				} else {
+					grep.failTest(getOption + " pagination Option not Selected");
+					logger.error(getOption + " pagination Option not Selected");
+				}
+			} else {
+				grep.failTest(option + " Status Option not Available");
+				logger.error(option + " Status Option not Available");
+
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// STATUS filter
+
 	public void selectStatusFilterOption(String option) throws Exception {
 		try {
 			implWait(driver);
@@ -443,7 +579,7 @@ public class CSAT_Project_Page extends WaitsManager {
 			if (elementExist) {
 				WebElement statusOption = driver.findElement(statusFilter);
 				Select statusOpt = new Select(statusOption);
- 
+
 				String getOption = statusOpt.getFirstSelectedOption().getText();
 				if (getOption.equals(option)) {
 					grep.passTest(getOption + " Status Option Selected");
@@ -489,5 +625,336 @@ public class CSAT_Project_Page extends WaitsManager {
 
 		}
 		return tableColumnVal;
+	}
+
+	// SURVEY RESPONSES
+
+	public void selectSurveyResponseFilterOption(String option) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(surveyResponse).isEmpty();
+			if (elementExist) {
+				WebElement surveyResponseOption = driver.findElement(surveyResponse);
+				Select surveyResp = new Select(surveyResponseOption);
+				surveyResp.selectByVisibleText(option);
+			} else {
+				grep.failTest(option + " Survey Response Option not Available");
+				logger.error(option + " Survey Response not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void verifySurveyResponseSelectedOption(String option) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(surveyResponse).isEmpty();
+			if (elementExist) {
+				WebElement responseOption = driver.findElement(surveyResponse);
+				Select responseOpt = new Select(responseOption);
+
+				String getOption = responseOpt.getFirstSelectedOption().getText();
+				if (getOption.equals(option)) {
+					grep.passTest(getOption + " survey Response Option Selected");
+					logger.info(getOption + " surveyResponse Option Selected");
+				} else {
+					grep.failTest(getOption + " survey Response Option not Selected");
+					logger.error(getOption + " survey Response Option not Selected");
+				}
+			} else {
+				grep.failTest(option + " survey Response Option not Available");
+				logger.error(option + " survey Response Option not Available");
+
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public String verifySurveyResponseColumnInTable() throws Exception {
+		String tableColumnVal = null;
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(surveyResponseColInTable).isEmpty();
+			if (elementExist) {
+				List<WebElement> statusCol = driver.findElements(surveyResponseColInTable);
+				if (statusCol.size() > 0) {
+					tableColumnVal = statusCol.getFirst().getText();
+				} else {
+					tableColumnVal = "Not Available";
+				}
+			} else {
+				grep.failTest(" Survey Response Filter not Available");
+				logger.error(" Surevy Respinse Filter not Available");
+
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+		return tableColumnVal;
+	}
+
+	// PROJECTS FILTER
+
+	public void selectProjectFilterOption(String option) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(surveyRuddrProject).isEmpty();
+			if (elementExist) {
+				WebElement projectOption = driver.findElement(surveyRuddrProject);
+				Select projectOpt = new Select(projectOption);
+				projectOpt.selectByVisibleText(option);
+			} else {
+				grep.failTest(option + " Project Option not Available");
+				logger.error(option + " Project Option not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void verifyProjectSelectedOption(String option) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(surveyRuddrProject).isEmpty();
+			if (elementExist) {
+				WebElement projectOption = driver.findElement(surveyRuddrProject);
+				Select projectOpt = new Select(projectOption);
+
+				String getOption = projectOpt.getFirstSelectedOption().getText();
+				if (getOption.equals(option)) {
+					grep.passTest(getOption + " Project Option Selected");
+					logger.info(getOption + " Project Option Selected");
+				} else {
+					grep.failTest(getOption + " Project Option not Selected");
+					logger.error(getOption + " Project Option not Selected");
+				}
+			} else {
+				grep.failTest(option + " Project Option not Available");
+				logger.error(option + " Project Option not Available");
+
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public String verifyProjectColumnInTable() throws Exception {
+		String tableColumnVal = null;
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(surveyRuddrColInTable).isEmpty();
+			if (elementExist) {
+				List<WebElement> surveyRuddrCol = driver.findElements(surveyRuddrColInTable);
+				if (surveyRuddrCol.size() > 0) {
+					tableColumnVal = surveyRuddrCol.getFirst().getText();
+				} else {
+					tableColumnVal = "Not Available";
+				}
+			} else {
+				grep.failTest(" Project Filter not Available");
+				logger.error(" Project Filter not Available");
+
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+		return tableColumnVal;
+	}
+
+	// PROJECT ENDING IN
+
+	public void selectEndingDaysFilterOption(String option) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(projectEnding).isEmpty();
+			if (elementExist) {
+				WebElement endingOption = driver.findElement(projectEnding);
+				Select endingOpt = new Select(endingOption);
+				endingOpt.selectByVisibleText(option);
+			} else {
+				grep.failTest(option + " Ending Days Option not Available");
+				logger.error(option + " Ending Days Option not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void verifyEndingDaysSelectedOption(String option) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(projectEnding).isEmpty();
+			if (elementExist) {
+				WebElement endingOption = driver.findElement(projectEnding);
+				Select endingOpt = new Select(endingOption);
+
+				String getOption = endingOpt.getFirstSelectedOption().getText();
+				if (getOption.equals(option)) {
+					grep.passTest(getOption + " Ending Days Option Selected");
+					logger.info(getOption + " Ending Days Option Selected");
+				} else {
+					grep.failTest(getOption + " Ending Days Option not Selected");
+					logger.error(getOption + " Ending Days Option not Selected");
+				}
+			} else {
+				grep.failTest(option + " Ending Days Option not Available");
+				logger.error(option + " Ending Days Option not Available");
+
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+//	public String verifyStatusColumnInTable() throws Exception {
+//		String tableColumnVal = null;
+//		try {
+//			implWait(driver);
+//			boolean elementExist = !driver.findElements(statuscolunInTable).isEmpty();
+//			if (elementExist) {
+//				List<WebElement> statusCol = driver.findElements(statuscolunInTable);
+//				if (statusCol.size() > 0) {
+//					tableColumnVal = statusCol.getFirst().getText();
+//				} else {
+//					tableColumnVal = "Not Available";
+//				}
+//			} else {
+//				grep.failTest(" Status Filter not Available");
+//				logger.error(" Status Filter not Available");
+//
+//			}
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//			grep.failTest("Test Failed :" + e.getMessage());
+//			logger.error("Test Failed :" + e.getMessage());
+//
+//		}
+//		return tableColumnVal;
+//	}
+
+	// PRACTICES
+
+	public void selectPracticeFilterOption(String option) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(practicesFilter).isEmpty();
+			if (elementExist) {
+				WebElement practiceOption = driver.findElement(practicesFilter);
+				Select practiceOpt = new Select(practiceOption);
+				practiceOpt.selectByVisibleText(option);
+			} else {
+				grep.failTest(option + " Practice Option not Available");
+				logger.error(option + " Practice Option not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void verifyPracticeSelectedOption(String option) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(practicesFilter).isEmpty();
+			if (elementExist) {
+				WebElement practiceOption = driver.findElement(practicesFilter);
+				Select practiceOpt = new Select(practiceOption);
+
+				String getOption = practiceOpt.getFirstSelectedOption().getText();
+				if (getOption.equals(option)) {
+					grep.passTest(getOption + " Practice Option Selected");
+					logger.info(getOption + " Practice Option Selected");
+				} else {
+					grep.failTest(getOption + " Practice Option not Selected");
+					logger.error(getOption + " Practice Option not Selected");
+				}
+			} else {
+				grep.failTest(option + " Practice Option not Available");
+				logger.error(option + " Practice Option not Available");
+
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public String verifyPracticeColumnInTable() throws Exception {
+		String tableColumnVal = null;
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(practiceColInTable).isEmpty();
+			if (elementExist) {
+				List<WebElement> statusCol = driver.findElements(practiceColInTable);
+				if (statusCol.size() > 0) {
+					tableColumnVal = statusCol.getFirst().getText();
+				} else {
+					tableColumnVal = "Not Available";
+				}
+			} else {
+				grep.failTest(" Practice Filter not Available");
+				logger.error(" Practice Filter not Available");
+
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+		return tableColumnVal;
+	}
+
+	
+	public void searchProject(String projectName) throws Exception{
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(searchProjects).isEmpty();
+			if (elementExist) {
+			driver.findElement(searchProjects).sendKeys(projectName);
+			}else {
+				grep.failTest(" Search Field not Available");
+				logger.error(" Search Field not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
 	}
 }
