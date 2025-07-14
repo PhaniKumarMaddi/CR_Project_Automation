@@ -4,13 +4,13 @@
   <test thread-count="5" name="CSATTest(failed)">
     <parameter name="FileName" value="CSATPageReport.html"/>
     <classes>
-      <class name="CSAT_Survey.CSAT_SurveyTest">
+      <class name="CSAT_Survey.CSAT_ProjectFiltersTest">
         <methods>
-          <include name="csat_Ui_Test"/>
+          <include name="csat_ProjectUI_Test"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- CSAT_Survey.CSAT_SurveyTest -->
+      </class> <!-- CSAT_Survey.CSAT_ProjectFiltersTest -->
     </classes>
   </test> <!-- CSATTest(failed) -->
 </suite> <!-- Failed suite [CSATSuite] -->

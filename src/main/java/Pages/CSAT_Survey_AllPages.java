@@ -174,6 +174,5 @@ public class CSAT_Survey_AllPages extends WaitsManager {
 		}
 	}
 
-	// Validating the header for each page
 
 }

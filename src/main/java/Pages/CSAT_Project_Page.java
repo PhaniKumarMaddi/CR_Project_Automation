@@ -5,6 +5,7 @@ import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -64,6 +65,19 @@ public class CSAT_Project_Page extends WaitsManager {
 	By practiceColInTable = By.xpath("//tr[@class='Project-odd-row']/td[2]");
 
 	By searchProjects = By.cssSelector("input.Project-search-input");
+
+	// New Project
+	By projectName = By.xpath("//label[text()='Project Name']/following-sibling::div/input");
+	By projectPractice = By.xpath("//select[@name='practice']");
+	By projectStatus = By.xpath("//select[@name='status']");
+	By projectType = By.xpath("//select[@name='type']");
+	By projectDesc = By.xpath("//textarea[@name='description']");
+
+	By customerFullName = By.xpath("//input[@name='fullName']");
+	By customerEmail = By.xpath("//input[@name='email']");
+
+	By deleteCustomerContactBtn = By.xpath("//img[@alt='Delete Icon']");
+	By addNewCustomerContact = By.xpath("//button[text()=' Add New']");
 
 	public void headerValidation() throws Exception {
 		try {
@@ -240,6 +254,34 @@ public class CSAT_Project_Page extends WaitsManager {
 //				driver.findElement(button).click();
 				grep.passTest(btnValue + " Button Available");
 				logger.info(btnValue + " Button Available");
+
+			} else {
+				grep.failTest(btnValue + " Button Not Available");
+				logger.error(btnValue + " Button Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void verifyButtonDisable(String btnValue) throws Exception {
+		try {
+			implWait(driver);
+			By button = By.xpath("//button[text()='" + btnValue + "']");
+
+			boolean elementexists = !driver.findElements(button).isEmpty();
+			if (elementexists) {
+				WebElement btn = driver.findElement(button);
+				if (btn.isEnabled()) {
+					grep.failTest(btnValue + " Button is Enabled");
+					logger.error(btnValue + " Button is Enabled");
+				} else {
+					grep.passTest(btnValue + " Button is Disabled");
+					logger.info(btnValue + " Button is Disabled");
+
+				}
 
 			} else {
 				grep.failTest(btnValue + " Button Not Available");
@@ -939,14 +981,13 @@ public class CSAT_Project_Page extends WaitsManager {
 		return tableColumnVal;
 	}
 
-	
-	public void searchProject(String projectName) throws Exception{
+	public void searchProject(String projectName) throws Exception {
 		try {
 			implWait(driver);
 			boolean elementExist = !driver.findElements(searchProjects).isEmpty();
 			if (elementExist) {
-			driver.findElement(searchProjects).sendKeys(projectName);
-			}else {
+				driver.findElement(searchProjects).sendKeys(projectName);
+			} else {
 				grep.failTest(" Search Field not Available");
 				logger.error(" Search Field not Available");
 			}
@@ -956,5 +997,217 @@ public class CSAT_Project_Page extends WaitsManager {
 			logger.error("Test Failed :" + e.getMessage());
 
 		}
+	}
+
+	// Creating New Project
+
+	public void insertProjectName(String projectNameValue) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(projectName).isEmpty();
+			if (elementExists) {
+				waitForElement(projectName, 60);
+				driver.findElement(projectName).sendKeys(projectNameValue);
+			} else {
+				grep.failTest("Project Name not available");
+				logger.error("project Name not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void selectProjectPracticeOption(String option) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(projectPractice).isEmpty();
+			if (elementExist) {
+				WebElement projectPracticeOption = driver.findElement(projectPractice);
+				Select projectPracticeOpt = new Select(projectPracticeOption);
+				projectPracticeOpt.selectByVisibleText(option);
+			} else {
+				grep.failTest(option + " Project Practice Option not Available");
+				logger.error(option + " Project Practice Option not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void selectProjectStatusOption(String option) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(projectStatus).isEmpty();
+			if (elementExist) {
+				WebElement projectStatusOption = driver.findElement(projectStatus);
+				Select projectStatusOpt = new Select(projectStatusOption);
+				projectStatusOpt.selectByVisibleText(option);
+			} else {
+				grep.failTest(option + " Project Status Option not Available");
+				logger.error(option + " Project Status Option not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void selectProjectTypeOption(String option) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(projectType).isEmpty();
+			if (elementExist) {
+				WebElement projectTypeOption = driver.findElement(projectType);
+				Select projectTypeOpt = new Select(projectTypeOption);
+				projectTypeOpt.selectByVisibleText(option);
+			} else {
+				grep.failTest(option + " Project Type Option not Available");
+				logger.error(option + " Project Type Option not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void insertProjectDescription(String projectDescValue) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(projectDesc).isEmpty();
+			if (elementExists) {
+				waitForElement(projectDesc, 60);
+				driver.findElement(projectDesc).sendKeys(projectDescValue);
+			} else {
+				grep.failTest("Project Description not available");
+				logger.error("Project Description not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void insertCustomerName(String custNameValue) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(customerFullName).isEmpty();
+			if (elementExists) {
+				waitForElement(customerFullName, 60);
+				driver.findElement(customerFullName).sendKeys(custNameValue);
+			} else {
+				grep.failTest("Customer Name not available");
+				logger.error("Customer Name not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void insertCustomerEmail(String customerEmailValue) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(customerEmail).isEmpty();
+			if (elementExists) {
+				waitForElement(customerEmail, 60);
+				driver.findElement(customerEmail).sendKeys(customerEmailValue);
+			} else {
+				grep.failTest("Customer Email not available");
+				logger.error("Customer Email not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void deleteCustomerContact() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(deleteCustomerContactBtn).isEmpty();
+			if (elementExists) {
+				waitForElement(deleteCustomerContactBtn, 60);
+				driver.findElement(deleteCustomerContactBtn).click();
+			} else {
+				grep.failTest("Delete Customer Contact button not available");
+				logger.error("Delete Customer Contact button not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void addNewCustomerContactBtn() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(addNewCustomerContact).isEmpty();
+			if (elementExists) {
+				waitForElement(addNewCustomerContact, 60);
+				driver.findElement(addNewCustomerContact).click();
+			} else {
+				grep.failTest("Add New Customer Contact button not available");
+				logger.error("Add New Customer Contact button not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void insertStartDate(String date) throws Exception {
+		try {
+			implWait(driver);
+
+			By dateField = By.xpath("//input[@name='startDate']");
+			boolean elementExists = !driver.findElements(dateField).isEmpty();
+			WebElement startDateInputField = driver.findElement(dateField);
+			if (elementExists) {
+
+//				startDateInputField.click();
+//				JavascriptExecutor js = (JavascriptExecutor) driver;
+//				js.executeScript("arguments[0].setAttribute('value', '"+date+"')", startDateInputField);
+
+//				WebElement startDateInputField = driver.findElement(By.id("«rjo»"));
+
+				// Try Method 1 first (recommended)
+//			    setDateWithReactEvents(startDateInputField, "2025-07-15");
+				setDateWithReactEvents(startDateInputField, date);
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void setDateWithReactEvents(WebElement dateInput, String date) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+
+		// Clear the field first
+		js.executeScript("arguments[0].value = '';", dateInput);
+
+		// Set the value and trigger React events
+		js.executeScript("arguments[0].value = arguments[1];"
+				+ "arguments[0].dispatchEvent(new Event('input', { bubbles: true }));"
+				+ "arguments[0].dispatchEvent(new Event('change', { bubbles: true }));", dateInput, date);
 	}
 }

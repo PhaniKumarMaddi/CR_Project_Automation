@@ -108,7 +108,7 @@ public class CSAT_SurveyTest extends CSAT_TestInitializer {
 			grep.passTest(urlValue + " Url is Valid :" + getUrl);
 			logger.info(urlValue + " Url is Valid :" + getUrl);
 			waitTime(driver);
-			grep.captureScreenshot("pass", urlValue + "URL is valid", urlValue + "Page");
+			grep.captureScreenshot("pass", urlValue + " URL is valid", urlValue + "Page");
 			waitTime(driver);
 		} else {
 			grep.failTest(urlValue + " Url is InValid :" + getUrl);

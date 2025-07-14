@@ -38,8 +38,8 @@ public class TestDataKeys {
 	public String ssoUserName = "phani.maddi@criticalriver.com";
 	public String ssoPassword = "Rklalitha$67";
 
-//	public String ssoUserName = "anwar_hussain@skillsynccr.onmicrosoft.com";
-//	public String ssoPassword = "Solu598232";
+	public String ssoUserNameDev = "anwar_hussain@skillsynccr.onmicrosoft.com";
+	public String ssoPasswordDev = "Solu598232";
 
 	// pages url
 	public String project_Url = "/projects";
@@ -110,8 +110,8 @@ public class TestDataKeys {
 	// SURVEY / RUDDR PROJECTS
 	public String surveyProject = "Survey Projects";
 	public String ruddrProject = "Ruddr Projects";
-	public String ruddrOper= "Ruddr Operations";
-	
+	public String ruddrOper = "Ruddr Operations";
+
 	// PROJECT ENDING
 	public String projectEndingIn = "Projects Ending In";
 	public String days_7 = "7 Days";
@@ -123,6 +123,28 @@ public class TestDataKeys {
 	public String Product_Engg_Practice = "Product Engineering Services";
 
 	// SEARCH FIELD
-	public String projectName = "Apollo CRM Upgrade";
+//	public String projectName = "Apollo CRM Upgrade";
 
+	// Create New Project
+	public String newProjectName = "Test Automation";
+	public String newInvalidProjectName = "#$%^&*";
+	public String newSpacesInProjectName = "   ";
+
+	public String projectDesc = "For Automation Testing Purpose";
+	public String spacesInProjectDesc = "   ";
+
+	// project type
+	public String selectProjectType = "Select Project Type";
+	public String projectType_Development = "Development";
+	public String projectType_DevOps = "DevOps";
+	public String projectType_Support = "Support";
+	public String projectType_Salesforce = "Salesforce";
+
+// Customer contact 
+	public String customerContactName = "Phani Kumar Maddi";
+	public String customerContactEmail = "phani.maddi@criticalriver.com";
+	public String customerContactInvalidEmail = "Phani Kumar Maddi";
+//	public String customerContactName ="":
+
+	public String startDate = "2025-07-15";
 }

@@ -23,6 +23,7 @@ public class CSAT_ProjectFiltersTest extends CSAT_TestInitializer {
 	public void csat_ProjectUI_Test() throws Exception {
 		csatPage = new CSAT_Survey_AllPages();
 		csatProject = new CSAT_Project_Page();
+
 		grep.testCreate("CSAT Project Page UI Test", "CSAT Project Page UI");
 		waitTime(driver);
 		csatPage.collapseSideMenu();
@@ -168,6 +169,7 @@ public class CSAT_ProjectFiltersTest extends CSAT_TestInitializer {
 
 		csatProject.verifyPracticeSelectedOption(dataKeys.allPractices);
 //		validAssert.verifyPracticesFilters(dataKeys.DSandAIPractice);
+		waitTime2(driver);
 		validAssert.verifyPracticesFilters(dataKeys.ERP_Practice);
 		validAssert.verifyPracticesFilters(dataKeys.Product_Engg_Practice);
 		csatProject.selectPracticeFilterOption(dataKeys.allPractices);
@@ -182,13 +184,17 @@ public class CSAT_ProjectFiltersTest extends CSAT_TestInitializer {
 		csatProject.selectEndingDaysFilterOption(dataKeys.projectEndingIn);
 
 		grep.testCreate("Selecting Multiple Filter Test", "Multiple Filters ");
-		waitTime(driver);
+		waitTime2(driver);
 
 		validAssert.verifyStatusFilters(dataKeys.inProgressStatusOption);
+		waitTime2(driver);
 		validAssert.verifySurveyResponseFilters(dataKeys.surveyResponseNo);
 		validAssert.verifyPracticesFilters(dataKeys.ERP_Practice);
 
 		grep.captureScreenshot("pass", "Multi filter test ", "MultiFilterTest");
+		waitTime(driver);
+		csatPage.expandSideMenu();
+		waitTime(driver);
 		validAssert.assertAllFunction();
 	}
 
