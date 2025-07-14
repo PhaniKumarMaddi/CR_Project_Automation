@@ -1,13 +1,16 @@
 package Pages;
 
+import java.awt.Desktop.Action;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 import Utility.DriverManager;
@@ -39,7 +42,7 @@ public class CSAT_Project_Page extends WaitsManager {
 
 	// Filters on Project Page
 
-	By columnOptionsBtn = By.cssSelector("button.column-options-button");
+	By columnOptionsBtn = By.cssSelector("button.Project-column-options-button");
 	By columnOptionsHeader = By.xpath("//div[@class='column-options-header']/h3");
 	By closeColumn = By.cssSelector("button.close-button");
 
@@ -68,6 +71,8 @@ public class CSAT_Project_Page extends WaitsManager {
 
 	// New Project
 	By projectName = By.xpath("//label[text()='Project Name']/following-sibling::div/input");
+	By projectNameError = By.xpath("//div[@class='project-name-container']/p");
+
 	By projectPractice = By.xpath("//select[@name='practice']");
 	By projectStatus = By.xpath("//select[@name='status']");
 	By projectType = By.xpath("//select[@name='type']");
@@ -75,9 +80,12 @@ public class CSAT_Project_Page extends WaitsManager {
 
 	By customerFullName = By.xpath("//input[@name='fullName']");
 	By customerEmail = By.xpath("//input[@name='email']");
+//	By customerEmailError = By.xpath("//div[@class='Project-contact-row']/div[2]/p");
+	By customerEmailError = By.xpath("//div[@class='Project-contact-row']/div[2]/div/p");
 
 	By deleteCustomerContactBtn = By.xpath("//img[@alt='Delete Icon']");
 	By addNewCustomerContact = By.xpath("//button[text()=' Add New']");
+	By projectAfterDeletion = By.xpath("//tr[@class='Project-even-row']/td[1]");
 
 	public void headerValidation() throws Exception {
 		try {
@@ -301,6 +309,7 @@ public class CSAT_Project_Page extends WaitsManager {
 
 			boolean elementexists = !driver.findElements(button).isEmpty();
 			if (elementexists) {
+				waitForElement(button, 60);
 				driver.findElement(button).click();
 
 			} else {
@@ -314,26 +323,26 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 	}
 
-	public void clickProjectBtns(String btnValue) throws Exception {
-		try {
-			implWait(driver);
-//			By button = By.xpath("//button[text()='" + btnValue + "']");
-			By projectEditBtn = By.cssSelector("button.Project-action-button.Project-" + btnValue + "-button");
-
-			List<WebElement> element = driver.findElements(projectEditBtn);
-			if (element.size() > 0) {
-				element.getFirst().click();
-
-			} else {
-				grep.failTest(btnValue + " Button Not Available");
-				logger.error(btnValue + " Button Not Available");
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-			grep.failTest("Test Failed :" + e.getMessage());
-			logger.error("Test Failed :" + e.getMessage());
-		}
-	}
+//	public void clickProjectBtns(String btnValue) throws Exception {
+//		try {
+//			implWait(driver);
+////			By button = By.xpath("//button[text()='" + btnValue + "']");
+//			By projectEditBtn = By.cssSelector("button.Project-action-button.Project-" + btnValue + "-button");
+//
+//			List<WebElement> element = driver.findElements(projectEditBtn);
+//			if (element.size() > 0) {
+//				element.getFirst().click();
+//
+//			} else {
+//				grep.failTest(btnValue + " Button Not Available");
+//				logger.error(btnValue + " Button Not Available");
+//			}
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//			grep.failTest("Test Failed :" + e.getMessage());
+//			logger.error("Test Failed :" + e.getMessage());
+//		}
+//	}
 
 	public void verifyProjectBtns(String btnValue) throws Exception {
 		try {
@@ -703,7 +712,7 @@ public class CSAT_Project_Page extends WaitsManager {
 				String getOption = responseOpt.getFirstSelectedOption().getText();
 				if (getOption.equals(option)) {
 					grep.passTest(getOption + " survey Response Option Selected");
-					logger.info(getOption + " surveyResponse Option Selected");
+					logger.info(getOption + " survey Response Option Selected");
 				} else {
 					grep.failTest(getOption + " survey Response Option not Selected");
 					logger.error(getOption + " survey Response Option not Selected");
@@ -1019,6 +1028,27 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 	}
 
+	public void projectNameError() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(projectNameError).isEmpty();
+			if (elementExists) {
+				waitForElement(projectNameError, 60);
+
+				String error = driver.findElement(projectNameError).getText();
+				grep.passTest(error);
+				logger.info(error);
+			} else {
+				grep.failTest("Project Name not available");
+				logger.error("project Name not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
 	public void selectProjectPracticeOption(String option) throws Exception {
 		try {
 			implWait(driver);
@@ -1088,7 +1118,9 @@ public class CSAT_Project_Page extends WaitsManager {
 			boolean elementExists = !driver.findElements(projectDesc).isEmpty();
 			if (elementExists) {
 				waitForElement(projectDesc, 60);
-				driver.findElement(projectDesc).sendKeys(projectDescValue);
+				WebElement desc = driver.findElement(projectDesc);
+				desc.clear();
+				desc.sendKeys(projectDescValue);
 			} else {
 				grep.failTest("Project Description not available");
 				logger.error("Project Description not available");
@@ -1105,8 +1137,11 @@ public class CSAT_Project_Page extends WaitsManager {
 			implWait(driver);
 			boolean elementExists = !driver.findElements(customerFullName).isEmpty();
 			if (elementExists) {
-				waitForElement(customerFullName, 60);
-				driver.findElement(customerFullName).sendKeys(custNameValue);
+				List<WebElement> custName = driver.findElements(customerFullName);
+				if (custName.size() > 0) {
+					waitForElement(customerFullName, 60);
+					custName.getLast().sendKeys(custNameValue);
+				}
 			} else {
 				grep.failTest("Customer Name not available");
 				logger.error("Customer Name not available");
@@ -1123,8 +1158,32 @@ public class CSAT_Project_Page extends WaitsManager {
 			implWait(driver);
 			boolean elementExists = !driver.findElements(customerEmail).isEmpty();
 			if (elementExists) {
-				waitForElement(customerEmail, 60);
-				driver.findElement(customerEmail).sendKeys(customerEmailValue);
+				List<WebElement> custEmail = driver.findElements(customerEmail);
+				if (custEmail.size() > 0) {
+					waitForElement(customerEmail, 60);
+					custEmail.getLast().sendKeys(customerEmailValue);
+				}
+			} else {
+				grep.failTest("Customer Email not available");
+				logger.error("Customer Email not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void getCustomerEmailError() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(customerEmailError).isEmpty();
+			if (elementExists) {
+				waitForElement(customerEmailError, 60);
+
+				String error = driver.findElement(customerEmailError).getText();
+				grep.passTest(error);
+				logger.info(error);
 			} else {
 				grep.failTest("Customer Email not available");
 				logger.error("Customer Email not available");
@@ -1190,6 +1249,9 @@ public class CSAT_Project_Page extends WaitsManager {
 				// Try Method 1 first (recommended)
 //			    setDateWithReactEvents(startDateInputField, "2025-07-15");
 				setDateWithReactEvents(startDateInputField, date);
+				waitTime(driver);
+				String displayedDate = startDateInputField.getAttribute("value");
+				System.out.println("Displayed date: " + displayedDate);
 			}
 
 		} catch (Exception e) {
@@ -1209,5 +1271,77 @@ public class CSAT_Project_Page extends WaitsManager {
 		js.executeScript("arguments[0].value = arguments[1];"
 				+ "arguments[0].dispatchEvent(new Event('input', { bubbles: true }));"
 				+ "arguments[0].dispatchEvent(new Event('change', { bubbles: true }));", dateInput, date);
+	}
+
+//	public void insertStartDate() throws Exception {
+//		try {
+//			implWait(driver);
+//
+//			By dateField = By.xpath("//input[@name='startDate']");
+//			boolean elementExists = !driver.findElements(dateField).isEmpty();
+//			WebElement startDateInputField = driver.findElement(dateField);
+//			if (elementExists) {
+//				startDateInputField.click();
+//				waitTime(driver);
+//				Actions act = new Actions(driver);
+//				act.sendKeys(Keys.ENTER);
+//
+//				waitTime(driver);
+//				String displayedDate = startDateInputField.getAttribute("value");
+//				System.out.println("Displayed date: " + displayedDate);
+//			}
+//
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//			grep.failTest("Test Failed :" + e.getMessage());
+//			logger.error("Test Failed :" + e.getMessage());
+//		}
+//	}
+
+	public void clickProjectBtn(String projectName, String action) throws Exception {
+		try {
+			implWait(driver);
+//			WebElement editIcon = driver.findElement(By.xpath(
+//					"//td[text()='" + projectName + "']/parent::tr/td[11]/div/button[@title='" + action + "']"));
+
+			WebElement editIcon = driver.findElement(By.xpath(
+					"//td[text()='" + projectName + "']/parent::tr/td[@class='Project-action-cell']/div/button[@title='" + action + "']"));
+			//td[text()='Test Automation']/parent::tr/td[@class='Project-action-cell']/div/button[@title='Edit']
+			if (editIcon.isDisplayed()) {
+				editIcon.click();
+			} else {
+				logger.info(action + " is not available for " + projectName);
+				grep.infoTest(action + " is not available for " + projectName);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void getProjectnameList(String projectName) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> projectList = driver.findElements(projectAfterDeletion);
+			if (projectList.size() > 0) {
+				for (WebElement project : projectList) {
+					if (project.equals(projectName)) {
+						grep.failTest("Project Not Deleted");
+						logger.error("Project Not Deleted");
+					} else {
+						grep.passTest("Project Deleted");
+						logger.info("Project Deleted");
+					}
+				}
+			} else {
+				logger.info("Project list is not available");
+				grep.infoTest("Project list is not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
 	}
 }

@@ -54,7 +54,8 @@ public class TestDataKeys {
 	public String expand = "Expand Sidebar";
 
 	public String logoutBtn = "Logout";
-	public String profileName = "Phani Kumar Maddi";
+//	public String profileName = "Phani Kumar Maddi";
+	public String profileName = "Anwar Hussain";
 	public String projectPage = "Projects";
 	public String surveyPage = "Surveys";
 	public String rolesPage = "Roles";
@@ -103,7 +104,8 @@ public class TestDataKeys {
 	public String completedStatusOption = "Completed";
 
 	// SURVEY RESPONSES
-	public String allSurveyResponse = "All Survey Responses";
+//	public String allSurveyResponse = "All Survey Responses";
+	public String allSurveyResponse = "Survey Response Status";
 	public String surveyResponseYes = "Yes";
 	public String surveyResponseNo = "No";
 
@@ -126,7 +128,10 @@ public class TestDataKeys {
 //	public String projectName = "Apollo CRM Upgrade";
 
 	// Create New Project
-	public String newProjectName = "Test Automation";
+	public String newProjectName = "Automation Test";
+	public String duplicateProjectName = "Test Automation";
+	public String updateProjectName = "Update Test Automation";
+	public String deleteProjectName = "Delete Test Automation";
 	public String newInvalidProjectName = "#$%^&*";
 	public String newSpacesInProjectName = "   ";
 
@@ -143,8 +148,17 @@ public class TestDataKeys {
 // Customer contact 
 	public String customerContactName = "Phani Kumar Maddi";
 	public String customerContactEmail = "phani.maddi@criticalriver.com";
+	public String updateCustomerContactEmail = "phani.maddi@gmail.com";
 	public String customerContactInvalidEmail = "Phani Kumar Maddi";
 //	public String customerContactName ="":
 
 	public String startDate = "2025-07-15";
+	
+	// project buttons
+	public String editProjectBtn = "Edit";
+	public String deleteProjectBtn = "Delete";
+	public String sendProjectBtn = "Send";
+	
+	public String buttonYes = "Yes";
+	public String buttonNo = "No";
 }

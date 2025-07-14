@@ -75,19 +75,19 @@ public class CSAT_ProjectFiltersTest extends CSAT_TestInitializer {
 		csatProject.verifyButton(dataKeys.cancelBtn);
 		csatProject.verifyButton(dataKeys.saveBtn);
 		csatProject.clickCloseSurveyPopupBtn();
-
+//
 		grep.testCreate("Download File test ", "Download File");
 		waitTime(driver);
 		logger.info("Download CSV File Format ");
 		grep.infoTest("Download CSV File Format ");
 		csatProject.clickDownloadFileBtn(dataKeys.csvFormat);
 		grep.captureScreenshot("pass", "Download CSV", "CSVFormat");
-		waitTime(driver);
+		waitTime2(driver);
 		logger.info("Download PDF File Format ");
 		grep.infoTest("Download PDF File Format ");
 		csatProject.clickDownloadFileBtn(dataKeys.pdfFormat);
 		grep.captureScreenshot("pass", "Download PDF", "PDFFormat");
-
+//
 		grep.testCreate("Pagination for Table Test", "Pagination for table");
 		waitTime(driver);
 		logger.info("Selecting Pagination 5");
@@ -105,7 +105,7 @@ public class CSAT_ProjectFiltersTest extends CSAT_TestInitializer {
 		csatProject.selectPagination("100");
 		csatProject.verifyPaginationSelectedOption("100");
 		waitTime(driver);
-
+//
 		grep.testCreate("Verify Buttons related to project ", "Verify project buttons");
 		waitTime(driver);
 		grep.infoTest("Verify Edit button");
@@ -150,9 +150,13 @@ public class CSAT_ProjectFiltersTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		grep.testCreate("Projects Page Survey Response Filters Test", "Projects Page Survey Response Filter");
 
+		waitTime(driver);
 		csatProject.verifySurveyResponseSelectedOption(dataKeys.allSurveyResponse);
+		waitTime(driver);
 		validAssert.verifySurveyResponseFilters(dataKeys.surveyResponseNo);
+		waitTime(driver);
 		validAssert.verifySurveyResponseFilters(dataKeys.surveyResponseYes);
+		waitTime(driver);
 		csatProject.selectSurveyResponseFilterOption(dataKeys.allSurveyResponse);
 
 		// projects filter
@@ -161,6 +165,7 @@ public class CSAT_ProjectFiltersTest extends CSAT_TestInitializer {
 
 		csatProject.verifyProjectSelectedOption(dataKeys.surveyProject);
 		validAssert.verifyProjectFilters(dataKeys.ruddrProject, dataKeys.ruddrOper);
+		waitTime5(driver);
 		csatProject.selectProjectFilterOption(dataKeys.surveyProject);
 
 		// Practices filter

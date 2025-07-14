@@ -56,7 +56,8 @@ public class CSAT_TestInitializer extends WaitsManager {
 		DriverManager.setDriver(driver);
 		driver.manage().window().maximize();
 
-		String url = configFile.getProperty("CSAT_Url"); // UAT
+//		String url = configFile.getProperty("CSAT_Url"); // UAT
+		String url = configFile.getProperty("CSAT_Dev_Url"); // DEV	
 
 //		String nameForReport = configFile.getProperty("ReportName");
 //		nameForReport = configFile.getProperty("ReportName");
@@ -82,10 +83,12 @@ public class CSAT_TestInitializer extends WaitsManager {
 		waitTime(driver);
 		login.clickSSOLoginBtn();
 		waitTime(driver);
-		login.enterUserName(dataKeys.ssoUserName);
+//		login.enterUserName(dataKeys.ssoUserName);
+		login.enterUserName(dataKeys.ssoUserNameDev);
 		login.clickSignIn();
 		waitTime2(driver);
-		login.enterPassword(dataKeys.ssoPassword);
+//		login.enterPassword(dataKeys.ssoPassword);
+		login.enterPassword(dataKeys.ssoPasswordDev);
 		login.clickSignIn();
 		waitTime5(driver);
 		// yes or no 
@@ -93,7 +96,7 @@ public class CSAT_TestInitializer extends WaitsManager {
 
 		waitTime10(driver);
 
-		for (int i = 0; i <= 3; i++) {
+		for (int i = 0; i <= 4; i++) {
 			Robot robot = new Robot();
 			robot.keyPress(KeyEvent.VK_CONTROL);
 			robot.keyPress(KeyEvent.VK_MINUS);
