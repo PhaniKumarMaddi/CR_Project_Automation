@@ -78,6 +78,7 @@ public class CSAT_Project_Page extends WaitsManager {
 	By projectType = By.xpath("//select[@name='type']");
 	By projectDesc = By.xpath("//textarea[@name='description']");
 
+	// customer contact
 	By customerFullName = By.xpath("//input[@name='fullName']");
 	By customerEmail = By.xpath("//input[@name='email']");
 	By customerEmailError = By.xpath("//div[@class='Project-contact-row']/div[2]/p");
@@ -88,6 +89,18 @@ public class CSAT_Project_Page extends WaitsManager {
 	By addNewCustomerContact = By.xpath("//button[text()=' Add New']");
 	By projectAfterDeletion = By.xpath("//tr[@class='Project-even-row']/td[1]");
 
+	// send functinality 
+	By selectContact= By.xpath("//div/span[text()='Select Contact']");
+	By selectContactOption = By.xpath("//div[@class='custom-dropdown-menu']/div[text()='Select All']");
+	By selectContactByIndex =By.xpath("//div[@class='custom-dropdown-menu']/div[2]");
+	By selectSurvey = By.xpath("//div[@class='form-group']/label[text()='Survey']");
+	By getSubject = By.xpath("//label[text()='Subject']/parent::div/input");
+	By getBody = By.xpath("//label[text()='Body']/parent::div/textarea");
+	
+	By emailSentmsg = By.xpath("//div[@class='MuiSnackbarContent-message css-1o19295']");
+	By surveySentCount = By.xpath("//p[text()='Surveys sent']/parent::div/p[2]");
+	
+	
 	public void headerValidation() throws Exception {
 		try {
 			implWait(driver);
@@ -1353,12 +1366,16 @@ public class CSAT_Project_Page extends WaitsManager {
 			List<WebElement> projectList = driver.findElements(projectAfterDeletion);
 			if (projectList.size() > 0) {
 				for (WebElement project : projectList) {
-					if (!project.equals(projectName)) {
-						grep.failTest(projectName+" Project Deleted");
-						logger.error(projectName+" Project Deleted");
+					int count=0;
+					if (project.equals(projectName)) {
+						count++;
+					}
+					if(count==0) {
+						grep.passTest(projectName+" Project Deleted");
+						logger.info(projectName+" Project Deleted");
 					} else {
-						grep.passTest(projectName+" Project Not Deleted");
-						logger.info(projectName+" Project Not Deleted");
+						grep.failTest(projectName+" Project Not Deleted");
+						logger.error(projectName+" Project Not Deleted");
 					}
 				}
 			} else {
