@@ -124,9 +124,10 @@ public class CSAT_Popup_Page extends WaitsManager {
 				WebElement paginationOpt = driver.findElement(pagination_Popup);
 				Select opt = new Select(paginationOpt);
 				opt.selectByVisibleText(option);
-				waitTime(driver);
+				waitTime2(driver);
 				String getOption = opt.getFirstSelectedOption().getText();
 				if (getOption.equals(option)) {
+					
 					grep.passTest(getOption + " pagination Option Selected");
 					logger.info(getOption + " pagination Option Selected");
 				} else {

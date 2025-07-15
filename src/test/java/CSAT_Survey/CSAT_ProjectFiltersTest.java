@@ -202,10 +202,13 @@ public class CSAT_ProjectFiltersTest extends CSAT_TestInitializer {
 		waitTime2(driver);
 		validAssert.verifySurveyResponseFilters(dataKeys.surveyResponseNo, dataKeys.verifySurveyResponseNo);
 //		validAssert.verifyPracticesFilters(dataKeys.ERP_Practice);
-
+		
 		grep.captureScreenshot("pass", "Multi filter test ", "MultiFilterTest");
 		waitTime(driver);
 		csatPage.expandSideMenu();
+	
+		waitTime(driver);
+		refreshPage();
 		waitTime(driver);
 		validAssert.assertAllFunction();
 	}

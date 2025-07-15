@@ -118,9 +118,11 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 
 		waitTime2(driver);
 		csatPopup.selectPaginationIn_Popup("50");
-		csatPopup.selectPaginationIn_Popup("100");
+		waitTime2(driver);
+		csatPopup.selectPaginationIn_Popup("25");
+		waitTime2(driver);
 		csatPopup.selectPaginationIn_Popup("10");
-		waitTime(driver);
+		waitTime2(driver);
 		grep.infoTest("Validating Response Status Filter in Survey Sent Popup ");
 		logger.info("Validating Response Status Filter in Survey Sent Popup ");
 		waitTime(driver);
@@ -156,10 +158,10 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		waitTime(driver);
 		grep.captureScreenshot("pass", "ProjectX in Project in Survey Sent Popup", "ProjectX_InSurveySent");
 		waitTime(driver);
-		csatPopup.selectProjectFilterIn_Popup(dataKeys.projectTesting_Project_InPopup);
-		csatPopup.getProject_ValueFromTable(dataKeys.projectTesting_Project_InPopup);
+		csatPopup.selectProjectFilterIn_Popup(dataKeys.apollo_Project_InPopup);
+		csatPopup.getProject_ValueFromTable(dataKeys.apollo_Project_InPopup);
 		waitTime(driver);
-		grep.captureScreenshot("pass", "Project Testing Project in Survey Sent Popup", "Project_testing_InSurveySent");
+		grep.captureScreenshot("pass", "Apollo Testing Project in Survey Sent Popup", "Apollo_testing_InSurveySent");
 		waitTime(driver);
 		csatPopup.selectProjectFilterIn_Popup(dataKeys.project_InPopup);
 
@@ -172,10 +174,10 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Phani Account Executive in Survey Sent Popup", "Phani_AccEXE_InSurveySent");
 		waitTime(driver);
-		csatPopup.selectAcc_ExecFilterIn_Popup(dataKeys.raj_AccExe_InPopup);
-		csatPopup.getAcc_Exe_ValueFromTable(dataKeys.raj_AccExe_InPopup);
-		waitTime(driver);
-		grep.captureScreenshot("pass", " Raj Account Executive in Survey Sent Popup", "Raj_AccEXE_InSurveySent");
+//		csatPopup.selectAcc_ExecFilterIn_Popup(dataKeys.raj_AccExe_InPopup);
+//		csatPopup.getAcc_Exe_ValueFromTable(dataKeys.raj_AccExe_InPopup);
+//		waitTime(driver);
+//		grep.captureScreenshot("pass", " Raj Account Executive in Survey Sent Popup", "Raj_AccEXE_InSurveySent");
 		waitTime(driver);
 		csatPopup.selectAcc_ExecFilterIn_Popup(dataKeys.anwar_AccExe_InPopup);
 		csatPopup.getAcc_Exe_ValueFromTable(dataKeys.anwar_AccExe_InPopup);
@@ -216,9 +218,11 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 
 		waitTime2(driver);
 		csatPopup.selectPaginationIn_Popup("50");
-		csatPopup.selectPaginationIn_Popup("100");
+		waitTime2(driver);
+		csatPopup.selectPaginationIn_Popup("25");
+		waitTime2(driver);
 		csatPopup.selectPaginationIn_Popup("10");
-		waitTime(driver);
+		waitTime2(driver);
 		grep.infoTest("Validating Risk Factor Filter in At Risk Popup ");
 		logger.info("Validating Risk Factor Filter in At Risk Popup ");
 		waitTime(driver);
@@ -258,10 +262,10 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Anwar Account Executive in At Risk Popup", "anwarAccExe_InAtRisk");
 		waitTime(driver);
-		csatPopup.selectAcc_ExecFilterIn_Popup(dataKeys.raj_AccExe_InPopup);
-		csatPopup.getAccExe_AtRisk_ValueFromTable(dataKeys.raj_AccExe_InPopup);
+		csatPopup.selectAcc_ExecFilterIn_Popup(dataKeys.arun_AccExe_InPopup);
+		csatPopup.getAccExe_AtRisk_ValueFromTable(dataKeys.arun_AccExe_InPopup);
 		waitTime(driver);
-		grep.captureScreenshot("pass", "Raj Account Executive in At Risk Popup", "rajAccExe_inAtRisk");
+		grep.captureScreenshot("pass", "Arun Account Executive in At Risk Popup", "arunAccExe_inAtRisk");
 		waitTime(driver);
 		csatPopup.selectAcc_ExecFilterIn_Popup(dataKeys.accountExecutive_InPopup);
 
@@ -281,7 +285,9 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 
 		waitTime2(driver);
 		csatPopup.selectPaginationIn_Popup("50");
-		csatPopup.selectPaginationIn_Popup("100");
+		waitTime2(driver);
+		csatPopup.selectPaginationIn_Popup("25");
+		waitTime2(driver);
 		csatPopup.selectPaginationIn_Popup("10");
 		waitTime(driver);
 
@@ -289,22 +295,15 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		grep.infoTest("Validating Project Filter in Survey Complete Popup ");
 		logger.info("Validating Project Filter in Survey Complete Popup ");
 		waitTime(driver);
-		csatPopup.selectProjectFilterIn_Popup(dataKeys.testAutomation_Project_InPopup);
-		csatPopup.getProject_ValueFromTable(dataKeys.testAutomation_Project_InPopup);
+		csatPopup.selectProjectFilterIn_Popup(dataKeys.apollo_Project_InPopup);
+		csatPopup.getProject_ValueFromTable(dataKeys.apollo_Project_InPopup);
 		waitTime(driver);
-		grep.captureScreenshot("pass", "Test Automation Project in Survey Sent Popup",
-				"TestAutomationProject_InSurveyComplete");
+		grep.captureScreenshot("pass", "Apollo Project in Survey Complete Popup", "appoloProject_InSurveyComplete");
 		waitTime(driver);
-		csatPopup.selectProjectFilterIn_Popup(dataKeys.projectx_Project_InPopup);
-		csatPopup.getProject_ValueFromTable(dataKeys.projectx_Project_InPopup);
+		csatPopup.selectProjectFilterIn_Popup(dataKeys.sfdc_Project_InPopup);
+		csatPopup.getProject_ValueFromTable(dataKeys.sfdc_Project_InPopup);
 		waitTime(driver);
-		grep.captureScreenshot("pass", "ProjectX in Project in Survey Sent Popup", "ProjectX_InSurveyComplete");
-		waitTime(driver);
-		csatPopup.selectProjectFilterIn_Popup(dataKeys.projectTesting_Project_InPopup);
-		csatPopup.getProject_ValueFromTable(dataKeys.projectTesting_Project_InPopup);
-		waitTime(driver);
-		grep.captureScreenshot("pass", "Project Testing Project in Survey Sent Popup",
-				"Project_testing_InSurveyComplete");
+		grep.captureScreenshot("pass", "Salesforce in Project in Survey Complete Popup", "sfdc_InSurveyComplete");
 		waitTime(driver);
 		csatPopup.selectProjectFilterIn_Popup(dataKeys.project_InPopup);
 
@@ -315,17 +314,20 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		csatPopup.selectAcc_ExecFilterIn_Popup(dataKeys.phani_AccExe_InPopup);
 		csatPopup.getAcc_Exe_ValueFromTable(dataKeys.phani_AccExe_InPopup);
 		waitTime(driver);
-		grep.captureScreenshot("pass", "Phani Account Executive in Survey Sent Popup", "Phani_AccEXE_InSurveyComplete");
+		grep.captureScreenshot("pass", "Phani Account Executive in Survey Complete Popup",
+				"Phani_AccEXE_InSurveyComplete");
 		waitTime(driver);
-		csatPopup.selectAcc_ExecFilterIn_Popup(dataKeys.raj_AccExe_InPopup);
-		csatPopup.getAcc_Exe_ValueFromTable(dataKeys.raj_AccExe_InPopup);
+		csatPopup.selectAcc_ExecFilterIn_Popup(dataKeys.arun_AccExe_InPopup);
+		csatPopup.getAcc_Exe_ValueFromTable(dataKeys.arun_AccExe_InPopup);
 		waitTime(driver);
-		grep.captureScreenshot("pass", " Raj Account Executive in Survey Sent Popup", "Raj_AccEXE_InSurveyComplete");
+		grep.captureScreenshot("pass", " Arun Account Executive in Survey Complete Popup",
+				"Arun_AccEXE_InSurveyComplete");
 		waitTime(driver);
 		csatPopup.selectAcc_ExecFilterIn_Popup(dataKeys.anwar_AccExe_InPopup);
 		csatPopup.getAcc_Exe_ValueFromTable(dataKeys.anwar_AccExe_InPopup);
 		waitTime(driver);
-		grep.captureScreenshot("pass", "Anwar Account Executive in Survey Sent Popup", "Anwar_AccEXE_InSurveyComplete");
+		grep.captureScreenshot("pass", "Anwar Account Executive in Survey Complete Popup",
+				"Anwar_AccEXE_InSurveyComplete");
 		waitTime(driver);
 		csatPopup.selectAcc_ExecFilterIn_Popup(dataKeys.accountExecutive_InPopup);
 
@@ -337,13 +339,12 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		csatPopup.selectSurveyFilterIn_Popup(dataKeys.csatDev_Survey_InPopup);
 		csatPopup.getSurvey_ValueFromTable(dataKeys.csatDev_Survey_InPopup);
 		waitTime(driver);
-		grep.captureScreenshot("pass", "CSAT DEV survey Name in Survey Sent Popup", "CsatDev_InSurveyComplete");
+		grep.captureScreenshot("pass", "CSAT DEV survey Name in Survey Complete Popup", "CsatDev_InSurveyComplete");
 		waitTime(driver);
-		csatPopup.selectSurveyFilterIn_Popup(dataKeys.csatEngage_Survey_InPopup);
-		csatPopup.getSurvey_ValueFromTable(dataKeys.csatEngage_Survey_InPopup);
+		csatPopup.selectSurveyFilterIn_Popup(dataKeys.csatAms_Survey_InPopup);
+		csatPopup.getSurvey_ValueFromTable(dataKeys.csatAms_Survey_InPopup);
 		waitTime(driver);
-		grep.captureScreenshot("pass", "CSAT Engagement survey Name in Survey Sent Popup",
-				"CsatEngage_InSurveyComplete");
+		grep.captureScreenshot("pass", "CSAT AMS survey Name in Survey Complete Popup", "CsatAMS_InSurveyComplete");
 		waitTime(driver);
 		csatPopup.selectSurveyFilterIn_Popup(dataKeys.surveyName_InPopup);
 
@@ -374,9 +375,11 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		}
 		waitTime(driver);
 		csatPopup.selectPaginationInCSAT_Popup("50");
-		csatPopup.selectPaginationInCSAT_Popup("100");
+		waitTime2(driver);
+		csatPopup.selectPaginationInCSAT_Popup("25");
+		waitTime2(driver);
 		csatPopup.selectPaginationInCSAT_Popup("10");
-		waitTime(driver);
+		waitTime2(driver);
 
 		csatPopup.selectFilterInCSAT_Popup(dataKeys.excellentOption_InPopup);
 		csatPopup.getCSAT_ValueFromTable("4");
