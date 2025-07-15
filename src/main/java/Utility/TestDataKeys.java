@@ -148,7 +148,7 @@ public class TestDataKeys {
 // Customer contact 
 	public String customerContactName = "Phani Kumar Maddi";
 	public String customerContactEmail = "phani.maddi@criticalriver.com";
-	public String updateCustomerContactEmail = "phani.maddi@gmail.com";
+	public String updateCustomerContactEmail = "phanikumarmaddi@gmail.com";
 	public String customerContactInvalidEmail = "Phani Kumar Maddi";
 //	public String customerContactName ="":
 

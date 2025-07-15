@@ -8840,3 +8840,464 @@ Session ID: 34a52cfb9bbebab22be928b7287f2336
 2025-07-14 20:21:38 [main] INFO : Project Deleted
 2025-07-14 20:21:38 [main] INFO : Testing Ended
 2025-07-14 20:21:38 [main] INFO : ***********
+2025-07-14 20:35:27 [main] INFO : Launching Chrome Browser
+2025-07-14 20:35:27 [main] INFO : Report Name :CsatPage.html
+2025-07-14 20:36:00 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-14 20:36:00 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-14 20:36:00 [main] INFO : Inside Login Page: LOGIN
+2025-07-14 20:36:29 [main] INFO : Logged in to CSAT Application
+2025-07-14 20:36:30 [main] INFO : Menu Collapsed
+2025-07-14 20:36:31 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-14 20:36:31 [main] INFO : Save Button is Disabled
+2025-07-14 20:36:33 [main] INFO : Verify Creating a new Project
+2025-07-14 20:36:34 [main] INFO : Entering Project Name: Automation Test
+2025-07-14 20:36:35 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-14 20:36:36 [main] INFO : Entering Project Status: Pipeline
+2025-07-14 20:36:36 [main] INFO : Entering Project Type: Development
+2025-07-14 20:36:37 [main] INFO : Entering Project Description: For Automation Testing Purpose
+2025-07-14 20:36:38 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-14 20:36:39 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-14 20:36:44 [main] INFO : Save Button is Disabled
+2025-07-14 20:36:46 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-14 20:36:47 [main] INFO : Entering Project Name: Automation Test
+2025-07-14 20:36:48 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-14 20:36:48 [main] INFO : Verify the error messgae 
+2025-07-14 20:36:49 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-14 20:36:50 [main] INFO : Verify Adding Invalid customer email format
+2025-07-14 20:36:51 [main] INFO : Entering Project Name: Automation Test
+2025-07-14 20:36:52 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-14 20:36:54 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-14 20:36:55 [main] INFO : Entering Customer Email: Phani Kumar Maddi
+2025-07-14 20:37:56 [main] ERROR: Customer Email not available
+2025-07-14 20:37:58 [main] INFO : Verify Creating a new Project
+2025-07-14 20:38:00 [main] INFO : Entering Project Name: Automation Test
+2025-07-14 20:38:00 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-14 20:38:01 [main] INFO : Verify the error messgae 
+2025-07-14 20:38:02 [main] INFO : A project with this name already exists.
+2025-07-14 20:38:04 [main] INFO : Verify Creating a new Project
+2025-07-14 20:38:06 [main] INFO : Entering Project Name: Automation Test
+2025-07-14 20:38:07 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-14 20:38:07 [main] INFO : Entering Project Status: Pipeline
+2025-07-14 20:38:08 [main] INFO : Entering Project Type: Development
+2025-07-14 20:38:09 [main] INFO : Entering Project Description: For Automation Testing Purpose
+2025-07-14 20:38:20 [main] INFO : Entering Project Start Date: 2025-07-15
+2025-07-14 20:38:26 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-14 20:38:27 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-14 20:38:30 [main] ERROR: Test Failed :element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary Mui-disabled MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary Project-save-button css-11lsgd4" tabindex="-1" type="button" disabled="">...</button> is not clickable at point (1108, 876). Other element would receive the click: <div class="MuiDialogActions-root MuiDialogActions-spacing Project-dialog-actions css-8mwzdy">...</div>
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b725788d1344c9a1967343eebb0830f0, clickElement {id=f.620EFF23313A748E4CC4F59E2D599B60.d.8BD4A40DABC0ED5E14786DAA5387A869.e.2065}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60046}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60046/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b725788d1344c9a1967343eebb0830f0)] -> xpath: //button[text()='Save']]
+Session ID: b725788d1344c9a1967343eebb0830f0
+2025-07-14 20:38:30 [main] INFO : Save Project
+2025-07-14 20:38:31 [main] INFO : Update Duplicate customer contact
+2025-07-14 20:38:33 [main] ERROR: Test Failed :element click intercepted: Element <button class="Project-action-button Project-edit-button" title="Edit">...</button> is not clickable at point (1331, 588). Other element would receive the click: <div class="MuiDialog-container MuiDialog-scrollPaper css-8azq84" role="presentation" tabindex="-1" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);">...</div>
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b725788d1344c9a1967343eebb0830f0, clickElement {id=f.620EFF23313A748E4CC4F59E2D599B60.d.8BD4A40DABC0ED5E14786DAA5387A869.e.192}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60046}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60046/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b725788d1344c9a1967343eebb0830f0)] -> xpath: //td[text()='Test Automation']/parent::tr/td[@class='Project-action-cell']/div/button[@title='Edit']]
+Session ID: b725788d1344c9a1967343eebb0830f0
+2025-07-14 20:43:12 [main] INFO : Launching Chrome Browser
+2025-07-14 20:43:12 [main] INFO : Report Name :CsatPage.html
+2025-07-14 20:43:18 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-14 20:43:18 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-14 20:43:18 [main] INFO : Inside Login Page: LOGIN
+2025-07-14 20:43:46 [main] INFO : Logged in to CSAT Application
+2025-07-14 20:43:47 [main] INFO : Menu Collapsed
+2025-07-14 20:43:48 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-14 20:43:48 [main] INFO : Save Button is Disabled
+2025-07-14 20:43:50 [main] INFO : Verify Creating a new Project
+2025-07-14 20:43:51 [main] INFO : Entering Project Name: Automation Test
+2025-07-14 20:43:52 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-14 20:43:53 [main] INFO : Entering Project Status: Pipeline
+2025-07-14 20:43:53 [main] INFO : Entering Project Type: Development
+2025-07-14 20:43:54 [main] INFO : Entering Project Description: For Automation Testing Purpose
+2025-07-14 20:43:55 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-14 20:43:56 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-14 20:44:01 [main] INFO : Save Button is Disabled
+2025-07-14 20:44:03 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-14 20:44:04 [main] INFO : Entering Project Name: Automation Test
+2025-07-14 20:44:05 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-14 20:44:05 [main] INFO : Verify the error messgae 
+2025-07-14 20:44:06 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-14 20:44:07 [main] INFO : Verify Adding Invalid customer email format
+2025-07-14 20:44:08 [main] INFO : Entering Project Name: Automation Test
+2025-07-14 20:44:09 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-14 20:44:11 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-14 20:44:12 [main] INFO : Entering Customer Email: Phani Kumar Maddi
+2025-07-14 20:44:13 [main] INFO : Please enter a valid email address (e.g., user@example.com).
+2025-07-14 20:44:15 [main] INFO : Verify Creating a new Project
+2025-07-14 20:44:16 [main] INFO : Entering Project Name: Automation Test
+2025-07-14 20:44:17 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-14 20:44:17 [main] INFO : Verify the error messgae 
+2025-07-14 20:44:18 [main] INFO : A project with this name already exists.
+2025-07-14 20:44:20 [main] INFO : Verify Creating a new Project
+2025-07-14 20:44:21 [main] INFO : Entering Project Name: Automation Test
+2025-07-14 20:44:21 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-14 20:44:22 [main] INFO : Entering Project Status: Pipeline
+2025-07-14 20:44:23 [main] INFO : Entering Project Type: Development
+2025-07-14 20:44:23 [main] INFO : Entering Project Description: For Automation Testing Purpose
+2025-07-14 20:44:35 [main] INFO : Entering Project Start Date: 2025-07-15
+2025-07-14 20:44:40 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-14 20:44:41 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-14 20:44:45 [main] ERROR: Test Failed :element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary Mui-disabled MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary Project-save-button css-11lsgd4" tabindex="-1" type="button" disabled="">...</button> is not clickable at point (1648, 896). Other element would receive the click: <div class="MuiDialogActions-root MuiDialogActions-spacing Project-dialog-actions css-8mwzdy">...</div>
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9a47eaa23630e2952452f6aa420689e, clickElement {id=f.319B765FC771017BACE05AC71F84142C.d.04C94F697045BFE9337F01E50200BF7C.e.591}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60443/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f9a47eaa23630e2952452f6aa420689e)] -> xpath: //button[text()='Save']]
+Session ID: f9a47eaa23630e2952452f6aa420689e
+2025-07-14 20:44:45 [main] INFO : Save Project
+2025-07-14 20:44:46 [main] INFO : Update Duplicate customer contact
+2025-07-14 20:44:47 [main] ERROR: Test Failed :element click intercepted: Element <button class="Project-action-button Project-edit-button" title="Edit">...</button> is not clickable at point (2385, 599). Other element would receive the click: <div class="MuiDialog-container MuiDialog-scrollPaper css-8azq84" role="presentation" tabindex="-1" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);">...</div>
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9a47eaa23630e2952452f6aa420689e, clickElement {id=f.319B765FC771017BACE05AC71F84142C.d.04C94F697045BFE9337F01E50200BF7C.e.191}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60443/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f9a47eaa23630e2952452f6aa420689e)] -> xpath: //td[text()='Test Automation']/parent::tr/td[@class='Project-action-cell']/div/button[@title='Edit']]
+Session ID: f9a47eaa23630e2952452f6aa420689e
+2025-07-14 20:45:17 [main] INFO : Launching Chrome Browser
+2025-07-14 20:45:17 [main] INFO : Report Name :CsatPage.html
+2025-07-14 20:45:23 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-14 20:45:23 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-14 20:45:23 [main] INFO : Inside Login Page: LOGIN
+2025-07-14 20:45:51 [main] INFO : Logged in to CSAT Application
+2025-07-14 20:45:52 [main] INFO : Menu Collapsed
+2025-07-14 20:45:52 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-14 20:45:53 [main] INFO : Save Button is Disabled
+2025-07-14 20:45:55 [main] INFO : Verify Creating a new Project
+2025-07-14 20:45:56 [main] INFO : Entering Project Name: Automation Test
+2025-07-14 20:45:57 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-14 20:45:58 [main] INFO : Entering Project Status: Pipeline
+2025-07-14 20:45:58 [main] INFO : Entering Project Type: Development
+2025-07-14 20:45:59 [main] INFO : Entering Project Description: For Automation Testing Purpose
+2025-07-14 20:46:00 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-14 20:46:01 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-14 20:46:06 [main] INFO : Save Button is Disabled
+2025-07-14 20:46:08 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-14 20:46:09 [main] INFO : Entering Project Name: Automation Test
+2025-07-14 20:46:10 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-14 20:46:10 [main] INFO : Verify the error messgae 
+2025-07-14 20:46:10 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-14 20:46:12 [main] INFO : Verify Adding Invalid customer email format
+2025-07-14 20:46:13 [main] INFO : Entering Project Name: Automation Test
+2025-07-14 20:46:14 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-14 20:46:16 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-14 20:46:17 [main] INFO : Entering Customer Email: Phani Kumar Maddi
+2025-07-14 20:46:17 [main] INFO : Please enter a valid email address (e.g., user@example.com).
+2025-07-14 20:46:20 [main] INFO : Verify Creating a new Project
+2025-07-14 20:46:21 [main] INFO : Entering Project Name: Automation Test
+2025-07-14 20:46:21 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-14 20:46:22 [main] INFO : Verify the error messgae 
+2025-07-14 20:46:23 [main] INFO : A project with this name already exists.
+2025-07-14 20:46:25 [main] INFO : Verify Creating a new Project
+2025-07-14 20:46:26 [main] INFO : Entering Project Name: Automation Test
+2025-07-14 20:46:26 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-14 20:46:27 [main] INFO : Entering Project Status: Pipeline
+2025-07-14 20:46:28 [main] INFO : Entering Project Type: Development
+2025-07-14 20:46:29 [main] INFO : Entering Project Description: For Automation Testing Purpose
+2025-07-14 20:46:40 [main] INFO : Entering Project Start Date: 2025-07-15
+2025-07-14 20:46:45 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-14 20:46:46 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-14 20:46:49 [main] INFO : Save Project
+2025-07-14 20:46:50 [main] INFO : Update Duplicate customer contact
+2025-07-14 20:46:56 [main] INFO : A contact with this name and email already exists.
+2025-07-14 20:46:58 [main] INFO : Update new customer contact to existing project
+2025-07-14 20:47:05 [main] ERROR: Test Failed :element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary Mui-disabled MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary Project-save-button css-118dbpa" tabindex="-1" type="button" disabled="">...</button> is not clickable at point (1648, 942). Other element would receive the click: <div class="MuiDialogActions-root MuiDialogActions-spacing Project-dialog-actions css-8mwzdy">...</div>
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f075b64056b60f8e10a3613d1be5555, clickElement {id=f.1E0ED7731F6395648465ACB31B276103.d.C424D4687F1BA738E608DE80E7870032.e.657}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60664}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60664/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8f075b64056b60f8e10a3613d1be5555)] -> xpath: //button[text()='Save']]
+Session ID: 8f075b64056b60f8e10a3613d1be5555
+2025-07-14 20:47:05 [main] INFO : Delete Existing Project
+2025-07-14 20:47:06 [main] ERROR: Test Failed :element click intercepted: Element <button class="Project-action-button Project-delete-button" title="Delete">...</button> is not clickable at point (2415, 457). Other element would receive the click: <div class="MuiDialog-container MuiDialog-scrollPaper css-8azq84" role="presentation" tabindex="-1" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);">...</div>
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f075b64056b60f8e10a3613d1be5555, clickElement {id=f.1E0ED7731F6395648465ACB31B276103.d.C424D4687F1BA738E608DE80E7870032.e.658}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60664}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60664/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8f075b64056b60f8e10a3613d1be5555)] -> xpath: //td[text()='Automation Test']/parent::tr/td[@class='Project-action-cell']/div/button[@title='Delete']]
+Session ID: 8f075b64056b60f8e10a3613d1be5555
+2025-07-14 20:48:07 [main] ERROR: Yes Button Not Available
+2025-07-14 20:48:09 [main] INFO : Project Deleted
+2025-07-14 20:48:09 [main] INFO : Project Deleted
+2025-07-14 20:48:09 [main] INFO : Project Deleted
+2025-07-14 20:48:09 [main] INFO : Project Deleted
+2025-07-14 20:48:09 [main] INFO : Project Deleted
+2025-07-14 20:48:09 [main] INFO : Testing Ended
+2025-07-14 20:48:09 [main] INFO : ***********
+2025-07-15 07:29:39 [main] INFO : Launching Chrome Browser
+2025-07-15 07:29:39 [main] INFO : Report Name :CsatPage.html
+2025-07-15 07:30:08 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-15 07:30:08 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-15 07:30:08 [main] INFO : Inside Login Page: LOGIN
+2025-07-15 07:31:04 [main] INFO : Logged in to CSAT Application
+2025-07-15 07:31:05 [main] INFO : Menu Collapsed
+2025-07-15 07:31:05 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-15 07:31:06 [main] INFO : Save Button is Disabled
+2025-07-15 07:31:08 [main] INFO : Verify Creating a new Project
+2025-07-15 07:31:09 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 07:31:09 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 07:31:10 [main] INFO : Entering Project Status: Pipeline
+2025-07-15 07:31:11 [main] INFO : Entering Project Type: Development
+2025-07-15 07:31:12 [main] INFO : Entering Project Description: For Automation Testing Purpose
+2025-07-15 07:31:12 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-15 07:31:13 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-15 07:31:18 [main] INFO : Save Button is Disabled
+2025-07-15 07:31:20 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-15 07:31:21 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 07:31:22 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 07:31:22 [main] INFO : Verify the error messgae 
+2025-07-15 07:31:22 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-15 07:31:24 [main] INFO : Verify Adding Invalid customer email format
+2025-07-15 07:31:25 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 07:31:26 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 07:33:21 [main] INFO : Launching Chrome Browser
+2025-07-15 07:33:21 [main] INFO : Report Name :CsatPage.html
+2025-07-15 07:33:26 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-15 07:33:26 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-15 07:33:26 [main] INFO : Inside Login Page: LOGIN
+2025-07-15 07:33:54 [main] INFO : Logged in to CSAT Application
+2025-07-15 07:33:55 [main] INFO : Menu Collapsed
+2025-07-15 07:33:55 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-15 07:33:56 [main] INFO : Save Button is Disabled
+2025-07-15 07:33:58 [main] INFO : Verify Creating a new Project
+2025-07-15 07:33:59 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 07:34:00 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 07:34:00 [main] INFO : Entering Project Status: Pipeline
+2025-07-15 07:34:01 [main] INFO : Entering Project Type: Development
+2025-07-15 07:34:02 [main] INFO : Entering Project Description: For Automation Testing Purpose
+2025-07-15 07:34:03 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-15 07:34:04 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-15 07:34:09 [main] INFO : Save Button is Disabled
+2025-07-15 07:34:11 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-15 07:34:12 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 07:34:13 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 07:34:13 [main] INFO : Verify the error messgae 
+2025-07-15 07:34:13 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-15 07:34:15 [main] INFO : Verify Adding Invalid customer email format
+2025-07-15 07:34:16 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 07:34:17 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 07:34:19 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-15 07:34:20 [main] INFO : Entering Customer Email: Phani Kumar Maddi
+2025-07-15 07:34:20 [main] INFO : Please enter a valid email address (e.g., user@example.com).
+2025-07-15 07:34:23 [main] INFO : Verify Creating a new Project
+2025-07-15 07:34:24 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 07:34:24 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 07:34:25 [main] INFO : Verify the error messgae 
+2025-07-15 07:34:26 [main] INFO : A project with this name already exists.
+2025-07-15 07:34:27 [main] INFO : Verify Creating a new Project
+2025-07-15 07:34:28 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 07:34:29 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 07:34:30 [main] INFO : Entering Project Status: Pipeline
+2025-07-15 07:34:30 [main] INFO : Entering Project Type: Development
+2025-07-15 07:34:31 [main] INFO : Entering Project Description: For Automation Testing Purpose
+2025-07-15 07:34:42 [main] INFO : Entering Project Start Date: 2025-07-15
+2025-07-15 07:34:48 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-15 07:34:48 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-15 07:34:51 [main] INFO : Save Project
+2025-07-15 07:34:52 [main] INFO : Update Duplicate customer contact
+2025-07-15 07:34:58 [main] INFO : A contact with this name and email already exists.
+2025-07-15 07:35:01 [main] INFO : Update new customer contact to existing project
+2025-07-15 07:35:12 [main] INFO : Delete  customer contact from existing project
+2025-07-15 07:35:24 [main] INFO : Delete Existing Project
+2025-07-15 07:35:25 [main] ERROR: Test Failed :element click intercepted: Element <button class="Project-action-button Project-delete-button" title="Delete">...</button> is not clickable at point (2415, 457). Other element would receive the click: <div class="MuiDialog-container MuiDialog-scrollPaper css-8azq84" role="presentation" tabindex="-1" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [43c32dd96f1beb6e7e4e7feaf9ddbf01, clickElement {id=f.C10DACFD63AD0664B914F3418F0E35A6.d.76E9074593F59AE36C024AD7D1E636E8.e.748}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51477}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51477/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (43c32dd96f1beb6e7e4e7feaf9ddbf01)] -> xpath: //td[text()='Automation Test']/parent::tr/td[@class='Project-action-cell']/div/button[@title='Delete']]
+Session ID: 43c32dd96f1beb6e7e4e7feaf9ddbf01
+2025-07-15 07:35:57 [main] INFO : Project Deleted
+2025-07-15 07:35:57 [main] INFO : Project Deleted
+2025-07-15 07:35:57 [main] INFO : Project Deleted
+2025-07-15 07:35:57 [main] INFO : Project Deleted
+2025-07-15 07:35:58 [main] INFO : Testing Ended
+2025-07-15 07:35:58 [main] INFO : ***********
+2025-07-15 07:58:36 [main] INFO : Launching Chrome Browser
+2025-07-15 07:58:36 [main] INFO : Report Name :CsatPage.html
+2025-07-15 07:59:18 [main] INFO : Launching Chrome Browser
+2025-07-15 07:59:18 [main] INFO : Report Name :CsatPage.html
+2025-07-15 07:59:22 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-15 07:59:22 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-15 07:59:22 [main] INFO : Inside Login Page: LOGIN
+2025-07-15 07:59:49 [main] INFO : Logged in to CSAT Application
+2025-07-15 07:59:50 [main] INFO : Menu Collapsed
+2025-07-15 07:59:50 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-15 07:59:51 [main] INFO : Save Button is Disabled
+2025-07-15 07:59:53 [main] INFO : Verify Creating a new Project
+2025-07-15 07:59:54 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 07:59:55 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 07:59:56 [main] INFO : Entering Project Status: Pipeline
+2025-07-15 07:59:56 [main] INFO : Entering Project Type: Development
+2025-07-15 07:59:57 [main] INFO : Entering Project Description: For Automation Testing Purpose
+2025-07-15 07:59:58 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-15 07:59:59 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-15 08:00:04 [main] INFO : Save Button is Disabled
+2025-07-15 08:00:06 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-15 08:00:07 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 08:00:08 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 08:00:08 [main] INFO : Verify the error messgae 
+2025-07-15 08:00:08 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-15 08:00:10 [main] INFO : Verify Adding Invalid customer email format
+2025-07-15 08:00:11 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 08:00:12 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 08:00:14 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-15 08:00:15 [main] INFO : Entering Customer Email: Phani Kumar Maddi
+2025-07-15 08:00:15 [main] INFO : Please enter a valid email address (e.g., user@example.com).
+2025-07-15 08:00:18 [main] INFO : Verify Creating a new Project
+2025-07-15 08:00:19 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 08:00:19 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 08:00:20 [main] INFO : Verify the error messgae 
+2025-07-15 08:00:21 [main] INFO : A project with this name already exists.
+2025-07-15 08:00:23 [main] INFO : Verify Creating a new Project
+2025-07-15 08:00:24 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 08:00:24 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 08:00:25 [main] INFO : Entering Project Status: Pipeline
+2025-07-15 08:00:26 [main] INFO : Entering Project Type: Development
+2025-07-15 08:00:26 [main] INFO : Entering Project Description: For Automation Testing Purpose
+2025-07-15 08:00:38 [main] INFO : Entering Project Start Date: 2025-07-15
+2025-07-15 08:00:43 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-15 08:00:44 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-15 08:00:47 [main] INFO : Save Project
+2025-07-15 08:00:48 [main] INFO : Update Duplicate customer contact
+2025-07-15 08:00:54 [main] INFO : A contact with this name and email already exists.
+2025-07-15 08:00:56 [main] INFO : Update new customer contact to existing project
+2025-07-15 08:01:07 [main] INFO : Delete  customer contact from existing project
+2025-07-15 08:01:08 [main] ERROR: Test Failed :element click intercepted: Element <button class="Project-action-button Project-edit-button" title="Edit">...</button> is not clickable at point (2385, 505). Other element would receive the click: <div class="MuiDialog-container MuiDialog-scrollPaper css-8azq84" role="presentation" tabindex="-1" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3f632e04c667486d3ef3b8c0633644cd, clickElement {id=f.34F36A288F6AE3EF23E705F1DBF7B408.d.0BE3FCDA0F3F7479A3F0A39F81E569B5.e.157}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49721}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49721/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3f632e04c667486d3ef3b8c0633644cd)] -> xpath: //td[text()='Test Automation']/parent::tr/td[@class='Project-action-cell']/div/button[@title='Edit']]
+Session ID: 3f632e04c667486d3ef3b8c0633644cd
+2025-07-15 08:02:10 [main] ERROR: Delete Customer Contact button not available
+2025-07-15 08:03:43 [main] INFO : Launching Chrome Browser
+2025-07-15 08:03:43 [main] INFO : Report Name :CsatPage.html
+2025-07-15 08:03:47 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-15 08:03:47 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-15 08:03:47 [main] INFO : Inside Login Page: LOGIN
+2025-07-15 08:04:12 [main] INFO : Logged in to CSAT Application
+2025-07-15 08:04:13 [main] INFO : Menu Collapsed
+2025-07-15 08:04:13 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-15 08:04:14 [main] INFO : Save Button is Disabled
+2025-07-15 08:04:16 [main] INFO : Verify Creating a new Project
+2025-07-15 08:04:17 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 08:04:18 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 08:04:18 [main] INFO : Entering Project Status: Pipeline
+2025-07-15 08:04:19 [main] INFO : Entering Project Type: Development
+2025-07-15 08:04:20 [main] INFO : Entering Project Description: For Automation Testing Purpose
+2025-07-15 08:04:21 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-15 08:04:22 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-15 08:04:27 [main] INFO : Save Button is Disabled
+2025-07-15 08:04:29 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-15 08:04:30 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 08:04:31 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 08:04:31 [main] INFO : Verify the error messgae 
+2025-07-15 08:04:31 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-15 08:04:33 [main] INFO : Verify Adding Invalid customer email format
+2025-07-15 08:04:34 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 08:04:35 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 08:04:37 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-15 08:04:38 [main] INFO : Entering Customer Email: Phani Kumar Maddi
+2025-07-15 08:04:38 [main] INFO : Please enter a valid email address (e.g., user@example.com).
+2025-07-15 08:04:41 [main] INFO : Verify Creating a new Project
+2025-07-15 08:04:42 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 08:04:42 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 08:04:43 [main] INFO : Verify the error messgae 
+2025-07-15 08:04:43 [main] INFO : A project with this name already exists.
+2025-07-15 08:04:45 [main] INFO : Verify Creating a new Project
+2025-07-15 08:04:46 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 08:04:46 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 08:04:47 [main] INFO : Entering Project Status: Pipeline
+2025-07-15 08:04:48 [main] INFO : Entering Project Type: Development
+2025-07-15 08:04:49 [main] INFO : Entering Project Description: For Automation Testing Purpose
+2025-07-15 08:05:00 [main] INFO : Entering Project Start Date: 2025-07-15
+2025-07-15 08:05:05 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-15 08:05:06 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-15 08:05:09 [main] INFO : Save Project
+2025-07-15 08:05:10 [main] INFO : Update Duplicate customer contact
+2025-07-15 08:05:17 [main] INFO : A contact with this name and email already exists.
+2025-07-15 08:05:19 [main] INFO : Update new customer contact to existing project
+2025-07-15 08:05:31 [main] INFO : Delete  customer contact from existing project
+2025-07-15 08:06:36 [main] ERROR: Delete Customer Contact button not available
+2025-07-15 08:06:45 [main] INFO : Delete Existing Project
+2025-07-15 08:06:48 [main] INFO : Project Deleted
+2025-07-15 08:06:48 [main] INFO : Project Deleted
+2025-07-15 08:06:48 [main] INFO : Project Deleted
+2025-07-15 08:06:48 [main] INFO : Project Deleted
+2025-07-15 08:06:48 [main] INFO : Testing Ended
+2025-07-15 08:06:48 [main] INFO : ***********
+2025-07-15 08:09:45 [main] INFO : Launching Chrome Browser
+2025-07-15 08:09:45 [main] INFO : Report Name :CsatPage.html
+2025-07-15 08:09:49 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-15 08:09:49 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-15 08:09:49 [main] INFO : Inside Login Page: LOGIN
+2025-07-15 08:10:15 [main] INFO : Logged in to CSAT Application
+2025-07-15 08:10:15 [main] INFO : Menu Collapsed
+2025-07-15 08:10:16 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-15 08:10:17 [main] INFO : Save Button is Disabled
+2025-07-15 08:10:19 [main] INFO : Verify Creating a new Project
+2025-07-15 08:10:20 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 08:10:20 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 08:10:21 [main] INFO : Entering Project Status: Pipeline
+2025-07-15 08:10:22 [main] INFO : Entering Project Type: Development
+2025-07-15 08:10:23 [main] INFO : Entering Project Description: For Automation Testing Purpose
+2025-07-15 08:10:23 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-15 08:10:24 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-15 08:10:29 [main] INFO : Save Button is Disabled
+2025-07-15 08:10:32 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-15 08:10:33 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 08:10:33 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 08:10:34 [main] INFO : Verify the error messgae 
+2025-07-15 08:10:34 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-15 08:10:36 [main] INFO : Verify Adding Invalid customer email format
+2025-07-15 08:10:37 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 08:10:38 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 08:10:40 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-15 08:10:41 [main] INFO : Entering Customer Email: Phani Kumar Maddi
+2025-07-15 08:10:41 [main] INFO : Please enter a valid email address (e.g., user@example.com).
+2025-07-15 08:10:44 [main] INFO : Verify Creating a new Project
+2025-07-15 08:10:44 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 08:10:45 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 08:10:46 [main] INFO : Verify the error messgae 
+2025-07-15 08:10:46 [main] INFO : A project with this name already exists.
+2025-07-15 08:10:48 [main] INFO : Verify Creating a new Project
+2025-07-15 08:10:49 [main] INFO : Entering Project Name: Automation Test
+2025-07-15 08:10:50 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-15 08:10:50 [main] INFO : Entering Project Status: Pipeline
+2025-07-15 08:10:51 [main] INFO : Entering Project Type: Development
+2025-07-15 08:10:52 [main] INFO : Entering Project Description: For Automation Testing Purpose
+2025-07-15 08:11:03 [main] INFO : Entering Project Start Date: 2025-07-15
+2025-07-15 08:11:08 [main] INFO : Entering Customer Name: Phani Kumar Maddi
+2025-07-15 08:11:09 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-15 08:11:12 [main] INFO : Save Project
+2025-07-15 08:11:13 [main] INFO : Update Duplicate customer contact
+2025-07-15 08:11:20 [main] INFO : A contact with this name and email already exists.
+2025-07-15 08:11:22 [main] INFO : Update new customer contact to existing project
+2025-07-15 08:11:35 [main] INFO : Delete  customer contact from existing project
+2025-07-15 08:11:48 [main] INFO : Delete Existing Project
+2025-07-15 08:11:52 [main] INFO : Project Deleted
+2025-07-15 08:11:52 [main] INFO : Project Deleted
+2025-07-15 08:11:52 [main] INFO : Project Deleted
+2025-07-15 08:11:52 [main] INFO : Project Deleted
+2025-07-15 08:11:53 [main] INFO : Testing Ended
+2025-07-15 08:11:53 [main] INFO : ***********

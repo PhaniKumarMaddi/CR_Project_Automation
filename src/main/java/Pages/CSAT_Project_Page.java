@@ -80,10 +80,11 @@ public class CSAT_Project_Page extends WaitsManager {
 
 	By customerFullName = By.xpath("//input[@name='fullName']");
 	By customerEmail = By.xpath("//input[@name='email']");
-//	By customerEmailError = By.xpath("//div[@class='Project-contact-row']/div[2]/p");
-	By customerEmailError = By.xpath("//div[@class='Project-contact-row']/div[2]/div/p");
+	By customerEmailError = By.xpath("//div[@class='Project-contact-row']/div[2]/p");
+	By updateCustomerEmailError = By.xpath("//div[@class='Project-contact-row']/div[2]/div/p");
 
-	By deleteCustomerContactBtn = By.xpath("//img[@alt='Delete Icon']");
+	By deleteCustomerContactBtn = By.xpath("//button[@type='button']/img[@alt='Delete' and @class='Project-action-icon']");
+	//img[@alt='Delete Icon']
 	By addNewCustomerContact = By.xpath("//button[text()=' Add New']");
 	By projectAfterDeletion = By.xpath("//tr[@class='Project-even-row']/td[1]");
 
@@ -1195,13 +1196,37 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 	}
 
+	public void getCustomerEmailErrorInUpdate() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(updateCustomerEmailError).isEmpty();
+			if (elementExists) {
+				waitForElement(updateCustomerEmailError, 60);
+
+				String error = driver.findElement(updateCustomerEmailError).getText();
+				grep.passTest(error);
+				logger.info(error);
+			} else {
+				grep.failTest("Customer Email not available");
+				logger.error("Customer Email not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
 	public void deleteCustomerContact() throws Exception {
 		try {
 			implWait(driver);
 			boolean elementExists = !driver.findElements(deleteCustomerContactBtn).isEmpty();
 			if (elementExists) {
-				waitForElement(deleteCustomerContactBtn, 60);
-				driver.findElement(deleteCustomerContactBtn).click();
+				List<WebElement> delete = driver.findElements(deleteCustomerContactBtn);
+				if (delete.size() > 0) {
+					waitForElement(deleteCustomerContactBtn, 60);
+					delete.getLast().click();
+				}
 			} else {
 				grep.failTest("Delete Customer Contact button not available");
 				logger.error("Delete Customer Contact button not available");
@@ -1304,10 +1329,12 @@ public class CSAT_Project_Page extends WaitsManager {
 //			WebElement editIcon = driver.findElement(By.xpath(
 //					"//td[text()='" + projectName + "']/parent::tr/td[11]/div/button[@title='" + action + "']"));
 
-			WebElement editIcon = driver.findElement(By.xpath(
-					"//td[text()='" + projectName + "']/parent::tr/td[@class='Project-action-cell']/div/button[@title='" + action + "']"));
-			//td[text()='Test Automation']/parent::tr/td[@class='Project-action-cell']/div/button[@title='Edit']
+			WebElement editIcon = driver.findElement(By.xpath("//td[text()='" + projectName
+					+ "']/parent::tr/td[@class='Project-action-cell']/div/button[@title='" + action + "']"));
+			// td[text()='Test
+			// Automation']/parent::tr/td[@class='Project-action-cell']/div/button[@title='Edit']
 			if (editIcon.isDisplayed()) {
+				waitTime1(driver);
 				editIcon.click();
 			} else {
 				logger.info(action + " is not available for " + projectName);
@@ -1326,12 +1353,12 @@ public class CSAT_Project_Page extends WaitsManager {
 			List<WebElement> projectList = driver.findElements(projectAfterDeletion);
 			if (projectList.size() > 0) {
 				for (WebElement project : projectList) {
-					if (project.equals(projectName)) {
-						grep.failTest("Project Not Deleted");
-						logger.error("Project Not Deleted");
+					if (!project.equals(projectName)) {
+						grep.failTest(projectName+" Project Deleted");
+						logger.error(projectName+" Project Deleted");
 					} else {
-						grep.passTest("Project Deleted");
-						logger.info("Project Deleted");
+						grep.passTest(projectName+" Project Not Deleted");
+						logger.info(projectName+" Project Not Deleted");
 					}
 				}
 			} else {
