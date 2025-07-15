@@ -57,15 +57,16 @@ public class CSAT_Project_Page extends WaitsManager {
 	By statuscolunInTable = By.xpath("//tr[@class='Project-odd-row']/td[5]/div");
 
 	By surveyResponse = By.xpath("//div[@class='Project-filter-box2']/select");
-	By surveyResponseColInTable = By.xpath("//tr[@class='Project-odd-row']/td[8]");
+	By surveyResponseColInTable = By.xpath("//tr[@class='Project-odd-row']/td[7]");
 
 	By surveyRuddrProject = By.xpath("//div[@class='Project-filter-box3']/select");
-	By surveyRuddrColInTable = By.xpath("//tr[@class='Project-odd-row']/td[7]");
+	By surveyRuddrColInTable = By.xpath("//tr[@class='Project-odd-row']/td[6]");
 
 	By projectEnding = By.xpath("//div[@class='Project-filter-box-days']/select");
-	By practicesFilter = By.xpath(
-			"//div[@class='MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiSelect-root css-iz33ar']/select");
+	By practicesFilter = By.xpath("//div[@class='Project-filter-practices']/select");
 	By practiceColInTable = By.xpath("//tr[@class='Project-odd-row']/td[2]");
+
+	By csatColInTable = By.xpath("//tr[@class='Project-odd-row']/td[8]");
 
 	By searchProjects = By.cssSelector("input.Project-search-input");
 
@@ -84,23 +85,20 @@ public class CSAT_Project_Page extends WaitsManager {
 	By customerEmailError = By.xpath("//div[@class='Project-contact-row']/div[2]/p");
 	By updateCustomerEmailError = By.xpath("//div[@class='Project-contact-row']/div[2]/div/p");
 
-	By deleteCustomerContactBtn = By.xpath("//button[@type='button']/img[@alt='Delete' and @class='Project-action-icon']");
-	//img[@alt='Delete Icon']
+	By deleteCustomerContactBtn = By
+			.xpath("//button[@type='button']/img[@alt='Delete' and @class='Project-action-icon']");
+	// img[@alt='Delete Icon']
 	By addNewCustomerContact = By.xpath("//button[text()=' Add New']");
 	By projectAfterDeletion = By.xpath("//tr[@class='Project-even-row']/td[1]");
 
-	// send functinality 
-	By selectContact= By.xpath("//div/span[text()='Select Contact']");
-	By selectContactOption = By.xpath("//div[@class='custom-dropdown-menu']/div[text()='Select All']");
-	By selectContactByIndex =By.xpath("//div[@class='custom-dropdown-menu']/div[2]");
-	By selectSurvey = By.xpath("//div[@class='form-group']/label[text()='Survey']");
+	// send Functionality
+	By selectContact = By.xpath("//div/span[text()='Select Contact']");
+	By selectSurvey = By.xpath("//label[text()='Survey']/parent::div[@class='form-group']/select");
 	By getSubject = By.xpath("//label[text()='Subject']/parent::div/input");
 	By getBody = By.xpath("//label[text()='Body']/parent::div/textarea");
-	
+
 	By emailSentmsg = By.xpath("//div[@class='MuiSnackbarContent-message css-1o19295']");
-	By surveySentCount = By.xpath("//p[text()='Surveys sent']/parent::div/p[2]");
-	
-	
+
 	public void headerValidation() throws Exception {
 		try {
 			implWait(driver);
@@ -337,27 +335,6 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 	}
 
-//	public void clickProjectBtns(String btnValue) throws Exception {
-//		try {
-//			implWait(driver);
-////			By button = By.xpath("//button[text()='" + btnValue + "']");
-//			By projectEditBtn = By.cssSelector("button.Project-action-button.Project-" + btnValue + "-button");
-//
-//			List<WebElement> element = driver.findElements(projectEditBtn);
-//			if (element.size() > 0) {
-//				element.getFirst().click();
-//
-//			} else {
-//				grep.failTest(btnValue + " Button Not Available");
-//				logger.error(btnValue + " Button Not Available");
-//			}
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//			grep.failTest("Test Failed :" + e.getMessage());
-//			logger.error("Test Failed :" + e.getMessage());
-//		}
-//	}
-
 	public void verifyProjectBtns(String btnValue) throws Exception {
 		try {
 			implWait(driver);
@@ -573,7 +550,7 @@ public class CSAT_Project_Page extends WaitsManager {
 				Select statusOpt = new Select(statusOption);
 				statusOpt.selectByVisibleText(option);
 			} else {
-				grep.failTest(option + " Pagination not Available");
+				grep.failTest(option + " Pagination Option not Available");
 				logger.error(option + " Pagination Option not Available");
 			}
 
@@ -602,8 +579,8 @@ public class CSAT_Project_Page extends WaitsManager {
 					logger.error(getOption + " pagination Option not Selected");
 				}
 			} else {
-				grep.failTest(option + " Status Option not Available");
-				logger.error(option + " Status Option not Available");
+				grep.failTest(option + " Pagination Option not Available");
+				logger.error(option + " Pagination Option not Available");
 
 			}
 		} catch (Exception e) {
@@ -1360,24 +1337,26 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 	}
 
-	public void getProjectnameList(String projectName) throws Exception {
+	public void getProjectNameList(String projectName) throws Exception {
 		try {
 			implWait(driver);
 			List<WebElement> projectList = driver.findElements(projectAfterDeletion);
 			if (projectList.size() > 0) {
+				int count = 0;
 				for (WebElement project : projectList) {
-					int count=0;
+
 					if (project.equals(projectName)) {
 						count++;
 					}
-					if(count==0) {
-						grep.passTest(projectName+" Project Deleted");
-						logger.info(projectName+" Project Deleted");
-					} else {
-						grep.failTest(projectName+" Project Not Deleted");
-						logger.error(projectName+" Project Not Deleted");
-					}
 				}
+				if (count == 0) {
+					grep.passTest(projectName + " Project Deleted");
+					logger.info(projectName + " Project Deleted");
+				} else {
+					grep.failTest(projectName + " Project Not Deleted");
+					logger.error(projectName + " Project Not Deleted");
+				}
+
 			} else {
 				logger.info("Project list is not available");
 				grep.infoTest("Project list is not available");
@@ -1388,4 +1367,195 @@ public class CSAT_Project_Page extends WaitsManager {
 			logger.error("Test Failed :" + e.getMessage());
 		}
 	}
+
+	public void clickSelectContact(String option) throws Exception {
+		try {
+			By selectContactOption = By.xpath("//div[@class='custom-dropdown-menu']/div[text()='" + option + "']");
+			implWait(driver);
+			boolean elementExists = !driver.findElements(selectContact).isEmpty();
+			if (elementExists) {
+				waitForElement(selectContact, 30);
+				driver.findElement(selectContact).click();
+				waitTime(driver);
+				driver.findElement(selectContactOption).click();
+				waitTime(driver);
+				grep.infoTest("Selected Contact");
+				logger.info("Selected Contact");
+//				driver.findElement(selectContact).click();
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void selectSurvey(String option) throws Exception {
+		try {
+			driver.findElement(selectSurvey).click();
+			implWait(driver);
+			boolean elementExists = !driver.findElements(selectSurvey).isEmpty();
+			if (elementExists) {
+
+				WebElement surveyOption = driver.findElement(selectSurvey);
+				Select surveyOpt = new Select(surveyOption);
+				surveyOpt.selectByVisibleText(option);
+			} else {
+				grep.failTest(option + " Survey Option not Available");
+				logger.error(option + " Survey Option not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+
+	}
+
+	public void retrieveSubjectBasedOnSurvey() throws Exception {
+		try {
+
+			implWait(driver);
+			boolean elementExists = !driver.findElements(getSubject).isEmpty();
+			if (elementExists) {
+
+				waitForElement(getSubject, 60);
+				String subject = driver.findElement(getSubject).getAttribute("value");
+				grep.infoTest("Subject Retrieved Based on Survey Type");
+				logger.info("Subject Retrieved Based on Survey Type");
+				grep.passTest(subject);
+				logger.info(subject);
+			} else {
+				grep.failTest("Failed to retrieve Subject Field Text");
+				logger.error("Failed to retrieve Subject Field Text");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void retrieveBodyBasedOnSurvey() throws Exception {
+		try {
+
+			implWait(driver);
+			boolean elementExists = !driver.findElements(getBody).isEmpty();
+			if (elementExists) {
+
+				waitForElement(getBody, 60);
+				String body = driver.findElement(getBody).getText();
+				grep.infoTest("Body Retrieved Based on Survey Type");
+				logger.info("Body Retrieved Based on Survey Type");
+				grep.passTest(body);
+				logger.info(body);
+			} else {
+				grep.failTest("Failed to retrieve body Field Text");
+				logger.error("Failed to retrieve body Field Text");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public String getSurveyCount(String surveyType) throws Exception {
+		String surveyCountResult = null;
+		try {
+
+			By surveyCount = By.xpath("//p[text()='" + surveyType + "']/parent::div/p[2]");
+			implWait(driver);
+			boolean elementExists = !driver.findElements(surveyCount).isEmpty();
+			if (elementExists) {
+				waitForElement(surveyCount, 60);
+				surveyCountResult = driver.findElement(surveyCount).getText();
+				grep.passTest("Count Retrieved");
+			} else {
+				surveyCountResult = "Failed to retrieve" + surveyType + " Count Text";
+				grep.failTest("Count Not Retrieved");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+		return surveyCountResult;
+
+	}
+
+	public void retrieveFeedBackSentMessage() throws Exception {
+		try {
+
+			waitForElementToBePopulated(getBody, 160);
+			String emailMsg = driver.findElement(emailSentmsg).getText();
+			grep.passTest("Email Send Message: " + emailMsg);
+			logger.info("Email Send Message: " + emailMsg);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public String verifyCsatColInTable(String projectName) throws Exception {
+		String csatColResult = null;
+		try {
+			By csatCol = By.xpath("//td[text()='" + projectName + "']/parent::tr/td[8]");
+
+			implWait(driver);
+			boolean elementExists = !driver.findElements(csatCol).isEmpty();
+			if (elementExists) {
+				waitForElement(csatCol, 60);
+				csatColResult = driver.findElement(csatCol).getText();
+				grep.passTest("Value Retrieved");
+			} else {
+				csatColResult = "Failed to retrieve" + csatColResult + " Value Text";
+				grep.failTest("Count Not Retrieved");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+		return csatColResult;
+	}
+
+	public void verifyProjectBtnsAfterSurvey(String projectName) throws Exception {
+		try {
+			implWait(driver);
+			By projectBtn = By.xpath("//td[text()='" + projectName + "']/parent::tr/td/div/button");
+
+			List<WebElement> element = driver.findElements(projectBtn);
+			if (element.size() > 0) {
+				for (WebElement buttons : element) {
+
+					String buttonTitle = buttons.getAttribute("title");
+					if (buttonTitle.equals(dataKeys.sendProjectBtn) || buttonTitle.equals(dataKeys.deleteProjectBtn)) {
+
+						grep.failTest("FeedBack Not Received");
+						logger.error("FeedBack Not Received");
+					} else {
+						grep.passTest("FeedBack Received");
+						logger.info("FeedBack Received");
+					}
+				}
+
+			} else {
+				grep.failTest(projectName + " Not Available");
+				logger.error(projectName + "  Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+
+	}
+
 }

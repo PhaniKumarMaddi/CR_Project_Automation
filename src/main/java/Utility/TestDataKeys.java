@@ -1,5 +1,7 @@
 package Utility;
 
+import org.openqa.selenium.By;
+
 public class TestDataKeys {
 
 	public String UserName = "8qtobCWIuA7cb0a";
@@ -66,11 +68,16 @@ public class TestDataKeys {
 	public String profilePage = "Profile";
 
 	// PROJECT PAGE UI
-	public String sentSurvey = "Surveys Sent";
-	public String atRiskSurvey = "At Risk Surveys";
-	public String completeSurvey = "Completed Surveys";
-	public String csatScore = "CSAT Summary";
+	public String sentSurveyHeader = "Surveys Sent";
+	public String atRiskSurveyHeader = "At Risk Surveys";
+	public String completeSurveyHeader = "Completed Surveys";
+	public String csatScoreHeader = "CSAT Summary";
 	public String newProjectHeader = "New Project Details";
+
+	public String sentSurvey = "Surveys sent";
+	public String atRiskSurvey = "At Risk";
+	public String completeSurvey = "Surveys Completed";
+	public String csatScore = "CSAT";
 
 	// BUTTONS
 	public String cancelBtn = "Cancel";
@@ -87,15 +94,16 @@ public class TestDataKeys {
 	public String csat_ColOption = "CSAT";
 	public String status_ColOption = "Status";
 	public String practicename_ColOption = "Practice Name";
+	public String responseReceived_ColOption = "Response Received";
 
 	// EXPORT
 	public String pdfFormat = "Download PDF";
 	public String csvFormat = "Download CSV";
 
 	// project buttons
-	public String editBtn = "edit";
-	public String deleteBtn = "delete";
-	public String sendBtn = "send";
+	public String buttonEdit = "edit";
+	public String buttonDelete = "delete";
+	public String buttonSend = "send";
 
 	// STATUS FILTER
 	public String allStatusesOption = "All Statuses";
@@ -106,13 +114,16 @@ public class TestDataKeys {
 	// SURVEY RESPONSES
 //	public String allSurveyResponse = "All Survey Responses";
 	public String allSurveyResponse = "Survey Response Status";
-	public String surveyResponseYes = "Yes";
-	public String surveyResponseNo = "No";
+	public String surveyResponseYes = "Received";
+	public String surveyResponseNo = "Not Received";
+
+	public String verifySurveyResponseYes = "Yes";
+	public String verifySurveyResponseNo = "No";
 
 	// SURVEY / RUDDR PROJECTS
 	public String surveyProject = "Survey Projects";
 	public String ruddrProject = "Ruddr Projects";
-	public String ruddrOper = "Ruddr Operations";
+	public String ruddrOper = "Ruddr";
 
 	// PROJECT ENDING
 	public String projectEndingIn = "Projects Ending In";
@@ -138,6 +149,7 @@ public class TestDataKeys {
 	public String projectDesc = "For Automation Testing Purpose";
 	public String spacesInProjectDesc = "   ";
 
+	public String projectNameForSend = "Send Automation FeedBack";
 	// project type
 	public String selectProjectType = "Select Project Type";
 	public String projectType_Development = "Development";
@@ -146,19 +158,71 @@ public class TestDataKeys {
 	public String projectType_Salesforce = "Salesforce";
 
 // Customer contact 
-	public String customerContactName = "Phani Kumar Maddi";
+	public String customerContactName = "Phani Maddi";
 	public String customerContactEmail = "phani.maddi@criticalriver.com";
-	public String updateCustomerContactEmail = "phanikumarmaddi@gmail.com";
-	public String customerContactInvalidEmail = "Phani Kumar Maddi";
-//	public String customerContactName ="":
+	public String updateCustomerName = "Anwar Hussain";
+	public String updateCustomerContactEmail = "anwar_hussain@skillsynccr.onmicrosoft.com";
+	public String customerContactInvalidEmail = "Phani Maddi";
 
 	public String startDate = "2025-07-15";
-	
+
 	// project buttons
 	public String editProjectBtn = "Edit";
 	public String deleteProjectBtn = "Delete";
 	public String sendProjectBtn = "Send";
-	
+
 	public String buttonYes = "Yes";
 	public String buttonNo = "No";
+
+	public String selectAllContact = "Select All";
+	public String selectOneContact = "Phani Maddi";
+
+	public String selectEngageSurvey = "CR CSAT -  Engagement Level";
+	public String selectDevelopSurvey = "CR CSAT - Development Project";
+	public String selectAMSSurvey = "CR CSAT - AMS Project";
+	public String selectResourceSurvey = "CR CSAT-Resource TOD";
+
+	// CSAT POPUP OPTIONS
+	public String csatOption_InPopup = "CSAT";
+	public String excellentOption_InPopup = "Excellent";
+	public String veryGoodOption_InPopup = "Very Good";
+	public String goodOption_InPopup = "Good";
+	public String dissatisfiedOption_InPopup = "Dissatisfied";
+	public String veryDissatisfiedOption_InPopup = "Very Dissatisfied";
+
+	// SURVEY POPUP RESPONSE STATUS
+	public String responseStatus_InPopup = "Response Status";
+	public String respondedResponseStatus_InPopup = "Responded";
+	public String notResponsedResponseStatus_InPopup = "Not Responded";
+	public String expiredResponseStatus_InPopup = "Expired";
+
+	// SURVEY POPUP PROJECT FILTER
+	public String project_InPopup = "Project";
+	public String testAutomation_Project_InPopup = "Test Automation Send";
+	public String projectx_Project_InPopup = "ProjectX";
+	public String projectTesting_Project_InPopup = "project_testing";
+	public String apollo_Project_InPopup = "Apollo CRM Upgrade";
+	public String sfdc_Project_InPopup = "Salesforce Intergration Project";
+
+	// ACCOUNT EXECUTIVE
+	public String accountExecutive_InPopup = "Account Executive";
+	public String phani_AccExe_InPopup = "Maddi Phani Kumar";
+	public String anwar_AccExe_InPopup = "Anwar Hussain";
+	public String raj_AccExe_InPopup = "Raj ";
+	public String arun_AccExe_InPopup = "Arun Kumar";
+
+	// SURVEY NAME
+	public String surveyName_InPopup = "Survey";
+	public String csatDev_Survey_InPopup = "CR CSAT - Development Project";
+	public String csatAms_Survey_InPopup = "CR CSAT - AMS";
+	public String csatEngage_Survey_InPopup = "CR CSAT Engagement-Survey FLow";
+	public String csatEngageLevel_Survey_InPopup = "CR CSAT -  Engagement Level";
+
+	// Risk Factor
+	public String riskFactory_InPopup = "Risk Factor";
+	public String low_RiskFactory_InPopup = "Low Survey Response";
+	public String poor_RiskFactory_InPopup = "Poor CSAT Score";
+
 }
+
+	

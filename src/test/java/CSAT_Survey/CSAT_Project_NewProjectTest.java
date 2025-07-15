@@ -250,7 +250,7 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		waitTime2(driver);
 		csatProject.addNewCustomerContactBtn();
 		waitTime2(driver);
-		csatProject.insertCustomerName(dataKeys.customerContactName);
+		csatProject.insertCustomerName(dataKeys.updateCustomerName);
 		csatProject.insertCustomerEmail(dataKeys.updateCustomerContactEmail);
 		//
 		grep.captureScreenshot("pass", "Updating the new customer contact", "newCustomerContact");
@@ -284,7 +284,7 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		logger.info("Delete Existing Project");
 		grep.infoTest("Delete existing project");
-
+		waitTime2(driver);
 		csatProject.clickProjectBtn(dataKeys.newProjectName, dataKeys.deleteProjectBtn);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Deleted the project", "DeleteingProject");
@@ -293,9 +293,12 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "Deleted Project not available", "afterDeletion");
 
 		waitTime(driver);
-		csatProject.getProjectnameList(dataKeys.newProjectName);
+		csatProject.getProjectNameList(dataKeys.newProjectName);
+
 
 		validAssert.assertAllFunction();
 	}
+
+	
 
 }

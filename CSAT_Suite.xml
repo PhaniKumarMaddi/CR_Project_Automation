@@ -6,6 +6,7 @@
 		<classes>
 			<class name="CSAT_Survey.CSAT_SurveyTest" />
 			<class name="CSAT_Survey.CSAT_ProjectFiltersTest" />
+			<class name="CSAT_Survey.CSAT_Project_NewProjectTest" />
 
 		</classes>
 	</test> <!--

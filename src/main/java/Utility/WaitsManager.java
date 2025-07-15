@@ -8,9 +8,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -30,6 +32,11 @@ public class WaitsManager {
 		WaitsManager.driver = DriverManager.getDriver();
 	}
 
+	public void clickNewTab() {
+		WebElement body = driver.findElement(By.tagName("body"));
+        body.sendKeys(Keys.chord(Keys.CONTROL, "t")); 
+	}
+	
 	/**
 	 * This method will switch the focus from the current window to the new window.
 	 */

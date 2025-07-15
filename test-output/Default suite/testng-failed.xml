@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CSAT_Survey.CSAT_ProjectFiltersTest">
+      <class name="CSAT_Survey.CSAT_SendSurvey">
         <methods>
-          <include name="csat_ProjectUI_Test"/>
+          <include name="csat_SendSurvey_Test"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- CSAT_Survey.CSAT_ProjectFiltersTest -->
+      </class> <!-- CSAT_Survey.CSAT_SendSurvey -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
