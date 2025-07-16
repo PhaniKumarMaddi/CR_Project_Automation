@@ -56,7 +56,7 @@ public class TestDataKeys {
 	public String expand = "Expand Sidebar";
 
 	public String logoutBtn = "Logout";
-//	public String profileName = "Phani Kumar Maddi";
+	public String myProfileName = "Phani Kumar Maddi";
 	public String profileName = "Anwar Hussain";
 	public String projectPage = "Projects";
 	public String surveyPage = "Surveys";
@@ -149,7 +149,7 @@ public class TestDataKeys {
 	public String projectDesc = "For Automating The CSAT Application";
 	public String invalidProjectDesc = "$%^&";
 
-	public String projectNameForSend = "Send Automation FeedBack"; //Web Core
+	public String projectNameForSend = "CSAT Feedback"; // Web Core
 	// project type
 	public String selectProjectType = "Select Project Type";
 	public String projectType_Development = "Development";
@@ -183,7 +183,7 @@ public class TestDataKeys {
 	public String selectAllContact = "Select All";
 	public String selectOneContact = "Phani Maddi";
 
-	public String selectEngageSurvey = "CR CSAT -  Engagement Level";
+	public String selectEngageSurvey = "CR CSAT - Engagement Level";
 	public String selectDevelopSurvey = "CR CSAT - Development Project";
 	public String selectAMSSurvey = "CR CSAT - AMS Project";
 	public String selectResourceSurvey = "CR CSAT-Resource TOD";
@@ -204,15 +204,15 @@ public class TestDataKeys {
 
 	// SURVEY POPUP PROJECT FILTER
 	public String project_InPopup = "Project";
-	public String testAutomation_Project_InPopup = "Test Automation Send";
-	public String projectx_Project_InPopup = "ProjectX";
-	public String projectTesting_Project_InPopup = "project_testing";
+	public String csatSurvey_Project_InPopup = "CSAT_Survey_Flow";
+	public String csat_Project_InPopup = "CSAT";
+	public String oordash_Project_InPopup = "Doordash";
 	public String apollo_Project_InPopup = "Apollo CRM Upgrade";
 	public String sfdc_Project_InPopup = "Salesforce Intergration Project";
 
 	// ACCOUNT EXECUTIVE
 	public String accountExecutive_InPopup = "Account Executive";
-	public String phani_AccExe_InPopup = "Maddi Phani Kumar";
+	public String phani_AccExe_InPopup = "Phani Maddi";
 	public String anwar_AccExe_InPopup = "Anwar Hussain";
 	public String raj_AccExe_InPopup = "Raj ";
 	public String arun_AccExe_InPopup = "Arun Kumar";
@@ -229,6 +229,24 @@ public class TestDataKeys {
 	public String low_RiskFactory_InPopup = "Low Survey Response";
 	public String poor_RiskFactory_InPopup = "Poor CSAT Score";
 
-}
+	// Login and Fill Feedback
+	public String url = "https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=9199bf20-a13f-4107-85dc-02114787ef48&scope=https%3A%2F%2Foutlook.office.com%2F.default%20openid%20profile%20offline_access&redirect_uri=https%3A%2F%2Foutlook.live.com%2Fmail%2F&client-request-id=8aa82db8-9d53-a904-da49-8906fbf3911e&response_mode=fragment&client_info=1&prompt=select_account&nonce=01981267-9ead-7135-8c86-0f9b250df27d&state=eyJpZCI6IjAxOTgxMjY3LTllYWMtN2FiMC1iMTBjLWM4YzM1MDk4MDcyMCIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D&claims=%7B%22access_token%22%3A%7B%22xms_cc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&x-client-SKU=msal.js.browser&x-client-VER=4.12.0&response_type=code&code_challenge=YazTS_ZRR_oU9vYQEkide37_TJ-RmC_rZnZpOCJgXlM&code_challenge_method=S256&cobrandid=ab0455a0-8d03-46b9-b18b-df2f57b9e44c&fl=dob,flname,wld";
 
-	
+	// Sections
+	public String deliverySectionInForm = "Delivery Experience";
+	public String responseSectionInForm = "Response to Voice of Customer";
+	public String financialSectionInForm = "Financial";
+	public String valueAddsSectionInForm = "Value Adds";
+	public String overAllFeedbackSectionInForm = "Overall Feedback";
+
+	// Forms
+	public String accountabilityRate = "Accountability";
+	public String feedbackAndSuggestionRate = "Feedback & Suggestions";
+	public String actionPlanRate = "Action Plan";
+	public String clientRelationRate = "Client Relationship";
+	public String pricingRate = "Pricing";
+	public String costOptimizeRate = "Cost Optimization";
+	public String leadershipRateRate = "Thought Leadership";
+	public String inputGeneralFeedback = "Good Experience and Great place to work";
+
+}

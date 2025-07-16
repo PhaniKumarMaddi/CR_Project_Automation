@@ -1524,7 +1524,7 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 	}
 
-	public void selectSurvey(String option) throws Exception {
+	public void selectSurveyOption(String option) throws Exception {
 		try {
 			driver.findElement(selectSurvey).click();
 			implWait(driver);
@@ -1640,7 +1640,7 @@ public class CSAT_Project_Page extends WaitsManager {
 	public String verifyCsatColInTable(String projectName) throws Exception {
 		String csatColResult = null;
 		try {
-			By csatCol = By.xpath("//td[text()='" + projectName + "']/parent::tr/td[8]");
+			By csatCol = By.xpath("//td[text()='" + projectName + "']/parent::tr/td[7]");
 
 			implWait(driver);
 			boolean elementExists = !driver.findElements(csatCol).isEmpty();

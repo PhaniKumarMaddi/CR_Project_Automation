@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
@@ -32,24 +33,6 @@ public class WaitsManager {
 		WaitsManager.driver = DriverManager.getDriver();
 	}
 
-
-//	public void zoomOut() {
-//		Actions act = new Actions(driver);
-//		act.keyDown(Keys.CONTROL).sendKeys(Keys.SUBTRACT).keyUp(Keys.CONTROL).perform();
-//		
-//	}
-
-	
-	public void clickNewTab() {
-		
-		WebElement body = driver.findElement(By.tagName("body"));
-		body.sendKeys(Keys.chord(Keys.CONTROL, "t"));
-	}
-
-	public void clickEscapeBtn() {
-		Actions act = new Actions(driver);
-		act.sendKeys(Keys.ESCAPE).build().perform();
-	}
 
 	/**
 	 * This method will switch the focus from the current window to the new window.
@@ -219,11 +202,16 @@ public class WaitsManager {
 		driver.switchTo().window(tabs.getFirst());
 		driver.switchTo().defaultContent();
 	}
-//	public void switchTab() {
-//
-//		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-//		driver.switchTo().window(tabs.get(1));
-//	}
+
+	public void clickNewTab() {
+//		ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
+//		driver.switchTo().window(tabs.get(1)); 
+		((JavascriptExecutor) driver).executeScript("window.open()");
+	}
+
+	public void enterURL(String url) {
+		driver.get(url);
+	}
 
 	public void refreshPage() {
 		driver.navigate().refresh();

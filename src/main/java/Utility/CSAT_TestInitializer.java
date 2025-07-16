@@ -105,7 +105,6 @@ public class CSAT_TestInitializer extends WaitsManager {
 			robot.keyRelease(KeyEvent.VK_MINUS);
 			robot.keyRelease(KeyEvent.VK_CONTROL);
 			
-//			zoomOut();
 		}
 
 		grep.infoTest("Logged in to CSAT Application");

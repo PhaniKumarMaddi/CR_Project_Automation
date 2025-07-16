@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 import Pages.CSAT_Popup_Page;
 import Pages.CSAT_Project_Page;
+import Pages.LoginPage;
 import Utility.CSAT_TestInitializer;
 import Utility.GenerateReports;
 import Utility.TestDataKeys;
@@ -23,10 +24,6 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 	public void csat_SendSurvey_Test() throws Exception {
 		csatProject = new CSAT_Project_Page();
 		csatPopup = new CSAT_Popup_Page();
-
-		// Verify mandatory Fields
-
-		csatProject = new CSAT_Project_Page();
 
 		// Send Survey Report
 		grep.testCreate("Send FeedBack Request To Customer Test", "Send Feedback Request");
@@ -63,27 +60,41 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		csatProject.clickSelectContact(dataKeys.selectOneContact);
 
 		waitTime(driver);
-		csatProject.selectSurvey(dataKeys.selectDevelopSurvey);
+		csatProject.selectSurveyOption(dataKeys.selectEngageSurvey);
 		waitTime(driver);
 		csatProject.retrieveSubjectBasedOnSurvey();
 		csatProject.retrieveBodyBasedOnSurvey();
 
 		grep.captureScreenshot("pass", "Send FeebBack request Popup", "SendSurveyPopup");
-		csatProject.clickButton(dataKeys.cancelBtn);
-//			csatProject.clickButton(dataKeys.sendBtn);
+//		csatProject.clickButton(dataKeys.cancelBtn);
+		csatProject.clickButton(dataKeys.sendProjectBtn);
 
-//		waitTime30(driver);
+		waitTime3(driver);
 //		csatProject.retrieveFeedBackSentMessage();
 
+		waitTime(driver);
 		refreshPage();
 		waitTime(driver);
-//		
-//		clickNewTab();
-//		waitTime(driver);
-//		switchToLastTab();
-//		waitTime(driver);
-//		switchToFirstTab();
-//		waitTime(driver);
+		refreshPage();
+		String sentSurveyCountBeforeSubmit = csatProject.getSurveyCount(dataKeys.sentSurvey);
+		logger.info("Survey Sent Count After sending feedback request:" + sentSurveyCountBeforeSubmit);
+		grep.infoTest("Survey Sent Count After sending feedback request:" + sentSurveyCountBeforeSubmit);
+
+		String atRiskSurveyCountBeforeSubmit = csatProject.getSurveyCount(dataKeys.atRiskSurvey);
+		logger.info("Survey At Risk Count After sending feedback request:" + atRiskSurveyCountBeforeSubmit);
+		grep.infoTest("Survey At Risk Count After sending feedback request:" + atRiskSurveyCountBeforeSubmit);
+
+		waitTime2(driver);
+		// FEEDBACK SURVEY TEST
+		csat_FillSurvey_Test();
+		waitTime2(driver);
+		refreshPage();
+		waitTime2(driver);
+		refreshPage();
+		waitTime(driver);
+
+		grep.testCreate("Survey Details After sending feedback Form Test",
+				"Survey Details After sending feedback form");
 
 		String sentSurveyCountAfter = csatProject.getSurveyCount(dataKeys.sentSurvey);
 		logger.info("Survey Sent Count After:" + sentSurveyCountAfter);
@@ -147,16 +158,15 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		grep.infoTest("Validating Project Filter in Survey Sent Popup ");
 		logger.info("Validating Project Filter in Survey Sent Popup ");
 		waitTime(driver);
-		csatPopup.selectProjectFilterIn_Popup(dataKeys.testAutomation_Project_InPopup);
-		csatPopup.getProject_ValueFromTable(dataKeys.testAutomation_Project_InPopup);
+		csatPopup.selectProjectFilterIn_Popup(dataKeys.csatSurvey_Project_InPopup);
+		csatPopup.getProject_ValueFromTable(dataKeys.csatSurvey_Project_InPopup);
 		waitTime(driver);
-		grep.captureScreenshot("pass", "Test Automation Project in Survey Sent Popup",
-				"TestAutomationProject_InSurveySent");
+		grep.captureScreenshot("pass", "CSAT Survey Project in Survey Sent Popup", "CsatSurveyProject_InSurveySent");
 		waitTime(driver);
-		csatPopup.selectProjectFilterIn_Popup(dataKeys.projectx_Project_InPopup);
-		csatPopup.getProject_ValueFromTable(dataKeys.projectx_Project_InPopup);
+		csatPopup.selectProjectFilterIn_Popup(dataKeys.csat_Project_InPopup);
+		csatPopup.getProject_ValueFromTable(dataKeys.csat_Project_InPopup);
 		waitTime(driver);
-		grep.captureScreenshot("pass", "ProjectX in Project in Survey Sent Popup", "ProjectX_InSurveySent");
+		grep.captureScreenshot("pass", "CSAT in Project in Survey Sent Popup", "CSATProject_InSurveySent");
 		waitTime(driver);
 		csatPopup.selectProjectFilterIn_Popup(dataKeys.apollo_Project_InPopup);
 		csatPopup.getProject_ValueFromTable(dataKeys.apollo_Project_InPopup);
@@ -173,11 +183,6 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		csatPopup.getAcc_Exe_ValueFromTable(dataKeys.phani_AccExe_InPopup);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Phani Account Executive in Survey Sent Popup", "Phani_AccEXE_InSurveySent");
-		waitTime(driver);
-//		csatPopup.selectAcc_ExecFilterIn_Popup(dataKeys.raj_AccExe_InPopup);
-//		csatPopup.getAcc_Exe_ValueFromTable(dataKeys.raj_AccExe_InPopup);
-//		waitTime(driver);
-//		grep.captureScreenshot("pass", " Raj Account Executive in Survey Sent Popup", "Raj_AccEXE_InSurveySent");
 		waitTime(driver);
 		csatPopup.selectAcc_ExecFilterIn_Popup(dataKeys.anwar_AccExe_InPopup);
 		csatPopup.getAcc_Exe_ValueFromTable(dataKeys.anwar_AccExe_InPopup);
@@ -245,8 +250,8 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Apollo Project in At Risk Popup", "apolloProject_InAtRisk");
 		waitTime(driver);
-		csatPopup.selectProjectFilterIn_Popup(dataKeys.projectx_Project_InPopup);
-		csatPopup.getProject_AtRisk_ValueFromTable(dataKeys.projectx_Project_InPopup);
+		csatPopup.selectProjectFilterIn_Popup(dataKeys.csat_Project_InPopup);
+		csatPopup.getProject_AtRisk_ValueFromTable(dataKeys.csat_Project_InPopup);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Project X in At Risk Popup", "projectX_inAtRisk");
 		waitTime(driver);
@@ -379,10 +384,9 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		csatPopup.selectPaginationInCSAT_Popup("10");
 		waitTime2(driver);
 
-
 		grep.infoTest("Validating CSAT Filter Popup");
 		logger.info("Validating CSAT Filter Popup");
-		
+
 		csatPopup.selectFilterInCSAT_Popup(dataKeys.excellentOption_InPopup);
 		csatPopup.getCSAT_ValueFromTable("4");
 		waitTime(driver);
@@ -397,15 +401,104 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		csatPopup.getCSAT_ValueFromTable("2");
 		waitTime(driver);
 		grep.captureScreenshot("pass", "CSAT Dissatisfied Filter Option", "csatDissatisfiedOptionInPopup");
-//		waitTime(driver);
-//		csatProject.clickButton(dataKeys.exportBtn);
-//		waitTime(driver);
-//		clickEscapeBtn();
 		waitTime(driver);
 		csatProject.clickCloseSurveyPopupBtn();
 
 		waitTime(driver);
 
 		validAssert.assertAllFunction();
+	}
+
+	public void csat_FillSurvey_Test() throws Exception {
+		csatPopup = new CSAT_Popup_Page();
+		LoginPage login = new LoginPage();
+
+		// Send Survey Report
+		grep.testCreate("Login to Customer account Test", "Login to Customer account");
+		waitTime(driver);
+
+		grep.infoTest("Fill Feedback Form");
+		logger.info("Fill Feedback Form");
+
+		clickNewTab();
+		switchToLastTab();
+		waitTime2(driver);
+		enterURL(dataKeys.url);
+
+		login.clickUseAnotherAccount();
+		login.enterUserName(dataKeys.ssoUserName);
+		login.clickSignIn();
+		waitTime2(driver);
+		login.enterPassword(dataKeys.ssoPassword);
+		login.clickSignIn();
+		waitTime10(driver);
+
+		login.clickSignInOnTop();
+		waitTime2(driver);
+		login.SelectProfileToLogin(dataKeys.myProfileName);
+
+		waitTime(driver);
+		grep.infoTest("Inside Customer Mail");
+		logger.info("Inside Customer Mail");
+		waitTime10(driver);
+		csatPopup.clickSkillSyncMail();
+		waitTime(driver);
+		csatPopup.clickTakeSurveyButton();
+		waitTime2(driver);
+		switchToLastTab();
+
+		waitTime5(driver);
+		csatPopup.formHeaderValidation();
+		waitTime(driver);
+		grep.infoTest("Inside Feed back Form");
+		logger.info("Inside Feed back Form");
+		waitTime(driver);
+		grep.captureScreenshot("pass", "FeedBack Form Opened", "FeedBack Form");
+		waitTime(driver);
+		csatPopup.select_5_Rating(dataKeys.accountabilityRate);
+		csatPopup.clickSection(dataKeys.deliverySectionInForm);
+		waitTime(driver);
+
+		waitTime(driver);
+		csatPopup.select_3_Rating(dataKeys.feedbackAndSuggestionRate);
+		csatPopup.select_4_Rating(dataKeys.actionPlanRate);
+		csatPopup.select_5_Rating(dataKeys.clientRelationRate);
+		csatPopup.clickSection(dataKeys.responseSectionInForm);
+		waitTime(driver);
+
+		waitTime(driver);
+		csatPopup.select_1_Rating(dataKeys.pricingRate);
+		csatPopup.select_2_Rating(dataKeys.costOptimizeRate);
+		csatPopup.clickSection(dataKeys.financialSectionInForm);
+		waitTime(driver);
+
+		waitTime(driver);
+		csatPopup.select_2_Rating(dataKeys.leadershipRateRate);
+		csatPopup.getLast_Rating(dataKeys.leadershipRateRate);
+		csatPopup.clickSection(dataKeys.valueAddsSectionInForm);
+		waitTime(driver);
+
+		waitTime(driver);
+		csatPopup.insertFeedback(dataKeys.inputGeneralFeedback);
+		csatPopup.clickSection(dataKeys.overAllFeedbackSectionInForm);
+
+		waitTime2(driver);
+
+		csatPopup.clickPreviewButton();
+		waitTime(driver);
+		csatPopup.getAverageRating();
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Feedbak Filled", "FeedBackFilled");
+		waitTime2(driver);
+		csatPopup.clickSendButton();
+		waitTime5(driver);
+		csatPopup.getFeedbackMsgg();
+
+		waitTime3(driver);
+
+		grep.captureScreenshot("pass", "Feedbak Submitted", "FeedBackSubmitted");
+		switchToFirstTab();
+		waitTime3(driver);
+
 	}
 }

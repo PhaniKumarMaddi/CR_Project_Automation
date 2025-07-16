@@ -1,16 +1,12 @@
 package Pages;
 
-import java.awt.Desktop.Action;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 import Utility.DriverManager;
@@ -18,6 +14,9 @@ import Utility.GenerateReports;
 import Utility.TestDataKeys;
 import Utility.WaitsManager;
 
+/**
+ * 
+ */
 public class CSAT_Popup_Page extends WaitsManager {
 	static WebDriver driver;
 	private static Logger logger = LogManager.getLogger(CSAT_Popup_Page.class);
@@ -60,6 +59,17 @@ public class CSAT_Popup_Page extends WaitsManager {
 	// Surveys Completed
 	// All are same as per survey sent
 
+	// Fill Form in Outlook
+	By selectSurveyMail = By.xpath("//span[text()='skill sync']");
+	By takeSurvey = By.xpath("//a[@class='x_survey-button'and text()='Take the Survey']");
+
+	// Feedback Form
+	By getFormHeader = By.xpath("//div[@class='MuiBox-root css-gqfuki']/p");
+	By insertFeedbackText = By.xpath("//textarea[@placeholder='Enter your response...']");
+	By previewBtn = By.xpath("//button[text()='Preview']");
+	By averageRating = By.xpath("//div[@class='css-g6ldlt MuiBox-root css-19pj5st']/p");
+	By sendBtn = By.xpath("//button[text()='Send']");
+	By feedbackSuccesMsg = By.xpath("//div[@class='MuiBox-root css-1arpkmm']/p");
 
 	public void verifyProjectBtnsAfterSurvey(String projectName) throws Exception {
 		try {
@@ -105,7 +115,7 @@ public class CSAT_Popup_Page extends WaitsManager {
 				waitTime2(driver);
 				String getOption = opt.getFirstSelectedOption().getText();
 				if (getOption.equals(option)) {
-					
+
 					grep.passTest(getOption + " pagination Option Selected");
 					logger.info(getOption + " pagination Option Selected");
 				} else {
@@ -667,4 +677,303 @@ public class CSAT_Popup_Page extends WaitsManager {
 
 	}
 
+	public void clickSkillSyncMail() throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> selectMail = driver.findElements(selectSurveyMail);
+			if (selectMail.size() > 0) {
+				waitForElementToBeClickable(selectSurveyMail, 30);
+				selectMail.getFirst().click();
+			} else {
+				logger.error("Survey mail Not Available ");
+				grep.failTest("Survey mail button Not Available ");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void clickTakeSurveyButton() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(takeSurvey).isEmpty();
+			if (elementExists) {
+				waitForElementToBeClickable(takeSurvey, 30);
+				driver.findElement(takeSurvey).click();
+			} else {
+				logger.error("Take Survey button Not Available ");
+				grep.failTest("Take Survey button Not Available ");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void formHeaderValidation() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(getFormHeader).isEmpty();
+			if (elementExists) {
+				waitForElement(getFormHeader, 30);
+				String verifyHeader = driver.findElement(getFormHeader).getText().trim();
+				logger.info("Header is Valid: " + verifyHeader);
+				grep.passTest("Header is Valid: " + verifyHeader);
+			} else {
+				logger.error("Header is not Available");
+				grep.failTest("Header is not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void clickSection(String sectionNameValue) throws Exception {
+		try {
+			implWait(driver);
+			By sectionNames = By
+					.xpath("//div[@class='survey-details-section-title']/Strong[text()='" + sectionNameValue + "']");
+			boolean elementExists = !driver.findElements(sectionNames).isEmpty();
+			if (elementExists) {
+				waitForElementToBeClickable(sectionNames, 30);
+				driver.findElement(sectionNames).click();
+			} else {
+				logger.error(sectionNameValue + " Section Not Available ");
+				grep.failTest(sectionNameValue + " Section Not Available ");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void clickPreviewButton() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(previewBtn).isEmpty();
+			if (elementExists) {
+				waitForElementToBeClickable(previewBtn, 30);
+				driver.findElement(previewBtn).click();
+			} else {
+				logger.error("Preview Button Not Available ");
+				grep.failTest("Preview Button Not Available ");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void clickSendButton() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(sendBtn).isEmpty();
+			if (elementExists) {
+				waitForElementToBeClickable(sendBtn, 30);
+				driver.findElement(sendBtn).click();
+			} else {
+				logger.error("send Button Not Available ");
+				grep.failTest("send Button Not Available ");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void getAverageRating() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(averageRating).isEmpty();
+			if (elementExists) {
+				waitForElementToBeClickable(averageRating, 30);
+				String avgRate = driver.findElement(averageRating).getText();
+				grep.passTest(avgRate);
+				logger.info(avgRate);
+			} else {
+				logger.error("Average rating Not Available ");
+				grep.failTest("Average rating Not Available ");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void getFeedbackMsgg() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(feedbackSuccesMsg).isEmpty();
+			if (elementExists) {
+				waitForElementToBeClickable(feedbackSuccesMsg, 30);
+				String message = driver.findElement(feedbackSuccesMsg).getText();
+				grep.passTest(message);
+				logger.info(message);
+			} else {
+				logger.error("Feedback Not submitted");
+				grep.failTest("Feedback Not submitted");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void select_5_Rating(String questionHead) throws Exception {
+		try {
+			By select5_Rating = By.xpath("//h6[text()='" + questionHead + "']/parent::div/div/div[2]/div/div/div[5]");
+			implWait(driver);
+			boolean elementExists = !driver.findElements(select5_Rating).isEmpty();
+			if (elementExists) {
+				waitForElementToBeClickable(select5_Rating, 30);
+				driver.findElement(select5_Rating).click();
+			} else {
+				logger.error("Rating Button Not Available ");
+				grep.failTest("Rating Button Not Available ");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+
+	}
+
+	public void select_4_Rating(String questionHead) throws Exception {
+		try {
+			By select4_Rating = By.xpath("//h6[text()='" + questionHead + "']/parent::div/div/div[2]/div/div/div[4]");
+			implWait(driver);
+			boolean elementExists = !driver.findElements(select4_Rating).isEmpty();
+			if (elementExists) {
+				waitForElementToBeClickable(select4_Rating, 30);
+				driver.findElement(select4_Rating).click();
+			} else {
+				logger.error("Rating Button Not Available ");
+				grep.failTest("Rating Button Not Available ");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+
+	}
+
+	public void select_3_Rating(String questionHead) throws Exception {
+		try {
+			By select3_Rating = By.xpath("//h6[text()='" + questionHead + "']/parent::div/div/div[2]/div/div/div[3]");
+			implWait(driver);
+			boolean elementExists = !driver.findElements(select3_Rating).isEmpty();
+			if (elementExists) {
+				waitForElementToBeClickable(select3_Rating, 30);
+				driver.findElement(select3_Rating).click();
+			} else {
+				logger.error("Rating Button Not Available ");
+				grep.failTest("Rating Button Not Available ");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+
+	}
+
+	public void select_2_Rating(String questionHead) throws Exception {
+		try {
+			By select2_Rating = By.xpath("//h6[text()='" + questionHead + "']/parent::div/div/div[2]/div/div/div[2]");
+			implWait(driver);
+			boolean elementExists = !driver.findElements(select2_Rating).isEmpty();
+			if (elementExists) {
+				waitForElementToBeClickable(select2_Rating, 30);
+				driver.findElement(select2_Rating).click();
+			} else {
+				logger.error("Rating Button Not Available ");
+				grep.failTest("Rating Button Not Available ");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+
+	}
+
+	public void select_1_Rating(String questionHead) throws Exception {
+		try {
+			By select1_Rating = By.xpath("//h6[text()='" + questionHead + "']/parent::div/div/div[2]/div/div/div[1]");
+			implWait(driver);
+			boolean elementExists = !driver.findElements(select1_Rating).isEmpty();
+			if (elementExists) {
+				waitForElementToBeClickable(select1_Rating, 30);
+				driver.findElement(select1_Rating).click();
+			} else {
+				logger.error("Rating Button Not Available ");
+				grep.failTest("Rating Button Not Available ");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+
+	}
+
+	public void getLast_Rating(String questionHead) throws Exception {
+		try {
+			By getLastrate = By.xpath("//h6[text()='" + questionHead + "']/parent::div/div/div[2]/div/div/div[3]");
+			implWait(driver);
+			List<WebElement> getLastQuestion = driver.findElements(getLastrate);
+			if (getLastQuestion.size() > 0) {
+				getLastQuestion.getLast().click();
+
+			} else {
+				logger.error("Rating Button Not Available ");
+				grep.failTest("Rating Button Not Available ");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+
+	}
+
+	public void insertFeedback(String feedback) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(insertFeedbackText).isEmpty();
+			if (elementExist) {
+				driver.findElement(insertFeedbackText).sendKeys(feedback);
+			} else {
+				grep.failTest(" Feedback not Available");
+				logger.error(" Feedback not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
 }

@@ -27,6 +27,11 @@ public class LoginPage extends WaitsManager {
 	By password = By.xpath("//input[@id='i0118']");
 	By signin = By.cssSelector("input#idSIButton9"); // for next , signin, yes buttons
 
+	By signInOnTop = By.cssSelector("a#c-shellmenu_custom_outline_signin_bhvr100_right");
+	
+	// login to outlook
+	By useAnotherAcc = By.xpath("//div[text()='Use another account']");
+
 	public void logoInLoginPage() throws Exception {
 		try {
 			waitForElement(logo, 30);
@@ -99,6 +104,43 @@ public class LoginPage extends WaitsManager {
 			logger.error("Test Failed :" + e.getMessage());
 		}
 	}
+	
+	public void clickSignInOnTop() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(signInOnTop).isEmpty();
+			if (elementExists) {
+				waitForElementToBeClickable(signInOnTop, 30);
+				driver.findElement(signInOnTop).click();
+			} else {
+				logger.error("Sign in button Not Available ");
+				grep.failTest("Sign in button Not Available ");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void SelectProfileToLogin(String profile) throws Exception {
+		try {
+		By selectUser = By.xpath("//div[@class='table-cell text-left content']/div[text()='"+profile+"']");	
+		implWait(driver);
+		boolean elementExists = !driver.findElements(selectUser).isEmpty();
+		if (elementExists) {
+			waitForElementToBeClickable(selectUser, 30);
+			driver.findElement(selectUser).click();
+		} else {
+			logger.error("Profile Not Available ");
+			grep.failTest("Profile Not Available ");
+		}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
 
 	public void enterUserName(String usernameValue) throws Exception {
 		try {
@@ -134,4 +176,23 @@ public class LoginPage extends WaitsManager {
 		}
 	}
 
+	public void clickUseAnotherAccount() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(useAnotherAcc).isEmpty();
+			if (elementExists) {
+				waitForElementToBeClickable(useAnotherAcc, 30);
+				driver.findElement(useAnotherAcc).click();
+			} else {
+				logger.error("Use Another Account Not Available ");
+				grep.failTest("Use Another Account Not Available ");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+	
+	
 }
