@@ -139,17 +139,17 @@ public class TestDataKeys {
 //	public String projectName = "Apollo CRM Upgrade";
 
 	// Create New Project
-	public String newProjectName = "Automation Test";
-	public String duplicateProjectName = "Test Automation";
-	public String updateProjectName = "Update Test Automation";
-	public String deleteProjectName = "Delete Test Automation";
+	public String newProjectName = "CSAT Automation Test";
+	public String duplicateProjectName = "CSAT Test Automation";
+//	public String updateProjectName = "Update Test Automation";
+//	public String deleteProjectName = "Delete Test Automation";
 	public String invalidName = "#$%^&*";
 	public String spacesInName = "   ";
 
-	public String projectDesc = "For Automation Testing Purpose";
+	public String projectDesc = "For Automating The CSAT Application";
 	public String invalidProjectDesc = "$%^&";
 
-	public String projectNameForSend = "Send Automation FeedBack";
+	public String projectNameForSend = "Send Automation FeedBack"; //Web Core
 	// project type
 	public String selectProjectType = "Select Project Type";
 	public String projectType_Development = "Development";

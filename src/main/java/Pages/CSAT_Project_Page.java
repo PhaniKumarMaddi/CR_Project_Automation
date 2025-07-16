@@ -87,7 +87,7 @@ public class CSAT_Project_Page extends WaitsManager {
 	// img[@alt='Delete Icon']
 	By addNewCustomerContact = By.xpath("//button[text()=' Add New']");
 	By projectListInTable = By.xpath("//tr[@class='Project-even-row']/td[1]");
-	By projectListInTable2 = By.xpath("//tr[@class='Project-even-row']/td[1]");
+	By projectListInTable2 = By.xpath("//tr[@class='Project-odd-row']/td[1]");
 
 	// send Functionality
 	By selectContact = By.xpath("//div/span[text()='Select Contact']");
@@ -1469,24 +1469,24 @@ public class CSAT_Project_Page extends WaitsManager {
 				int count = 0;
 				for (WebElement project : projectList) {
 					String validateProject = project.getText().trim();
-					System.out.println(validateProject);
+
 					if (validateProject.equals(projectName)) {
 						count++;
-					} 
+						System.out.println(validateProject);
+					}
 				}
 				for (WebElement project2 : projectList2) {
 					String validateProjectList = project2.getText().trim();
-					System.out.println(validateProjectList);
+
 					if (validateProjectList.equals(projectName)) {
 						count++;
+						System.out.println(validateProjectList);
 					}
 				}
-				if (count ==1) {
-					System.out.println(count);
+				if (count == 1) {
 					grep.passTest(projectName + " Project Created");
 					logger.info(projectName + " Project Created");
 				} else {
-					System.out.println(count);
 					grep.failTest(projectName + " Project Not Created");
 					logger.error(projectName + " Project Not Created");
 				}
