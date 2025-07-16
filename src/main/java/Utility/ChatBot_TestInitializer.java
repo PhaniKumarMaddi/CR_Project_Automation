@@ -54,7 +54,7 @@ public class ChatBot_TestInitializer extends WaitsManager {
 		DriverManager.setDriver(driver);
 		driver.manage().window().maximize();
 
-		String url = configFile.getProperty("URL"); // UAT 
+		String url = configFile.getProperty("URL_ChatBot"); // UAT 
 //		String url = configFile.getProperty("FrontEnd_URL"); // DEV
 		
 //		String nameForReport = configFile.getProperty("ReportName");

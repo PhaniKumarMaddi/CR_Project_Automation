@@ -1,5 +1,8 @@
 package CSAT_Survey;
 
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Test;
@@ -66,16 +69,15 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		csatProject.retrieveBodyBasedOnSurvey();
 
 		grep.captureScreenshot("pass", "Send FeebBack request Popup", "SendSurveyPopup");
-//		csatProject.clickButton(dataKeys.cancelBtn);
 		csatProject.clickButton(dataKeys.sendProjectBtn);
 
-		waitTime3(driver);
+		waitTime10(driver);
 //		csatProject.retrieveFeedBackSentMessage();
 
-		waitTime(driver);
 		refreshPage();
 		waitTime(driver);
 		refreshPage();
+		waitTime5(driver);
 		String sentSurveyCountBeforeSubmit = csatProject.getSurveyCount(dataKeys.sentSurvey);
 		logger.info("Survey Sent Count After sending feedback request:" + sentSurveyCountBeforeSubmit);
 		grep.infoTest("Survey Sent Count After sending feedback request:" + sentSurveyCountBeforeSubmit);
@@ -91,7 +93,7 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		refreshPage();
 		waitTime2(driver);
 		refreshPage();
-		waitTime(driver);
+		waitTime5(driver);
 
 		grep.testCreate("Survey Details After sending feedback Form Test",
 				"Survey Details After sending feedback form");
@@ -441,8 +443,15 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		grep.infoTest("Inside Customer Mail");
 		logger.info("Inside Customer Mail");
 		waitTime10(driver);
-		csatPopup.clickSkillSyncMail();
+		
+		Robot robot = new Robot();
+		robot.keyPress(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_MINUS);
+		robot.keyRelease(KeyEvent.VK_MINUS);
+		robot.keyRelease(KeyEvent.VK_CONTROL);
 		waitTime(driver);
+		csatPopup.clickSkillSyncMail();
+		waitTime2(driver);
 		csatPopup.clickTakeSurveyButton();
 		waitTime2(driver);
 		switchToLastTab();

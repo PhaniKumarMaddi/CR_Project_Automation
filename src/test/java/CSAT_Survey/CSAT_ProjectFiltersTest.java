@@ -90,7 +90,7 @@ public class CSAT_ProjectFiltersTest extends CSAT_TestInitializer {
 		grep.infoTest("Download CSV File Format ");
 		csatProject.clickDownloadFileBtn(dataKeys.csvFormat);
 		grep.captureScreenshot("pass", "Download CSV", "CSVFormat");
-		waitTime2(driver);
+		waitTime5(driver);
 		logger.info("Download PDF File Format ");
 		grep.infoTest("Download PDF File Format ");
 		csatProject.clickDownloadFileBtn(dataKeys.pdfFormat);

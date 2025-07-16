@@ -391,9 +391,9 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		logger.info("Delete  customer contact from existing project");
 		grep.infoTest("Delete  customer contact from existing project");
 
-		waitTime2(driver);
+		waitTime5(driver);
 		csatProject.clickProjectBtn(dataKeys.duplicateProjectName, dataKeys.editProjectBtn);
-		waitTime2(driver);
+		waitTime3(driver);
 		csatProject.deleteCustomerContact();
 		waitTime2(driver);
 
