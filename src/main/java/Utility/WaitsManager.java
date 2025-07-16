@@ -32,7 +32,16 @@ public class WaitsManager {
 		WaitsManager.driver = DriverManager.getDriver();
 	}
 
+
+//	public void zoomOut() {
+//		Actions act = new Actions(driver);
+//		act.keyDown(Keys.CONTROL).sendKeys(Keys.SUBTRACT).keyUp(Keys.CONTROL).perform();
+//		
+//	}
+
+	
 	public void clickNewTab() {
+		
 		WebElement body = driver.findElement(By.tagName("body"));
 		body.sendKeys(Keys.chord(Keys.CONTROL, "t"));
 	}

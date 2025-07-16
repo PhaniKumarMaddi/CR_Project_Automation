@@ -2,10 +2,12 @@ package Utility;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
@@ -57,7 +59,7 @@ public class CSAT_TestInitializer extends WaitsManager {
 		driver.manage().window().maximize();
 
 //		String url = configFile.getProperty("CSAT_Url"); // UAT
-		String url = configFile.getProperty("CSAT_Dev_Url"); // DEV	
+		String url = configFile.getProperty("CSAT_Dev_Url"); // DEV
 
 //		String nameForReport = configFile.getProperty("ReportName");
 //		nameForReport = configFile.getProperty("ReportName");
@@ -91,7 +93,7 @@ public class CSAT_TestInitializer extends WaitsManager {
 		login.enterPassword(dataKeys.ssoPasswordDev);
 		login.clickSignIn();
 		waitTime5(driver);
-		// yes or no 
+		// yes or no
 		login.clickSignIn();
 
 		waitTime10(driver);
@@ -102,8 +104,10 @@ public class CSAT_TestInitializer extends WaitsManager {
 			robot.keyPress(KeyEvent.VK_MINUS);
 			robot.keyRelease(KeyEvent.VK_MINUS);
 			robot.keyRelease(KeyEvent.VK_CONTROL);
+			
+//			zoomOut();
 		}
-		
+
 		grep.infoTest("Logged in to CSAT Application");
 		logger.info("Logged in to CSAT Application");
 	}

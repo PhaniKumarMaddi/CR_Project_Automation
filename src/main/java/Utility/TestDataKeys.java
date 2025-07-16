@@ -143,11 +143,11 @@ public class TestDataKeys {
 	public String duplicateProjectName = "Test Automation";
 	public String updateProjectName = "Update Test Automation";
 	public String deleteProjectName = "Delete Test Automation";
-	public String newInvalidProjectName = "#$%^&*";
-	public String newSpacesInProjectName = "   ";
+	public String invalidName = "#$%^&*";
+	public String spacesInName = "   ";
 
 	public String projectDesc = "For Automation Testing Purpose";
-	public String spacesInProjectDesc = "   ";
+	public String invalidProjectDesc = "$%^&";
 
 	public String projectNameForSend = "Send Automation FeedBack";
 	// project type

@@ -86,7 +86,8 @@ public class CSAT_Project_Page extends WaitsManager {
 			.xpath("//button[@type='button']/img[@alt='Delete' and @class='Project-action-icon']");
 	// img[@alt='Delete Icon']
 	By addNewCustomerContact = By.xpath("//button[text()=' Add New']");
-	By projectAfterDeletion = By.xpath("//tr[@class='Project-even-row']/td[1]");
+	By projectListInTable = By.xpath("//tr[@class='Project-even-row']/td[1]");
+	By projectListInTable2 = By.xpath("//tr[@class='Project-even-row']/td[1]");
 
 	// send Functionality
 	By selectContact = By.xpath("//div/span[text()='Select Contact']");
@@ -1232,7 +1233,7 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 	}
 
-	public void getCustomerNameErrorInUpdate() throws Exception {
+	public void getCustomerNameError() throws Exception {
 		try {
 			implWait(driver);
 			boolean elementExists = !driver.findElements(updateCustomerNameError).isEmpty();
@@ -1403,13 +1404,9 @@ public class CSAT_Project_Page extends WaitsManager {
 	public void clickProjectBtn(String projectName, String action) throws Exception {
 		try {
 			implWait(driver);
-//			WebElement editIcon = driver.findElement(By.xpath(
-//					"//td[text()='" + projectName + "']/parent::tr/td[11]/div/button[@title='" + action + "']"));
 
 			WebElement editIcon = driver.findElement(By.xpath("//td[text()='" + projectName
 					+ "']/parent::tr/td[@class='Project-action-cell']/div/button[@title='" + action + "']"));
-			// td[text()='Test
-			// Automation']/parent::tr/td[@class='Project-action-cell']/div/button[@title='Edit']
 			if (editIcon.isDisplayed()) {
 				waitTime1(driver);
 				editIcon.click();
@@ -1424,24 +1421,74 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 	}
 
-	public void getProjectNameList(String projectName) throws Exception {
+	public void verifyDeletedFromProjectNameList(String projectName) throws Exception {
 		try {
 			implWait(driver);
-			List<WebElement> projectList = driver.findElements(projectAfterDeletion);
-			if (projectList.size() > 0) {
-				int count = 0;
+			int count = 0;
+			List<WebElement> projectList = driver.findElements(projectListInTable);
+			List<WebElement> projectList2 = driver.findElements(projectListInTable2);
+			if (projectList.size() > 0 && projectList2.size() > 0) {
 				for (WebElement project : projectList) {
-
-					if (project.equals(projectName)) {
+					String validateProject = project.getText().trim();
+					if (validateProject.equals(projectName)) {
 						count++;
 					}
 				}
+				for (WebElement project2 : projectList2) {
+					String validateProjectList = project2.getText().trim();
+					if (validateProjectList.equals(projectName)) {
+						count++;
+					}
+				}
+
 				if (count == 0) {
 					grep.passTest(projectName + " Project Deleted");
 					logger.info(projectName + " Project Deleted");
 				} else {
 					grep.failTest(projectName + " Project Not Deleted");
 					logger.error(projectName + " Project Not Deleted");
+				}
+
+			} else {
+				logger.info("Project list is not available");
+				grep.infoTest("Project list is not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void verifyCreatedProjectNameInList(String projectName) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> projectList = driver.findElements(projectListInTable);
+			List<WebElement> projectList2 = driver.findElements(projectListInTable2);
+			if (projectList.size() > 0 && projectList2.size() > 0) {
+				int count = 0;
+				for (WebElement project : projectList) {
+					String validateProject = project.getText().trim();
+					System.out.println(validateProject);
+					if (validateProject.equals(projectName)) {
+						count++;
+					} 
+				}
+				for (WebElement project2 : projectList2) {
+					String validateProjectList = project2.getText().trim();
+					System.out.println(validateProjectList);
+					if (validateProjectList.equals(projectName)) {
+						count++;
+					}
+				}
+				if (count ==1) {
+					System.out.println(count);
+					grep.passTest(projectName + " Project Created");
+					logger.info(projectName + " Project Created");
+				} else {
+					System.out.println(count);
+					grep.failTest(projectName + " Project Not Created");
+					logger.error(projectName + " Project Not Created");
 				}
 
 			} else {
