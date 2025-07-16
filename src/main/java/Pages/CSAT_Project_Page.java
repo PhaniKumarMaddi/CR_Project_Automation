@@ -1,12 +1,10 @@
 package Pages;
 
-import java.awt.Desktop.Action;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -49,10 +47,6 @@ public class CSAT_Project_Page extends WaitsManager {
 	By projectExportBtn = By.cssSelector("div.Project-export-container");
 	By paginationEntries = By.cssSelector("select.Project-entries-select");
 
-	By projectEditBtn = By.cssSelector("button.Project-action-button.Project-edit-button");
-	By projectDeleteBtn = By.cssSelector("button.Project-action-button.Project-delete-button");
-	By projectSendBtn = By.cssSelector("button.Project-action-button.Project-send-button");
-
 	By statusFilter = By.cssSelector("select#drpStatus");
 	By statuscolunInTable = By.xpath("//tr[@class='Project-odd-row']/td[5]/div");
 
@@ -66,8 +60,6 @@ public class CSAT_Project_Page extends WaitsManager {
 	By practicesFilter = By.xpath("//div[@class='Project-filter-practices']/select");
 	By practiceColInTable = By.xpath("//tr[@class='Project-odd-row']/td[2]");
 
-	By csatColInTable = By.xpath("//tr[@class='Project-odd-row']/td[8]");
-
 	By searchProjects = By.cssSelector("input.Project-search-input");
 
 	// New Project
@@ -79,11 +71,16 @@ public class CSAT_Project_Page extends WaitsManager {
 	By projectType = By.xpath("//select[@name='type']");
 	By projectDesc = By.xpath("//textarea[@name='description']");
 
+	By startDate = By.xpath("//input[@name='startDate']");
+	By endDate = By.xpath("//input[@name='endDate']");
+	By endDateError = By.xpath("//div[@class='MuiDialogContent-root Project-dialog-content css-1nbx5hx']/p");
+
 	// customer contact
 	By customerFullName = By.xpath("//input[@name='fullName']");
 	By customerEmail = By.xpath("//input[@name='email']");
 	By customerEmailError = By.xpath("//div[@class='Project-contact-row']/div[2]/p");
-	By updateCustomerEmailError = By.xpath("//div[@class='Project-contact-row']/div[2]/div/p");
+	By updateCustomerEmailError = By.xpath("//div[@class='Project-contact-row']/div[2]/p");
+	By updateCustomerNameError = By.xpath("//div[@class='Project-contact-row']/div[1]/p");
 
 	By deleteCustomerContactBtn = By
 			.xpath("//button[@type='button']/img[@alt='Delete' and @class='Project-action-icon']");
@@ -300,6 +297,34 @@ public class CSAT_Project_Page extends WaitsManager {
 				} else {
 					grep.passTest(btnValue + " Button is Disabled");
 					logger.info(btnValue + " Button is Disabled");
+
+				}
+
+			} else {
+				grep.failTest(btnValue + " Button Not Available");
+				logger.error(btnValue + " Button Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void verifyButtonEnabled(String btnValue) throws Exception {
+		try {
+			implWait(driver);
+			By button = By.xpath("//button[text()='" + btnValue + "']");
+
+			boolean elementexists = !driver.findElements(button).isEmpty();
+			if (elementexists) {
+				WebElement btn = driver.findElement(button);
+				if (btn.isEnabled()) {
+					grep.passTest(btnValue + " Button is Enabled");
+					logger.info(btnValue + " Button is Enabled");
+				} else {
+					grep.failTest(btnValue + " Button is Disabled");
+					logger.error(btnValue + " Button is Disabled");
 
 				}
 
@@ -1207,6 +1232,27 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 	}
 
+	public void getCustomerNameErrorInUpdate() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(updateCustomerNameError).isEmpty();
+			if (elementExists) {
+				waitForElement(updateCustomerNameError, 60);
+
+				String error = driver.findElement(updateCustomerNameError).getText();
+				grep.passTest(error);
+				logger.info(error);
+			} else {
+				grep.failTest("Customer Name not available");
+				logger.error("Customer Name not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
 	public void deleteCustomerContact() throws Exception {
 		try {
 			implWait(driver);
@@ -1246,28 +1292,18 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 	}
 
-	public void insertStartDate(String date) throws Exception {
+	public void insertStartDate(String date, String month, String year) throws Exception {
 		try {
 			implWait(driver);
-
-			By dateField = By.xpath("//input[@name='startDate']");
-			boolean elementExists = !driver.findElements(dateField).isEmpty();
-			WebElement startDateInputField = driver.findElement(dateField);
-			if (elementExists) {
-
-//				startDateInputField.click();
-//				JavascriptExecutor js = (JavascriptExecutor) driver;
-//				js.executeScript("arguments[0].setAttribute('value', '"+date+"')", startDateInputField);
-
-//				WebElement startDateInputField = driver.findElement(By.id("«rjo»"));
-
-				// Try Method 1 first (recommended)
-//			    setDateWithReactEvents(startDateInputField, "2025-07-15");
-				setDateWithReactEvents(startDateInputField, date);
-				waitTime(driver);
-				String displayedDate = startDateInputField.getAttribute("value");
-				System.out.println("Displayed date: " + displayedDate);
-			}
+			Actions act = new Actions(driver);
+			act.sendKeys(Keys.TAB).build().perform();
+			waitTime(driver);
+			act.sendKeys(date).build().perform();
+			waitTime1(driver);
+			act.sendKeys(month).build().perform();
+			waitTime1(driver);
+			act.sendKeys(year).build().perform();
+			waitTime(driver);
 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -1276,42 +1312,93 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 	}
 
-	public void setDateWithReactEvents(WebElement dateInput, String date) {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
+	public void insertEndDate(String date, String month, String year) throws Exception {
+		try {
+			implWait(driver);
+			Actions act = new Actions(driver);
+			act.sendKeys(Keys.TAB).build().perform();
+			act.sendKeys(Keys.TAB).build().perform();
+			act.sendKeys(Keys.TAB).build().perform();
+			act.sendKeys(Keys.TAB).build().perform();
+			waitTime(driver);
+			act.sendKeys(year).build().perform();
+			waitTime1(driver);
+			act.keyDown(Keys.SHIFT).sendKeys(Keys.TAB).keyUp(Keys.SHIFT).perform();
+			waitTime(driver);
+			act.keyDown(Keys.SHIFT).sendKeys(Keys.TAB).keyUp(Keys.SHIFT).perform();
+			waitTime(driver);
+			act.sendKeys(date).build().perform();
+			waitTime1(driver);
+			act.sendKeys(month).build().perform();
+			waitTime(driver);
 
-		// Clear the field first
-		js.executeScript("arguments[0].value = '';", dateInput);
-
-		// Set the value and trigger React events
-		js.executeScript("arguments[0].value = arguments[1];"
-				+ "arguments[0].dispatchEvent(new Event('input', { bubbles: true }));"
-				+ "arguments[0].dispatchEvent(new Event('change', { bubbles: true }));", dateInput, date);
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
 	}
 
-//	public void insertStartDate() throws Exception {
-//		try {
-//			implWait(driver);
-//
-//			By dateField = By.xpath("//input[@name='startDate']");
-//			boolean elementExists = !driver.findElements(dateField).isEmpty();
-//			WebElement startDateInputField = driver.findElement(dateField);
-//			if (elementExists) {
-//				startDateInputField.click();
-//				waitTime(driver);
-//				Actions act = new Actions(driver);
-//				act.sendKeys(Keys.ENTER);
-//
-//				waitTime(driver);
-//				String displayedDate = startDateInputField.getAttribute("value");
-//				System.out.println("Displayed date: " + displayedDate);
-//			}
-//
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//			grep.failTest("Test Failed :" + e.getMessage());
-//			logger.error("Test Failed :" + e.getMessage());
-//		}
-//	}
+	public String retrieveStartDate() throws Exception {
+		String dateVal = null;
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(startDate).isEmpty();
+			if (elementExists) {
+				waitForElement(startDate, 30);
+				dateVal = driver.findElement(startDate).getAttribute("value");
+			} else {
+				dateVal = "Start Date Does Not Exists";
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+		return dateVal;
+	}
+
+	public String retrieveEndDate() throws Exception {
+		String dateVal = null;
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(endDate).isEmpty();
+			if (elementExists) {
+				waitForElement(endDate, 30);
+				dateVal = driver.findElement(endDate).getAttribute("value");
+			} else {
+				dateVal = "End Date Does Not Exists";
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+		return dateVal;
+	}
+
+	public void getEndDateError() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(endDateError).isEmpty();
+			if (elementExists) {
+				waitForElement(endDateError, 60);
+
+				String error = driver.findElement(endDateError).getText();
+				grep.passTest(error);
+				logger.info(error);
+			} else {
+				grep.failTest("End Date not available");
+				logger.error("End Date not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
 
 	public void clickProjectBtn(String projectName, String action) throws Exception {
 		try {

@@ -202,7 +202,6 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "CSAT Engagement survey Name in Survey Sent Popup", "CsatEngage_InSurveySent");
 		waitTime(driver);
 		csatPopup.selectSurveyFilterIn_Popup(dataKeys.surveyName_InPopup);
-
 		waitTime(driver);
 		csatProject.clickCloseSurveyPopupBtn();
 		waitTime(driver);
@@ -268,7 +267,6 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "Arun Account Executive in At Risk Popup", "arunAccExe_inAtRisk");
 		waitTime(driver);
 		csatPopup.selectAcc_ExecFilterIn_Popup(dataKeys.accountExecutive_InPopup);
-
 		waitTime(driver);
 		csatProject.clickCloseSurveyPopupBtn();
 		waitTime(driver);
@@ -381,6 +379,10 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		csatPopup.selectPaginationInCSAT_Popup("10");
 		waitTime2(driver);
 
+
+		grep.infoTest("Validating CSAT Filter Popup");
+		logger.info("Validating CSAT Filter Popup");
+		
 		csatPopup.selectFilterInCSAT_Popup(dataKeys.excellentOption_InPopup);
 		csatPopup.getCSAT_ValueFromTable("4");
 		waitTime(driver);
@@ -395,8 +397,10 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		csatPopup.getCSAT_ValueFromTable("2");
 		waitTime(driver);
 		grep.captureScreenshot("pass", "CSAT Dissatisfied Filter Option", "csatDissatisfiedOptionInPopup");
-		waitTime(driver);
+//		waitTime(driver);
 //		csatProject.clickButton(dataKeys.exportBtn);
+//		waitTime(driver);
+//		clickEscapeBtn();
 		waitTime(driver);
 		csatProject.clickCloseSurveyPopupBtn();
 

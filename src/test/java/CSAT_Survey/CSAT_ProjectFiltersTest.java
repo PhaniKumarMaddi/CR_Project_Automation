@@ -35,7 +35,9 @@ public class CSAT_ProjectFiltersTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		validateSurveyPopup(dataKeys.sentSurveyHeader);
 		csatProject.verifyButton(dataKeys.cancelBtn);
+		csatProject.verifyButtonEnabled(dataKeys.cancelBtn);
 		csatProject.verifyButton(dataKeys.shareBtn);
+		csatProject.verifyButtonEnabled(dataKeys.shareBtn);
 		csatProject.clickCloseSurveyPopupBtn();
 		waitTime(driver);
 		csatProject.clickViewSurveyAtRiskStatus();
@@ -43,6 +45,8 @@ public class CSAT_ProjectFiltersTest extends CSAT_TestInitializer {
 		validateSurveyPopup(dataKeys.atRiskSurveyHeader);
 		csatProject.verifyButton(dataKeys.cancelBtn);
 		csatProject.verifyButton(dataKeys.exportBtn);
+		csatProject.verifyButtonEnabled(dataKeys.cancelBtn);
+		csatProject.verifyButtonEnabled(dataKeys.exportBtn);
 		csatProject.clickCloseSurveyPopupBtn();
 		waitTime(driver);
 		csatProject.clickViewSurveyCompletedStatus();
@@ -50,6 +54,8 @@ public class CSAT_ProjectFiltersTest extends CSAT_TestInitializer {
 		validateSurveyPopup(dataKeys.completeSurveyHeader);
 		csatProject.verifyButton(dataKeys.cancelBtn);
 		csatProject.verifyButton(dataKeys.exportBtn);
+		csatProject.verifyButtonEnabled(dataKeys.cancelBtn);
+		csatProject.verifyButtonEnabled(dataKeys.exportBtn);
 		csatProject.clickCloseSurveyPopupBtn();
 		waitTime(driver);
 		csatProject.clickViewCSATScore();
@@ -57,6 +63,8 @@ public class CSAT_ProjectFiltersTest extends CSAT_TestInitializer {
 		validateSurveyPopup(dataKeys.csatScoreHeader);
 		csatProject.verifyButton(dataKeys.cancelBtn);
 		csatProject.verifyButton(dataKeys.exportBtn);
+		csatProject.verifyButtonEnabled(dataKeys.cancelBtn);
+		csatProject.verifyButtonEnabled(dataKeys.exportBtn);
 		csatProject.clickCloseSurveyPopupBtn();
 
 		// Verify New project
@@ -202,11 +210,11 @@ public class CSAT_ProjectFiltersTest extends CSAT_TestInitializer {
 		waitTime2(driver);
 		validAssert.verifySurveyResponseFilters(dataKeys.surveyResponseNo, dataKeys.verifySurveyResponseNo);
 //		validAssert.verifyPracticesFilters(dataKeys.ERP_Practice);
-		
+
 		grep.captureScreenshot("pass", "Multi filter test ", "MultiFilterTest");
 		waitTime(driver);
 		csatPage.expandSideMenu();
-	
+
 		waitTime(driver);
 		refreshPage();
 		waitTime(driver);

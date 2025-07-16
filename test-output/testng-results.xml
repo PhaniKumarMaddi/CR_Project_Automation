@@ -1,50 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-15T17:25:42 IST" name="CSATSuite" finished-at="2025-07-15T17:32:26 IST" duration-ms="403186">
+  <suite started-at="2025-07-16T09:35:56 IST" name="Default suite" finished-at="2025-07-16T09:39:04 IST" duration-ms="188110">
     <groups>
     </groups>
-    <test started-at="2025-07-15T17:25:42 IST" name="CSATTest" finished-at="2025-07-15T17:32:26 IST" duration-ms="403186">
-      <class name="CSAT_Survey.CSAT_SurveyTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:CSAT_Survey.CSAT_SurveyTest@767e20cf]" started-at="2025-07-15T17:25:42 IST" name="setup" description="Setup and Login To Browser" finished-at="2025-07-15T17:26:14 IST" duration-ms="31958" status="PASS">
+    <test started-at="2025-07-16T09:35:56 IST" name="Default test" finished-at="2025-07-16T09:39:04 IST" duration-ms="188110">
+      <class name="CSAT_Survey.CSAT_Project_NewProjectTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:CSAT_Survey.CSAT_Project_NewProjectTest@22ffa91a]" started-at="2025-07-16T09:35:56 IST" name="setup" description="Setup and Login To Browser" finished-at="2025-07-16T09:37:25 IST" duration-ms="89474" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[CSATPageReport.html]]>
+                <![CDATA[CsatPage.html]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="csat_Ui_Test()[pri:0, instance:CSAT_Survey.CSAT_SurveyTest@767e20cf]" started-at="2025-07-15T17:26:14 IST" name="csat_Ui_Test" finished-at="2025-07-15T17:27:09 IST" duration-ms="55082" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- csat_Ui_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:CSAT_Survey.CSAT_SurveyTest@767e20cf]" started-at="2025-07-15T17:32:25 IST" name="tearDown" description="Quit Browser" finished-at="2025-07-15T17:32:26 IST" duration-ms="538" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- CSAT_Survey.CSAT_SurveyTest -->
-      <class name="CSAT_Survey.CSAT_ProjectFiltersTest">
-        <test-method signature="csat_ProjectUI_Test()[pri:0, instance:CSAT_Survey.CSAT_ProjectFiltersTest@4a194c39]" started-at="2025-07-15T17:27:09 IST" name="csat_ProjectUI_Test" finished-at="2025-07-15T17:28:33 IST" duration-ms="83282" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- csat_ProjectUI_Test -->
-      </class> <!-- CSAT_Survey.CSAT_ProjectFiltersTest -->
-      <class name="CSAT_Survey.CSAT_SendSurvey">
-        <test-method signature="csat_SendSurvey_Test()[pri:0, instance:CSAT_Survey.CSAT_SendSurvey@340b9973]" started-at="2025-07-15T17:30:08 IST" name="csat_SendSurvey_Test" finished-at="2025-07-15T17:32:25 IST" duration-ms="137035" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- csat_SendSurvey_Test -->
-      </class> <!-- CSAT_Survey.CSAT_SendSurvey -->
-      <class name="CSAT_Survey.CSAT_Project_NewProjectTest">
-        <test-method signature="csat_NewProject_Test()[pri:0, instance:CSAT_Survey.CSAT_Project_NewProjectTest@52066604]" started-at="2025-07-15T17:28:33 IST" name="csat_NewProject_Test" finished-at="2025-07-15T17:30:08 IST" duration-ms="95240" status="PASS">
+        <test-method signature="csat_NewProject_Test()[pri:0, instance:CSAT_Survey.CSAT_Project_NewProjectTest@22ffa91a]" started-at="2025-07-16T09:37:25 IST" name="csat_NewProject_Test" finished-at="2025-07-16T09:39:04 IST" duration-ms="98347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- csat_NewProject_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CSAT_Survey.CSAT_Project_NewProjectTest@22ffa91a]" started-at="2025-07-16T09:39:04 IST" name="tearDown" description="Quit Browser" finished-at="2025-07-16T09:39:04 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- CSAT_Survey.CSAT_Project_NewProjectTest -->
-    </test> <!-- CSATTest -->
-  </suite> <!-- CSATSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

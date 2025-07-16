@@ -164,7 +164,13 @@ public class TestDataKeys {
 	public String updateCustomerContactEmail = "anwar_hussain@skillsynccr.onmicrosoft.com";
 	public String customerContactInvalidEmail = "Phani Maddi";
 
-	public String startDate = "2025-07-15";
+	public String date_StartDate = "16";
+	public String month_StartDate = "07";
+	public String year_StartDate = "2025";
+	public String date_EndDate = "31";
+	public String lesser_date_EndDate = "13";
+	public String month_EndDate = "07";
+	public String year_EndDate = "2025";
 
 	// project buttons
 	public String editProjectBtn = "Edit";

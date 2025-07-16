@@ -60,28 +60,6 @@ public class CSAT_Popup_Page extends WaitsManager {
 	// Surveys Completed
 	// All are same as per survey sent
 
-	public String verifyCsatColInTable(String projectName) throws Exception {
-		String csatColResult = null;
-		try {
-			By csatCol = By.xpath("//td[text()='" + projectName + "']/parent::tr/td[8]");
-
-			implWait(driver);
-			boolean elementExists = !driver.findElements(csatCol).isEmpty();
-			if (elementExists) {
-				waitForElement(csatCol, 60);
-				csatColResult = driver.findElement(csatCol).getText();
-				grep.passTest("Value Retrieved");
-			} else {
-				csatColResult = "Failed to retrieve" + csatColResult + " Value Text";
-				grep.failTest("Count Not Retrieved");
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-			grep.failTest("Test Failed :" + e.getMessage());
-			logger.error("Test Failed :" + e.getMessage());
-		}
-		return csatColResult;
-	}
 
 	public void verifyProjectBtnsAfterSurvey(String projectName) throws Exception {
 		try {

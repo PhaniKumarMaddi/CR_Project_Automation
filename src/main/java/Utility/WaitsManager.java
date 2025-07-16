@@ -34,9 +34,14 @@ public class WaitsManager {
 
 	public void clickNewTab() {
 		WebElement body = driver.findElement(By.tagName("body"));
-        body.sendKeys(Keys.chord(Keys.CONTROL, "t")); 
+		body.sendKeys(Keys.chord(Keys.CONTROL, "t"));
 	}
-	
+
+	public void clickEscapeBtn() {
+		Actions act = new Actions(driver);
+		act.sendKeys(Keys.ESCAPE).build().perform();
+	}
+
 	/**
 	 * This method will switch the focus from the current window to the new window.
 	 */
@@ -198,6 +203,7 @@ public class WaitsManager {
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.getLast());
 	}
+
 	public void switchToFirstTab() {
 
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());

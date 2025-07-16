@@ -190,17 +190,23 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		csatProject.selectProjectTypeOption(dataKeys.projectType_Development);
 		logger.info("Entering Project Type: " + dataKeys.projectType_Development);
 		grep.infoTest("Entering Project Type:" + dataKeys.projectType_Development);
+		waitTime2(driver);
+		csatProject.insertStartDate(dataKeys.date_StartDate, dataKeys.month_StartDate, dataKeys.year_StartDate);
+		waitTime5(driver);
+		csatProject.insertEndDate(dataKeys.date_EndDate, dataKeys.month_EndDate, dataKeys.year_EndDate);
+		waitTime1(driver);
+		String startDate = csatProject.retrieveStartDate();
+		logger.info("Entered Project Start Date: " + startDate);
+		grep.infoTest("Entered Project Start Date:" + startDate);
+		waitTime(driver);
+		String endDate = csatProject.retrieveEndDate();
+		logger.info("Entered Project End Date: " + endDate);
+		grep.infoTest("Entered Project End Date:" + endDate);
 		waitTime(driver);
 		csatProject.insertProjectDescription(dataKeys.projectDesc);
 		logger.info("Entering Project Description: " + dataKeys.projectDesc);
 		grep.infoTest("Entering Project Description:" + dataKeys.projectDesc);
-		waitTime(driver);
-		waitTime10(driver);
-		csatProject.insertStartDate(dataKeys.startDate);
-//		csatProject.insertStartDate();
-		logger.info("Entering Project Start Date: " + dataKeys.startDate);
-		grep.infoTest("Entering Project Start Date:" + dataKeys.startDate);
-		waitTime5(driver);
+		waitTime1(driver);
 		csatProject.insertCustomerName(dataKeys.customerContactName);
 		logger.info("Entering Customer Name: " + dataKeys.customerContactName);
 		grep.infoTest("Entering Customer Name:" + dataKeys.customerContactName);
@@ -295,10 +301,7 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		csatProject.getProjectNameList(dataKeys.newProjectName);
 
-
 		validAssert.assertAllFunction();
 	}
-
-	
 
 }
