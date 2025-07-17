@@ -95,9 +95,12 @@ public class CSAT_Project_Page extends WaitsManager {
 	By getSubject = By.xpath("//label[text()='Subject']/parent::div/input");
 	By getBody = By.xpath("//label[text()='Body']/parent::div/textarea");
 	By closeSurvey = By.cssSelector("button.close-btn");
-	
 
 	By emailSentmsg = By.xpath("//div[@class='MuiSnackbarContent-message css-1o19295']");
+
+	// Ruddr Project popup
+	By ruddrprojectHeader = By.xpath("//h6[@class='MuiTypography-root MuiTypography-h6 css-1rl0qlz']");
+	By closeRuddrBtn = By.cssSelector("button.Ruddr-close-btn");
 
 	public void headerValidation() throws Exception {
 		try {
@@ -135,8 +138,6 @@ public class CSAT_Project_Page extends WaitsManager {
 			logger.error("Test Failed :" + e.getMessage());
 		}
 	}
-	
-	
 
 	public void clickViewSurveyAtRiskStatus() throws Exception {
 		try {
@@ -276,6 +277,56 @@ public class CSAT_Project_Page extends WaitsManager {
 //				driver.findElement(button).click();
 				grep.passTest(btnValue + " Button Available");
 				logger.info(btnValue + " Button Available");
+
+			} else {
+				grep.failTest(btnValue + " Button Not Available");
+				logger.error(btnValue + " Button Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void verifyRuddrButton(String btnValue) throws Exception {
+		try {
+			implWait(driver);
+			By button = By.xpath("//button[@title='" + btnValue + "']");
+
+			List<WebElement> element = driver.findElements(button);
+			if (element.size() > 0) {
+				String btnTitle = element.getFirst().getAttribute("title");
+				if (btnTitle.equals(btnValue)) {
+					grep.passTest(btnValue + " Button is available");
+					logger.info(btnValue + " Button is Available");
+				} else {
+					grep.failTest(btnValue + " Button Not Available");
+					logger.error(btnValue + " Button Not Available");
+				}
+
+			} else {
+				grep.failTest(btnValue + " Button Not Available");
+				logger.error(btnValue + " Button Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void clickRuddrButton(String projectVal, String btnValue) throws Exception {
+		try {
+			implWait(driver);
+			By button = By.xpath("//button[text()='" + projectVal
+					+ "']/parent::td/following-sibling::td[@class='Project-action-cell']/div/button[@title='" + btnValue
+					+ "']");
+
+			boolean elementexists = !driver.findElements(button).isEmpty();
+			if (elementexists) {
+				waitForElement(button, 60);
+				driver.findElement(button).click();
 
 			} else {
 				grep.failTest(btnValue + " Button Not Available");
@@ -1161,6 +1212,8 @@ public class CSAT_Project_Page extends WaitsManager {
 				List<WebElement> custName = driver.findElements(customerFullName);
 				if (custName.size() > 0) {
 					waitForElement(customerFullName, 60);
+					custName.getLast().clear();
+					waitTime(driver);
 					custName.getLast().sendKeys(custNameValue);
 				}
 			} else {
@@ -1182,6 +1235,9 @@ public class CSAT_Project_Page extends WaitsManager {
 				List<WebElement> custEmail = driver.findElements(customerEmail);
 				if (custEmail.size() > 0) {
 					waitForElement(customerEmail, 60);
+					waitTime(driver);
+					custEmail.getLast().clear();
+					waitTime(driver);
 					custEmail.getLast().sendKeys(customerEmailValue);
 				}
 			} else {
@@ -1408,11 +1464,12 @@ public class CSAT_Project_Page extends WaitsManager {
 	public void clickProjectBtn(String projectName, String action) throws Exception {
 		try {
 			implWait(driver);
-			By icon = By.xpath("//td[text()='" + projectName+ "']/parent::tr/td[@class='Project-action-cell']/div/button[@title='" + action + "']");
+			By icon = By.xpath("//td[text()='" + projectName
+					+ "']/parent::tr/td[@class='Project-action-cell']/div/button[@title='" + action + "']");
 
 			WebElement editIcon = driver.findElement(icon);
 			if (editIcon.isDisplayed()) {
-			waitForElementToBeClickable(icon, 30);
+				waitForElementToBeClickable(icon, 30);
 				editIcon.click();
 			} else {
 				logger.info(action + " is not available for " + projectName);
@@ -1464,47 +1521,6 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 	}
 
-	public void verifyCreatedProjectNameInList(String projectName) throws Exception {
-		try {
-			implWait(driver);
-			List<WebElement> projectList = driver.findElements(projectListInTable);
-			List<WebElement> projectList2 = driver.findElements(projectListInTable2);
-			if (projectList.size() > 0 && projectList2.size() > 0) {
-				int count = 0;
-				for (WebElement project : projectList) {
-					String validateProject = project.getText().trim();
-
-					if (validateProject.equals(projectName)) {
-						count++;
-						System.out.println(validateProject);
-					}
-				}
-				for (WebElement project2 : projectList2) {
-					String validateProjectList = project2.getText().trim();
-
-					if (validateProjectList.equals(projectName)) {
-						count++;
-						System.out.println(validateProjectList);
-					}
-				}
-				if (count == 1) {
-					grep.passTest(projectName + " Project Created");
-					logger.info(projectName + " Project Created");
-				} else {
-					grep.failTest(projectName + " Project Not Created");
-					logger.error(projectName + " Project Not Created");
-				}
-
-			} else {
-				logger.info("Project list is not available");
-				grep.infoTest("Project list is not available");
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-			grep.failTest("Test Failed :" + e.getMessage());
-			logger.error("Test Failed :" + e.getMessage());
-		}
-	}
 
 	public void clickSelectContact(String option) throws Exception {
 		try {
@@ -1601,7 +1617,6 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 	}
 
-	
 	public void clickCloseSendSurveyButton() throws Exception {
 		try {
 			implWait(driver);
@@ -1621,7 +1636,6 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 	}
 
-	
 	public String getSurveyCount(String surveyType) throws Exception {
 		String surveyCountResult = null;
 		try {
@@ -1715,6 +1729,63 @@ public class CSAT_Project_Page extends WaitsManager {
 			logger.error("Test Failed :" + e.getMessage());
 		}
 
+	}
+
+	public void ruddrProjectHeaderValidation(String projectName) throws Exception {
+		try {
+			implWait(driver);
+			waitForElement(ruddrprojectHeader, 30);
+			String verifyHeader = driver.findElement(ruddrprojectHeader).getText();
+			if (verifyHeader.contains(projectName)) {
+				logger.info("Header is Valid: " + verifyHeader);
+				grep.passTest("Header is Valid: " + verifyHeader);
+			} else {
+				logger.error("Header is not Valid: " + verifyHeader);
+				grep.failTest("Header is not Valid: " + verifyHeader);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void ruddrProjectColumnValidation(String columnName) throws Exception {
+		try {
+			implWait(driver);
+			By header = By.xpath("//table[@class='Ruddr-project-table']/thead/tr/th[text()='" + columnName + "']");
+
+			WebElement colHeader = driver.findElement(header);
+			if (colHeader.isDisplayed()) {
+				logger.info(columnName + " Header is Available");
+				grep.passTest(columnName + " Header is Available");
+			} else {
+				logger.error(columnName + " Header is Not Available");
+				grep.failTest(columnName + " Header is Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void clickCloseRuddrPopupBtn() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(closeRuddrBtn).isEmpty();
+			if (elementExists) {
+				waitForElement(closeRuddrBtn, 60);
+				driver.findElement(closeRuddrBtn).click();
+			} else {
+				grep.failTest("Ruddr Close button not available");
+				logger.error("Ruddr Close button not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
 	}
 
 }

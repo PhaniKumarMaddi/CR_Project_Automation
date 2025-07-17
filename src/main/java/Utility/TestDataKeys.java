@@ -175,12 +175,11 @@ public class TestDataKeys {
 	public String deleteProjectBtn = "Delete";
 	public String sendProjectBtn = "Send";
 	public String sendSurveyProjectBtn = "Send Survey";
-	
+
 	// buttons for ruddr projects
 	public String editContactBtn = "Edit Contacts";
 	public String addContactBtn = "Add Contacts";
 
-	
 	public String buttonYes = "Yes";
 	public String buttonNo = "No";
 
@@ -224,7 +223,7 @@ public class TestDataKeys {
 	// SURVEY NAME
 	public String surveyName_InPopup = "Survey";
 	public String csatDev_Survey_InPopup = "CR CSAT - Development Project";
-	public String csatAms_Survey_InPopup = "CR CSAT - AMS";
+	public String csatAms_Survey_InPopup = "CR CSAT - AMS Project";
 	public String csatEngage_Survey_InPopup = "CR CSAT Engagement-Survey FLow";
 	public String csatEngageLevel_Survey_InPopup = "CR CSAT - Engagement Level";
 
@@ -253,4 +252,12 @@ public class TestDataKeys {
 	public String leadershipRateRate = "Thought Leadership";
 	public String inputGeneralFeedback = "Good Experience and Great place to work";
 
+	// Ruddr Projects
+	public String Infineon_Scrum_Master_Project = "Infineon_Scrum Master_0525_1125";
+	public String DayforceNetsuitePhase_Project = "Dayforce - Netsuite Phase 1";
+	public String noticePeriod_Project = "Notice Period Activities";
+	public String col_MemberName = "Member Name";
+	public String col_MemberRole = "Member Role";
+	public String col_Project_Name = "Project Name";
+	
 }
