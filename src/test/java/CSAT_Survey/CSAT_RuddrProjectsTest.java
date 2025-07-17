@@ -240,7 +240,7 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 				"AddCont_RuddrProject_DuplicateContacts");
 		waitTime2(driver);
 		csatProject.clickButton(dataKeys.cancelBtn);
-		
+
 		// Add customer name and email with valid data in add contact popup
 //		grep.testCreate("Verify the Add Valid Contact Functionality for Ruddr Projects Test",
 //				" Add Valid Contact Functionality for ruddr projects");
@@ -249,35 +249,71 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 //		logger.info("Validating Add Valid Contact Functionality for Ruddr Projects");
 //
 //		waitTime(driver);
-//
-//		// Enter invalid email format in customer email field in edit contact popup
-//		grep.testCreate("Verify invalid email format in customer email field in edit contact popup Ruddr Projects Test",
-//				" Invalid email format in customer email field in edit contact popup for ruddr projects");
-//
-//		grep.infoTest(
-//				"Validating Invalid email format in customer email field in edit contact popup for ruddr projects");
-//		logger.info("Validating Invalid email format in customer email field in edit contact popup for ruddr projects");
-//
-//		waitTime(driver);
-//
-//		// Enter invalid characters in customer name field in edit contact popup
-//		grep.testCreate("Verify invalid characters in customer name field in edit contact popup Ruddr Projects Test",
-//				" Invalid characters in customer name field in edit contact popup for ruddr projects");
-//
-//		grep.infoTest("Validating Invalid characters in customer name field in edit contact popup for ruddr projects");
-//		logger.info("Validating Invalid characters in customer name field in edit contact popup for ruddr projects");
-//
-//		waitTime(driver);
-//
-//		// Enter Only Space characters in customer name field in edit contact popup
-//		grep.testCreate("Verify adding only spaces in customer name field in edit contact popup Ruddr Projects Test",
-//				" Adding only spaces in customer name field in edit contact popup for ruddr projects");
-//
-//		grep.infoTest("Validating adding only spaces in customer name field in edit contact popup for ruddr projects");
-//		logger.info("Validating adding only spaces in customer name field in edit contact popup for ruddr projects");
-//
-//		waitTime(driver);
-//
+
+		// Enter invalid email format in customer email field in edit contact popup
+		grep.testCreate("Verify invalid email format in customer email field in edit contact popup Ruddr Projects Test",
+				" Invalid email format in customer email field in edit contact popup for ruddr projects");
+
+		grep.infoTest(
+				"Validating Invalid email format in customer email field in edit contact popup for ruddr projects");
+		logger.info("Validating Invalid email format in customer email field in edit contact popup for ruddr projects");
+
+		waitTime(driver);
+
+		csatProject.clickRuddrButton(dataKeys.noticePeriod_Project, dataKeys.editContactBtn);
+		waitTime2(driver);
+		csatProject.insertCustomerName(dataKeys.customerContactName);
+		csatProject.insertCustomerEmail(dataKeys.customerContactInvalidEmail);
+
+		csatProject.verifyButtonDisable(dataKeys.saveBtn);
+
+		grep.captureScreenshot("pass", "Entering Invalid Email Format in edit contacts page",
+				"EditCont_RuddrProject_InvalidEmailformat");
+		waitTime2(driver);
+		csatProject.clickButton(dataKeys.cancelBtn);
+
+		// Enter invalid characters in customer name field in edit contact popup
+		grep.testCreate("Verify invalid characters in customer name field in edit contact popup Ruddr Projects Test",
+				" Invalid characters in customer name field in edit contact popup for ruddr projects");
+
+		grep.infoTest("Validating Invalid characters in customer name field in edit contact popup for ruddr projects");
+		logger.info("Validating Invalid characters in customer name field in edit contact popup for ruddr projects");
+
+		waitTime(driver);
+
+		csatProject.clickRuddrButton(dataKeys.noticePeriod_Project, dataKeys.editContactBtn);
+		waitTime2(driver);
+		csatProject.insertCustomerName(dataKeys.invalidName);
+		csatProject.insertCustomerEmail(dataKeys.customerContactEmail);
+
+		csatProject.verifyButtonDisable(dataKeys.saveBtn);
+
+		grep.captureScreenshot("pass", "Entering Invalid Name in edit contacts page",
+				"EditCont_RuddrProject_InvalidName");
+		waitTime2(driver);
+		csatProject.clickButton(dataKeys.cancelBtn);
+
+		// Enter Only Space characters in customer name field in edit contact popup
+		grep.testCreate("Verify adding only spaces in customer name field in edit contact popup Ruddr Projects Test",
+				" Adding only spaces in customer name field in edit contact popup for ruddr projects");
+
+		grep.infoTest("Validating adding only spaces in customer name field in edit contact popup for ruddr projects");
+		logger.info("Validating adding only spaces in customer name field in edit contact popup for ruddr projects");
+
+		waitTime(driver);
+
+		csatProject.clickRuddrButton(dataKeys.noticePeriod_Project, dataKeys.addContactBtn);
+		waitTime2(driver);
+		csatProject.insertCustomerName(dataKeys.spacesInName);
+		csatProject.insertCustomerEmail(dataKeys.customerContactEmail);
+
+		csatProject.verifyButtonDisable(dataKeys.saveBtn);
+
+		grep.captureScreenshot("pass", "Entering Only Spacesin Name for add contacts page",
+				"AddCont_RuddrProject_SpacesInName");
+		waitTime2(driver);
+		csatProject.clickButton(dataKeys.cancelBtn);
+
 //		// Verify editing (replacing) a existing customer contact in edit popup
 //		grep.testCreate("Verify editing (replacing) a existing customer contact in edit popups for ruddr projects Test",
 //				" editing (replacing) a existing customer contact in edit popup for ruddr projects");

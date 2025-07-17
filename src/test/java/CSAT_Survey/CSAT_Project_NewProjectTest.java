@@ -340,7 +340,8 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		
 		logger.info("Project Created");
 		grep.infoTest("Project  Created");
-		waitTime(driver);
+		waitTime2(driver);
+		grep.captureScreenshot("pass","Project Created","ProjectCreated");
 		
 		// update Duplicate customer contact project
 		grep.testCreate("Update duplicate customer contact test", "Update duplicate customer contact");
