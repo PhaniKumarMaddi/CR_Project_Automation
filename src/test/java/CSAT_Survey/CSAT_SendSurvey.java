@@ -16,7 +16,7 @@ import Utility.TestDataKeys;
 import Utility.ValidatingAssertions;
 
 public class CSAT_SendSurvey extends CSAT_TestInitializer {
-	private static final Logger logger = LogManager.getLogger(CSAT_Project_NewProjectTest.class);
+	private static final Logger logger = LogManager.getLogger(CSAT_SendSurvey.class);
 	GenerateReports grep = new GenerateReports();
 	CSAT_Project_Page csatProject;
 	CSAT_Popup_Page csatPopup;
@@ -86,7 +86,39 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		logger.info("Survey At Risk Count After sending feedback request:" + atRiskSurveyCountBeforeSubmit);
 		grep.infoTest("Survey At Risk Count After sending feedback request:" + atRiskSurveyCountBeforeSubmit);
 
-		waitTime2(driver);
+		// SURVEY POPUP RESEND SURVEY TEST
+		grep.testCreate("CSAT Survey popup Resend Survey Test", "Resend Survey ");
+
+		grep.infoTest("Validating Resend Survey to customer in Survey  Sent Popup");
+		logger.info("Validating Resend Survey to customer in Survey  Sent Popup");
+
+		waitTime(driver);
+		csatProject.clickViewSurveySentStatus();
+		waitTime(driver);
+		csatPopup.selectResponseStatusFilterIn_Popup(dataKeys.notResponsedResponseStatus_InPopup);
+		waitTime(driver);
+		csatPopup.selectAcc_ExecFilterIn_Popup(dataKeys.phani_AccExe_InPopup);
+		waitTime(driver);
+//		csatPopup.selectProjectFilterIn_Popup(dataKeys.projectNameForSend);
+
+		waitTime(driver);
+		csatPopup.selectNotRespondedSurvey(dataKeys.selectDevelopSurvey);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "ReSend FeebBack request Popup", "ReSendSurveyPopup");
+		waitTime(driver);
+		csatProject.clickButton(dataKeys.sendSurveyProjectBtn);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Send Survey Popup", "InsideSurveyPopup");
+		waitTime(driver);
+		csatProject.clickCloseSendSurveyButton();
+		waitTime(driver);
+		csatProject.clickCloseSurveyPopupBtn();
+
+		waitTime5(driver);
+
+		refreshPage();
+		waitTime5(driver);
+
 		// FEEDBACK SURVEY TEST
 		csat_FillSurvey_Test();
 		waitTime2(driver);
@@ -416,6 +448,7 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		LoginPage login = new LoginPage();
 
 		// Send Survey Report
+		waitTime2(driver);
 		grep.testCreate("Login to Customer account Test", "Login to Customer account");
 		waitTime(driver);
 
@@ -432,6 +465,7 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		login.clickSignIn();
 		waitTime2(driver);
 		login.enterPassword(dataKeys.ssoPassword);
+		waitTime2(driver);
 		login.clickSignIn();
 		waitTime10(driver);
 
@@ -443,7 +477,7 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		grep.infoTest("Inside Customer Mail");
 		logger.info("Inside Customer Mail");
 		waitTime10(driver);
-		
+
 		Robot robot = new Robot();
 		robot.keyPress(KeyEvent.VK_CONTROL);
 		robot.keyPress(KeyEvent.VK_MINUS);
@@ -455,6 +489,22 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		csatPopup.clickTakeSurveyButton();
 		waitTime2(driver);
 		switchToLastTab();
+		waitTime(driver);
+		String title = getTitleMethod();
+		waitTime(driver);
+		if (title.endsWith("Checking link")) {
+			waitTime(driver);
+			closeCurrentTab();
+			waitTime2(driver);
+			switchToLastTab();
+			waitTime(driver);
+			csatPopup.clickSkillSyncMail();
+			waitTime2(driver);
+			csatPopup.clickTakeSurveyButton();
+			waitTime2(driver);
+			switchToLastTab();
+
+		}
 
 		waitTime5(driver);
 		csatPopup.formHeaderValidation();

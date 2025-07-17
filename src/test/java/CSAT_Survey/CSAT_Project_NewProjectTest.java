@@ -408,7 +408,7 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		logger.info("Delete Existing Project");
 		grep.infoTest("Delete existing project");
-		waitTime2(driver);
+		waitTime3(driver);
 		csatProject.clickProjectBtn(dataKeys.newProjectName, dataKeys.deleteProjectBtn);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Deleted the project", "DeleteingProject");

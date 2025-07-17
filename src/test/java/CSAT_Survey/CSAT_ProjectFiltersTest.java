@@ -94,6 +94,7 @@ public class CSAT_ProjectFiltersTest extends CSAT_TestInitializer {
 		logger.info("Download PDF File Format ");
 		grep.infoTest("Download PDF File Format ");
 		csatProject.clickDownloadFileBtn(dataKeys.pdfFormat);
+		waitTime5(driver);
 		grep.captureScreenshot("pass", "Download PDF", "PDFFormat");
 //
 		grep.testCreate("Pagination for Table Test", "Pagination for table");

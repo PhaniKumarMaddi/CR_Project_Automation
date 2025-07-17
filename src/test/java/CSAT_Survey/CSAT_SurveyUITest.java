@@ -10,9 +10,9 @@ import Utility.GenerateReports;
 import Utility.TestDataKeys;
 import Utility.ValidatingAssertions;
 
-public class CSAT_SurveyTest extends CSAT_TestInitializer {
+public class CSAT_SurveyUITest extends CSAT_TestInitializer {
 
-	private static final Logger logger = LogManager.getLogger(CSAT_SurveyTest.class);
+	private static final Logger logger = LogManager.getLogger(CSAT_SurveyUITest.class);
 	GenerateReports grep = new GenerateReports();
 	CSAT_Survey_AllPages csatPage;
 	TestDataKeys dataKeys = new TestDataKeys();

@@ -16646,3 +16646,2507 @@ Session ID: 6e4edbc2a303b1ea88144bdeff324aed
 2025-07-16 18:44:51 [main] INFO : Bot Response :For details on available roles and to apply, please visit the U.S. jobs page or the APAC/India jobs page. You can also reach out directly at careers@criticalriver.com for more information. 🙂
 2025-07-16 18:44:52 [main] INFO : Testing Ended
 2025-07-16 18:44:52 [main] INFO : ***********
+2025-07-17 09:22:08 [main] INFO : Launching Chrome Browser
+2025-07-17 09:22:08 [main] INFO : Report Name :CSATPageReport.html
+2025-07-17 09:22:27 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 09:22:27 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 09:22:27 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 09:22:54 [main] INFO : Logged in to CSAT Application
+2025-07-17 09:22:54 [main] INFO : Inside Test class 
+2025-07-17 09:22:55 [main] INFO : Logo is Available CSAT Logo
+2025-07-17 09:22:55 [main] INFO : Profile Name is Valid: Anwar Hussain
+2025-07-17 09:22:56 [main] INFO : Menu Collapsed
+2025-07-17 09:23:02 [main] INFO : Inside /surveys Page 
+2025-07-17 09:23:03 [main] INFO : /surveys Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveys
+2025-07-17 09:23:10 [main] INFO : Inside /roles Page 
+2025-07-17 09:23:10 [main] INFO : /roles Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/roles
+2025-07-17 09:23:17 [main] INFO : Inside /reports Page 
+2025-07-17 09:23:17 [main] INFO : /reports Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/reports
+2025-07-17 09:23:25 [main] INFO : Inside /settings/org-members Page 
+2025-07-17 09:23:25 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/org-members
+2025-07-17 09:23:32 [main] INFO : Inside /profile Page 
+2025-07-17 09:23:32 [main] INFO : /profile Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/profile
+2025-07-17 09:23:39 [main] INFO : Inside /settings/teams Page 
+2025-07-17 09:23:39 [main] INFO : /settings/teams Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/teams
+2025-07-17 09:23:47 [main] INFO : Inside /projects Page 
+2025-07-17 09:23:47 [main] INFO : /projects Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/projects
+2025-07-17 09:23:49 [main] INFO : Menu Expanded
+2025-07-17 09:23:50 [main] INFO : Menu Collapsed
+2025-07-17 09:23:51 [main] INFO : Header is Valid: Projects
+2025-07-17 09:23:53 [main] INFO : Popup Header: Surveys Sent
+2025-07-17 09:23:54 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-17 09:23:54 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-17 09:23:56 [main] INFO : Cancel Button Available
+2025-07-17 09:23:56 [main] INFO : Cancel Button is Enabled
+2025-07-17 09:23:56 [main] INFO : Share Button Available
+2025-07-17 09:23:56 [main] INFO : Share Button is Enabled
+2025-07-17 09:23:59 [main] INFO : Popup Header: At Risk Surveys
+2025-07-17 09:24:00 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-17 09:24:00 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-17 09:24:02 [main] INFO : Cancel Button Available
+2025-07-17 09:24:02 [main] INFO : Export Button Available
+2025-07-17 09:24:02 [main] INFO : Cancel Button is Enabled
+2025-07-17 09:24:02 [main] INFO : Export Button is Enabled
+2025-07-17 09:24:04 [main] INFO : Popup Header: Completed Surveys
+2025-07-17 09:24:05 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-17 09:24:05 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-17 09:24:08 [main] INFO : Cancel Button Available
+2025-07-17 09:24:08 [main] INFO : Export Button Available
+2025-07-17 09:24:08 [main] INFO : Cancel Button is Enabled
+2025-07-17 09:24:08 [main] INFO : Export Button is Enabled
+2025-07-17 09:24:10 [main] INFO : Popup Header: CSAT Summary
+2025-07-17 09:24:11 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-17 09:24:11 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-17 09:24:13 [main] INFO : Cancel Button Available
+2025-07-17 09:24:13 [main] INFO : Export Button Available
+2025-07-17 09:24:13 [main] INFO : Cancel Button is Enabled
+2025-07-17 09:24:14 [main] INFO : Export Button is Enabled
+2025-07-17 09:24:15 [main] INFO : popup Header New Project Details
+2025-07-17 09:24:15 [main] INFO : Expected :New Project Details and Actual :New Project Details
+2025-07-17 09:24:15 [main] INFO : Expected :New Project Details and Actual :New Project Details both are same
+2025-07-17 09:24:18 [main] INFO : Cancel Button Available
+2025-07-17 09:24:18 [main] INFO : Save Button Available
+2025-07-17 09:24:18 [main] INFO : Download CSV File Format 
+2025-07-17 09:24:18 [main] ERROR: File Not downloaded
+2025-07-17 09:24:24 [main] INFO : Download PDF File Format 
+2025-07-17 09:24:24 [main] INFO : Exported to PDF successfully.
+2025-07-17 09:24:25 [main] INFO : Selecting Pagination 5
+2025-07-17 09:24:25 [main] INFO : 5 pagination Option Selected
+2025-07-17 09:24:25 [main] INFO : Selecting Pagination 50
+2025-07-17 09:24:25 [main] INFO : 50 pagination Option Selected
+2025-07-17 09:24:25 [main] INFO : Selecting Pagination 100
+2025-07-17 09:24:25 [main] INFO : 100 pagination Option Selected
+2025-07-17 09:24:26 [main] INFO : Verify Edit button
+2025-07-17 09:24:26 [main] INFO : edit Button is Available
+2025-07-17 09:24:26 [main] INFO : Verify Delete button
+2025-07-17 09:24:26 [main] INFO : delete Button is Available
+2025-07-17 09:24:26 [main] INFO : Verify Send button
+2025-07-17 09:24:26 [main] INFO : send Button is Available
+2025-07-17 09:24:27 [main] INFO : Column Options is valid Header value
+2025-07-17 09:24:27 [main] INFO : Cancel Button Available
+2025-07-17 09:24:27 [main] INFO : OK Button Available
+2025-07-17 09:24:27 [main] INFO : Verifying Project Name Column Option
+2025-07-17 09:24:27 [main] INFO : Column Option visibility is Hide 
+2025-07-17 09:24:28 [main] INFO : Column Option visibility is View 
+2025-07-17 09:24:30 [main] INFO : Verifying Practice Name Column Option
+2025-07-17 09:24:30 [main] INFO : Column Option visibility is Hide 
+2025-07-17 09:24:32 [main] INFO : Column Option visibility is View 
+2025-07-17 09:24:33 [main] INFO : Verifying CSAT Column Option
+2025-07-17 09:24:33 [main] INFO : Column Option visibility is Hide 
+2025-07-17 09:24:35 [main] INFO : Column Option visibility is View 
+2025-07-17 09:24:38 [main] INFO : All Statuses Status Option Selected
+2025-07-17 09:24:38 [main] INFO : Selecting Pipeline Status Option
+2025-07-17 09:24:39 [main] INFO : Pipeline Status Option Selected
+2025-07-17 09:24:39 [main] INFO : Expected :Pipeline and Actual :Pipeline both are same
+2025-07-17 09:24:39 [main] INFO : Selecting Completed Status Option
+2025-07-17 09:24:39 [main] INFO : Completed Status Option Selected
+2025-07-17 09:24:39 [main] INFO : Expected :Completed and Actual :Completed both are same
+2025-07-17 09:24:39 [main] INFO : Selecting In Progress Status Option
+2025-07-17 09:24:39 [main] INFO : In Progress Status Option Selected
+2025-07-17 09:24:39 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-17 09:24:41 [main] INFO : Survey Response Status survey Response Option Selected
+2025-07-17 09:24:41 [main] INFO : Selecting Not Received Survey response Option
+2025-07-17 09:24:44 [main] INFO : Not Received survey Response Option Selected
+2025-07-17 09:24:45 [main] INFO : Expected :No and Actual :No both are same
+2025-07-17 09:24:46 [main] INFO : Selecting Received Survey response Option
+2025-07-17 09:24:48 [main] INFO : Received survey Response Option Selected
+2025-07-17 09:24:50 [main] INFO : Expected :Yes and Actual :Yes both are same
+2025-07-17 09:24:51 [main] INFO : Survey Projects Project Option Selected
+2025-07-17 09:24:51 [main] INFO : Selecting Ruddr Projects Project Option
+2025-07-17 09:24:56 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-17 09:24:56 [main] INFO : Expected :Ruddr and Actual :Ruddr both are same
+2025-07-17 09:25:03 [main] INFO : All Practices Practice Option Selected
+2025-07-17 09:25:05 [main] INFO : Selecting ERP Applications Practice Option
+2025-07-17 09:25:05 [main] INFO : ERP Applications Practice Option Selected
+2025-07-17 09:25:05 [main] INFO : Expected :ERP Applications and Actual :ERP Applications both are same
+2025-07-17 09:25:05 [main] INFO : Selecting Product Engineering Services Practice Option
+2025-07-17 09:25:06 [main] INFO : Product Engineering Services Practice Option Selected
+2025-07-17 09:25:06 [main] INFO : Expected :Product Engineering Services and Actual :Product Engineering Services both are same
+2025-07-17 09:25:07 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-17 09:25:07 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-17 09:25:07 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-17 09:25:07 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-17 09:25:07 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-17 09:25:09 [main] INFO : Selecting In Progress Status Option
+2025-07-17 09:25:10 [main] INFO : In Progress Status Option Selected
+2025-07-17 09:25:10 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-17 09:25:12 [main] INFO : Selecting Not Received Survey response Option
+2025-07-17 09:25:14 [main] INFO : Not Received survey Response Option Selected
+2025-07-17 09:25:16 [main] INFO : Expected :No and Actual :No both are same
+2025-07-17 09:25:16 [main] INFO : Menu Expanded
+2025-07-17 09:25:18 [main] INFO : Menu Collapsed
+2025-07-17 09:25:19 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-17 09:25:20 [main] INFO : Save Button is Disabled
+2025-07-17 09:25:21 [main] INFO : Verify Keeping One mandatory field Empty in add Project
+2025-07-17 09:25:22 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 09:25:23 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 09:25:24 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 09:25:24 [main] INFO : Entering Project Type: Development
+2025-07-17 09:25:25 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-17 09:25:26 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 09:25:26 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-17 09:25:31 [main] INFO : Save Button is Disabled
+2025-07-17 09:25:34 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-17 09:25:35 [main] INFO : Entering Project Name: #$%^&*
+2025-07-17 09:25:35 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 09:25:36 [main] INFO : Verify the error message 
+2025-07-17 09:25:36 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-17 09:25:38 [main] INFO : Verify adding only Space character in project name Test
+2025-07-17 09:25:38 [main] INFO : Entering Project Name Only Spaces :   
+2025-07-17 09:25:39 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 09:25:39 [main] INFO : Verify the error message 
+2025-07-17 09:25:39 [main] INFO : Project name can't be empty.
+2025-07-17 09:25:41 [main] INFO : Verify Adding Invalid customer name
+2025-07-17 09:25:42 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 09:25:43 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 09:25:45 [main] INFO : Entering Customer Name: #$%^&*
+2025-07-17 09:25:45 [main] INFO : Full Name can only contain letters, numbers, spaces, hyphens, or underscores.
+2025-07-17 09:25:48 [main] INFO : Verify Adding only spaces in customer name
+2025-07-17 09:25:49 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 09:25:49 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 09:25:51 [main] INFO : Entering Customer Name only spaces:    
+2025-07-17 09:25:52 [main] INFO : Full Name cannot be empty.
+2025-07-17 09:25:54 [main] INFO : Verify Adding Invalid customer email format
+2025-07-17 09:25:55 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 09:25:56 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 09:25:58 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 09:25:59 [main] INFO : Entering Customer Email: Phani Maddi
+2025-07-17 09:25:59 [main] INFO : Please enter a valid email address (e.g., user@example.com).
+2025-07-17 09:26:02 [main] INFO : Verify Adding existing project name
+2025-07-17 09:26:02 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 09:26:03 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 09:26:03 [main] INFO : Verify the error message 
+2025-07-17 09:26:04 [main] INFO : A project with this name already exists.
+2025-07-17 09:26:06 [main] INFO : Verify Entering End Date previous than Start date
+2025-07-17 09:26:06 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 09:26:07 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 09:26:08 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 09:26:08 [main] INFO : Entering Project Type: Development
+2025-07-17 09:26:23 [main] INFO : End date must be greater than start date.
+2025-07-17 09:26:27 [main] INFO : Verify Creating a new Project
+2025-07-17 09:26:28 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 09:26:29 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 09:26:29 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 09:26:30 [main] INFO : Entering Project Type: Development
+2025-07-17 09:26:45 [main] INFO : Entered Project Start Date: 2025-07-16
+2025-07-17 09:26:46 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-17 09:26:47 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-17 09:26:48 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 09:26:49 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-17 09:26:51 [main] INFO : Save Project
+2025-07-17 09:26:57 [main] INFO : CSAT Automation Test Project Created
+2025-07-17 09:26:59 [main] INFO : Update Duplicate customer contact
+2025-07-17 09:27:06 [main] INFO : A contact with this name and email already exists.
+2025-07-17 09:27:08 [main] INFO : Update new customer contact to existing project
+2025-07-17 09:27:20 [main] INFO : Delete  customer contact from existing project
+2025-07-17 09:27:38 [main] INFO : Delete Existing Project
+2025-07-17 09:27:43 [main] INFO : CSAT Automation Test Project Deleted
+2025-07-17 09:27:44 [main] INFO : Send FeedBack Request To customer
+2025-07-17 09:27:44 [main] INFO : Survey Sent Count Before :41
+2025-07-17 09:27:44 [main] INFO : Survey At Risk Count Before :23
+2025-07-17 09:27:44 [main] INFO : Completed Survey Count Before:139
+2025-07-17 09:27:44 [main] INFO : CSAT Score Count Before :3.98
+2025-07-17 09:27:44 [main] INFO : CSAT Column Value Before :N/A
+2025-07-17 09:27:47 [main] INFO : Selected Contact
+2025-07-17 09:27:49 [main] INFO : Subject Retrieved Based on Survey Type
+2025-07-17 09:27:49 [main] INFO : CriticalRiver Feedback Request: Help Us Improve Your Experience with CR CSAT -  Engagement Level : CSAT Feedback
+2025-07-17 09:27:49 [main] INFO : Body Retrieved Based on Survey Type
+2025-07-17 09:27:49 [main] INFO : Phani Maddi: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/a8791b00e6004393ba2d72a70735d508
+2025-07-17 09:28:05 [main] INFO : Survey Sent Count After sending feedback request:42
+2025-07-17 09:28:05 [main] INFO : Survey At Risk Count After sending feedback request:24
+2025-07-17 09:28:08 [main] INFO : Fill Feedback Form
+2025-07-17 09:28:53 [main] INFO : Inside Customer Mail
+2025-07-17 09:33:51 [main] INFO : Launching Chrome Browser
+2025-07-17 09:33:51 [main] INFO : Report Name :CSATPageReport.html
+2025-07-17 09:33:58 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 09:33:58 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 09:33:58 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 09:34:27 [main] INFO : Logged in to CSAT Application
+2025-07-17 09:34:27 [main] INFO : Inside Test class 
+2025-07-17 09:34:28 [main] INFO : Logo is Available CSAT Logo
+2025-07-17 09:34:28 [main] INFO : Profile Name is Valid: Anwar Hussain
+2025-07-17 09:34:29 [main] INFO : Menu Collapsed
+2025-07-17 09:34:36 [main] INFO : Inside /surveys Page 
+2025-07-17 09:34:36 [main] INFO : /surveys Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveys
+2025-07-17 09:34:43 [main] INFO : Inside /roles Page 
+2025-07-17 09:34:43 [main] INFO : /roles Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/roles
+2025-07-17 09:34:50 [main] INFO : Inside /reports Page 
+2025-07-17 09:34:50 [main] INFO : /reports Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/reports
+2025-07-17 09:34:58 [main] INFO : Inside /settings/org-members Page 
+2025-07-17 09:34:58 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/org-members
+2025-07-17 09:35:05 [main] INFO : Inside /profile Page 
+2025-07-17 09:35:05 [main] INFO : /profile Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/profile
+2025-07-17 09:35:13 [main] INFO : Inside /settings/teams Page 
+2025-07-17 09:35:13 [main] INFO : /settings/teams Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/teams
+2025-07-17 09:35:20 [main] INFO : Inside /projects Page 
+2025-07-17 09:35:20 [main] INFO : /projects Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/projects
+2025-07-17 09:35:22 [main] INFO : Menu Expanded
+2025-07-17 09:35:23 [main] INFO : Menu Collapsed
+2025-07-17 09:35:24 [main] INFO : Header is Valid: Projects
+2025-07-17 09:35:26 [main] INFO : Popup Header: Surveys Sent
+2025-07-17 09:35:27 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-17 09:35:27 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-17 09:35:30 [main] INFO : Cancel Button Available
+2025-07-17 09:35:30 [main] INFO : Cancel Button is Enabled
+2025-07-17 09:35:30 [main] INFO : Share Button Available
+2025-07-17 09:35:30 [main] INFO : Share Button is Enabled
+2025-07-17 09:35:32 [main] INFO : Popup Header: At Risk Surveys
+2025-07-17 09:35:33 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-17 09:35:33 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-17 09:35:35 [main] INFO : Cancel Button Available
+2025-07-17 09:35:35 [main] INFO : Export Button Available
+2025-07-17 09:35:35 [main] INFO : Cancel Button is Enabled
+2025-07-17 09:35:35 [main] INFO : Export Button is Enabled
+2025-07-17 09:35:38 [main] INFO : Popup Header: Completed Surveys
+2025-07-17 09:35:39 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-17 09:35:39 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-17 09:35:41 [main] INFO : Cancel Button Available
+2025-07-17 09:35:41 [main] INFO : Export Button Available
+2025-07-17 09:35:41 [main] INFO : Cancel Button is Enabled
+2025-07-17 09:35:41 [main] INFO : Export Button is Enabled
+2025-07-17 09:35:43 [main] INFO : Popup Header: CSAT Summary
+2025-07-17 09:35:44 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-17 09:35:44 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-17 09:35:47 [main] INFO : Cancel Button Available
+2025-07-17 09:35:47 [main] INFO : Export Button Available
+2025-07-17 09:35:47 [main] INFO : Cancel Button is Enabled
+2025-07-17 09:35:47 [main] INFO : Export Button is Enabled
+2025-07-17 09:35:48 [main] INFO : popup Header New Project Details
+2025-07-17 09:35:48 [main] INFO : Expected :New Project Details and Actual :New Project Details
+2025-07-17 09:35:48 [main] INFO : Expected :New Project Details and Actual :New Project Details both are same
+2025-07-17 09:35:51 [main] INFO : Cancel Button Available
+2025-07-17 09:35:51 [main] INFO : Save Button Available
+2025-07-17 09:35:51 [main] INFO : Download CSV File Format 
+2025-07-17 09:35:57 [main] INFO : Download PDF File Format 
+2025-07-17 09:36:03 [main] INFO : Selecting Pagination 5
+2025-07-17 09:36:03 [main] INFO : 5 pagination Option Selected
+2025-07-17 09:36:03 [main] INFO : Selecting Pagination 50
+2025-07-17 09:36:03 [main] INFO : 50 pagination Option Selected
+2025-07-17 09:36:03 [main] INFO : Selecting Pagination 100
+2025-07-17 09:36:03 [main] INFO : 100 pagination Option Selected
+2025-07-17 09:36:04 [main] INFO : Verify Edit button
+2025-07-17 09:36:04 [main] INFO : edit Button is Available
+2025-07-17 09:36:04 [main] INFO : Verify Delete button
+2025-07-17 09:36:04 [main] INFO : delete Button is Available
+2025-07-17 09:36:04 [main] INFO : Verify Send button
+2025-07-17 09:36:04 [main] INFO : send Button is Available
+2025-07-17 09:36:05 [main] INFO : Column Options is valid Header value
+2025-07-17 09:36:05 [main] INFO : Cancel Button Available
+2025-07-17 09:36:05 [main] INFO : OK Button Available
+2025-07-17 09:36:05 [main] INFO : Verifying Project Name Column Option
+2025-07-17 09:36:05 [main] INFO : Column Option visibility is Hide 
+2025-07-17 09:36:07 [main] INFO : Column Option visibility is View 
+2025-07-17 09:36:08 [main] INFO : Verifying Practice Name Column Option
+2025-07-17 09:36:08 [main] INFO : Column Option visibility is Hide 
+2025-07-17 09:36:10 [main] INFO : Column Option visibility is View 
+2025-07-17 09:36:11 [main] INFO : Verifying CSAT Column Option
+2025-07-17 09:36:12 [main] INFO : Column Option visibility is Hide 
+2025-07-17 09:36:13 [main] INFO : Column Option visibility is View 
+2025-07-17 09:36:16 [main] INFO : All Statuses Status Option Selected
+2025-07-17 09:36:16 [main] INFO : Selecting Pipeline Status Option
+2025-07-17 09:36:17 [main] INFO : Pipeline Status Option Selected
+2025-07-17 09:36:17 [main] INFO : Expected :Pipeline and Actual :Pipeline both are same
+2025-07-17 09:36:17 [main] INFO : Selecting Completed Status Option
+2025-07-17 09:36:17 [main] INFO : Completed Status Option Selected
+2025-07-17 09:36:17 [main] INFO : Expected :Completed and Actual :Completed both are same
+2025-07-17 09:36:17 [main] INFO : Selecting In Progress Status Option
+2025-07-17 09:36:17 [main] INFO : In Progress Status Option Selected
+2025-07-17 09:36:17 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-17 09:36:19 [main] INFO : Survey Response Status survey Response Option Selected
+2025-07-17 09:36:19 [main] INFO : Selecting Not Received Survey response Option
+2025-07-17 09:36:22 [main] INFO : Not Received survey Response Option Selected
+2025-07-17 09:36:23 [main] INFO : Expected :No and Actual :No both are same
+2025-07-17 09:36:24 [main] INFO : Selecting Received Survey response Option
+2025-07-17 09:36:26 [main] INFO : Received survey Response Option Selected
+2025-07-17 09:36:27 [main] INFO : Expected :Yes and Actual :Yes both are same
+2025-07-17 09:36:29 [main] INFO : Survey Projects Project Option Selected
+2025-07-17 09:36:29 [main] INFO : Selecting Ruddr Projects Project Option
+2025-07-17 09:36:34 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-17 09:36:34 [main] INFO : Expected :Ruddr and Actual :Ruddr both are same
+2025-07-17 09:36:41 [main] INFO : All Practices Practice Option Selected
+2025-07-17 09:36:43 [main] INFO : Selecting ERP Applications Practice Option
+2025-07-17 09:36:43 [main] INFO : ERP Applications Practice Option Selected
+2025-07-17 09:36:43 [main] INFO : Expected :ERP Applications and Actual :ERP Applications both are same
+2025-07-17 09:36:43 [main] INFO : Selecting Product Engineering Services Practice Option
+2025-07-17 09:36:43 [main] INFO : Product Engineering Services Practice Option Selected
+2025-07-17 09:36:43 [main] INFO : Expected :Product Engineering Services and Actual :Product Engineering Services both are same
+2025-07-17 09:36:44 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-17 09:36:44 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-17 09:36:45 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-17 09:36:45 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-17 09:36:45 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-17 09:36:47 [main] INFO : Selecting In Progress Status Option
+2025-07-17 09:36:47 [main] INFO : In Progress Status Option Selected
+2025-07-17 09:36:47 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-17 09:36:49 [main] INFO : Selecting Not Received Survey response Option
+2025-07-17 09:36:52 [main] INFO : Not Received survey Response Option Selected
+2025-07-17 09:36:53 [main] INFO : Expected :No and Actual :No both are same
+2025-07-17 09:36:54 [main] INFO : Menu Expanded
+2025-07-17 09:36:56 [main] INFO : Menu Collapsed
+2025-07-17 09:36:57 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-17 09:36:57 [main] INFO : Save Button is Disabled
+2025-07-17 09:36:59 [main] INFO : Verify Keeping One mandatory field Empty in add Project
+2025-07-17 09:37:00 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 09:37:01 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 09:37:01 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 09:37:02 [main] INFO : Entering Project Type: Development
+2025-07-17 09:37:03 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-17 09:37:03 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 09:37:04 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-17 09:37:09 [main] INFO : Save Button is Disabled
+2025-07-17 09:37:12 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-17 09:37:12 [main] INFO : Entering Project Name: #$%^&*
+2025-07-17 09:37:13 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 09:37:14 [main] INFO : Verify the error message 
+2025-07-17 09:37:14 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-17 09:37:15 [main] INFO : Verify adding only Space character in project name Test
+2025-07-17 09:37:16 [main] INFO : Entering Project Name Only Spaces :   
+2025-07-17 09:37:17 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 09:37:17 [main] INFO : Verify the error message 
+2025-07-17 09:37:17 [main] INFO : Project name can't be empty.
+2025-07-17 09:37:19 [main] INFO : Verify Adding Invalid customer name
+2025-07-17 09:37:20 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 09:37:21 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 09:37:23 [main] INFO : Entering Customer Name: #$%^&*
+2025-07-17 09:37:23 [main] INFO : Full Name can only contain letters, numbers, spaces, hyphens, or underscores.
+2025-07-17 09:37:26 [main] INFO : Verify Adding only spaces in customer name
+2025-07-17 09:37:27 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 09:37:27 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 09:37:29 [main] INFO : Entering Customer Name only spaces:    
+2025-07-17 09:37:30 [main] INFO : Full Name cannot be empty.
+2025-07-17 09:37:32 [main] INFO : Verify Adding Invalid customer email format
+2025-07-17 09:37:33 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 09:37:34 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 09:37:36 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 09:37:37 [main] INFO : Entering Customer Email: Phani Maddi
+2025-07-17 09:37:37 [main] INFO : Please enter a valid email address (e.g., user@example.com).
+2025-07-17 09:37:40 [main] INFO : Verify Adding existing project name
+2025-07-17 09:37:40 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 09:37:41 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 09:37:42 [main] INFO : Verify the error message 
+2025-07-17 09:37:42 [main] INFO : A project with this name already exists.
+2025-07-17 09:37:44 [main] INFO : Verify Entering End Date previous than Start date
+2025-07-17 09:37:45 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 09:37:45 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 09:37:46 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 09:37:46 [main] INFO : Entering Project Type: Development
+2025-07-17 09:38:01 [main] INFO : End date must be greater than start date.
+2025-07-17 09:38:05 [main] INFO : Verify Creating a new Project
+2025-07-17 09:38:06 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 09:38:07 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 09:38:07 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 09:38:08 [main] INFO : Entering Project Type: Development
+2025-07-17 09:38:23 [main] INFO : Entered Project Start Date: 2025-07-16
+2025-07-17 09:38:24 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-17 09:38:25 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-17 09:38:26 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 09:38:27 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-17 09:38:30 [main] INFO : Save Project
+2025-07-17 09:38:35 [main] INFO : CSAT Automation Test Project Created
+2025-07-17 09:38:38 [main] INFO : Update Duplicate customer contact
+2025-07-17 09:38:45 [main] INFO : A contact with this name and email already exists.
+2025-07-17 09:38:47 [main] INFO : Update new customer contact to existing project
+2025-07-17 09:39:00 [main] INFO : Delete  customer contact from existing project
+2025-07-17 09:39:17 [main] INFO : Delete Existing Project
+2025-07-17 09:39:23 [main] INFO : CSAT Automation Test Project Deleted
+2025-07-17 09:39:23 [main] INFO : Send FeedBack Request To customer
+2025-07-17 09:39:23 [main] INFO : Survey Sent Count Before :42
+2025-07-17 09:39:23 [main] INFO : Survey At Risk Count Before :24
+2025-07-17 09:39:24 [main] INFO : Completed Survey Count Before:139
+2025-07-17 09:39:24 [main] INFO : CSAT Score Count Before :3.98
+2025-07-17 09:39:24 [main] INFO : CSAT Column Value Before :N/A
+2025-07-17 09:39:27 [main] INFO : Selected Contact
+2025-07-17 09:39:29 [main] INFO : Subject Retrieved Based on Survey Type
+2025-07-17 09:39:29 [main] INFO : CriticalRiver Feedback Request: Help Us Improve Your Experience with CR CSAT -  Engagement Level : CSAT Feedback
+2025-07-17 09:39:29 [main] INFO : Body Retrieved Based on Survey Type
+2025-07-17 09:39:29 [main] INFO : Phani Maddi: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/666e6fbf06bb427e8d49158997364da7
+2025-07-17 09:39:45 [main] INFO : Survey Sent Count After sending feedback request:43
+2025-07-17 09:39:45 [main] INFO : Survey At Risk Count After sending feedback request:25
+2025-07-17 09:39:48 [main] INFO : Fill Feedback Form
+2025-07-17 09:40:19 [main] INFO : Inside Customer Mail
+2025-07-17 09:41:13 [main] ERROR: Test Failed :Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [119bf12e67ef79f752fbed8691f285f1, findElements [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52507}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52507/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 119bf12e67ef79f752fbed8691f285f1
+2025-07-17 09:41:13 [main] INFO : Inside Feed back Form
+2025-07-17 09:53:04 [main] INFO : Launching Chrome Browser
+2025-07-17 09:53:04 [main] INFO : Report Name :CsatPage.html
+2025-07-17 09:53:40 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 09:53:40 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 09:53:40 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 09:54:41 [main] INFO : Logged in to CSAT Application
+2025-07-17 09:54:42 [main] INFO : Send FeedBack Request To customer
+2025-07-17 09:54:42 [main] INFO : Survey Sent Count Before :43
+2025-07-17 09:54:42 [main] INFO : Survey At Risk Count Before :25
+2025-07-17 09:54:42 [main] INFO : Completed Survey Count Before:139
+2025-07-17 09:54:42 [main] INFO : CSAT Score Count Before :3.98
+2025-07-17 09:54:42 [main] INFO : CSAT Column Value Before :N/A
+2025-07-17 09:54:46 [main] INFO : Selected Contact
+2025-07-17 09:54:47 [main] INFO : Subject Retrieved Based on Survey Type
+2025-07-17 09:54:47 [main] INFO : CriticalRiver Feedback Request: Help Us Improve Your Experience with CR CSAT -  Engagement Level : CSAT Feedback
+2025-07-17 09:54:47 [main] INFO : Body Retrieved Based on Survey Type
+2025-07-17 09:54:47 [main] INFO : Phani Maddi: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/d77c0a41e64448fab3828b5be63af702
+2025-07-17 09:55:03 [main] INFO : Survey Sent Count After sending feedback request:44
+2025-07-17 09:55:03 [main] INFO : Survey At Risk Count After sending feedback request:26
+2025-07-17 09:55:06 [main] INFO : Fill Feedback Form
+2025-07-17 09:55:37 [main] INFO : Inside Customer Mail
+2025-07-17 09:56:04 [main] INFO : Header is Valid: CR CSAT - Engagement Level
+2025-07-17 09:56:04 [main] INFO : Inside Feed back Form
+2025-07-17 09:56:29 [main] INFO : Survey Sent Count After:44
+2025-07-17 09:56:29 [main] INFO : Survey At Risk Count After:26
+2025-07-17 09:56:29 [main] INFO : Completed Survey Count After:139
+2025-07-17 09:56:29 [main] INFO : CSAT Score Count After:3.98
+2025-07-17 09:56:29 [main] INFO : CSAT Column Value After:N/A
+2025-07-17 09:56:30 [main] INFO : FeedBack Received
+2025-07-17 09:56:30 [main] ERROR: FeedBack Not Received
+2025-07-17 09:56:30 [main] ERROR: FeedBack Not Received
+2025-07-17 09:56:30 [main] INFO : FeedBack Received
+2025-07-17 09:56:30 [main] INFO : Validating SURVEY Sent Popup
+2025-07-17 09:56:34 [main] INFO : 50 pagination Option Selected
+2025-07-17 09:56:39 [main] INFO : 25 pagination Option Selected
+2025-07-17 09:56:43 [main] INFO : 10 pagination Option Selected
+2025-07-17 09:56:45 [main] INFO : Validating Response Status Filter in Survey Sent Popup 
+2025-07-17 09:56:46 [main] INFO : Responded Response Status Option Selected
+2025-07-17 09:56:46 [main] INFO : Response Status is Valid
+2025-07-17 09:56:48 [main] INFO : Not Responded Response Status Option Selected
+2025-07-17 09:56:49 [main] INFO : Response Status is Valid
+2025-07-17 09:56:51 [main] INFO : Expired Response Status Option Selected
+2025-07-17 09:56:51 [main] INFO : Response Status is Valid
+2025-07-17 09:56:53 [main] INFO : Response Status Response Status Option Selected
+2025-07-17 09:56:53 [main] INFO : Validating Project Filter in Survey Sent Popup 
+2025-07-17 09:56:54 [main] INFO : CSAT_Survey_Flow Project Option Selected
+2025-07-17 09:56:55 [main] INFO : Project is Valid
+2025-07-17 09:56:57 [main] INFO : CSAT Project Option Selected
+2025-07-17 09:56:57 [main] INFO : Project is Valid
+2025-07-17 09:56:59 [main] INFO : Apollo CRM Upgrade Project Option Selected
+2025-07-17 09:56:59 [main] INFO : Project is Valid
+2025-07-17 09:57:01 [main] INFO : Project Project Option Selected
+2025-07-17 09:57:01 [main] INFO : Validating Account Executive Filter in Survey Sent Popup 
+2025-07-17 09:57:03 [main] INFO : Phani Maddi Account executive Option Selected
+2025-07-17 09:57:03 [main] INFO : Account Executive is Valid
+2025-07-17 09:57:05 [main] INFO : Anwar Hussain Account executive Option Selected
+2025-07-17 09:57:05 [main] INFO : Account Executive is Valid
+2025-07-17 09:57:07 [main] INFO : Account Executive Account executive Option Selected
+2025-07-17 09:57:08 [main] INFO : Validating Survey Name Filter in Survey Sent Popup 
+2025-07-17 09:57:09 [main] INFO : CR CSAT - Development Project Survey Option Selected
+2025-07-17 09:57:09 [main] INFO : Survey Name is Valid
+2025-07-17 09:57:11 [main] INFO : CR CSAT Engagement-Survey FLow Survey Option Selected
+2025-07-17 09:57:11 [main] INFO : Survey Name is Valid
+2025-07-17 09:57:13 [main] INFO : Survey Survey Option Selected
+2025-07-17 09:57:14 [main] INFO : Validating AT RISK  Sent Popup
+2025-07-17 09:57:19 [main] INFO : 50 pagination Option Selected
+2025-07-17 09:57:24 [main] INFO : 25 pagination Option Selected
+2025-07-17 09:57:28 [main] INFO : 10 pagination Option Selected
+2025-07-17 09:57:30 [main] INFO : Validating Risk Factor Filter in At Risk Popup 
+2025-07-17 09:57:31 [main] INFO : Low Survey Response Risk Factor Option Selected
+2025-07-17 09:57:31 [main] INFO : Risk Factor is Valid
+2025-07-17 09:57:33 [main] INFO : Poor CSAT Score Risk Factor Option Selected
+2025-07-17 09:57:33 [main] INFO : Risk Factor is Valid
+2025-07-17 09:57:35 [main] INFO : Risk Factor Risk Factor Option Selected
+2025-07-17 09:57:35 [main] INFO : Validating Project Filter in At Risk Popup 
+2025-07-17 09:57:36 [main] INFO : Apollo CRM Upgrade Project Option Selected
+2025-07-17 09:57:36 [main] INFO : Project Option is Valid
+2025-07-17 09:57:38 [main] INFO : CSAT Project Option Selected
+2025-07-17 09:57:38 [main] INFO : Project Option is Valid
+2025-07-17 09:57:40 [main] INFO : Project Project Option Selected
+2025-07-17 09:57:41 [main] INFO : Validating Account Executive Filter in At Risk Popup 
+2025-07-17 09:57:42 [main] INFO : Anwar Hussain Account executive Option Selected
+2025-07-17 09:57:42 [main] INFO : Account Executive Score is Valid
+2025-07-17 09:57:44 [main] INFO : Arun Kumar Account executive Option Selected
+2025-07-17 09:57:44 [main] INFO : Account Executive Score is Valid
+2025-07-17 09:57:46 [main] INFO : Account Executive Account executive Option Selected
+2025-07-17 09:57:47 [main] INFO : Validating SURVEY Complete Popup
+2025-07-17 09:57:52 [main] INFO : 50 pagination Option Selected
+2025-07-17 09:57:56 [main] INFO : 25 pagination Option Selected
+2025-07-17 09:58:00 [main] INFO : 10 pagination Option Selected
+2025-07-17 09:58:01 [main] INFO : Validating Project Filter in Survey Complete Popup 
+2025-07-17 09:58:03 [main] INFO : Apollo CRM Upgrade Project Option Selected
+2025-07-17 09:58:03 [main] INFO : Project is Valid
+2025-07-17 09:58:05 [main] INFO : Salesforce Intergration Project Project Option Selected
+2025-07-17 09:58:05 [main] INFO : Project is Valid
+2025-07-17 09:58:07 [main] INFO : Project Project Option Selected
+2025-07-17 09:58:08 [main] INFO : Validating Account Executive Filter in Survey Complete Popup 
+2025-07-17 09:58:09 [main] INFO : Phani Maddi Account executive Option Selected
+2025-07-17 09:58:09 [main] INFO : Account Executive is Valid
+2025-07-17 09:58:11 [main] INFO : Arun Kumar Account executive Option Selected
+2025-07-17 09:58:11 [main] INFO : Account Executive is Valid
+2025-07-17 09:58:13 [main] INFO : Anwar Hussain Account executive Option Selected
+2025-07-17 09:58:13 [main] INFO : Account Executive is Valid
+2025-07-17 09:58:15 [main] INFO : Account Executive Account executive Option Selected
+2025-07-17 09:58:16 [main] INFO : Validating Survey Name Filter in Survey Complete Popup 
+2025-07-17 09:58:17 [main] INFO : CR CSAT - Development Project Survey Option Selected
+2025-07-17 09:58:17 [main] INFO : Survey Name is Valid
+2025-07-17 09:58:19 [main] INFO : CR CSAT - AMS Survey Option Selected
+2025-07-17 09:58:19 [main] INFO : Survey Name is Valid
+2025-07-17 09:58:21 [main] INFO : Survey Survey Option Selected
+2025-07-17 09:58:22 [main] INFO : Validating CSAT Summary Popup
+2025-07-17 09:58:25 [main] INFO : CSAT Score In popup 3.98
+2025-07-17 09:58:25 [main] INFO : Csat Score is correct
+2025-07-17 09:58:27 [main] INFO : 50 pagination Option Selected
+2025-07-17 09:58:29 [main] INFO : 25 pagination Option Selected
+2025-07-17 09:58:32 [main] INFO : 10 pagination Option Selected
+2025-07-17 09:58:34 [main] INFO : Validating CSAT Filter Popup
+2025-07-17 09:58:35 [main] INFO : Excellent CSAT Option Selected
+2025-07-17 09:58:35 [main] INFO : Csat Score is Valid
+2025-07-17 09:58:37 [main] INFO : Good CSAT Option Selected
+2025-07-17 09:58:37 [main] INFO : Csat Score is Valid
+2025-07-17 09:58:39 [main] INFO : Dissatisfied CSAT Option Selected
+2025-07-17 09:58:39 [main] INFO : Csat Score is Valid
+2025-07-17 09:58:41 [main] INFO : Testing Ended
+2025-07-17 09:58:41 [main] INFO : ***********
+2025-07-17 10:40:03 [main] INFO : Launching Chrome Browser
+2025-07-17 10:40:03 [main] INFO : Report Name :CsatPage.html
+2025-07-17 10:40:32 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 10:40:32 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 10:40:32 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 10:41:33 [main] INFO : Logged in to CSAT Application
+2025-07-17 10:41:34 [main] INFO : Send FeedBack Request To customer
+2025-07-17 10:41:34 [main] INFO : Survey Sent Count Before :44
+2025-07-17 10:41:34 [main] INFO : Survey At Risk Count Before :26
+2025-07-17 10:41:34 [main] INFO : Completed Survey Count Before:139
+2025-07-17 10:41:34 [main] INFO : CSAT Score Count Before :3.98
+2025-07-17 10:41:34 [main] INFO : CSAT Column Value Before :N/A
+2025-07-17 10:41:37 [main] INFO : Selected Contact
+2025-07-17 10:41:39 [main] INFO : Subject Retrieved Based on Survey Type
+2025-07-17 10:41:39 [main] INFO : CriticalRiver Feedback Request: Help Us Improve Your Experience with CR CSAT -  Engagement Level : CSAT Feedback
+2025-07-17 10:41:39 [main] INFO : Body Retrieved Based on Survey Type
+2025-07-17 10:41:39 [main] INFO : Phani Maddi: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/9c3492997bf0486fb5f5561c96ebc6a7
+2025-07-17 10:41:56 [main] INFO : Survey Sent Count After sending feedback request:45
+2025-07-17 10:41:56 [main] INFO : Survey At Risk Count After sending feedback request:27
+2025-07-17 10:41:58 [main] INFO : Fill Feedback Form
+2025-07-17 10:42:25 [main] INFO : Inside Customer Mail
+2025-07-17 10:42:52 [main] INFO : Header is Valid: CR CSAT - Engagement Level
+2025-07-17 10:42:52 [main] INFO : Inside Feed back Form
+2025-07-17 10:43:17 [main] INFO : Survey Sent Count After:45
+2025-07-17 10:43:17 [main] INFO : Survey At Risk Count After:27
+2025-07-17 10:43:17 [main] INFO : Completed Survey Count After:139
+2025-07-17 10:43:18 [main] INFO : CSAT Score Count After:3.98
+2025-07-17 10:43:18 [main] INFO : CSAT Column Value After:N/A
+2025-07-17 10:43:18 [main] INFO : FeedBack Received
+2025-07-17 10:43:18 [main] ERROR: FeedBack Not Received
+2025-07-17 10:43:18 [main] ERROR: FeedBack Not Received
+2025-07-17 10:43:18 [main] INFO : FeedBack Received
+2025-07-17 10:43:18 [main] INFO : Validating SURVEY Sent Popup
+2025-07-17 10:43:23 [main] INFO : 50 pagination Option Selected
+2025-07-17 10:43:27 [main] INFO : 25 pagination Option Selected
+2025-07-17 10:43:31 [main] INFO : 10 pagination Option Selected
+2025-07-17 10:43:33 [main] INFO : Validating Response Status Filter in Survey Sent Popup 
+2025-07-17 10:43:35 [main] INFO : Responded Response Status Option Selected
+2025-07-17 10:43:35 [main] INFO : Response Status is Valid
+2025-07-17 10:43:37 [main] INFO : Not Responded Response Status Option Selected
+2025-07-17 10:43:37 [main] INFO : Response Status is Valid
+2025-07-17 10:43:39 [main] INFO : Expired Response Status Option Selected
+2025-07-17 10:43:39 [main] INFO : Response Status is Valid
+2025-07-17 10:43:41 [main] INFO : Response Status Response Status Option Selected
+2025-07-17 10:43:41 [main] INFO : Validating Project Filter in Survey Sent Popup 
+2025-07-17 10:43:43 [main] INFO : CSAT_Survey_Flow Project Option Selected
+2025-07-17 10:43:43 [main] INFO : Project is Valid
+2025-07-17 10:43:45 [main] INFO : CSAT Project Option Selected
+2025-07-17 10:43:45 [main] INFO : Project is Valid
+2025-07-17 10:43:47 [main] INFO : Apollo CRM Upgrade Project Option Selected
+2025-07-17 10:43:47 [main] INFO : Project is Valid
+2025-07-17 10:43:49 [main] INFO : Project Project Option Selected
+2025-07-17 10:43:49 [main] INFO : Validating Account Executive Filter in Survey Sent Popup 
+2025-07-17 10:43:51 [main] INFO : Phani Maddi Account executive Option Selected
+2025-07-17 10:43:51 [main] INFO : Account Executive is Valid
+2025-07-17 10:43:53 [main] INFO : Anwar Hussain Account executive Option Selected
+2025-07-17 10:43:53 [main] INFO : Account Executive is Valid
+2025-07-17 10:43:55 [main] INFO : Account Executive Account executive Option Selected
+2025-07-17 10:43:55 [main] INFO : Validating Survey Name Filter in Survey Sent Popup 
+2025-07-17 10:43:57 [main] INFO : CR CSAT - Development Project Survey Option Selected
+2025-07-17 10:43:57 [main] INFO : Survey Name is Valid
+2025-07-17 10:43:59 [main] INFO : CR CSAT Engagement-Survey FLow Survey Option Selected
+2025-07-17 10:43:59 [main] INFO : Survey Name is Valid
+2025-07-17 10:44:01 [main] INFO : Survey Survey Option Selected
+2025-07-17 10:44:02 [main] INFO : Validating AT RISK  Sent Popup
+2025-07-17 10:44:07 [main] INFO : 50 pagination Option Selected
+2025-07-17 10:44:11 [main] INFO : 25 pagination Option Selected
+2025-07-17 10:44:16 [main] INFO : 10 pagination Option Selected
+2025-07-17 10:44:18 [main] INFO : Validating Risk Factor Filter in At Risk Popup 
+2025-07-17 10:44:19 [main] INFO : Low Survey Response Risk Factor Option Selected
+2025-07-17 10:44:19 [main] INFO : 
+2025-07-17 10:44:19 [main] INFO : 
+2025-07-17 10:44:19 [main] INFO : 
+2025-07-17 10:44:19 [main] INFO : 
+2025-07-17 10:44:19 [main] INFO : 
+2025-07-17 10:44:19 [main] INFO : 
+2025-07-17 10:44:19 [main] INFO : 
+2025-07-17 10:44:19 [main] INFO : 
+2025-07-17 10:44:19 [main] INFO : 
+2025-07-17 10:44:19 [main] INFO : 
+2025-07-17 10:44:19 [main] ERROR: Risk Factor is invalid
+2025-07-17 10:44:21 [main] INFO : Poor CSAT Score Risk Factor Option Selected
+2025-07-17 10:44:21 [main] INFO : Risk Factor is Valid
+2025-07-17 10:44:23 [main] INFO : Risk Factor Risk Factor Option Selected
+2025-07-17 10:44:23 [main] INFO : Validating Project Filter in At Risk Popup 
+2025-07-17 10:44:25 [main] INFO : Apollo CRM Upgrade Project Option Selected
+2025-07-17 10:44:25 [main] INFO : Project Option is Valid
+2025-07-17 10:44:27 [main] INFO : CSAT Project Option Selected
+2025-07-17 10:44:27 [main] INFO : Project Option is Valid
+2025-07-17 10:44:29 [main] INFO : Project Project Option Selected
+2025-07-17 10:44:29 [main] INFO : Validating Account Executive Filter in At Risk Popup 
+2025-07-17 10:44:30 [main] INFO : Anwar Hussain Account executive Option Selected
+2025-07-17 10:44:30 [main] INFO : Account Executive Score is Valid
+2025-07-17 10:44:32 [main] INFO : Arun Kumar Account executive Option Selected
+2025-07-17 10:44:32 [main] INFO : Account Executive Score is Valid
+2025-07-17 10:44:34 [main] INFO : Account Executive Account executive Option Selected
+2025-07-17 10:44:35 [main] INFO : Validating SURVEY Complete Popup
+2025-07-17 10:44:40 [main] INFO : 50 pagination Option Selected
+2025-07-17 10:44:45 [main] INFO : 25 pagination Option Selected
+2025-07-17 10:44:49 [main] INFO : 10 pagination Option Selected
+2025-07-17 10:44:50 [main] INFO : Validating Project Filter in Survey Complete Popup 
+2025-07-17 10:44:51 [main] INFO : Apollo CRM Upgrade Project Option Selected
+2025-07-17 10:44:51 [main] INFO : Project is Valid
+2025-07-17 10:44:53 [main] INFO : Salesforce Intergration Project Project Option Selected
+2025-07-17 10:44:54 [main] INFO : Project is Valid
+2025-07-17 10:44:55 [main] INFO : Project Project Option Selected
+2025-07-17 10:44:56 [main] INFO : Validating Account Executive Filter in Survey Complete Popup 
+2025-07-17 10:44:57 [main] INFO : Phani Maddi Account executive Option Selected
+2025-07-17 10:44:57 [main] INFO : Account Executive is Valid
+2025-07-17 10:44:59 [main] INFO : Arun Kumar Account executive Option Selected
+2025-07-17 10:45:00 [main] INFO : Account Executive is Valid
+2025-07-17 10:45:02 [main] INFO : Anwar Hussain Account executive Option Selected
+2025-07-17 10:45:02 [main] INFO : Account Executive is Valid
+2025-07-17 10:45:04 [main] INFO : Account Executive Account executive Option Selected
+2025-07-17 10:45:04 [main] INFO : Validating Survey Name Filter in Survey Complete Popup 
+2025-07-17 10:45:06 [main] INFO : CR CSAT - Development Project Survey Option Selected
+2025-07-17 10:45:06 [main] INFO : Survey Name is Valid
+2025-07-17 10:45:08 [main] INFO : CR CSAT - AMS Survey Option Selected
+2025-07-17 10:45:08 [main] INFO : Survey Name is Valid
+2025-07-17 10:45:10 [main] INFO : Survey Survey Option Selected
+2025-07-17 10:45:11 [main] INFO : Validating CSAT Summary Popup
+2025-07-17 10:45:14 [main] INFO : CSAT Score In popup 3.98
+2025-07-17 10:45:15 [main] INFO : Csat Score is correct
+2025-07-17 10:45:16 [main] INFO : 50 pagination Option Selected
+2025-07-17 10:45:19 [main] INFO : 25 pagination Option Selected
+2025-07-17 10:45:21 [main] INFO : 10 pagination Option Selected
+2025-07-17 10:45:23 [main] INFO : Validating CSAT Filter Popup
+2025-07-17 10:45:24 [main] INFO : Excellent CSAT Option Selected
+2025-07-17 10:45:24 [main] INFO : Csat Score is Valid
+2025-07-17 10:45:26 [main] INFO : Good CSAT Option Selected
+2025-07-17 10:45:27 [main] INFO : Csat Score is Valid
+2025-07-17 10:45:29 [main] INFO : Dissatisfied CSAT Option Selected
+2025-07-17 10:45:29 [main] INFO : Csat Score is Valid
+2025-07-17 10:45:31 [main] INFO : Testing Ended
+2025-07-17 10:45:31 [main] INFO : ***********
+2025-07-17 10:54:05 [main] INFO : Launching Chrome Browser
+2025-07-17 10:54:05 [main] INFO : Report Name :CSATPageReport.html
+2025-07-17 10:54:35 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 10:54:35 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 10:54:35 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 10:55:33 [main] INFO : Logged in to CSAT Application
+2025-07-17 10:55:34 [main] INFO : Inside Test class 
+2025-07-17 10:55:34 [main] INFO : Logo is Available CSAT Logo
+2025-07-17 10:55:34 [main] INFO : Profile Name is Valid: Anwar Hussain
+2025-07-17 10:55:35 [main] INFO : Menu Collapsed
+2025-07-17 10:55:42 [main] INFO : Inside /surveys Page 
+2025-07-17 10:55:42 [main] INFO : /surveys Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveys
+2025-07-17 10:55:49 [main] INFO : Inside /roles Page 
+2025-07-17 10:55:49 [main] INFO : /roles Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/roles
+2025-07-17 10:55:56 [main] INFO : Inside /reports Page 
+2025-07-17 10:55:56 [main] INFO : /reports Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/reports
+2025-07-17 10:56:04 [main] INFO : Inside /settings/org-members Page 
+2025-07-17 10:56:04 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/org-members
+2025-07-17 10:56:11 [main] INFO : Inside /profile Page 
+2025-07-17 10:56:11 [main] INFO : /profile Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/profile
+2025-07-17 10:56:19 [main] INFO : Inside /settings/teams Page 
+2025-07-17 10:56:19 [main] INFO : /settings/teams Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/teams
+2025-07-17 10:56:26 [main] INFO : Inside /projects Page 
+2025-07-17 10:56:26 [main] INFO : /projects Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/projects
+2025-07-17 10:56:29 [main] INFO : Menu Expanded
+2025-07-17 10:56:30 [main] INFO : Menu Collapsed
+2025-07-17 10:56:30 [main] INFO : Header is Valid: Projects
+2025-07-17 10:56:33 [main] INFO : Popup Header: Surveys Sent
+2025-07-17 10:56:34 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-17 10:56:34 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-17 10:56:36 [main] INFO : Cancel Button Available
+2025-07-17 10:56:36 [main] INFO : Cancel Button is Enabled
+2025-07-17 10:56:36 [main] INFO : Share Button Available
+2025-07-17 10:56:36 [main] INFO : Share Button is Enabled
+2025-07-17 10:56:38 [main] INFO : Popup Header: At Risk Surveys
+2025-07-17 10:56:39 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-17 10:56:39 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-17 10:56:42 [main] INFO : Cancel Button Available
+2025-07-17 10:56:42 [main] INFO : Export Button Available
+2025-07-17 10:56:42 [main] INFO : Cancel Button is Enabled
+2025-07-17 10:56:42 [main] INFO : Export Button is Enabled
+2025-07-17 10:56:44 [main] INFO : Popup Header: Completed Surveys
+2025-07-17 10:56:45 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-17 10:56:45 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-17 10:56:47 [main] INFO : Cancel Button Available
+2025-07-17 10:56:47 [main] INFO : Export Button Available
+2025-07-17 10:56:47 [main] INFO : Cancel Button is Enabled
+2025-07-17 10:56:47 [main] INFO : Export Button is Enabled
+2025-07-17 10:56:49 [main] INFO : Popup Header: CSAT Summary
+2025-07-17 10:56:50 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-17 10:56:50 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-17 10:56:53 [main] INFO : Cancel Button Available
+2025-07-17 10:56:53 [main] INFO : Export Button Available
+2025-07-17 10:56:53 [main] INFO : Cancel Button is Enabled
+2025-07-17 10:56:53 [main] INFO : Export Button is Enabled
+2025-07-17 10:56:54 [main] INFO : popup Header New Project Details
+2025-07-17 10:56:54 [main] INFO : Expected :New Project Details and Actual :New Project Details
+2025-07-17 10:56:54 [main] INFO : Expected :New Project Details and Actual :New Project Details both are same
+2025-07-17 10:56:57 [main] INFO : Cancel Button Available
+2025-07-17 10:56:57 [main] INFO : Save Button Available
+2025-07-17 10:56:57 [main] INFO : Download CSV File Format 
+2025-07-17 10:57:03 [main] INFO : Download PDF File Format 
+2025-07-17 10:57:09 [main] INFO : Selecting Pagination 5
+2025-07-17 10:57:09 [main] INFO : 5 pagination Option Selected
+2025-07-17 10:57:09 [main] INFO : Selecting Pagination 50
+2025-07-17 10:57:09 [main] INFO : 50 pagination Option Selected
+2025-07-17 10:57:09 [main] INFO : Selecting Pagination 100
+2025-07-17 10:57:09 [main] INFO : 100 pagination Option Selected
+2025-07-17 10:57:10 [main] INFO : Verify Edit button
+2025-07-17 10:57:10 [main] INFO : edit Button is Available
+2025-07-17 10:57:10 [main] INFO : Verify Delete button
+2025-07-17 10:57:10 [main] INFO : delete Button is Available
+2025-07-17 10:57:10 [main] INFO : Verify Send button
+2025-07-17 10:57:10 [main] INFO : send Button is Available
+2025-07-17 10:57:11 [main] INFO : Column Options is valid Header value
+2025-07-17 10:57:11 [main] INFO : Cancel Button Available
+2025-07-17 10:57:11 [main] INFO : OK Button Available
+2025-07-17 10:57:11 [main] INFO : Verifying Project Name Column Option
+2025-07-17 10:57:11 [main] INFO : Column Option visibility is Hide 
+2025-07-17 10:57:12 [main] INFO : Column Option visibility is View 
+2025-07-17 10:57:14 [main] INFO : Verifying Practice Name Column Option
+2025-07-17 10:57:14 [main] INFO : Column Option visibility is Hide 
+2025-07-17 10:57:15 [main] INFO : Column Option visibility is View 
+2025-07-17 10:57:17 [main] INFO : Verifying CSAT Column Option
+2025-07-17 10:57:17 [main] INFO : Column Option visibility is Hide 
+2025-07-17 10:57:19 [main] INFO : Column Option visibility is View 
+2025-07-17 10:57:22 [main] INFO : All Statuses Status Option Selected
+2025-07-17 10:57:22 [main] INFO : Selecting Pipeline Status Option
+2025-07-17 10:57:22 [main] INFO : Pipeline Status Option Selected
+2025-07-17 10:57:22 [main] INFO : Expected :Pipeline and Actual :Pipeline both are same
+2025-07-17 10:57:22 [main] INFO : Selecting Completed Status Option
+2025-07-17 10:57:23 [main] INFO : Completed Status Option Selected
+2025-07-17 10:57:23 [main] INFO : Expected :Completed and Actual :Completed both are same
+2025-07-17 10:57:23 [main] INFO : Selecting In Progress Status Option
+2025-07-17 10:57:23 [main] INFO : In Progress Status Option Selected
+2025-07-17 10:57:23 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-17 10:57:24 [main] INFO : Survey Response Status survey Response Option Selected
+2025-07-17 10:57:25 [main] INFO : Selecting Not Received Survey response Option
+2025-07-17 10:57:27 [main] INFO : Not Received survey Response Option Selected
+2025-07-17 10:57:28 [main] INFO : Expected :No and Actual :No both are same
+2025-07-17 10:57:29 [main] INFO : Selecting Received Survey response Option
+2025-07-17 10:57:32 [main] INFO : Received survey Response Option Selected
+2025-07-17 10:57:33 [main] INFO : Expected :Yes and Actual :Yes both are same
+2025-07-17 10:57:34 [main] INFO : Survey Projects Project Option Selected
+2025-07-17 10:57:34 [main] INFO : Selecting Ruddr Projects Project Option
+2025-07-17 10:57:40 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-17 10:57:40 [main] INFO : Expected :Ruddr and Actual :Ruddr both are same
+2025-07-17 10:57:47 [main] INFO : All Practices Practice Option Selected
+2025-07-17 10:57:49 [main] INFO : Selecting ERP Applications Practice Option
+2025-07-17 10:57:49 [main] INFO : ERP Applications Practice Option Selected
+2025-07-17 10:57:49 [main] INFO : Expected :ERP Applications and Actual :ERP Applications both are same
+2025-07-17 10:57:49 [main] INFO : Selecting Product Engineering Services Practice Option
+2025-07-17 10:57:49 [main] INFO : Product Engineering Services Practice Option Selected
+2025-07-17 10:57:49 [main] INFO : Expected :Product Engineering Services and Actual :Product Engineering Services both are same
+2025-07-17 10:57:50 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-17 10:57:50 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-17 10:57:50 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-17 10:57:50 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-17 10:57:50 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-17 10:57:53 [main] INFO : Selecting In Progress Status Option
+2025-07-17 10:57:53 [main] INFO : In Progress Status Option Selected
+2025-07-17 10:57:53 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-17 10:57:55 [main] INFO : Selecting Not Received Survey response Option
+2025-07-17 10:57:58 [main] INFO : Not Received survey Response Option Selected
+2025-07-17 10:57:59 [main] INFO : Expected :No and Actual :No both are same
+2025-07-17 10:57:59 [main] INFO : Menu Expanded
+2025-07-17 10:58:01 [main] INFO : Menu Collapsed
+2025-07-17 10:58:02 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-17 10:58:03 [main] INFO : Save Button is Disabled
+2025-07-17 10:58:04 [main] INFO : Verify Keeping One mandatory field Empty in add Project
+2025-07-17 10:58:05 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 10:58:06 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 10:58:06 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 10:58:07 [main] INFO : Entering Project Type: Development
+2025-07-17 10:58:08 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-17 10:58:09 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 10:58:09 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-17 10:58:14 [main] INFO : Save Button is Disabled
+2025-07-17 10:58:17 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-17 10:58:18 [main] INFO : Entering Project Name: #$%^&*
+2025-07-17 10:58:18 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 10:58:19 [main] INFO : Verify the error message 
+2025-07-17 10:58:19 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-17 10:58:21 [main] INFO : Verify adding only Space character in project name Test
+2025-07-17 10:58:22 [main] INFO : Entering Project Name Only Spaces :   
+2025-07-17 10:58:22 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 10:58:23 [main] INFO : Verify the error message 
+2025-07-17 10:58:23 [main] INFO : Project name can't be empty.
+2025-07-17 10:58:24 [main] INFO : Verify Adding Invalid customer name
+2025-07-17 10:58:25 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 10:58:26 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 10:58:28 [main] INFO : Entering Customer Name: #$%^&*
+2025-07-17 10:58:29 [main] INFO : Full Name can only contain letters, numbers, spaces, hyphens, or underscores.
+2025-07-17 10:58:31 [main] INFO : Verify Adding only spaces in customer name
+2025-07-17 10:58:32 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 10:58:32 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 10:58:34 [main] INFO : Entering Customer Name only spaces:    
+2025-07-17 10:58:35 [main] INFO : Full Name cannot be empty.
+2025-07-17 10:58:37 [main] INFO : Verify Adding Invalid customer email format
+2025-07-17 10:58:38 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 10:58:39 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 10:58:41 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 10:58:42 [main] INFO : Entering Customer Email: Phani Maddi
+2025-07-17 10:58:42 [main] INFO : Please enter a valid email address (e.g., user@example.com).
+2025-07-17 10:58:44 [main] INFO : Verify Adding existing project name
+2025-07-17 10:58:45 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 10:58:46 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 10:58:46 [main] INFO : Verify the error message 
+2025-07-17 10:58:47 [main] INFO : A project with this name already exists.
+2025-07-17 10:58:48 [main] INFO : Verify Entering End Date previous than Start date
+2025-07-17 10:58:49 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 10:58:50 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 10:58:50 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 10:58:51 [main] INFO : Entering Project Type: Development
+2025-07-17 10:59:06 [main] INFO : End date must be greater than start date.
+2025-07-17 10:59:10 [main] INFO : Verify Creating a new Project
+2025-07-17 10:59:11 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 10:59:12 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 10:59:12 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 10:59:13 [main] INFO : Entering Project Type: Development
+2025-07-17 10:59:28 [main] INFO : Entered Project Start Date: 2025-07-17
+2025-07-17 11:05:46 [main] INFO : Launching Chrome Browser
+2025-07-17 11:05:46 [main] INFO : Report Name :CSATPageReport.html
+2025-07-17 11:05:51 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 11:05:51 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 11:05:51 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 11:06:46 [main] INFO : Logged in to CSAT Application
+2025-07-17 11:06:47 [main] INFO : Inside Test class 
+2025-07-17 11:06:47 [main] INFO : Logo is Available CSAT Logo
+2025-07-17 11:06:47 [main] INFO : Profile Name is Valid: Anwar Hussain
+2025-07-17 11:06:48 [main] INFO : Menu Collapsed
+2025-07-17 11:06:55 [main] INFO : Inside /surveys Page 
+2025-07-17 11:06:55 [main] INFO : /surveys Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveys
+2025-07-17 11:07:02 [main] INFO : Inside /roles Page 
+2025-07-17 11:07:02 [main] INFO : /roles Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/roles
+2025-07-17 11:07:09 [main] INFO : Inside /reports Page 
+2025-07-17 11:07:09 [main] INFO : /reports Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/reports
+2025-07-17 11:17:22 [main] INFO : Launching Chrome Browser
+2025-07-17 11:17:22 [main] INFO : Report Name :CSATPageReport.html
+2025-07-17 11:17:25 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 11:17:26 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 11:17:26 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 11:17:56 [main] INFO : Logged in to CSAT Application
+2025-07-17 11:17:56 [main] INFO : Inside Test class 
+2025-07-17 11:17:57 [main] INFO : Logo is Available CSAT Logo
+2025-07-17 11:17:57 [main] INFO : Profile Name is Valid: Anwar Hussain
+2025-07-17 11:17:58 [main] INFO : Menu Collapsed
+2025-07-17 11:18:05 [main] INFO : Inside /surveys Page 
+2025-07-17 11:18:05 [main] INFO : /surveys Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveys
+2025-07-17 11:18:12 [main] INFO : Inside /roles Page 
+2025-07-17 11:18:12 [main] INFO : /roles Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/roles
+2025-07-17 11:18:19 [main] INFO : Inside /reports Page 
+2025-07-17 11:18:19 [main] INFO : /reports Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/reports
+2025-07-17 11:18:27 [main] INFO : Inside /settings/org-members Page 
+2025-07-17 11:18:27 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/org-members
+2025-07-17 11:18:34 [main] INFO : Inside /profile Page 
+2025-07-17 11:18:34 [main] INFO : /profile Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/profile
+2025-07-17 11:18:41 [main] INFO : Inside /settings/teams Page 
+2025-07-17 11:18:41 [main] INFO : /settings/teams Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/teams
+2025-07-17 11:18:49 [main] INFO : Inside /projects Page 
+2025-07-17 11:18:49 [main] INFO : /projects Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/projects
+2025-07-17 11:18:51 [main] INFO : Menu Expanded
+2025-07-17 11:18:53 [main] INFO : Menu Collapsed
+2025-07-17 11:18:53 [main] INFO : Header is Valid: Projects
+2025-07-17 11:18:56 [main] INFO : Popup Header: Surveys Sent
+2025-07-17 11:18:57 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-17 11:18:57 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-17 11:18:59 [main] INFO : Cancel Button Available
+2025-07-17 11:18:59 [main] INFO : Cancel Button is Enabled
+2025-07-17 11:18:59 [main] INFO : Share Button Available
+2025-07-17 11:18:59 [main] INFO : Share Button is Enabled
+2025-07-17 11:19:01 [main] INFO : Popup Header: At Risk Surveys
+2025-07-17 11:19:02 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-17 11:19:02 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-17 11:19:05 [main] INFO : Cancel Button Available
+2025-07-17 11:19:05 [main] INFO : Export Button Available
+2025-07-17 11:19:05 [main] INFO : Cancel Button is Enabled
+2025-07-17 11:19:05 [main] INFO : Export Button is Enabled
+2025-07-17 11:19:07 [main] INFO : Popup Header: Completed Surveys
+2025-07-17 11:19:08 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-17 11:19:08 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-17 11:19:10 [main] INFO : Cancel Button Available
+2025-07-17 11:19:10 [main] INFO : Export Button Available
+2025-07-17 11:19:10 [main] INFO : Cancel Button is Enabled
+2025-07-17 11:19:10 [main] INFO : Export Button is Enabled
+2025-07-17 11:19:13 [main] INFO : Popup Header: CSAT Summary
+2025-07-17 11:19:14 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-17 11:19:14 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-17 11:19:16 [main] INFO : Cancel Button Available
+2025-07-17 11:19:16 [main] INFO : Export Button Available
+2025-07-17 11:19:16 [main] INFO : Cancel Button is Enabled
+2025-07-17 11:19:16 [main] INFO : Export Button is Enabled
+2025-07-17 11:19:17 [main] INFO : popup Header New Project Details
+2025-07-17 11:19:17 [main] INFO : Expected :New Project Details and Actual :New Project Details
+2025-07-17 11:19:17 [main] INFO : Expected :New Project Details and Actual :New Project Details both are same
+2025-07-17 11:19:20 [main] INFO : Cancel Button Available
+2025-07-17 11:19:20 [main] INFO : Save Button Available
+2025-07-17 11:19:21 [main] INFO : Download CSV File Format 
+2025-07-17 11:19:26 [main] INFO : Download PDF File Format 
+2025-07-17 11:19:32 [main] INFO : Selecting Pagination 5
+2025-07-17 11:19:32 [main] INFO : 5 pagination Option Selected
+2025-07-17 11:19:32 [main] INFO : Selecting Pagination 50
+2025-07-17 11:19:33 [main] INFO : 50 pagination Option Selected
+2025-07-17 11:19:33 [main] INFO : Selecting Pagination 100
+2025-07-17 11:19:33 [main] INFO : 100 pagination Option Selected
+2025-07-17 11:19:34 [main] INFO : Verify Edit button
+2025-07-17 11:19:34 [main] INFO : edit Button is Available
+2025-07-17 11:19:34 [main] INFO : Verify Delete button
+2025-07-17 11:19:34 [main] INFO : delete Button is Available
+2025-07-17 11:19:34 [main] INFO : Verify Send button
+2025-07-17 11:19:34 [main] INFO : send Button is Available
+2025-07-17 11:19:35 [main] INFO : Column Options is valid Header value
+2025-07-17 11:19:35 [main] INFO : Cancel Button Available
+2025-07-17 11:19:35 [main] INFO : OK Button Available
+2025-07-17 11:19:35 [main] INFO : Verifying Project Name Column Option
+2025-07-17 11:19:35 [main] INFO : Column Option visibility is Hide 
+2025-07-17 11:19:36 [main] INFO : Column Option visibility is View 
+2025-07-17 11:19:38 [main] INFO : Verifying Practice Name Column Option
+2025-07-17 11:19:38 [main] INFO : Column Option visibility is Hide 
+2025-07-17 11:19:40 [main] INFO : Column Option visibility is View 
+2025-07-17 11:19:41 [main] INFO : Verifying CSAT Column Option
+2025-07-17 11:19:42 [main] INFO : Column Option visibility is Hide 
+2025-07-17 11:19:43 [main] INFO : Column Option visibility is View 
+2025-07-17 11:19:47 [main] INFO : All Statuses Status Option Selected
+2025-07-17 11:19:47 [main] INFO : Selecting Pipeline Status Option
+2025-07-17 11:19:47 [main] INFO : Pipeline Status Option Selected
+2025-07-17 11:19:47 [main] INFO : Expected :Pipeline and Actual :Pipeline both are same
+2025-07-17 11:19:47 [main] INFO : Selecting Completed Status Option
+2025-07-17 11:19:48 [main] INFO : Completed Status Option Selected
+2025-07-17 11:19:48 [main] INFO : Expected :Completed and Actual :Completed both are same
+2025-07-17 11:19:48 [main] INFO : Selecting In Progress Status Option
+2025-07-17 11:19:48 [main] INFO : In Progress Status Option Selected
+2025-07-17 11:19:48 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-17 11:19:50 [main] INFO : Survey Response Status survey Response Option Selected
+2025-07-17 11:19:50 [main] INFO : Selecting Not Received Survey response Option
+2025-07-17 11:19:53 [main] INFO : Not Received survey Response Option Selected
+2025-07-17 11:19:54 [main] INFO : Expected :No and Actual :No both are same
+2025-07-17 11:19:55 [main] INFO : Selecting Received Survey response Option
+2025-07-17 11:19:57 [main] INFO : Received survey Response Option Selected
+2025-07-17 11:19:58 [main] INFO : Expected :Yes and Actual :Yes both are same
+2025-07-17 11:20:00 [main] INFO : Survey Projects Project Option Selected
+2025-07-17 11:20:00 [main] INFO : Selecting Ruddr Projects Project Option
+2025-07-17 11:20:05 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-17 11:20:05 [main] INFO : Expected :Ruddr and Actual :Ruddr both are same
+2025-07-17 11:20:12 [main] INFO : All Practices Practice Option Selected
+2025-07-17 11:20:14 [main] INFO : Selecting ERP Applications Practice Option
+2025-07-17 11:20:14 [main] INFO : ERP Applications Practice Option Selected
+2025-07-17 11:20:14 [main] INFO : Expected :ERP Applications and Actual :ERP Applications both are same
+2025-07-17 11:20:14 [main] INFO : Selecting Product Engineering Services Practice Option
+2025-07-17 11:20:15 [main] INFO : Product Engineering Services Practice Option Selected
+2025-07-17 11:20:15 [main] INFO : Expected :Product Engineering Services and Actual :Product Engineering Services both are same
+2025-07-17 11:20:16 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-17 11:20:16 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-17 11:20:16 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-17 11:20:16 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-17 11:20:16 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-17 11:20:19 [main] INFO : Selecting In Progress Status Option
+2025-07-17 11:20:19 [main] INFO : In Progress Status Option Selected
+2025-07-17 11:20:19 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-17 11:20:21 [main] INFO : Selecting Not Received Survey response Option
+2025-07-17 11:20:24 [main] INFO : Not Received survey Response Option Selected
+2025-07-17 11:20:25 [main] INFO : Expected :No and Actual :No both are same
+2025-07-17 11:20:26 [main] INFO : Menu Expanded
+2025-07-17 11:20:28 [main] INFO : Menu Collapsed
+2025-07-17 11:20:29 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-17 11:20:30 [main] INFO : Save Button is Disabled
+2025-07-17 11:20:31 [main] INFO : Verify Keeping One mandatory field Empty in add Project
+2025-07-17 11:20:33 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:20:33 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:20:34 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 11:20:35 [main] INFO : Entering Project Type: Development
+2025-07-17 11:20:36 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-17 11:20:36 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 11:20:37 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-17 11:20:42 [main] INFO : Save Button is Disabled
+2025-07-17 11:20:45 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-17 11:20:46 [main] INFO : Entering Project Name: #$%^&*
+2025-07-17 11:20:46 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:20:47 [main] INFO : Verify the error message 
+2025-07-17 11:20:47 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-17 11:20:49 [main] INFO : Verify adding only Space character in project name Test
+2025-07-17 11:20:50 [main] INFO : Entering Project Name Only Spaces :   
+2025-07-17 11:20:50 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:20:51 [main] INFO : Verify the error message 
+2025-07-17 11:20:51 [main] INFO : Project name can't be empty.
+2025-07-17 11:20:53 [main] INFO : Verify Adding Invalid customer name
+2025-07-17 11:20:54 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:20:54 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:20:57 [main] INFO : Entering Customer Name: #$%^&*
+2025-07-17 11:20:57 [main] INFO : Full Name can only contain letters, numbers, spaces, hyphens, or underscores.
+2025-07-17 11:21:00 [main] INFO : Verify Adding only spaces in customer name
+2025-07-17 11:21:01 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:21:01 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:21:03 [main] INFO : Entering Customer Name only spaces:    
+2025-07-17 11:21:04 [main] INFO : Full Name cannot be empty.
+2025-07-17 11:21:06 [main] INFO : Verify Adding Invalid customer email format
+2025-07-17 11:21:07 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:21:08 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:21:10 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 11:21:11 [main] INFO : Entering Customer Email: Phani Maddi
+2025-07-17 11:21:12 [main] INFO : Please enter a valid email address (e.g., user@example.com).
+2025-07-17 11:21:14 [main] INFO : Verify Adding existing project name
+2025-07-17 11:21:15 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:21:16 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:21:16 [main] INFO : Verify the error message 
+2025-07-17 11:21:17 [main] INFO : A project with this name already exists.
+2025-07-17 11:21:19 [main] INFO : Verify Entering End Date previous than Start date
+2025-07-17 11:21:20 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:21:20 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:21:21 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 11:21:22 [main] INFO : Entering Project Type: Development
+2025-07-17 11:21:36 [main] INFO : End date must be greater than start date.
+2025-07-17 11:21:40 [main] INFO : Verify Creating a new Project
+2025-07-17 11:21:41 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:21:42 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:21:43 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 11:21:43 [main] INFO : Entering Project Type: Development
+2025-07-17 11:21:59 [main] INFO : Entered Project Start Date: 2025-07-17
+2025-07-17 11:21:59 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-17 11:22:00 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-17 11:22:02 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 11:22:02 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-17 11:22:05 [main] INFO : Save Project
+2025-07-17 11:22:11 [main] INFO : CSAT Automation Test Project Created
+2025-07-17 11:22:13 [main] INFO : Update Duplicate customer contact
+2025-07-17 11:22:20 [main] INFO : A contact with this name and email already exists.
+2025-07-17 11:22:23 [main] INFO : Update new customer contact to existing project
+2025-07-17 11:22:35 [main] INFO : Delete  customer contact from existing project
+2025-07-17 11:22:53 [main] INFO : Delete Existing Project
+2025-07-17 11:22:58 [main] INFO : CSAT Automation Test Project Deleted
+2025-07-17 11:22:58 [main] INFO : Send FeedBack Request To customer
+2025-07-17 11:22:58 [main] INFO : Survey Sent Count Before :46
+2025-07-17 11:22:59 [main] INFO : Survey At Risk Count Before :27
+2025-07-17 11:22:59 [main] INFO : Completed Survey Count Before:140
+2025-07-17 11:22:59 [main] INFO : CSAT Score Count Before :4.00
+2025-07-17 11:22:59 [main] INFO : CSAT Column Value Before :N/A
+2025-07-17 11:23:02 [main] INFO : Selected Contact
+2025-07-17 11:23:03 [main] INFO : Subject Retrieved Based on Survey Type
+2025-07-17 11:23:03 [main] INFO : CriticalRiver Feedback Request: Help Us Improve Your Experience with CR CSAT -  Engagement Level : CSAT Feedback
+2025-07-17 11:23:03 [main] INFO : Body Retrieved Based on Survey Type
+2025-07-17 11:23:03 [main] INFO : Phani Maddi: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/3622088368ba472ca3579f5c27332c31
+2025-07-17 11:23:20 [main] INFO : Survey Sent Count After sending feedback request:47
+2025-07-17 11:23:20 [main] INFO : Survey At Risk Count After sending feedback request:28
+2025-07-17 11:23:23 [main] INFO : Fill Feedback Form
+2025-07-17 11:23:52 [main] INFO : Inside Customer Mail
+2025-07-17 11:24:07 [main] INFO : Testing Ended
+2025-07-17 11:24:07 [main] INFO : ***********
+2025-07-17 11:28:18 [main] INFO : Launching Chrome Browser
+2025-07-17 11:28:18 [main] INFO : Report Name :CSATPageReport.html
+2025-07-17 11:28:23 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 11:28:23 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 11:28:24 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 11:28:51 [main] INFO : Logged in to CSAT Application
+2025-07-17 11:28:51 [main] INFO : Inside Test class 
+2025-07-17 11:28:52 [main] INFO : Logo is Available CSAT Logo
+2025-07-17 11:28:52 [main] INFO : Profile Name is Valid: Anwar Hussain
+2025-07-17 11:28:53 [main] INFO : Menu Collapsed
+2025-07-17 11:28:54 [main] ERROR: Test Failed :invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c3ec46f84e720928f6a7379a45f8cc59, findElement {using=xpath, value=//button[@class='nav-link11 toggle-sidebar-btn']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59266}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59266/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3ec46f84e720928f6a7379a45f8cc59
+2025-07-17 11:28:55 [main] ERROR: Test Failed :invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c3ec46f84e720928f6a7379a45f8cc59, setTimeout {implicit=60000}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59266}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59266/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3ec46f84e720928f6a7379a45f8cc59
+2025-07-17 11:29:11 [main] INFO : Launching Chrome Browser
+2025-07-17 11:29:12 [main] INFO : Report Name :CSATPageReport.html
+2025-07-17 11:29:16 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 11:29:16 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 11:29:16 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 11:29:44 [main] INFO : Logged in to CSAT Application
+2025-07-17 11:29:44 [main] INFO : Inside Test class 
+2025-07-17 11:29:45 [main] INFO : Logo is Available CSAT Logo
+2025-07-17 11:29:45 [main] INFO : Profile Name is Valid: Anwar Hussain
+2025-07-17 11:29:46 [main] INFO : Menu Collapsed
+2025-07-17 11:29:52 [main] INFO : Inside /surveys Page 
+2025-07-17 11:29:53 [main] INFO : /surveys Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveys
+2025-07-17 11:30:00 [main] INFO : Inside /roles Page 
+2025-07-17 11:30:00 [main] INFO : /roles Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/roles
+2025-07-17 11:30:07 [main] INFO : Inside /reports Page 
+2025-07-17 11:30:07 [main] INFO : /reports Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/reports
+2025-07-17 11:30:14 [main] INFO : Inside /settings/org-members Page 
+2025-07-17 11:30:14 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/org-members
+2025-07-17 11:30:22 [main] INFO : Inside /profile Page 
+2025-07-17 11:30:22 [main] INFO : /profile Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/profile
+2025-07-17 11:30:29 [main] INFO : Inside /settings/teams Page 
+2025-07-17 11:30:29 [main] INFO : /settings/teams Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/teams
+2025-07-17 11:30:37 [main] INFO : Inside /projects Page 
+2025-07-17 11:30:37 [main] INFO : /projects Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/projects
+2025-07-17 11:30:39 [main] INFO : Menu Expanded
+2025-07-17 11:30:40 [main] INFO : Menu Collapsed
+2025-07-17 11:30:41 [main] INFO : Header is Valid: Projects
+2025-07-17 11:30:43 [main] INFO : Popup Header: Surveys Sent
+2025-07-17 11:30:44 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-17 11:30:44 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-17 11:30:47 [main] INFO : Cancel Button Available
+2025-07-17 11:30:47 [main] INFO : Cancel Button is Enabled
+2025-07-17 11:30:47 [main] INFO : Share Button Available
+2025-07-17 11:30:47 [main] INFO : Share Button is Enabled
+2025-07-17 11:30:49 [main] INFO : Popup Header: At Risk Surveys
+2025-07-17 11:30:50 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-17 11:30:50 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-17 11:30:53 [main] INFO : Cancel Button Available
+2025-07-17 11:30:53 [main] INFO : Export Button Available
+2025-07-17 11:30:53 [main] INFO : Cancel Button is Enabled
+2025-07-17 11:30:53 [main] INFO : Export Button is Enabled
+2025-07-17 11:30:55 [main] INFO : Popup Header: Completed Surveys
+2025-07-17 11:30:56 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-17 11:30:56 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-17 11:30:59 [main] INFO : Cancel Button Available
+2025-07-17 11:30:59 [main] INFO : Export Button Available
+2025-07-17 11:30:59 [main] INFO : Cancel Button is Enabled
+2025-07-17 11:30:59 [main] INFO : Export Button is Enabled
+2025-07-17 11:31:01 [main] INFO : Popup Header: CSAT Summary
+2025-07-17 11:31:02 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-17 11:31:02 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-17 11:31:04 [main] INFO : Cancel Button Available
+2025-07-17 11:31:04 [main] INFO : Export Button Available
+2025-07-17 11:31:05 [main] INFO : Cancel Button is Enabled
+2025-07-17 11:31:05 [main] INFO : Export Button is Enabled
+2025-07-17 11:31:06 [main] INFO : popup Header New Project Details
+2025-07-17 11:31:06 [main] INFO : Expected :New Project Details and Actual :New Project Details
+2025-07-17 11:31:06 [main] INFO : Expected :New Project Details and Actual :New Project Details both are same
+2025-07-17 11:31:09 [main] INFO : Cancel Button Available
+2025-07-17 11:31:09 [main] INFO : Save Button Available
+2025-07-17 11:31:10 [main] INFO : Download CSV File Format 
+2025-07-17 11:31:15 [main] INFO : Download PDF File Format 
+2025-07-17 11:31:21 [main] INFO : Selecting Pagination 5
+2025-07-17 11:31:22 [main] INFO : 5 pagination Option Selected
+2025-07-17 11:31:22 [main] INFO : Selecting Pagination 50
+2025-07-17 11:31:22 [main] INFO : 50 pagination Option Selected
+2025-07-17 11:31:22 [main] INFO : Selecting Pagination 100
+2025-07-17 11:31:22 [main] INFO : 100 pagination Option Selected
+2025-07-17 11:31:23 [main] INFO : Verify Edit button
+2025-07-17 11:31:23 [main] INFO : edit Button is Available
+2025-07-17 11:31:23 [main] INFO : Verify Delete button
+2025-07-17 11:31:23 [main] INFO : delete Button is Available
+2025-07-17 11:31:23 [main] INFO : Verify Send button
+2025-07-17 11:31:23 [main] INFO : send Button is Available
+2025-07-17 11:31:24 [main] INFO : Column Options is valid Header value
+2025-07-17 11:31:24 [main] INFO : Cancel Button Available
+2025-07-17 11:31:24 [main] INFO : OK Button Available
+2025-07-17 11:31:24 [main] INFO : Verifying Project Name Column Option
+2025-07-17 11:31:24 [main] INFO : Column Option visibility is Hide 
+2025-07-17 11:31:26 [main] INFO : Column Option visibility is View 
+2025-07-17 11:31:28 [main] INFO : Verifying Practice Name Column Option
+2025-07-17 11:31:28 [main] INFO : Column Option visibility is Hide 
+2025-07-17 11:31:29 [main] INFO : Column Option visibility is View 
+2025-07-17 11:31:31 [main] INFO : Verifying CSAT Column Option
+2025-07-17 11:31:31 [main] INFO : Column Option visibility is Hide 
+2025-07-17 11:31:33 [main] INFO : Column Option visibility is View 
+2025-07-17 11:31:37 [main] INFO : All Statuses Status Option Selected
+2025-07-17 11:31:37 [main] INFO : Selecting Pipeline Status Option
+2025-07-17 11:31:37 [main] INFO : Pipeline Status Option Selected
+2025-07-17 11:31:37 [main] INFO : Expected :Pipeline and Actual :Pipeline both are same
+2025-07-17 11:31:37 [main] INFO : Selecting Completed Status Option
+2025-07-17 11:31:38 [main] INFO : Completed Status Option Selected
+2025-07-17 11:31:38 [main] INFO : Expected :Completed and Actual :Completed both are same
+2025-07-17 11:31:38 [main] INFO : Selecting In Progress Status Option
+2025-07-17 11:31:38 [main] INFO : In Progress Status Option Selected
+2025-07-17 11:31:38 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-17 11:31:40 [main] INFO : Survey Response Status survey Response Option Selected
+2025-07-17 11:31:40 [main] INFO : Selecting Not Received Survey response Option
+2025-07-17 11:31:43 [main] INFO : Not Received survey Response Option Selected
+2025-07-17 11:31:44 [main] INFO : Expected :No and Actual :No both are same
+2025-07-17 11:31:45 [main] INFO : Selecting Received Survey response Option
+2025-07-17 11:31:48 [main] INFO : Received survey Response Option Selected
+2025-07-17 11:31:49 [main] INFO : Expected :Yes and Actual :Yes both are same
+2025-07-17 11:31:50 [main] INFO : Survey Projects Project Option Selected
+2025-07-17 11:31:50 [main] INFO : Selecting Ruddr Projects Project Option
+2025-07-17 11:31:56 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-17 11:31:56 [main] INFO : Expected :Ruddr and Actual :Ruddr both are same
+2025-07-17 11:32:02 [main] INFO : All Practices Practice Option Selected
+2025-07-17 11:32:05 [main] INFO : Selecting ERP Applications Practice Option
+2025-07-17 11:32:05 [main] INFO : ERP Applications Practice Option Selected
+2025-07-17 11:32:05 [main] INFO : Expected :ERP Applications and Actual :ERP Applications both are same
+2025-07-17 11:32:05 [main] INFO : Selecting Product Engineering Services Practice Option
+2025-07-17 11:32:05 [main] INFO : Product Engineering Services Practice Option Selected
+2025-07-17 11:32:05 [main] INFO : Expected :Product Engineering Services and Actual :Product Engineering Services both are same
+2025-07-17 11:32:06 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-17 11:32:06 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-17 11:32:07 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-17 11:32:07 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-17 11:32:07 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-17 11:32:10 [main] INFO : Selecting In Progress Status Option
+2025-07-17 11:32:10 [main] INFO : In Progress Status Option Selected
+2025-07-17 11:32:10 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-17 11:32:12 [main] INFO : Selecting Not Received Survey response Option
+2025-07-17 11:32:15 [main] INFO : Not Received survey Response Option Selected
+2025-07-17 11:32:16 [main] INFO : Expected :No and Actual :No both are same
+2025-07-17 11:32:17 [main] INFO : Menu Expanded
+2025-07-17 11:32:19 [main] INFO : Menu Collapsed
+2025-07-17 11:32:19 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-17 11:32:20 [main] INFO : Save Button is Disabled
+2025-07-17 11:32:22 [main] INFO : Verify Keeping One mandatory field Empty in add Project
+2025-07-17 11:32:22 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:32:23 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:32:23 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 11:32:24 [main] INFO : Entering Project Type: Development
+2025-07-17 11:32:25 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-17 11:32:25 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 11:32:26 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-17 11:32:31 [main] INFO : Save Button is Disabled
+2025-07-17 11:32:34 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-17 11:32:34 [main] INFO : Entering Project Name: #$%^&*
+2025-07-17 11:32:35 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:32:35 [main] INFO : Verify the error message 
+2025-07-17 11:32:35 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-17 11:32:37 [main] INFO : Verify adding only Space character in project name Test
+2025-07-17 11:32:38 [main] INFO : Entering Project Name Only Spaces :   
+2025-07-17 11:32:38 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:32:39 [main] INFO : Verify the error message 
+2025-07-17 11:32:39 [main] INFO : Project name can't be empty.
+2025-07-17 11:32:41 [main] INFO : Verify Adding Invalid customer name
+2025-07-17 11:32:42 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:32:43 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:32:45 [main] INFO : Entering Customer Name: #$%^&*
+2025-07-17 11:32:45 [main] INFO : Full Name can only contain letters, numbers, spaces, hyphens, or underscores.
+2025-07-17 11:32:48 [main] INFO : Verify Adding only spaces in customer name
+2025-07-17 11:32:48 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:32:49 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:32:51 [main] INFO : Entering Customer Name only spaces:    
+2025-07-17 11:32:52 [main] INFO : Full Name cannot be empty.
+2025-07-17 11:32:54 [main] INFO : Verify Adding Invalid customer email format
+2025-07-17 11:32:55 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:32:55 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:32:57 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 11:32:58 [main] INFO : Entering Customer Email: Phani Maddi
+2025-07-17 11:32:59 [main] INFO : Please enter a valid email address (e.g., user@example.com).
+2025-07-17 11:33:01 [main] INFO : Verify Adding existing project name
+2025-07-17 11:33:02 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:33:02 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:33:03 [main] INFO : Verify the error message 
+2025-07-17 11:33:04 [main] INFO : A project with this name already exists.
+2025-07-17 11:33:05 [main] INFO : Verify Entering End Date previous than Start date
+2025-07-17 11:33:06 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:33:07 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:33:07 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 11:33:08 [main] INFO : Entering Project Type: Development
+2025-07-17 11:33:23 [main] INFO : End date must be greater than start date.
+2025-07-17 11:33:27 [main] INFO : Verify Creating a new Project
+2025-07-17 11:33:27 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:33:28 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:33:29 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 11:33:29 [main] INFO : Entering Project Type: Development
+2025-07-17 11:33:45 [main] INFO : Entered Project Start Date: 2025-07-17
+2025-07-17 11:33:45 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-17 11:33:46 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-17 11:33:47 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 11:33:48 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-17 11:33:51 [main] INFO : Save Project
+2025-07-17 11:33:56 [main] INFO : CSAT Automation Test Project Created
+2025-07-17 11:33:58 [main] INFO : Update Duplicate customer contact
+2025-07-17 11:34:05 [main] INFO : A contact with this name and email already exists.
+2025-07-17 11:34:07 [main] INFO : Update new customer contact to existing project
+2025-07-17 11:34:20 [main] INFO : Delete  customer contact from existing project
+2025-07-17 11:34:37 [main] INFO : Delete Existing Project
+2025-07-17 11:34:43 [main] INFO : CSAT Automation Test Project Deleted
+2025-07-17 11:34:43 [main] INFO : Send FeedBack Request To customer
+2025-07-17 11:34:43 [main] INFO : Survey Sent Count Before :47
+2025-07-17 11:34:43 [main] INFO : Survey At Risk Count Before :28
+2025-07-17 11:34:43 [main] INFO : Completed Survey Count Before:140
+2025-07-17 11:34:43 [main] INFO : CSAT Score Count Before :4.00
+2025-07-17 11:34:43 [main] INFO : CSAT Column Value Before :N/A
+2025-07-17 11:34:47 [main] INFO : Selected Contact
+2025-07-17 11:34:48 [main] INFO : Subject Retrieved Based on Survey Type
+2025-07-17 11:34:48 [main] INFO : CriticalRiver Feedback Request: Help Us Improve Your Experience with CR CSAT -  Engagement Level : CSAT Feedback
+2025-07-17 11:34:48 [main] INFO : Body Retrieved Based on Survey Type
+2025-07-17 11:34:48 [main] INFO : Phani Maddi: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/f66ddec274674943a54c4e281a45ed94
+2025-07-17 11:35:05 [main] INFO : Survey Sent Count After sending feedback request:48
+2025-07-17 11:35:05 [main] INFO : Survey At Risk Count After sending feedback request:29
+2025-07-17 11:35:07 [main] INFO : Fill Feedback Form
+2025-07-17 11:35:17 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46bb57f0b6cad2232274930979c6e459, clickElement {id=f.DAEE082C7B8CC241FE99F4F191E410F3.d.12801FDEED7C1F11D47EBBCAE75235C8.e.79}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59357/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (46bb57f0b6cad2232274930979c6e459)] -> css selector: input#idSIButton9]
+Session ID: 46bb57f0b6cad2232274930979c6e459
+2025-07-17 11:36:28 [main] ERROR: Test Failed :Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46bb57f0b6cad2232274930979c6e459, findElements [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59357/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46bb57f0b6cad2232274930979c6e459
+2025-07-17 11:36:30 [main] ERROR: Test Failed :Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46bb57f0b6cad2232274930979c6e459, setTimeout [implicit]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59357/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46bb57f0b6cad2232274930979c6e459
+2025-07-17 11:36:31 [main] INFO : Inside Customer Mail
+2025-07-17 11:36:41 [main] ERROR: Test Failed :Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46bb57f0b6cad2232274930979c6e459, setTimeout [implicit]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59357/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46bb57f0b6cad2232274930979c6e459
+2025-07-17 11:36:43 [main] ERROR: Test Failed :Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46bb57f0b6cad2232274930979c6e459, setTimeout [implicit]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59357/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46bb57f0b6cad2232274930979c6e459
+2025-07-17 11:36:46 [main] INFO : Testing Ended
+2025-07-17 11:36:46 [main] INFO : ***********
+2025-07-17 11:38:05 [main] INFO : Launching Chrome Browser
+2025-07-17 11:38:05 [main] INFO : Report Name :CSATPageReport.html
+2025-07-17 11:38:10 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 11:38:10 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 11:38:10 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 11:38:37 [main] INFO : Logged in to CSAT Application
+2025-07-17 11:38:37 [main] INFO : Inside Test class 
+2025-07-17 11:38:38 [main] INFO : Logo is Available CSAT Logo
+2025-07-17 11:38:38 [main] INFO : Profile Name is Valid: Anwar Hussain
+2025-07-17 11:38:39 [main] INFO : Menu Collapsed
+2025-07-17 11:38:46 [main] INFO : Inside /surveys Page 
+2025-07-17 11:38:46 [main] INFO : /surveys Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveys
+2025-07-17 11:38:53 [main] INFO : Inside /roles Page 
+2025-07-17 11:38:53 [main] INFO : /roles Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/roles
+2025-07-17 11:39:00 [main] INFO : Inside /reports Page 
+2025-07-17 11:39:00 [main] INFO : /reports Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/reports
+2025-07-17 11:39:08 [main] INFO : Inside /settings/org-members Page 
+2025-07-17 11:39:08 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/org-members
+2025-07-17 11:39:15 [main] INFO : Inside /profile Page 
+2025-07-17 11:39:15 [main] INFO : /profile Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/profile
+2025-07-17 11:39:23 [main] INFO : Inside /settings/teams Page 
+2025-07-17 11:39:23 [main] INFO : /settings/teams Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/teams
+2025-07-17 11:39:30 [main] INFO : Inside /projects Page 
+2025-07-17 11:39:30 [main] INFO : /projects Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/projects
+2025-07-17 11:39:33 [main] INFO : Menu Expanded
+2025-07-17 11:39:34 [main] INFO : Menu Collapsed
+2025-07-17 11:39:35 [main] INFO : Header is Valid: Projects
+2025-07-17 11:39:37 [main] INFO : Popup Header: Surveys Sent
+2025-07-17 11:39:38 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-17 11:39:38 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-17 11:39:40 [main] INFO : Cancel Button Available
+2025-07-17 11:39:40 [main] INFO : Cancel Button is Enabled
+2025-07-17 11:39:41 [main] INFO : Share Button Available
+2025-07-17 11:39:41 [main] INFO : Share Button is Enabled
+2025-07-17 11:39:43 [main] INFO : Popup Header: At Risk Surveys
+2025-07-17 11:39:44 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-17 11:39:44 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-17 11:39:46 [main] INFO : Cancel Button Available
+2025-07-17 11:39:46 [main] INFO : Export Button Available
+2025-07-17 11:39:46 [main] INFO : Cancel Button is Enabled
+2025-07-17 11:39:46 [main] INFO : Export Button is Enabled
+2025-07-17 11:39:49 [main] INFO : Popup Header: Completed Surveys
+2025-07-17 11:39:50 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-17 11:39:50 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-17 11:39:52 [main] INFO : Cancel Button Available
+2025-07-17 11:39:52 [main] INFO : Export Button Available
+2025-07-17 11:39:52 [main] INFO : Cancel Button is Enabled
+2025-07-17 11:39:52 [main] INFO : Export Button is Enabled
+2025-07-17 11:39:55 [main] INFO : Popup Header: CSAT Summary
+2025-07-17 11:39:56 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-17 11:39:56 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-17 11:39:58 [main] INFO : Cancel Button Available
+2025-07-17 11:39:58 [main] INFO : Export Button Available
+2025-07-17 11:39:58 [main] INFO : Cancel Button is Enabled
+2025-07-17 11:39:58 [main] INFO : Export Button is Enabled
+2025-07-17 11:40:00 [main] INFO : popup Header New Project Details
+2025-07-17 11:40:00 [main] INFO : Expected :New Project Details and Actual :New Project Details
+2025-07-17 11:40:00 [main] INFO : Expected :New Project Details and Actual :New Project Details both are same
+2025-07-17 11:40:03 [main] INFO : Cancel Button Available
+2025-07-17 11:40:03 [main] INFO : Save Button Available
+2025-07-17 11:40:03 [main] INFO : Download CSV File Format 
+2025-07-17 11:40:09 [main] INFO : Download PDF File Format 
+2025-07-17 11:40:15 [main] INFO : Selecting Pagination 5
+2025-07-17 11:40:15 [main] INFO : 5 pagination Option Selected
+2025-07-17 11:40:15 [main] INFO : Selecting Pagination 50
+2025-07-17 11:40:16 [main] INFO : 50 pagination Option Selected
+2025-07-17 11:40:16 [main] INFO : Selecting Pagination 100
+2025-07-17 11:40:16 [main] INFO : 100 pagination Option Selected
+2025-07-17 11:40:17 [main] INFO : Verify Edit button
+2025-07-17 11:40:17 [main] INFO : edit Button is Available
+2025-07-17 11:40:17 [main] INFO : Verify Delete button
+2025-07-17 11:40:17 [main] INFO : delete Button is Available
+2025-07-17 11:40:17 [main] INFO : Verify Send button
+2025-07-17 11:40:17 [main] INFO : send Button is Available
+2025-07-17 11:40:18 [main] INFO : Column Options is valid Header value
+2025-07-17 11:40:18 [main] INFO : Cancel Button Available
+2025-07-17 11:40:18 [main] INFO : OK Button Available
+2025-07-17 11:40:18 [main] INFO : Verifying Project Name Column Option
+2025-07-17 11:40:18 [main] INFO : Column Option visibility is Hide 
+2025-07-17 11:40:20 [main] INFO : Column Option visibility is View 
+2025-07-17 11:40:21 [main] INFO : Verifying Practice Name Column Option
+2025-07-17 11:40:22 [main] INFO : Column Option visibility is Hide 
+2025-07-17 11:40:23 [main] INFO : Column Option visibility is View 
+2025-07-17 11:40:25 [main] INFO : Verifying CSAT Column Option
+2025-07-17 11:40:25 [main] INFO : Column Option visibility is Hide 
+2025-07-17 11:40:26 [main] INFO : Column Option visibility is View 
+2025-07-17 11:40:30 [main] INFO : All Statuses Status Option Selected
+2025-07-17 11:40:30 [main] INFO : Selecting Pipeline Status Option
+2025-07-17 11:40:31 [main] INFO : Pipeline Status Option Selected
+2025-07-17 11:40:31 [main] INFO : Expected :Pipeline and Actual :Pipeline both are same
+2025-07-17 11:40:31 [main] INFO : Selecting Completed Status Option
+2025-07-17 11:40:31 [main] INFO : Completed Status Option Selected
+2025-07-17 11:40:31 [main] INFO : Expected :Completed and Actual :Completed both are same
+2025-07-17 11:40:31 [main] INFO : Selecting In Progress Status Option
+2025-07-17 11:40:32 [main] INFO : In Progress Status Option Selected
+2025-07-17 11:40:32 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-17 11:40:33 [main] INFO : Survey Response Status survey Response Option Selected
+2025-07-17 11:40:34 [main] INFO : Selecting Not Received Survey response Option
+2025-07-17 11:40:37 [main] INFO : Not Received survey Response Option Selected
+2025-07-17 11:40:38 [main] INFO : Expected :No and Actual :No both are same
+2025-07-17 11:40:38 [main] INFO : Selecting Received Survey response Option
+2025-07-17 11:40:41 [main] INFO : Received survey Response Option Selected
+2025-07-17 11:40:42 [main] INFO : Expected :Yes and Actual :Yes both are same
+2025-07-17 11:40:44 [main] INFO : Survey Projects Project Option Selected
+2025-07-17 11:40:44 [main] INFO : Selecting Ruddr Projects Project Option
+2025-07-17 11:40:49 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-17 11:40:49 [main] INFO : Expected :Ruddr and Actual :Ruddr both are same
+2025-07-17 11:40:56 [main] INFO : All Practices Practice Option Selected
+2025-07-17 11:40:58 [main] INFO : Selecting ERP Applications Practice Option
+2025-07-17 11:40:59 [main] INFO : ERP Applications Practice Option Selected
+2025-07-17 11:40:59 [main] INFO : Expected :ERP Applications and Actual :ERP Applications both are same
+2025-07-17 11:40:59 [main] INFO : Selecting Product Engineering Services Practice Option
+2025-07-17 11:40:59 [main] INFO : Product Engineering Services Practice Option Selected
+2025-07-17 11:40:59 [main] INFO : Expected :Product Engineering Services and Actual :Product Engineering Services both are same
+2025-07-17 11:41:00 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-17 11:41:00 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-17 11:41:01 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-17 11:41:01 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-17 11:41:01 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-17 11:41:03 [main] INFO : Selecting In Progress Status Option
+2025-07-17 11:41:04 [main] INFO : In Progress Status Option Selected
+2025-07-17 11:41:04 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-17 11:41:06 [main] INFO : Selecting Not Received Survey response Option
+2025-07-17 11:41:09 [main] INFO : Not Received survey Response Option Selected
+2025-07-17 11:41:10 [main] INFO : Expected :No and Actual :No both are same
+2025-07-17 11:41:11 [main] INFO : Menu Expanded
+2025-07-17 11:41:13 [main] INFO : Menu Collapsed
+2025-07-17 11:41:14 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-17 11:41:14 [main] INFO : Save Button is Disabled
+2025-07-17 11:41:16 [main] INFO : Verify Keeping One mandatory field Empty in add Project
+2025-07-17 11:41:18 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:41:18 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:41:19 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 11:41:20 [main] INFO : Entering Project Type: Development
+2025-07-17 11:41:20 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-17 11:41:21 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 11:41:22 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-17 11:41:27 [main] INFO : Save Button is Disabled
+2025-07-17 11:41:30 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-17 11:41:31 [main] INFO : Entering Project Name: #$%^&*
+2025-07-17 11:41:31 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:41:32 [main] INFO : Verify the error message 
+2025-07-17 11:41:32 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-17 11:41:34 [main] INFO : Verify adding only Space character in project name Test
+2025-07-17 11:41:35 [main] INFO : Entering Project Name Only Spaces :   
+2025-07-17 11:41:35 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:41:36 [main] INFO : Verify the error message 
+2025-07-17 11:41:36 [main] INFO : Project name can't be empty.
+2025-07-17 11:41:38 [main] INFO : Verify Adding Invalid customer name
+2025-07-17 11:41:39 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:41:39 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:41:42 [main] INFO : Entering Customer Name: #$%^&*
+2025-07-17 11:41:42 [main] INFO : Full Name can only contain letters, numbers, spaces, hyphens, or underscores.
+2025-07-17 11:41:45 [main] INFO : Verify Adding only spaces in customer name
+2025-07-17 11:41:46 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:41:46 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:41:49 [main] INFO : Entering Customer Name only spaces:    
+2025-07-17 11:41:49 [main] INFO : Full Name cannot be empty.
+2025-07-17 11:41:52 [main] INFO : Verify Adding Invalid customer email format
+2025-07-17 11:41:53 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:41:53 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:41:56 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 11:41:56 [main] INFO : Entering Customer Email: Phani Maddi
+2025-07-17 11:41:57 [main] INFO : Please enter a valid email address (e.g., user@example.com).
+2025-07-17 11:41:59 [main] INFO : Verify Adding existing project name
+2025-07-17 11:42:01 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:42:01 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:42:02 [main] INFO : Verify the error message 
+2025-07-17 11:42:02 [main] INFO : A project with this name already exists.
+2025-07-17 11:42:04 [main] INFO : Verify Entering End Date previous than Start date
+2025-07-17 11:42:05 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:42:05 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:42:06 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 11:42:07 [main] INFO : Entering Project Type: Development
+2025-07-17 11:42:22 [main] INFO : End date must be greater than start date.
+2025-07-17 11:42:26 [main] INFO : Verify Creating a new Project
+2025-07-17 11:42:27 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 11:42:27 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 11:42:28 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 11:42:29 [main] INFO : Entering Project Type: Development
+2025-07-17 11:42:44 [main] INFO : Entered Project Start Date: 2025-07-17
+2025-07-17 11:42:45 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-17 11:42:46 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-17 11:42:47 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 11:42:48 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-17 11:42:51 [main] INFO : Save Project
+2025-07-17 11:42:57 [main] INFO : CSAT Automation Test Project Created
+2025-07-17 11:42:59 [main] INFO : Update Duplicate customer contact
+2025-07-17 11:43:06 [main] INFO : A contact with this name and email already exists.
+2025-07-17 11:43:08 [main] INFO : Update new customer contact to existing project
+2025-07-17 11:43:21 [main] INFO : Delete  customer contact from existing project
+2025-07-17 11:43:38 [main] INFO : Delete Existing Project
+2025-07-17 11:43:44 [main] INFO : CSAT Automation Test Project Deleted
+2025-07-17 11:43:44 [main] INFO : Send FeedBack Request To customer
+2025-07-17 11:43:44 [main] INFO : Survey Sent Count Before :48
+2025-07-17 11:43:44 [main] INFO : Survey At Risk Count Before :29
+2025-07-17 11:43:45 [main] INFO : Completed Survey Count Before:140
+2025-07-17 11:43:45 [main] INFO : CSAT Score Count Before :4.00
+2025-07-17 11:43:45 [main] INFO : CSAT Column Value Before :N/A
+2025-07-17 11:43:48 [main] INFO : Selected Contact
+2025-07-17 11:43:49 [main] INFO : Subject Retrieved Based on Survey Type
+2025-07-17 11:43:49 [main] INFO : CriticalRiver Feedback Request: Help Us Improve Your Experience with CR CSAT -  Engagement Level : CSAT Feedback
+2025-07-17 11:43:49 [main] INFO : Body Retrieved Based on Survey Type
+2025-07-17 11:43:49 [main] INFO : Phani Maddi: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/28522ae11ac24bcb89f7303c5cb88feb
+2025-07-17 11:44:06 [main] INFO : Survey Sent Count After sending feedback request:49
+2025-07-17 11:44:06 [main] INFO : Survey At Risk Count After sending feedback request:30
+2025-07-17 11:44:08 [main] INFO : Fill Feedback Form
+2025-07-17 11:44:39 [main] INFO : Inside Customer Mail
+2025-07-17 11:45:07 [main] INFO : Header is Valid: CR CSAT - Engagement Level
+2025-07-17 11:45:08 [main] INFO : Inside Feed back Form
+2025-07-17 11:45:17 [main] INFO : Average Rating: 4.50
+2025-07-17 11:45:25 [main] INFO : Your feedback has been received and will be carefully reviewed to ensure we continue to meet and exceed your expectations
+2025-07-17 11:45:41 [main] INFO : Survey Sent Count After:49
+2025-07-17 11:45:41 [main] INFO : Survey At Risk Count After:23
+2025-07-17 11:45:41 [main] INFO : Completed Survey Count After:141
+2025-07-17 11:45:41 [main] INFO : CSAT Score Count After:4.01
+2025-07-17 11:45:41 [main] INFO : CSAT Column Value After:4.50
+2025-07-17 11:45:42 [main] INFO : FeedBack Received
+2025-07-17 11:45:42 [main] INFO : Validating SURVEY Sent Popup
+2025-07-17 11:45:46 [main] INFO : 50 pagination Option Selected
+2025-07-17 11:45:51 [main] INFO : 25 pagination Option Selected
+2025-07-17 11:45:55 [main] INFO : 10 pagination Option Selected
+2025-07-17 11:45:57 [main] INFO : Validating Response Status Filter in Survey Sent Popup 
+2025-07-17 11:45:58 [main] INFO : Responded Response Status Option Selected
+2025-07-17 11:45:58 [main] INFO : Response Status is Valid
+2025-07-17 11:46:00 [main] INFO : Not Responded Response Status Option Selected
+2025-07-17 11:46:00 [main] INFO : Response Status is Valid
+2025-07-17 11:46:02 [main] INFO : Expired Response Status Option Selected
+2025-07-17 11:46:02 [main] INFO : Response Status is Valid
+2025-07-17 11:46:04 [main] INFO : Response Status Response Status Option Selected
+2025-07-17 11:46:05 [main] INFO : Validating Project Filter in Survey Sent Popup 
+2025-07-17 11:46:06 [main] INFO : CSAT_Survey_Flow Project Option Selected
+2025-07-17 11:46:06 [main] INFO : Project is Valid
+2025-07-17 11:46:08 [main] INFO : CSAT Project Option Selected
+2025-07-17 11:46:08 [main] INFO : Project is Valid
+2025-07-17 11:46:10 [main] INFO : Apollo CRM Upgrade Project Option Selected
+2025-07-17 11:46:10 [main] INFO : Project is Valid
+2025-07-17 11:46:12 [main] INFO : Project Project Option Selected
+2025-07-17 11:46:13 [main] INFO : Validating Account Executive Filter in Survey Sent Popup 
+2025-07-17 11:46:14 [main] INFO : Phani Maddi Account executive Option Selected
+2025-07-17 11:46:14 [main] INFO : Account Executive is Valid
+2025-07-17 11:46:16 [main] INFO : Anwar Hussain Account executive Option Selected
+2025-07-17 11:46:16 [main] INFO : Account Executive is Valid
+2025-07-17 11:46:18 [main] INFO : Account Executive Account executive Option Selected
+2025-07-17 11:46:18 [main] INFO : Validating Survey Name Filter in Survey Sent Popup 
+2025-07-17 11:46:20 [main] INFO : CR CSAT - Development Project Survey Option Selected
+2025-07-17 11:46:20 [main] INFO : Survey Name is Valid
+2025-07-17 11:46:22 [main] INFO : CR CSAT Engagement-Survey FLow Survey Option Selected
+2025-07-17 11:46:22 [main] INFO : Survey Name is Valid
+2025-07-17 11:46:24 [main] INFO : Survey Survey Option Selected
+2025-07-17 11:46:25 [main] INFO : Validating AT RISK  Sent Popup
+2025-07-17 11:46:30 [main] INFO : 50 pagination Option Selected
+2025-07-17 11:46:34 [main] INFO : 25 pagination Option Selected
+2025-07-17 11:46:38 [main] INFO : 10 pagination Option Selected
+2025-07-17 11:46:40 [main] INFO : Validating Risk Factor Filter in At Risk Popup 
+2025-07-17 11:46:41 [main] INFO : Low Survey Response Risk Factor Option Selected
+2025-07-17 11:46:41 [main] INFO : Risk Factor is Valid
+2025-07-17 11:46:43 [main] INFO : Poor CSAT Score Risk Factor Option Selected
+2025-07-17 11:46:43 [main] INFO : Risk Factor is Valid
+2025-07-17 11:46:45 [main] INFO : Risk Factor Risk Factor Option Selected
+2025-07-17 11:46:45 [main] INFO : Validating Project Filter in At Risk Popup 
+2025-07-17 11:46:46 [main] INFO : Apollo CRM Upgrade Project Option Selected
+2025-07-17 11:46:47 [main] INFO : Project Option is Valid
+2025-07-17 11:46:49 [main] INFO : CSAT Project Option Selected
+2025-07-17 11:46:49 [main] INFO : Project Option is Valid
+2025-07-17 11:46:50 [main] INFO : Project Project Option Selected
+2025-07-17 11:46:51 [main] INFO : Validating Account Executive Filter in At Risk Popup 
+2025-07-17 11:46:52 [main] INFO : Anwar Hussain Account executive Option Selected
+2025-07-17 11:46:52 [main] INFO : Account Executive Score is Valid
+2025-07-17 11:46:54 [main] INFO : Arun Kumar Account executive Option Selected
+2025-07-17 11:46:54 [main] INFO : Account Executive Score is Valid
+2025-07-17 11:46:56 [main] INFO : Account Executive Account executive Option Selected
+2025-07-17 11:46:58 [main] INFO : Validating SURVEY Complete Popup
+2025-07-17 11:47:03 [main] INFO : 50 pagination Option Selected
+2025-07-17 11:47:07 [main] INFO : 25 pagination Option Selected
+2025-07-17 11:47:11 [main] INFO : 10 pagination Option Selected
+2025-07-17 11:47:12 [main] INFO : Validating Project Filter in Survey Complete Popup 
+2025-07-17 11:47:14 [main] INFO : Apollo CRM Upgrade Project Option Selected
+2025-07-17 11:47:14 [main] INFO : Project is Valid
+2025-07-17 11:47:16 [main] INFO : Salesforce Intergration Project Project Option Selected
+2025-07-17 11:47:16 [main] INFO : Project is Valid
+2025-07-17 11:47:18 [main] INFO : Project Project Option Selected
+2025-07-17 11:47:19 [main] INFO : Validating Account Executive Filter in Survey Complete Popup 
+2025-07-17 11:47:20 [main] INFO : Phani Maddi Account executive Option Selected
+2025-07-17 11:47:20 [main] INFO : Account Executive is Valid
+2025-07-17 11:47:22 [main] INFO : Arun Kumar Account executive Option Selected
+2025-07-17 11:47:22 [main] INFO : Account Executive is Valid
+2025-07-17 11:47:24 [main] INFO : Anwar Hussain Account executive Option Selected
+2025-07-17 11:47:25 [main] INFO : Account Executive is Valid
+2025-07-17 11:47:27 [main] INFO : Account Executive Account executive Option Selected
+2025-07-17 11:47:27 [main] INFO : Validating Survey Name Filter in Survey Complete Popup 
+2025-07-17 11:47:29 [main] INFO : CR CSAT - Development Project Survey Option Selected
+2025-07-17 11:47:29 [main] INFO : Survey Name is Valid
+2025-07-17 11:47:31 [main] INFO : CR CSAT - AMS Survey Option Selected
+2025-07-17 11:47:31 [main] INFO : Survey Name is Valid
+2025-07-17 11:47:33 [main] INFO : Survey Survey Option Selected
+2025-07-17 11:47:34 [main] INFO : Validating CSAT Summary Popup
+2025-07-17 11:47:37 [main] INFO : CSAT Score In popup 4.01
+2025-07-17 11:47:38 [main] INFO : Csat Score is correct
+2025-07-17 11:47:39 [main] INFO : 50 pagination Option Selected
+2025-07-17 11:47:42 [main] INFO : 25 pagination Option Selected
+2025-07-17 11:47:45 [main] INFO : 10 pagination Option Selected
+2025-07-17 11:47:47 [main] INFO : Validating CSAT Filter Popup
+2025-07-17 11:47:47 [main] INFO : Excellent CSAT Option Selected
+2025-07-17 11:47:47 [main] INFO : Csat Score is Valid
+2025-07-17 11:47:49 [main] INFO : Good CSAT Option Selected
+2025-07-17 11:47:50 [main] INFO : Csat Score is Valid
+2025-07-17 11:47:52 [main] INFO : Dissatisfied CSAT Option Selected
+2025-07-17 11:47:52 [main] INFO : Csat Score is Valid
+2025-07-17 11:47:54 [main] INFO : Testing Ended
+2025-07-17 11:47:54 [main] INFO : ***********
+2025-07-17 13:01:49 [main] INFO : Launching Chrome Browser
+2025-07-17 13:01:50 [main] INFO : Report Name :CSATPageReport.html
+2025-07-17 13:02:19 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 13:02:19 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 13:02:19 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 13:02:47 [main] INFO : Logged in to CSAT Application
+2025-07-17 13:02:47 [main] INFO : Inside Test class 
+2025-07-17 13:02:47 [main] INFO : Logo is Available CSAT Logo
+2025-07-17 13:02:47 [main] INFO : Profile Name is Valid: Anwar Hussain
+2025-07-17 13:02:49 [main] INFO : Menu Collapsed
+2025-07-17 13:02:55 [main] INFO : Inside /surveys Page 
+2025-07-17 13:02:55 [main] INFO : /surveys Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveys
+2025-07-17 13:03:02 [main] INFO : Inside /roles Page 
+2025-07-17 13:03:02 [main] INFO : /roles Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/roles
+2025-07-17 13:03:10 [main] INFO : Inside /reports Page 
+2025-07-17 13:03:10 [main] INFO : /reports Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/reports
+2025-07-17 13:03:17 [main] INFO : Inside /settings/org-members Page 
+2025-07-17 13:03:17 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/org-members
+2025-07-17 13:03:24 [main] INFO : Inside /profile Page 
+2025-07-17 13:03:24 [main] INFO : /profile Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/profile
+2025-07-17 13:03:32 [main] INFO : Inside /settings/teams Page 
+2025-07-17 13:03:32 [main] INFO : /settings/teams Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/teams
+2025-07-17 13:03:39 [main] INFO : Inside /projects Page 
+2025-07-17 13:03:39 [main] INFO : /projects Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/projects
+2025-07-17 13:03:41 [main] INFO : Menu Expanded
+2025-07-17 13:03:43 [main] INFO : Menu Collapsed
+2025-07-17 13:03:43 [main] INFO : Header is Valid: Projects
+2025-07-17 13:03:46 [main] INFO : Popup Header: Surveys Sent
+2025-07-17 13:03:47 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-17 13:03:47 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-17 13:03:49 [main] INFO : Cancel Button Available
+2025-07-17 13:03:49 [main] INFO : Cancel Button is Enabled
+2025-07-17 13:03:49 [main] INFO : Share Button Available
+2025-07-17 13:03:49 [main] INFO : Share Button is Enabled
+2025-07-17 13:03:51 [main] INFO : Popup Header: At Risk Surveys
+2025-07-17 13:03:52 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-17 13:03:52 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-17 13:03:54 [main] INFO : Cancel Button Available
+2025-07-17 13:03:55 [main] INFO : Export Button Available
+2025-07-17 13:03:55 [main] INFO : Cancel Button is Enabled
+2025-07-17 13:03:55 [main] INFO : Export Button is Enabled
+2025-07-17 13:03:57 [main] INFO : Popup Header: Completed Surveys
+2025-07-17 13:03:58 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-17 13:03:58 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-17 13:04:00 [main] INFO : Cancel Button Available
+2025-07-17 13:04:00 [main] INFO : Export Button Available
+2025-07-17 13:04:00 [main] INFO : Cancel Button is Enabled
+2025-07-17 13:04:00 [main] INFO : Export Button is Enabled
+2025-07-17 13:04:03 [main] INFO : Popup Header: CSAT Summary
+2025-07-17 13:04:04 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-17 13:04:04 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-17 13:04:06 [main] INFO : Cancel Button Available
+2025-07-17 13:04:06 [main] INFO : Export Button Available
+2025-07-17 13:04:06 [main] INFO : Cancel Button is Enabled
+2025-07-17 13:04:06 [main] INFO : Export Button is Enabled
+2025-07-17 13:04:07 [main] INFO : popup Header New Project Details
+2025-07-17 13:04:07 [main] INFO : Expected :New Project Details and Actual :New Project Details
+2025-07-17 13:04:07 [main] INFO : Expected :New Project Details and Actual :New Project Details both are same
+2025-07-17 13:04:10 [main] INFO : Cancel Button Available
+2025-07-17 13:04:10 [main] INFO : Save Button Available
+2025-07-17 13:04:10 [main] INFO : Download CSV File Format 
+2025-07-17 13:04:16 [main] INFO : Download PDF File Format 
+2025-07-17 13:04:22 [main] INFO : Selecting Pagination 5
+2025-07-17 13:04:22 [main] INFO : 5 pagination Option Selected
+2025-07-17 13:04:22 [main] INFO : Selecting Pagination 50
+2025-07-17 13:04:22 [main] INFO : 50 pagination Option Selected
+2025-07-17 13:04:22 [main] INFO : Selecting Pagination 100
+2025-07-17 13:04:22 [main] INFO : 100 pagination Option Selected
+2025-07-17 13:04:23 [main] INFO : Verify Edit button
+2025-07-17 13:04:23 [main] INFO : edit Button is Available
+2025-07-17 13:04:23 [main] INFO : Verify Delete button
+2025-07-17 13:04:23 [main] INFO : delete Button is Available
+2025-07-17 13:04:23 [main] INFO : Verify Send button
+2025-07-17 13:04:23 [main] INFO : send Button is Available
+2025-07-17 13:04:24 [main] INFO : Column Options is valid Header value
+2025-07-17 13:04:24 [main] INFO : Cancel Button Available
+2025-07-17 13:04:24 [main] INFO : OK Button Available
+2025-07-17 13:04:24 [main] INFO : Verifying Project Name Column Option
+2025-07-17 13:04:24 [main] INFO : Column Option visibility is Hide 
+2025-07-17 13:04:26 [main] INFO : Column Option visibility is View 
+2025-07-17 13:04:27 [main] INFO : Verifying Practice Name Column Option
+2025-07-17 13:04:27 [main] INFO : Column Option visibility is Hide 
+2025-07-17 13:04:29 [main] INFO : Column Option visibility is View 
+2025-07-17 13:04:30 [main] INFO : Verifying CSAT Column Option
+2025-07-17 13:04:30 [main] INFO : Column Option visibility is Hide 
+2025-07-17 13:04:32 [main] INFO : Column Option visibility is View 
+2025-07-17 13:04:35 [main] INFO : All Statuses Status Option Selected
+2025-07-17 13:04:35 [main] INFO : Selecting Pipeline Status Option
+2025-07-17 13:04:36 [main] INFO : Pipeline Status Option Selected
+2025-07-17 13:04:36 [main] INFO : Expected :Pipeline and Actual :Pipeline both are same
+2025-07-17 13:04:36 [main] INFO : Selecting Completed Status Option
+2025-07-17 13:04:36 [main] INFO : Completed Status Option Selected
+2025-07-17 13:04:36 [main] INFO : Expected :Completed and Actual :Completed both are same
+2025-07-17 13:04:36 [main] INFO : Selecting In Progress Status Option
+2025-07-17 13:04:36 [main] INFO : In Progress Status Option Selected
+2025-07-17 13:04:36 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-17 13:04:38 [main] INFO : Survey Response Status survey Response Option Selected
+2025-07-17 13:04:38 [main] INFO : Selecting Not Received Survey response Option
+2025-07-17 13:04:41 [main] INFO : Not Received survey Response Option Selected
+2025-07-17 13:04:42 [main] INFO : Expected :No and Actual :No both are same
+2025-07-17 13:04:43 [main] INFO : Selecting Received Survey response Option
+2025-07-17 13:04:45 [main] INFO : Received survey Response Option Selected
+2025-07-17 13:04:46 [main] INFO : Expected :Yes and Actual :Yes both are same
+2025-07-17 13:04:48 [main] INFO : Survey Projects Project Option Selected
+2025-07-17 13:04:48 [main] INFO : Selecting Ruddr Projects Project Option
+2025-07-17 13:04:53 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-17 13:04:53 [main] INFO : Expected :Ruddr and Actual :Ruddr both are same
+2025-07-17 13:05:00 [main] INFO : All Practices Practice Option Selected
+2025-07-17 13:05:02 [main] INFO : Selecting ERP Applications Practice Option
+2025-07-17 13:05:02 [main] INFO : ERP Applications Practice Option Selected
+2025-07-17 13:05:02 [main] INFO : Expected :ERP Applications and Actual :ERP Applications both are same
+2025-07-17 13:05:02 [main] INFO : Selecting Product Engineering Services Practice Option
+2025-07-17 13:05:02 [main] INFO : Product Engineering Services Practice Option Selected
+2025-07-17 13:05:02 [main] INFO : Expected :Product Engineering Services and Actual :Product Engineering Services both are same
+2025-07-17 13:05:03 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-17 13:05:03 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-17 13:05:04 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-17 13:05:04 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-17 13:05:04 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-17 13:05:06 [main] INFO : Selecting In Progress Status Option
+2025-07-17 13:05:06 [main] INFO : In Progress Status Option Selected
+2025-07-17 13:05:06 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-17 13:05:08 [main] INFO : Selecting Not Received Survey response Option
+2025-07-17 13:05:11 [main] INFO : Not Received survey Response Option Selected
+2025-07-17 13:05:12 [main] INFO : Expected :No and Actual :No both are same
+2025-07-17 13:05:13 [main] INFO : Menu Expanded
+2025-07-17 13:05:16 [main] INFO : Menu Collapsed
+2025-07-17 13:05:16 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-17 13:05:17 [main] INFO : Save Button is Disabled
+2025-07-17 13:05:19 [main] INFO : Verify Keeping One mandatory field Empty in add Project
+2025-07-17 13:05:19 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:05:20 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:05:21 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 13:05:21 [main] INFO : Entering Project Type: Development
+2025-07-17 13:05:22 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-17 13:05:23 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 13:05:24 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-17 13:05:29 [main] INFO : Save Button is Disabled
+2025-07-17 13:05:31 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-17 13:05:32 [main] INFO : Entering Project Name: #$%^&*
+2025-07-17 13:05:33 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:05:33 [main] INFO : Verify the error message 
+2025-07-17 13:05:33 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-17 13:05:35 [main] INFO : Verify adding only Space character in project name Test
+2025-07-17 13:05:36 [main] INFO : Entering Project Name Only Spaces :   
+2025-07-17 13:05:36 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:05:37 [main] INFO : Verify the error message 
+2025-07-17 13:05:37 [main] INFO : Project name can't be empty.
+2025-07-17 13:05:39 [main] INFO : Verify Adding Invalid customer name
+2025-07-17 13:05:40 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:05:40 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:05:42 [main] INFO : Entering Customer Name: #$%^&*
+2025-07-17 13:05:43 [main] INFO : Full Name can only contain letters, numbers, spaces, hyphens, or underscores.
+2025-07-17 13:05:45 [main] INFO : Verify Adding only spaces in customer name
+2025-07-17 13:05:46 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:05:47 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:05:49 [main] INFO : Entering Customer Name only spaces:    
+2025-07-17 13:05:49 [main] INFO : Full Name cannot be empty.
+2025-07-17 13:05:52 [main] INFO : Verify Adding Invalid customer email format
+2025-07-17 13:05:53 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:05:53 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:05:55 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 13:05:56 [main] INFO : Entering Customer Email: Phani Maddi
+2025-07-17 13:05:57 [main] INFO : Please enter a valid email address (e.g., user@example.com).
+2025-07-17 13:05:59 [main] INFO : Verify Adding existing project name
+2025-07-17 13:06:00 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:06:00 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:06:01 [main] INFO : Verify the error message 
+2025-07-17 13:06:01 [main] INFO : A project with this name already exists.
+2025-07-17 13:06:03 [main] INFO : Verify Entering End Date previous than Start date
+2025-07-17 13:06:04 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:06:05 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:06:05 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 13:06:06 [main] INFO : Entering Project Type: Development
+2025-07-17 13:06:21 [main] INFO : End date must be greater than start date.
+2025-07-17 13:06:25 [main] INFO : Verify Creating a new Project
+2025-07-17 13:06:26 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:06:26 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:06:27 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 13:06:27 [main] INFO : Entering Project Type: Development
+2025-07-17 13:06:43 [main] INFO : Entered Project Start Date: 2025-07-17
+2025-07-17 13:06:44 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-17 13:06:44 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-17 13:06:46 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 13:06:46 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-17 13:06:49 [main] INFO : Save Project
+2025-07-17 13:06:54 [main] INFO : CSAT Automation Test Project Created
+2025-07-17 13:06:57 [main] INFO : Update Duplicate customer contact
+2025-07-17 13:07:04 [main] INFO : A contact with this name and email already exists.
+2025-07-17 13:07:06 [main] INFO : Update new customer contact to existing project
+2025-07-17 13:07:18 [main] INFO : Delete  customer contact from existing project
+2025-07-17 13:07:36 [main] INFO : Delete Existing Project
+2025-07-17 13:07:40 [main] ERROR: Test Failed :element click intercepted: Element <button class="Project-action-button Project-delete-button" title="Delete">...</button> is not clickable at point (2415, 505). Other element would receive the click: <div class="MuiDialog-container MuiDialog-scrollPaper css-8azq84" role="presentation" tabindex="-1" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);">...</div>
+  (Session info: chrome=138.0.7204.102)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35bd55e9473d0306b49c851a39001b92, clickElement {id=f.BEAA2838FDCAF03A2AED2D064D341BCA.d.45E219D9D53805A20089D18F5A14435E.e.2172}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64835}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64835/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (35bd55e9473d0306b49c851a39001b92)] -> xpath: //td[text()='CSAT Automation Test']/parent::tr/td[@class='Project-action-cell']/div/button[@title='Delete']]
+Session ID: 35bd55e9473d0306b49c851a39001b92
+2025-07-17 13:08:40 [main] ERROR: Yes Button Not Available
+2025-07-17 13:08:42 [main] ERROR: CSAT Automation Test Project Not Deleted
+2025-07-17 13:08:42 [main] INFO : Send FeedBack Request To customer
+2025-07-17 13:08:42 [main] INFO : Survey Sent Count Before :50
+2025-07-17 13:08:43 [main] INFO : Survey At Risk Count Before :24
+2025-07-17 13:08:43 [main] INFO : Completed Survey Count Before:141
+2025-07-17 13:08:43 [main] INFO : CSAT Score Count Before :4.01
+2025-07-17 13:08:43 [main] INFO : CSAT Column Value Before :N/A
+2025-07-17 13:08:46 [main] INFO : Selected Contact
+2025-07-17 13:08:47 [main] INFO : Subject Retrieved Based on Survey Type
+2025-07-17 13:08:47 [main] INFO : CriticalRiver Feedback Request: Help Us Improve Your Experience with CR CSAT -  Engagement Level : CSAT Feedback
+2025-07-17 13:08:47 [main] INFO : Body Retrieved Based on Survey Type
+2025-07-17 13:08:47 [main] INFO : Phani Maddi: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/c13e087346af404cadba7f4658cc8fd0
+2025-07-17 13:12:40 [main] INFO : Launching Chrome Browser
+2025-07-17 13:12:41 [main] INFO : Report Name :CSATPageReport.html
+2025-07-17 13:26:40 [main] INFO : Launching Chrome Browser
+2025-07-17 13:26:41 [main] INFO : Report Name :CSATPageReport.html
+2025-07-17 13:27:10 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 13:27:10 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 13:27:10 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 13:27:44 [main] INFO : Logged in to CSAT Application
+2025-07-17 13:27:44 [main] INFO : Inside Test class 
+2025-07-17 13:27:45 [main] INFO : Logo is Available CSAT Logo
+2025-07-17 13:27:45 [main] INFO : Profile Name is Valid: Anwar Hussain
+2025-07-17 13:27:46 [main] INFO : Menu Collapsed
+2025-07-17 13:27:53 [main] INFO : Inside /surveys Page 
+2025-07-17 13:27:53 [main] INFO : /surveys Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveys
+2025-07-17 13:28:00 [main] INFO : Inside /roles Page 
+2025-07-17 13:28:00 [main] INFO : /roles Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/roles
+2025-07-17 13:28:07 [main] INFO : Inside /reports Page 
+2025-07-17 13:28:07 [main] INFO : /reports Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/reports
+2025-07-17 13:28:15 [main] INFO : Inside /settings/org-members Page 
+2025-07-17 13:28:15 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/org-members
+2025-07-17 13:28:22 [main] INFO : Inside /profile Page 
+2025-07-17 13:28:22 [main] INFO : /profile Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/profile
+2025-07-17 13:28:29 [main] INFO : Inside /settings/teams Page 
+2025-07-17 13:28:29 [main] INFO : /settings/teams Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/teams
+2025-07-17 13:28:37 [main] INFO : Inside /projects Page 
+2025-07-17 13:28:37 [main] INFO : /projects Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/projects
+2025-07-17 13:28:39 [main] INFO : Menu Expanded
+2025-07-17 13:28:40 [main] INFO : Menu Collapsed
+2025-07-17 13:28:41 [main] INFO : Header is Valid: Projects
+2025-07-17 13:28:43 [main] INFO : Popup Header: Surveys Sent
+2025-07-17 13:28:44 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-17 13:28:44 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-17 13:28:46 [main] INFO : Cancel Button Available
+2025-07-17 13:28:46 [main] INFO : Cancel Button is Enabled
+2025-07-17 13:28:46 [main] INFO : Share Button Available
+2025-07-17 13:28:46 [main] INFO : Share Button is Enabled
+2025-07-17 13:28:49 [main] INFO : Popup Header: At Risk Surveys
+2025-07-17 13:28:50 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-17 13:28:50 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-17 13:28:52 [main] INFO : Cancel Button Available
+2025-07-17 13:28:52 [main] INFO : Export Button Available
+2025-07-17 13:28:52 [main] INFO : Cancel Button is Enabled
+2025-07-17 13:28:52 [main] INFO : Export Button is Enabled
+2025-07-17 13:28:55 [main] INFO : Popup Header: Completed Surveys
+2025-07-17 13:28:56 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-17 13:28:56 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-17 13:28:58 [main] INFO : Cancel Button Available
+2025-07-17 13:28:58 [main] INFO : Export Button Available
+2025-07-17 13:28:58 [main] INFO : Cancel Button is Enabled
+2025-07-17 13:28:58 [main] INFO : Export Button is Enabled
+2025-07-17 13:29:00 [main] INFO : Popup Header: CSAT Summary
+2025-07-17 13:29:01 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-17 13:29:01 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-17 13:29:03 [main] INFO : Cancel Button Available
+2025-07-17 13:29:03 [main] INFO : Export Button Available
+2025-07-17 13:29:04 [main] INFO : Cancel Button is Enabled
+2025-07-17 13:29:04 [main] INFO : Export Button is Enabled
+2025-07-17 13:29:05 [main] INFO : popup Header New Project Details
+2025-07-17 13:29:05 [main] INFO : Expected :New Project Details and Actual :New Project Details
+2025-07-17 13:29:05 [main] INFO : Expected :New Project Details and Actual :New Project Details both are same
+2025-07-17 13:29:08 [main] INFO : Cancel Button Available
+2025-07-17 13:29:08 [main] INFO : Save Button Available
+2025-07-17 13:29:08 [main] INFO : Download CSV File Format 
+2025-07-17 13:29:14 [main] INFO : Download PDF File Format 
+2025-07-17 13:29:19 [main] INFO : Selecting Pagination 5
+2025-07-17 13:29:20 [main] INFO : 5 pagination Option Selected
+2025-07-17 13:29:20 [main] INFO : Selecting Pagination 50
+2025-07-17 13:29:20 [main] INFO : 50 pagination Option Selected
+2025-07-17 13:29:20 [main] INFO : Selecting Pagination 100
+2025-07-17 13:29:20 [main] INFO : 100 pagination Option Selected
+2025-07-17 13:29:21 [main] INFO : Verify Edit button
+2025-07-17 13:29:21 [main] INFO : edit Button is Available
+2025-07-17 13:29:21 [main] INFO : Verify Delete button
+2025-07-17 13:29:21 [main] INFO : delete Button is Available
+2025-07-17 13:29:21 [main] INFO : Verify Send button
+2025-07-17 13:29:21 [main] INFO : send Button is Available
+2025-07-17 13:29:22 [main] INFO : Column Options is valid Header value
+2025-07-17 13:29:22 [main] INFO : Cancel Button Available
+2025-07-17 13:29:22 [main] INFO : OK Button Available
+2025-07-17 13:29:22 [main] INFO : Verifying Project Name Column Option
+2025-07-17 13:29:22 [main] INFO : Column Option visibility is Hide 
+2025-07-17 13:29:23 [main] INFO : Column Option visibility is View 
+2025-07-17 13:29:25 [main] INFO : Verifying Practice Name Column Option
+2025-07-17 13:29:25 [main] INFO : Column Option visibility is Hide 
+2025-07-17 13:29:27 [main] INFO : Column Option visibility is View 
+2025-07-17 13:29:28 [main] INFO : Verifying CSAT Column Option
+2025-07-17 13:29:28 [main] INFO : Column Option visibility is Hide 
+2025-07-17 13:29:30 [main] INFO : Column Option visibility is View 
+2025-07-17 13:29:33 [main] INFO : All Statuses Status Option Selected
+2025-07-17 13:29:33 [main] INFO : Selecting Pipeline Status Option
+2025-07-17 13:29:34 [main] INFO : Pipeline Status Option Selected
+2025-07-17 13:29:34 [main] INFO : Expected :Pipeline and Actual :Pipeline both are same
+2025-07-17 13:29:34 [main] INFO : Selecting Completed Status Option
+2025-07-17 13:29:34 [main] INFO : Completed Status Option Selected
+2025-07-17 13:29:34 [main] INFO : Expected :Completed and Actual :Completed both are same
+2025-07-17 13:29:34 [main] INFO : Selecting In Progress Status Option
+2025-07-17 13:29:34 [main] INFO : In Progress Status Option Selected
+2025-07-17 13:29:34 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-17 13:29:36 [main] INFO : Survey Response Status survey Response Option Selected
+2025-07-17 13:29:36 [main] INFO : Selecting Not Received Survey response Option
+2025-07-17 13:29:39 [main] INFO : Not Received survey Response Option Selected
+2025-07-17 13:29:40 [main] INFO : Expected :No and Actual :No both are same
+2025-07-17 13:29:41 [main] INFO : Selecting Received Survey response Option
+2025-07-17 13:29:43 [main] INFO : Received survey Response Option Selected
+2025-07-17 13:29:44 [main] INFO : Expected :Yes and Actual :Yes both are same
+2025-07-17 13:29:46 [main] INFO : Survey Projects Project Option Selected
+2025-07-17 13:29:46 [main] INFO : Selecting Ruddr Projects Project Option
+2025-07-17 13:29:51 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-17 13:29:51 [main] INFO : Expected :Ruddr and Actual :Ruddr both are same
+2025-07-17 13:29:58 [main] INFO : All Practices Practice Option Selected
+2025-07-17 13:30:00 [main] INFO : Selecting ERP Applications Practice Option
+2025-07-17 13:30:00 [main] INFO : ERP Applications Practice Option Selected
+2025-07-17 13:30:00 [main] INFO : Expected :ERP Applications and Actual :ERP Applications both are same
+2025-07-17 13:30:00 [main] INFO : Selecting Product Engineering Services Practice Option
+2025-07-17 13:30:01 [main] INFO : Product Engineering Services Practice Option Selected
+2025-07-17 13:30:01 [main] INFO : Expected :Product Engineering Services and Actual :Product Engineering Services both are same
+2025-07-17 13:30:02 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-17 13:30:02 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-17 13:30:02 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-17 13:30:02 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-17 13:30:02 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-17 13:30:04 [main] INFO : Selecting In Progress Status Option
+2025-07-17 13:30:05 [main] INFO : In Progress Status Option Selected
+2025-07-17 13:30:05 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-17 13:30:07 [main] INFO : Selecting Not Received Survey response Option
+2025-07-17 13:30:10 [main] INFO : Not Received survey Response Option Selected
+2025-07-17 13:30:11 [main] INFO : Expected :No and Actual :No both are same
+2025-07-17 13:30:11 [main] INFO : Menu Expanded
+2025-07-17 13:30:13 [main] INFO : Menu Collapsed
+2025-07-17 13:30:14 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-17 13:30:15 [main] INFO : Save Button is Disabled
+2025-07-17 13:30:16 [main] INFO : Verify Keeping One mandatory field Empty in add Project
+2025-07-17 13:30:17 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:30:18 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:30:19 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 13:30:19 [main] INFO : Entering Project Type: Development
+2025-07-17 13:30:20 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-17 13:30:21 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 13:30:22 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-17 13:30:27 [main] INFO : Save Button is Disabled
+2025-07-17 13:30:29 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-17 13:30:30 [main] INFO : Entering Project Name: #$%^&*
+2025-07-17 13:30:30 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:30:31 [main] INFO : Verify the error message 
+2025-07-17 13:30:31 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-17 13:30:33 [main] INFO : Verify adding only Space character in project name Test
+2025-07-17 13:30:33 [main] INFO : Entering Project Name Only Spaces :   
+2025-07-17 13:30:34 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:30:35 [main] INFO : Verify the error message 
+2025-07-17 13:30:35 [main] INFO : Project name can't be empty.
+2025-07-17 13:30:37 [main] INFO : Verify Adding Invalid customer name
+2025-07-17 13:30:37 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:30:38 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:30:40 [main] INFO : Entering Customer Name: #$%^&*
+2025-07-17 13:30:41 [main] INFO : Full Name can only contain letters, numbers, spaces, hyphens, or underscores.
+2025-07-17 13:30:43 [main] INFO : Verify Adding only spaces in customer name
+2025-07-17 13:30:44 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:30:45 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:30:47 [main] INFO : Entering Customer Name only spaces:    
+2025-07-17 13:30:47 [main] INFO : Full Name cannot be empty.
+2025-07-17 13:30:50 [main] INFO : Verify Adding Invalid customer email format
+2025-07-17 13:30:50 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:30:51 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:30:53 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 13:30:54 [main] INFO : Entering Customer Email: Phani Maddi
+2025-07-17 13:30:55 [main] INFO : Please enter a valid email address (e.g., user@example.com).
+2025-07-17 13:30:57 [main] INFO : Verify Adding existing project name
+2025-07-17 13:30:58 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:30:58 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:30:59 [main] INFO : Verify the error message 
+2025-07-17 13:31:00 [main] INFO : A project with this name already exists.
+2025-07-17 13:31:02 [main] INFO : Verify Entering End Date previous than Start date
+2025-07-17 13:31:03 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:31:04 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:31:04 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 13:31:05 [main] INFO : Entering Project Type: Development
+2025-07-17 13:31:20 [main] INFO : End date must be greater than start date.
+2025-07-17 13:31:24 [main] INFO : Verify Creating a new Project
+2025-07-17 13:31:25 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:31:25 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:31:26 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 13:31:27 [main] INFO : Entering Project Type: Development
+2025-07-17 13:31:42 [main] INFO : Entered Project Start Date: 2025-07-17
+2025-07-17 13:31:43 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-17 13:31:43 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-17 13:31:45 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 13:31:45 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-17 13:31:48 [main] INFO : Save Project
+2025-07-17 13:31:53 [main] INFO : CSAT Automation Test Project Created
+2025-07-17 13:31:56 [main] INFO : Update Duplicate customer contact
+2025-07-17 13:32:02 [main] INFO : A contact with this name and email already exists.
+2025-07-17 13:32:04 [main] INFO : Update new customer contact to existing project
+2025-07-17 13:32:15 [main] INFO : Delete  customer contact from existing project
+2025-07-17 13:32:32 [main] INFO : Delete Existing Project
+2025-07-17 13:32:37 [main] INFO : CSAT Automation Test Project Deleted
+2025-07-17 13:32:37 [main] INFO : Send FeedBack Request To customer
+2025-07-17 13:32:37 [main] INFO : Survey Sent Count Before :50
+2025-07-17 13:32:38 [main] INFO : Survey At Risk Count Before :24
+2025-07-17 13:32:38 [main] INFO : Completed Survey Count Before:141
+2025-07-17 13:32:38 [main] INFO : CSAT Score Count Before :4.01
+2025-07-17 13:32:38 [main] INFO : CSAT Column Value Before :N/A
+2025-07-17 13:32:40 [main] INFO : Selected Contact
+2025-07-17 13:32:41 [main] INFO : Subject Retrieved Based on Survey Type
+2025-07-17 13:32:41 [main] INFO : CriticalRiver Feedback Request: Help Us Improve Your Experience with CR CSAT -  Engagement Level : CSAT Feedback
+2025-07-17 13:32:41 [main] INFO : Body Retrieved Based on Survey Type
+2025-07-17 13:32:41 [main] INFO : Phani Maddi: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/afaaaa3ba6c34320bdb9df0d9298afcc
+2025-07-17 13:32:58 [main] INFO : Survey Sent Count After sending feedback request:51
+2025-07-17 13:32:58 [main] INFO : Survey At Risk Count After sending feedback request:25
+2025-07-17 13:32:58 [main] INFO : Validating Resend Survey to customer in Survey  Sent Popup
+2025-07-17 13:36:37 [main] INFO : Launching Chrome Browser
+2025-07-17 13:36:38 [main] INFO : Report Name :CSATPageReport.html
+2025-07-17 13:36:43 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 13:36:43 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 13:36:43 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 13:39:55 [main] INFO : Launching Chrome Browser
+2025-07-17 13:39:56 [main] INFO : Report Name :CSATPageReport.html
+2025-07-17 13:40:01 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 13:40:01 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 13:40:01 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 13:40:30 [main] INFO : Logged in to CSAT Application
+2025-07-17 13:40:30 [main] INFO : Inside Test class 
+2025-07-17 13:40:31 [main] INFO : Logo is Available CSAT Logo
+2025-07-17 13:40:31 [main] INFO : Profile Name is Valid: Anwar Hussain
+2025-07-17 13:40:32 [main] INFO : Menu Collapsed
+2025-07-17 13:40:39 [main] INFO : Inside /surveys Page 
+2025-07-17 13:40:39 [main] INFO : /surveys Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveys
+2025-07-17 13:40:46 [main] INFO : Inside /roles Page 
+2025-07-17 13:40:46 [main] INFO : /roles Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/roles
+2025-07-17 13:40:53 [main] INFO : Inside /reports Page 
+2025-07-17 13:40:53 [main] INFO : /reports Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/reports
+2025-07-17 13:41:01 [main] INFO : Inside /settings/org-members Page 
+2025-07-17 13:41:01 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/org-members
+2025-07-17 13:41:08 [main] INFO : Inside /profile Page 
+2025-07-17 13:41:08 [main] INFO : /profile Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/profile
+2025-07-17 13:41:15 [main] INFO : Inside /settings/teams Page 
+2025-07-17 13:41:15 [main] INFO : /settings/teams Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/teams
+2025-07-17 13:41:23 [main] INFO : Inside /projects Page 
+2025-07-17 13:41:23 [main] INFO : /projects Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/projects
+2025-07-17 13:41:25 [main] INFO : Menu Expanded
+2025-07-17 13:41:26 [main] INFO : Menu Collapsed
+2025-07-17 13:41:27 [main] INFO : Header is Valid: Projects
+2025-07-17 13:41:29 [main] INFO : Popup Header: Surveys Sent
+2025-07-17 13:41:30 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-17 13:41:30 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-17 13:41:32 [main] INFO : Cancel Button Available
+2025-07-17 13:41:32 [main] INFO : Cancel Button is Enabled
+2025-07-17 13:41:32 [main] INFO : Share Button Available
+2025-07-17 13:41:32 [main] INFO : Share Button is Enabled
+2025-07-17 13:41:35 [main] INFO : Popup Header: At Risk Surveys
+2025-07-17 13:41:36 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-17 13:41:36 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-17 13:41:38 [main] INFO : Cancel Button Available
+2025-07-17 13:41:38 [main] INFO : Export Button Available
+2025-07-17 13:41:38 [main] INFO : Cancel Button is Enabled
+2025-07-17 13:41:38 [main] INFO : Export Button is Enabled
+2025-07-17 13:41:40 [main] INFO : Popup Header: Completed Surveys
+2025-07-17 13:41:41 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-17 13:41:41 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-17 13:41:44 [main] INFO : Cancel Button Available
+2025-07-17 13:41:44 [main] INFO : Export Button Available
+2025-07-17 13:41:44 [main] INFO : Cancel Button is Enabled
+2025-07-17 13:41:44 [main] INFO : Export Button is Enabled
+2025-07-17 13:41:46 [main] INFO : Popup Header: CSAT Summary
+2025-07-17 13:41:47 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-17 13:41:47 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-17 13:41:49 [main] INFO : Cancel Button Available
+2025-07-17 13:41:49 [main] INFO : Export Button Available
+2025-07-17 13:41:49 [main] INFO : Cancel Button is Enabled
+2025-07-17 13:41:49 [main] INFO : Export Button is Enabled
+2025-07-17 13:41:51 [main] INFO : popup Header New Project Details
+2025-07-17 13:41:51 [main] INFO : Expected :New Project Details and Actual :New Project Details
+2025-07-17 13:41:51 [main] INFO : Expected :New Project Details and Actual :New Project Details both are same
+2025-07-17 13:41:53 [main] INFO : Cancel Button Available
+2025-07-17 13:41:53 [main] INFO : Save Button Available
+2025-07-17 13:41:54 [main] INFO : Download CSV File Format 
+2025-07-17 13:41:59 [main] INFO : Download PDF File Format 
+2025-07-17 13:42:05 [main] INFO : Selecting Pagination 5
+2025-07-17 13:42:05 [main] INFO : 5 pagination Option Selected
+2025-07-17 13:42:05 [main] INFO : Selecting Pagination 50
+2025-07-17 13:42:06 [main] INFO : 50 pagination Option Selected
+2025-07-17 13:42:06 [main] INFO : Selecting Pagination 100
+2025-07-17 13:42:06 [main] INFO : 100 pagination Option Selected
+2025-07-17 13:42:07 [main] INFO : Verify Edit button
+2025-07-17 13:42:07 [main] INFO : edit Button is Available
+2025-07-17 13:42:07 [main] INFO : Verify Delete button
+2025-07-17 13:42:07 [main] INFO : delete Button is Available
+2025-07-17 13:42:07 [main] INFO : Verify Send button
+2025-07-17 13:42:07 [main] INFO : send Button is Available
+2025-07-17 13:42:08 [main] INFO : Column Options is valid Header value
+2025-07-17 13:42:08 [main] INFO : Cancel Button Available
+2025-07-17 13:42:08 [main] INFO : OK Button Available
+2025-07-17 13:42:08 [main] INFO : Verifying Project Name Column Option
+2025-07-17 13:42:08 [main] INFO : Column Option visibility is Hide 
+2025-07-17 13:42:09 [main] INFO : Column Option visibility is View 
+2025-07-17 13:42:11 [main] INFO : Verifying Practice Name Column Option
+2025-07-17 13:42:11 [main] INFO : Column Option visibility is Hide 
+2025-07-17 13:42:12 [main] INFO : Column Option visibility is View 
+2025-07-17 13:42:14 [main] INFO : Verifying CSAT Column Option
+2025-07-17 13:42:14 [main] INFO : Column Option visibility is Hide 
+2025-07-17 13:42:15 [main] INFO : Column Option visibility is View 
+2025-07-17 13:42:19 [main] INFO : All Statuses Status Option Selected
+2025-07-17 13:42:19 [main] INFO : Selecting Pipeline Status Option
+2025-07-17 13:42:19 [main] INFO : Pipeline Status Option Selected
+2025-07-17 13:42:19 [main] INFO : Expected :Pipeline and Actual :Pipeline both are same
+2025-07-17 13:42:19 [main] INFO : Selecting Completed Status Option
+2025-07-17 13:42:20 [main] INFO : Completed Status Option Selected
+2025-07-17 13:42:20 [main] INFO : Expected :Completed and Actual :Completed both are same
+2025-07-17 13:42:20 [main] INFO : Selecting In Progress Status Option
+2025-07-17 13:42:20 [main] INFO : In Progress Status Option Selected
+2025-07-17 13:42:20 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-17 13:42:21 [main] INFO : Survey Response Status survey Response Option Selected
+2025-07-17 13:42:22 [main] INFO : Selecting Not Received Survey response Option
+2025-07-17 13:42:25 [main] INFO : Not Received survey Response Option Selected
+2025-07-17 13:42:26 [main] INFO : Expected :No and Actual :No both are same
+2025-07-17 13:42:27 [main] INFO : Selecting Received Survey response Option
+2025-07-17 13:42:29 [main] INFO : Received survey Response Option Selected
+2025-07-17 13:42:30 [main] INFO : Expected :Yes and Actual :Yes both are same
+2025-07-17 13:42:32 [main] INFO : Survey Projects Project Option Selected
+2025-07-17 13:42:32 [main] INFO : Selecting Ruddr Projects Project Option
+2025-07-17 13:42:37 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-17 13:42:37 [main] INFO : Expected :Ruddr and Actual :Ruddr both are same
+2025-07-17 13:42:45 [main] INFO : All Practices Practice Option Selected
+2025-07-17 13:42:47 [main] INFO : Selecting ERP Applications Practice Option
+2025-07-17 13:42:47 [main] INFO : ERP Applications Practice Option Selected
+2025-07-17 13:42:47 [main] INFO : Expected :ERP Applications and Actual :ERP Applications both are same
+2025-07-17 13:42:47 [main] INFO : Selecting Product Engineering Services Practice Option
+2025-07-17 13:42:48 [main] INFO : Product Engineering Services Practice Option Selected
+2025-07-17 13:42:48 [main] INFO : Expected :Product Engineering Services and Actual :Product Engineering Services both are same
+2025-07-17 13:42:48 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-17 13:42:48 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-17 13:42:49 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-17 13:42:49 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-17 13:42:49 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-17 13:42:51 [main] INFO : Selecting In Progress Status Option
+2025-07-17 13:42:51 [main] INFO : In Progress Status Option Selected
+2025-07-17 13:42:51 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-17 13:42:54 [main] INFO : Selecting Not Received Survey response Option
+2025-07-17 13:42:56 [main] INFO : Not Received survey Response Option Selected
+2025-07-17 13:42:57 [main] INFO : Expected :No and Actual :No both are same
+2025-07-17 13:42:58 [main] INFO : Menu Expanded
+2025-07-17 13:43:00 [main] INFO : Menu Collapsed
+2025-07-17 13:43:01 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-17 13:43:02 [main] INFO : Save Button is Disabled
+2025-07-17 13:43:03 [main] INFO : Verify Keeping One mandatory field Empty in add Project
+2025-07-17 13:43:04 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:43:05 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:43:06 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 13:43:06 [main] INFO : Entering Project Type: Development
+2025-07-17 13:43:07 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-17 13:43:08 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 13:43:08 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-17 13:43:13 [main] INFO : Save Button is Disabled
+2025-07-17 13:43:16 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-17 13:43:17 [main] INFO : Entering Project Name: #$%^&*
+2025-07-17 13:43:17 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:43:18 [main] INFO : Verify the error message 
+2025-07-17 13:43:18 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-17 13:43:20 [main] INFO : Verify adding only Space character in project name Test
+2025-07-17 13:43:20 [main] INFO : Entering Project Name Only Spaces :   
+2025-07-17 13:43:21 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:43:22 [main] INFO : Verify the error message 
+2025-07-17 13:43:22 [main] INFO : Project name can't be empty.
+2025-07-17 13:43:23 [main] INFO : Verify Adding Invalid customer name
+2025-07-17 13:43:24 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:43:25 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:43:27 [main] INFO : Entering Customer Name: #$%^&*
+2025-07-17 13:43:28 [main] INFO : Full Name can only contain letters, numbers, spaces, hyphens, or underscores.
+2025-07-17 13:43:30 [main] INFO : Verify Adding only spaces in customer name
+2025-07-17 13:43:31 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:43:31 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:43:34 [main] INFO : Entering Customer Name only spaces:    
+2025-07-17 13:43:34 [main] INFO : Full Name cannot be empty.
+2025-07-17 13:43:36 [main] INFO : Verify Adding Invalid customer email format
+2025-07-17 13:43:37 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:43:38 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:43:40 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 13:43:41 [main] INFO : Entering Customer Email: Phani Maddi
+2025-07-17 13:43:41 [main] INFO : Please enter a valid email address (e.g., user@example.com).
+2025-07-17 13:43:44 [main] INFO : Verify Adding existing project name
+2025-07-17 13:43:45 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:43:45 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:43:46 [main] INFO : Verify the error message 
+2025-07-17 13:43:47 [main] INFO : A project with this name already exists.
+2025-07-17 13:43:49 [main] INFO : Verify Entering End Date previous than Start date
+2025-07-17 13:43:49 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:43:50 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:43:51 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 13:43:51 [main] INFO : Entering Project Type: Development
+2025-07-17 13:44:06 [main] INFO : End date must be greater than start date.
+2025-07-17 13:44:10 [main] INFO : Verify Creating a new Project
+2025-07-17 13:44:11 [main] INFO : Entering Project Name: CSAT Automation Test
+2025-07-17 13:44:12 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-17 13:44:12 [main] INFO : Entering Project Status: Pipeline
+2025-07-17 13:44:13 [main] INFO : Entering Project Type: Development
+2025-07-17 13:44:28 [main] INFO : Entered Project Start Date: 2025-07-17
+2025-07-17 13:44:29 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-17 13:44:30 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-17 13:44:31 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-17 13:44:32 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-17 13:44:34 [main] INFO : Save Project
+2025-07-17 13:44:39 [main] INFO : CSAT Automation Test Project Created
+2025-07-17 13:44:42 [main] INFO : Update Duplicate customer contact
+2025-07-17 13:44:48 [main] INFO : A contact with this name and email already exists.
+2025-07-17 13:44:50 [main] INFO : Update new customer contact to existing project
+2025-07-17 13:45:01 [main] INFO : Delete  customer contact from existing project
+2025-07-17 13:45:18 [main] INFO : Delete Existing Project
+2025-07-17 13:45:23 [main] INFO : CSAT Automation Test Project Deleted
+2025-07-17 13:45:24 [main] INFO : Send FeedBack Request To customer
+2025-07-17 13:45:24 [main] INFO : Survey Sent Count Before :51
+2025-07-17 13:45:24 [main] INFO : Survey At Risk Count Before :25
+2025-07-17 13:45:24 [main] INFO : Completed Survey Count Before:141
+2025-07-17 13:45:24 [main] INFO : CSAT Score Count Before :4.01
+2025-07-17 13:45:24 [main] INFO : CSAT Column Value Before :N/A
+2025-07-17 13:45:26 [main] INFO : Selected Contact
+2025-07-17 13:45:28 [main] INFO : Subject Retrieved Based on Survey Type
+2025-07-17 13:45:28 [main] INFO : CriticalRiver Feedback Request: Help Us Improve Your Experience with CR CSAT -  Engagement Level : CSAT Feedback Automation
+2025-07-17 13:45:28 [main] INFO : Body Retrieved Based on Survey Type
+2025-07-17 13:45:28 [main] INFO : Phani Maddi: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/3b8dea33330849f8b1d8520a588e6d03
+2025-07-17 13:45:44 [main] INFO : Survey Sent Count After sending feedback request:52
+2025-07-17 13:45:44 [main] INFO : Survey At Risk Count After sending feedback request:26
+2025-07-17 13:45:44 [main] INFO : Validating Resend Survey to customer in Survey  Sent Popup
+2025-07-17 13:45:48 [main] INFO : Not Responded Response Status Option Selected
+2025-07-17 13:45:50 [main] INFO : Phani Maddi Account executive Option Selected
+2025-07-17 13:45:51 [main] INFO : CSAT Feedback Automation Project Option Selected
+2025-07-17 13:46:51 [main] ERROR: Survey Not Selected
+2025-07-17 13:47:52 [main] ERROR: Send Survey Button Not Available
+2025-07-17 13:48:53 [main] ERROR: Send Button Not Available
+2025-07-17 13:49:12 [main] INFO : Fill Feedback Form
+2025-07-17 13:49:48 [main] INFO : Inside Customer Mail
+2025-07-17 13:50:16 [main] INFO : Header is Valid: CR CSAT - Engagement Level
+2025-07-17 13:50:17 [main] INFO : Inside Feed back Form
+2025-07-17 13:50:26 [main] INFO : Average Rating: 4.50
+2025-07-17 13:50:38 [main] INFO : Your feedback has been received and will be carefully reviewed to ensure we continue to meet and exceed your expectations
+2025-07-17 13:50:54 [main] INFO : Survey Sent Count After:52
+2025-07-17 13:50:54 [main] INFO : Survey At Risk Count After:25
+2025-07-17 13:50:54 [main] INFO : Completed Survey Count After:142
+2025-07-17 13:50:54 [main] INFO : CSAT Score Count After:4.03
+2025-07-17 13:50:54 [main] INFO : CSAT Column Value After:4.50
+2025-07-17 13:50:54 [main] INFO : FeedBack Received
+2025-07-17 13:50:54 [main] INFO : Validating SURVEY Sent Popup
+2025-07-17 13:51:00 [main] INFO : 50 pagination Option Selected
+2025-07-17 13:51:04 [main] INFO : 25 pagination Option Selected
+2025-07-17 13:51:08 [main] INFO : 10 pagination Option Selected
+2025-07-17 13:51:10 [main] INFO : Validating Response Status Filter in Survey Sent Popup 
+2025-07-17 13:51:11 [main] INFO : Responded Response Status Option Selected
+2025-07-17 13:51:12 [main] INFO : Response Status is Valid
+2025-07-17 13:51:13 [main] INFO : Not Responded Response Status Option Selected
+2025-07-17 13:51:14 [main] INFO : Response Status is Valid
+2025-07-17 13:51:16 [main] INFO : Expired Response Status Option Selected
+2025-07-17 13:51:16 [main] INFO : Response Status is Valid
+2025-07-17 13:51:18 [main] INFO : Response Status Response Status Option Selected
+2025-07-17 13:51:18 [main] INFO : Validating Project Filter in Survey Sent Popup 
+2025-07-17 13:51:20 [main] INFO : CSAT_Survey_Flow Project Option Selected
+2025-07-17 13:51:20 [main] INFO : Project is Valid
+2025-07-17 13:51:22 [main] INFO : CSAT Project Option Selected
+2025-07-17 13:51:22 [main] INFO : Project is Valid
+2025-07-17 13:51:24 [main] INFO : Apollo CRM Upgrade Project Option Selected
+2025-07-17 13:51:24 [main] INFO : Project is Valid
+2025-07-17 13:51:26 [main] INFO : Project Project Option Selected
+2025-07-17 13:51:27 [main] INFO : Validating Account Executive Filter in Survey Sent Popup 
+2025-07-17 13:51:28 [main] INFO : Phani Maddi Account executive Option Selected
+2025-07-17 13:51:28 [main] INFO : Account Executive is Valid
+2025-07-17 13:51:31 [main] INFO : Anwar Hussain Account executive Option Selected
+2025-07-17 13:51:31 [main] INFO : Account Executive is Valid
+2025-07-17 13:51:33 [main] INFO : Account Executive Account executive Option Selected
+2025-07-17 13:51:33 [main] INFO : Validating Survey Name Filter in Survey Sent Popup 
+2025-07-17 13:51:34 [main] INFO : CR CSAT - Development Project Survey Option Selected
+2025-07-17 13:51:35 [main] INFO : Survey Name is Valid
+2025-07-17 13:51:37 [main] INFO : CR CSAT Engagement-Survey FLow Survey Option Selected
+2025-07-17 13:51:37 [main] INFO : Survey Name is Valid
+2025-07-17 13:51:39 [main] INFO : Survey Survey Option Selected
+2025-07-17 13:51:40 [main] INFO : Validating AT RISK  Sent Popup
+2025-07-17 13:51:45 [main] INFO : 50 pagination Option Selected
+2025-07-17 13:51:49 [main] INFO : 25 pagination Option Selected
+2025-07-17 13:51:53 [main] INFO : 10 pagination Option Selected
+2025-07-17 13:51:55 [main] INFO : Validating Risk Factor Filter in At Risk Popup 
+2025-07-17 13:51:57 [main] INFO : Low Survey Response Risk Factor Option Selected
+2025-07-17 13:51:57 [main] INFO : Risk Factor is Valid
+2025-07-17 13:51:59 [main] INFO : Poor CSAT Score Risk Factor Option Selected
+2025-07-17 13:51:59 [main] INFO : Risk Factor is Valid
+2025-07-17 13:52:01 [main] INFO : Risk Factor Risk Factor Option Selected
+2025-07-17 13:52:01 [main] INFO : Validating Project Filter in At Risk Popup 
+2025-07-17 13:52:02 [main] INFO : Apollo CRM Upgrade Project Option Selected
+2025-07-17 13:52:02 [main] INFO : Project Option is Valid
+2025-07-17 13:52:04 [main] INFO : CSAT Project Option Selected
+2025-07-17 13:52:04 [main] INFO : Project Option is Valid
+2025-07-17 13:52:06 [main] INFO : Project Project Option Selected
+2025-07-17 13:52:07 [main] INFO : Validating Account Executive Filter in At Risk Popup 
+2025-07-17 13:52:08 [main] INFO : Anwar Hussain Account executive Option Selected
+2025-07-17 13:52:08 [main] INFO : Account Executive Score is Valid
+2025-07-17 13:52:10 [main] INFO : Arun Kumar Account executive Option Selected
+2025-07-17 13:52:10 [main] INFO : Account Executive Score is Valid
+2025-07-17 13:52:12 [main] INFO : Account Executive Account executive Option Selected
+2025-07-17 13:52:13 [main] INFO : Validating SURVEY Complete Popup
+2025-07-17 13:52:18 [main] INFO : 50 pagination Option Selected
+2025-07-17 13:52:22 [main] INFO : 25 pagination Option Selected
+2025-07-17 13:52:26 [main] INFO : 10 pagination Option Selected
+2025-07-17 13:52:27 [main] INFO : Validating Project Filter in Survey Complete Popup 
+2025-07-17 13:52:29 [main] INFO : Apollo CRM Upgrade Project Option Selected
+2025-07-17 13:52:29 [main] INFO : Project is Valid
+2025-07-17 13:52:31 [main] INFO : Salesforce Intergration Project Project Option Selected
+2025-07-17 13:52:31 [main] INFO : Project is Valid
+2025-07-17 13:52:33 [main] INFO : Project Project Option Selected
+2025-07-17 13:52:34 [main] INFO : Validating Account Executive Filter in Survey Complete Popup 
+2025-07-17 13:52:35 [main] INFO : Phani Maddi Account executive Option Selected
+2025-07-17 13:52:35 [main] INFO : Account Executive is Valid
+2025-07-17 13:52:37 [main] INFO : Arun Kumar Account executive Option Selected
+2025-07-17 13:52:37 [main] INFO : Account Executive is Valid
+2025-07-17 13:52:39 [main] INFO : Anwar Hussain Account executive Option Selected
+2025-07-17 13:52:40 [main] INFO : Account Executive is Valid
+2025-07-17 13:52:42 [main] INFO : Account Executive Account executive Option Selected
+2025-07-17 13:52:42 [main] INFO : Validating Survey Name Filter in Survey Complete Popup 
+2025-07-17 13:52:43 [main] INFO : CR CSAT - Development Project Survey Option Selected
+2025-07-17 13:52:43 [main] INFO : Survey Name is Valid
+2025-07-17 13:52:45 [main] INFO : CR CSAT - AMS Survey Option Selected
+2025-07-17 13:52:46 [main] INFO : Survey Name is Valid
+2025-07-17 13:52:48 [main] INFO : Survey Survey Option Selected
+2025-07-17 13:52:49 [main] INFO : Validating CSAT Summary Popup
+2025-07-17 13:52:51 [main] INFO : CSAT Score In popup 4.03
+2025-07-17 13:52:52 [main] INFO : Csat Score is correct
+2025-07-17 13:52:53 [main] INFO : 50 pagination Option Selected
+2025-07-17 13:52:56 [main] INFO : 25 pagination Option Selected
+2025-07-17 13:52:59 [main] INFO : 10 pagination Option Selected
+2025-07-17 13:53:01 [main] INFO : Validating CSAT Filter Popup
+2025-07-17 13:53:01 [main] INFO : Excellent CSAT Option Selected
+2025-07-17 13:53:02 [main] INFO : Csat Score is Valid
+2025-07-17 13:53:04 [main] INFO : Good CSAT Option Selected
+2025-07-17 13:53:04 [main] INFO : Csat Score is Valid
+2025-07-17 13:53:06 [main] INFO : Dissatisfied CSAT Option Selected
+2025-07-17 13:53:06 [main] INFO : Csat Score is Valid
+2025-07-17 13:53:08 [main] INFO : Testing Ended
+2025-07-17 13:53:08 [main] INFO : ***********
+2025-07-17 13:59:59 [main] INFO : Launching Chrome Browser
+2025-07-17 13:59:59 [main] INFO : Report Name :CsatPage.html
+2025-07-17 14:00:04 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 14:00:05 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 14:00:05 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 14:00:27 [main] INFO : Launching Chrome Browser
+2025-07-17 14:00:27 [main] INFO : Report Name :CsatPage.html
+2025-07-17 14:00:32 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 14:00:32 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 14:00:32 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 14:01:01 [main] INFO : Logged in to CSAT Application
+2025-07-17 14:01:01 [main] INFO : Validating Resend Survey to customer in Survey  Sent Popup
+2025-07-17 14:01:03 [main] INFO : Not Responded Response Status Option Selected
+2025-07-17 14:01:05 [main] INFO : Phani Maddi Account executive Option Selected
+2025-07-17 14:02:06 [main] ERROR: Survey Not Selected
+2025-07-17 14:03:07 [main] ERROR: Send Survey Button Not Available
+2025-07-17 14:03:18 [main] INFO : Testing Ended
+2025-07-17 14:03:18 [main] INFO : ***********
+2025-07-17 14:10:35 [main] INFO : Launching Chrome Browser
+2025-07-17 14:10:35 [main] INFO : Report Name :CsatPage.html
+2025-07-17 14:10:58 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 14:10:58 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 14:10:58 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 14:11:33 [main] INFO : Logged in to CSAT Application
+2025-07-17 14:11:33 [main] INFO : Validating Resend Survey to customer in Survey  Sent Popup
+2025-07-17 14:11:41 [main] INFO : Not Responded Response Status Option Selected
+2025-07-17 14:11:43 [main] INFO : Phani Maddi Account executive Option Selected
+2025-07-17 14:12:44 [main] ERROR: Survey Not Selected
+2025-07-17 14:13:28 [main] INFO : Launching Chrome Browser
+2025-07-17 14:13:28 [main] INFO : Report Name :CsatPage.html
+2025-07-17 14:13:38 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 14:13:38 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 14:13:38 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 14:14:08 [main] INFO : Logged in to CSAT Application
+2025-07-17 14:14:08 [main] INFO : Validating Resend Survey to customer in Survey  Sent Popup
+2025-07-17 14:14:10 [main] INFO : Not Responded Response Status Option Selected
+2025-07-17 14:14:12 [main] INFO : Phani Maddi Account executive Option Selected
+2025-07-17 14:14:13 [main] INFO : Survey Selected
+2025-07-17 14:14:16 [main] ERROR: Test Failed :element click intercepted: Element <button class="Project-close-btn">...</button> is not clickable at point (1062, 60). Other element would receive the click: <div class="modal-overlay">...</div>
+  (Session info: chrome=138.0.7204.102)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd68835db8da7487ac8fe5b442fbeaee, clickElement {id=f.2F2FFDF62D7DA90951EEE13FFB87D826.d.8681955D1CAF0699C1027980B669D0D0.e.140}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52729}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52729/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bd68835db8da7487ac8fe5b442fbeaee)] -> css selector: button.Project-close-btn]
+Session ID: bd68835db8da7487ac8fe5b442fbeaee
+2025-07-17 14:14:27 [main] INFO : Testing Ended
+2025-07-17 14:14:27 [main] INFO : ***********
+2025-07-17 14:14:48 [main] INFO : Launching Chrome Browser
+2025-07-17 14:14:48 [main] INFO : Report Name :CsatPage.html
+2025-07-17 14:14:53 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 14:14:53 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 14:14:53 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 14:15:21 [main] INFO : Logged in to CSAT Application
+2025-07-17 14:15:21 [main] INFO : Validating Resend Survey to customer in Survey  Sent Popup
+2025-07-17 14:15:23 [main] INFO : Not Responded Response Status Option Selected
+2025-07-17 14:15:24 [main] INFO : Phani Maddi Account executive Option Selected
+2025-07-17 14:15:26 [main] INFO : Survey Selected
+2025-07-17 14:15:29 [main] ERROR: Test Failed :element click intercepted: Element <button class="Project-close-btn">...</button> is not clickable at point (1700, 155). Other element would receive the click: <div class="modal-overlay">...</div>
+  (Session info: chrome=138.0.7204.102)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e53e83d8bd504ed85b962e34ae175c41, clickElement {id=f.587732C72102E5BD7529AFB6D5B19F1C.d.87F86ADCCA603A57E21D35B1C49B55DE.e.471}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52876}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52876/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e53e83d8bd504ed85b962e34ae175c41)] -> css selector: button.Project-close-btn]
+Session ID: e53e83d8bd504ed85b962e34ae175c41
+2025-07-17 14:15:40 [main] INFO : Testing Ended
+2025-07-17 14:15:40 [main] INFO : ***********
+2025-07-17 14:20:50 [main] INFO : Launching Chrome Browser
+2025-07-17 14:20:50 [main] INFO : Report Name :CsatPage.html
+2025-07-17 14:20:55 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-17 14:20:55 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-17 14:20:55 [main] INFO : Inside Login Page: LOGIN
+2025-07-17 14:21:25 [main] INFO : Logged in to CSAT Application
+2025-07-17 14:21:26 [main] INFO : Validating Resend Survey to customer in Survey  Sent Popup
+2025-07-17 14:21:28 [main] INFO : Not Responded Response Status Option Selected
+2025-07-17 14:21:29 [main] INFO : Phani Maddi Account executive Option Selected
+2025-07-17 14:21:30 [main] INFO : Survey Selected
+2025-07-17 14:21:44 [main] INFO : Testing Ended
+2025-07-17 14:21:44 [main] INFO : ***********

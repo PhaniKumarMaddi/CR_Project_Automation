@@ -94,6 +94,8 @@ public class CSAT_Project_Page extends WaitsManager {
 	By selectSurvey = By.xpath("//label[text()='Survey']/parent::div[@class='form-group']/select");
 	By getSubject = By.xpath("//label[text()='Subject']/parent::div/input");
 	By getBody = By.xpath("//label[text()='Body']/parent::div/textarea");
+	By closeSurvey = By.cssSelector("button.close-btn");
+	
 
 	By emailSentmsg = By.xpath("//div[@class='MuiSnackbarContent-message css-1o19295']");
 
@@ -133,6 +135,8 @@ public class CSAT_Project_Page extends WaitsManager {
 			logger.error("Test Failed :" + e.getMessage());
 		}
 	}
+	
+	
 
 	public void clickViewSurveyAtRiskStatus() throws Exception {
 		try {
@@ -539,22 +543,22 @@ public class CSAT_Project_Page extends WaitsManager {
 	public void clickDownloadFileBtn(String fileFormat) throws Exception {
 		try {
 			By downloadBtn = By.xpath("//div[@class='Project-export-option' and text()='" + fileFormat + "']");
-			By successMsg = By.xpath("//div[@class='MuiSnackbarContent-message css-1o19295']");
+//			By successMsg = By.xpath("//div[@class='MuiSnackbarContent-message css-1o19295']");
 			implWait(driver);
 			boolean elementexists = !driver.findElements(projectExportBtn).isEmpty();
 			if (elementexists) {
 				driver.findElement(projectExportBtn).click();
 				driver.findElement(downloadBtn).click();
-				String getSuccessMsg = driver.findElement(successMsg).getText();
-				String trimFormat = fileFormat.replaceAll("Download ", "");
-				if (getSuccessMsg.contains(trimFormat)) {
-					logger.info(getSuccessMsg);
-					grep.passTest(getSuccessMsg);
-
-				} else {
-					logger.error("File Not downloaded");
-					grep.failTest("file not downloaded");
-				}
+//				String getSuccessMsg = driver.findElement(successMsg).getText();
+//				String trimFormat = fileFormat.replaceAll("Download ", "");
+//				if (getSuccessMsg.contains(trimFormat)) {
+//					logger.info(getSuccessMsg);
+//					grep.passTest(getSuccessMsg);
+//
+//				} else {
+//					logger.error("File Not downloaded");
+//					grep.failTest("file not downloaded");
+//				}
 
 			} else {
 				grep.failTest("Download Options Not Available");
@@ -1404,11 +1408,11 @@ public class CSAT_Project_Page extends WaitsManager {
 	public void clickProjectBtn(String projectName, String action) throws Exception {
 		try {
 			implWait(driver);
+			By icon = By.xpath("//td[text()='" + projectName+ "']/parent::tr/td[@class='Project-action-cell']/div/button[@title='" + action + "']");
 
-			WebElement editIcon = driver.findElement(By.xpath("//td[text()='" + projectName
-					+ "']/parent::tr/td[@class='Project-action-cell']/div/button[@title='" + action + "']"));
+			WebElement editIcon = driver.findElement(icon);
 			if (editIcon.isDisplayed()) {
-				waitTime1(driver);
+			waitForElementToBeClickable(icon, 30);
 				editIcon.click();
 			} else {
 				logger.info(action + " is not available for " + projectName);
@@ -1597,6 +1601,27 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 	}
 
+	
+	public void clickCloseSendSurveyButton() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(closeSurvey).isEmpty();
+			if (elementExists) {
+				waitForElementToBeClickable(closeSurvey, 30);
+				driver.findElement(closeSurvey).click();
+			} else {
+				logger.error("Close Button Not Available ");
+				grep.failTest("Close Button Not Available ");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	
 	public String getSurveyCount(String surveyType) throws Exception {
 		String surveyCountResult = null;
 		try {

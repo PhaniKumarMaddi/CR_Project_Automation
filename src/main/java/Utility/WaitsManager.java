@@ -190,6 +190,10 @@ public class WaitsManager {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 	}
 
+	
+	public void closeCurrentTab() {
+		driver.close();
+	}
 	public void switchToLastTab() {
 
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
@@ -213,6 +217,11 @@ public class WaitsManager {
 		driver.get(url);
 	}
 
+
+	public String getTitleMethod() {
+		String title=driver.getTitle();
+		return title;
+	}
 	public void refreshPage() {
 		driver.navigate().refresh();
 	}

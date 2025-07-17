@@ -83,11 +83,11 @@ public class CSAT_Popup_Page extends WaitsManager {
 					String buttonTitle = buttons.getAttribute("title");
 					if (buttonTitle.equals(dataKeys.sendProjectBtn) || buttonTitle.equals(dataKeys.deleteProjectBtn)) {
 
-						grep.failTest("FeedBack Not Received");
-						logger.error("FeedBack Not Received");
+						grep.failTest("FeedBack Not Received Send and Delete Buttons are Available");
+						logger.error("FeedBack Not Received Send and Delete Buttons are Available");
 					} else {
-						grep.passTest("FeedBack Received");
-						logger.info("FeedBack Received");
+						grep.passTest("FeedBack Received Only Edit Button is Available");
+						logger.info("FeedBack Received Only Edit Button is Available");
 					}
 				}
 
@@ -399,6 +399,31 @@ public class CSAT_Popup_Page extends WaitsManager {
 				logger.error(" Survey Name Field in table not Available");
 			}
 
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+
+	}
+
+	// select checkbox
+	public void selectNotRespondedSurvey(String surveyName) throws Exception {
+		try {
+
+			implWait(driver);
+//			By selectCheckbox = By
+//					.xpath("//td[text()='" + surveyName + "']/preceding-sibling::td/span/input[@type='checkbox']");
+			By selectCheckbox = By.xpath("//td[@data-tooltip='" + surveyName + "']/preceding-sibling::td/span/input[@type='checkbox']");
+			List<WebElement> element = driver.findElements(selectCheckbox);
+			if (element.size() > 0) {
+				element.getFirst().click();
+				grep.passTest("Survey Selected");
+				logger.info("Survey Selected");
+			} else {
+				grep.failTest("Survey Not Selected");
+				logger.error("Survey Not Selected");
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 			grep.failTest("Test Failed :" + e.getMessage());

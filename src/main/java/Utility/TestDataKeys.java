@@ -147,7 +147,7 @@ public class TestDataKeys {
 	public String projectDesc = "For Automating The CSAT Application";
 	public String invalidProjectDesc = "$%^&";
 
-	public String projectNameForSend = "CSAT Feedback"; // Web Core
+	public String projectNameForSend = "CSAT Feedback Automation"; // Web Core
 	// project type
 	public String selectProjectType = "Select Project Type";
 	public String projectType_Development = "Development";
@@ -162,7 +162,7 @@ public class TestDataKeys {
 	public String updateCustomerContactEmail = "anwar_hussain@skillsynccr.onmicrosoft.com";
 	public String customerContactInvalidEmail = "Phani Maddi";
 
-	public String date_StartDate = "16";
+	public String date_StartDate = "17";
 	public String month_StartDate = "07";
 	public String year_StartDate = "2025";
 	public String date_EndDate = "31";
@@ -174,7 +174,13 @@ public class TestDataKeys {
 	public String editProjectBtn = "Edit";
 	public String deleteProjectBtn = "Delete";
 	public String sendProjectBtn = "Send";
+	public String sendSurveyProjectBtn = "Send Survey";
+	
+	// buttons for ruddr projects
+	public String editContactBtn = "Edit Contacts";
+	public String addContactBtn = "Add Contacts";
 
+	
 	public String buttonYes = "Yes";
 	public String buttonNo = "No";
 
@@ -220,7 +226,7 @@ public class TestDataKeys {
 	public String csatDev_Survey_InPopup = "CR CSAT - Development Project";
 	public String csatAms_Survey_InPopup = "CR CSAT - AMS";
 	public String csatEngage_Survey_InPopup = "CR CSAT Engagement-Survey FLow";
-	public String csatEngageLevel_Survey_InPopup = "CR CSAT -  Engagement Level";
+	public String csatEngageLevel_Survey_InPopup = "CR CSAT - Engagement Level";
 
 	// Risk Factor
 	public String riskFactory_InPopup = "Risk Factor";
