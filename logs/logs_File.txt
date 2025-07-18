@@ -23765,3 +23765,69 @@ Session ID: aa6c9ad94187743962e8cac8454788be
 2025-07-18 17:04:37 [main] INFO : CSAT Automation Project Project Deleted
 2025-07-18 17:04:37 [main] INFO : Testing Ended
 2025-07-18 17:04:37 [main] INFO : ***********
+2025-07-18 17:13:50 [main] INFO : Launching Chrome Browser
+2025-07-18 17:13:50 [main] INFO : Report Name :CsatPage.html
+2025-07-18 17:13:54 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 17:13:54 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 17:13:54 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 17:14:22 [main] INFO : Logged in to CSAT Application
+2025-07-18 17:14:23 [main] INFO : Menu Collapsed
+2025-07-18 17:14:24 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-18 17:14:24 [main] INFO : Save Button is Disabled
+2025-07-18 17:14:26 [main] INFO : Verify Keeping One mandatory field Empty in add Project
+2025-07-18 17:14:27 [main] INFO : Entering Project Name: CSAT Automation Project
+2025-07-18 17:14:28 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-18 17:14:28 [main] INFO : Entering Project Status: Pipeline
+2025-07-18 17:14:29 [main] INFO : Entering Project Type: Development
+2025-07-18 17:14:30 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-18 17:14:32 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-18 17:14:33 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-18 17:14:38 [main] INFO : Save Button is Disabled
+2025-07-18 17:14:41 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-18 17:14:41 [main] INFO : Entering Project Name: #$%^&*
+2025-07-18 17:14:42 [main] INFO : Verify the error message 
+2025-07-18 17:14:42 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-18 17:14:44 [main] INFO : Verify adding only Space character in project name Test
+2025-07-18 17:14:45 [main] INFO : Entering Project Name Only Spaces :    
+2025-07-18 17:14:47 [main] INFO : Verify the error message 
+2025-07-18 17:14:54 [main] INFO : Project name can't be empty.
+2025-07-18 17:14:56 [main] INFO : Verify Adding Invalid customer name
+2025-07-18 17:14:57 [main] INFO : Entering Project Name: CSAT Automation Project
+2025-07-18 17:14:57 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-18 17:15:01 [main] INFO : Entering Customer Name: #$%^&*
+2025-07-18 17:15:01 [main] INFO : Customer Name Error :Full Name can only contain letters, numbers, spaces, hyphens, or underscores.
+2025-07-18 17:15:04 [main] INFO : Verify Adding only spaces in customer name
+2025-07-18 17:15:04 [main] INFO : Entering Project Name: CSAT Automation Project
+2025-07-18 17:15:05 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-18 17:15:08 [main] INFO : Entering Customer Name only spaces:     
+2025-07-18 17:15:09 [main] INFO : Customer Name Error :Full Name cannot be empty.
+2025-07-18 17:15:11 [main] INFO : Verify Adding Invalid customer email format
+2025-07-18 17:15:12 [main] INFO : Entering Project Name: CSAT Automation Project
+2025-07-18 17:15:13 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-18 17:15:16 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-18 17:15:18 [main] INFO : Entering Customer Email: Phani Maddi
+2025-07-18 17:15:18 [main] INFO : Customer Email Error :Please enter a valid email address (e.g., user@example.com).
+2025-07-18 17:15:20 [main] INFO : Verify Adding existing project name
+2025-07-18 17:15:21 [main] INFO : Entering Project Name: CSAT Automation Project
+2025-07-18 17:15:21 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-18 17:15:22 [main] INFO : Verify the error message 
+2025-07-18 17:15:43 [main] INFO : A project with this name already exists.
+2025-07-18 17:15:45 [main] INFO : Verify Entering Invalid Characters in Description Field
+2025-07-18 17:15:47 [main] INFO : Description Error: Special characters (e.g., !@#$%^&*()) are not allowed in the project description.
+2025-07-18 17:15:49 [main] INFO : Verify Entering End Date previous than Start date
+2025-07-18 17:15:50 [main] INFO : Entering Project Name: CSAT Automation Project
+2025-07-18 17:15:51 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-18 17:15:52 [main] INFO : Entering Project Status: Pipeline
+2025-07-18 17:15:52 [main] INFO : Entering Project Type: Development
+2025-07-18 17:16:07 [main] INFO : End Date Error: End date must be greater than start date.
+2025-07-18 17:16:11 [main] INFO : Verify Creating a new Project
+2025-07-18 17:16:12 [main] INFO : Entering Project Name: CSAT Automation Project
+2025-07-18 17:16:13 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-18 17:16:13 [main] INFO : Entering Project Status: Pipeline
+2025-07-18 17:16:14 [main] INFO : Entering Project Type: Development
+2025-07-18 17:16:29 [main] INFO : Entered Project Start Date: 2025-07-18
+2025-07-18 17:16:30 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-18 17:16:31 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-18 17:16:33 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-18 17:16:35 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-18 17:16:37 [main] INFO : Save Project
