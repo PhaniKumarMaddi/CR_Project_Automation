@@ -249,6 +249,24 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		csatProject.clickButton(dataKeys.cancelBtn);
 		waitTime(driver);
 
+		// Enter an invalid characters in project description field
+		grep.testCreate("Verify Entering Invalid Characters in Description Field Test",
+				"Entering Invalid Characters in Description Field");
+		waitTime(driver);
+		logger.info("Verify Entering Invalid Characters in Description Field");
+		grep.infoTest("Verify Entering Invalid Characters in Description Field");
+		waitTime(driver);
+		csatProject.clickNewProject();
+		waitTime(driver);
+		csatProject.insertProjectDescription(dataKeys.invalidProjectDesc);
+		waitTime(driver);
+		csatProject.getDescriptionError();
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Entering existing project name", "Existing_ProjectName");
+		waitTime(driver);
+		csatProject.clickButton(dataKeys.cancelBtn);
+		waitTime(driver);
+		
 		// Enter End Date is less than Start date new project
 		grep.testCreate("Verify Entering End date Previous than Start Date Test",
 				"Add End Date Previous than Start Date");

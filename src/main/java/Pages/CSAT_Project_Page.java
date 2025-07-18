@@ -70,6 +70,7 @@ public class CSAT_Project_Page extends WaitsManager {
 	By projectStatus = By.xpath("//select[@name='status']");
 	By projectType = By.xpath("//select[@name='type']");
 	By projectDesc = By.xpath("//textarea[@name='description']");
+	By projectDescError=By.xpath("//textarea[@name='description']/parent::div/parent::div/p");
 
 	By startDate = By.xpath("//input[@name='startDate']");
 	By endDate = By.xpath("//input[@name='endDate']");
@@ -1205,6 +1206,27 @@ public class CSAT_Project_Page extends WaitsManager {
 			logger.error("Test Failed :" + e.getMessage());
 		}
 	}
+	
+	public void getDescriptionError() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(projectDescError).isEmpty();
+			if (elementExists) {
+				waitForElement(projectDescError, 60);
+
+				String error = driver.findElement(projectDescError).getText();
+				grep.passTest("Description Error: "+error);
+				logger.info("Description Error: "+error);
+			} else {
+				grep.failTest("Description Error not available");
+				logger.error("Description Error not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
 
 	public void insertCustomerName(String custNameValue) throws Exception {
 		try {
@@ -1306,8 +1328,8 @@ public class CSAT_Project_Page extends WaitsManager {
 				waitForElement(customerEmailError, 60);
 
 				String error = driver.findElement(customerEmailError).getText();
-				grep.passTest(error);
-				logger.info(error);
+				grep.passTest("Customer Email Error :"+error);
+				logger.info("Customer Email Error :"+error);
 			} else {
 				grep.failTest("Customer Email not available");
 				logger.error("Customer Email not available");
@@ -1327,8 +1349,8 @@ public class CSAT_Project_Page extends WaitsManager {
 				waitForElement(updateCustomerEmailError, 60);
 
 				String error = driver.findElement(updateCustomerEmailError).getText();
-				grep.passTest(error);
-				logger.info(error);
+				grep.passTest("Customer Email Error :"+error);
+				logger.info("Customer Email Error :"+error);
 			} else {
 				grep.failTest("Customer Email not available");
 				logger.error("Customer Email not available");
@@ -1348,8 +1370,8 @@ public class CSAT_Project_Page extends WaitsManager {
 				waitForElement(updateCustomerNameError, 60);
 
 				String error = driver.findElement(updateCustomerNameError).getText();
-				grep.passTest(error);
-				logger.info(error);
+				grep.passTest("Customer Name Error :"+error);
+				logger.info("Customer Name Error :"+error);
 			} else {
 				grep.failTest("Customer Name not available");
 				logger.error("Customer Name not available");
@@ -1495,8 +1517,8 @@ public class CSAT_Project_Page extends WaitsManager {
 				waitForElement(endDateError, 60);
 
 				String error = driver.findElement(endDateError).getText();
-				grep.passTest(error);
-				logger.info(error);
+				grep.passTest("End Date Error: "+error);
+				logger.info("End Date Error: "+error);
 			} else {
 				grep.failTest("End Date not available");
 				logger.error("End Date not available");

@@ -176,8 +176,9 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 		csatProject.insertCustomerName(dataKeys.customerContactName);
 		csatProject.insertCustomerEmail(dataKeys.customerContactInvalidEmail);
 
+		waitTime(driver);
 		csatProject.verifyButtonDisable(dataKeys.saveBtn);
-
+		waitTime(driver);
 		grep.captureScreenshot("pass", "Entering Invalid Email Format in add contacts page",
 				"AddCont_RuddrProject_InvalidEmailformat");
 		waitTime2(driver);
