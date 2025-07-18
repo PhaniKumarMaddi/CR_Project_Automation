@@ -139,10 +139,10 @@ public class TestDataKeys {
 //	public String projectName = "Apollo CRM Upgrade";
 
 	// Create New Project
-	public String newProjectName = "CSAT Automation Test";
+	public String newProjectName = "CSAT Automation Project";
 	public String duplicateProjectName = "CSAT Test Automation";
 	public String invalidName = "#$%^&*";
-	public String spacesInName = "   ";
+	public String spacesInName = "    ";
 
 	public String projectDesc = "For Automating The CSAT Application";
 	public String invalidProjectDesc = "$%^&";

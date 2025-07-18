@@ -328,7 +328,7 @@ public class CSAT_Project_Page extends WaitsManager {
 
 			boolean elementexists = !driver.findElements(button).isEmpty();
 			if (elementexists) {
-				waitForElement(button, 60);
+				waitForElementToBeClickable(button, 60);
 				driver.findElement(button).click();
 
 			} else {
@@ -1409,7 +1409,7 @@ public class CSAT_Project_Page extends WaitsManager {
 			implWait(driver);
 			boolean elementExists = !driver.findElements(addNewCustomerContact).isEmpty();
 			if (elementExists) {
-				waitForElement(addNewCustomerContact, 60);
+				waitForElementToBeClickable(addNewCustomerContact, 30);
 				driver.findElement(addNewCustomerContact).click();
 			} else {
 				grep.failTest("Add New Customer Contact button not available");
@@ -1590,6 +1590,50 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 	}
 
+	public void verifyCreatedProjectNameInList(String projectName) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> projectList = driver.findElements(projectListInTable);
+			List<WebElement> projectList2 = driver.findElements(projectListInTable2);
+			if (projectList.size() > 0 && projectList2.size() > 0) {
+				int count = 0;
+			for (WebElement project : projectList) {
+					String validateProject = project.getText().trim();
+
+					if (validateProject.equals(projectName)) {
+					count++;
+					System.out.println(validateProject);
+				}
+			}
+			for (WebElement project2 : projectList2) {
+					String validateProjectList = project2.getText().trim();
+
+					if (validateProjectList.equals(projectName)) {
+						count++;
+						System.out.println(validateProjectList);
+					}
+				}
+				if (count == 1) {
+					grep.passTest(projectName + " Project Created");
+					logger.info(projectName + " Project Created");
+				} else {
+					grep.failTest(projectName + " Project Not Created");
+					logger.error(projectName + " Project Not Created");
+				}
+
+			} else {
+				logger.info("Project list is not available");
+				grep.infoTest("Project list is not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+
+	}
+	
+	
 	public void clickSelectContact(String option) throws Exception {
 		try {
 			By selectContactOption = By.xpath("//div[@class='custom-dropdown-menu']/div[text()='" + option + "']");
@@ -1789,7 +1833,7 @@ public class CSAT_Project_Page extends WaitsManager {
 
 			} else {
 				grep.failTest(projectName + " Not Available");
-				logger.error(projectName + "  Not Available");
+				logger.error(projectName + " Not Available");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

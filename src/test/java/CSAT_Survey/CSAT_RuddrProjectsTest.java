@@ -360,7 +360,7 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 				"EditCont_RuddrProject_BeforeAddInEditContact");
 		waitTime(driver);
 		csatProject.clickButton(dataKeys.saveBtn);
-		waitTime5(driver);
+		waitTime10(driver);
 		csatProject.clickRuddrButton(dataKeys.noticePeriod_Project, dataKeys.editContactBtn);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Verify Contact Not Added for Ruddr Projects",
@@ -393,7 +393,7 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 				"AddCont_RuddrProject_ValidContact");
 		waitTime(driver);
 		csatProject.clickButton(dataKeys.saveBtn);
-		waitTime5(driver);
+		waitTime10(driver);
 		csatProject.clickRuddrButton(dataKeys.DayforceNetsuitePhase_Project, dataKeys.editContactBtn);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "After adding Valid Contact Verifying in Edit Popup",
@@ -468,7 +468,7 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 				"EditCont_RuddrProject_AfterEditContact");
 		waitTime(driver);
 		csatProject.clickButton(dataKeys.saveBtn);
-		waitTime5(driver);
+		waitTime10(driver);
 
 		// Try to delete customer contact when only one contact is available in edit
 		// customer popup
@@ -547,11 +547,11 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 		waitTime2(driver);
 		grep.captureScreenshot("pass", "Deleting Contact from edit Popup", "EditCont_RuddrProject_DeletingContact");
 		waitTime2(driver);
-		grep.infoTest("Deleting Customer");
-		logger.info("Deleting Customer");
+		grep.infoTest("Deleting Customer Contact");
+		logger.info("Deleting Customer Contact");
 		waitTime(driver);
 		csatProject.clickButton(dataKeys.saveBtn);
-		waitTime5(driver);
+		waitTime10(driver);
 
 		// Verify the send functions correctly in the Ruddr projects
 		grep.testCreate("Verify the send functions correctly in the Ruddr Project Test",
