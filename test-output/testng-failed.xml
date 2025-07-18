@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [CSATSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="CSATTest(failed)">
-    <parameter name="FileName" value="CSATPageReport.html"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CSAT_Survey.CSAT_SendSurvey">
+      <class name="CSAT_Survey.CSAT_RuddrProjectsTest">
         <methods>
           <include name="csat_SendSurvey_Test"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- CSAT_Survey.CSAT_SendSurvey -->
+      </class> <!-- CSAT_Survey.CSAT_RuddrProjectsTest -->
     </classes>
-  </test> <!-- CSATTest(failed) -->
-</suite> <!-- Failed suite [CSATSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

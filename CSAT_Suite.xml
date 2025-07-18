@@ -8,8 +8,7 @@
 			<class name="CSAT_Survey.CSAT_ProjectFiltersTest" />
 			<class name="CSAT_Survey.CSAT_Project_NewProjectTest" />
 			<class name="CSAT_Survey.CSAT_SendSurvey" />
-
+			<class name="CSAT_Survey.CCSAT_RuddrProjectsTest" />
 		</classes>
 	</test> <!--Test -->
 </suite> <!--Suite -->
-	

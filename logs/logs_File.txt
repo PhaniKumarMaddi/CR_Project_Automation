@@ -20195,3 +20195,1767 @@ Session ID: e53e83d8bd504ed85b962e34ae175c41
 2025-07-17 17:08:22 [main] ERROR: Save Button is Enabled
 2025-07-17 17:08:25 [main] INFO : Testing Ended
 2025-07-17 17:08:25 [main] INFO : ***********
+2025-07-18 10:25:31 [main] INFO : Launching Chrome Browser
+2025-07-18 10:25:31 [main] INFO : Report Name :CsatPage.html
+2025-07-18 10:25:35 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 10:25:35 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 10:25:35 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 10:26:01 [main] INFO : Logged in to CSAT Application
+2025-07-18 10:26:05 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 10:26:05 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 10:26:11 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 10:26:12 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 10:26:12 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 10:26:12 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 10:26:12 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 10:26:13 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 10:26:13 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 10:26:14 [main] INFO : Verify Add Contacts button
+2025-07-18 10:26:14 [main] INFO : Add Contacts Button is Available
+2025-07-18 10:26:14 [main] INFO : Verify Edit Contacts button
+2025-07-18 10:26:14 [main] INFO : Edit Contacts Button is Available
+2025-07-18 10:26:14 [main] INFO : Verify Send button
+2025-07-18 10:26:14 [main] INFO : Send Button is Available
+2025-07-18 10:26:14 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 10:26:15 [main] INFO : Selecting Pagination 5
+2025-07-18 10:26:15 [main] INFO : 5 pagination Option Selected
+2025-07-18 10:26:15 [main] INFO : Selecting Pagination 50
+2025-07-18 10:26:15 [main] INFO : 50 pagination Option Selected
+2025-07-18 10:26:15 [main] INFO : Selecting Pagination 100
+2025-07-18 10:26:16 [main] INFO : 100 pagination Option Selected
+2025-07-18 10:26:16 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 10:26:17 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 10:26:20 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 10:26:20 [main] INFO : Member Name Header is Available
+2025-07-18 10:26:20 [main] INFO : Member Role Header is Available
+2025-07-18 10:26:20 [main] INFO : Project Name Header is Available
+2025-07-18 10:26:22 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 10:26:26 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 10:26:26 [main] INFO : Member Name Header is Available
+2025-07-18 10:26:26 [main] INFO : Member Role Header is Available
+2025-07-18 10:26:26 [main] INFO : Project Name Header is Available
+2025-07-18 10:26:28 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 10:26:31 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 10:26:31 [main] INFO : Member Name Header is Available
+2025-07-18 10:26:31 [main] INFO : Member Role Header is Available
+2025-07-18 10:26:31 [main] INFO : Project Name Header is Available
+2025-07-18 10:26:34 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 10:26:39 [main] ERROR: Save Button is Enabled
+2025-07-18 10:26:41 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 10:26:46 [main] ERROR: Save Button is Enabled
+2025-07-18 10:26:48 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 10:26:53 [main] ERROR: Save Button is Enabled
+2025-07-18 10:26:56 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 10:27:06 [main] ERROR: Save Button is Enabled
+2025-07-18 10:27:09 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 10:27:19 [main] ERROR: Test Failed :element click intercepted: Element <button class="Project-action-button Project-edit-contacts-button" title="Edit Contacts">...</button> is not clickable at point (2425, 505). Other element would receive the click: <img alt="Send" class="Project-action-icon" src="https://crsurveyapp.blob.core.windows.net/media/assets/send_12.svg">
+  (Session info: chrome=138.0.7204.102)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96f28b1deae009abf695190b5ebebec6, clickElement {id=f.85009D64799688483FDB0DA53C515E93.d.21BA0554645F8CC1356978B50A3909D3.e.458}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53717}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53717/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (96f28b1deae009abf695190b5ebebec6)] -> xpath: //button[text()='Dayforce - Netsuite Phase 1']/parent::td/following-sibling::td[@class='Project-action-cell']/div/button[@title='Edit Contacts']]
+Session ID: 96f28b1deae009abf695190b5ebebec6
+2025-07-18 10:28:09 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 10:28:13 [main] ERROR: Save Button is Enabled
+2025-07-18 10:28:16 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 10:28:20 [main] ERROR: Save Button is Enabled
+2025-07-18 10:28:23 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 10:28:28 [main] ERROR: Save Button is Enabled
+2025-07-18 10:28:31 [main] INFO : Testing Ended
+2025-07-18 10:28:31 [main] INFO : ***********
+2025-07-18 10:30:18 [main] INFO : Launching Chrome Browser
+2025-07-18 10:30:18 [main] INFO : Report Name :CsatPage.html
+2025-07-18 10:30:21 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 10:30:22 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 10:30:22 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 10:30:43 [main] INFO : Logged in to CSAT Application
+2025-07-18 10:30:46 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 10:30:47 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 10:30:53 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 10:30:54 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 10:30:54 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 10:30:54 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 10:30:54 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 10:30:54 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 10:30:55 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 10:30:55 [main] INFO : Verify Add Contacts button
+2025-07-18 10:30:55 [main] INFO : Add Contacts Button is Available
+2025-07-18 10:30:55 [main] INFO : Verify Edit Contacts button
+2025-07-18 10:30:55 [main] INFO : Edit Contacts Button is Available
+2025-07-18 10:30:55 [main] INFO : Verify Send button
+2025-07-18 10:30:55 [main] INFO : Send Button is Available
+2025-07-18 10:30:56 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 10:30:56 [main] INFO : Selecting Pagination 5
+2025-07-18 10:30:56 [main] INFO : 5 pagination Option Selected
+2025-07-18 10:30:56 [main] INFO : Selecting Pagination 50
+2025-07-18 10:30:57 [main] INFO : 50 pagination Option Selected
+2025-07-18 10:30:57 [main] INFO : Selecting Pagination 100
+2025-07-18 10:30:57 [main] INFO : 100 pagination Option Selected
+2025-07-18 10:30:58 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 10:30:58 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 10:31:01 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 10:31:01 [main] INFO : Member Name Header is Available
+2025-07-18 10:31:01 [main] INFO : Member Role Header is Available
+2025-07-18 10:31:01 [main] INFO : Project Name Header is Available
+2025-07-18 10:31:04 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 10:31:07 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 10:31:07 [main] INFO : Member Name Header is Available
+2025-07-18 10:31:07 [main] INFO : Member Role Header is Available
+2025-07-18 10:31:07 [main] INFO : Project Name Header is Available
+2025-07-18 10:31:09 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 10:31:13 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 10:31:13 [main] INFO : Member Name Header is Available
+2025-07-18 10:31:13 [main] INFO : Member Role Header is Available
+2025-07-18 10:31:13 [main] INFO : Project Name Header is Available
+2025-07-18 10:31:15 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 10:31:20 [main] ERROR: Save Button is Enabled
+2025-07-18 10:31:22 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 10:31:27 [main] ERROR: Save Button is Enabled
+2025-07-18 10:31:29 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 10:31:34 [main] ERROR: Save Button is Enabled
+2025-07-18 10:31:36 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 10:31:46 [main] ERROR: Save Button is Enabled
+2025-07-18 10:31:49 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 10:32:02 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 10:32:06 [main] ERROR: Save Button is Enabled
+2025-07-18 10:32:09 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 10:32:13 [main] ERROR: Save Button is Enabled
+2025-07-18 10:32:16 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 10:32:21 [main] ERROR: Save Button is Enabled
+2025-07-18 10:32:23 [main] INFO : Testing Ended
+2025-07-18 10:32:23 [main] INFO : ***********
+2025-07-18 10:50:35 [main] INFO : Launching Chrome Browser
+2025-07-18 10:50:35 [main] INFO : Report Name :CsatPage.html
+2025-07-18 10:51:33 [main] INFO : Launching Chrome Browser
+2025-07-18 10:51:33 [main] INFO : Report Name :CsatPage.html
+2025-07-18 10:51:36 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 10:51:36 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 10:51:37 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 10:52:03 [main] INFO : Logged in to CSAT Application
+2025-07-18 10:52:07 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 10:52:07 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 10:52:13 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 10:52:14 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 10:52:14 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 10:52:14 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 10:52:14 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 10:52:14 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 10:52:14 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 10:52:15 [main] INFO : Verify Add Contacts button
+2025-07-18 10:52:15 [main] INFO : Add Contacts Button is Available
+2025-07-18 10:52:15 [main] INFO : Verify Edit Contacts button
+2025-07-18 10:52:15 [main] INFO : Edit Contacts Button is Available
+2025-07-18 10:52:15 [main] INFO : Verify Send button
+2025-07-18 10:52:15 [main] INFO : Send Button is Available
+2025-07-18 10:52:15 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 10:52:16 [main] INFO : Selecting Pagination 5
+2025-07-18 10:52:16 [main] INFO : 5 pagination Option Selected
+2025-07-18 10:52:16 [main] INFO : Selecting Pagination 50
+2025-07-18 10:52:16 [main] INFO : 50 pagination Option Selected
+2025-07-18 10:52:16 [main] INFO : Selecting Pagination 100
+2025-07-18 10:52:17 [main] INFO : 100 pagination Option Selected
+2025-07-18 10:52:17 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 10:52:18 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 10:52:21 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 10:52:21 [main] INFO : Member Name Header is Available
+2025-07-18 10:52:21 [main] INFO : Member Role Header is Available
+2025-07-18 10:52:21 [main] INFO : Project Name Header is Available
+2025-07-18 10:52:23 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 10:52:26 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 10:52:26 [main] INFO : Member Name Header is Available
+2025-07-18 10:52:26 [main] INFO : Member Role Header is Available
+2025-07-18 10:52:26 [main] INFO : Project Name Header is Available
+2025-07-18 10:52:29 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 10:52:32 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 10:52:32 [main] INFO : Member Name Header is Available
+2025-07-18 10:52:32 [main] INFO : Member Role Header is Available
+2025-07-18 10:52:32 [main] INFO : Project Name Header is Available
+2025-07-18 10:52:34 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 10:52:39 [main] ERROR: Save Button is Enabled
+2025-07-18 10:52:41 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 10:52:46 [main] ERROR: Save Button is Enabled
+2025-07-18 10:52:48 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 10:52:53 [main] ERROR: Save Button is Enabled
+2025-07-18 10:52:56 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 10:53:06 [main] ERROR: Save Button is Enabled
+2025-07-18 10:53:08 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 10:53:22 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 10:53:26 [main] ERROR: Save Button is Enabled
+2025-07-18 10:53:29 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 10:53:34 [main] ERROR: Save Button is Enabled
+2025-07-18 10:53:36 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 10:53:41 [main] ERROR: Save Button is Enabled
+2025-07-18 10:53:44 [main] INFO : Validating Editing (replacing) a existing customer contact in edit popup for Ruddr Projects
+2025-07-18 10:53:58 [main] INFO : Testing Ended
+2025-07-18 10:53:58 [main] INFO : ***********
+2025-07-18 11:02:45 [main] INFO : Launching Chrome Browser
+2025-07-18 11:02:46 [main] INFO : Report Name :CsatPage.html
+2025-07-18 11:02:50 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 11:02:50 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 11:02:50 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 11:03:14 [main] INFO : Logged in to CSAT Application
+2025-07-18 11:03:18 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 11:03:18 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 11:03:24 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 11:03:25 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 11:03:25 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 11:03:25 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 11:03:25 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 11:03:25 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 11:03:25 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 11:03:26 [main] INFO : Verify Add Contacts button
+2025-07-18 11:03:26 [main] INFO : Add Contacts Button is Available
+2025-07-18 11:03:26 [main] INFO : Verify Edit Contacts button
+2025-07-18 11:03:26 [main] INFO : Edit Contacts Button is Available
+2025-07-18 11:03:26 [main] INFO : Verify Send button
+2025-07-18 11:03:26 [main] INFO : Send Button is Available
+2025-07-18 11:03:27 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 11:03:27 [main] INFO : Selecting Pagination 5
+2025-07-18 11:03:27 [main] INFO : 5 pagination Option Selected
+2025-07-18 11:03:27 [main] INFO : Selecting Pagination 50
+2025-07-18 11:03:27 [main] INFO : 50 pagination Option Selected
+2025-07-18 11:03:27 [main] INFO : Selecting Pagination 100
+2025-07-18 11:03:28 [main] INFO : 100 pagination Option Selected
+2025-07-18 11:03:28 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 11:03:29 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 11:03:32 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 11:03:32 [main] INFO : Member Name Header is Available
+2025-07-18 11:03:32 [main] INFO : Member Role Header is Available
+2025-07-18 11:03:32 [main] INFO : Project Name Header is Available
+2025-07-18 11:03:34 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 11:03:38 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 11:03:38 [main] INFO : Member Name Header is Available
+2025-07-18 11:03:38 [main] INFO : Member Role Header is Available
+2025-07-18 11:03:38 [main] INFO : Project Name Header is Available
+2025-07-18 11:03:40 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 11:03:43 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 11:03:43 [main] INFO : Member Name Header is Available
+2025-07-18 11:03:43 [main] INFO : Member Role Header is Available
+2025-07-18 11:03:43 [main] INFO : Project Name Header is Available
+2025-07-18 11:03:46 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 11:03:52 [main] ERROR: Save Button is Enabled
+2025-07-18 11:03:54 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 11:04:01 [main] ERROR: Save Button is Enabled
+2025-07-18 11:04:03 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 11:04:09 [main] ERROR: Save Button is Enabled
+2025-07-18 11:04:12 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 11:04:24 [main] ERROR: Save Button is Enabled
+2025-07-18 11:04:27 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 11:04:41 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 11:04:47 [main] ERROR: Save Button is Enabled
+2025-07-18 11:04:50 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 11:04:56 [main] ERROR: Save Button is Enabled
+2025-07-18 11:04:58 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 11:05:04 [main] ERROR: Save Button is Enabled
+2025-07-18 11:05:07 [main] INFO : Validating Editing (replacing) a existing customer contact in edit popup for Ruddr Projects
+2025-07-18 11:05:22 [main] INFO : Testing Ended
+2025-07-18 11:05:22 [main] INFO : ***********
+2025-07-18 11:14:33 [main] INFO : Launching Chrome Browser
+2025-07-18 11:14:33 [main] INFO : Report Name :CsatPage.html
+2025-07-18 11:14:36 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 11:14:36 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 11:14:36 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 11:15:02 [main] INFO : Logged in to CSAT Application
+2025-07-18 11:15:06 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 11:15:06 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 11:15:12 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 11:15:13 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 11:15:13 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 11:15:13 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 11:15:13 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 11:15:13 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 11:15:13 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 11:15:14 [main] INFO : Verify Add Contacts button
+2025-07-18 11:15:14 [main] INFO : Add Contacts Button is Available
+2025-07-18 11:15:14 [main] INFO : Verify Edit Contacts button
+2025-07-18 11:15:14 [main] INFO : Edit Contacts Button is Available
+2025-07-18 11:15:14 [main] INFO : Verify Send button
+2025-07-18 11:15:14 [main] INFO : Send Button is Available
+2025-07-18 11:15:15 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 11:15:15 [main] INFO : Selecting Pagination 5
+2025-07-18 11:15:15 [main] INFO : 5 pagination Option Selected
+2025-07-18 11:15:15 [main] INFO : Selecting Pagination 50
+2025-07-18 11:15:16 [main] INFO : 50 pagination Option Selected
+2025-07-18 11:15:16 [main] INFO : Selecting Pagination 100
+2025-07-18 11:15:16 [main] INFO : 100 pagination Option Selected
+2025-07-18 11:15:16 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 11:15:17 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 11:15:20 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 11:15:20 [main] INFO : Member Name Header is Available
+2025-07-18 11:15:20 [main] INFO : Member Role Header is Available
+2025-07-18 11:15:20 [main] INFO : Project Name Header is Available
+2025-07-18 11:15:23 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 11:15:26 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 11:15:26 [main] INFO : Member Name Header is Available
+2025-07-18 11:15:26 [main] INFO : Member Role Header is Available
+2025-07-18 11:15:26 [main] INFO : Project Name Header is Available
+2025-07-18 11:15:28 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 11:15:32 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 11:15:32 [main] INFO : Member Name Header is Available
+2025-07-18 11:15:32 [main] INFO : Member Role Header is Available
+2025-07-18 11:15:32 [main] INFO : Project Name Header is Available
+2025-07-18 11:15:34 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 11:15:41 [main] ERROR: Save Button is Enabled
+2025-07-18 11:15:43 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 11:15:50 [main] ERROR: Save Button is Enabled
+2025-07-18 11:15:52 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 11:15:59 [main] ERROR: Save Button is Enabled
+2025-07-18 11:16:01 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 11:16:15 [main] ERROR: Save Button is Enabled
+2025-07-18 11:16:18 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 11:16:33 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 11:16:39 [main] ERROR: Save Button is Enabled
+2025-07-18 11:16:42 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 11:16:48 [main] ERROR: Save Button is Enabled
+2025-07-18 11:16:51 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 11:16:57 [main] ERROR: Save Button is Enabled
+2025-07-18 11:17:00 [main] INFO : Validating Adding new in edit popups for Ruddr Projects
+2025-07-18 11:17:14 [main] INFO : Validating Editing (replacing) a existing customer contact in edit popup for Ruddr Projects
+2025-07-18 11:17:15 [main] ERROR: Test Failed :element click intercepted: Element <button class="Project-action-button Project-edit-contacts-button" title="Edit Contacts">...</button> is not clickable at point (2425, 505). Other element would receive the click: <div class="MuiDialog-container MuiDialog-scrollPaper css-8azq84" role="presentation" tabindex="-1" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);">...</div>
+  (Session info: chrome=138.0.7204.102)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [69572db640c99ac543d753502ee9a2b5, clickElement {id=f.BA741355347CEDCF7B05A0FF9D10998F.d.4E9B8686D15375D14E6C19FB2857004B.e.458}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55702}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55702/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (69572db640c99ac543d753502ee9a2b5)] -> xpath: //button[text()='Dayforce - Netsuite Phase 1']/parent::td/following-sibling::td[@class='Project-action-cell']/div/button[@title='Edit Contacts']]
+Session ID: 69572db640c99ac543d753502ee9a2b5
+2025-07-18 11:17:30 [main] INFO : Testing Ended
+2025-07-18 11:17:30 [main] INFO : ***********
+2025-07-18 11:19:19 [main] INFO : Launching Chrome Browser
+2025-07-18 11:19:20 [main] INFO : Report Name :CsatPage.html
+2025-07-18 11:19:23 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 11:19:23 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 11:19:23 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 11:19:48 [main] INFO : Logged in to CSAT Application
+2025-07-18 11:19:52 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 11:19:52 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 11:19:58 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 11:19:59 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 11:19:59 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 11:19:59 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 11:19:59 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 11:19:59 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 11:19:59 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 11:20:00 [main] INFO : Verify Add Contacts button
+2025-07-18 11:20:00 [main] INFO : Add Contacts Button is Available
+2025-07-18 11:20:00 [main] INFO : Verify Edit Contacts button
+2025-07-18 11:20:00 [main] INFO : Edit Contacts Button is Available
+2025-07-18 11:20:00 [main] INFO : Verify Send button
+2025-07-18 11:20:00 [main] INFO : Send Button is Available
+2025-07-18 11:20:01 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 11:20:01 [main] INFO : Selecting Pagination 5
+2025-07-18 11:20:01 [main] INFO : 5 pagination Option Selected
+2025-07-18 11:20:01 [main] INFO : Selecting Pagination 50
+2025-07-18 11:20:02 [main] INFO : 50 pagination Option Selected
+2025-07-18 11:20:02 [main] INFO : Selecting Pagination 100
+2025-07-18 11:20:02 [main] INFO : 100 pagination Option Selected
+2025-07-18 11:20:02 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 11:20:03 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 11:20:06 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 11:20:06 [main] INFO : Member Name Header is Available
+2025-07-18 11:20:06 [main] INFO : Member Role Header is Available
+2025-07-18 11:20:06 [main] INFO : Project Name Header is Available
+2025-07-18 11:20:08 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 11:20:12 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 11:20:12 [main] INFO : Member Name Header is Available
+2025-07-18 11:20:12 [main] INFO : Member Role Header is Available
+2025-07-18 11:20:12 [main] INFO : Project Name Header is Available
+2025-07-18 11:20:14 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 11:20:18 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 11:20:18 [main] INFO : Member Name Header is Available
+2025-07-18 11:20:18 [main] INFO : Member Role Header is Available
+2025-07-18 11:20:18 [main] INFO : Project Name Header is Available
+2025-07-18 11:20:20 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 11:20:27 [main] ERROR: Save Button is Enabled
+2025-07-18 11:20:30 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 11:20:36 [main] ERROR: Save Button is Enabled
+2025-07-18 11:20:39 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 11:20:46 [main] ERROR: Save Button is Enabled
+2025-07-18 11:20:48 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 11:21:03 [main] ERROR: Save Button is Enabled
+2025-07-18 11:21:05 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 11:21:20 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 11:21:27 [main] ERROR: Save Button is Enabled
+2025-07-18 11:21:30 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 11:21:37 [main] ERROR: Save Button is Enabled
+2025-07-18 11:21:39 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 11:21:46 [main] ERROR: Save Button is Enabled
+2025-07-18 11:21:48 [main] INFO : Validating Adding new in edit popups for Ruddr Projects
+2025-07-18 11:22:04 [main] INFO : Validating Editing (replacing) a existing customer contact in edit popup for Ruddr Projects
+2025-07-18 11:22:20 [main] INFO : Testing Ended
+2025-07-18 11:22:20 [main] INFO : ***********
+2025-07-18 11:33:42 [main] INFO : Launching Chrome Browser
+2025-07-18 11:33:42 [main] INFO : Report Name :CsatPage.html
+2025-07-18 11:33:45 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 11:33:46 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 11:33:46 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 11:34:11 [main] INFO : Logged in to CSAT Application
+2025-07-18 11:34:14 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 11:34:15 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 11:34:21 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 11:34:21 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 11:34:21 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 11:34:21 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 11:34:22 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 11:34:22 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 11:34:22 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 11:34:23 [main] INFO : Verify Add Contacts button
+2025-07-18 11:34:23 [main] INFO : Add Contacts Button is Available
+2025-07-18 11:34:23 [main] INFO : Verify Edit Contacts button
+2025-07-18 11:34:23 [main] INFO : Edit Contacts Button is Available
+2025-07-18 11:34:23 [main] INFO : Verify Send button
+2025-07-18 11:34:23 [main] INFO : Send Button is Available
+2025-07-18 11:34:23 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 11:34:24 [main] INFO : Selecting Pagination 5
+2025-07-18 11:34:24 [main] INFO : 5 pagination Option Selected
+2025-07-18 11:34:24 [main] INFO : Selecting Pagination 50
+2025-07-18 11:34:24 [main] INFO : 50 pagination Option Selected
+2025-07-18 11:34:24 [main] INFO : Selecting Pagination 100
+2025-07-18 11:34:25 [main] INFO : 100 pagination Option Selected
+2025-07-18 11:34:25 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 11:34:26 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 11:34:29 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 11:34:29 [main] INFO : Member Name Header is Available
+2025-07-18 11:34:29 [main] INFO : Member Role Header is Available
+2025-07-18 11:34:29 [main] INFO : Project Name Header is Available
+2025-07-18 11:34:31 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 11:34:35 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 11:34:35 [main] INFO : Member Name Header is Available
+2025-07-18 11:34:35 [main] INFO : Member Role Header is Available
+2025-07-18 11:34:35 [main] INFO : Project Name Header is Available
+2025-07-18 11:34:37 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 11:34:40 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 11:34:40 [main] INFO : Member Name Header is Available
+2025-07-18 11:34:40 [main] INFO : Member Role Header is Available
+2025-07-18 11:34:40 [main] INFO : Project Name Header is Available
+2025-07-18 11:34:43 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 11:34:49 [main] ERROR: Save Button is Enabled
+2025-07-18 11:34:51 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 11:34:57 [main] ERROR: Save Button is Enabled
+2025-07-18 11:35:00 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 11:35:06 [main] ERROR: Save Button is Enabled
+2025-07-18 11:35:09 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 11:35:21 [main] ERROR: Save Button is Enabled
+2025-07-18 11:35:24 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 11:35:30 [main] ERROR: Save Button is Enabled
+2025-07-18 11:35:33 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 11:35:39 [main] ERROR: Save Button is Enabled
+2025-07-18 11:35:42 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 11:35:48 [main] ERROR: Save Button is Enabled
+2025-07-18 11:35:51 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 11:36:06 [main] INFO : Validating Adding new in edit popups for Ruddr Projects
+2025-07-18 11:36:09 [main] INFO : Warning message: No existing contacts found. Add a new contact to proceed.
+2025-07-18 11:36:21 [main] INFO : Validating Editing (replacing) a existing customer contact in edit popup for Ruddr Projects
+2025-07-18 11:36:37 [main] INFO : Testing Ended
+2025-07-18 11:36:37 [main] INFO : ***********
+2025-07-18 11:45:48 [main] INFO : Launching Chrome Browser
+2025-07-18 11:45:48 [main] INFO : Report Name :CsatPage.html
+2025-07-18 11:46:15 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 11:46:15 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 11:46:15 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 11:47:12 [main] INFO : Logged in to CSAT Application
+2025-07-18 11:47:16 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 11:47:16 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 11:47:22 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 11:47:23 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 11:47:23 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 11:47:23 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 11:47:23 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 11:47:23 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 11:47:23 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 11:47:24 [main] INFO : Verify Add Contacts button
+2025-07-18 11:47:24 [main] INFO : Add Contacts Button is Available
+2025-07-18 11:47:24 [main] INFO : Verify Edit Contacts button
+2025-07-18 11:47:24 [main] INFO : Edit Contacts Button is Available
+2025-07-18 11:47:24 [main] INFO : Verify Send button
+2025-07-18 11:47:24 [main] INFO : Send Button is Available
+2025-07-18 11:47:25 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 11:47:25 [main] INFO : Selecting Pagination 5
+2025-07-18 11:47:25 [main] INFO : 5 pagination Option Selected
+2025-07-18 11:47:25 [main] INFO : Selecting Pagination 50
+2025-07-18 11:47:25 [main] INFO : 50 pagination Option Selected
+2025-07-18 11:47:25 [main] INFO : Selecting Pagination 100
+2025-07-18 11:47:26 [main] INFO : 100 pagination Option Selected
+2025-07-18 11:47:26 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 11:47:27 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 11:47:30 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 11:47:30 [main] INFO : Member Name Header is Available
+2025-07-18 11:47:30 [main] INFO : Member Role Header is Available
+2025-07-18 11:47:30 [main] INFO : Project Name Header is Available
+2025-07-18 11:47:33 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 11:47:36 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 11:47:36 [main] INFO : Member Name Header is Available
+2025-07-18 11:47:36 [main] INFO : Member Role Header is Available
+2025-07-18 11:47:36 [main] INFO : Project Name Header is Available
+2025-07-18 11:47:38 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 11:47:41 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 11:47:41 [main] INFO : Member Name Header is Available
+2025-07-18 11:47:42 [main] INFO : Member Role Header is Available
+2025-07-18 11:47:42 [main] INFO : Project Name Header is Available
+2025-07-18 11:47:44 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 11:47:50 [main] ERROR: Save Button is Enabled
+2025-07-18 11:47:53 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 11:47:59 [main] ERROR: Save Button is Enabled
+2025-07-18 11:48:01 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 11:48:07 [main] ERROR: Save Button is Enabled
+2025-07-18 11:48:10 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 11:48:22 [main] ERROR: Save Button is Enabled
+2025-07-18 11:48:25 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 11:48:31 [main] ERROR: Save Button is Enabled
+2025-07-18 11:48:33 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 11:48:39 [main] ERROR: Save Button is Enabled
+2025-07-18 11:48:42 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 11:48:48 [main] ERROR: Save Button is Enabled
+2025-07-18 11:48:50 [main] INFO : Validating Adding new in edit popups for Ruddr Projects
+2025-07-18 11:48:53 [main] INFO : Warning message: No existing contacts found. Add a new contact to proceed.
+2025-07-18 11:49:05 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 11:49:20 [main] INFO : Validating Adding an existing contact in Add new contact popup
+2025-07-18 11:49:29 [main] ERROR: Save Button is Enabled
+2025-07-18 11:49:31 [main] INFO : Validating Editing (replacing) a existing customer contact in edit popup for Ruddr Projects
+2025-07-18 11:49:46 [main] INFO : Testing Ended
+2025-07-18 11:49:46 [main] INFO : ***********
+2025-07-18 12:07:56 [main] INFO : Launching Chrome Browser
+2025-07-18 12:07:57 [main] INFO : Report Name :CsatPage.html
+2025-07-18 12:08:20 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 12:08:20 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 12:08:20 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 12:09:06 [main] INFO : Logged in to CSAT Application
+2025-07-18 12:09:10 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 12:09:10 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 12:09:16 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 12:09:17 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 12:09:17 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 12:09:17 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 12:09:17 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 12:09:17 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 12:09:18 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 12:09:18 [main] INFO : Verify Add Contacts button
+2025-07-18 12:09:18 [main] INFO : Add Contacts Button is Available
+2025-07-18 12:09:18 [main] INFO : Verify Edit Contacts button
+2025-07-18 12:09:18 [main] INFO : Edit Contacts Button is Available
+2025-07-18 12:09:18 [main] INFO : Verify Send button
+2025-07-18 12:09:18 [main] INFO : Send Button is Available
+2025-07-18 12:09:19 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 12:09:19 [main] INFO : Selecting Pagination 5
+2025-07-18 12:09:19 [main] INFO : 5 pagination Option Selected
+2025-07-18 12:09:19 [main] INFO : Selecting Pagination 50
+2025-07-18 12:09:20 [main] INFO : 50 pagination Option Selected
+2025-07-18 12:09:20 [main] INFO : Selecting Pagination 100
+2025-07-18 12:09:20 [main] INFO : 100 pagination Option Selected
+2025-07-18 12:09:20 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 12:09:21 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 12:09:24 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 12:09:24 [main] INFO : Member Name Header is Available
+2025-07-18 12:09:24 [main] INFO : Member Role Header is Available
+2025-07-18 12:09:24 [main] INFO : Project Name Header is Available
+2025-07-18 12:09:27 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 12:09:30 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 12:09:30 [main] INFO : Member Name Header is Available
+2025-07-18 12:09:30 [main] INFO : Member Role Header is Available
+2025-07-18 12:09:30 [main] INFO : Project Name Header is Available
+2025-07-18 12:09:32 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 12:09:36 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 12:09:36 [main] INFO : Member Name Header is Available
+2025-07-18 12:09:36 [main] INFO : Member Role Header is Available
+2025-07-18 12:09:36 [main] INFO : Project Name Header is Available
+2025-07-18 12:09:38 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 12:09:44 [main] ERROR: Save Button is Enabled
+2025-07-18 12:09:47 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 12:09:53 [main] ERROR: Save Button is Enabled
+2025-07-18 12:09:55 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 12:10:01 [main] ERROR: Save Button is Enabled
+2025-07-18 12:10:04 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 12:10:16 [main] ERROR: Save Button is Enabled
+2025-07-18 12:10:19 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 12:10:25 [main] ERROR: Save Button is Enabled
+2025-07-18 12:10:27 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 12:10:33 [main] ERROR: Save Button is Enabled
+2025-07-18 12:10:36 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 12:10:42 [main] ERROR: Save Button is Enabled
+2025-07-18 12:10:44 [main] INFO : Validating Adding new in edit popups for Ruddr Projects
+2025-07-18 12:10:47 [main] INFO : Warning message: No existing contacts found. Add a new contact to proceed.
+2025-07-18 12:10:59 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 12:11:14 [main] INFO : Validating Adding an existing contact in Add new contact popup
+2025-07-18 12:11:23 [main] ERROR: Save Button is Enabled
+2025-07-18 12:11:24 [main] INFO : Validating Editing (replacing) a existing customer contact in edit popup for Ruddr Projects
+2025-07-18 12:11:39 [main] INFO : Validating Try to delete customer contact when only one contact is available in edit customer popup for Ruddr Projects
+2025-07-18 12:11:40 [main] INFO : Delete Button is Disabled
+2025-07-18 12:11:41 [main] INFO : Validating Adding an new contact in Add contact popup
+2025-07-18 12:11:42 [main] ERROR: Test Failed :element click intercepted: Element <button class="Project-action-button Project-edit-contacts-button" title="Edit Contacts">...</button> is not clickable at point (2425, 505). Other element would receive the click: <div class="MuiDialog-container MuiDialog-scrollPaper css-8azq84" role="presentation" tabindex="-1" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);">...</div>
+  (Session info: chrome=138.0.7204.102)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [795a2f56d4b307c502620115ccebf75f, clickElement {id=f.7D38D1555C0D9F813AD0553555079BDD.d.3B56F1FAEC29A7E18EA916DF341DE378.e.470}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58133}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58133/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (795a2f56d4b307c502620115ccebf75f)] -> xpath: //button[text()='Dayforce - Netsuite Phase 1']/parent::td/following-sibling::td[@class='Project-action-cell']/div/button[@title='Edit Contacts']]
+Session ID: 795a2f56d4b307c502620115ccebf75f
+2025-07-18 12:11:58 [main] INFO : Validating Delete customer contact in edit popup for Rudddr Projects
+2025-07-18 12:12:05 [main] INFO : Validating Send functions correctly in the Ruddr project
+2025-07-18 12:13:06 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//td[text()='CSAT Feedback Automation']/parent::tr/td[@class='Project-action-cell']/div/button[@title='Send']"}
+  (Session info: chrome=138.0.7204.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [795a2f56d4b307c502620115ccebf75f, findElement {using=xpath, value=//td[text()='CSAT Feedback Automation']/parent::tr/td[@class='Project-action-cell']/div/button[@title='Send']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58133}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58133/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 795a2f56d4b307c502620115ccebf75f
+2025-07-18 12:15:07 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Survey']/parent::div[@class='form-group']/select"}
+  (Session info: chrome=138.0.7204.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [795a2f56d4b307c502620115ccebf75f, findElement {using=xpath, value=//label[text()='Survey']/parent::div[@class='form-group']/select}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58133}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58133/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 795a2f56d4b307c502620115ccebf75f
+2025-07-18 12:17:48 [main] INFO : Launching Chrome Browser
+2025-07-18 12:17:48 [main] INFO : Report Name :CsatPage.html
+2025-07-18 12:17:51 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 12:17:51 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 12:17:51 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 12:19:04 [main] INFO : Launching Chrome Browser
+2025-07-18 12:19:04 [main] INFO : Report Name :CsatPage.html
+2025-07-18 12:19:07 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 12:19:07 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 12:19:08 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 12:19:31 [main] INFO : Logged in to CSAT Application
+2025-07-18 12:19:35 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 12:19:35 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 12:19:41 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 12:19:42 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 12:19:42 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 12:19:42 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 12:19:42 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 12:19:42 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 12:19:43 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 12:19:43 [main] INFO : Verify Add Contacts button
+2025-07-18 12:19:43 [main] INFO : Add Contacts Button is Available
+2025-07-18 12:19:43 [main] INFO : Verify Edit Contacts button
+2025-07-18 12:19:43 [main] INFO : Edit Contacts Button is Available
+2025-07-18 12:19:43 [main] INFO : Verify Send button
+2025-07-18 12:19:43 [main] INFO : Send Button is Available
+2025-07-18 12:19:44 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 12:19:44 [main] INFO : Selecting Pagination 5
+2025-07-18 12:19:44 [main] INFO : 5 pagination Option Selected
+2025-07-18 12:19:44 [main] INFO : Selecting Pagination 50
+2025-07-18 12:19:45 [main] INFO : 50 pagination Option Selected
+2025-07-18 12:19:45 [main] INFO : Selecting Pagination 100
+2025-07-18 12:19:45 [main] INFO : 100 pagination Option Selected
+2025-07-18 12:19:46 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 12:19:46 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 12:19:49 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 12:19:49 [main] INFO : Member Name Header is Available
+2025-07-18 12:19:49 [main] INFO : Member Role Header is Available
+2025-07-18 12:19:49 [main] INFO : Project Name Header is Available
+2025-07-18 12:19:52 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 12:19:55 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 12:19:55 [main] INFO : Member Name Header is Available
+2025-07-18 12:19:55 [main] INFO : Member Role Header is Available
+2025-07-18 12:19:55 [main] INFO : Project Name Header is Available
+2025-07-18 12:19:57 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 12:20:01 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 12:20:01 [main] INFO : Member Name Header is Available
+2025-07-18 12:20:01 [main] INFO : Member Role Header is Available
+2025-07-18 12:20:01 [main] INFO : Project Name Header is Available
+2025-07-18 12:20:03 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 12:20:09 [main] ERROR: Save Button is Enabled
+2025-07-18 12:20:12 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 12:20:18 [main] ERROR: Save Button is Enabled
+2025-07-18 12:20:20 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 12:20:26 [main] ERROR: Save Button is Enabled
+2025-07-18 12:20:29 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 12:20:42 [main] ERROR: Save Button is Enabled
+2025-07-18 12:20:44 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 12:20:50 [main] ERROR: Save Button is Enabled
+2025-07-18 12:20:53 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 12:20:59 [main] ERROR: Save Button is Enabled
+2025-07-18 12:21:01 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 12:21:07 [main] ERROR: Save Button is Enabled
+2025-07-18 12:21:10 [main] INFO : Validating Adding new in edit popups for Ruddr Projects
+2025-07-18 12:21:12 [main] INFO : Warning message: No existing contacts found. Add a new contact to proceed.
+2025-07-18 12:21:25 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 12:21:39 [main] INFO : Validating Adding an existing contact in Add new contact popup
+2025-07-18 12:21:48 [main] ERROR: Save Button is Enabled
+2025-07-18 12:21:50 [main] INFO : Validating Editing (replacing) a existing customer contact in edit popup for Ruddr Projects
+2025-07-18 12:22:04 [main] INFO : Validating Try to delete customer contact when only one contact is available in edit customer popup for Ruddr Projects
+2025-07-18 12:22:05 [main] INFO : Delete Button is Disabled
+2025-07-18 12:22:07 [main] INFO : Validating Adding an new contact in Add contact popup
+2025-07-18 12:22:25 [main] INFO : Validating Delete customer contact in edit popup for Rudddr Projects
+2025-07-18 12:22:32 [main] INFO : Validating Send functions correctly in the Ruddr project
+2025-07-18 12:23:32 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//td[text()='CSAT Feedback Automation']/parent::tr/td[@class='Project-action-cell']/div/button[@title='Send']"}
+  (Session info: chrome=138.0.7204.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c1ae69a49d1b04960cf981c51eef7cb8, findElement {using=xpath, value=//td[text()='CSAT Feedback Automation']/parent::tr/td[@class='Project-action-cell']/div/button[@title='Send']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58818}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58818/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c1ae69a49d1b04960cf981c51eef7cb8
+2025-07-18 12:24:37 [main] ERROR: Test Failed :invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=138.0.7204.102)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c1ae69a49d1b04960cf981c51eef7cb8, findElement {using=xpath, value=//label[text()='Survey']/parent::div[@class='form-group']/select}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58818}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58818/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c1ae69a49d1b04960cf981c51eef7cb8
+2025-07-18 12:24:38 [main] ERROR: Test Failed :invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c1ae69a49d1b04960cf981c51eef7cb8, setTimeout {implicit=60000}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58818}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58818/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c1ae69a49d1b04960cf981c51eef7cb8
+2025-07-18 12:24:38 [main] ERROR: Test Failed :invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c1ae69a49d1b04960cf981c51eef7cb8, setTimeout {implicit=60000}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58818}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58818/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c1ae69a49d1b04960cf981c51eef7cb8
+2025-07-18 12:24:39 [main] INFO : Testing Ended
+2025-07-18 12:24:39 [main] INFO : ***********
+2025-07-18 12:29:55 [main] INFO : Launching Chrome Browser
+2025-07-18 12:29:55 [main] INFO : Report Name :CsatPage.html
+2025-07-18 12:29:59 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 12:29:59 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 12:29:59 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 12:30:24 [main] INFO : Logged in to CSAT Application
+2025-07-18 12:30:27 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 12:30:28 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 12:30:34 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 12:30:34 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 12:30:34 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 12:30:35 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 12:30:35 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 12:30:35 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 12:30:35 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 12:30:36 [main] INFO : Verify Add Contacts button
+2025-07-18 12:30:36 [main] INFO : Add Contacts Button is Available
+2025-07-18 12:30:36 [main] INFO : Verify Edit Contacts button
+2025-07-18 12:30:36 [main] INFO : Edit Contacts Button is Available
+2025-07-18 12:30:36 [main] INFO : Verify Send button
+2025-07-18 12:30:36 [main] INFO : Send Button is Available
+2025-07-18 12:30:36 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 12:30:37 [main] INFO : Selecting Pagination 5
+2025-07-18 12:30:37 [main] INFO : 5 pagination Option Selected
+2025-07-18 12:30:37 [main] INFO : Selecting Pagination 50
+2025-07-18 12:30:37 [main] INFO : 50 pagination Option Selected
+2025-07-18 12:30:37 [main] INFO : Selecting Pagination 100
+2025-07-18 12:30:38 [main] INFO : 100 pagination Option Selected
+2025-07-18 12:30:38 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 12:30:39 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 12:30:42 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 12:30:42 [main] INFO : Member Name Header is Available
+2025-07-18 12:30:42 [main] INFO : Member Role Header is Available
+2025-07-18 12:30:42 [main] INFO : Project Name Header is Available
+2025-07-18 12:30:44 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 12:30:48 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 12:30:48 [main] INFO : Member Name Header is Available
+2025-07-18 12:30:48 [main] INFO : Member Role Header is Available
+2025-07-18 12:30:48 [main] INFO : Project Name Header is Available
+2025-07-18 12:30:50 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 12:30:53 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 12:30:53 [main] INFO : Member Name Header is Available
+2025-07-18 12:30:53 [main] INFO : Member Role Header is Available
+2025-07-18 12:30:53 [main] INFO : Project Name Header is Available
+2025-07-18 12:30:56 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 12:31:02 [main] ERROR: Save Button is Enabled
+2025-07-18 12:31:05 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 12:31:11 [main] ERROR: Save Button is Enabled
+2025-07-18 12:31:13 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 12:31:20 [main] ERROR: Save Button is Enabled
+2025-07-18 12:31:22 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 12:31:35 [main] ERROR: Save Button is Enabled
+2025-07-18 12:31:38 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 12:31:44 [main] ERROR: Save Button is Enabled
+2025-07-18 12:31:46 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 12:31:52 [main] ERROR: Save Button is Enabled
+2025-07-18 12:31:55 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 12:32:01 [main] ERROR: Save Button is Enabled
+2025-07-18 12:32:03 [main] INFO : Validating Adding new in edit popups for Ruddr Projects
+2025-07-18 12:32:06 [main] INFO : Warning message: No existing contacts found. Add a new contact to proceed.
+2025-07-18 12:32:19 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 12:32:34 [main] INFO : Validating Adding an existing contact in Add new contact popup
+2025-07-18 12:32:46 [main] ERROR: Save Button is Enabled
+2025-07-18 12:32:47 [main] INFO : Validating Editing (replacing) a existing customer contact in edit popup for Ruddr Projects
+2025-07-18 12:33:02 [main] INFO : Validating Try to delete customer contact when only one contact is available in edit customer popup for Ruddr Projects
+2025-07-18 12:33:03 [main] INFO : Delete Button is Disabled
+2025-07-18 12:33:05 [main] INFO : Validating Adding an new contact in Add contact popup
+2025-07-18 12:33:24 [main] INFO : Validating Delete customer contact in edit popup for Rudddr Projects
+2025-07-18 12:33:34 [main] INFO : Validating Send functions correctly in the Ruddr project
+2025-07-18 12:34:35 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//td[text()='Dayforce - Netsuite Phase 1']/parent::tr/td[@class='Project-action-cell']/div/button[@title='Send']"}
+  (Session info: chrome=138.0.7204.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [711167f2aa9159a225cb777ef2707be2, findElement {value=//td[text()='Dayforce - Netsuite Phase 1']/parent::tr/td[@class='Project-action-cell']/div/button[@title='Send'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59210}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59210/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 711167f2aa9159a225cb777ef2707be2
+2025-07-18 12:36:36 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Survey']/parent::div[@class='form-group']/select"}
+  (Session info: chrome=138.0.7204.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [711167f2aa9159a225cb777ef2707be2, findElement {value=//label[text()='Survey']/parent::div[@class='form-group']/select, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59210}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59210/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 711167f2aa9159a225cb777ef2707be2
+2025-07-18 12:37:36 [main] ERROR: Failed to retrieve Subject Field Text
+2025-07-18 13:11:06 [main] INFO : Launching Chrome Browser
+2025-07-18 13:11:07 [main] INFO : Report Name :CsatPage.html
+2025-07-18 13:11:10 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 13:11:10 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 13:11:10 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 13:11:37 [main] INFO : Logged in to CSAT Application
+2025-07-18 13:11:40 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 13:11:40 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 13:11:46 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 13:11:47 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 13:11:47 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 13:11:47 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 13:11:47 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 13:11:48 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 13:11:48 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 13:11:48 [main] INFO : Verify Add Contacts button
+2025-07-18 13:11:48 [main] INFO : Add Contacts Button is Available
+2025-07-18 13:11:48 [main] INFO : Verify Edit Contacts button
+2025-07-18 13:11:48 [main] INFO : Edit Contacts Button is Available
+2025-07-18 13:11:48 [main] INFO : Verify Send button
+2025-07-18 13:11:48 [main] INFO : Send Button is Available
+2025-07-18 13:11:49 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 13:11:49 [main] INFO : Selecting Pagination 5
+2025-07-18 13:11:50 [main] INFO : 5 pagination Option Selected
+2025-07-18 13:11:56 [main] INFO : Selecting Pagination 50
+2025-07-18 13:11:56 [main] INFO : 50 pagination Option Selected
+2025-07-18 13:12:02 [main] INFO : Selecting Pagination 100
+2025-07-18 13:12:02 [main] INFO : 100 pagination Option Selected
+2025-07-18 13:12:09 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 13:12:09 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 13:12:13 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 13:12:13 [main] INFO : Member Name Header is Available
+2025-07-18 13:12:13 [main] INFO : Member Role Header is Available
+2025-07-18 13:12:13 [main] INFO : Project Name Header is Available
+2025-07-18 13:12:15 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 13:12:18 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 13:12:18 [main] INFO : Member Name Header is Available
+2025-07-18 13:12:19 [main] INFO : Member Role Header is Available
+2025-07-18 13:12:19 [main] INFO : Project Name Header is Available
+2025-07-18 13:12:21 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 13:12:24 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 13:12:24 [main] INFO : Member Name Header is Available
+2025-07-18 13:12:24 [main] INFO : Member Role Header is Available
+2025-07-18 13:12:24 [main] INFO : Project Name Header is Available
+2025-07-18 13:12:27 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 13:12:27 [main] INFO : Entering Invalid Customer Email :Phani Maddi
+2025-07-18 13:12:34 [main] ERROR: Save Button is Enabled
+2025-07-18 13:12:36 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 13:12:42 [main] ERROR: Save Button is Enabled
+2025-07-18 13:12:45 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 13:12:51 [main] ERROR: Save Button is Enabled
+2025-07-18 13:12:54 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 13:13:06 [main] ERROR: Save Button is Enabled
+2025-07-18 13:13:09 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 13:13:15 [main] ERROR: Save Button is Enabled
+2025-07-18 13:13:17 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 13:13:24 [main] ERROR: Save Button is Enabled
+2025-07-18 13:13:26 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 13:13:32 [main] ERROR: Save Button is Enabled
+2025-07-18 13:13:35 [main] INFO : Validating Adding new in edit popups for Ruddr Projects
+2025-07-18 13:13:37 [main] INFO : Warning message: No existing contacts found. Add a new contact to proceed.
+2025-07-18 13:13:50 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 13:14:05 [main] INFO : Validating Adding an existing contact in Add new contact popup
+2025-07-18 13:14:17 [main] ERROR: Save Button is Enabled
+2025-07-18 13:14:18 [main] INFO : Validating Editing (replacing) a existing customer contact in edit popup for Ruddr Projects
+2025-07-18 13:14:33 [main] INFO : Validating Try to delete customer contact when only one contact is available in edit customer popup for Ruddr Projects
+2025-07-18 13:14:35 [main] ERROR: Delete Button is Enabled
+2025-07-18 13:14:36 [main] INFO : Validating Adding an new contact in Add contact popup
+2025-07-18 13:14:55 [main] INFO : Validating Delete customer contact in edit popup for Rudddr Projects
+2025-07-18 13:15:06 [main] INFO : Validating Send functions correctly in the Ruddr project
+2025-07-18 13:16:07 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='custom-dropdown-menu']/div[text()='Phani Maddi']"}
+  (Session info: chrome=138.0.7204.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [37f2c28f512f73f1b67cbca1eced31d5, findElement {using=xpath, value=//div[@class='custom-dropdown-menu']/div[text()='Phani Maddi']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60971}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60971/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37f2c28f512f73f1b67cbca1eced31d5
+2025-07-18 13:16:09 [main] INFO : Subject Retrieved Based on Survey Type
+2025-07-18 13:16:09 [main] INFO : CriticalRiver Feedback Request: Help Us Improve Your Experience with CR CSAT -  Engagement Level : Dayforce - Netsuite Phase 1
+2025-07-18 13:16:09 [main] INFO : Body Retrieved Based on Survey Type
+2025-07-18 13:16:09 [main] INFO : Anwar: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/eeab57ba768340b78ae4a5cda5d18142
+Anwar: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/eeab57ba768340b78ae4a5cda5d18142
+Phani: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/24ff942849be439f8061cd8d3bb34c0a
+2025-07-18 13:16:10 [main] INFO : Testing Ended
+2025-07-18 13:16:10 [main] INFO : ***********
+2025-07-18 13:52:08 [main] INFO : Launching Chrome Browser
+2025-07-18 13:52:09 [main] INFO : Report Name :CsatPage.html
+2025-07-18 14:00:06 [main] INFO : Launching Chrome Browser
+2025-07-18 14:00:06 [main] INFO : Report Name :CsatPage.html
+2025-07-18 14:00:47 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 14:00:47 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 14:00:47 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 14:01:37 [main] INFO : Logged in to CSAT Application
+2025-07-18 14:01:41 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 14:01:41 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 14:01:47 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 14:01:48 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 14:01:48 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 14:01:48 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 14:01:48 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 14:01:48 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 14:01:48 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 14:01:49 [main] INFO : Verify Add Contacts button
+2025-07-18 14:01:49 [main] INFO : Add Contacts Button is Available
+2025-07-18 14:01:49 [main] INFO : Verify Edit Contacts button
+2025-07-18 14:01:49 [main] INFO : Edit Contacts Button is Available
+2025-07-18 14:01:49 [main] INFO : Verify Send button
+2025-07-18 14:01:49 [main] INFO : Send Button is Available
+2025-07-18 14:01:49 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 14:01:50 [main] INFO : Selecting Pagination 5
+2025-07-18 14:01:50 [main] INFO : 5 pagination Option Selected
+2025-07-18 14:01:56 [main] INFO : Selecting Pagination 50
+2025-07-18 14:01:57 [main] INFO : 50 pagination Option Selected
+2025-07-18 14:02:03 [main] INFO : Selecting Pagination 100
+2025-07-18 14:02:03 [main] INFO : 100 pagination Option Selected
+2025-07-18 14:02:09 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 14:02:10 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 14:02:13 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 14:02:13 [main] INFO : Member Name Header is Available
+2025-07-18 14:02:13 [main] INFO : Member Role Header is Available
+2025-07-18 14:02:13 [main] INFO : Project Name Header is Available
+2025-07-18 14:02:15 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 14:02:19 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 14:02:19 [main] INFO : Member Name Header is Available
+2025-07-18 14:02:19 [main] INFO : Member Role Header is Available
+2025-07-18 14:02:19 [main] INFO : Project Name Header is Available
+2025-07-18 14:02:21 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 14:02:24 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 14:02:24 [main] INFO : Member Name Header is Available
+2025-07-18 14:02:24 [main] INFO : Member Role Header is Available
+2025-07-18 14:02:24 [main] INFO : Project Name Header is Available
+2025-07-18 14:02:27 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 14:02:27 [main] INFO : Entering Invalid Customer Email :Phani Maddi
+2025-07-18 14:02:33 [main] ERROR: Save Button is Enabled
+2025-07-18 14:02:36 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 14:02:36 [main] INFO : Entering Invalid characters in customer name :#$%^&*
+2025-07-18 14:02:42 [main] ERROR: Save Button is Enabled
+2025-07-18 14:02:45 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 14:02:45 [main] INFO : Entering Only Spaces in customer name :   
+2025-07-18 14:02:51 [main] ERROR: Save Button is Enabled
+2025-07-18 14:02:54 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 14:02:54 [main] INFO : Entering  Duplicate Customer contact
+2025-07-18 14:03:07 [main] ERROR: Save Button is Enabled
+2025-07-18 14:03:09 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 14:03:10 [main] INFO : Updating Invalid Customer Email :Phani Maddi
+2025-07-18 14:03:16 [main] ERROR: Save Button is Enabled
+2025-07-18 14:03:18 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 14:03:19 [main] INFO : Updating Invalid Characters in customer name :#$%^&*
+2025-07-18 14:03:25 [main] ERROR: Save Button is Enabled
+2025-07-18 14:03:27 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 14:03:28 [main] INFO : Updating only Spaces in customer name :   
+2025-07-18 14:03:34 [main] ERROR: Save Button is Enabled
+2025-07-18 14:03:37 [main] INFO : Validating Adding new in edit popups for Ruddr Projects
+2025-07-18 14:03:40 [main] INFO : Warning message: No existing contacts found. Add a new contact to proceed.
+2025-07-18 14:03:44 [main] INFO : Entering Customer Name in Edit Contact :Anwar Hussain
+2025-07-18 14:03:45 [main] INFO : Entering Customer Email in Edit Contact :anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-18 14:03:54 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 14:04:01 [main] INFO : Entering Valid Customer Name :Phani Maddi
+2025-07-18 14:04:01 [main] INFO : Entering Valid Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:04:10 [main] INFO : Validating Adding an existing contact in Add new contact popup
+2025-07-18 14:04:21 [main] INFO : Entering Existing Customer Name :Phani Maddi
+2025-07-18 14:04:22 [main] INFO : Entering Existing Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:04:23 [main] ERROR: Save Button is Enabled
+2025-07-18 14:04:24 [main] INFO : Validating Editing (replacing) a existing customer contact in edit popup for Ruddr Projects
+2025-07-18 14:04:33 [main] INFO : Replacing Customer Name :Anwar Hussain
+2025-07-18 14:04:34 [main] INFO : Replacing Customer Email :anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-18 14:04:40 [main] INFO : Validating Try to delete customer contact when only one contact is available in edit customer popup for Ruddr Projects
+2025-07-18 14:04:41 [main] INFO : Delete Button is Disabled
+2025-07-18 14:04:43 [main] INFO : Validating Adding an new contact in Add contact popup
+2025-07-18 14:04:53 [main] INFO : Entering Customer Name :Phani Maddi
+2025-07-18 14:04:54 [main] INFO : Entering Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:05:02 [main] INFO : Validating Delete customer contact in edit popup for Rudddr Projects
+2025-07-18 14:05:08 [main] INFO : Deleting Customer
+2025-07-18 14:05:13 [main] INFO : Validating Send functions correctly in the Ruddr project
+2025-07-18 14:06:15 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='custom-dropdown-menu']/div[text()='Phani Maddi']"}
+  (Session info: chrome=138.0.7204.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee6332d9fee18eab03dc20b387bb7a6a, findElement {value=//div[@class='custom-dropdown-menu']/div[text()='Phani Maddi'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56877}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56877/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ee6332d9fee18eab03dc20b387bb7a6a
+2025-07-18 14:06:17 [main] INFO : Subject Retrieved Based on Survey Type
+2025-07-18 14:06:17 [main] INFO : CriticalRiver Feedback Request: Help Us Improve Your Experience with CR CSAT -  Engagement Level : Dayforce - Netsuite Phase 1
+2025-07-18 14:06:17 [main] INFO : Body Retrieved Based on Survey Type
+2025-07-18 14:06:17 [main] INFO : Phani: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/260994a134f94a0d812b02089329c8dc
+2025-07-18 14:06:19 [main] INFO : Testing Ended
+2025-07-18 14:06:19 [main] INFO : ***********
+2025-07-18 14:12:45 [main] INFO : Launching Chrome Browser
+2025-07-18 14:12:45 [main] INFO : Report Name :CsatPage.html
+2025-07-18 14:12:51 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 14:12:51 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 14:12:51 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 14:13:15 [main] INFO : Logged in to CSAT Application
+2025-07-18 14:13:18 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 14:13:19 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 14:13:24 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 14:13:25 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 14:13:25 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 14:13:25 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 14:13:25 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 14:13:26 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 14:13:26 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 14:13:26 [main] INFO : Verify Add Contacts button
+2025-07-18 14:13:26 [main] INFO : Add Contacts Button is Available
+2025-07-18 14:13:26 [main] INFO : Verify Edit Contacts button
+2025-07-18 14:13:26 [main] INFO : Edit Contacts Button is Available
+2025-07-18 14:13:26 [main] INFO : Verify Send button
+2025-07-18 14:13:26 [main] INFO : Send Button is Available
+2025-07-18 14:13:27 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 14:13:27 [main] INFO : Selecting Pagination 5
+2025-07-18 14:13:28 [main] INFO : 5 pagination Option Selected
+2025-07-18 14:13:34 [main] INFO : Selecting Pagination 50
+2025-07-18 14:13:34 [main] INFO : 50 pagination Option Selected
+2025-07-18 14:13:40 [main] INFO : Selecting Pagination 100
+2025-07-18 14:13:40 [main] INFO : 100 pagination Option Selected
+2025-07-18 14:13:47 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 14:13:47 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 14:13:50 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 14:13:50 [main] INFO : Member Name Header is Available
+2025-07-18 14:13:50 [main] INFO : Member Role Header is Available
+2025-07-18 14:13:50 [main] INFO : Project Name Header is Available
+2025-07-18 14:13:53 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 14:13:56 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 14:13:56 [main] INFO : Member Name Header is Available
+2025-07-18 14:13:56 [main] INFO : Member Role Header is Available
+2025-07-18 14:13:56 [main] INFO : Project Name Header is Available
+2025-07-18 14:13:58 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 14:14:02 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 14:14:02 [main] INFO : Member Name Header is Available
+2025-07-18 14:14:02 [main] INFO : Member Role Header is Available
+2025-07-18 14:14:02 [main] INFO : Project Name Header is Available
+2025-07-18 14:14:04 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 14:14:05 [main] INFO : Entering Invalid Customer Email :Phani Maddi
+2025-07-18 14:14:11 [main] ERROR: Save Button is Enabled
+2025-07-18 14:14:14 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 14:14:14 [main] INFO : Entering Invalid characters in customer name :#$%^&*
+2025-07-18 14:14:21 [main] ERROR: Save Button is Enabled
+2025-07-18 14:14:23 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 14:14:24 [main] INFO : Entering Only Spaces in customer name :   
+2025-07-18 14:14:31 [main] ERROR: Save Button is Enabled
+2025-07-18 14:14:33 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 14:14:33 [main] INFO : Entering  Duplicate Customer contact
+2025-07-18 14:14:47 [main] ERROR: Save Button is Enabled
+2025-07-18 14:14:50 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 14:14:50 [main] INFO : Updating Invalid Customer Email :Phani Maddi
+2025-07-18 14:14:57 [main] ERROR: Save Button is Enabled
+2025-07-18 14:14:59 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 14:15:00 [main] INFO : Updating Invalid Characters in customer name :#$%^&*
+2025-07-18 14:15:06 [main] ERROR: Save Button is Enabled
+2025-07-18 14:15:09 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 14:15:09 [main] INFO : Updating only Spaces in customer name :   
+2025-07-18 14:15:16 [main] ERROR: Save Button is Enabled
+2025-07-18 14:15:18 [main] INFO : Validating Adding new in edit popups for Ruddr Projects
+2025-07-18 14:15:21 [main] INFO : Warning message: No existing contacts found. Add a new contact to proceed.
+2025-07-18 14:15:26 [main] INFO : Entering Customer Name in Edit Contact :Anwar Hussain
+2025-07-18 14:15:26 [main] INFO : Entering Customer Email in Edit Contact :anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-18 14:15:35 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 14:15:42 [main] INFO : Entering Valid Customer Name :Phani Maddi
+2025-07-18 14:15:42 [main] INFO : Entering Valid Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:15:51 [main] INFO : Validating Adding an existing contact in Add new contact popup
+2025-07-18 14:16:02 [main] INFO : Entering Existing Customer Name :Phani Maddi
+2025-07-18 14:16:03 [main] INFO : Entering Existing Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:16:04 [main] ERROR: Save Button is Enabled
+2025-07-18 14:16:05 [main] INFO : Validating Editing (replacing) a existing customer contact in edit popup for Ruddr Projects
+2025-07-18 14:16:15 [main] INFO : Replacing Customer Name :Anwar Hussain
+2025-07-18 14:16:15 [main] INFO : Replacing Customer Email :anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-18 14:16:22 [main] INFO : Validating Try to delete customer contact when only one contact is available in edit customer popup for Ruddr Projects
+2025-07-18 14:16:23 [main] INFO : Delete Button is Disabled
+2025-07-18 14:16:24 [main] INFO : Validating Adding an new contact in Add contact popup
+2025-07-18 14:16:35 [main] INFO : Entering Customer Name :Phani Maddi
+2025-07-18 14:16:35 [main] INFO : Entering Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:16:44 [main] INFO : Validating Delete customer contact in edit popup for Rudddr Projects
+2025-07-18 14:16:49 [main] INFO : Deleting Customer
+2025-07-18 14:16:55 [main] INFO : Validating Send functions correctly in the Ruddr project
+2025-07-18 14:16:59 [main] INFO : Selected Contact
+2025-07-18 14:17:00 [main] INFO : Subject Retrieved Based on Survey Type
+2025-07-18 14:17:00 [main] INFO : CriticalRiver Feedback Request: Help Us Improve Your Experience with CR CSAT -  Engagement Level : Dayforce - Netsuite Phase 1
+2025-07-18 14:17:00 [main] INFO : Body Retrieved Based on Survey Type
+2025-07-18 14:17:00 [main] INFO : Phani: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/2a2c239373af4a68b9c2f7e6ed97c007
+2025-07-18 14:17:01 [main] INFO : Testing Ended
+2025-07-18 14:17:01 [main] INFO : ***********
+2025-07-18 14:19:16 [main] INFO : Launching Chrome Browser
+2025-07-18 14:19:16 [main] INFO : Report Name :CsatPage.html
+2025-07-18 14:19:24 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 14:19:24 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 14:19:24 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 14:19:54 [main] INFO : Logged in to CSAT Application
+2025-07-18 14:19:57 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 14:19:57 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 14:20:03 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 14:20:04 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 14:20:04 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 14:20:04 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 14:20:04 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 14:20:05 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 14:20:05 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 14:20:06 [main] INFO : Verify Add Contacts button
+2025-07-18 14:20:06 [main] INFO : Add Contacts Button is Available
+2025-07-18 14:20:06 [main] INFO : Verify Edit Contacts button
+2025-07-18 14:20:06 [main] INFO : Edit Contacts Button is Available
+2025-07-18 14:20:06 [main] INFO : Verify Send button
+2025-07-18 14:20:06 [main] INFO : Send Button is Available
+2025-07-18 14:20:06 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 14:20:07 [main] INFO : Selecting Pagination 5
+2025-07-18 14:20:07 [main] INFO : 5 pagination Option Selected
+2025-07-18 14:20:13 [main] INFO : Selecting Pagination 50
+2025-07-18 14:20:14 [main] INFO : 50 pagination Option Selected
+2025-07-18 14:20:20 [main] INFO : Selecting Pagination 100
+2025-07-18 14:20:20 [main] INFO : 100 pagination Option Selected
+2025-07-18 14:20:26 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 14:20:27 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 14:20:30 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 14:20:30 [main] INFO : Member Name Header is Available
+2025-07-18 14:20:30 [main] INFO : Member Role Header is Available
+2025-07-18 14:20:30 [main] INFO : Project Name Header is Available
+2025-07-18 14:20:33 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 14:20:36 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 14:20:36 [main] INFO : Member Name Header is Available
+2025-07-18 14:20:36 [main] INFO : Member Role Header is Available
+2025-07-18 14:20:36 [main] INFO : Project Name Header is Available
+2025-07-18 14:20:38 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 14:20:42 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 14:20:42 [main] INFO : Member Name Header is Available
+2025-07-18 14:20:42 [main] INFO : Member Role Header is Available
+2025-07-18 14:20:42 [main] INFO : Project Name Header is Available
+2025-07-18 14:20:44 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 14:20:45 [main] INFO : Entering Invalid Customer Email :Phani Maddi
+2025-07-18 14:20:52 [main] ERROR: Save Button is Enabled
+2025-07-18 14:20:54 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 14:20:55 [main] INFO : Entering Invalid characters in customer name :#$%^&*
+2025-07-18 14:21:02 [main] ERROR: Save Button is Enabled
+2025-07-18 14:21:04 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 14:21:05 [main] INFO : Entering Only Spaces in customer name :   
+2025-07-18 14:21:11 [main] ERROR: Save Button is Enabled
+2025-07-18 14:21:14 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 14:21:14 [main] INFO : Entering  Duplicate Customer contact
+2025-07-18 14:21:29 [main] ERROR: Save Button is Enabled
+2025-07-18 14:21:31 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 14:21:32 [main] INFO : Updating Invalid Customer Email :Phani Maddi
+2025-07-18 14:21:38 [main] ERROR: Save Button is Enabled
+2025-07-18 14:21:41 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 14:21:41 [main] INFO : Updating Invalid Characters in customer name :#$%^&*
+2025-07-18 14:21:48 [main] ERROR: Save Button is Enabled
+2025-07-18 14:21:51 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 14:21:51 [main] INFO : Updating only Spaces in customer name :   
+2025-07-18 14:21:58 [main] ERROR: Save Button is Enabled
+2025-07-18 14:22:01 [main] INFO : Validating Adding new in edit popups for Ruddr Projects
+2025-07-18 14:22:03 [main] INFO : Warning message: No existing contacts found. Add a new contact to proceed.
+2025-07-18 14:22:09 [main] INFO : Entering Customer Name in Edit Contact :Anwar Hussain
+2025-07-18 14:22:09 [main] INFO : Entering Customer Email in Edit Contact :anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-18 14:22:18 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 14:22:25 [main] INFO : Entering Valid Customer Name :Phani Maddi
+2025-07-18 14:22:25 [main] INFO : Entering Valid Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:22:34 [main] INFO : Validating Adding an existing contact in Add new contact popup
+2025-07-18 14:22:46 [main] INFO : Entering Existing Customer Name :Phani Maddi
+2025-07-18 14:22:46 [main] INFO : Entering Existing Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:22:48 [main] ERROR: Save Button is Enabled
+2025-07-18 14:22:49 [main] INFO : Validating Editing (replacing) a existing customer contact in edit popup for Ruddr Projects
+2025-07-18 14:22:58 [main] INFO : Replacing Customer Name :Anwar Hussain
+2025-07-18 14:22:59 [main] INFO : Replacing Customer Email :anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-18 14:23:05 [main] INFO : Validating Try to delete customer contact when only one contact is available in edit customer popup for Ruddr Projects
+2025-07-18 14:23:07 [main] INFO : Delete Button is Disabled
+2025-07-18 14:23:08 [main] INFO : Validating Adding an new contact in Add contact popup
+2025-07-18 14:23:19 [main] INFO : Entering Customer Name :Phani Maddi
+2025-07-18 14:23:20 [main] INFO : Entering Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:23:29 [main] INFO : Validating Delete customer contact in edit popup for Rudddr Projects
+2025-07-18 14:23:35 [main] INFO : Deleting Customer
+2025-07-18 14:23:41 [main] INFO : Validating Send functions correctly in the Ruddr project
+2025-07-18 14:23:45 [main] INFO : Selected Contact
+2025-07-18 14:23:46 [main] INFO : Subject Retrieved Based on Survey Type
+2025-07-18 14:23:46 [main] INFO : CriticalRiver Feedback Request: Help Us Improve Your Experience with CR CSAT -  Engagement Level : Dayforce - Netsuite Phase 1
+2025-07-18 14:23:46 [main] INFO : Body Retrieved Based on Survey Type
+2025-07-18 14:23:46 [main] INFO : Phani: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/dd4c5733c08c450ead2461aa9d938525
+2025-07-18 14:23:48 [main] INFO : Testing Ended
+2025-07-18 14:23:48 [main] INFO : ***********
+2025-07-18 14:29:40 [main] INFO : Launching Chrome Browser
+2025-07-18 14:29:40 [main] INFO : Report Name :CsatPage.html
+2025-07-18 14:29:46 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 14:29:46 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 14:29:46 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 14:30:15 [main] INFO : Logged in to CSAT Application
+2025-07-18 14:30:19 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 14:30:19 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 14:30:25 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 14:30:26 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 14:30:26 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 14:30:26 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 14:30:26 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 14:30:26 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 14:30:27 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 14:30:27 [main] INFO : Verify Add Contacts button
+2025-07-18 14:30:27 [main] INFO : Add Contacts Button is Available
+2025-07-18 14:30:27 [main] INFO : Verify Edit Contacts button
+2025-07-18 14:30:27 [main] INFO : Edit Contacts Button is Available
+2025-07-18 14:30:27 [main] INFO : Verify Send button
+2025-07-18 14:30:27 [main] INFO : Send Button is Available
+2025-07-18 14:30:28 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 14:30:28 [main] INFO : Selecting Pagination 5
+2025-07-18 14:30:29 [main] INFO : 5 pagination Option Selected
+2025-07-18 14:30:35 [main] INFO : Selecting Pagination 50
+2025-07-18 14:30:35 [main] INFO : 50 pagination Option Selected
+2025-07-18 14:30:41 [main] INFO : Selecting Pagination 100
+2025-07-18 14:30:42 [main] INFO : 100 pagination Option Selected
+2025-07-18 14:30:48 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 14:30:48 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 14:30:52 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 14:30:52 [main] INFO : Member Name Header is Available
+2025-07-18 14:30:52 [main] INFO : Member Role Header is Available
+2025-07-18 14:30:52 [main] INFO : Project Name Header is Available
+2025-07-18 14:30:54 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 14:30:57 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 14:30:58 [main] INFO : Member Name Header is Available
+2025-07-18 14:30:58 [main] INFO : Member Role Header is Available
+2025-07-18 14:30:58 [main] INFO : Project Name Header is Available
+2025-07-18 14:31:00 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 14:31:03 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 14:31:03 [main] INFO : Member Name Header is Available
+2025-07-18 14:31:03 [main] INFO : Member Role Header is Available
+2025-07-18 14:31:03 [main] INFO : Project Name Header is Available
+2025-07-18 14:31:06 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 14:31:06 [main] INFO : Entering Invalid Customer Email :Phani Maddi
+2025-07-18 14:31:12 [main] ERROR: Save Button is Enabled
+2025-07-18 14:31:14 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 14:31:15 [main] INFO : Entering Invalid characters in customer name :#$%^&*
+2025-07-18 14:31:20 [main] ERROR: Save Button is Enabled
+2025-07-18 14:31:22 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 14:31:23 [main] INFO : Entering Only Spaces in customer name :   
+2025-07-18 14:31:28 [main] ERROR: Save Button is Enabled
+2025-07-18 14:31:31 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 14:31:31 [main] INFO : Entering  Duplicate Customer contact
+2025-07-18 14:31:42 [main] ERROR: Save Button is Enabled
+2025-07-18 14:31:45 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 14:31:45 [main] INFO : Updating Invalid Customer Email :Phani Maddi
+2025-07-18 14:31:50 [main] ERROR: Save Button is Enabled
+2025-07-18 14:31:53 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 14:31:53 [main] INFO : Updating Invalid Characters in customer name :#$%^&*
+2025-07-18 14:31:58 [main] ERROR: Save Button is Enabled
+2025-07-18 14:32:01 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 14:32:01 [main] INFO : Updating only Spaces in customer name :   
+2025-07-18 14:32:07 [main] ERROR: Save Button is Enabled
+2025-07-18 14:32:09 [main] INFO : Validating Adding new in edit popups for Ruddr Projects
+2025-07-18 14:32:12 [main] INFO : Warning message: No existing contacts found. Add a new contact to proceed.
+2025-07-18 14:32:15 [main] INFO : Entering Customer Name in Edit Contact :Anwar Hussain
+2025-07-18 14:32:16 [main] INFO : Entering Customer Email in Edit Contact :anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-18 14:32:24 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 14:32:30 [main] INFO : Entering Valid Customer Name :Phani Maddi
+2025-07-18 14:32:31 [main] INFO : Entering Valid Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:32:39 [main] INFO : Validating Adding an existing contact in Add new contact popup
+2025-07-18 14:33:17 [main] ERROR: Test Failed :Expected condition failed: waiting for condition to not be valid: Attribute or property 'value' to be ''. Current value: '' (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57949}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57949/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 53945006a2f644d4323d247418d8cf9e
+2025-07-18 14:33:47 [main] ERROR: Test Failed :Expected condition failed: waiting for condition to not be valid: Attribute or property 'value' to be ''. Current value: '' (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57949}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57949/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 53945006a2f644d4323d247418d8cf9e
+2025-07-18 14:33:52 [main] INFO : Entering Existing Customer Name :Phani Maddi
+2025-07-18 14:33:52 [main] INFO : Entering Existing Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:33:54 [main] ERROR: Save Button is Enabled
+2025-07-18 14:34:50 [main] INFO : Launching Chrome Browser
+2025-07-18 14:34:50 [main] INFO : Report Name :CsatPage.html
+2025-07-18 14:34:55 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 14:34:55 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 14:34:55 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 14:35:24 [main] INFO : Logged in to CSAT Application
+2025-07-18 14:35:27 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 14:35:28 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 14:35:33 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 14:35:34 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 14:35:34 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 14:35:34 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 14:35:35 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 14:35:35 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 14:35:35 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 14:35:36 [main] INFO : Verify Add Contacts button
+2025-07-18 14:35:36 [main] INFO : Add Contacts Button is Available
+2025-07-18 14:35:36 [main] INFO : Verify Edit Contacts button
+2025-07-18 14:35:36 [main] INFO : Edit Contacts Button is Available
+2025-07-18 14:35:36 [main] INFO : Verify Send button
+2025-07-18 14:35:36 [main] INFO : Send Button is Available
+2025-07-18 14:35:36 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 14:35:37 [main] INFO : Selecting Pagination 5
+2025-07-18 14:35:37 [main] INFO : 5 pagination Option Selected
+2025-07-18 14:35:43 [main] INFO : Selecting Pagination 50
+2025-07-18 14:35:44 [main] INFO : 50 pagination Option Selected
+2025-07-18 14:35:50 [main] INFO : Selecting Pagination 100
+2025-07-18 14:35:50 [main] INFO : 100 pagination Option Selected
+2025-07-18 14:35:56 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 14:35:57 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 14:36:00 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 14:36:00 [main] INFO : Member Name Header is Available
+2025-07-18 14:36:00 [main] INFO : Member Role Header is Available
+2025-07-18 14:36:00 [main] INFO : Project Name Header is Available
+2025-07-18 14:36:03 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 14:36:06 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 14:36:06 [main] INFO : Member Name Header is Available
+2025-07-18 14:36:06 [main] INFO : Member Role Header is Available
+2025-07-18 14:36:06 [main] INFO : Project Name Header is Available
+2025-07-18 14:36:09 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 14:36:12 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 14:36:12 [main] INFO : Member Name Header is Available
+2025-07-18 14:36:12 [main] INFO : Member Role Header is Available
+2025-07-18 14:36:12 [main] INFO : Project Name Header is Available
+2025-07-18 14:36:14 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 14:36:15 [main] INFO : Entering Invalid Customer Email :Phani Maddi
+2025-07-18 14:36:20 [main] ERROR: Save Button is Enabled
+2025-07-18 14:36:23 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 14:36:23 [main] INFO : Entering Invalid characters in customer name :#$%^&*
+2025-07-18 14:36:29 [main] ERROR: Save Button is Enabled
+2025-07-18 14:36:31 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 14:36:31 [main] INFO : Entering Only Spaces in customer name :   
+2025-07-18 14:36:37 [main] ERROR: Save Button is Enabled
+2025-07-18 14:36:39 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 14:36:40 [main] INFO : Entering  Duplicate Customer contact
+2025-07-18 14:36:51 [main] ERROR: Save Button is Enabled
+2025-07-18 14:36:53 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 14:36:54 [main] INFO : Updating Invalid Customer Email :Phani Maddi
+2025-07-18 14:36:59 [main] ERROR: Save Button is Enabled
+2025-07-18 14:37:01 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 14:37:02 [main] INFO : Updating Invalid Characters in customer name :#$%^&*
+2025-07-18 14:37:07 [main] ERROR: Save Button is Enabled
+2025-07-18 14:37:09 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 14:37:10 [main] INFO : Updating only Spaces in customer name :   
+2025-07-18 14:37:15 [main] ERROR: Save Button is Enabled
+2025-07-18 14:37:18 [main] INFO : Validating Adding new in edit popups for Ruddr Projects
+2025-07-18 14:37:20 [main] INFO : Warning message: No existing contacts found. Add a new contact to proceed.
+2025-07-18 14:37:24 [main] INFO : Entering Customer Name in Edit Contact :Anwar Hussain
+2025-07-18 14:37:24 [main] INFO : Entering Customer Email in Edit Contact :anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-18 14:37:33 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 14:37:39 [main] INFO : Entering Valid Customer Name :Phani Maddi
+2025-07-18 14:37:39 [main] INFO : Entering Valid Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:37:48 [main] INFO : Validating Adding an existing contact in Add new contact popup
+2025-07-18 14:38:00 [main] INFO : Entering Existing Customer Name :Phani Maddi
+2025-07-18 14:38:01 [main] INFO : Entering Existing Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:38:02 [main] ERROR: Save Button is Enabled
+2025-07-18 14:38:03 [main] INFO : Validating Editing (replacing) a existing customer contact in edit popup for Ruddr Projects
+2025-07-18 14:38:11 [main] INFO : Replacing Customer Name :Anwar Hussain
+2025-07-18 14:38:12 [main] INFO : Replacing Customer Email :anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-18 14:38:18 [main] INFO : Validating Try to delete customer contact when only one contact is available in edit customer popup for Ruddr Projects
+2025-07-18 14:38:19 [main] INFO : Delete Button is Disabled
+2025-07-18 14:38:21 [main] INFO : Validating Adding an new contact in Add contact popup
+2025-07-18 14:38:30 [main] INFO : Entering Customer Name :Phani Maddi
+2025-07-18 14:38:31 [main] INFO : Entering Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:38:39 [main] INFO : Validating Delete customer contact in edit popup for Rudddr Projects
+2025-07-18 14:38:45 [main] INFO : Deleting Customer
+2025-07-18 14:38:50 [main] INFO : Validating Send functions correctly in the Ruddr project
+2025-07-18 14:38:54 [main] INFO : Selected Contact
+2025-07-18 14:38:56 [main] INFO : Subject Retrieved Based on Survey Type
+2025-07-18 14:38:56 [main] INFO : CriticalRiver Feedback Request: Help Us Improve Your Experience with CR CSAT -  Engagement Level : Dayforce - Netsuite Phase 1
+2025-07-18 14:38:56 [main] INFO : Body Retrieved Based on Survey Type
+2025-07-18 14:38:56 [main] INFO : Phani: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/411da29aee0b4b3cb519d740df2efa13
+2025-07-18 14:38:57 [main] INFO : Testing Ended
+2025-07-18 14:38:57 [main] INFO : ***********
+2025-07-18 14:42:27 [main] INFO : Launching Chrome Browser
+2025-07-18 14:42:27 [main] INFO : Report Name :CsatPage.html
+2025-07-18 14:43:03 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 14:43:03 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 14:43:03 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 14:44:07 [main] INFO : Launching Chrome Browser
+2025-07-18 14:44:07 [main] INFO : Report Name :CsatPage.html
+2025-07-18 14:44:22 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 14:44:23 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 14:44:23 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 14:44:51 [main] INFO : Logged in to CSAT Application
+2025-07-18 14:44:55 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 14:44:55 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 14:45:01 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 14:45:01 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 14:45:01 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 14:45:02 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 14:45:02 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 14:45:02 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 14:45:02 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 14:45:03 [main] INFO : Verify Add Contacts button
+2025-07-18 14:45:03 [main] INFO : Add Contacts Button is Available
+2025-07-18 14:45:03 [main] INFO : Verify Edit Contacts button
+2025-07-18 14:45:03 [main] INFO : Edit Contacts Button is Available
+2025-07-18 14:45:03 [main] INFO : Verify Send button
+2025-07-18 14:45:03 [main] INFO : Send Button is Available
+2025-07-18 14:45:03 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 14:45:04 [main] INFO : Selecting Pagination 5
+2025-07-18 14:45:04 [main] INFO : 5 pagination Option Selected
+2025-07-18 14:45:10 [main] INFO : Selecting Pagination 50
+2025-07-18 14:45:10 [main] INFO : 50 pagination Option Selected
+2025-07-18 14:45:17 [main] INFO : Selecting Pagination 100
+2025-07-18 14:45:17 [main] INFO : 100 pagination Option Selected
+2025-07-18 14:45:23 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 14:45:24 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 14:45:27 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 14:45:27 [main] INFO : Member Name Header is Available
+2025-07-18 14:45:27 [main] INFO : Member Role Header is Available
+2025-07-18 14:45:27 [main] INFO : Project Name Header is Available
+2025-07-18 14:45:29 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 14:45:32 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 14:45:32 [main] INFO : Member Name Header is Available
+2025-07-18 14:45:33 [main] INFO : Member Role Header is Available
+2025-07-18 14:45:33 [main] INFO : Project Name Header is Available
+2025-07-18 14:45:35 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 14:45:38 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 14:45:38 [main] INFO : Member Name Header is Available
+2025-07-18 14:45:38 [main] INFO : Member Role Header is Available
+2025-07-18 14:45:38 [main] INFO : Project Name Header is Available
+2025-07-18 14:45:41 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 14:45:41 [main] INFO : Entering Invalid Customer Email :Phani Maddi
+2025-07-18 14:45:46 [main] ERROR: Save Button is Enabled
+2025-07-18 14:45:49 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 14:45:49 [main] INFO : Entering Invalid characters in customer name :#$%^&*
+2025-07-18 14:45:54 [main] ERROR: Save Button is Enabled
+2025-07-18 14:45:57 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 14:45:57 [main] INFO : Entering Only Spaces in customer name :   
+2025-07-18 14:46:02 [main] ERROR: Save Button is Enabled
+2025-07-18 14:46:05 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 14:46:05 [main] INFO : Entering  Duplicate Customer contact
+2025-07-18 14:46:16 [main] ERROR: Save Button is Enabled
+2025-07-18 14:46:18 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 14:46:19 [main] INFO : Updating Invalid Customer Email :Phani Maddi
+2025-07-18 14:46:24 [main] ERROR: Save Button is Enabled
+2025-07-18 14:46:26 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 14:46:27 [main] INFO : Updating Invalid Characters in customer name :#$%^&*
+2025-07-18 14:46:32 [main] ERROR: Save Button is Enabled
+2025-07-18 14:46:34 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 14:46:35 [main] INFO : Updating only Spaces in customer name :   
+2025-07-18 14:46:40 [main] ERROR: Save Button is Enabled
+2025-07-18 14:46:42 [main] INFO : Validating Adding new in edit popups for Ruddr Projects
+2025-07-18 14:46:45 [main] INFO : Warning message: No existing contacts found. Add a new contact to proceed.
+2025-07-18 14:46:49 [main] INFO : Entering Customer Name in Edit Contact :Anwar Hussain
+2025-07-18 14:46:49 [main] INFO : Entering Customer Email in Edit Contact :anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-18 14:46:57 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 14:47:03 [main] INFO : Entering Valid Customer Name :Phani Maddi
+2025-07-18 14:47:03 [main] INFO : Entering Valid Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:47:12 [main] INFO : Validating Adding an existing contact in Add new contact popup
+2025-07-18 14:47:26 [main] INFO : Entering Existing Customer Name :Phani Maddi
+2025-07-18 14:47:26 [main] INFO : Entering Existing Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:47:28 [main] ERROR: Save Button is Enabled
+2025-07-18 14:47:29 [main] INFO : Validating Editing (replacing) a existing customer contact in edit popup for Ruddr Projects
+2025-07-18 14:47:37 [main] INFO : Replacing Customer Name :Anwar Hussain
+2025-07-18 14:47:37 [main] INFO : Replacing Customer Email :anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-18 14:47:44 [main] INFO : Validating Try to delete customer contact when only one contact is available in edit customer popup for Ruddr Projects
+2025-07-18 14:47:45 [main] INFO : Delete Button is Disabled
+2025-07-18 14:47:46 [main] INFO : Validating Adding an new contact in Add contact popup
+2025-07-18 14:47:56 [main] INFO : Entering Customer Name :Phani Maddi
+2025-07-18 14:47:57 [main] INFO : Entering Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:48:05 [main] INFO : Validating Delete customer contact in edit popup for Rudddr Projects
+2025-07-18 14:48:11 [main] INFO : Deleting Customer
+2025-07-18 14:48:17 [main] INFO : Validating Send functions correctly in the Ruddr project
+2025-07-18 14:48:21 [main] INFO : Selected Contact
+2025-07-18 14:48:22 [main] INFO : Subject Retrieved Based on Survey Type
+2025-07-18 14:48:22 [main] INFO : CriticalRiver Feedback Request: Help Us Improve Your Experience with CR CSAT -  Engagement Level : Dayforce - Netsuite Phase 1
+2025-07-18 14:48:22 [main] INFO : Body Retrieved Based on Survey Type
+2025-07-18 14:48:22 [main] INFO : Phani: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/e89147804ed945a78b05bdf7f976107e
+2025-07-18 14:48:24 [main] INFO : Testing Ended
+2025-07-18 14:48:24 [main] INFO : ***********
+2025-07-18 14:49:40 [main] INFO : Launching Chrome Browser
+2025-07-18 14:49:40 [main] INFO : Report Name :CsatPage.html
+2025-07-18 14:49:47 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 14:49:47 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 14:49:47 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 14:50:16 [main] INFO : Logged in to CSAT Application
+2025-07-18 14:50:20 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 14:50:20 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 14:50:26 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 14:50:27 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 14:50:27 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 14:50:27 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 14:50:28 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 14:50:28 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 14:50:28 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 14:50:29 [main] INFO : Verify Add Contacts button
+2025-07-18 14:50:29 [main] INFO : Add Contacts Button is Available
+2025-07-18 14:50:29 [main] INFO : Verify Edit Contacts button
+2025-07-18 14:50:29 [main] INFO : Edit Contacts Button is Available
+2025-07-18 14:50:29 [main] INFO : Verify Send button
+2025-07-18 14:50:29 [main] INFO : Send Button is Available
+2025-07-18 14:50:29 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 14:50:30 [main] INFO : Selecting Pagination 5
+2025-07-18 14:50:30 [main] INFO : 5 pagination Option Selected
+2025-07-18 14:50:37 [main] INFO : Selecting Pagination 50
+2025-07-18 14:50:37 [main] INFO : 50 pagination Option Selected
+2025-07-18 14:50:43 [main] INFO : Selecting Pagination 100
+2025-07-18 14:50:43 [main] INFO : 100 pagination Option Selected
+2025-07-18 14:50:50 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 14:50:50 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 14:50:53 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 14:50:53 [main] INFO : Member Name Header is Available
+2025-07-18 14:50:53 [main] INFO : Member Role Header is Available
+2025-07-18 14:50:53 [main] INFO : Project Name Header is Available
+2025-07-18 14:50:56 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 14:50:59 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 14:50:59 [main] INFO : Member Name Header is Available
+2025-07-18 14:50:59 [main] INFO : Member Role Header is Available
+2025-07-18 14:50:59 [main] INFO : Project Name Header is Available
+2025-07-18 14:51:01 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 14:51:05 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 14:51:05 [main] INFO : Member Name Header is Available
+2025-07-18 14:51:05 [main] INFO : Member Role Header is Available
+2025-07-18 14:51:05 [main] INFO : Project Name Header is Available
+2025-07-18 14:51:08 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 14:51:08 [main] INFO : Entering Invalid Customer Email :Phani Maddi
+2025-07-18 14:51:14 [main] ERROR: Save Button is Enabled
+2025-07-18 14:51:16 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 14:51:17 [main] INFO : Entering Invalid characters in customer name :#$%^&*
+2025-07-18 14:51:23 [main] ERROR: Save Button is Enabled
+2025-07-18 14:51:25 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 14:51:26 [main] INFO : Entering Only Spaces in customer name :   
+2025-07-18 14:51:31 [main] ERROR: Save Button is Enabled
+2025-07-18 14:51:34 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 14:51:34 [main] INFO : Entering  Duplicate Customer contact
+2025-07-18 14:51:46 [main] ERROR: Save Button is Enabled
+2025-07-18 14:51:49 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 14:51:49 [main] INFO : Updating Invalid Customer Email :Phani Maddi
+2025-07-18 14:51:55 [main] ERROR: Save Button is Enabled
+2025-07-18 14:51:57 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 14:51:58 [main] INFO : Updating Invalid Characters in customer name :#$%^&*
+2025-07-18 14:52:03 [main] ERROR: Save Button is Enabled
+2025-07-18 14:52:06 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 14:52:06 [main] INFO : Updating only Spaces in customer name :   
+2025-07-18 14:52:12 [main] ERROR: Save Button is Enabled
+2025-07-18 14:52:15 [main] INFO : Validating Adding new in edit popups for Ruddr Projects
+2025-07-18 14:52:18 [main] INFO : Warning message: No existing contacts found. Add a new contact to proceed.
+2025-07-18 14:52:21 [main] INFO : Entering Customer Name in Edit Contact :Anwar Hussain
+2025-07-18 14:52:22 [main] INFO : Entering Customer Email in Edit Contact :anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-18 14:52:31 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 14:52:37 [main] INFO : Entering Valid Customer Name :Phani Maddi
+2025-07-18 14:52:37 [main] INFO : Entering Valid Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:52:46 [main] INFO : Validating Adding an existing contact in Add new contact popup
+2025-07-18 14:52:56 [main] INFO : Entering Existing Customer Name :Phani Maddi
+2025-07-18 14:52:57 [main] INFO : Entering Existing Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:52:58 [main] ERROR: Save Button is Enabled
+2025-07-18 14:52:59 [main] INFO : Validating Editing (replacing) a existing customer contact in edit popup for Ruddr Projects
+2025-07-18 14:53:11 [main] INFO : Replacing Customer Name :Anwar Hussain
+2025-07-18 14:53:12 [main] INFO : Replacing Customer Email :anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-18 14:53:18 [main] INFO : Validating Try to delete customer contact when only one contact is available in edit customer popup for Ruddr Projects
+2025-07-18 14:53:19 [main] INFO : Delete Button is Disabled
+2025-07-18 14:53:21 [main] INFO : Validating Adding an new contact in Add contact popup
+2025-07-18 14:53:30 [main] INFO : Entering Customer Name :Phani Maddi
+2025-07-18 14:53:31 [main] INFO : Entering Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:53:40 [main] INFO : Validating Delete customer contact in edit popup for Rudddr Projects
+2025-07-18 14:53:46 [main] INFO : Deleting Customer
+2025-07-18 14:53:52 [main] INFO : Validating Send functions correctly in the Ruddr project
+2025-07-18 14:53:56 [main] INFO : Selected Contact
+2025-07-18 14:53:57 [main] INFO : Subject Retrieved Based on Survey Type
+2025-07-18 14:53:57 [main] INFO : CriticalRiver Feedback Request: Help Us Improve Your Experience with CR CSAT -  Engagement Level : Dayforce - Netsuite Phase 1
+2025-07-18 14:53:57 [main] INFO : Body Retrieved Based on Survey Type
+2025-07-18 14:53:57 [main] INFO : Anwar: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/224486cd91d744b89a6037c5a31dad98
+2025-07-18 14:53:59 [main] INFO : Testing Ended
+2025-07-18 14:53:59 [main] INFO : ***********
+2025-07-18 14:54:44 [main] INFO : Launching Chrome Browser
+2025-07-18 14:54:44 [main] INFO : Report Name :CsatPage.html
+2025-07-18 14:54:49 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 14:54:49 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 14:54:49 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 14:55:22 [main] INFO : Logged in to CSAT Application
+2025-07-18 14:55:26 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 14:55:26 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 14:55:32 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 14:55:33 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 14:55:33 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 14:55:33 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 14:55:33 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 14:55:33 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 14:55:34 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 14:55:34 [main] INFO : Verify Add Contacts button
+2025-07-18 14:55:34 [main] INFO : Add Contacts Button is Available
+2025-07-18 14:55:34 [main] INFO : Verify Edit Contacts button
+2025-07-18 14:55:34 [main] INFO : Edit Contacts Button is Available
+2025-07-18 14:55:34 [main] INFO : Verify Send button
+2025-07-18 14:55:34 [main] INFO : Send Button is Available
+2025-07-18 14:55:35 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 14:55:35 [main] INFO : Selecting Pagination 5
+2025-07-18 14:55:35 [main] INFO : 5 pagination Option Selected
+2025-07-18 14:55:42 [main] INFO : Selecting Pagination 50
+2025-07-18 14:55:42 [main] INFO : 50 pagination Option Selected
+2025-07-18 14:55:48 [main] INFO : Selecting Pagination 100
+2025-07-18 14:55:48 [main] INFO : 100 pagination Option Selected
+2025-07-18 14:55:54 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 14:55:55 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 14:55:58 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 14:55:58 [main] INFO : Member Name Header is Available
+2025-07-18 14:55:58 [main] INFO : Member Role Header is Available
+2025-07-18 14:55:58 [main] INFO : Project Name Header is Available
+2025-07-18 14:56:00 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 14:56:04 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 14:56:04 [main] INFO : Member Name Header is Available
+2025-07-18 14:56:04 [main] INFO : Member Role Header is Available
+2025-07-18 14:56:04 [main] INFO : Project Name Header is Available
+2025-07-18 14:56:06 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 14:56:09 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 14:56:09 [main] INFO : Member Name Header is Available
+2025-07-18 14:56:09 [main] INFO : Member Role Header is Available
+2025-07-18 14:56:09 [main] INFO : Project Name Header is Available
+2025-07-18 14:56:12 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 14:56:12 [main] INFO : Entering Invalid Customer Email :Phani Maddi
+2025-07-18 14:56:18 [main] ERROR: Save Button is Enabled
+2025-07-18 14:56:20 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 14:56:20 [main] INFO : Entering Invalid characters in customer name :#$%^&*
+2025-07-18 14:56:26 [main] ERROR: Save Button is Enabled
+2025-07-18 14:56:28 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 14:56:29 [main] INFO : Entering Only Spaces in customer name :   
+2025-07-18 14:56:34 [main] ERROR: Save Button is Enabled
+2025-07-18 14:56:36 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 14:56:37 [main] INFO : Entering  Duplicate Customer contact
+2025-07-18 14:56:47 [main] ERROR: Save Button is Enabled
+2025-07-18 14:56:50 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 14:56:50 [main] INFO : Updating Invalid Customer Email :Phani Maddi
+2025-07-18 14:56:55 [main] ERROR: Save Button is Enabled
+2025-07-18 14:56:58 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 14:56:58 [main] INFO : Updating Invalid Characters in customer name :#$%^&*
+2025-07-18 14:57:03 [main] ERROR: Save Button is Enabled
+2025-07-18 14:57:06 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 14:57:06 [main] INFO : Updating only Spaces in customer name :   
+2025-07-18 14:57:11 [main] ERROR: Save Button is Enabled
+2025-07-18 14:57:14 [main] INFO : Validating Adding new in edit popups for Ruddr Projects
+2025-07-18 14:57:16 [main] INFO : Warning message: No existing contacts found. Add a new contact to proceed.
+2025-07-18 14:57:20 [main] INFO : Entering Customer Name in Edit Contact :Anwar Hussain
+2025-07-18 14:57:20 [main] INFO : Entering Customer Email in Edit Contact :anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-18 14:57:29 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 14:57:34 [main] INFO : Entering Valid Customer Name :Phani Maddi
+2025-07-18 14:57:35 [main] INFO : Entering Valid Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:57:43 [main] INFO : Validating Adding an existing contact in Add new contact popup
+2025-07-18 14:57:53 [main] INFO : Entering Existing Customer Name :Phani Maddi
+2025-07-18 14:57:54 [main] INFO : Entering Existing Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:57:55 [main] ERROR: Save Button is Enabled
+2025-07-18 14:57:56 [main] INFO : Validating Editing (replacing) a existing customer contact in edit popup for Ruddr Projects
+2025-07-18 14:58:08 [main] INFO : Replacing Customer Name :Anwar Hussain
+2025-07-18 14:58:09 [main] INFO : Replacing Customer Email :anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-18 14:58:15 [main] INFO : Validating Try to delete customer contact when only one contact is available in edit customer popup for Ruddr Projects
+2025-07-18 14:58:16 [main] INFO : Delete Button is Disabled
+2025-07-18 14:58:17 [main] INFO : Validating Adding an new contact in Add contact popup
+2025-07-18 14:58:27 [main] INFO : Entering Customer Name :Phani Maddi
+2025-07-18 14:58:27 [main] INFO : Entering Customer Email :phani.maddi@criticalriver.com
+2025-07-18 14:58:35 [main] ERROR: Test Failed :element click intercepted: Element <button class="Project-action-button Project-edit-contacts-button" title="Edit Contacts">...</button> is not clickable at point (2425, 505). Other element would receive the click: <div class="MuiDialog-container MuiDialog-scrollPaper css-8azq84" role="presentation" tabindex="-1" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);">...</div>
+  (Session info: chrome=138.0.7204.102)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f72a0a4aea889cdb6db9da014b8264cf, clickElement {id=f.48D5224401819F4E9C7EC9C7A218DBBC.d.48C5AF5A9E3F9CA3C3734C171653DF26.e.460}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.102, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59157}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59157/devtoo..., se:cdpVersion: 138.0.7204.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f72a0a4aea889cdb6db9da014b8264cf)] -> xpath: //button[text()='Dayforce - Netsuite Phase 1']/parent::td/following-sibling::td[@class='Project-action-cell']/div/button[@title='Edit Contacts']]
+Session ID: f72a0a4aea889cdb6db9da014b8264cf
+2025-07-18 14:59:36 [main] ERROR: Cancel Button Not Available
+2025-07-18 14:59:36 [main] INFO : Validating Delete customer contact in edit popup for Rudddr Projects
+2025-07-18 14:59:42 [main] INFO : Deleting Customer
+2025-07-18 14:59:48 [main] INFO : Validating Send functions correctly in the Ruddr project
+2025-07-18 14:59:52 [main] INFO : Selected Contact
+2025-07-18 14:59:54 [main] INFO : Subject Retrieved Based on Survey Type
+2025-07-18 14:59:54 [main] INFO : CriticalRiver Feedback Request: Help Us Improve Your Experience with CR CSAT -  Engagement Level : Dayforce - Netsuite Phase 1
+2025-07-18 14:59:54 [main] INFO : Body Retrieved Based on Survey Type
+2025-07-18 14:59:54 [main] INFO : Anwar: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/7b640d6a1ca545928e61789fab4450a3
+2025-07-18 15:01:29 [main] INFO : Launching Chrome Browser
+2025-07-18 15:01:29 [main] INFO : Report Name :CsatPage.html
+2025-07-18 15:01:36 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-18 15:01:36 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-18 15:01:36 [main] INFO : Inside Login Page: LOGIN
+2025-07-18 15:02:00 [main] INFO : Logged in to CSAT Application
+2025-07-18 15:02:04 [main] INFO : Validating Project Ending In Filter for Ruddr Projects
+2025-07-18 15:02:04 [main] INFO : Selecting Ruddr Projects Project Type Option
+2025-07-18 15:02:10 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-18 15:02:11 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-18 15:02:11 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-18 15:02:11 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-18 15:02:11 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-18 15:02:12 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-18 15:02:12 [main] INFO : Validating Available Button for Ruddr Projects
+2025-07-18 15:02:13 [main] INFO : Verify Add Contacts button
+2025-07-18 15:02:13 [main] INFO : Add Contacts Button is Available
+2025-07-18 15:02:13 [main] INFO : Verify Edit Contacts button
+2025-07-18 15:02:13 [main] INFO : Edit Contacts Button is Available
+2025-07-18 15:02:13 [main] INFO : Verify Send button
+2025-07-18 15:02:13 [main] INFO : Send Button is Available
+2025-07-18 15:02:13 [main] INFO : Validating Pagination Functionality for Ruddr Projects
+2025-07-18 15:02:14 [main] INFO : Selecting Pagination 5
+2025-07-18 15:02:14 [main] INFO : 5 pagination Option Selected
+2025-07-18 15:02:20 [main] INFO : Selecting Pagination 50
+2025-07-18 15:02:21 [main] INFO : 50 pagination Option Selected
+2025-07-18 15:02:27 [main] INFO : Selecting Pagination 100
+2025-07-18 15:02:27 [main] INFO : 100 pagination Option Selected
+2025-07-18 15:02:33 [main] INFO : Validating Project Popup is displayed with valid header and columns for ruddr projects
+2025-07-18 15:02:34 [main] INFO : Verifying Infineon_Scrum Master_0525_1125 Popup 
+2025-07-18 15:02:37 [main] INFO : Header is Valid: Ruddr Project Details - Infineon_Scrum Master_0525_1125
+2025-07-18 15:02:37 [main] INFO : Member Name Header is Available
+2025-07-18 15:02:37 [main] INFO : Member Role Header is Available
+2025-07-18 15:02:37 [main] INFO : Project Name Header is Available
+2025-07-18 15:02:40 [main] INFO : Verifying Dayforce - Netsuite Phase 1 Popup 
+2025-07-18 15:02:43 [main] INFO : Header is Valid: Ruddr Project Details - Dayforce - Netsuite Phase 1
+2025-07-18 15:02:43 [main] INFO : Member Name Header is Available
+2025-07-18 15:02:43 [main] INFO : Member Role Header is Available
+2025-07-18 15:02:43 [main] INFO : Project Name Header is Available
+2025-07-18 15:02:46 [main] INFO : Verifying Notice Period Activities Popup 
+2025-07-18 15:02:49 [main] INFO : Header is Valid: Ruddr Project Details - Notice Period Activities
+2025-07-18 15:02:49 [main] INFO : Member Name Header is Available
+2025-07-18 15:02:49 [main] INFO : Member Role Header is Available
+2025-07-18 15:02:49 [main] INFO : Project Name Header is Available
+2025-07-18 15:02:51 [main] INFO : Validating Invalid email format in customer email field in add contact popup for ruddr projects
+2025-07-18 15:02:52 [main] INFO : Entering Invalid Customer Email :Phani Maddi
+2025-07-18 15:02:57 [main] ERROR: Save Button is Enabled
+2025-07-18 15:03:00 [main] INFO : Validating Invalid characters in customer name field in add contact popup for ruddr projects
+2025-07-18 15:03:00 [main] INFO : Entering Invalid characters in customer name :#$%^&*
+2025-07-18 15:03:06 [main] ERROR: Save Button is Enabled
+2025-07-18 15:03:08 [main] INFO : Validating adding only spaces in customer name field in add contact popup for ruddr projects
+2025-07-18 15:03:08 [main] INFO : Entering Only Spaces in customer name :   
+2025-07-18 15:03:14 [main] ERROR: Save Button is Enabled
+2025-07-18 15:03:16 [main] INFO : Validating Add Duplicate Customer Contact for Ruddr Projects
+2025-07-18 15:03:17 [main] INFO : Entering  Duplicate Customer contact
+2025-07-18 15:03:28 [main] ERROR: Save Button is Enabled
+2025-07-18 15:03:30 [main] INFO : Validating Invalid email format in customer email field in edit contact popup for ruddr projects
+2025-07-18 15:03:31 [main] INFO : Updating Invalid Customer Email :Phani Maddi
+2025-07-18 15:03:36 [main] ERROR: Save Button is Enabled
+2025-07-18 15:03:39 [main] INFO : Validating Invalid characters in customer name field in edit contact popup for ruddr projects
+2025-07-18 15:03:39 [main] INFO : Updating Invalid Characters in customer name :#$%^&*
+2025-07-18 15:03:44 [main] ERROR: Save Button is Enabled
+2025-07-18 15:03:47 [main] INFO : Validating adding only spaces in customer name field in edit contact popup for ruddr projects
+2025-07-18 15:03:47 [main] INFO : Updating only Spaces in customer name :   
+2025-07-18 15:03:53 [main] ERROR: Save Button is Enabled
+2025-07-18 15:03:55 [main] INFO : Validating Adding new in edit popups for Ruddr Projects
+2025-07-18 15:03:58 [main] INFO : Warning message: No existing contacts found. Add a new contact to proceed.
+2025-07-18 15:04:02 [main] INFO : Entering Customer Name in Edit Contact :Anwar Hussain
+2025-07-18 15:04:02 [main] INFO : Entering Customer Email in Edit Contact :anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-18 15:04:10 [main] INFO : Validating Add Valid Contact Functionality for Ruddr Projects
+2025-07-18 15:04:16 [main] INFO : Entering Valid Customer Name :Phani Maddi
+2025-07-18 15:04:17 [main] INFO : Entering Valid Customer Email :phani.maddi@criticalriver.com
+2025-07-18 15:04:25 [main] INFO : Validating Adding an existing contact in Add new contact popup
+2025-07-18 15:04:35 [main] INFO : Entering Existing Customer Name :Phani Maddi
+2025-07-18 15:04:36 [main] INFO : Entering Existing Customer Email :phani.maddi@criticalriver.com
+2025-07-18 15:04:37 [main] ERROR: Save Button is Enabled
+2025-07-18 15:04:38 [main] INFO : Validating Editing (replacing) a existing customer contact in edit popup for Ruddr Projects
+2025-07-18 15:04:51 [main] INFO : Replacing Customer Name :Anwar Hussain
+2025-07-18 15:04:51 [main] INFO : Replacing Customer Email :anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-18 15:04:58 [main] INFO : Validating Try to delete customer contact when only one contact is available in edit customer popup for Ruddr Projects
+2025-07-18 15:04:59 [main] INFO : Delete Button is Disabled
+2025-07-18 15:05:00 [main] INFO : Validating Adding an new contact in Add contact popup
+2025-07-18 15:05:10 [main] INFO : Entering Customer Name :Phani Maddi
+2025-07-18 15:05:10 [main] INFO : Entering Customer Email :phani.maddi@criticalriver.com
+2025-07-18 15:05:24 [main] INFO : Validating Delete customer contact in edit popup for Rudddr Projects
+2025-07-18 15:05:30 [main] INFO : Deleting Customer
+2025-07-18 15:05:36 [main] INFO : Validating Send functions correctly in the Ruddr project
+2025-07-18 15:05:40 [main] INFO : Selected Contact
+2025-07-18 15:05:41 [main] INFO : Subject Retrieved Based on Survey Type
+2025-07-18 15:05:41 [main] INFO : CriticalRiver Feedback Request: Help Us Improve Your Experience with CR CSAT -  Engagement Level : Dayforce - Netsuite Phase 1
+2025-07-18 15:05:41 [main] INFO : Body Retrieved Based on Survey Type
+2025-07-18 15:05:41 [main] INFO : Anwar: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/649a1f3986b24de48b33dd40b02e5e1f
+2025-07-18 15:05:43 [main] INFO : Testing Ended
+2025-07-18 15:05:43 [main] INFO : ***********

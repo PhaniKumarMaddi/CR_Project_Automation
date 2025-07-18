@@ -101,6 +101,8 @@ public class CSAT_Project_Page extends WaitsManager {
 	// Ruddr Project popup
 	By ruddrprojectHeader = By.xpath("//h6[@class='MuiTypography-root MuiTypography-h6 css-1rl0qlz']");
 	By closeRuddrBtn = By.cssSelector("button.Ruddr-close-btn");
+	By editPopupWarnMsg = By.xpath("//div[@class='MuiDialogContent-root Project-dialog-content css-1nbx5hx']/p");
+	By deleteIconRuddrPrject = By.xpath("//img[@alt='Delete Icon']/parent::button");
 
 	public void headerValidation() throws Exception {
 		try {
@@ -1211,10 +1213,33 @@ public class CSAT_Project_Page extends WaitsManager {
 			if (elementExists) {
 				List<WebElement> custName = driver.findElements(customerFullName);
 				if (custName.size() > 0) {
-					waitForElement(customerFullName, 60);
+					waitForElementToBeClickable(customerFullName, 60);
+
 					custName.getLast().clear();
-					waitTime(driver);
+					waitTime1(driver);
 					custName.getLast().sendKeys(custNameValue);
+				}
+			} else {
+				grep.failTest("Customer Name not available");
+				logger.error("Customer Name not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void clearCustomerName() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(customerFullName).isEmpty();
+			if (elementExists) {
+				List<WebElement> custName = driver.findElements(customerFullName);
+				if (custName.size() > 0) {
+					waitForElement(customerFullName, 30);
+					WebElement lastElement = custName.get(custName.size() - 1);
+					lastElement.sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
 				}
 			} else {
 				grep.failTest("Customer Name not available");
@@ -1234,7 +1259,7 @@ public class CSAT_Project_Page extends WaitsManager {
 			if (elementExists) {
 				List<WebElement> custEmail = driver.findElements(customerEmail);
 				if (custEmail.size() > 0) {
-					waitForElement(customerEmail, 60);
+					waitForElementToBeClickable(customerEmail, 60);
 					waitTime(driver);
 					custEmail.getLast().clear();
 					waitTime(driver);
@@ -1243,6 +1268,28 @@ public class CSAT_Project_Page extends WaitsManager {
 			} else {
 				grep.failTest("Customer Email not available");
 				logger.error("Customer Email not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void clearCustomerEmail() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(customerEmail).isEmpty();
+			if (elementExists) {
+				List<WebElement> custEmail = driver.findElements(customerEmail);
+				if (custEmail.size() > 0) {
+					waitForElement(customerEmail, 30);
+					WebElement lastElement = custEmail.get(custEmail.size() - 1);
+					lastElement.sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				}
+			} else {
+				grep.failTest("Customer Name not available");
+				logger.error("Customer Name not available");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -1521,7 +1568,6 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 	}
 
-
 	public void clickSelectContact(String option) throws Exception {
 		try {
 			By selectContactOption = By.xpath("//div[@class='custom-dropdown-menu']/div[text()='" + option + "']");
@@ -1780,6 +1826,75 @@ public class CSAT_Project_Page extends WaitsManager {
 			} else {
 				grep.failTest("Ruddr Close button not available");
 				logger.error("Ruddr Close button not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void getEditPopupWarningMessage() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(editPopupWarnMsg).isEmpty();
+			if (elementExists) {
+				waitForElement(editPopupWarnMsg, 30);
+				String verifyMsg = driver.findElement(editPopupWarnMsg).getText();
+
+				logger.info("Warning message: " + verifyMsg);
+				grep.passTest("Warning message: " + verifyMsg);
+			} else {
+				logger.error("Warning message Not Available");
+				grep.failTest("Warning message Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void verifyDeleteDisable() throws Exception {
+
+		try {
+			implWait(driver);
+			boolean elementexists = !driver.findElements(deleteIconRuddrPrject).isEmpty();
+			if (elementexists) {
+				WebElement btn = driver.findElement(deleteIconRuddrPrject);
+				if (btn.isEnabled()) {
+					grep.failTest("Delete Button is Enabled");
+					logger.error("Delete Button is Enabled");
+				} else {
+					grep.passTest("Delete Button is Disabled");
+					logger.info("Delete Button is Disabled");
+
+				}
+
+			} else {
+				grep.failTest(" Delete Button Not Available");
+				logger.error("Delete Button Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void deleteCustomerContactInRuddr() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(deleteIconRuddrPrject).isEmpty();
+			if (elementExists) {
+				List<WebElement> delete = driver.findElements(deleteIconRuddrPrject);
+				if (delete.size() > 0) {
+					waitForElement(deleteIconRuddrPrject, 60);
+					delete.getLast().click();
+				}
+			} else {
+				grep.failTest("Delete Customer Contact button not available");
+				logger.error("Delete Customer Contact button not available");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
