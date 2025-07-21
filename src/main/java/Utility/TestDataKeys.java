@@ -1,7 +1,5 @@
 package Utility;
 
-import org.openqa.selenium.By;
-
 public class TestDataKeys {
 
 	public String UserName = "8qtobCWIuA7cb0a";
@@ -42,7 +40,9 @@ public class TestDataKeys {
 
 	public String ssoUserNameDev = "anwar_hussain@skillsynccr.onmicrosoft.com";
 	public String ssoPasswordDev = "Solu598232";
-
+//	public String ssoUserNameDev = "jhansi_raj@skillsynccr.onmicrosoft.com";
+//	public String ssoPasswordDev = "Guta565967#";
+	
 	// pages url
 	public String project_Url = "/projects";
 	public String survey_Url = "/surveys";
@@ -139,9 +139,9 @@ public class TestDataKeys {
 //	public String projectName = "Apollo CRM Upgrade";
 
 	// Create New Project
-	public String newProjectName = "CSAT Automation Project";
+	public String newProjectName = "CSAT Project Automation";
 	public String duplicateProjectName = "CSAT Test";
-	public String invalidName = "#$%^&* ";
+	public String invalidName = "#$%^&*";
 	public String spacesInName = "    ";
 
 	public String projectDesc = "For Automating The CSAT Application";

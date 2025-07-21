@@ -405,7 +405,7 @@ public class CSAT_Project_Page extends WaitsManager {
 
 			boolean elementexists = !driver.findElements(button).isEmpty();
 			if (elementexists) {
-				waitForElement(button, 60);
+				waitForElementToBeClickable(button, 60);
 				driver.findElement(button).click();
 
 			} else {
@@ -1622,8 +1622,8 @@ public class CSAT_Project_Page extends WaitsManager {
 				}
 
 			} else {
-				logger.info("Project list is not available");
-				grep.infoTest("Project list is not available");
+				logger.error("Project list is not available");
+				grep.failTest("Project list is not available");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

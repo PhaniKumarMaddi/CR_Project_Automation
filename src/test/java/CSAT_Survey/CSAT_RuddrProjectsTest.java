@@ -177,7 +177,8 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 		csatProject.insertCustomerEmail(dataKeys.customerContactInvalidEmail);
 
 		waitTime(driver);
-		csatProject.verifyButtonDisable(dataKeys.saveBtn);
+//		csatProject.verifyButtonDisable(dataKeys.saveBtn);
+		csatProject.getCustomerEmailError();
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Entering Invalid Email Format in add contacts page",
 				"AddCont_RuddrProject_InvalidEmailformat");
@@ -200,7 +201,9 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 		csatProject.insertCustomerName(dataKeys.invalidName);
 		csatProject.insertCustomerEmail(dataKeys.customerContactEmail);
 
-		csatProject.verifyButtonDisable(dataKeys.saveBtn);
+//		csatProject.verifyButtonDisable(dataKeys.saveBtn);
+		csatProject.getCustomerNameError();
+		waitTime(driver);
 
 		grep.captureScreenshot("pass", "Entering Invalid Name in add contacts page",
 				"AddCont_RuddrProject_InvalidName");
@@ -224,7 +227,9 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 		csatProject.insertCustomerName(dataKeys.spacesInName);
 		csatProject.insertCustomerEmail(dataKeys.customerContactEmail);
 
-		csatProject.verifyButtonDisable(dataKeys.saveBtn);
+//		csatProject.verifyButtonDisable(dataKeys.saveBtn);
+		csatProject.getCustomerNameError();
+		waitTime(driver);
 
 		grep.captureScreenshot("pass", "Entering Only Spacesin Name for add contacts page",
 				"AddCont_RuddrProject_SpacesInName");
@@ -254,7 +259,9 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 		csatProject.insertCustomerName(dataKeys.customerContactName);
 		csatProject.insertCustomerEmail(dataKeys.customerContactEmail);
 		waitTime(driver);
-		csatProject.verifyButtonDisable(dataKeys.saveBtn);
+//		csatProject.verifyButtonDisable(dataKeys.saveBtn);
+		csatProject.getCustomerEmailError();
+		waitTime(driver);
 
 		grep.captureScreenshot("pass", "Avoid Entering Duplicate contacts for add contacts page",
 				"AddCont_RuddrProject_DuplicateContacts");
@@ -278,7 +285,9 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 		csatProject.insertCustomerName(dataKeys.customerContactName);
 		csatProject.insertCustomerEmail(dataKeys.customerContactInvalidEmail);
 
-		csatProject.verifyButtonDisable(dataKeys.saveBtn);
+//		csatProject.verifyButtonDisable(dataKeys.saveBtn);
+		csatProject.getCustomerEmailError();
+		waitTime(driver);
 
 		grep.captureScreenshot("pass", "Entering Invalid Email Format in edit contacts page",
 				"EditCont_RuddrProject_InvalidEmailformat");
@@ -302,7 +311,9 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 		csatProject.insertCustomerName(dataKeys.invalidName);
 		csatProject.insertCustomerEmail(dataKeys.customerContactEmail);
 
-		csatProject.verifyButtonDisable(dataKeys.saveBtn);
+//		csatProject.verifyButtonDisable(dataKeys.saveBtn);
+		csatProject.getCustomerNameError();
+		waitTime(driver);
 
 		grep.captureScreenshot("pass", "Entering Invalid Name in edit contacts page",
 				"EditCont_RuddrProject_InvalidName");
@@ -326,7 +337,9 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 		csatProject.insertCustomerName(dataKeys.spacesInName);
 		csatProject.insertCustomerEmail(dataKeys.customerContactEmail);
 
-		csatProject.verifyButtonDisable(dataKeys.saveBtn);
+//		csatProject.verifyButtonDisable(dataKeys.saveBtn);
+		csatProject.getCustomerNameError();
+		waitTime(driver);
 
 		grep.captureScreenshot("pass", "Entering Only Spaces in Name for add contacts page",
 				"AddCont_RuddrProject_SpacesInName");
@@ -362,6 +375,9 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 		csatProject.clickButton(dataKeys.saveBtn);
 		waitTime10(driver);
 		csatProject.clickRuddrButton(dataKeys.noticePeriod_Project, dataKeys.editContactBtn);
+		waitTime5(driver);
+		grep.infoTest("Verify Contact Not Added for Ruddr Projects");
+		logger.info("Verify Contact Not Added for Ruddr Projects");
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Verify Contact Not Added for Ruddr Projects",
 				"EditCont_RuddrProject_AfterAddInEditContact");
@@ -395,7 +411,7 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 		csatProject.clickButton(dataKeys.saveBtn);
 		waitTime10(driver);
 		csatProject.clickRuddrButton(dataKeys.DayforceNetsuitePhase_Project, dataKeys.editContactBtn);
-		waitTime(driver);
+		waitTime3(driver);
 		grep.captureScreenshot("pass", "After adding Valid Contact Verifying in Edit Popup",
 				"EditCont_RuddrProject_AfterAddingValidContact");
 		waitTime(driver);
@@ -433,7 +449,8 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "Adding existing contact in add contact popup",
 				"AddCont_RuddrProject_AddExistingContact");
 		waitTime(driver);
-		csatProject.verifyButtonDisable(dataKeys.saveBtn);
+//		csatProject.verifyButtonDisable(dataKeys.saveBtn);
+		csatProject.getCustomerEmailError();
 		waitTime(driver);
 		csatProject.clickButton(dataKeys.cancelBtn);
 		waitTime(driver);
@@ -483,7 +500,7 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 
 		waitTime(driver);
 
-		csatProject.clickRuddrButton(dataKeys.DayforceNetsuitePhase_Project, dataKeys.editContactBtn);
+		csatProject.clickRuddrButton(dataKeys.Infineon_Scrum_Master_Project, dataKeys.editContactBtn);
 		waitTime(driver);
 		csatProject.verifyDeleteDisable();
 		grep.captureScreenshot("pass", "Delete button is Disabled", "EditCont_RuddrProject_DeleteDisable");
@@ -541,7 +558,7 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 		waitTime(driver);
 
 		csatProject.clickRuddrButton(dataKeys.DayforceNetsuitePhase_Project, dataKeys.editContactBtn);
-		waitTime(driver);
+		waitTime3(driver);
 		grep.captureScreenshot("pass", " Before Deleting Contact from edit Popup", "EditCont_RuddrProject_BeforeDeletingContact");
 		waitTime(driver);
 		csatProject.deleteCustomerContactInRuddr();

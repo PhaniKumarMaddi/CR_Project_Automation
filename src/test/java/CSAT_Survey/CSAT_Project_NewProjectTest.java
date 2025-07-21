@@ -100,7 +100,7 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 //		csatProject.selectProjectPracticeOption(dataKeys.DSandAIPractice);
 //		logger.info("Entering Project Practice: " + dataKeys.DSandAIPractice);
 //		grep.infoTest("Entering Project Practicee:" + dataKeys.DSandAIPractice);
-		waitTime(driver);
+//		waitTime(driver);
 
 		logger.info("Verify the error message ");
 		grep.infoTest("Verify the error message ");
@@ -122,7 +122,7 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		csatProject.insertProjectName(dataKeys.spacesInName);
 		logger.info("Entering Project Name Only Spaces :" + dataKeys.spacesInName);
 		grep.infoTest("Entering Project Name Only Spaces :" + dataKeys.spacesInName);
-		waitTime2(driver);
+//		waitTime2(driver);
 //		csatProject.selectProjectPracticeOption(dataKeys.DSandAIPractice);
 //		logger.info("Entering Project Practice: " + dataKeys.DSandAIPractice);
 //		grep.infoTest("Entering Project Practicee:" + dataKeys.DSandAIPractice);
@@ -232,9 +232,9 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		csatProject.clickNewProject();
 		waitTime(driver);
 		csatProject.insertProjectName(dataKeys.duplicateProjectName);
-		logger.info("Entering Project Name: " + dataKeys.newProjectName);
-		grep.infoTest("Entering Project Name:" + dataKeys.newProjectName);
-		waitTime(driver);
+		logger.info("Entering Project Name: " + dataKeys.duplicateProjectName);
+		grep.infoTest("Entering Project Name:" + dataKeys.duplicateProjectName);
+//		waitTime(driver);
 //		csatProject.selectProjectPracticeOption(dataKeys.DSandAIPractice);
 //		logger.info("Entering Project Practice: " + dataKeys.DSandAIPractice);
 //		grep.infoTest("Entering Project Practicee:" + dataKeys.DSandAIPractice);
@@ -354,15 +354,13 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		csatProject.clickButton(dataKeys.saveBtn);
 		logger.info("Save Project");
 		grep.infoTest("Save Project");
-		waitTime15(driver);
+		waitTime30(driver);
 		refreshPage();
-		waitTime2(driver);
-		refreshPage();
-		waitTime10(driver);
+		waitTime30(driver);
 		csatProject.verifyCreatedProjectNameInList(dataKeys.newProjectName);
-		waitTime(driver);
-		logger.info("Project Created");
-		grep.infoTest("Project Created");
+//		waitTime(driver);
+//		logger.info("Project Created");
+//		grep.infoTest("Project Created");
 		waitTime2(driver);
 		grep.captureScreenshot("pass", "Project Created", "ProjectCreated");
 		waitTime(driver);
@@ -407,7 +405,7 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "Updating the new customer contact", "newCustomerContact");
 		waitTime5(driver);
 		csatProject.clickButton(dataKeys.saveBtn);
-		waitTime(driver);
+		waitTime5(driver);
 
 		// delete customer contact
 
@@ -427,7 +425,7 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "Delete the existing customer contact", "deleteCustomerContact");
 		waitTime5(driver);
 		csatProject.clickButton(dataKeys.saveBtn);
-		waitTime(driver);
+		waitTime5(driver);
 
 		// delete existing project
 		grep.testCreate("Delete existing project test", "Delete Existing project");
@@ -435,10 +433,10 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		logger.info("Delete Existing Project");
 		grep.infoTest("Delete existing project");
-		waitTime3(driver);
+		waitTime5(driver);
 		csatProject.clickProjectBtn(dataKeys.newProjectName, dataKeys.deleteProjectBtn);
 		waitTime(driver);
-		grep.captureScreenshot("pass", "Deleted the project", "DeleteingProject");
+		grep.captureScreenshot("pass", "Deleted the project", "DeletingProject");
 		csatProject.clickButton(dataKeys.buttonYes);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Deleted Project not available", "afterDeletion");
