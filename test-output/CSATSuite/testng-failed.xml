@@ -4,6 +4,27 @@
   <test thread-count="5" name="CSATTest(failed)">
     <parameter name="FileName" value="CSATPageReport.html"/>
     <classes>
+      <class name="CSAT_Survey.CSAT_Project_NewProjectTest">
+        <methods>
+          <include name="csat_NewProject_Test"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- CSAT_Survey.CSAT_Project_NewProjectTest -->
+      <class name="CSAT_Survey.CSAT_ProjectFiltersTest">
+        <methods>
+          <include name="csat_ProjectUI_Test"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- CSAT_Survey.CSAT_ProjectFiltersTest -->
+      <class name="CSAT_Survey.CSAT_SurveyUITest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="csat_Ui_Test"/>
+        </methods>
+      </class> <!-- CSAT_Survey.CSAT_SurveyUITest -->
       <class name="CSAT_Survey.CSAT_SendSurvey">
         <methods>
           <include name="csat_SendSurvey_Test"/>

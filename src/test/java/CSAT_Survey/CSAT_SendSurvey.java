@@ -582,7 +582,7 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		waitTime(driver);
 		csatPopup.select_3_Rating(dataKeys.feedbackAndSuggestionRate);
 		csatPopup.select_4_Rating(dataKeys.actionPlanRate);
-		csatPopup.select_5_Rating(dataKeys.clientRelationRate);
+		csatPopup.select_3_Rating(dataKeys.clientRelationRate);
 		csatPopup.clickSection(dataKeys.responseSectionInForm);
 		waitTime(driver);
 
