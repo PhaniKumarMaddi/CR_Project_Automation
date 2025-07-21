@@ -99,7 +99,7 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		logger.info("Entering Customer Email: " + dataKeys.customerContactEmail);
 		grep.infoTest("Entering Customer Email:" + dataKeys.customerContactEmail);
 		waitTime(driver);
-		grep.captureScreenshot("pass", "Creating new Project", "New_Project");
+		grep.captureScreenshot("pass", "Creating new Project", "New_SentProject");
 		waitTime2(driver);
 		csatProject.clickButton(dataKeys.saveBtn);
 		logger.info("Save Project");
@@ -112,7 +112,7 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		logger.info("Project Created");
 		grep.infoTest("Project Created");
 		waitTime2(driver);
-		grep.captureScreenshot("pass", "Project Created", "ProjectCreated");
+		grep.captureScreenshot("pass", "Project Created", "Send_ProjectCreated");
 		waitTime5(driver);
 		
 		String csatValueBefore = csatProject.verifyCsatColInTable(dataKeys.projectNameForSend);
@@ -552,7 +552,7 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		switchToLastTab();
 		waitTime(driver);
 		String title = getTitleMethod();
-		waitTime(driver);
+		waitTime3(driver);
 		if (title.endsWith("Checking link")) {
 			waitTime(driver);
 			closeCurrentTab();
