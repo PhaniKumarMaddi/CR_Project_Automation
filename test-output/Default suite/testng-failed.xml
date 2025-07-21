@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CSAT_Survey.CSAT_RuddrProjectsTest">
+      <class name="CSAT_Survey.CSAT_Project_NewProjectTest">
         <methods>
-          <include name="csat_SendSurvey_Test"/>
           <include name="setup"/>
+          <include name="csat_NewProject_Test"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- CSAT_Survey.CSAT_RuddrProjectsTest -->
+      </class> <!-- CSAT_Survey.CSAT_Project_NewProjectTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

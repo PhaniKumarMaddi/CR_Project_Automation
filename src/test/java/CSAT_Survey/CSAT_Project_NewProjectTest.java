@@ -234,11 +234,11 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		csatProject.insertProjectName(dataKeys.duplicateProjectName);
 		logger.info("Entering Project Name: " + dataKeys.newProjectName);
 		grep.infoTest("Entering Project Name:" + dataKeys.newProjectName);
-//		waitTime(driver);
-		csatProject.selectProjectPracticeOption(dataKeys.DSandAIPractice);
-		logger.info("Entering Project Practice: " + dataKeys.DSandAIPractice);
-		grep.infoTest("Entering Project Practicee:" + dataKeys.DSandAIPractice);
 		waitTime(driver);
+//		csatProject.selectProjectPracticeOption(dataKeys.DSandAIPractice);
+//		logger.info("Entering Project Practice: " + dataKeys.DSandAIPractice);
+//		grep.infoTest("Entering Project Practicee:" + dataKeys.DSandAIPractice);
+//		waitTime(driver);
 
 		logger.info("Verify the error message ");
 		grep.infoTest("Verify the error message ");
@@ -355,6 +355,8 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		logger.info("Save Project");
 		grep.infoTest("Save Project");
 		waitTime15(driver);
+		refreshPage();
+		waitTime2(driver);
 		refreshPage();
 		waitTime10(driver);
 		csatProject.verifyCreatedProjectNameInList(dataKeys.newProjectName);

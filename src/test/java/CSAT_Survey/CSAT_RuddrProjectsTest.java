@@ -524,7 +524,7 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 		waitTime10(driver);
 
 		csatProject.clickRuddrButton(dataKeys.DayforceNetsuitePhase_Project, dataKeys.editContactBtn);
-		waitTime(driver);
+		waitTime3(driver);
 		grep.captureScreenshot("pass", "After adding New Contact Add Popup",
 				"EditCont_RuddrProject_AfterAddingNewContact");
 		waitTime(driver);
@@ -542,10 +542,12 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 
 		csatProject.clickRuddrButton(dataKeys.DayforceNetsuitePhase_Project, dataKeys.editContactBtn);
 		waitTime(driver);
+		grep.captureScreenshot("pass", " Before Deleting Contact from edit Popup", "EditCont_RuddrProject_BeforeDeletingContact");
+		waitTime(driver);
 		csatProject.deleteCustomerContactInRuddr();
 
 		waitTime2(driver);
-		grep.captureScreenshot("pass", "Deleting Contact from edit Popup", "EditCont_RuddrProject_DeletingContact");
+		grep.captureScreenshot("pass", "Deleting Contact from edit Popup", "EditCont_RuddrProject_AfterDeletingContact");
 		waitTime2(driver);
 		grep.infoTest("Deleting Customer Contact");
 		logger.info("Deleting Customer Contact");

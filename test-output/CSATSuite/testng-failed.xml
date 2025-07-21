@@ -11,6 +11,13 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- CSAT_Survey.CSAT_Project_NewProjectTest -->
+      <class name="CSAT_Survey.CSAT_ProjectFiltersTest">
+        <methods>
+          <include name="csat_ProjectUI_Test"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- CSAT_Survey.CSAT_ProjectFiltersTest -->
       <class name="CSAT_Survey.CSAT_SendSurvey">
         <methods>
           <include name="csat_SendSurvey_Test"/>

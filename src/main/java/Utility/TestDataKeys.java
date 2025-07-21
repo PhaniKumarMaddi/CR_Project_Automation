@@ -140,8 +140,8 @@ public class TestDataKeys {
 
 	// Create New Project
 	public String newProjectName = "CSAT Automation Project";
-	public String duplicateProjectName = "CSAT Test Automation";
-	public String invalidName = "#$%^&*";
+	public String duplicateProjectName = "CSAT Test";
+	public String invalidName = "#$%^&* ";
 	public String spacesInName = "    ";
 
 	public String projectDesc = "For Automating The CSAT Application";
@@ -162,7 +162,7 @@ public class TestDataKeys {
 	public String updateCustomerContactEmail = "anwar_hussain@skillsynccr.onmicrosoft.com";
 	public String customerContactInvalidEmail = "Phani Maddi";
 
-	public String date_StartDate = "18";
+	public String date_StartDate = "21";
 	public String month_StartDate = "07";
 	public String year_StartDate = "2025";
 	public String date_EndDate = "31";
