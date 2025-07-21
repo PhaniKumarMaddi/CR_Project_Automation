@@ -4,11 +4,11 @@
 	<test thread-count="5" name="CSATTest">
 		<parameter name="FileName" value="CSATPageReport.html" />
 		<classes>
-			<class name="CSAT_Survey.CSAT_SurveyUITest" />
-			<class name="CSAT_Survey.CSAT_ProjectFiltersTest" />
-			<class name="CSAT_Survey.CSAT_Project_NewProjectTest" />
-			<class name="CSAT_Survey.CSAT_SendSurvey" />
-			<class name="CSAT_Survey.CSAT_RuddrProjectsTest" />
+			<class name="CSAT_Project.CSAT_SurveyUITest" />
+			<class name="CSAT_Project.CSAT_ProjectFiltersTest" />
+			<class name="CSAT_Project.CSAT_Project_NewProjectTest" />
+			<class name="CSAT_Project.CSAT_SendSurvey" />
+			<class name="CSAT_Project.CSAT_RuddrProjectsTest" />
 		</classes>
 	</test> <!--Test -->
 </suite> <!--Suite -->

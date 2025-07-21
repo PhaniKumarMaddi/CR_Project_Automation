@@ -1,4 +1,4 @@
-package CSAT_Survey;
+package CSAT_Project;
 
 import java.awt.Robot;
 import java.awt.event.KeyEvent;

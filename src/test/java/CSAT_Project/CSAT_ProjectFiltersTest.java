@@ -1,4 +1,4 @@
-package CSAT_Survey;
+package CSAT_Project;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
