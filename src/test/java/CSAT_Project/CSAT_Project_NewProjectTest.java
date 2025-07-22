@@ -189,11 +189,10 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 
 		waitTime(driver);
 		csatProject.clickButton(dataKeys.cancelBtn);
-		waitTime(driver);
 
 		waitTime15(driver);
 		refreshPage();
-		waitTime5(driver);
+		waitTime15(driver);
 		
 		// adding Invalid Email in customer email
 		grep.testCreate("Verify adding invalid customer email format in project Creation Test",
