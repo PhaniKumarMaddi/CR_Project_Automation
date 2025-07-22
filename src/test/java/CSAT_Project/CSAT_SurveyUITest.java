@@ -54,14 +54,17 @@ public class CSAT_SurveyUITest extends CSAT_TestInitializer {
 
 		grep.infoTest("Navigating To Teams Page");
 		navigateToSettingsPagesTest(dataKeys.teams_Url);
-
+		waitTime(driver);
 		grep.infoTest("Navigating To Projects Page");
+		waitTime(driver);
+		refreshPage();
+		waitTime(driver);
 		navigateToAllPagesTest(dataKeys.project_Url);
 
 		waitTime(driver);
 		csatPage.expandSideMenu();
 		waitTime(driver);
-		grep.captureScreenshot("pass", "Meu Expanded", "expandMenu");
+		grep.captureScreenshot("pass", "Menu Expanded", "expandMenu");
 
 //		csatPage.clickLogout();
 //		String getUrl = driver.getCurrentUrl();
