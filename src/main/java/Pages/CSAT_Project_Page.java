@@ -44,6 +44,8 @@ public class CSAT_Project_Page extends WaitsManager {
 	By columnOptionsHeader = By.xpath("//div[@class='column-options-header']/h3");
 	By closeColumn = By.cssSelector("button.close-button");
 
+	// Pagination and export
+	
 	By projectExportBtn = By.cssSelector("div.Project-export-container");
 	By paginationEntries = By.cssSelector("select.Project-entries-select");
 
@@ -597,22 +599,11 @@ public class CSAT_Project_Page extends WaitsManager {
 	public void clickDownloadFileBtn(String fileFormat) throws Exception {
 		try {
 			By downloadBtn = By.xpath("//div[@class='Project-export-option' and text()='" + fileFormat + "']");
-//			By successMsg = By.xpath("//div[@class='MuiSnackbarContent-message css-1o19295']");
 			implWait(driver);
 			boolean elementexists = !driver.findElements(projectExportBtn).isEmpty();
 			if (elementexists) {
 				driver.findElement(projectExportBtn).click();
 				driver.findElement(downloadBtn).click();
-//				String getSuccessMsg = driver.findElement(successMsg).getText();
-//				String trimFormat = fileFormat.replaceAll("Download ", "");
-//				if (getSuccessMsg.contains(trimFormat)) {
-//					logger.info(getSuccessMsg);
-//					grep.passTest(getSuccessMsg);
-//
-//				} else {
-//					logger.error("File Not downloaded");
-//					grep.failTest("file not downloaded");
-//				}
 
 			} else {
 				grep.failTest("Download Options Not Available");
@@ -1064,6 +1055,8 @@ public class CSAT_Project_Page extends WaitsManager {
 		}
 		return tableColumnVal;
 	}
+	
+	//search
 
 	public void searchProject(String projectName) throws Exception {
 		try {

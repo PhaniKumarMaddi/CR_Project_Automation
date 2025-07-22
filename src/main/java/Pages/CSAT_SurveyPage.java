@@ -1,0 +1,667 @@
+package Pages;
+
+import java.util.List;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+
+import Utility.DriverManager;
+import Utility.GenerateReports;
+import Utility.TestDataKeys;
+import Utility.WaitsManager;
+
+public class CSAT_SurveyPage extends WaitsManager {
+
+	static WebDriver driver;
+	private static Logger logger = LogManager.getLogger(CSAT_SurveyPage.class);
+	GenerateReports grep = new GenerateReports();
+	TestDataKeys dataKeys = new TestDataKeys();
+
+	public CSAT_SurveyPage() {
+		this.driver = DriverManager.getDriver();
+	}
+
+	By surveyPageHeader = By.cssSelector("h1.add-survey-survey-title");
+
+	// Column Options in Survye
+	By columnOptionsBtn = By.cssSelector("button.survey-column-options-button");
+	By columnOptionsHeader = By.xpath("//div[@class='column-options-header']/h3");
+	By closeColumn = By.cssSelector("button.close-button");
+
+	// Pagination and export
+	By projectExportBtn = By.cssSelector("div.survey-export-container");
+	By paginationEntries = By.cssSelector("select.survey-items-per-page-select");
+
+	// survey type dropdown
+	By surveyTypeDroprdown = By.xpath("//div[@id='survey-8']/div/div");
+	By allSurveyType = By.xpath("//ul[@role='listbox']/li[@title='All Survey Types']");
+
+	// add new survey type
+	By addNewSurveyType = By.xpath("//span[@title='Add New Survey Type']");
+	By closeSurveyPopups = By.xpath("img.close-img");
+
+	// Search
+	By searchSurveyField = By.cssSelector("input.survey-search");
+
+	// Add new Survey
+	By addNewSurvey = By.xpath("//button[@title='Add New Survey']");
+	By popupsHeader = By.cssSelector("div.survey-form-modal-header");
+	By editPopupHeader = By.cssSelector("div.add-survey-modal-header");
+
+	// Select Survey from Table
+	By surveyDetailsHeader = By.cssSelector("h1.survey-title");
+	By surveyTypeColInTable = By.xpath("//tr[@class='survey-table-row']/td[2]");
+
+	public void headerValidation() throws Exception {
+		try {
+			implWait(driver);
+			waitForElement(surveyPageHeader, 30);
+			String verifyHeader = driver.findElement(surveyPageHeader).getText();
+			if (verifyHeader.equals(dataKeys.surveyPage)) {
+				logger.info("Header is Valid: " + verifyHeader);
+				grep.passTest("Header is Valid: " + verifyHeader);
+			} else {
+				logger.error("Header is not Valid: " + verifyHeader);
+				grep.failTest("Header is not Valid: " + verifyHeader);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// Survey Type Dropdown
+	public void verifySurveyTypeDropDwon(String headerVal) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementexists = !driver.findElements(surveyTypeDroprdown).isEmpty();
+			if (elementexists) {
+				String surveyDropdown = driver.findElement(surveyTypeDroprdown).getText();
+				if (surveyDropdown.equals(headerVal)) {
+					grep.passTest(surveyDropdown + " Dropdown is Available");
+					logger.info(surveyDropdown + " Dropdown is Available");
+				} else {
+					grep.failTest(surveyDropdown + " Dropdown is not Available");
+					logger.error(surveyDropdown + " Dropdown is not Available");
+				}
+
+			} else {
+				grep.failTest("Survey Type Options Not Available");
+				logger.error("Survey Type Options  Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// Click Survey Type Dropdown
+	public void clickSurveyTypeDropDown() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementexists = !driver.findElements(surveyTypeDroprdown).isEmpty();
+			if (elementexists) {
+				waitForElementToBeClickable(surveyTypeDroprdown, 30);
+				driver.findElement(surveyTypeDroprdown).click();
+
+			} else {
+				grep.failTest("Survey Type Options Not Available");
+				logger.error("Survey Type Options  Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// Select All Survey Type
+	public void selectAllSurveyTypeOption() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementexists = !driver.findElements(allSurveyType).isEmpty();
+			if (elementexists) {
+				waitForElementToBeClickable(allSurveyType, 30);
+				driver.findElement(allSurveyType).click();
+			} else {
+				grep.failTest("All Survey Type Not Available");
+				logger.error("All Survey Type Options  Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// Select Survey Type Options
+	public void selectSurveyTypeOption(String option) throws Exception {
+		try {
+
+			By selectOption = By.xpath("//li/div/span[text()='" + option + "']");
+
+			implWait(driver);
+			boolean elementexists = !driver.findElements(selectOption).isEmpty();
+			if (elementexists) {
+				waitForElementToBeClickable(selectOption, 30);
+				driver.findElement(selectOption).click();
+			} else {
+				grep.failTest(option + " Survey Type Not Available");
+				logger.error(option + " Survey Type Options Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// select actions for survey type
+
+	public void selectActionInSurveyType(String option, String action) throws Exception {
+		try {
+
+			By actionsOnSurveyType = By.xpath(
+					"//li/div/span[text()='" + option + "']/following-sibling::div/button[@title='" + action + "']");
+
+			implWait(driver);
+			boolean elementexists = !driver.findElements(actionsOnSurveyType).isEmpty();
+			if (elementexists) {
+				waitForElementToBeClickable(actionsOnSurveyType, 30);
+				driver.findElement(actionsOnSurveyType).click();
+			} else {
+				grep.failTest(action + " for " + option + " Survey Type Not Available");
+				logger.error(action + " for " + option + " Survey Type Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// close survey popups
+	public void clickCloseSurveyPopups() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(closeSurveyPopups).isEmpty();
+			if (elementExists) {
+				waitForElement(closeSurveyPopups, 60);
+				driver.findElement(closeSurveyPopups).click();
+			} else {
+				grep.failTest("Survey Close Popup button not available");
+				logger.error("Survey Close popup button not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// click Add New Survey Type
+	public void clickAddNewSurveyTypeBtn() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementexists = !driver.findElements(addNewSurveyType).isEmpty();
+			if (elementexists) {
+				driver.findElement(addNewSurveyType).click();
+
+			} else {
+				grep.failTest("Add New Survey Type Not Available");
+				logger.error("Add New Survey Type Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// Verify Popups Header
+	public void popupHeaderValidation(String headerVal) throws Exception {
+		try {
+			implWait(driver);
+			waitForElement(popupsHeader, 30);
+			String verifyHeader = driver.findElement(popupsHeader).getText();
+			if (verifyHeader.equals(headerVal)) {
+				logger.info("Header is Valid: " + verifyHeader);
+				grep.passTest("Header is Valid: " + verifyHeader);
+			} else {
+				logger.error("Header is not Valid: " + verifyHeader);
+				grep.failTest("Header is not Valid: " + verifyHeader);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// Search Survey
+	public void searchSurvey(String projectName) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(searchSurveyField).isEmpty();
+			if (elementExist) {
+				driver.findElement(searchSurveyField).sendKeys(projectName);
+			} else {
+				grep.failTest(" Search Field not Available");
+				logger.error(" Search Field not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// Edit PopupHeader
+	public void editPopupHeaderValidation() throws Exception {
+		try {
+			implWait(driver);
+			waitForElement(editPopupHeader, 30);
+			String verifyHeader = driver.findElement(editPopupHeader).getText();
+			if (verifyHeader.equals(dataKeys.editSurveyHeader)) {
+				logger.info("Header is Valid: " + verifyHeader);
+				grep.passTest("Header is Valid: " + verifyHeader);
+			} else {
+				logger.error("Header is not Valid: " + verifyHeader);
+				grep.failTest("Header is not Valid: " + verifyHeader);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// SELECT SURVEY FORM TABLE
+	public void selectSurveyFromTable(String surveyName) throws Exception {
+		try {
+			By selectSurvey = By.xpath("//tr[@class='survey-table-row']/td/button[text()='" + surveyName + "']");
+			implWait(driver);
+			boolean elementexists = !driver.findElements(selectSurvey).isEmpty();
+			if (elementexists) {
+				waitForElementToBeClickable(selectSurvey, 30);
+				driver.findElement(selectSurvey).click();
+			} else {
+				grep.failTest(surveyName + " Survey Not Available");
+				logger.error(surveyName + " Survey Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// survey detail header
+	public void surveyDetailHeaderValidation(String header) throws Exception {
+		try {
+			implWait(driver);
+			waitForElement(surveyDetailsHeader, 30);
+			String verifyHeader = driver.findElement(surveyDetailsHeader).getText();
+			if (verifyHeader.equals(header)) {
+				logger.info("Header is Valid: " + verifyHeader);
+				grep.passTest("Header is Valid: " + verifyHeader);
+			} else {
+				logger.error("Header is not Valid: " + verifyHeader);
+				grep.failTest("Header is not Valid: " + verifyHeader);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void selectActionFromSurveyTable(String option, String action) throws Exception {
+		try {
+
+			By surveyActionsInTable = By.xpath("//button[text()='" + option
+					+ "']/parent::td/following-sibling::td/div/button[@title='" + action + "']");
+
+			implWait(driver);
+			boolean elementexists = !driver.findElements(surveyActionsInTable).isEmpty();
+			if (elementexists) {
+				waitForElementToBeClickable(surveyActionsInTable, 30);
+				driver.findElement(surveyActionsInTable).click();
+			} else {
+				grep.failTest(action + " for " + option + " Survey Type Not Available");
+				logger.error(action + " for " + option + " Survey Type Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// VERIFY COLUMN IN TABLE
+	public void verifyTypeColInTable(String colvalues) throws Exception {
+		try {
+
+			implWait(driver);
+
+			List<WebElement> element = driver.findElements(surveyTypeColInTable);
+			if (element.size() > 0) {
+				for (WebElement values : element) {
+
+					String valuesTitle = values.getAttribute("title");
+					if (valuesTitle.equals(colvalues)) {
+
+						grep.passTest("Type Column in Valid: " + valuesTitle);
+						logger.info("Type Column in Valid: " + valuesTitle);
+					} else {
+						grep.failTest("Type Column in Not Valid: " + valuesTitle);
+						logger.error("Type Column in Not Valid: " + valuesTitle);
+					}
+				}
+
+			} else {
+				grep.failTest("Survey Column Not Available");
+				logger.error("Survey Column Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+
+	}
+
+	// click Add New Survey Type
+	public void clickAddNewSurveyBtn() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementexists = !driver.findElements(addNewSurvey).isEmpty();
+			if (elementexists) {
+				driver.findElement(addNewSurvey).click();
+
+			} else {
+				grep.failTest("Add New Survey Not Available");
+				logger.error("Add New Survey Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// COLUMN OPTIONS
+	public void clickColumnOptionsBtn() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementexists = !driver.findElements(columnOptionsBtn).isEmpty();
+			if (elementexists) {
+				driver.findElement(columnOptionsBtn).click();
+
+			} else {
+				grep.failTest("Column Options Not Available");
+				logger.error("Column Options Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// CLOUMN OPTION HEADER
+	public void verifyColumnOptionsHeader(String headerVal) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementexists = !driver.findElements(columnOptionsHeader).isEmpty();
+			if (elementexists) {
+				String col_Opt_Header = driver.findElement(columnOptionsHeader).getText();
+				if (col_Opt_Header.equals(headerVal)) {
+					grep.passTest(col_Opt_Header + " is valid Header value");
+					logger.info(col_Opt_Header + " is valid Header value");
+				} else {
+					grep.failTest(col_Opt_Header + " is invalid Header value");
+					logger.error(col_Opt_Header + " is invalid Header value");
+				}
+
+			} else {
+				grep.failTest("Column Options Not Available");
+				logger.error("Column Options Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// CLOSE CLOUM OPTION
+	public void clickCloseColumnOptions() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementexists = !driver.findElements(closeColumn).isEmpty();
+			if (elementexists) {
+				driver.findElement(closeColumn).click();
+
+			} else {
+				grep.failTest("Column Options Not Available");
+				logger.error("Column Options Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// SELECT COLUMN OPTION
+	public void selectColumnOption(String option) throws Exception {
+		try {
+			implWait(driver);
+			By columnOption = By
+					.xpath("//div[@class='column-option']/span[text()='" + option + "']/following-sibling::button");
+
+			boolean elementexists = !driver.findElements(columnOption).isEmpty();
+			if (elementexists) {
+				driver.findElement(columnOption).click();
+
+			} else {
+				grep.failTest("Column Options Not Available");
+				logger.error("Column Options Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// VERIFY COLUMN VISISBILITY VIEW
+	public void verifyColumnOptionVisibilityView(String option) throws Exception {
+		try {
+			implWait(driver);
+			By columnOptionVisibility = By
+					.xpath("//div[@class='column-option']/span[text()='" + option + "']/following-sibling::button/img");
+
+			boolean elementexists = !driver.findElements(columnOptionVisibility).isEmpty();
+			if (elementexists) {
+				String colVisisbility = driver.findElement(columnOptionVisibility).getAttribute("alt");
+				if (colVisisbility.equals("View")) {
+					grep.passTest("Column Option visibility is View ");
+					logger.info("Column Option visibility is View ");
+					waitTime(driver);
+
+				} else {
+					grep.warnTest("Column Option visibility is Hide ");
+					logger.warn("Column Option visibility is Hide ");
+				}
+
+			} else {
+				grep.failTest("Column Options Not Available");
+				logger.error("Column Options Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// VERIFY COLUMN VISISBILITY HIDE
+	public void verifyColumnOptionVisibilityHide(String option) throws Exception {
+		try {
+			implWait(driver);
+			By columnOptionVisibility = By
+					.xpath("//div[@class='column-option']/span[text()='" + option + "']/following-sibling::button/img");
+
+			boolean elementexists = !driver.findElements(columnOptionVisibility).isEmpty();
+			if (elementexists) {
+				String colVisisbility = driver.findElement(columnOptionVisibility).getAttribute("alt");
+				if (colVisisbility.equals("Hide")) {
+					grep.passTest("Column Option visibility is Hide ");
+					logger.info("Column Option visibility is Hide ");
+				} else {
+					grep.warnTest("Column Option visibility is View ");
+					logger.warn("Column Option visibility is View ");
+				}
+
+			} else {
+				grep.failTest("Column Options Not Available");
+				logger.error("Column Options Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// Download file
+	public void clickDownloadFileBtn(String fileFormat) throws Exception {
+		try {
+			By downloadBtn = By.xpath("//div[@class='survey-export-dropdown']/div[text()='" + fileFormat + "']");
+			implWait(driver);
+			boolean elementexists = !driver.findElements(projectExportBtn).isEmpty();
+			if (elementexists) {
+				driver.findElement(projectExportBtn).click();
+				driver.findElement(downloadBtn).click();
+
+			} else {
+				grep.failTest("Download Options Not Available");
+				logger.error("Download Options Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// SELECT PAGINATION
+	public void selectPagination(String option) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(paginationEntries).isEmpty();
+			if (elementExist) {
+				WebElement statusOption = driver.findElement(paginationEntries);
+				Select statusOpt = new Select(statusOption);
+				statusOpt.selectByVisibleText(option);
+			} else {
+				grep.failTest(option + " Pagination Option not Available");
+				logger.error(option + " Pagination Option not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+// VERIFY PAGINATION
+	public void verifyPaginationSelectedOption(String option) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(paginationEntries).isEmpty();
+			if (elementExist) {
+				WebElement statusOption = driver.findElement(paginationEntries);
+				Select statusOpt = new Select(statusOption);
+
+				String getOption = statusOpt.getFirstSelectedOption().getText();
+				if (getOption.equals(option)) {
+					grep.passTest(getOption + " pagination Option Selected");
+					logger.info(getOption + " pagination Option Selected");
+				} else {
+					grep.failTest(getOption + " pagination Option not Selected");
+					logger.error(getOption + " pagination Option not Selected");
+				}
+			} else {
+				grep.failTest(option + " Pagination Option not Available");
+				logger.error(option + " Pagination Option not Available");
+
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// VERIFY BUTTON
+	public void verifyButton(String btnValue) throws Exception {
+		try {
+			implWait(driver);
+			By button = By.xpath("//button[text()='" + btnValue + "']");
+
+			boolean elementexists = !driver.findElements(button).isEmpty();
+			if (elementexists) {
+//					driver.findElement(button).click();
+				grep.passTest(btnValue + " Button Available");
+				logger.info(btnValue + " Button Available");
+
+			} else {
+				grep.failTest(btnValue + " Button Not Available");
+				logger.error(btnValue + " Button Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// CLICK BUTTON
+	public void clickButton(String btnValue) throws Exception {
+		try {
+			implWait(driver);
+			By button = By.xpath("//button[text()='" + btnValue + "']");
+
+			boolean elementexists = !driver.findElements(button).isEmpty();
+			if (elementexists) {
+				waitForElementToBeClickable(button, 60);
+				driver.findElement(button).click();
+
+			} else {
+				grep.failTest(btnValue + " Button Not Available");
+				logger.error(btnValue + " Button Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+}

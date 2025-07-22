@@ -42,7 +42,7 @@ public class TestDataKeys {
 	public String ssoPasswordDev = "Solu598232";
 //	public String ssoUserNameDev = "jhansi_raj@skillsynccr.onmicrosoft.com";
 //	public String ssoPasswordDev = "Guta565967#";
-	
+
 	// pages url
 	public String project_Url = "/projects";
 	public String survey_Url = "/surveys";
@@ -259,5 +259,14 @@ public class TestDataKeys {
 	public String col_MemberName = "Member Name";
 	public String col_MemberRole = "Member Role";
 	public String col_Project_Name = "Project Name";
-	
+
+	// Survey Module Survey Type Dropdown
+	public String allSurveyTypes = "All Survey Types";
+	public String addNewSurveyHeader= "Add New Survey";
+	public String addSurveyTypeHeader= "Add Survey Type";
+	public String updateSurveyTypeHeader= "Update Survey Type";
+	public String editSurveyHeader= "Edit Survey Details";
+	public String selectEngageSurveyType = "CR CSAT -  Engagement Level";
+	public String selectDevelopSurveyType = "CR CSAT - Development Project";
+	public String selectAMSSurveyType = "CR CSAT - AMS Project";
 }

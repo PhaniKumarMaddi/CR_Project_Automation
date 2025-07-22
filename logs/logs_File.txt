@@ -10373,3 +10373,282 @@ Anwar Hussain: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurec
 2025-07-22 10:18:59 [main] INFO : Update new customer contact to existing project
 2025-07-22 10:19:17 [main] INFO : Delete customer contact from existing project
 2025-07-22 10:19:38 [main] INFO : Delete Existing Project
+2025-07-22 10:20:16 [main] INFO : Launching Chrome Browser
+2025-07-22 10:20:16 [main] INFO : Report Name :CsatPage.html
+2025-07-22 10:20:22 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 10:20:22 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 10:20:22 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 10:20:50 [main] INFO : Logged in to CSAT Application
+2025-07-22 10:20:50 [main] INFO : Menu Collapsed
+2025-07-22 10:20:51 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-22 10:20:51 [main] INFO : Save Button is Disabled
+2025-07-22 10:20:53 [main] INFO : Verify Keeping One mandatory field Empty in add Project
+2025-07-22 10:20:54 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-07-22 10:20:55 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-22 10:20:56 [main] INFO : Entering Project Status: Pipeline
+2025-07-22 10:20:56 [main] INFO : Entering Project Type: Development
+2025-07-22 10:20:57 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-22 10:20:59 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-22 10:21:01 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-22 10:21:06 [main] INFO : Save Button is Disabled
+2025-07-22 10:21:08 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-22 10:21:09 [main] INFO : Entering Project Name: #$%^&*
+2025-07-22 10:21:09 [main] INFO : Verify the error message 
+2025-07-22 10:21:38 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-22 10:21:39 [main] INFO : Verify adding only Space character in project name Test
+2025-07-22 10:21:40 [main] INFO : Entering Project Name Only Spaces :    
+2025-07-22 10:21:40 [main] INFO : Verify the error message 
+2025-07-22 10:21:40 [main] INFO : Project name can't be empty.
+2025-07-22 10:21:52 [main] INFO : Launching Chrome Browser
+2025-07-22 10:21:52 [main] INFO : Report Name :CSATPageReport.html
+2025-07-22 10:21:58 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 10:21:58 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 10:21:58 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 10:22:26 [main] INFO : Logged in to CSAT Application
+2025-07-22 10:22:26 [main] INFO : Inside Test class 
+2025-07-22 10:22:27 [main] INFO : Logo is Available CSAT Logo
+2025-07-22 10:22:27 [main] INFO : Profile Name is Valid: Anwar Hussain
+2025-07-22 10:22:28 [main] INFO : Menu Collapsed
+2025-07-22 10:22:35 [main] INFO : Inside /surveys Page 
+2025-07-22 10:22:35 [main] INFO : /surveys Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveys
+2025-07-22 10:22:42 [main] INFO : Inside /roles Page 
+2025-07-22 10:22:42 [main] INFO : /roles Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/roles
+2025-07-22 10:22:49 [main] INFO : Inside /reports Page 
+2025-07-22 10:22:49 [main] INFO : /reports Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/reports
+2025-07-22 10:22:57 [main] INFO : Inside /settings/org-members Page 
+2025-07-22 10:22:57 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/org-members
+2025-07-22 10:23:04 [main] INFO : Inside /profile Page 
+2025-07-22 10:23:04 [main] INFO : /profile Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/profile
+2025-07-22 10:23:11 [main] INFO : Inside /settings/teams Page 
+2025-07-22 10:23:11 [main] INFO : /settings/teams Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/teams
+2025-07-22 10:23:21 [main] INFO : Inside /projects Page 
+2025-07-22 10:23:21 [main] INFO : /projects Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/projects
+2025-07-22 10:23:23 [main] INFO : Menu Expanded
+2025-07-22 10:23:24 [main] INFO : Menu Collapsed
+2025-07-22 10:23:25 [main] INFO : Header is Valid: Projects
+2025-07-22 10:23:27 [main] INFO : Popup Header: Surveys Sent
+2025-07-22 10:23:28 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-07-22 10:23:28 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-07-22 10:23:30 [main] INFO : Cancel Button Available
+2025-07-22 10:23:30 [main] INFO : Cancel Button is Enabled
+2025-07-22 10:23:30 [main] INFO : Share Button Available
+2025-07-22 10:23:30 [main] INFO : Share Button is Enabled
+2025-07-22 10:23:33 [main] INFO : Popup Header: At Risk Surveys
+2025-07-22 10:23:34 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-07-22 10:23:34 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-07-22 10:23:36 [main] INFO : Cancel Button Available
+2025-07-22 10:23:36 [main] INFO : Export Button Available
+2025-07-22 10:23:36 [main] INFO : Cancel Button is Enabled
+2025-07-22 10:23:36 [main] INFO : Export Button is Enabled
+2025-07-22 10:23:38 [main] INFO : Popup Header: Completed Surveys
+2025-07-22 10:23:39 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-07-22 10:23:39 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-07-22 10:23:41 [main] INFO : Cancel Button Available
+2025-07-22 10:23:42 [main] INFO : Export Button Available
+2025-07-22 10:23:42 [main] INFO : Cancel Button is Enabled
+2025-07-22 10:23:42 [main] INFO : Export Button is Enabled
+2025-07-22 10:23:44 [main] INFO : Popup Header: CSAT Summary
+2025-07-22 10:23:45 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-07-22 10:23:45 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-07-22 10:23:47 [main] INFO : Cancel Button Available
+2025-07-22 10:23:47 [main] INFO : Export Button Available
+2025-07-22 10:23:47 [main] INFO : Cancel Button is Enabled
+2025-07-22 10:23:47 [main] INFO : Export Button is Enabled
+2025-07-22 10:23:49 [main] INFO : popup Header New Project Details
+2025-07-22 10:23:49 [main] INFO : Expected :New Project Details and Actual :New Project Details
+2025-07-22 10:23:49 [main] INFO : Expected :New Project Details and Actual :New Project Details both are same
+2025-07-22 10:23:51 [main] INFO : Cancel Button Available
+2025-07-22 10:23:51 [main] INFO : Save Button Available
+2025-07-22 10:23:52 [main] INFO : Download CSV File Format 
+2025-07-22 10:23:57 [main] INFO : Download PDF File Format 
+2025-07-22 10:24:03 [main] INFO : Selecting Pagination 5
+2025-07-22 10:24:03 [main] INFO : 5 pagination Option Selected
+2025-07-22 10:24:03 [main] INFO : Selecting Pagination 50
+2025-07-22 10:24:04 [main] INFO : 50 pagination Option Selected
+2025-07-22 10:24:04 [main] INFO : Selecting Pagination 100
+2025-07-22 10:24:04 [main] INFO : 100 pagination Option Selected
+2025-07-22 10:24:05 [main] INFO : Verify Edit button
+2025-07-22 10:24:05 [main] INFO : edit Button is Available
+2025-07-22 10:24:05 [main] INFO : Verify Delete button
+2025-07-22 10:24:05 [main] INFO : delete Button is Available
+2025-07-22 10:24:05 [main] INFO : Verify Send button
+2025-07-22 10:24:05 [main] INFO : send Button is Available
+2025-07-22 10:24:06 [main] INFO : Column Options is valid Header value
+2025-07-22 10:24:06 [main] INFO : Cancel Button Available
+2025-07-22 10:24:06 [main] INFO : OK Button Available
+2025-07-22 10:24:06 [main] INFO : Verifying Project Name Column Option
+2025-07-22 10:24:06 [main] INFO : Column Option visibility is Hide 
+2025-07-22 10:24:07 [main] INFO : Column Option visibility is View 
+2025-07-22 10:24:09 [main] INFO : Verifying Practice Name Column Option
+2025-07-22 10:24:09 [main] INFO : Column Option visibility is Hide 
+2025-07-22 10:24:10 [main] INFO : Column Option visibility is View 
+2025-07-22 10:24:12 [main] INFO : Verifying CSAT Column Option
+2025-07-22 10:24:12 [main] INFO : Column Option visibility is Hide 
+2025-07-22 10:24:13 [main] INFO : Column Option visibility is View 
+2025-07-22 10:24:17 [main] INFO : All Statuses Status Option Selected
+2025-07-22 10:24:17 [main] INFO : Selecting Pipeline Status Option
+2025-07-22 10:24:17 [main] INFO : Pipeline Status Option Selected
+2025-07-22 10:24:18 [main] INFO : Expected :Pipeline and Actual :Pipeline both are same
+2025-07-22 10:24:18 [main] INFO : Selecting Completed Status Option
+2025-07-22 10:24:18 [main] INFO : Completed Status Option Selected
+2025-07-22 10:24:18 [main] INFO : Expected :Completed and Actual :Completed both are same
+2025-07-22 10:24:18 [main] INFO : Selecting In Progress Status Option
+2025-07-22 10:24:18 [main] INFO : In Progress Status Option Selected
+2025-07-22 10:24:18 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-22 10:24:20 [main] INFO : Survey Response Status survey Response Option Selected
+2025-07-22 10:24:20 [main] INFO : Selecting Not Received Survey response Option
+2025-07-22 10:24:23 [main] INFO : Not Received survey Response Option Selected
+2025-07-22 10:24:24 [main] INFO : Expected :No and Actual :No both are same
+2025-07-22 10:24:25 [main] INFO : Selecting Received Survey response Option
+2025-07-22 10:24:27 [main] INFO : Received survey Response Option Selected
+2025-07-22 10:24:28 [main] INFO : Expected :Yes and Actual :Yes both are same
+2025-07-22 10:24:30 [main] INFO : Survey Projects Project Option Selected
+2025-07-22 10:24:30 [main] INFO : Selecting Ruddr Projects Project Option
+2025-07-22 10:24:35 [main] INFO : Ruddr Projects Project Option Selected
+2025-07-22 10:24:35 [main] INFO : Expected :Ruddr and Actual :Ruddr both are same
+2025-07-22 10:24:42 [main] INFO : All Practices Practice Option Selected
+2025-07-22 10:24:44 [main] INFO : Selecting ERP Applications Practice Option
+2025-07-22 10:24:45 [main] INFO : ERP Applications Practice Option Selected
+2025-07-22 10:24:45 [main] INFO : Expected :ERP Applications and Actual :ERP Applications both are same
+2025-07-22 10:24:45 [main] INFO : Selecting Product Engineering Services Practice Option
+2025-07-22 10:24:45 [main] INFO : Product Engineering Services Practice Option Selected
+2025-07-22 10:24:45 [main] INFO : Expected :Product Engineering Services and Actual :Product Engineering Services both are same
+2025-07-22 10:24:46 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-07-22 10:24:46 [main] INFO : Selecting 60 Days Ending Days Option
+2025-07-22 10:24:46 [main] INFO : 60 Days Ending Days Option Selected
+2025-07-22 10:24:47 [main] INFO : Selecting 7 Days Ending Days Option
+2025-07-22 10:24:47 [main] INFO : 7 Days Ending Days Option Selected
+2025-07-22 10:24:49 [main] INFO : Selecting In Progress Status Option
+2025-07-22 10:24:50 [main] INFO : In Progress Status Option Selected
+2025-07-22 10:24:50 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-07-22 10:24:52 [main] INFO : Selecting Not Received Survey response Option
+2025-07-22 10:24:55 [main] INFO : Not Received survey Response Option Selected
+2025-07-22 10:24:56 [main] INFO : Expected :No and Actual :No both are same
+2025-07-22 10:24:57 [main] INFO : Menu Expanded
+2025-07-22 10:24:59 [main] INFO : Menu Collapsed
+2025-07-22 10:24:59 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-22 10:25:00 [main] INFO : Save Button is Disabled
+2025-07-22 10:25:02 [main] INFO : Verify Keeping One mandatory field Empty in add Project
+2025-07-22 10:25:04 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-07-22 10:25:04 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-22 10:25:05 [main] INFO : Entering Project Status: Pipeline
+2025-07-22 10:25:06 [main] INFO : Entering Project Type: Development
+2025-07-22 10:25:07 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-22 10:25:09 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-22 10:25:11 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-22 10:25:16 [main] INFO : Save Button is Disabled
+2025-07-22 10:25:18 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-22 10:25:19 [main] INFO : Entering Project Name: #$%^&*
+2025-07-22 10:25:19 [main] INFO : Verify the error message 
+2025-07-22 10:25:19 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-22 10:25:21 [main] INFO : Verify adding only Space character in project name Test
+2025-07-22 10:25:22 [main] INFO : Entering Project Name Only Spaces :    
+2025-07-22 10:25:22 [main] INFO : Verify the error message 
+2025-07-22 10:25:22 [main] INFO : Project name can't be empty.
+2025-07-22 10:25:24 [main] INFO : Verify Adding Invalid customer name
+2025-07-22 10:25:25 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-07-22 10:25:28 [main] INFO : Entering Customer Name: #$%^&*
+2025-07-22 10:25:29 [main] INFO : Customer Name Error :Full Name can only contain letters, numbers, spaces, hyphens, or underscores.
+2025-07-22 10:25:31 [main] INFO : Verify Adding only spaces in customer name
+2025-07-22 10:25:32 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-07-22 10:25:35 [main] INFO : Entering Customer Name only spaces:     
+2025-07-22 10:25:36 [main] INFO : Customer Name Error :Full Name cannot be empty.
+2025-07-22 10:26:08 [main] INFO : Verify Adding Invalid customer email format
+2025-07-22 10:26:09 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-07-22 10:26:13 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-22 10:26:15 [main] INFO : Entering Customer Email: Phani Maddi
+2025-07-22 10:26:15 [main] INFO : Customer Email Error :Please enter a valid email address (e.g., user@example.com).
+2025-07-22 10:26:17 [main] INFO : Verify Adding existing project name
+2025-07-22 10:26:18 [main] INFO : Entering Project Name: CSAT Test
+2025-07-22 10:26:18 [main] INFO : Verify the error message 
+2025-07-22 10:26:18 [main] INFO : A project with this name already exists.
+2025-07-22 10:26:41 [main] INFO : Verify Entering Invalid Characters in Description Field
+2025-07-22 10:26:42 [main] INFO : Description Error: Special characters (e.g., !@#$%^&*()) are not allowed in the project description.
+2025-07-22 10:26:45 [main] INFO : Verify Entering End Date previous than Start date
+2025-07-22 10:26:46 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-07-22 10:26:46 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-22 10:26:47 [main] INFO : Entering Project Status: Pipeline
+2025-07-22 10:26:48 [main] INFO : Entering Project Type: Development
+2025-07-22 10:27:03 [main] INFO : End Date Error: End date must be greater than start date.
+2025-07-22 10:27:06 [main] INFO : Verify Creating a new Project
+2025-07-22 10:27:07 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-07-22 10:27:08 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-22 10:27:08 [main] INFO : Entering Project Status: Pipeline
+2025-07-22 10:27:09 [main] INFO : Entering Project Type: Development
+2025-07-22 10:27:24 [main] INFO : Entered Project Start Date: 2025-07-22
+2025-07-22 10:27:25 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-22 10:27:26 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-22 10:27:28 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-22 10:27:30 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-22 10:27:45 [main] INFO : Save Project
+2025-07-22 10:31:03 [main] INFO : Launching Chrome Browser
+2025-07-22 10:31:03 [main] INFO : Report Name :CsatPage.html
+2025-07-22 10:31:09 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 10:31:09 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 10:31:09 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 10:31:36 [main] INFO : Logged in to CSAT Application
+2025-07-22 10:31:37 [main] INFO : Menu Collapsed
+2025-07-22 10:31:37 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-22 10:31:38 [main] INFO : Save Button is Disabled
+2025-07-22 10:31:40 [main] INFO : Verify Keeping One mandatory field Empty in add Project
+2025-07-22 10:31:41 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-07-22 10:31:42 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-22 10:31:42 [main] INFO : Entering Project Status: Pipeline
+2025-07-22 10:31:43 [main] INFO : Entering Project Type: Development
+2025-07-22 10:31:44 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-22 10:31:45 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-22 10:31:47 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-22 10:31:52 [main] INFO : Save Button is Disabled
+2025-07-22 10:31:55 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-22 10:31:56 [main] INFO : Entering Project Name: #$%^&*
+2025-07-22 10:31:56 [main] INFO : Verify the error message 
+2025-07-22 10:31:56 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-22 10:31:58 [main] INFO : Verify adding only Space character in project name Test
+2025-07-22 10:31:58 [main] INFO : Entering Project Name Only Spaces :    
+2025-07-22 10:31:58 [main] INFO : Verify the error message 
+2025-07-22 10:31:58 [main] INFO : Project name can't be empty.
+2025-07-22 10:32:00 [main] INFO : Verify Adding Invalid customer name
+2025-07-22 10:32:01 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-07-22 10:32:04 [main] INFO : Entering Customer Name: #$%^&*
+2025-07-22 10:32:05 [main] INFO : Customer Name Error :Full Name can only contain letters, numbers, spaces, hyphens, or underscores.
+2025-07-22 10:32:07 [main] INFO : Verify Adding only spaces in customer name
+2025-07-22 10:32:08 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-07-22 10:32:12 [main] INFO : Entering Customer Name only spaces:     
+2025-07-22 10:32:12 [main] INFO : Customer Name Error :Full Name cannot be empty.
+2025-07-22 10:32:44 [main] INFO : Verify Adding Invalid customer email format
+2025-07-22 10:32:46 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-07-22 10:32:49 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-22 10:32:51 [main] INFO : Entering Customer Email: Phani Maddi
+2025-07-22 10:32:51 [main] INFO : Customer Email Error :Please enter a valid email address (e.g., user@example.com).
+2025-07-22 10:32:54 [main] INFO : Verify Adding existing project name
+2025-07-22 10:32:54 [main] INFO : Entering Project Name: CSAT Test
+2025-07-22 10:32:54 [main] INFO : Verify the error message 
+2025-07-22 10:32:56 [main] INFO : A project with this name already exists.
+2025-07-22 10:33:18 [main] INFO : Verify Entering Invalid Characters in Description Field
+2025-07-22 10:33:20 [main] INFO : Description Error: Special characters (e.g., !@#$%^&*()) are not allowed in the project description.
+2025-07-22 10:33:23 [main] INFO : Verify Entering End Date previous than Start date
+2025-07-22 10:33:24 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-07-22 10:33:25 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-22 10:33:25 [main] INFO : Entering Project Status: Pipeline
+2025-07-22 10:33:26 [main] INFO : Entering Project Type: Development
+2025-07-22 10:33:41 [main] INFO : End Date Error: End date must be greater than start date.
+2025-07-22 10:33:44 [main] INFO : Verify Creating a new Project
+2025-07-22 10:33:45 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-07-22 10:33:46 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-22 10:33:46 [main] INFO : Entering Project Status: Pipeline
+2025-07-22 10:33:47 [main] INFO : Entering Project Type: Development
+2025-07-22 10:34:02 [main] INFO : Entered Project Start Date: 2025-07-22
+2025-07-22 10:34:03 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-22 10:34:04 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-22 10:34:06 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-22 10:34:08 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-22 10:34:11 [main] INFO : Save Project
+2025-07-22 10:35:12 [main] INFO : CSAT Project Automation Project Created
+2025-07-22 10:35:15 [main] INFO : Update Duplicate customer contact
+2025-07-22 10:35:24 [main] INFO : Customer Email Error :A contact with this name and email already exists.
+2025-07-22 10:35:26 [main] INFO : Update new customer contact to existing project
+2025-07-22 10:35:44 [main] INFO : Delete customer contact from existing project
+2025-07-22 10:36:04 [main] INFO : Delete Existing Project
+2025-07-22 10:36:12 [main] INFO : CSAT Project Automation Project Deleted
+2025-07-22 10:36:12 [main] INFO : Testing Ended
+2025-07-22 10:36:12 [main] INFO : ***********
