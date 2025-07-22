@@ -59,6 +59,11 @@ public class CSAT_SurveyPage extends WaitsManager {
 	By surveyDetailsHeader = By.cssSelector("h1.survey-title");
 	By surveyTypeColInTable = By.xpath("//tr[@class='survey-table-row']/td[2]");
 
+	// Add new Survey Type Test
+	By typeField = By.xpath("//input[@placeholder='Survey Type']");
+	By descField = By.xpath("//textarea[@name='description']");
+	By surveyTypeError = By.xpath("//div[@class='MuiBox-root css-19kzrtu']/div[3]");
+
 	public void headerValidation() throws Exception {
 		try {
 			implWait(driver);
@@ -284,8 +289,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 
 		}
 	}
-	
-	
+
 	// SELECT SURVEY FORM TABLE
 	public void selectSurveyFromTable(String surveyName) throws Exception {
 		try {
@@ -347,44 +351,44 @@ public class CSAT_SurveyPage extends WaitsManager {
 			logger.error("Test Failed :" + e.getMessage());
 		}
 	}
-	
-	// Edit PopupHeader
-		public void editPopupHeaderValidation() throws Exception {
-			try {
-//				implWait(driver);
-				waitForElement(editPopupHeader, 60);
-				String verifyHeader = driver.findElement(editPopupHeader).getText();
-				if (verifyHeader.equals(dataKeys.editSurveyHeader)) {
-					logger.info("Header is Valid: " + verifyHeader);
-					grep.passTest("Header is Valid: " + verifyHeader);
-				} else {
-					logger.error("Header is not Valid: " + verifyHeader);
-					grep.failTest("Header is not Valid: " + verifyHeader);
-				}
-			} catch (Exception e) {
-				e.printStackTrace();
-				grep.failTest("Test Failed :" + e.getMessage());
-				logger.error("Test Failed :" + e.getMessage());
-			}
-		}
 
-		public void clickCloseEditSurveyPopups() throws Exception {
-			try {
-				implWait(driver);
-				boolean elementExists = !driver.findElements(closeEditPopup).isEmpty();
-				if (elementExists) {
-					waitForElementToBeClickable(closeEditPopup, 30);
-					driver.findElement(closeEditPopup).click();
-				} else {
-					grep.failTest("Edit Survey Close Popup button not available");
-					logger.error("Edit Survey Close popup button not available");
-				}
-			} catch (Exception e) {
-				e.printStackTrace();
-				grep.failTest("Test Failed :" + e.getMessage());
-				logger.error("Test Failed :" + e.getMessage());
+	// Edit PopupHeader
+	public void editPopupHeaderValidation() throws Exception {
+		try {
+//				implWait(driver);
+			waitForElement(editPopupHeader, 60);
+			String verifyHeader = driver.findElement(editPopupHeader).getText();
+			if (verifyHeader.equals(dataKeys.editSurveyHeader)) {
+				logger.info("Header is Valid: " + verifyHeader);
+				grep.passTest("Header is Valid: " + verifyHeader);
+			} else {
+				logger.error("Header is not Valid: " + verifyHeader);
+				grep.failTest("Header is not Valid: " + verifyHeader);
 			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
 		}
+	}
+
+	public void clickCloseEditSurveyPopups() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(closeEditPopup).isEmpty();
+			if (elementExists) {
+				waitForElementToBeClickable(closeEditPopup, 30);
+				driver.findElement(closeEditPopup).click();
+			} else {
+				grep.failTest("Edit Survey Close Popup button not available");
+				logger.error("Edit Survey Close popup button not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
 
 	// VERIFY COLUMN IN TABLE
 	public void verifyTypeColInTable(String colvalues) throws Exception {
@@ -705,4 +709,68 @@ public class CSAT_SurveyPage extends WaitsManager {
 		}
 	}
 
+	// ADD NEW SURVEY TYPE
+	public void insertType(String surveyType) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(typeField).isEmpty();
+			if (elementExist) {
+				WebElement type = driver.findElement(typeField);
+				type.click();
+				type.sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				type.sendKeys(surveyType);
+
+			} else {
+				grep.failTest(" Survey Type Field not Available");
+				logger.error(" Survey Type Field not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void insertDescription(String surveyDesc) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(descField).isEmpty();
+			if (elementExist) {
+				WebElement desc = driver.findElement(descField);
+				desc.click();
+				desc.sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				desc.sendKeys(surveyDesc);
+			} else {
+				grep.failTest(" Survey Description Field not Available");
+				logger.error(" Survey Description Field not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void verifySurveyTypeErrorMessage() throws Exception {
+		try {
+			waitForElement(surveyTypeError, 60);
+//			boolean elementExist = !driver.findElements(surveyTypeError).isEmpty();
+//			if (elementExist) {
+				String error= driver.findElement(surveyTypeError).getText();
+				grep.passTest(" Survey Type Error Messgae :"+error);
+				logger.info(" Survey Type Error Messgae :"+error);
+
+				//			} else {
+//				grep.failTest(" Survey Type Error not Available");
+//				logger.error(" Survey Type Error not Available");
+//			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
 }

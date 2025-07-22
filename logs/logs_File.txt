@@ -11378,3 +11378,381 @@ Session ID: cfecc9622edb3a1a1bbd643f46d573dc
 2025-07-22 15:05:28 [main] INFO : Save Button Available
 2025-07-22 15:05:29 [main] INFO : Testing Ended
 2025-07-22 15:05:29 [main] INFO : ***********
+2025-07-22 16:01:08 [main] INFO : Launching Chrome Browser
+2025-07-22 16:01:08 [main] INFO : Report Name :CsatPage.html
+2025-07-22 16:01:39 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 16:01:39 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 16:01:39 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 16:02:07 [main] INFO : Logged in to CSAT Application
+2025-07-22 16:02:16 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ce7197a8607d9eaa60e1a5c6f180c42, getElementAttribute {id=f.51757F4F98C26EE1D77729CEC7679615.d.C1539502DA154AD937A1C268E4ABBE04.e.427, name=value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57888}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57888/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0ce7197a8607d9eaa60e1a5c6f180c42)] -> xpath: //div[@class='MuiSnackbarContent-message css-1o19295']]
+Session ID: 0ce7197a8607d9eaa60e1a5c6f180c42
+2025-07-22 16:02:20 [main] ERROR: Test Failed :element click intercepted: Element <div tabindex="0" role="combobox" aria-expanded="false" aria-haspopup="listbox" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-uxvpzc">...</div> is not clickable at point (454, 124). Other element would receive the click: <div id="survey-form-modal1">...</div>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ce7197a8607d9eaa60e1a5c6f180c42, clickElement {id=f.51757F4F98C26EE1D77729CEC7679615.d.C1539502DA154AD937A1C268E4ABBE04.e.409}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57888}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57888/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0ce7197a8607d9eaa60e1a5c6f180c42)] -> xpath: //div[@id='survey-8']/div/div]
+Session ID: 0ce7197a8607d9eaa60e1a5c6f180c42
+2025-07-22 16:03:16 [main] ERROR: Test Failed :Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ce7197a8607d9eaa60e1a5c6f180c42, findElements [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57888}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57888/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ce7197a8607d9eaa60e1a5c6f180c42
+2025-07-22 16:03:18 [main] ERROR: Test Failed :Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ce7197a8607d9eaa60e1a5c6f180c42, setTimeout [implicit]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57888}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57888/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ce7197a8607d9eaa60e1a5c6f180c42
+2025-07-22 16:03:18 [main] ERROR: Test Failed :Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ce7197a8607d9eaa60e1a5c6f180c42, setTimeout [implicit]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57888}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57888/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ce7197a8607d9eaa60e1a5c6f180c42
+2025-07-22 16:03:18 [main] ERROR: Test Failed :Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ce7197a8607d9eaa60e1a5c6f180c42, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57888}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57888/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ce7197a8607d9eaa60e1a5c6f180c42
+2025-07-22 16:03:19 [main] INFO : Testing Ended
+2025-07-22 16:03:19 [main] INFO : ***********
+2025-07-22 16:04:07 [main] INFO : Launching Chrome Browser
+2025-07-22 16:04:07 [main] INFO : Report Name :CsatPage.html
+2025-07-22 16:04:21 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 16:04:21 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 16:04:21 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 16:04:48 [main] INFO : Logged in to CSAT Application
+2025-07-22 16:05:05 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af484a87bde352e078e3de2373583087, getElementAttribute {id=f.F397B415B6C2F70628238784B62ADA99.d.2603D91E907F8EEB51BC9B9C8297CBC7.e.416, name=value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58128}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58128/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (af484a87bde352e078e3de2373583087)] -> xpath: //div[@class='MuiSnackbarContent-message css-1o19295']]
+Session ID: af484a87bde352e078e3de2373583087
+2025-07-22 16:05:09 [main] ERROR: Test Failed :element click intercepted: Element <div tabindex="0" role="combobox" aria-expanded="false" aria-haspopup="listbox" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-uxvpzc">...</div> is not clickable at point (454, 124). Other element would receive the click: <div id="survey-form-modal1">...</div>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af484a87bde352e078e3de2373583087, clickElement {id=f.F397B415B6C2F70628238784B62ADA99.d.2603D91E907F8EEB51BC9B9C8297CBC7.e.399}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58128}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58128/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (af484a87bde352e078e3de2373583087)] -> xpath: //div[@id='survey-8']/div/div]
+Session ID: af484a87bde352e078e3de2373583087
+2025-07-22 16:06:16 [main] INFO : Launching Chrome Browser
+2025-07-22 16:06:16 [main] INFO : Report Name :CsatPage.html
+2025-07-22 16:06:23 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 16:06:24 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 16:06:24 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 16:06:52 [main] INFO : Logged in to CSAT Application
+2025-07-22 16:07:01 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6d6586c5b0d50787a346125c20edd9d, getElementAttribute {id=f.44474B2D8A3AE8AE5458E07FF5630201.d.96CDE5D17EAC02BB7C11D122A8423905.e.422, name=value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58327/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c6d6586c5b0d50787a346125c20edd9d)] -> xpath: //div[@class='MuiSnackbarContent-message css-1o19295']]
+Session ID: c6d6586c5b0d50787a346125c20edd9d
+2025-07-22 16:07:05 [main] ERROR: Test Failed :element click intercepted: Element <div tabindex="0" role="combobox" aria-expanded="false" aria-haspopup="listbox" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-uxvpzc">...</div> is not clickable at point (454, 124). Other element would receive the click: <div id="survey-form-modal1">...</div>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6d6586c5b0d50787a346125c20edd9d, clickElement {id=f.44474B2D8A3AE8AE5458E07FF5630201.d.96CDE5D17EAC02BB7C11D122A8423905.e.406}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58327/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c6d6586c5b0d50787a346125c20edd9d)] -> xpath: //div[@id='survey-8']/div/div]
+Session ID: c6d6586c5b0d50787a346125c20edd9d
+2025-07-22 16:08:05 [main] ERROR: Add New Survey Type Not Available
+2025-07-22 16:08:14 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6d6586c5b0d50787a346125c20edd9d, getElementAttribute {id=f.44474B2D8A3AE8AE5458E07FF5630201.d.96CDE5D17EAC02BB7C11D122A8423905.e.423, name=value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58327/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c6d6586c5b0d50787a346125c20edd9d)] -> xpath: //div[@class='MuiSnackbarContent-message css-1o19295']]
+Session ID: c6d6586c5b0d50787a346125c20edd9d
+2025-07-22 16:08:18 [main] ERROR: Test Failed :element click intercepted: Element <div tabindex="0" role="combobox" aria-expanded="false" aria-haspopup="listbox" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-uxvpzc">...</div> is not clickable at point (454, 124). Other element would receive the click: <div id="survey-form-modal1">...</div>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6d6586c5b0d50787a346125c20edd9d, clickElement {id=f.44474B2D8A3AE8AE5458E07FF5630201.d.96CDE5D17EAC02BB7C11D122A8423905.e.406}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58327/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c6d6586c5b0d50787a346125c20edd9d)] -> xpath: //div[@id='survey-8']/div/div]
+Session ID: c6d6586c5b0d50787a346125c20edd9d
+2025-07-22 16:09:27 [main] INFO : Launching Chrome Browser
+2025-07-22 16:09:27 [main] INFO : Report Name :CsatPage.html
+2025-07-22 16:09:33 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 16:09:33 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 16:09:33 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 16:10:01 [main] INFO : Logged in to CSAT Application
+2025-07-22 16:11:05 [main] ERROR:  Survey Type Field not Available
+2025-07-22 16:12:18 [main] INFO : Launching Chrome Browser
+2025-07-22 16:12:19 [main] INFO : Report Name :CsatPage.html
+2025-07-22 16:12:25 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 16:12:25 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 16:12:25 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 16:12:53 [main] INFO : Logged in to CSAT Application
+2025-07-22 16:13:17 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c5542bd7404b2c3e4f7c3d4ce890ae09, getElementAttribute {id=f.3B9FE11143332B705C0600B0FA3C1C88.d.0B5ED4DEEA048AFF119C10D6783A5DD7.e.422, name=value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58750}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58750/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c5542bd7404b2c3e4f7c3d4ce890ae09)] -> xpath: //div[@class='MuiSnackbarContent-message css-1o19295']]
+Session ID: c5542bd7404b2c3e4f7c3d4ce890ae09
+2025-07-22 16:13:28 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c5542bd7404b2c3e4f7c3d4ce890ae09, getElementAttribute {id=f.3B9FE11143332B705C0600B0FA3C1C88.d.0B5ED4DEEA048AFF119C10D6783A5DD7.e.423, name=value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58750}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58750/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c5542bd7404b2c3e4f7c3d4ce890ae09)] -> xpath: //div[@class='MuiSnackbarContent-message css-1o19295']]
+Session ID: c5542bd7404b2c3e4f7c3d4ce890ae09
+2025-07-22 16:13:39 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c5542bd7404b2c3e4f7c3d4ce890ae09, getElementAttribute {id=f.3B9FE11143332B705C0600B0FA3C1C88.d.0B5ED4DEEA048AFF119C10D6783A5DD7.e.424, name=value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58750}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58750/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c5542bd7404b2c3e4f7c3d4ce890ae09)] -> xpath: //div[@class='MuiSnackbarContent-message css-1o19295']]
+Session ID: c5542bd7404b2c3e4f7c3d4ce890ae09
+2025-07-22 16:14:06 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c5542bd7404b2c3e4f7c3d4ce890ae09, getElementAttribute {id=f.3B9FE11143332B705C0600B0FA3C1C88.d.0B5ED4DEEA048AFF119C10D6783A5DD7.e.426, name=value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58750}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58750/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c5542bd7404b2c3e4f7c3d4ce890ae09)] -> xpath: //div[@class='MuiSnackbarContent-message css-1o19295']]
+Session ID: c5542bd7404b2c3e4f7c3d4ce890ae09
+2025-07-22 16:14:08 [main] INFO : Testing Ended
+2025-07-22 16:14:08 [main] INFO : ***********
+2025-07-22 16:14:45 [main] INFO : Launching Chrome Browser
+2025-07-22 16:14:45 [main] INFO : Report Name :CsatPage.html
+2025-07-22 16:14:51 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 16:14:51 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 16:14:51 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 16:15:19 [main] INFO : Logged in to CSAT Application
+2025-07-22 16:15:29 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c7ea4c120073a860d785faa5e6e4ff4e, getElementAttribute {id=f.59465AA1B9B80CCC415A442A2561D9DE.d.AA54A2705C4AF454B137CB9822398004.e.432, name=value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58997}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58997/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c7ea4c120073a860d785faa5e6e4ff4e)] -> xpath: //div[@class='MuiSnackbarContent-message css-1o19295']]
+Session ID: c7ea4c120073a860d785faa5e6e4ff4e
+2025-07-22 16:15:40 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c7ea4c120073a860d785faa5e6e4ff4e, getElementAttribute {id=f.59465AA1B9B80CCC415A442A2561D9DE.d.AA54A2705C4AF454B137CB9822398004.e.433, name=value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58997}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58997/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c7ea4c120073a860d785faa5e6e4ff4e)] -> xpath: //div[@class='MuiSnackbarContent-message css-1o19295']]
+Session ID: c7ea4c120073a860d785faa5e6e4ff4e
+2025-07-22 16:15:52 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c7ea4c120073a860d785faa5e6e4ff4e, getElementAttribute {id=f.59465AA1B9B80CCC415A442A2561D9DE.d.AA54A2705C4AF454B137CB9822398004.e.434, name=value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58997}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58997/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c7ea4c120073a860d785faa5e6e4ff4e)] -> xpath: //div[@class='MuiSnackbarContent-message css-1o19295']]
+Session ID: c7ea4c120073a860d785faa5e6e4ff4e
+2025-07-22 16:16:02 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c7ea4c120073a860d785faa5e6e4ff4e, getElementAttribute {id=f.59465AA1B9B80CCC415A442A2561D9DE.d.AA54A2705C4AF454B137CB9822398004.e.436, name=value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58997}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58997/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c7ea4c120073a860d785faa5e6e4ff4e)] -> xpath: //div[@class='MuiSnackbarContent-message css-1o19295']]
+Session ID: c7ea4c120073a860d785faa5e6e4ff4e
+2025-07-22 16:16:04 [main] INFO : Testing Ended
+2025-07-22 16:16:04 [main] INFO : ***********
+2025-07-22 16:16:50 [main] INFO : Launching Chrome Browser
+2025-07-22 16:16:50 [main] INFO : Report Name :CsatPage.html
+2025-07-22 16:17:00 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 16:17:00 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 16:17:01 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 16:17:29 [main] INFO : Logged in to CSAT Application
+2025-07-22 16:17:48 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe882f3cfe7f5c5e4e71c4fa1534b1d7, getElementAttribute {name=value, id=f.5FCD9F7D4D8B4341A5255675EF74378A.d.86742BAE9972BE58C97948AE6DAEEF91.e.433}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59176/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fe882f3cfe7f5c5e4e71c4fa1534b1d7)] -> xpath: //div[@class='MuiSnackbarContent-message css-1o19295']]
+Session ID: fe882f3cfe7f5c5e4e71c4fa1534b1d7
+2025-07-22 16:17:58 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe882f3cfe7f5c5e4e71c4fa1534b1d7, getElementAttribute {name=value, id=f.5FCD9F7D4D8B4341A5255675EF74378A.d.86742BAE9972BE58C97948AE6DAEEF91.e.945}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59176/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fe882f3cfe7f5c5e4e71c4fa1534b1d7)] -> xpath: //div[@class='MuiSnackbarContent-message css-1o19295']]
+Session ID: fe882f3cfe7f5c5e4e71c4fa1534b1d7
+2025-07-22 16:18:10 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe882f3cfe7f5c5e4e71c4fa1534b1d7, getElementAttribute {name=value, id=f.5FCD9F7D4D8B4341A5255675EF74378A.d.86742BAE9972BE58C97948AE6DAEEF91.e.954}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59176/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fe882f3cfe7f5c5e4e71c4fa1534b1d7)] -> xpath: //div[@class='MuiSnackbarContent-message css-1o19295']]
+Session ID: fe882f3cfe7f5c5e4e71c4fa1534b1d7
+2025-07-22 16:18:41 [main] ERROR: Test Failed :invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe882f3cfe7f5c5e4e71c4fa1534b1d7, getElementAttribute {name=value, id=f.5FCD9F7D4D8B4341A5255675EF74378A.d.86742BAE9972BE58C97948AE6DAEEF91.e.959}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59176/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fe882f3cfe7f5c5e4e71c4fa1534b1d7)] -> xpath: //div[@class='MuiSnackbarContent-message css-1o19295']]
+Session ID: fe882f3cfe7f5c5e4e71c4fa1534b1d7
+2025-07-22 16:18:41 [main] INFO : Testing Ended
+2025-07-22 16:18:41 [main] INFO : ***********
+2025-07-22 16:19:12 [main] INFO : Launching Chrome Browser
+2025-07-22 16:19:12 [main] INFO : Report Name :CsatPage.html
+2025-07-22 16:19:18 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 16:19:19 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 16:19:19 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 16:19:48 [main] INFO : Logged in to CSAT Application
+2025-07-22 16:20:01 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5058ab34a0f5b35d37f692a3b56af753, getElementAttribute {id=f.DB9ED203FF54293898B99F55F7A4DE51.d.EA25BBE26812DEFA120A9F028EA681EA.e.434, name=value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59376}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59376/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5058ab34a0f5b35d37f692a3b56af753)] -> xpath: //div[@class='MuiBox-root css-19kzrtu']/div[3]]
+Session ID: 5058ab34a0f5b35d37f692a3b56af753
+2025-07-22 16:20:38 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5058ab34a0f5b35d37f692a3b56af753, getElementAttribute {id=f.DB9ED203FF54293898B99F55F7A4DE51.d.EA25BBE26812DEFA120A9F028EA681EA.e.435, name=value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59376}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59376/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5058ab34a0f5b35d37f692a3b56af753)] -> xpath: //div[@class='MuiBox-root css-19kzrtu']/div[3]]
+Session ID: 5058ab34a0f5b35d37f692a3b56af753
+2025-07-22 16:20:51 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5058ab34a0f5b35d37f692a3b56af753, getElementAttribute {id=f.DB9ED203FF54293898B99F55F7A4DE51.d.EA25BBE26812DEFA120A9F028EA681EA.e.951, name=value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59376}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59376/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5058ab34a0f5b35d37f692a3b56af753)] -> xpath: //div[@class='MuiBox-root css-19kzrtu']/div[3]]
+Session ID: 5058ab34a0f5b35d37f692a3b56af753
+2025-07-22 16:21:02 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5058ab34a0f5b35d37f692a3b56af753, getElementAttribute {id=f.DB9ED203FF54293898B99F55F7A4DE51.d.EA25BBE26812DEFA120A9F028EA681EA.e.964, name=value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59376}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59376/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5058ab34a0f5b35d37f692a3b56af753)] -> xpath: //div[@class='MuiBox-root css-19kzrtu']/div[3]]
+Session ID: 5058ab34a0f5b35d37f692a3b56af753
+2025-07-22 16:21:05 [main] INFO : Testing Ended
+2025-07-22 16:21:05 [main] INFO : ***********
+2025-07-22 16:22:49 [main] INFO : Launching Chrome Browser
+2025-07-22 16:22:49 [main] INFO : Report Name :CsatPage.html
+2025-07-22 16:22:56 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 16:22:56 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 16:22:56 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 16:23:23 [main] INFO : Logged in to CSAT Application
+2025-07-22 16:23:45 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [42e19b48d10403bff7baf2aefa62d999, getElementAttribute {id=f.3E4FFD7470710C2EEC1A66AC297F60F6.d.CC50052F85F1918B57512F2D440D401A.e.423, name=value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59669}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59669/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (42e19b48d10403bff7baf2aefa62d999)] -> xpath: //div[@class='MuiBox-root css-19kzrtu']/div[3]]
+Session ID: 42e19b48d10403bff7baf2aefa62d999
+2025-07-22 16:23:55 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [42e19b48d10403bff7baf2aefa62d999, getElementAttribute {id=f.3E4FFD7470710C2EEC1A66AC297F60F6.d.CC50052F85F1918B57512F2D440D401A.e.424, name=value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59669}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59669/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (42e19b48d10403bff7baf2aefa62d999)] -> xpath: //div[@class='MuiBox-root css-19kzrtu']/div[3]]
+Session ID: 42e19b48d10403bff7baf2aefa62d999
+2025-07-22 16:24:04 [main] INFO : Launching Chrome Browser
+2025-07-22 16:24:04 [main] INFO : Report Name :CsatPage.html
+2025-07-22 16:24:25 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 16:24:25 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 16:24:26 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 16:24:52 [main] INFO : Logged in to CSAT Application
+2025-07-22 16:24:57 [main] INFO :  Survey Type Error Messgae :Survey type name cannot contain special characters.
+2025-07-22 16:25:03 [main] INFO :  Survey Type Error Messgae :Survey type name is required
+2025-07-22 16:25:10 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 16:25:16 [main] INFO :  Survey Type Error Messgae :
+2025-07-22 16:25:19 [main] INFO : Testing Ended
+2025-07-22 16:25:19 [main] INFO : ***********
+2025-07-22 16:27:26 [main] INFO : Launching Chrome Browser
+2025-07-22 16:27:26 [main] INFO : Report Name :CsatPage.html
+2025-07-22 16:27:32 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 16:27:32 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 16:27:32 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 16:28:00 [main] INFO : Logged in to CSAT Application
+2025-07-22 16:28:01 [main] INFO : Entering invalid characters in type field
+2025-07-22 16:28:06 [main] INFO :  Survey Type Error Messgae :Survey type name cannot contain special characters.
+2025-07-22 16:28:10 [main] INFO : Entering spaces in type field
+2025-07-22 16:28:12 [main] INFO :  Survey Type Error Messgae :Survey type name is required
+2025-07-22 16:28:16 [main] INFO : Keeping description field blank
+2025-07-22 16:28:19 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 16:28:23 [main] INFO : Entering spaces in description field
+2025-07-22 16:28:26 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 16:28:28 [main] INFO : Testing Ended
+2025-07-22 16:28:28 [main] INFO : ***********

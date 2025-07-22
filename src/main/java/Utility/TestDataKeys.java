@@ -263,11 +263,13 @@ public class TestDataKeys {
 
 	// Survey Module Survey Type Dropdown
 	public String allSurveyTypes = "All Survey Types";
-	public String addNewSurveyHeader= "Add New Survey";
-	public String addSurveyTypeHeader= "Add Survey Type";
-	public String updateSurveyTypeHeader= "Update Survey Type";
-	public String editSurveyHeader= "Edit Survey Details";
+	public String addNewSurveyHeader = "Add New Survey";
+	public String addSurveyTypeHeader = "Add Survey Type";
+	public String updateSurveyTypeHeader = "Update Survey Type";
+	public String editSurveyHeader = "Edit Survey Details";
 	public String selectEngageSurveyType = "CR CSAT -  Engagement Level";
 	public String selectDevelopSurveyType = "CR CSAT - Development Project";
 	public String selectAMSSurveyType = "CR CSAT - AMS Project";
+
+	public String surveyTypeName = "CSAT Test Automation";
 }
