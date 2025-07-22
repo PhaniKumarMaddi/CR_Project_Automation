@@ -272,4 +272,5 @@ public class TestDataKeys {
 	public String selectAMSSurveyType = "CR CSAT - AMS Project";
 
 	public String surveyTypeName = "CSAT Test Automation";
+	public String surveyTypeDesc = "For Automating The CSAT Survey Module";
 }

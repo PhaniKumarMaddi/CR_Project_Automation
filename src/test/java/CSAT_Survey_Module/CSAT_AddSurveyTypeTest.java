@@ -94,5 +94,68 @@ public class CSAT_AddSurveyTypeTest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "Entering spaces in description field", "Spaces_DescField");
 		waitTime2(driver);
 
+//		// Entering invalid characters in description field
+//		grep.testCreate("Entering invalid characters in description field in add New Survey Type Test",
+//				"Entering invalid characters in description field");
+
+		// Creating New Survey Type
+		grep.testCreate("Creating New Survey Type Test", "Creating New Survey Type");
+
+		waitTime2(driver);
+		grep.infoTest("Creating New Survey Type Test");
+		logger.info("Creating New Survey Type Test");
+		waitTime(driver);
+		csat_Survey.insertType(dataKeys.surveyTypeName);
+		waitTime(driver);
+		csat_Survey.insertDescription(dataKeys.surveyTypeDesc);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Creating New Survey Type Test", "new_SurveyType");
+		waitTime(driver);
+		csat_Survey.clickButton(dataKeys.saveBtn);
+		waitTime10(driver);
+
+//		// Editing existing Survey Type
+//		grep.testCreate("Editing existing Survey Type Test", "Editing existing Survey Type");
+
+		// Creating New Survey Type with Existing Name
+		grep.testCreate("Creating survey type with existing Survey Type Test",
+				"Creating Survey type with existing name");
+
+		waitTime2(driver);
+		grep.infoTest("Creating New Survey with Existing Survey Type Name Test");
+		logger.info("Creating New Survey with Existing Survey Type Name Test");
+		waitTime(driver);
+		csat_Survey.clickSurveyTypeDropDown();
+		waitTime(driver);
+		csat_Survey.clickAddNewSurveyTypeBtn();
+		waitTime2(driver);
+		csat_Survey.insertType(dataKeys.surveyTypeName);
+		waitTime(driver);
+		csat_Survey.insertDescription(dataKeys.surveyTypeDesc);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Creating New Survey Type Test", "new_SurveyType");
+		waitTime(driver);
+		csat_Survey.clickButton(dataKeys.saveBtn);
+		csat_Survey.verifySurveyTypeErrorMessage();
+		waitTime5(driver);
+		csat_Survey.clickButton(dataKeys.cancelBtn);
+
+		// Deleting Existing Survey Type
+		grep.testCreate("Deleting Existing Survey Type Test", "Deleting Existing Survey Type");
+
+		waitTime2(driver);
+		grep.infoTest("Deleting Existing Survey Type Test");
+		logger.info("Deleting Existing Survey Type Test");
+		waitTime(driver);
+		csat_Survey.clickSurveyTypeDropDown();
+		csat_Survey.selectActionInSurveyType(dataKeys.surveyTypeName, dataKeys.deleteProjectBtn);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Deleteing Existing Survey Type", "delete_SurveyType");
+		waitTime(driver);
+		csat_Survey.clickButton(dataKeys.buttonYes);
+		waitTime(driver);
+		refreshPage();
+
 	}
+
 }

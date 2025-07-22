@@ -11756,3 +11756,550 @@ Session ID: 42e19b48d10403bff7baf2aefa62d999
 2025-07-22 16:28:26 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
 2025-07-22 16:28:28 [main] INFO : Testing Ended
 2025-07-22 16:28:28 [main] INFO : ***********
+2025-07-22 16:30:33 [main] INFO : Launching Chrome Browser
+2025-07-22 16:30:33 [main] INFO : Report Name :CsatPage.html
+2025-07-22 16:30:38 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 16:30:38 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 16:30:38 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 16:31:05 [main] INFO : Logged in to CSAT Application
+2025-07-22 16:31:07 [main] INFO : Validating the Header
+2025-07-22 16:31:08 [main] INFO : Header is Valid: Surveys
+2025-07-22 16:31:08 [main] INFO : Validating  the Add New Survey Type Popup
+2025-07-22 16:31:09 [main] INFO : Header is Valid: Add Survey Type
+2025-07-22 16:31:10 [main] INFO : Cancel Button Available
+2025-07-22 16:31:10 [main] INFO : Save Button Available
+2025-07-22 16:31:11 [main] INFO : Validating  the Add New Survey Popup
+2025-07-22 16:31:12 [main] INFO : Header is Valid: Add New Survey
+2025-07-22 16:31:13 [main] INFO : Cancel Button Available
+2025-07-22 16:31:13 [main] INFO : Save Button Available
+2025-07-22 16:31:14 [main] INFO : Validating the Survey Type Dropdown
+2025-07-22 16:31:14 [main] INFO : All Survey Types Dropdown is Available
+2025-07-22 16:31:15 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-07-22 16:31:17 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 16:31:17 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 16:31:17 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 16:31:19 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-07-22 16:31:22 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 16:31:22 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 16:31:22 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 16:31:22 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 16:31:24 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-07-22 16:31:26 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-07-22 16:31:29 [main] INFO : Survey Type Update Popup Test
+2025-07-22 16:31:30 [main] INFO : Header is Valid: Update Survey Type
+2025-07-22 16:31:31 [main] INFO : Cancel Button Available
+2025-07-22 16:31:31 [main] INFO : Update Button Available
+2025-07-22 16:31:33 [main] INFO : Column Options is valid Header value
+2025-07-22 16:31:33 [main] INFO : Cancel Button Available
+2025-07-22 16:31:33 [main] INFO : OK Button Available
+2025-07-22 16:31:33 [main] INFO : Verifying Start Date Column Option
+2025-07-22 16:31:33 [main] INFO : Column Option visibility is Hide 
+2025-07-22 16:31:35 [main] INFO : Column Option visibility is View 
+2025-07-22 16:31:36 [main] INFO : Verifying End Date Column Option
+2025-07-22 16:31:36 [main] INFO : Column Option visibility is Hide 
+2025-07-22 16:31:38 [main] INFO : Column Option visibility is View 
+2025-07-22 16:31:39 [main] INFO : Verifying Type Column Option
+2025-07-22 16:31:40 [main] INFO : Column Option visibility is Hide 
+2025-07-22 16:31:41 [main] INFO : Column Option visibility is View 
+2025-07-22 16:31:43 [main] INFO : Selecting Pagination 5
+2025-07-22 16:31:43 [main] INFO : 5 pagination Option Selected
+2025-07-22 16:31:44 [main] INFO : Selecting Pagination 15
+2025-07-22 16:31:44 [main] INFO : 15 pagination Option Selected
+2025-07-22 16:31:45 [main] INFO : Selecting Pagination 10
+2025-07-22 16:31:45 [main] INFO : 10 pagination Option Selected
+2025-07-22 16:31:47 [main] INFO : Download CSV File Format 
+2025-07-22 16:31:52 [main] INFO : Download PDF File Format 
+2025-07-22 16:31:58 [main] INFO : Search Survey
+2025-07-22 16:31:59 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 16:31:59 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 16:31:59 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 16:31:59 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 16:32:01 [main] INFO : Clicking Survey from Table
+2025-07-22 16:32:07 [main] INFO : Header is Valid: CR CSAT - Development Project
+2025-07-22 16:32:09 [main] INFO : Validating Edit Survey from Table
+2025-07-22 16:32:10 [main] INFO : Header is Valid: Edit Survey Details
+2025-07-22 16:32:13 [main] INFO : Cancel Button Available
+2025-07-22 16:32:13 [main] INFO : Save Button Available
+2025-07-22 16:32:15 [main] INFO : Entering invalid characters in type field
+2025-07-22 16:32:20 [main] INFO :  Survey Type Error Messgae :Survey type name cannot contain special characters.
+2025-07-22 16:32:24 [main] INFO : Entering spaces in type field
+2025-07-22 16:32:26 [main] INFO :  Survey Type Error Messgae :Survey type name is required
+2025-07-22 16:32:30 [main] INFO : Keeping description field blank
+2025-07-22 16:32:33 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 16:32:37 [main] INFO : Entering spaces in description field
+2025-07-22 16:32:39 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 16:32:42 [main] INFO : Testing Ended
+2025-07-22 16:32:42 [main] INFO : ***********
+2025-07-22 16:52:25 [main] INFO : Launching Chrome Browser
+2025-07-22 16:52:25 [main] INFO : Report Name :CsatPage.html
+2025-07-22 16:52:31 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 16:52:31 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 16:52:31 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 16:53:00 [main] INFO : Logged in to CSAT Application
+2025-07-22 16:53:01 [main] INFO : Entering invalid characters in type field
+2025-07-22 16:53:05 [main] INFO :  Survey Type Error Messgae :Survey type name cannot contain special characters.
+2025-07-22 16:53:09 [main] INFO : Entering spaces in type field
+2025-07-22 16:53:11 [main] INFO :  Survey Type Error Messgae :Survey type name is required
+2025-07-22 16:53:15 [main] INFO : Keeping description field blank
+2025-07-22 16:53:18 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 16:53:22 [main] INFO : Entering spaces in description field
+2025-07-22 16:53:25 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 16:53:29 [main] INFO : Creating New Survey Type Test
+2025-07-22 16:53:44 [main] INFO : Deleting Existing Survey Type Test
+2025-07-22 16:53:45 [main] ERROR: Test Failed :element click intercepted: Element <div tabindex="0" role="combobox" aria-expanded="false" aria-haspopup="listbox" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-uxvpzc">...</div> is not clickable at point (454, 124). Other element would receive the click: <div id="survey-form-modal1">...</div>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3828766ecca55255de7f0e96f1bb689, clickElement {id=f.7DF5E365D90B69102062805281EB5F43.d.8607C440EF6D36B30FF0A3648D8A6466.e.400}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61265}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61265/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d3828766ecca55255de7f0e96f1bb689)] -> xpath: //div[@id='survey-8']/div/div]
+Session ID: d3828766ecca55255de7f0e96f1bb689
+2025-07-22 16:54:45 [main] INFO : Launching Chrome Browser
+2025-07-22 16:54:46 [main] INFO : Report Name :CsatPage.html
+2025-07-22 16:54:52 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 16:54:52 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 16:54:52 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 16:55:20 [main] INFO : Logged in to CSAT Application
+2025-07-22 16:55:22 [main] INFO : Entering invalid characters in type field
+2025-07-22 16:55:26 [main] INFO :  Survey Type Error Messgae :Survey type name cannot contain special characters.
+2025-07-22 16:55:31 [main] INFO : Entering spaces in type field
+2025-07-22 16:55:33 [main] INFO :  Survey Type Error Messgae :Survey type name is required
+2025-07-22 16:55:37 [main] INFO : Keeping description field blank
+2025-07-22 16:55:40 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 16:55:44 [main] INFO : Entering spaces in description field
+2025-07-22 16:55:47 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 16:55:52 [main] INFO : Creating New Survey Type Test
+2025-07-22 16:56:06 [main] INFO : Deleting Existing Survey Type Test
+2025-07-22 16:56:10 [main] INFO : Testing Ended
+2025-07-22 16:56:10 [main] INFO : ***********
+2025-07-22 16:58:09 [main] INFO : Launching Chrome Browser
+2025-07-22 16:58:10 [main] INFO : Report Name :CsatPage.html
+2025-07-22 16:58:15 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 16:58:15 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 16:58:16 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 16:58:45 [main] INFO : Logged in to CSAT Application
+2025-07-22 16:58:47 [main] INFO : Validating the Header
+2025-07-22 16:58:47 [main] INFO : Header is Valid: Surveys
+2025-07-22 16:58:48 [main] INFO : Validating  the Add New Survey Type Popup
+2025-07-22 16:58:49 [main] INFO : Header is Valid: Add Survey Type
+2025-07-22 16:58:50 [main] INFO : Cancel Button Available
+2025-07-22 16:58:50 [main] INFO : Save Button Available
+2025-07-22 16:58:51 [main] INFO : Validating  the Add New Survey Popup
+2025-07-22 16:58:52 [main] INFO : Header is Valid: Add New Survey
+2025-07-22 16:58:52 [main] INFO : Cancel Button Available
+2025-07-22 16:58:52 [main] INFO : Save Button Available
+2025-07-22 16:58:54 [main] INFO : Validating the Survey Type Dropdown
+2025-07-22 16:58:54 [main] INFO : All Survey Types Dropdown is Available
+2025-07-22 16:58:55 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-07-22 16:58:57 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 16:58:57 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 16:58:57 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 16:58:59 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-07-22 16:59:02 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 16:59:02 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 16:59:02 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 16:59:02 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 16:59:04 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-07-22 16:59:06 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-07-22 16:59:08 [main] INFO : Survey Type Update Popup Test
+2025-07-22 16:59:10 [main] INFO : Header is Valid: Update Survey Type
+2025-07-22 16:59:10 [main] INFO : Cancel Button Available
+2025-07-22 16:59:10 [main] INFO : Update Button Available
+2025-07-22 16:59:12 [main] INFO : Column Options is valid Header value
+2025-07-22 16:59:12 [main] INFO : Cancel Button Available
+2025-07-22 16:59:12 [main] INFO : OK Button Available
+2025-07-22 16:59:12 [main] INFO : Verifying Start Date Column Option
+2025-07-22 16:59:12 [main] INFO : Column Option visibility is Hide 
+2025-07-22 16:59:14 [main] INFO : Column Option visibility is View 
+2025-07-22 16:59:15 [main] INFO : Verifying End Date Column Option
+2025-07-22 16:59:15 [main] INFO : Column Option visibility is Hide 
+2025-07-22 16:59:17 [main] INFO : Column Option visibility is View 
+2025-07-22 16:59:18 [main] INFO : Verifying Type Column Option
+2025-07-22 16:59:19 [main] INFO : Column Option visibility is Hide 
+2025-07-22 16:59:20 [main] INFO : Column Option visibility is View 
+2025-07-22 16:59:22 [main] INFO : Selecting Pagination 5
+2025-07-22 16:59:22 [main] INFO : 5 pagination Option Selected
+2025-07-22 16:59:23 [main] INFO : Selecting Pagination 15
+2025-07-22 16:59:23 [main] INFO : 15 pagination Option Selected
+2025-07-22 16:59:24 [main] INFO : Selecting Pagination 10
+2025-07-22 16:59:24 [main] INFO : 10 pagination Option Selected
+2025-07-22 16:59:25 [main] INFO : Download CSV File Format 
+2025-07-22 16:59:31 [main] INFO : Download PDF File Format 
+2025-07-22 16:59:37 [main] INFO : Search Survey
+2025-07-22 16:59:37 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 16:59:37 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 16:59:37 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 16:59:37 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 16:59:39 [main] INFO : Clicking Survey from Table
+2025-07-22 16:59:47 [main] INFO : Header is Valid: CR CSAT - Development Project
+2025-07-22 16:59:49 [main] INFO : Validating Edit Survey from Table
+2025-07-22 16:59:51 [main] INFO : Header is Valid: Edit Survey Details
+2025-07-22 16:59:53 [main] INFO : Cancel Button Available
+2025-07-22 16:59:53 [main] INFO : Save Button Available
+2025-07-22 16:59:55 [main] INFO : Entering invalid characters in type field
+2025-07-22 17:00:00 [main] INFO :  Survey Type Error Messgae :Survey type name cannot contain special characters.
+2025-07-22 17:00:04 [main] INFO : Entering spaces in type field
+2025-07-22 17:00:06 [main] INFO :  Survey Type Error Messgae :Survey type name is required
+2025-07-22 17:00:10 [main] INFO : Keeping description field blank
+2025-07-22 17:00:14 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 17:00:18 [main] INFO : Entering spaces in description field
+2025-07-22 17:00:21 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 17:00:25 [main] INFO : Creating New Survey Type Test
+2025-07-22 17:00:40 [main] INFO : Deleting Existing Survey Type Test
+2025-07-22 17:00:44 [main] INFO : Testing Ended
+2025-07-22 17:00:44 [main] INFO : ***********
+2025-07-22 17:02:08 [main] INFO : Launching Chrome Browser
+2025-07-22 17:02:09 [main] INFO : Report Name :CsatPage.html
+2025-07-22 17:02:18 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 17:02:18 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 17:02:18 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 17:02:46 [main] INFO : Logged in to CSAT Application
+2025-07-22 17:02:47 [main] INFO : Validating the Header
+2025-07-22 17:02:48 [main] INFO : Header is Valid: Surveys
+2025-07-22 17:02:49 [main] INFO : Validating  the Add New Survey Type Popup
+2025-07-22 17:02:50 [main] INFO : Header is Valid: Add Survey Type
+2025-07-22 17:02:51 [main] INFO : Cancel Button Available
+2025-07-22 17:02:51 [main] INFO : Save Button Available
+2025-07-22 17:02:51 [main] INFO : Validating  the Add New Survey Popup
+2025-07-22 17:02:53 [main] INFO : Header is Valid: Add New Survey
+2025-07-22 17:02:53 [main] INFO : Cancel Button Available
+2025-07-22 17:02:53 [main] INFO : Save Button Available
+2025-07-22 17:02:54 [main] INFO : Validating the Survey Type Dropdown
+2025-07-22 17:02:54 [main] INFO : All Survey Types Dropdown is Available
+2025-07-22 17:02:56 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-07-22 17:02:58 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 17:02:58 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 17:02:58 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 17:03:00 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-07-22 17:03:02 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 17:03:02 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 17:03:02 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 17:03:02 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 17:03:05 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-07-22 17:03:07 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-07-22 17:03:09 [main] INFO : Survey Type Update Popup Test
+2025-07-22 17:03:10 [main] INFO : Header is Valid: Update Survey Type
+2025-07-22 17:03:11 [main] INFO : Cancel Button Available
+2025-07-22 17:03:11 [main] INFO : Update Button Available
+2025-07-22 17:03:13 [main] INFO : Column Options is valid Header value
+2025-07-22 17:03:13 [main] INFO : Cancel Button Available
+2025-07-22 17:03:13 [main] INFO : OK Button Available
+2025-07-22 17:03:13 [main] INFO : Verifying Start Date Column Option
+2025-07-22 17:03:13 [main] INFO : Column Option visibility is Hide 
+2025-07-22 17:03:14 [main] INFO : Column Option visibility is View 
+2025-07-22 17:03:16 [main] INFO : Verifying End Date Column Option
+2025-07-22 17:03:16 [main] INFO : Column Option visibility is Hide 
+2025-07-22 17:03:17 [main] INFO : Column Option visibility is View 
+2025-07-22 17:03:19 [main] INFO : Verifying Type Column Option
+2025-07-22 17:03:19 [main] INFO : Column Option visibility is Hide 
+2025-07-22 17:03:21 [main] INFO : Column Option visibility is View 
+2025-07-22 17:03:23 [main] INFO : Selecting Pagination 5
+2025-07-22 17:03:23 [main] INFO : 5 pagination Option Selected
+2025-07-22 17:03:24 [main] INFO : Selecting Pagination 15
+2025-07-22 17:03:24 [main] INFO : 15 pagination Option Selected
+2025-07-22 17:03:25 [main] INFO : Selecting Pagination 10
+2025-07-22 17:03:25 [main] INFO : 10 pagination Option Selected
+2025-07-22 17:03:26 [main] INFO : Download CSV File Format 
+2025-07-22 17:03:31 [main] INFO : Download PDF File Format 
+2025-07-22 17:03:37 [main] INFO : Search Survey
+2025-07-22 17:03:38 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 17:03:38 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 17:03:38 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 17:03:38 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 17:03:40 [main] INFO : Clicking Survey from Table
+2025-07-22 17:03:45 [main] INFO : Header is Valid: CR CSAT - Development Project
+2025-07-22 17:03:47 [main] INFO : Validating Edit Survey from Table
+2025-07-22 17:03:49 [main] INFO : Header is Valid: Edit Survey Details
+2025-07-22 17:03:53 [main] INFO : Cancel Button Available
+2025-07-22 17:03:53 [main] INFO : Save Button Available
+2025-07-22 17:03:55 [main] INFO : Entering invalid characters in type field
+2025-07-22 17:03:59 [main] INFO :  Survey Type Error Messgae :Survey type name cannot contain special characters.
+2025-07-22 17:04:04 [main] INFO : Entering spaces in type field
+2025-07-22 17:04:06 [main] INFO :  Survey Type Error Messgae :Survey type name is required
+2025-07-22 17:04:10 [main] INFO : Keeping description field blank
+2025-07-22 17:04:13 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 17:04:17 [main] INFO : Entering spaces in description field
+2025-07-22 17:04:20 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 17:04:24 [main] INFO : Creating New Survey Type Test
+2025-07-22 17:04:39 [main] INFO : Deleting Existing Survey Type Test
+2025-07-22 17:04:43 [main] ERROR: Test Failed :element click intercepted: Element <div tabindex="0" role="combobox" aria-expanded="true" aria-haspopup="listbox" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-uxvpzc" aria-controls="«r4»">...</div> is not clickable at point (454, 124). Other element would receive the click: <div class="add-survey-modal-overlay">...</div>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8e45b583c172a6729fc09c1aac16ab81, clickElement {id=f.63D7B0E8055A65BE71C343F10AA0C387.d.1696472A983306312A4A1B14E4BB21C6.e.802}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61966}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61966/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8e45b583c172a6729fc09c1aac16ab81)] -> xpath: //div[@id='survey-8']/div/div]
+Session ID: 8e45b583c172a6729fc09c1aac16ab81
+2025-07-22 17:04:45 [main] INFO : Testing Ended
+2025-07-22 17:04:45 [main] INFO : ***********
+2025-07-22 17:05:56 [main] INFO : Launching Chrome Browser
+2025-07-22 17:05:56 [main] INFO : Report Name :CsatPage.html
+2025-07-22 17:06:08 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 17:06:08 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 17:06:08 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 17:06:38 [main] INFO : Logged in to CSAT Application
+2025-07-22 17:06:40 [main] INFO : Validating the Header
+2025-07-22 17:06:40 [main] INFO : Header is Valid: Surveys
+2025-07-22 17:06:41 [main] INFO : Validating  the Add New Survey Type Popup
+2025-07-22 17:06:42 [main] INFO : Header is Valid: Add Survey Type
+2025-07-22 17:06:43 [main] INFO : Cancel Button Available
+2025-07-22 17:06:43 [main] INFO : Save Button Available
+2025-07-22 17:06:44 [main] INFO : Validating  the Add New Survey Popup
+2025-07-22 17:06:45 [main] INFO : Header is Valid: Add New Survey
+2025-07-22 17:06:45 [main] INFO : Cancel Button Available
+2025-07-22 17:06:45 [main] INFO : Save Button Available
+2025-07-22 17:06:47 [main] INFO : Validating the Survey Type Dropdown
+2025-07-22 17:06:47 [main] INFO : All Survey Types Dropdown is Available
+2025-07-22 17:06:48 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-07-22 17:06:50 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 17:06:50 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 17:06:50 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 17:06:52 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-07-22 17:06:54 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 17:06:55 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 17:06:55 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 17:06:55 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 17:06:57 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-07-22 17:06:59 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-07-22 17:07:01 [main] INFO : Survey Type Update Popup Test
+2025-07-22 17:07:02 [main] INFO : Header is Valid: Update Survey Type
+2025-07-22 17:07:03 [main] INFO : Cancel Button Available
+2025-07-22 17:07:03 [main] INFO : Update Button Available
+2025-07-22 17:07:05 [main] INFO : Column Options is valid Header value
+2025-07-22 17:07:05 [main] INFO : Cancel Button Available
+2025-07-22 17:07:05 [main] INFO : OK Button Available
+2025-07-22 17:07:05 [main] INFO : Verifying Start Date Column Option
+2025-07-22 17:07:05 [main] INFO : Column Option visibility is Hide 
+2025-07-22 17:07:07 [main] INFO : Column Option visibility is View 
+2025-07-22 17:07:08 [main] INFO : Verifying End Date Column Option
+2025-07-22 17:07:08 [main] INFO : Column Option visibility is Hide 
+2025-07-22 17:07:10 [main] INFO : Column Option visibility is View 
+2025-07-22 17:07:11 [main] INFO : Verifying Type Column Option
+2025-07-22 17:07:12 [main] INFO : Column Option visibility is Hide 
+2025-07-22 17:07:13 [main] INFO : Column Option visibility is View 
+2025-07-22 17:07:15 [main] INFO : Selecting Pagination 5
+2025-07-22 17:07:15 [main] INFO : 5 pagination Option Selected
+2025-07-22 17:07:16 [main] INFO : Selecting Pagination 15
+2025-07-22 17:07:16 [main] INFO : 15 pagination Option Selected
+2025-07-22 17:07:17 [main] INFO : Selecting Pagination 10
+2025-07-22 17:07:17 [main] INFO : 10 pagination Option Selected
+2025-07-22 17:07:18 [main] INFO : Download CSV File Format 
+2025-07-22 17:07:24 [main] INFO : Download PDF File Format 
+2025-07-22 17:07:29 [main] INFO : Search Survey
+2025-07-22 17:07:30 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 17:07:30 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 17:07:30 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 17:07:30 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 17:07:32 [main] INFO : Clicking Survey from Table
+2025-07-22 17:07:38 [main] INFO : Header is Valid: CR CSAT - Development Project
+2025-07-22 17:07:40 [main] INFO : Validating Edit Survey from Table
+2025-07-22 17:07:41 [main] INFO : Header is Valid: Edit Survey Details
+2025-07-22 17:07:44 [main] INFO : Cancel Button Available
+2025-07-22 17:07:44 [main] INFO : Save Button Available
+2025-07-22 17:07:46 [main] INFO : Entering invalid characters in type field
+2025-07-22 17:07:50 [main] INFO :  Survey Type Error Messgae :Survey type name cannot contain special characters.
+2025-07-22 17:07:54 [main] INFO : Entering spaces in type field
+2025-07-22 17:07:56 [main] INFO :  Survey Type Error Messgae :Survey type name is required
+2025-07-22 17:08:01 [main] INFO : Keeping description field blank
+2025-07-22 17:08:04 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 17:08:08 [main] INFO : Entering spaces in description field
+2025-07-22 17:08:11 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 17:08:15 [main] INFO : Creating New Survey Type Test
+2025-07-22 17:08:30 [main] INFO : Deleting Existing Survey Type Test
+2025-07-22 17:08:33 [main] INFO : Testing Ended
+2025-07-22 17:08:33 [main] INFO : ***********
+2025-07-22 18:07:57 [main] INFO : Launching Chrome Browser
+2025-07-22 18:07:58 [main] INFO : Report Name :CsatPage.html
+2025-07-22 18:08:04 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 18:08:04 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 18:08:04 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 18:08:33 [main] INFO : Logged in to CSAT Application
+2025-07-22 18:08:35 [main] INFO : Entering invalid characters in type field
+2025-07-22 18:08:39 [main] INFO :  Survey Type Error Messgae :Survey type name cannot contain special characters.
+2025-07-22 18:08:43 [main] INFO : Entering spaces in type field
+2025-07-22 18:08:45 [main] INFO :  Survey Type Error Messgae :Survey type name is required
+2025-07-22 18:08:50 [main] INFO : Keeping description field blank
+2025-07-22 18:08:53 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 18:08:57 [main] INFO : Entering spaces in description field
+2025-07-22 18:08:59 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 18:09:04 [main] INFO : Creating New Survey Type Test
+2025-07-22 18:09:30 [main] INFO : Launching Chrome Browser
+2025-07-22 18:09:30 [main] INFO : Report Name :CsatPage.html
+2025-07-22 18:09:36 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 18:09:36 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 18:09:36 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 18:10:04 [main] INFO : Logged in to CSAT Application
+2025-07-22 18:10:05 [main] INFO : Entering invalid characters in type field
+2025-07-22 18:10:10 [main] INFO :  Survey Type Error Messgae :Survey type name cannot contain special characters.
+2025-07-22 18:10:14 [main] INFO : Entering spaces in type field
+2025-07-22 18:10:16 [main] INFO :  Survey Type Error Messgae :Survey type name is required
+2025-07-22 18:10:20 [main] INFO : Keeping description field blank
+2025-07-22 18:10:24 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 18:10:28 [main] INFO : Entering spaces in description field
+2025-07-22 18:10:31 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 18:10:35 [main] INFO : Creating New Survey Type Test
+2025-07-22 18:10:50 [main] INFO : Creating New Survey Type Test
+2025-07-22 18:10:57 [main] INFO :  Survey Type Error Messgae :This survey type already exists.
+2025-07-22 18:11:04 [main] INFO : Deleting Existing Survey Type Test
+2025-07-22 18:11:05 [main] ERROR: Test Failed :element click intercepted: Element <button class="text-red-600 hover:text-red-800" title="Delete" id="table-5">...</button> is not clickable at point (504, 309). Other element would receive the click: <span title="...">Add New Survey Type</span>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2eaea7d3e315c7a77fc05a182bf58f66, clickElement {id=f.980B5D2EC85D5623C401AA47CC4289DB.d.921868C594E833DF95862A1592C4BBBA.e.492}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64712}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64712/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2eaea7d3e315c7a77fc05a182bf58f66)] -> xpath: //li/div/span[text()='CSAT Test Automation']/following-sibling::div/button[@title='Delete']]
+Session ID: 2eaea7d3e315c7a77fc05a182bf58f66
+2025-07-22 18:12:07 [main] ERROR: Yes Button Not Available
+2025-07-22 18:12:08 [main] INFO : Testing Ended
+2025-07-22 18:12:08 [main] INFO : ***********
+2025-07-22 18:12:46 [main] INFO : Launching Chrome Browser
+2025-07-22 18:12:46 [main] INFO : Report Name :CsatPage.html
+2025-07-22 18:12:52 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 18:12:52 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 18:12:52 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 18:13:21 [main] INFO : Logged in to CSAT Application
+2025-07-22 18:13:22 [main] INFO : Entering invalid characters in type field
+2025-07-22 18:13:26 [main] INFO :  Survey Type Error Messgae :Survey type name cannot contain special characters.
+2025-07-22 18:13:31 [main] INFO : Entering spaces in type field
+2025-07-22 18:13:33 [main] INFO :  Survey Type Error Messgae :Survey type name is required
+2025-07-22 18:13:37 [main] INFO : Keeping description field blank
+2025-07-22 18:13:40 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 18:13:44 [main] INFO : Entering spaces in description field
+2025-07-22 18:13:47 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 18:13:51 [main] INFO : Creating New Survey Type Test
+2025-07-22 18:14:06 [main] INFO : Creating New Survey Type Test
+2025-07-22 18:14:08 [main] ERROR: Test Failed :element click intercepted: Element <div tabindex="0" role="combobox" aria-expanded="false" aria-haspopup="listbox" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-uxvpzc">...</div> is not clickable at point (454, 124). Other element would receive the click: <div id="survey-form-modal1">...</div>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e272fde85d1f1d7eb9841976ae700136, clickElement {id=f.AFA33FF410541B6B50826DB3975A5569.d.53094B4D0781D8DDCE4990D905D58D0E.e.421}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64830}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64830/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e272fde85d1f1d7eb9841976ae700136)] -> xpath: //div[@id='survey-8']/div/div]
+Session ID: e272fde85d1f1d7eb9841976ae700136
+2025-07-22 18:14:11 [main] ERROR: Test Failed :invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e272fde85d1f1d7eb9841976ae700136, findElements {using=xpath, value=//span[@title='Add New Survey Type']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64830}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64830/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e272fde85d1f1d7eb9841976ae700136
+2025-07-22 18:14:13 [main] ERROR: Test Failed :invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e272fde85d1f1d7eb9841976ae700136, setTimeout {implicit=60000}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64830}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64830/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e272fde85d1f1d7eb9841976ae700136
+2025-07-22 18:14:14 [main] ERROR: Test Failed :invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e272fde85d1f1d7eb9841976ae700136, setTimeout {implicit=60000}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64830}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64830/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e272fde85d1f1d7eb9841976ae700136
+2025-07-22 18:14:15 [main] INFO : Testing Ended
+2025-07-22 18:14:15 [main] INFO : ***********
+2025-07-22 18:14:38 [main] INFO : Launching Chrome Browser
+2025-07-22 18:14:38 [main] INFO : Report Name :CsatPage.html
+2025-07-22 18:14:44 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 18:14:44 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 18:14:44 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 18:15:14 [main] INFO : Logged in to CSAT Application
+2025-07-22 18:15:15 [main] INFO : Entering invalid characters in type field
+2025-07-22 18:15:20 [main] INFO :  Survey Type Error Messgae :Survey type name cannot contain special characters.
+2025-07-22 18:15:24 [main] INFO : Entering spaces in type field
+2025-07-22 18:15:26 [main] INFO :  Survey Type Error Messgae :Survey type name is required
+2025-07-22 18:15:30 [main] INFO : Keeping description field blank
+2025-07-22 18:15:33 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 18:15:38 [main] INFO : Entering spaces in description field
+2025-07-22 18:15:41 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 18:15:45 [main] INFO : Creating New Survey Type Test
+2025-07-22 18:16:00 [main] INFO : Creating New Survey Type Test
+2025-07-22 18:16:07 [main] INFO :  Survey Type Error Messgae :This survey type already exists.
+2025-07-22 18:16:15 [main] INFO : Deleting Existing Survey Type Test
+2025-07-22 18:16:18 [main] INFO : Testing Ended
+2025-07-22 18:16:18 [main] INFO : ***********
+2025-07-22 18:56:17 [main] INFO : Launching Chrome Browser
+2025-07-22 18:56:17 [main] INFO : Report Name :CSATSurveyReport.html
+2025-07-22 18:56:52 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 18:56:52 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 18:56:52 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 18:57:52 [main] INFO : Logged in to CSAT Application
+2025-07-22 18:57:54 [main] INFO : Validating the Header
+2025-07-22 18:57:54 [main] INFO : Header is Valid: Surveys
+2025-07-22 18:57:55 [main] INFO : Validating  the Add New Survey Type Popup
+2025-07-22 18:57:56 [main] INFO : Header is Valid: Add Survey Type
+2025-07-22 18:57:57 [main] INFO : Cancel Button Available
+2025-07-22 18:57:57 [main] INFO : Save Button Available
+2025-07-22 18:57:57 [main] INFO : Validating  the Add New Survey Popup
+2025-07-22 18:57:59 [main] INFO : Header is Valid: Add New Survey
+2025-07-22 18:57:59 [main] INFO : Cancel Button Available
+2025-07-22 18:57:59 [main] INFO : Save Button Available
+2025-07-22 18:58:01 [main] INFO : Validating the Survey Type Dropdown
+2025-07-22 18:58:01 [main] INFO : All Survey Types Dropdown is Available
+2025-07-22 18:58:02 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-07-22 18:58:04 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 18:58:04 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 18:58:04 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 18:58:07 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-07-22 18:58:09 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 18:58:09 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 18:58:09 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 18:58:09 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 18:58:12 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-07-22 18:58:14 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-07-22 18:58:17 [main] INFO : Survey Type Update Popup Test
+2025-07-22 18:58:18 [main] INFO : Header is Valid: Update Survey Type
+2025-07-22 18:58:18 [main] INFO : Cancel Button Available
+2025-07-22 18:58:18 [main] INFO : Update Button Available
+2025-07-22 18:58:21 [main] INFO : Column Options is valid Header value
+2025-07-22 18:58:21 [main] INFO : Cancel Button Available
+2025-07-22 18:58:21 [main] INFO : OK Button Available
+2025-07-22 18:58:21 [main] INFO : Verifying Start Date Column Option
+2025-07-22 18:58:21 [main] INFO : Column Option visibility is Hide 
+2025-07-22 18:58:23 [main] INFO : Column Option visibility is View 
+2025-07-22 18:58:25 [main] INFO : Verifying End Date Column Option
+2025-07-22 18:58:25 [main] INFO : Column Option visibility is Hide 
+2025-07-22 18:58:27 [main] INFO : Column Option visibility is View 
+2025-07-22 18:58:28 [main] INFO : Verifying Type Column Option
+2025-07-22 18:58:29 [main] INFO : Column Option visibility is Hide 
+2025-07-22 18:58:30 [main] INFO : Column Option visibility is View 
+2025-07-22 18:58:33 [main] INFO : Selecting Pagination 5
+2025-07-22 18:58:33 [main] INFO : 5 pagination Option Selected
+2025-07-22 18:58:34 [main] INFO : Selecting Pagination 15
+2025-07-22 18:58:34 [main] INFO : 15 pagination Option Selected
+2025-07-22 18:58:35 [main] INFO : Selecting Pagination 10
+2025-07-22 18:58:35 [main] INFO : 10 pagination Option Selected
+2025-07-22 18:58:36 [main] INFO : Download CSV File Format 
+2025-07-22 18:58:42 [main] INFO : Download PDF File Format 
+2025-07-22 18:58:49 [main] INFO : Search Survey
+2025-07-22 18:58:49 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 18:58:49 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 18:58:49 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 18:58:49 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 18:58:51 [main] INFO : Clicking Survey from Table
+2025-07-22 18:58:57 [main] INFO : Header is Valid: CR CSAT - Development Project
+2025-07-22 18:58:59 [main] INFO : Validating Edit Survey from Table
+2025-07-22 18:59:01 [main] INFO : Header is Valid: Edit Survey Details
+2025-07-22 18:59:04 [main] INFO : Cancel Button Available
+2025-07-22 18:59:04 [main] INFO : Save Button Available
+2025-07-22 18:59:06 [main] INFO : Entering invalid characters in type field
+2025-07-22 18:59:11 [main] INFO :  Survey Type Error Messgae :Survey type name cannot contain special characters.
+2025-07-22 18:59:16 [main] INFO : Entering spaces in type field
+2025-07-22 18:59:18 [main] INFO :  Survey Type Error Messgae :Survey type name is required
+2025-07-22 18:59:22 [main] INFO : Keeping description field blank
+2025-07-22 18:59:25 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 18:59:30 [main] INFO : Entering spaces in description field
+2025-07-22 18:59:33 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-22 18:59:37 [main] INFO : Creating New Survey Type Test
+2025-07-22 18:59:52 [main] INFO : Creating New Survey with Existing Survey Type Name Test
+2025-07-22 19:00:00 [main] INFO :  Survey Type Error Messgae :This survey type already exists.
+2025-07-22 19:00:07 [main] INFO : Deleting Existing Survey Type Test
+2025-07-22 19:00:11 [main] INFO : Testing Ended
+2025-07-22 19:00:11 [main] INFO : ***********

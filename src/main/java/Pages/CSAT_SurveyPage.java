@@ -182,8 +182,10 @@ public class CSAT_SurveyPage extends WaitsManager {
 			implWait(driver);
 			boolean elementexists = !driver.findElements(actionsOnSurveyType).isEmpty();
 			if (elementexists) {
-				waitForElementToBeClickable(actionsOnSurveyType, 30);
-				driver.findElement(actionsOnSurveyType).click();
+				WebElement element = driver.findElement(actionsOnSurveyType);
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+				element.click();
+//				driver.findElement(e).click();
 			} else {
 				grep.failTest(action + " for " + option + " Survey Type Not Available");
 				logger.error(action + " for " + option + " Survey Type Not Available");
@@ -756,16 +758,10 @@ public class CSAT_SurveyPage extends WaitsManager {
 	public void verifySurveyTypeErrorMessage() throws Exception {
 		try {
 			waitForElement(surveyTypeError, 60);
-//			boolean elementExist = !driver.findElements(surveyTypeError).isEmpty();
-//			if (elementExist) {
-				String error= driver.findElement(surveyTypeError).getText();
-				grep.passTest(" Survey Type Error Messgae :"+error);
-				logger.info(" Survey Type Error Messgae :"+error);
+			String error = driver.findElement(surveyTypeError).getText();
+			grep.passTest(" Survey Type Error Messgae :" + error);
+			logger.info(" Survey Type Error Messgae :" + error);
 
-				//			} else {
-//				grep.failTest(" Survey Type Error not Available");
-//				logger.error(" Survey Type Error not Available");
-//			}
 		} catch (Exception e) {
 			e.printStackTrace();
 			grep.failTest("Test Failed :" + e.getMessage());
