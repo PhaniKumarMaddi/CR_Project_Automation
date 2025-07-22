@@ -5,6 +5,8 @@ import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -42,7 +44,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 
 	// add new survey type
 	By addNewSurveyType = By.xpath("//span[@title='Add New Survey Type']");
-	By closeSurveyPopups = By.xpath("img.close-img");
+	By closeSurveyPopups = By.cssSelector("img.close-img");
 
 	// Search
 	By searchSurveyField = By.cssSelector("input.survey-search");
@@ -50,7 +52,8 @@ public class CSAT_SurveyPage extends WaitsManager {
 	// Add new Survey
 	By addNewSurvey = By.xpath("//button[@title='Add New Survey']");
 	By popupsHeader = By.cssSelector("div.survey-form-modal-header");
-	By editPopupHeader = By.cssSelector("div.add-survey-modal-header");
+	By editPopupHeader = By.xpath("//div[@class='add-survey-modal-header']/h2");
+	By closeEditPopup = By.cssSelector("button.add-survey-close-btn");
 
 	// Select Survey from Table
 	By surveyDetailsHeader = By.cssSelector("h1.survey-title");
@@ -76,7 +79,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 	}
 
 	// Survey Type Dropdown
-	public void verifySurveyTypeDropDwon(String headerVal) throws Exception {
+	public void verifySurveyTypeDropDown(String headerVal) throws Exception {
 		try {
 			implWait(driver);
 			boolean elementexists = !driver.findElements(surveyTypeDroprdown).isEmpty();
@@ -149,8 +152,9 @@ public class CSAT_SurveyPage extends WaitsManager {
 			implWait(driver);
 			boolean elementexists = !driver.findElements(selectOption).isEmpty();
 			if (elementexists) {
-				waitForElementToBeClickable(selectOption, 30);
-				driver.findElement(selectOption).click();
+				WebElement element = driver.findElement(selectOption);
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+				element.click();
 			} else {
 				grep.failTest(option + " Survey Type Not Available");
 				logger.error(option + " Survey Type Options Not Available");
@@ -192,7 +196,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 			implWait(driver);
 			boolean elementExists = !driver.findElements(closeSurveyPopups).isEmpty();
 			if (elementExists) {
-				waitForElement(closeSurveyPopups, 60);
+				waitForElementToBeClickable(closeSurveyPopups, 30);
 				driver.findElement(closeSurveyPopups).click();
 			} else {
 				grep.failTest("Survey Close Popup button not available");
@@ -263,26 +267,25 @@ public class CSAT_SurveyPage extends WaitsManager {
 		}
 	}
 
-	// Edit PopupHeader
-	public void editPopupHeaderValidation() throws Exception {
+	public void clearSearchSurvey() throws Exception {
 		try {
 			implWait(driver);
-			waitForElement(editPopupHeader, 30);
-			String verifyHeader = driver.findElement(editPopupHeader).getText();
-			if (verifyHeader.equals(dataKeys.editSurveyHeader)) {
-				logger.info("Header is Valid: " + verifyHeader);
-				grep.passTest("Header is Valid: " + verifyHeader);
+			boolean elementExist = !driver.findElements(searchSurveyField).isEmpty();
+			if (elementExist) {
+				driver.findElement(searchSurveyField).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
 			} else {
-				logger.error("Header is not Valid: " + verifyHeader);
-				grep.failTest("Header is not Valid: " + verifyHeader);
+				grep.failTest(" Search Field not Available");
+				logger.error(" Search Field not Available");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 			grep.failTest("Test Failed :" + e.getMessage());
 			logger.error("Test Failed :" + e.getMessage());
+
 		}
 	}
-
+	
+	
 	// SELECT SURVEY FORM TABLE
 	public void selectSurveyFromTable(String surveyName) throws Exception {
 		try {
@@ -344,6 +347,44 @@ public class CSAT_SurveyPage extends WaitsManager {
 			logger.error("Test Failed :" + e.getMessage());
 		}
 	}
+	
+	// Edit PopupHeader
+		public void editPopupHeaderValidation() throws Exception {
+			try {
+//				implWait(driver);
+				waitForElement(editPopupHeader, 60);
+				String verifyHeader = driver.findElement(editPopupHeader).getText();
+				if (verifyHeader.equals(dataKeys.editSurveyHeader)) {
+					logger.info("Header is Valid: " + verifyHeader);
+					grep.passTest("Header is Valid: " + verifyHeader);
+				} else {
+					logger.error("Header is not Valid: " + verifyHeader);
+					grep.failTest("Header is not Valid: " + verifyHeader);
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+				grep.failTest("Test Failed :" + e.getMessage());
+				logger.error("Test Failed :" + e.getMessage());
+			}
+		}
+
+		public void clickCloseEditSurveyPopups() throws Exception {
+			try {
+				implWait(driver);
+				boolean elementExists = !driver.findElements(closeEditPopup).isEmpty();
+				if (elementExists) {
+					waitForElementToBeClickable(closeEditPopup, 30);
+					driver.findElement(closeEditPopup).click();
+				} else {
+					grep.failTest("Edit Survey Close Popup button not available");
+					logger.error("Edit Survey Close popup button not available");
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+				grep.failTest("Test Failed :" + e.getMessage());
+				logger.error("Test Failed :" + e.getMessage());
+			}
+		}
 
 	// VERIFY COLUMN IN TABLE
 	public void verifyTypeColInTable(String colvalues) throws Exception {
@@ -555,7 +596,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 			if (elementexists) {
 				driver.findElement(projectExportBtn).click();
 				driver.findElement(downloadBtn).click();
-
+				driver.findElement(projectExportBtn).click();
 			} else {
 				grep.failTest("Download Options Not Available");
 				logger.error("Download Options Not Available");

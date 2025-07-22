@@ -85,6 +85,7 @@ public class TestDataKeys {
 	public String exportBtn = "Export";
 	public String okBtn = "OK";
 	public String saveBtn = "Save";
+	public String updateBtn = "Update";
 
 	// COLUMN OPTIONS
 	public String colOptions = "Column Options";
@@ -95,7 +96,7 @@ public class TestDataKeys {
 	public String status_ColOption = "Status";
 	public String practicename_ColOption = "Practice Name";
 	public String responseReceived_ColOption = "Response Received";
-
+	public String type_ColOption = "Type";
 	// EXPORT
 	public String pdfFormat = "Download PDF";
 	public String csvFormat = "Download CSV";

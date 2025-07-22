@@ -10652,3 +10652,729 @@ Anwar Hussain: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurec
 2025-07-22 10:36:12 [main] INFO : CSAT Project Automation Project Deleted
 2025-07-22 10:36:12 [main] INFO : Testing Ended
 2025-07-22 10:36:12 [main] INFO : ***********
+2025-07-22 13:28:40 [main] INFO : Launching Chrome Browser
+2025-07-22 13:28:40 [main] INFO : Report Name :CsatPage.html
+2025-07-22 13:29:11 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 13:29:11 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 13:29:11 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 13:30:11 [main] INFO : Logged in to CSAT Application
+2025-07-22 13:31:12 [main] ERROR: Page Not Found
+2025-07-22 13:31:12 [main] INFO : Testing Ended
+2025-07-22 13:31:12 [main] INFO : ***********
+2025-07-22 13:32:26 [main] INFO : Launching Chrome Browser
+2025-07-22 13:32:26 [main] INFO : Report Name :CsatPage.html
+2025-07-22 13:32:32 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 13:32:32 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 13:32:32 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 13:32:59 [main] INFO : Logged in to CSAT Application
+2025-07-22 13:33:00 [main] INFO : Testing Ended
+2025-07-22 13:33:00 [main] INFO : ***********
+2025-07-22 13:50:43 [main] INFO : Launching Chrome Browser
+2025-07-22 13:50:43 [main] INFO : Report Name :CsatPage.html
+2025-07-22 13:51:11 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 13:51:11 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 13:51:11 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 13:52:09 [main] INFO : Logged in to CSAT Application
+2025-07-22 13:52:11 [main] INFO : Validating the Header
+2025-07-22 13:52:11 [main] INFO : Header is Valid: Surveys
+2025-07-22 13:52:12 [main] INFO : Validating the Survey Type Dropdown
+2025-07-22 13:52:12 [main] INFO : All Survey Types Dropdown is Available
+2025-07-22 13:52:12 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-07-22 13:52:13 [main] ERROR: Test Failed :element click intercepted: Element <span title="...">CR CSAT -  Engagement Level</span> is not clickable at point (416, 287). Other element would receive the click: <li class="MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-5dycmn" tabindex="-1" role="option" aria-selected="false" data-value="CR CSAT - AMS Project">...</li>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c6ed4df157fe8b05b38331d29c6d694, clickElement {id=f.6CF0F951E8B80EA8812F1FF3605F4D48.d.C43DE42FB9953539C1E7E2AC06C7452F.e.410}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51735}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51735/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4c6ed4df157fe8b05b38331d29c6d694)] -> xpath: //li/div/span[text()='CR CSAT -  Engagement Level']]
+Session ID: 4c6ed4df157fe8b05b38331d29c6d694
+2025-07-22 13:52:13 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 13:52:13 [main] ERROR: Type Column in Not Valid: CR CSAT - Development Project
+2025-07-22 13:52:13 [main] ERROR: Type Column in Not Valid: CR CSAT - AMS Project
+2025-07-22 13:52:13 [main] ERROR: Type Column in Not Valid: CR CSAT - Resource (TOD)
+2025-07-22 13:52:13 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 13:52:13 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 13:52:13 [main] ERROR: Type Column in Not Valid: CR CSAT - Development Project
+2025-07-22 13:52:13 [main] ERROR: Type Column in Not Valid: CR CSAT - Development Project
+2025-07-22 13:52:14 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-07-22 13:52:16 [main] ERROR: Test Failed :element click intercepted: Element <div tabindex="0" role="combobox" aria-expanded="true" aria-haspopup="listbox" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-uxvpzc" aria-controls="«r2»">...</div> is not clickable at point (454, 124). Other element would receive the click: <div aria-hidden="true" class="MuiBackdrop-root MuiBackdrop-invisible MuiModal-backdrop css-1lbe2ow" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);"></div>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c6ed4df157fe8b05b38331d29c6d694, clickElement {id=f.6CF0F951E8B80EA8812F1FF3605F4D48.d.C43DE42FB9953539C1E7E2AC06C7452F.e.408}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51735}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51735/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4c6ed4df157fe8b05b38331d29c6d694)] -> xpath: //div[@id='survey-8']/div/div]
+Session ID: 4c6ed4df157fe8b05b38331d29c6d694
+2025-07-22 13:52:16 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 13:52:16 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 13:52:16 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 13:52:17 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-07-22 13:52:17 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-07-22 13:53:18 [main] ERROR: All Survey Type Options  Not Available
+2025-07-22 13:53:19 [main] INFO : Column Options is valid Header value
+2025-07-22 13:53:19 [main] INFO : Cancel Button Available
+2025-07-22 13:53:19 [main] INFO : OK Button Available
+2025-07-22 13:53:19 [main] INFO : Verifying Start Date Column Option
+2025-07-22 13:53:19 [main] INFO : Column Option visibility is Hide 
+2025-07-22 13:53:21 [main] INFO : Column Option visibility is View 
+2025-07-22 13:53:22 [main] INFO : Verifying End Date Column Option
+2025-07-22 13:53:22 [main] INFO : Column Option visibility is Hide 
+2025-07-22 13:53:24 [main] INFO : Column Option visibility is View 
+2025-07-22 13:53:25 [main] INFO : Verifying Type Column Option
+2025-07-22 13:53:25 [main] INFO : Column Option visibility is Hide 
+2025-07-22 13:53:27 [main] INFO : Column Option visibility is View 
+2025-07-22 13:53:29 [main] INFO : Selecting Pagination 5
+2025-07-22 13:53:29 [main] INFO : 5 pagination Option Selected
+2025-07-22 13:53:30 [main] INFO : Selecting Pagination 15
+2025-07-22 13:53:30 [main] INFO : 15 pagination Option Selected
+2025-07-22 13:53:31 [main] INFO : Selecting Pagination 10
+2025-07-22 13:53:31 [main] INFO : 10 pagination Option Selected
+2025-07-22 13:53:32 [main] INFO : Download CSV File Format 
+2025-07-22 13:53:37 [main] INFO : Download PDF File Format 
+2025-07-22 13:53:52 [main] INFO : Launching Chrome Browser
+2025-07-22 13:53:52 [main] INFO : Report Name :CsatPage.html
+2025-07-22 13:53:58 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 13:53:58 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 13:53:58 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 13:54:28 [main] INFO : Logged in to CSAT Application
+2025-07-22 13:54:30 [main] INFO : Validating the Header
+2025-07-22 13:54:31 [main] INFO : Header is Valid: Surveys
+2025-07-22 13:54:31 [main] INFO : Validating the Survey Type Dropdown
+2025-07-22 13:54:31 [main] INFO : All Survey Types Dropdown is Available
+2025-07-22 13:54:32 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-07-22 13:54:35 [main] ERROR: Test Failed :element click intercepted: Element <span title="...">CR CSAT -  Engagement Level</span> is not clickable at point (418, 308). Other element would receive the click: <span title="...">Add New Survey Type</span>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [16dc82c2573be4a41594c25c54f9af27, clickElement {id=f.7F1AE63D0451AF6162D1B2E8359EE8DB.d.9F68B37F71AF055B38C86CAD8A593613.e.421}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51959}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51959/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (16dc82c2573be4a41594c25c54f9af27)] -> xpath: //li/div/span[text()='CR CSAT -  Engagement Level']]
+Session ID: 16dc82c2573be4a41594c25c54f9af27
+2025-07-22 13:54:36 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 13:54:36 [main] ERROR: Type Column in Not Valid: CR CSAT - Development Project
+2025-07-22 13:54:36 [main] ERROR: Type Column in Not Valid: CR CSAT - AMS Project
+2025-07-22 13:54:36 [main] ERROR: Type Column in Not Valid: CR CSAT - Resource (TOD)
+2025-07-22 13:54:36 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 13:54:36 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 13:54:36 [main] ERROR: Type Column in Not Valid: CR CSAT - Development Project
+2025-07-22 13:54:36 [main] ERROR: Type Column in Not Valid: CR CSAT - Development Project
+2025-07-22 13:54:38 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-07-22 13:54:39 [main] ERROR: Test Failed :element click intercepted: Element <div tabindex="0" role="combobox" aria-expanded="true" aria-haspopup="listbox" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-uxvpzc" aria-controls="«r2»">...</div> is not clickable at point (454, 124). Other element would receive the click: <div aria-hidden="true" class="MuiBackdrop-root MuiBackdrop-invisible MuiModal-backdrop css-1lbe2ow" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);"></div>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [16dc82c2573be4a41594c25c54f9af27, clickElement {id=f.7F1AE63D0451AF6162D1B2E8359EE8DB.d.9F68B37F71AF055B38C86CAD8A593613.e.411}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51959}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51959/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (16dc82c2573be4a41594c25c54f9af27)] -> xpath: //div[@id='survey-8']/div/div]
+Session ID: 16dc82c2573be4a41594c25c54f9af27
+2025-07-22 13:54:41 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 13:54:41 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 13:54:41 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 13:54:44 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-07-22 13:54:46 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-07-22 13:55:04 [main] INFO : Column Options is valid Header value
+2025-07-22 13:55:04 [main] INFO : Cancel Button Available
+2025-07-22 13:55:04 [main] INFO : OK Button Available
+2025-07-22 13:55:04 [main] INFO : Verifying Start Date Column Option
+2025-07-22 13:55:05 [main] INFO : Column Option visibility is Hide 
+2025-07-22 13:55:06 [main] INFO : Column Option visibility is View 
+2025-07-22 13:55:07 [main] INFO : Verifying End Date Column Option
+2025-07-22 13:55:08 [main] INFO : Column Option visibility is Hide 
+2025-07-22 13:55:09 [main] INFO : Column Option visibility is View 
+2025-07-22 13:55:11 [main] INFO : Verifying Type Column Option
+2025-07-22 13:55:11 [main] INFO : Column Option visibility is Hide 
+2025-07-22 13:55:12 [main] INFO : Column Option visibility is View 
+2025-07-22 13:55:14 [main] INFO : Selecting Pagination 5
+2025-07-22 13:55:14 [main] INFO : 5 pagination Option Selected
+2025-07-22 13:55:15 [main] INFO : Selecting Pagination 15
+2025-07-22 13:55:15 [main] INFO : 15 pagination Option Selected
+2025-07-22 13:55:16 [main] INFO : Selecting Pagination 10
+2025-07-22 13:55:16 [main] INFO : 10 pagination Option Selected
+2025-07-22 13:55:17 [main] INFO : Download CSV File Format 
+2025-07-22 13:55:23 [main] INFO : Download PDF File Format 
+2025-07-22 13:55:34 [main] INFO : Launching Chrome Browser
+2025-07-22 13:55:34 [main] INFO : Report Name :CsatPage.html
+2025-07-22 13:55:40 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 13:55:40 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 13:55:40 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 13:56:09 [main] INFO : Logged in to CSAT Application
+2025-07-22 13:56:11 [main] INFO : Validating the Header
+2025-07-22 13:56:11 [main] INFO : Header is Valid: Surveys
+2025-07-22 13:56:12 [main] INFO : Validating the Survey Type Dropdown
+2025-07-22 13:56:12 [main] INFO : All Survey Types Dropdown is Available
+2025-07-22 13:56:13 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-07-22 13:56:15 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 13:56:15 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 13:56:15 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 13:56:17 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-07-22 13:56:20 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-07-22 13:56:23 [main] INFO : Column Options is valid Header value
+2025-07-22 13:56:23 [main] INFO : Cancel Button Available
+2025-07-22 13:56:23 [main] INFO : OK Button Available
+2025-07-22 13:56:23 [main] INFO : Verifying Start Date Column Option
+2025-07-22 13:56:23 [main] INFO : Column Option visibility is Hide 
+2025-07-22 13:56:24 [main] INFO : Column Option visibility is View 
+2025-07-22 13:56:26 [main] INFO : Verifying End Date Column Option
+2025-07-22 13:56:26 [main] INFO : Column Option visibility is Hide 
+2025-07-22 13:56:27 [main] INFO : Column Option visibility is View 
+2025-07-22 13:56:29 [main] INFO : Verifying Type Column Option
+2025-07-22 13:56:29 [main] INFO : Column Option visibility is Hide 
+2025-07-22 13:56:31 [main] INFO : Column Option visibility is View 
+2025-07-22 13:56:33 [main] INFO : Selecting Pagination 5
+2025-07-22 13:56:33 [main] INFO : 5 pagination Option Selected
+2025-07-22 13:56:34 [main] INFO : Selecting Pagination 15
+2025-07-22 13:56:34 [main] INFO : 15 pagination Option Selected
+2025-07-22 13:56:35 [main] INFO : Selecting Pagination 10
+2025-07-22 13:56:35 [main] INFO : 10 pagination Option Selected
+2025-07-22 13:56:36 [main] INFO : Download CSV File Format 
+2025-07-22 13:56:41 [main] INFO : Download PDF File Format 
+2025-07-22 13:56:57 [main] INFO : Testing Ended
+2025-07-22 13:56:57 [main] INFO : ***********
+2025-07-22 14:01:55 [main] INFO : Launching Chrome Browser
+2025-07-22 14:01:55 [main] INFO : Report Name :CsatPage.html
+2025-07-22 14:02:01 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 14:02:01 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 14:02:01 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 14:02:58 [main] INFO : Logged in to CSAT Application
+2025-07-22 14:03:00 [main] INFO : Validating the Header
+2025-07-22 14:03:01 [main] INFO : Header is Valid: Surveys
+2025-07-22 14:03:01 [main] INFO : Validating the Survey Type Dropdown
+2025-07-22 14:03:01 [main] INFO : All Survey Types Dropdown is Available
+2025-07-22 14:03:02 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-07-22 14:03:05 [main] ERROR: Test Failed :element click intercepted: Element <span title="...">CR CSAT -  Engagement Level</span> is not clickable at point (418, 308). Other element would receive the click: <span title="...">Add New Survey Type</span>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de70c47bd651513a8d5d1f2d84357122, clickElement {id=f.867AB001120FA30628E854FF361F0EAA.d.01756EA1D2EAD303B11634E547C689E2.e.420}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52613}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52613/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (de70c47bd651513a8d5d1f2d84357122)] -> xpath: //li/div/span[text()='CR CSAT -  Engagement Level']]
+Session ID: de70c47bd651513a8d5d1f2d84357122
+2025-07-22 14:03:06 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 14:03:06 [main] ERROR: Type Column in Not Valid: CR CSAT - Development Project
+2025-07-22 14:03:06 [main] ERROR: Type Column in Not Valid: CR CSAT - AMS Project
+2025-07-22 14:03:06 [main] ERROR: Type Column in Not Valid: CR CSAT - Resource (TOD)
+2025-07-22 14:03:06 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 14:03:06 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 14:03:06 [main] ERROR: Type Column in Not Valid: CR CSAT - Development Project
+2025-07-22 14:03:06 [main] ERROR: Type Column in Not Valid: CR CSAT - Development Project
+2025-07-22 14:03:08 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-07-22 14:03:09 [main] ERROR: Test Failed :element click intercepted: Element <div tabindex="0" role="combobox" aria-expanded="true" aria-haspopup="listbox" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-uxvpzc" aria-controls="«r2»">...</div> is not clickable at point (454, 124). Other element would receive the click: <div aria-hidden="true" class="MuiBackdrop-root MuiBackdrop-invisible MuiModal-backdrop css-1lbe2ow" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);"></div>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de70c47bd651513a8d5d1f2d84357122, clickElement {id=f.867AB001120FA30628E854FF361F0EAA.d.01756EA1D2EAD303B11634E547C689E2.e.410}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52613}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52613/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (de70c47bd651513a8d5d1f2d84357122)] -> xpath: //div[@id='survey-8']/div/div]
+Session ID: de70c47bd651513a8d5d1f2d84357122
+2025-07-22 14:03:12 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 14:03:12 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 14:03:12 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 14:03:14 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-07-22 14:03:16 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-07-22 14:03:19 [main] INFO : Column Options is valid Header value
+2025-07-22 14:03:19 [main] INFO : Cancel Button Available
+2025-07-22 14:03:19 [main] INFO : OK Button Available
+2025-07-22 14:03:19 [main] INFO : Verifying Start Date Column Option
+2025-07-22 14:03:19 [main] INFO : Column Option visibility is Hide 
+2025-07-22 14:03:20 [main] INFO : Column Option visibility is View 
+2025-07-22 14:03:22 [main] INFO : Verifying End Date Column Option
+2025-07-22 14:03:22 [main] INFO : Column Option visibility is Hide 
+2025-07-22 14:03:24 [main] INFO : Column Option visibility is View 
+2025-07-22 14:03:25 [main] INFO : Verifying Type Column Option
+2025-07-22 14:03:25 [main] INFO : Column Option visibility is Hide 
+2025-07-22 14:03:27 [main] INFO : Column Option visibility is View 
+2025-07-22 14:03:29 [main] INFO : Selecting Pagination 5
+2025-07-22 14:03:29 [main] INFO : 5 pagination Option Selected
+2025-07-22 14:03:30 [main] INFO : Selecting Pagination 15
+2025-07-22 14:03:30 [main] INFO : 15 pagination Option Selected
+2025-07-22 14:03:31 [main] INFO : Selecting Pagination 10
+2025-07-22 14:03:31 [main] INFO : 10 pagination Option Selected
+2025-07-22 14:03:32 [main] INFO : Download CSV File Format 
+2025-07-22 14:03:37 [main] INFO : Download PDF File Format 
+2025-07-22 14:04:37 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='survey-export-dropdown']/div[text()='Download PDF']"}
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de70c47bd651513a8d5d1f2d84357122, findElement {using=xpath, value=//div[@class='survey-export-dropdown']/div[text()='Download PDF']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52613}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52613/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de70c47bd651513a8d5d1f2d84357122
+2025-07-22 14:04:43 [main] INFO : Testing Ended
+2025-07-22 14:04:43 [main] INFO : ***********
+2025-07-22 14:05:56 [main] INFO : Launching Chrome Browser
+2025-07-22 14:05:56 [main] INFO : Report Name :CsatPage.html
+2025-07-22 14:06:02 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 14:06:02 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 14:06:02 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 14:06:30 [main] INFO : Logged in to CSAT Application
+2025-07-22 14:06:32 [main] INFO : Validating the Header
+2025-07-22 14:06:32 [main] INFO : Header is Valid: Surveys
+2025-07-22 14:06:33 [main] INFO : Validating the Survey Type Dropdown
+2025-07-22 14:06:33 [main] INFO : All Survey Types Dropdown is Available
+2025-07-22 14:06:34 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-07-22 14:06:36 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 14:06:36 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 14:06:36 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 14:06:38 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-07-22 14:06:41 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 14:06:41 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 14:06:41 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 14:06:43 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-07-22 14:06:45 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-07-22 14:06:48 [main] INFO : Column Options is valid Header value
+2025-07-22 14:06:48 [main] INFO : Cancel Button Available
+2025-07-22 14:06:48 [main] INFO : OK Button Available
+2025-07-22 14:06:48 [main] INFO : Verifying Start Date Column Option
+2025-07-22 14:06:48 [main] INFO : Column Option visibility is Hide 
+2025-07-22 14:06:50 [main] INFO : Column Option visibility is View 
+2025-07-22 14:06:51 [main] INFO : Verifying End Date Column Option
+2025-07-22 14:06:51 [main] INFO : Column Option visibility is Hide 
+2025-07-22 14:06:53 [main] INFO : Column Option visibility is View 
+2025-07-22 14:06:54 [main] INFO : Verifying Type Column Option
+2025-07-22 14:06:55 [main] INFO : Column Option visibility is Hide 
+2025-07-22 14:06:56 [main] INFO : Column Option visibility is View 
+2025-07-22 14:06:58 [main] INFO : Selecting Pagination 5
+2025-07-22 14:06:58 [main] INFO : 5 pagination Option Selected
+2025-07-22 14:06:59 [main] INFO : Selecting Pagination 15
+2025-07-22 14:06:59 [main] INFO : 15 pagination Option Selected
+2025-07-22 14:07:00 [main] INFO : Selecting Pagination 10
+2025-07-22 14:07:00 [main] INFO : 10 pagination Option Selected
+2025-07-22 14:07:01 [main] INFO : Download CSV File Format 
+2025-07-22 14:07:07 [main] INFO : Download PDF File Format 
+2025-07-22 14:07:13 [main] INFO : Testing Ended
+2025-07-22 14:07:13 [main] INFO : ***********
+2025-07-22 14:20:48 [main] INFO : Launching Chrome Browser
+2025-07-22 14:20:49 [main] INFO : Report Name :CsatPage.html
+2025-07-22 14:20:54 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 14:20:55 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 14:20:55 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 14:21:22 [main] INFO : Logged in to CSAT Application
+2025-07-22 14:21:24 [main] INFO : Validating the Header
+2025-07-22 14:21:25 [main] INFO : Header is Valid: Surveys
+2025-07-22 14:21:25 [main] INFO : Validating  the Add New Survey Type Popup
+2025-07-22 14:21:27 [main] INFO : Header is Valid: Add Survey Type
+2025-07-22 14:21:27 [main] INFO : Cancel Button Available
+2025-07-22 14:21:27 [main] INFO : Save Button Available
+2025-07-22 14:22:28 [main] ERROR: Survey Close popup button not available
+2025-07-22 14:22:28 [main] INFO : Validating  the Add New Survey Popup
+2025-07-22 14:22:30 [main] ERROR: Test Failed :element click intercepted: Element <button id="survey-2" title="...">Add New Survey</button> is not clickable at point (2447, 86). Other element would receive the click: <div id="survey-form-modal1">...</div>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c4fdb2336fb75a0e147b6bbe6772802b, clickElement {id=f.3144E4518172DCF501270E349FB05951.d.1D250F617D26A5D175C816BA78ADFA94.e.392}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53445/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c4fdb2336fb75a0e147b6bbe6772802b)] -> xpath: //button[@title='Add New Survey']]
+Session ID: c4fdb2336fb75a0e147b6bbe6772802b
+2025-07-22 14:22:30 [main] ERROR: Header is not Valid: Add Survey Type
+2025-07-22 14:22:31 [main] INFO : Cancel Button Available
+2025-07-22 14:22:31 [main] INFO : Save Button Available
+2025-07-22 14:22:41 [main] INFO : Launching Chrome Browser
+2025-07-22 14:22:42 [main] INFO : Report Name :CsatPage.html
+2025-07-22 14:22:48 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 14:22:48 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 14:22:48 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 14:23:16 [main] INFO : Logged in to CSAT Application
+2025-07-22 14:23:17 [main] INFO : Validating the Header
+2025-07-22 14:23:18 [main] INFO : Header is Valid: Surveys
+2025-07-22 14:23:18 [main] INFO : Validating  the Add New Survey Type Popup
+2025-07-22 14:23:20 [main] INFO : Header is Valid: Add Survey Type
+2025-07-22 14:23:20 [main] INFO : Cancel Button Available
+2025-07-22 14:23:20 [main] INFO : Save Button Available
+2025-07-22 14:24:21 [main] ERROR: Survey Close popup button not available
+2025-07-22 14:24:21 [main] INFO : Validating  the Add New Survey Popup
+2025-07-22 14:24:23 [main] ERROR: Test Failed :element click intercepted: Element <button id="survey-2" title="...">Add New Survey</button> is not clickable at point (1338, 86). Other element would receive the click: <div id="survey-form-modal1">...</div>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1118d3b516c022a58a4bf95c16928188, clickElement {id=f.12031FC0958286B85466B77A49D2D60A.d.D88BAD7149FEAD20492681701D8572C3.e.401}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53623}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53623/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1118d3b516c022a58a4bf95c16928188)] -> xpath: //button[@title='Add New Survey']]
+Session ID: 1118d3b516c022a58a4bf95c16928188
+2025-07-22 14:24:23 [main] ERROR: Header is not Valid: Add Survey Type
+2025-07-22 14:24:24 [main] INFO : Cancel Button Available
+2025-07-22 14:24:24 [main] INFO : Save Button Available
+2025-07-22 14:25:24 [main] ERROR: Survey Close popup button not available
+2025-07-22 14:25:25 [main] INFO : Validating the Survey Type Dropdown
+2025-07-22 14:25:25 [main] INFO : All Survey Types Dropdown is Available
+2025-07-22 14:25:26 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-07-22 14:25:27 [main] ERROR: Test Failed :element click intercepted: Element <div tabindex="0" role="combobox" aria-expanded="false" aria-haspopup="listbox" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-uxvpzc">...</div> is not clickable at point (454, 124). Other element would receive the click: <div id="survey-form-modal1">...</div>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1118d3b516c022a58a4bf95c16928188, clickElement {id=f.12031FC0958286B85466B77A49D2D60A.d.D88BAD7149FEAD20492681701D8572C3.e.410}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53623}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53623/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1118d3b516c022a58a4bf95c16928188)] -> xpath: //div[@id='survey-8']/div/div]
+Session ID: 1118d3b516c022a58a4bf95c16928188
+2025-07-22 14:25:40 [main] INFO : Launching Chrome Browser
+2025-07-22 14:25:41 [main] INFO : Report Name :CsatPage.html
+2025-07-22 14:25:47 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 14:25:47 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 14:25:47 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 14:26:14 [main] INFO : Logged in to CSAT Application
+2025-07-22 14:26:15 [main] INFO : Validating the Header
+2025-07-22 14:26:16 [main] INFO : Header is Valid: Surveys
+2025-07-22 14:26:16 [main] INFO : Validating  the Add New Survey Type Popup
+2025-07-22 14:26:18 [main] INFO : Header is Valid: Add Survey Type
+2025-07-22 14:26:18 [main] INFO : Cancel Button Available
+2025-07-22 14:26:18 [main] INFO : Save Button Available
+2025-07-22 14:27:20 [main] INFO : Launching Chrome Browser
+2025-07-22 14:27:20 [main] INFO : Report Name :CsatPage.html
+2025-07-22 14:27:26 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 14:27:26 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 14:27:26 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 14:27:54 [main] INFO : Logged in to CSAT Application
+2025-07-22 14:27:56 [main] INFO : Validating the Header
+2025-07-22 14:27:56 [main] INFO : Header is Valid: Surveys
+2025-07-22 14:27:57 [main] INFO : Validating  the Add New Survey Type Popup
+2025-07-22 14:27:58 [main] INFO : Header is Valid: Add Survey Type
+2025-07-22 14:27:59 [main] INFO : Cancel Button Available
+2025-07-22 14:27:59 [main] INFO : Save Button Available
+2025-07-22 14:28:59 [main] ERROR: Survey Close popup button not available
+2025-07-22 14:29:00 [main] INFO : Validating  the Add New Survey Popup
+2025-07-22 14:29:01 [main] ERROR: Test Failed :element click intercepted: Element <button id="survey-2" title="...">Add New Survey</button> is not clickable at point (2447, 86). Other element would receive the click: <div id="survey-form-modal1">...</div>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb6d9c31cc17a371f8696149819ca4eb, clickElement {id=f.4BD06F5738AB72BAD7C8F077CD40F5AF.d.06276F2E2BD0F862B5A8EB3B891773A5.e.392}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54024}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54024/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bb6d9c31cc17a371f8696149819ca4eb)] -> xpath: //button[@title='Add New Survey']]
+Session ID: bb6d9c31cc17a371f8696149819ca4eb
+2025-07-22 14:29:02 [main] ERROR: Header is not Valid: Add Survey Type
+2025-07-22 14:29:02 [main] INFO : Cancel Button Available
+2025-07-22 14:29:02 [main] INFO : Save Button Available
+2025-07-22 14:30:42 [main] INFO : Launching Chrome Browser
+2025-07-22 14:30:42 [main] INFO : Report Name :CsatPage.html
+2025-07-22 14:30:48 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 14:30:48 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 14:30:48 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 14:31:15 [main] INFO : Logged in to CSAT Application
+2025-07-22 14:31:16 [main] INFO : Validating the Header
+2025-07-22 14:31:17 [main] INFO : Header is Valid: Surveys
+2025-07-22 14:31:17 [main] INFO : Validating  the Add New Survey Type Popup
+2025-07-22 14:31:19 [main] INFO : Header is Valid: Add Survey Type
+2025-07-22 14:31:19 [main] INFO : Cancel Button Available
+2025-07-22 14:31:19 [main] INFO : Save Button Available
+2025-07-22 14:31:20 [main] INFO : Validating  the Add New Survey Popup
+2025-07-22 14:31:21 [main] INFO : Header is Valid: Add New Survey
+2025-07-22 14:31:21 [main] INFO : Cancel Button Available
+2025-07-22 14:31:21 [main] INFO : Save Button Available
+2025-07-22 14:32:04 [main] INFO : Launching Chrome Browser
+2025-07-22 14:32:04 [main] INFO : Report Name :CsatPage.html
+2025-07-22 14:32:11 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 14:32:11 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 14:32:12 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 14:32:47 [main] INFO : Logged in to CSAT Application
+2025-07-22 14:32:48 [main] INFO : Validating the Header
+2025-07-22 14:32:49 [main] INFO : Header is Valid: Surveys
+2025-07-22 14:32:49 [main] INFO : Validating  the Add New Survey Type Popup
+2025-07-22 14:32:51 [main] INFO : Header is Valid: Add Survey Type
+2025-07-22 14:32:51 [main] INFO : Cancel Button Available
+2025-07-22 14:32:51 [main] INFO : Save Button Available
+2025-07-22 14:32:52 [main] INFO : Validating  the Add New Survey Popup
+2025-07-22 14:32:53 [main] INFO : Header is Valid: Add New Survey
+2025-07-22 14:32:54 [main] INFO : Cancel Button Available
+2025-07-22 14:32:54 [main] INFO : Save Button Available
+2025-07-22 14:32:55 [main] INFO : Validating the Survey Type Dropdown
+2025-07-22 14:32:55 [main] INFO : All Survey Types Dropdown is Available
+2025-07-22 14:32:56 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-07-22 14:32:58 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 14:32:58 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 14:32:59 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 14:33:01 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-07-22 14:33:03 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 14:33:03 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 14:33:03 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 14:33:05 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-07-22 14:33:07 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-07-22 14:33:10 [main] INFO : Survey Type Update Popup Test
+2025-07-22 14:33:11 [main] INFO : Header is Valid: Update Survey Type
+2025-07-22 14:33:11 [main] INFO : Cancel Button Available
+2025-07-22 14:33:11 [main] INFO : Update Button Available
+2025-07-22 14:33:13 [main] ERROR: Test Failed :element click intercepted: Element <div tabindex="0" role="combobox" aria-expanded="true" aria-haspopup="listbox" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-uxvpzc" aria-controls="«r2»">...</div> is not clickable at point (454, 124). Other element would receive the click: <div aria-hidden="true" class="MuiBackdrop-root MuiBackdrop-invisible MuiModal-backdrop css-1lbe2ow" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);"></div>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1abaec017ba89756a19e6a92bc9123d7, clickElement {id=f.826C2FA413F772D1E9CCFAA53AFA8657.d.8A350815F82D9988BCF3741B7D01F9DF.e.411}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54381}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54381/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1abaec017ba89756a19e6a92bc9123d7)] -> xpath: //div[@id='survey-8']/div/div]
+Session ID: 1abaec017ba89756a19e6a92bc9123d7
+2025-07-22 14:33:15 [main] ERROR: Test Failed :element click intercepted: Element <button class="survey-column-options-button" style="width: 400px; height: 40px;">...</button> is not clickable at point (2121, 124). Other element would receive the click: <div aria-hidden="true" class="MuiBackdrop-root MuiBackdrop-invisible MuiModal-backdrop css-1lbe2ow" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);"></div>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1abaec017ba89756a19e6a92bc9123d7, clickElement {id=f.826C2FA413F772D1E9CCFAA53AFA8657.d.8A350815F82D9988BCF3741B7D01F9DF.e.602}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54381}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54381/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1abaec017ba89756a19e6a92bc9123d7)] -> css selector: button.survey-column-options-button]
+Session ID: 1abaec017ba89756a19e6a92bc9123d7
+2025-07-22 14:33:56 [main] INFO : Launching Chrome Browser
+2025-07-22 14:33:56 [main] INFO : Report Name :CsatPage.html
+2025-07-22 14:34:05 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 14:34:05 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 14:34:05 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 14:34:36 [main] INFO : Logged in to CSAT Application
+2025-07-22 14:34:37 [main] INFO : Validating the Header
+2025-07-22 14:34:38 [main] INFO : Header is Valid: Surveys
+2025-07-22 14:34:38 [main] INFO : Validating  the Add New Survey Type Popup
+2025-07-22 14:34:40 [main] INFO : Header is Valid: Add Survey Type
+2025-07-22 14:34:40 [main] INFO : Cancel Button Available
+2025-07-22 14:34:40 [main] INFO : Save Button Available
+2025-07-22 14:34:41 [main] INFO : Validating  the Add New Survey Popup
+2025-07-22 14:34:42 [main] INFO : Header is Valid: Add New Survey
+2025-07-22 14:34:43 [main] INFO : Cancel Button Available
+2025-07-22 14:34:43 [main] INFO : Save Button Available
+2025-07-22 14:34:44 [main] INFO : Validating the Survey Type Dropdown
+2025-07-22 14:34:44 [main] INFO : All Survey Types Dropdown is Available
+2025-07-22 14:34:45 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-07-22 14:34:48 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 14:34:48 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 14:34:48 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 14:34:50 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-07-22 14:34:52 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 14:34:52 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 14:34:52 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 14:34:54 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-07-22 14:34:57 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-07-22 14:34:59 [main] INFO : Survey Type Update Popup Test
+2025-07-22 14:35:00 [main] INFO : Header is Valid: Update Survey Type
+2025-07-22 14:35:01 [main] INFO : Cancel Button Available
+2025-07-22 14:35:01 [main] INFO : Update Button Available
+2025-07-22 14:35:03 [main] INFO : Column Options is valid Header value
+2025-07-22 14:35:03 [main] INFO : Cancel Button Available
+2025-07-22 14:35:03 [main] INFO : OK Button Available
+2025-07-22 14:35:03 [main] INFO : Verifying Start Date Column Option
+2025-07-22 14:35:03 [main] INFO : Column Option visibility is Hide 
+2025-07-22 14:35:04 [main] INFO : Column Option visibility is View 
+2025-07-22 14:35:06 [main] INFO : Verifying End Date Column Option
+2025-07-22 14:35:06 [main] INFO : Column Option visibility is Hide 
+2025-07-22 14:35:07 [main] INFO : Column Option visibility is View 
+2025-07-22 14:35:09 [main] INFO : Verifying Type Column Option
+2025-07-22 14:35:09 [main] INFO : Column Option visibility is Hide 
+2025-07-22 14:35:11 [main] INFO : Column Option visibility is View 
+2025-07-22 14:35:13 [main] INFO : Selecting Pagination 5
+2025-07-22 14:35:13 [main] INFO : 5 pagination Option Selected
+2025-07-22 14:35:14 [main] INFO : Selecting Pagination 15
+2025-07-22 14:35:14 [main] INFO : 15 pagination Option Selected
+2025-07-22 14:35:15 [main] INFO : Selecting Pagination 10
+2025-07-22 14:35:15 [main] INFO : 10 pagination Option Selected
+2025-07-22 14:35:16 [main] INFO : Download CSV File Format 
+2025-07-22 14:35:21 [main] INFO : Download PDF File Format 
+2025-07-22 14:35:27 [main] INFO : Testing Ended
+2025-07-22 14:35:27 [main] INFO : ***********
+2025-07-22 14:53:40 [main] INFO : Launching Chrome Browser
+2025-07-22 14:53:40 [main] INFO : Report Name :CsatPage.html
+2025-07-22 14:53:45 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 14:53:45 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 14:53:45 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 14:54:14 [main] INFO : Logged in to CSAT Application
+2025-07-22 14:54:16 [main] INFO : Validating the Header
+2025-07-22 14:54:17 [main] INFO : Header is Valid: Surveys
+2025-07-22 14:54:17 [main] INFO : Validating  the Add New Survey Type Popup
+2025-07-22 14:54:18 [main] INFO : Header is Valid: Add Survey Type
+2025-07-22 14:54:19 [main] INFO : Cancel Button Available
+2025-07-22 14:54:19 [main] INFO : Save Button Available
+2025-07-22 14:54:20 [main] INFO : Validating  the Add New Survey Popup
+2025-07-22 14:54:21 [main] INFO : Header is Valid: Add New Survey
+2025-07-22 14:54:22 [main] INFO : Cancel Button Available
+2025-07-22 14:54:22 [main] INFO : Save Button Available
+2025-07-22 14:54:23 [main] INFO : Validating the Survey Type Dropdown
+2025-07-22 14:54:23 [main] INFO : All Survey Types Dropdown is Available
+2025-07-22 14:54:24 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-07-22 14:54:26 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 14:54:26 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 14:54:26 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 14:54:29 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-07-22 14:54:31 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 14:54:31 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 14:54:31 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 14:54:33 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-07-22 14:54:35 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-07-22 14:54:38 [main] INFO : Survey Type Update Popup Test
+2025-07-22 14:54:39 [main] INFO : Header is Valid: Update Survey Type
+2025-07-22 14:54:39 [main] INFO : Cancel Button Available
+2025-07-22 14:54:39 [main] INFO : Update Button Available
+2025-07-22 14:54:42 [main] INFO : Column Options is valid Header value
+2025-07-22 14:54:42 [main] INFO : Cancel Button Available
+2025-07-22 14:54:42 [main] INFO : OK Button Available
+2025-07-22 14:54:42 [main] INFO : Verifying Start Date Column Option
+2025-07-22 14:54:42 [main] INFO : Column Option visibility is Hide 
+2025-07-22 14:54:43 [main] INFO : Column Option visibility is View 
+2025-07-22 14:54:45 [main] INFO : Verifying End Date Column Option
+2025-07-22 14:54:45 [main] INFO : Column Option visibility is Hide 
+2025-07-22 14:54:46 [main] INFO : Column Option visibility is View 
+2025-07-22 14:54:48 [main] INFO : Verifying Type Column Option
+2025-07-22 14:54:48 [main] INFO : Column Option visibility is Hide 
+2025-07-22 14:54:49 [main] INFO : Column Option visibility is View 
+2025-07-22 14:54:51 [main] INFO : Selecting Pagination 5
+2025-07-22 14:54:52 [main] INFO : 5 pagination Option Selected
+2025-07-22 14:54:52 [main] INFO : Selecting Pagination 15
+2025-07-22 14:54:52 [main] INFO : 15 pagination Option Selected
+2025-07-22 14:54:53 [main] INFO : Selecting Pagination 10
+2025-07-22 14:54:53 [main] INFO : 10 pagination Option Selected
+2025-07-22 14:54:54 [main] INFO : Download CSV File Format 
+2025-07-22 14:55:00 [main] INFO : Download PDF File Format 
+2025-07-22 14:55:06 [main] INFO : Search Survey
+2025-07-22 14:55:07 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 14:55:07 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 14:55:07 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 14:55:08 [main] INFO : Clicking Survey from Table
+2025-07-22 14:55:14 [main] INFO : Header is Valid: CR CSAT - Development Project
+2025-07-22 14:55:16 [main] INFO : Validating Edit Survey from Table
+2025-07-22 14:55:17 [main] ERROR: Header is not Valid: Edit Survey Details
+×
+2025-07-22 14:55:21 [main] INFO : Cancel Button Available
+2025-07-22 14:55:21 [main] INFO : Save Button Available
+2025-07-22 14:55:22 [main] INFO : Testing Ended
+2025-07-22 14:55:22 [main] INFO : ***********
+2025-07-22 14:59:29 [main] INFO : Launching Chrome Browser
+2025-07-22 14:59:29 [main] INFO : Report Name :CsatPage.html
+2025-07-22 14:59:53 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 14:59:53 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 14:59:53 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 15:00:22 [main] INFO : Logged in to CSAT Application
+2025-07-22 15:00:23 [main] INFO : Validating the Header
+2025-07-22 15:00:24 [main] INFO : Header is Valid: Surveys
+2025-07-22 15:00:25 [main] INFO : Validating  the Add New Survey Type Popup
+2025-07-22 15:00:26 [main] INFO : Header is Valid: Add Survey Type
+2025-07-22 15:00:26 [main] INFO : Cancel Button Available
+2025-07-22 15:00:26 [main] INFO : Save Button Available
+2025-07-22 15:00:27 [main] INFO : Validating  the Add New Survey Popup
+2025-07-22 15:00:28 [main] INFO : Header is Valid: Add New Survey
+2025-07-22 15:00:29 [main] INFO : Cancel Button Available
+2025-07-22 15:00:29 [main] INFO : Save Button Available
+2025-07-22 15:00:30 [main] INFO : Validating the Survey Type Dropdown
+2025-07-22 15:00:30 [main] INFO : All Survey Types Dropdown is Available
+2025-07-22 15:00:31 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-07-22 15:00:34 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 15:00:34 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 15:00:34 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 15:00:36 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-07-22 15:00:38 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 15:00:38 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 15:00:38 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 15:00:38 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 15:00:40 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-07-22 15:00:43 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-07-22 15:00:45 [main] INFO : Survey Type Update Popup Test
+2025-07-22 15:00:46 [main] INFO : Header is Valid: Update Survey Type
+2025-07-22 15:00:47 [main] INFO : Cancel Button Available
+2025-07-22 15:00:47 [main] INFO : Update Button Available
+2025-07-22 15:00:49 [main] INFO : Column Options is valid Header value
+2025-07-22 15:00:49 [main] INFO : Cancel Button Available
+2025-07-22 15:00:49 [main] INFO : OK Button Available
+2025-07-22 15:00:49 [main] INFO : Verifying Start Date Column Option
+2025-07-22 15:00:49 [main] INFO : Column Option visibility is Hide 
+2025-07-22 15:00:50 [main] INFO : Column Option visibility is View 
+2025-07-22 15:00:52 [main] INFO : Verifying End Date Column Option
+2025-07-22 15:00:52 [main] INFO : Column Option visibility is Hide 
+2025-07-22 15:00:53 [main] INFO : Column Option visibility is View 
+2025-07-22 15:00:55 [main] INFO : Verifying Type Column Option
+2025-07-22 15:00:55 [main] INFO : Column Option visibility is Hide 
+2025-07-22 15:00:56 [main] INFO : Column Option visibility is View 
+2025-07-22 15:00:59 [main] INFO : Selecting Pagination 5
+2025-07-22 15:00:59 [main] INFO : 5 pagination Option Selected
+2025-07-22 15:01:00 [main] INFO : Selecting Pagination 15
+2025-07-22 15:01:00 [main] INFO : 15 pagination Option Selected
+2025-07-22 15:01:00 [main] INFO : Selecting Pagination 10
+2025-07-22 15:01:01 [main] INFO : 10 pagination Option Selected
+2025-07-22 15:01:02 [main] INFO : Download CSV File Format 
+2025-07-22 15:01:07 [main] INFO : Download PDF File Format 
+2025-07-22 15:01:13 [main] INFO : Search Survey
+2025-07-22 15:01:14 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 15:01:14 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 15:01:14 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 15:01:14 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 15:01:16 [main] INFO : Clicking Survey from Table
+2025-07-22 15:01:21 [main] INFO : Header is Valid: CR CSAT - Development Project
+2025-07-22 15:01:23 [main] INFO : Validating Edit Survey from Table
+2025-07-22 15:01:25 [main] ERROR: Test Failed :invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cfecc9622edb3a1a1bbd643f46d573dc, findElement {using=css selector, value=//div[@class='add-survey-modal-header']/h2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55729}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55729/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cfecc9622edb3a1a1bbd643f46d573dc
+2025-07-22 15:01:27 [main] INFO : Cancel Button Available
+2025-07-22 15:01:27 [main] INFO : Save Button Available
+2025-07-22 15:01:29 [main] INFO : Testing Ended
+2025-07-22 15:01:29 [main] INFO : ***********
+2025-07-22 15:03:45 [main] INFO : Launching Chrome Browser
+2025-07-22 15:03:45 [main] INFO : Report Name :CsatPage.html
+2025-07-22 15:03:52 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-22 15:03:52 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-22 15:03:52 [main] INFO : Inside Login Page: LOGIN
+2025-07-22 15:04:20 [main] INFO : Logged in to CSAT Application
+2025-07-22 15:04:21 [main] INFO : Validating the Header
+2025-07-22 15:04:22 [main] INFO : Header is Valid: Surveys
+2025-07-22 15:04:22 [main] INFO : Validating  the Add New Survey Type Popup
+2025-07-22 15:04:24 [main] INFO : Header is Valid: Add Survey Type
+2025-07-22 15:04:24 [main] INFO : Cancel Button Available
+2025-07-22 15:04:24 [main] INFO : Save Button Available
+2025-07-22 15:04:25 [main] INFO : Validating  the Add New Survey Popup
+2025-07-22 15:04:26 [main] INFO : Header is Valid: Add New Survey
+2025-07-22 15:04:27 [main] INFO : Cancel Button Available
+2025-07-22 15:04:27 [main] INFO : Save Button Available
+2025-07-22 15:04:28 [main] INFO : Validating the Survey Type Dropdown
+2025-07-22 15:04:28 [main] INFO : All Survey Types Dropdown is Available
+2025-07-22 15:04:29 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-07-22 15:04:32 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 15:04:32 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 15:04:32 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-22 15:04:34 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-07-22 15:04:36 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 15:04:36 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 15:04:36 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 15:04:36 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 15:04:38 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-07-22 15:04:41 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-07-22 15:04:43 [main] INFO : Survey Type Update Popup Test
+2025-07-22 15:04:44 [main] INFO : Header is Valid: Update Survey Type
+2025-07-22 15:04:45 [main] INFO : Cancel Button Available
+2025-07-22 15:04:45 [main] INFO : Update Button Available
+2025-07-22 15:04:47 [main] INFO : Column Options is valid Header value
+2025-07-22 15:04:47 [main] INFO : Cancel Button Available
+2025-07-22 15:04:47 [main] INFO : OK Button Available
+2025-07-22 15:04:47 [main] INFO : Verifying Start Date Column Option
+2025-07-22 15:04:47 [main] INFO : Column Option visibility is Hide 
+2025-07-22 15:04:49 [main] INFO : Column Option visibility is View 
+2025-07-22 15:04:50 [main] INFO : Verifying End Date Column Option
+2025-07-22 15:04:51 [main] INFO : Column Option visibility is Hide 
+2025-07-22 15:04:52 [main] INFO : Column Option visibility is View 
+2025-07-22 15:04:54 [main] INFO : Verifying Type Column Option
+2025-07-22 15:04:54 [main] INFO : Column Option visibility is Hide 
+2025-07-22 15:04:56 [main] INFO : Column Option visibility is View 
+2025-07-22 15:04:58 [main] INFO : Selecting Pagination 5
+2025-07-22 15:04:58 [main] INFO : 5 pagination Option Selected
+2025-07-22 15:04:59 [main] INFO : Selecting Pagination 15
+2025-07-22 15:04:59 [main] INFO : 15 pagination Option Selected
+2025-07-22 15:05:00 [main] INFO : Selecting Pagination 10
+2025-07-22 15:05:00 [main] INFO : 10 pagination Option Selected
+2025-07-22 15:05:01 [main] INFO : Download CSV File Format 
+2025-07-22 15:05:07 [main] INFO : Download PDF File Format 
+2025-07-22 15:05:13 [main] INFO : Search Survey
+2025-07-22 15:05:14 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 15:05:14 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 15:05:14 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 15:05:14 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-22 15:05:16 [main] INFO : Clicking Survey from Table
+2025-07-22 15:05:22 [main] INFO : Header is Valid: CR CSAT - Development Project
+2025-07-22 15:05:24 [main] INFO : Validating Edit Survey from Table
+2025-07-22 15:05:25 [main] INFO : Header is Valid: Edit Survey Details
+2025-07-22 15:05:28 [main] INFO : Cancel Button Available
+2025-07-22 15:05:28 [main] INFO : Save Button Available
+2025-07-22 15:05:29 [main] INFO : Testing Ended
+2025-07-22 15:05:29 [main] INFO : ***********

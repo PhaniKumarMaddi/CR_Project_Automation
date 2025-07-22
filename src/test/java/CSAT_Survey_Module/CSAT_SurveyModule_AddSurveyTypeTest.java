@@ -11,9 +11,9 @@ import Utility.GenerateReports;
 import Utility.TestDataKeys;
 import Utility.ValidatingAssertions;
 
-public class CSAT_SurveyModuleUITest extends CSAT_TestInitializer {
+public class CSAT_SurveyModule_AddSurveyTypeTest extends CSAT_TestInitializer {
 
-	private static final Logger logger = LogManager.getLogger(CSAT_SurveyModuleUITest.class);
+	private static final Logger logger = LogManager.getLogger(CSAT_SurveyModule_AddSurveyTypeTest.class);
 	GenerateReports grep = new GenerateReports();
 	CSAT_Survey_AllPages csatPage;
 	CSAT_SurveyPage csat_Survey;
