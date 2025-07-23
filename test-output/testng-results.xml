@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-23T16:40:45 IST" name="Default suite" finished-at="2025-07-23T16:46:11 IST" duration-ms="326362">
+  <suite started-at="2025-07-23T17:00:46 IST" name="Default suite" finished-at="2025-07-23T17:06:55 IST" duration-ms="368696">
     <groups>
     </groups>
-    <test started-at="2025-07-23T16:40:45 IST" name="Default test" finished-at="2025-07-23T16:46:11 IST" duration-ms="326362">
+    <test started-at="2025-07-23T17:00:46 IST" name="Default test" finished-at="2025-07-23T17:06:55 IST" duration-ms="368696">
       <class name="CSAT_Survey_Module.CSAT_AddNewSurveyTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:CSAT_Survey_Module.CSAT_AddNewSurveyTest@42721fe]" started-at="2025-07-23T16:40:45 IST" name="setup" description="Setup and Login To Browser" finished-at="2025-07-23T16:41:30 IST" duration-ms="44951" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:CSAT_Survey_Module.CSAT_AddNewSurveyTest@42721fe]" started-at="2025-07-23T17:00:46 IST" name="setup" description="Setup and Login To Browser" finished-at="2025-07-23T17:02:14 IST" duration-ms="87803" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewSurvey_Test()[pri:0, instance:CSAT_Survey_Module.CSAT_AddNewSurveyTest@42721fe]" started-at="2025-07-23T16:41:30 IST" name="addNewSurvey_Test" finished-at="2025-07-23T16:46:11 IST" duration-ms="280843" status="PASS">
+        <test-method signature="addNewSurvey_Test()[pri:0, instance:CSAT_Survey_Module.CSAT_AddNewSurveyTest@42721fe]" started-at="2025-07-23T17:02:14 IST" name="addNewSurvey_Test" finished-at="2025-07-23T17:06:54 IST" duration-ms="280286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewSurvey_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:CSAT_Survey_Module.CSAT_AddNewSurveyTest@42721fe]" started-at="2025-07-23T16:46:11 IST" name="tearDown" description="Quit Browser" finished-at="2025-07-23T16:46:11 IST" duration-ms="526" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CSAT_Survey_Module.CSAT_AddNewSurveyTest@42721fe]" started-at="2025-07-23T17:06:54 IST" name="tearDown" description="Quit Browser" finished-at="2025-07-23T17:06:55 IST" duration-ms="555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

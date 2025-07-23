@@ -49,6 +49,26 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		waitTime2(driver);
 
 		// Enter Spaces Characters in Survey Name
+		grep.testCreate("Entering Only Spaces in survey name field for add New Survey Test",
+				"Entering Only Spaces in Survey name field");
+		waitTime(driver);
+		grep.infoTest("Entering Only Spaces in Survey field");
+		logger.info("Entering Only Spaces in Survey field");
+		waitTime2(driver);
+		csat_Survey.insertSurveyName(dataKeys.spacesInName);
+		csat_Survey.selectAddSurveyType(dataKeys.selectAMSSurveyType);
+		waitTime2(driver);
+		csat_Survey.insertStartDate(dataKeys.date_StartDate, dataKeys.month_StartDate, dataKeys.year_StartDate);
+		waitTime5(driver);
+		csat_Survey.insertEndDate(dataKeys.lesser_date_EndDate, dataKeys.month_EndDate, dataKeys.year_EndDate);
+		csat_Survey.clickButton(dataKeys.saveBtn);
+		waitTime(driver);
+		csat_Survey.verifySurveyTypeErrorMessage();
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Enter Only spaces in Survey name field", "OnlySpaces_SurveyName_Field");
+		waitTime2(driver);
+		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
+		waitTime(driver);
 
 		// Entering Existing name in Survey name field for add New Survey Test
 		grep.testCreate("Entering Existing name in Survey name field for add New Survey Test",
@@ -56,6 +76,8 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		grep.infoTest("Entering Existing name in Survey field");
 		logger.info("Entering Existing name in Survey field");
+		waitTime2(driver);
+		csat_Survey.clickAddNewSurveyBtn();
 		waitTime2(driver);
 		csat_Survey.insertSurveyName(dataKeys.selectDevelopSurveyType);
 		csat_Survey.selectAddSurveyType(dataKeys.selectAMSSurveyType);
@@ -148,10 +170,20 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 				"invalid_Sectionname_Error_AddSurvey");
 		waitTime2(driver);
 
-		
 		// Saving with adding only spaces in section name
-		
-		
+		grep.testCreate("Verify Saving Section Name only spaces in add Survey", "Saving with Section Name only spaces");
+		waitTime(driver);
+		logger.info("Verify Saving with Section Name only spaces in add survey");
+		grep.infoTest("Verify Saving with Section Name only spaces in add survey");
+		waitTime2(driver);
+		csat_Survey.addCustomSectionName(dataKeys.spacesInName);
+		waitTime(driver);
+		csat_Survey.clickButton(dataKeys.saveBtn);
+		csat_Survey.verifySurveyTypeErrorMessage();
+		grep.captureScreenshot("pass", "Saving with Section Name  only spaces",
+				"onlySpaces_Sectionname_Error_AddSurvey");
+		waitTime2(driver);
+
 		// Saving with adding weightage less than 100
 		grep.testCreate("Verify Saving with adding weightage less than 100 in add Survey",
 				"Saving with adding weightage less than 100");
@@ -205,14 +237,51 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "Saving with  Measure Name Invalid characters",
 				"invalid_MeasureName_Error_AddSurvey");
 		waitTime2(driver);
+//		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
+//		waitTime(driver);
+
+		// Saving Measure name with only spaces
+		grep.testCreate("Verify Saving Measure Name only spaces in add Survey",
+				"Saving with Measure Name  only spaces");
+		waitTime(driver);
+		logger.info("Verify Saving with Measure Name only spaces in add survey");
+		grep.infoTest("Verify Saving with Measure Name  only spaces in add survey");
+
+		waitTime2(driver);
+		csat_Survey.addCustomMeasureName(dataKeys.spacesInName);
+		waitTime(driver);
+		csat_Survey.clickButton(dataKeys.saveBtn);
+		csat_Survey.verifySurveyTypeErrorMessage();
+		grep.captureScreenshot("pass", "Saving with  Measure Name only spaces",
+				" onlySpaces_MeasureName_Error_AddSurvey");
+		waitTime2(driver);
+//		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
+//		waitTime(driver);
+
+		// Saving Question name with only spaces
+		grep.testCreate("Verify Saving Question Name only spaces in add Survey",
+				"Saving with Question Name  only spaces");
+		waitTime(driver);
+		logger.info("Verify Saving with Question Name only spaces in add survey");
+		grep.infoTest("Verify Saving with Question Name  only spaces in add survey");
+
+		waitTime2(driver);
+		csat_Survey.addCustomMeasureName(dataKeys.testingMeasureName);
+		waitTime(driver);
+		csat_Survey.clickAddQuestion();
+		waitTime(driver);
+		csat_Survey.addQuestionName(dataKeys.spacesInName);
+		waitTime(driver);
+		csat_Survey.enterQuestionOptionWeightage("1");
+		waitTime(driver);
+		csat_Survey.clickButton(dataKeys.saveBtn);
+		csat_Survey.verifySurveyTypeErrorMessage();
+		grep.captureScreenshot("pass", "Saving with Question Name only spaces",
+				" onlySpaces_QuestionName_Error_AddSurvey");
+		waitTime2(driver);
 		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
 		waitTime(driver);
 
-		
-		// Saving Measure name with only spaces 
-		// Saving Question name with only spaces
-		
-		
 		// Keeping Blank Options
 		grep.testCreate("Keeping Options as Blank in add Survey", "Keeping Options as Blank");
 		waitTime(driver);
