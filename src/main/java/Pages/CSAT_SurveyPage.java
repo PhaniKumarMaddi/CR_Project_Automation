@@ -9,6 +9,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 import Utility.DriverManager;
@@ -64,6 +65,35 @@ public class CSAT_SurveyPage extends WaitsManager {
 	By descField = By.xpath("//textarea[@name='description']");
 	By surveyTypeError = By.xpath("//div[@class='MuiBox-root css-19kzrtu']/div[3]");
 
+	// Add New Survey Popup
+	By startDate = By.xpath("//input[@name='startDate']");
+	By endDate = By.xpath("//input[@name='endDate']");
+
+	By addSurveyName = By.xpath("//input[@name='surveyName']");
+	By addSurveyType = By.xpath("//select[@name='surveyType']");
+
+	// section
+	By addNewSection = By.xpath("//button[text()=' Add New Section']");
+	By selectSectionName = By.xpath("//label[text()='Section Name']/following-sibling::select");
+	By customSectionName = By.xpath("//input[@placeholder='Custom Section Name']");
+	By sectonWeightage = By.cssSelector("input.survey-form-section-weightage");
+
+	// measure
+	By addMeasure = By.xpath("//button[text()=' Add Measure']");
+	By selectMeasureName = By.xpath("//label[text()='Measure Name']/following-sibling::select");
+	By customMeasureName = By.xpath("//input[@placeholder='Custom Measure Name']");
+
+	// question
+	By addQuestion = By.xpath("//button[text()=' Add Question']");
+	By questionName = By.xpath("//label[text()='Question Name']/following-sibling::input");
+	By questionType = By.xpath("//label[text()='Question Type']/following-sibling::select");
+	By questionOption = By.cssSelector("input.survey-form-option-input-reduced");
+	By optionWeightage = By.cssSelector("input.survey-form-option-input-weightage"); // 1 to 10
+	By addOptionBtn = By.xpath("//span[text()='Add option']");
+	// linear scale type
+	By linearScaleTo = By.xpath("//div[@class='survey-form-linear-scale-range']/select[2]");
+
+	// Header for survey
 	public void headerValidation() throws Exception {
 		try {
 			implWait(driver);
@@ -185,7 +215,6 @@ public class CSAT_SurveyPage extends WaitsManager {
 				WebElement element = driver.findElement(actionsOnSurveyType);
 				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 				element.click();
-//				driver.findElement(e).click();
 			} else {
 				grep.failTest(action + " for " + option + " Survey Type Not Available");
 				logger.error(action + " for " + option + " Survey Type Not Available");
@@ -769,4 +798,459 @@ public class CSAT_SurveyPage extends WaitsManager {
 
 		}
 	}
+
+	// ADD SURVEY POPUP
+
+	// START AND END DATE
+	public void insertStartDate(String date, String month, String year) throws Exception {
+		try {
+			implWait(driver);
+			Actions act = new Actions(driver);
+			act.sendKeys(Keys.TAB).build().perform();
+			waitTime(driver);
+			act.sendKeys(date).build().perform();
+			waitTime1(driver);
+			act.sendKeys(month).build().perform();
+			waitTime1(driver);
+			act.sendKeys(year).build().perform();
+			waitTime(driver);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void insertEndDate(String date, String month, String year) throws Exception {
+		try {
+			implWait(driver);
+			Actions act = new Actions(driver);
+			act.sendKeys(Keys.TAB).build().perform();
+			act.sendKeys(Keys.TAB).build().perform();
+			act.sendKeys(Keys.TAB).build().perform();
+			act.sendKeys(Keys.TAB).build().perform();
+			waitTime(driver);
+			act.sendKeys(year).build().perform();
+			waitTime1(driver);
+			act.keyDown(Keys.SHIFT).sendKeys(Keys.TAB).keyUp(Keys.SHIFT).perform();
+			waitTime(driver);
+			act.keyDown(Keys.SHIFT).sendKeys(Keys.TAB).keyUp(Keys.SHIFT).perform();
+			waitTime(driver);
+			act.sendKeys(date).build().perform();
+			waitTime1(driver);
+			act.sendKeys(month).build().perform();
+			waitTime(driver);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public String retrieveStartDate() throws Exception {
+		String dateVal = null;
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(startDate).isEmpty();
+			if (elementExists) {
+				waitForElement(startDate, 30);
+				dateVal = driver.findElement(startDate).getAttribute("value");
+			} else {
+				dateVal = "Start Date Does Not Exists";
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+		return dateVal;
+	}
+
+	public String retrieveEndDate() throws Exception {
+		String dateVal = null;
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(endDate).isEmpty();
+			if (elementExists) {
+				waitForElement(endDate, 30);
+				dateVal = driver.findElement(endDate).getAttribute("value");
+			} else {
+				dateVal = "End Date Does Not Exists";
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+		return dateVal;
+	}
+
+	// ADD SURVEY NAME
+	public void insertSurveyName(String surveyName) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(addSurveyName).isEmpty();
+			if (elementExist) {
+				WebElement name = driver.findElement(addSurveyName);
+				name.click();
+				name.sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				name.sendKeys(surveyName);
+
+			} else {
+				grep.failTest(" Survey Name Field not Available");
+				logger.error(" Survey Name Field not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// ADD SURVEY TYPE
+	public void selectSurveyType(String surveyTypeOption) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(addSurveyType).isEmpty();
+			if (elementExist) {
+				WebElement type = driver.findElement(addSurveyType);
+				Select selectType = new Select(type);
+				selectType.selectByVisibleText(surveyTypeOption);
+				waitTime(driver);
+			} else {
+				grep.failTest(" Survey Type Option not Available");
+				logger.error(" Survey Type Option not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// CLICK ADD NEW SECTION
+	public void clickAddNewSection() throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> newSection = driver.findElements(addNewSection);
+
+			if (newSection.size() > 0) {
+				newSection.getLast().click();
+			} else {
+				grep.failTest("New Section button Not Available");
+				logger.error("New Section button Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// SELECT SECTION NAME
+	public void selectSectionNameOption(String sectionNameOption) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> element = driver.findElements(selectSectionName);
+			if (element.size() > 0) {
+				WebElement name = element.getLast();
+				Select selectname = new Select(name);
+				selectname.selectByVisibleText(sectionNameOption);
+				waitTime(driver);
+			} else {
+				grep.failTest(" Section name Option not Available");
+				logger.error(" Section name Option not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// ADD CUSTOM SECTION NAME
+	public void addCustomSectionName(String sectionName) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> section = driver.findElements(customSectionName);
+			if (section.size() > 0) {
+				section.getLast().click();
+				section.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				section.getLast().sendKeys(sectionName);
+
+			} else {
+				grep.failTest("Section Name Field not Available");
+				logger.error("Section Name Field not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// ADD SECTION WEIGHTAGE
+	public void addSectionWeightage(String sectionWeight) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> element = driver.findElements(sectonWeightage);
+			if (element.size() > 0) {
+				element.getLast().click();
+				element.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				element.getLast().sendKeys(sectionWeight);
+
+			} else {
+				grep.failTest("Section Weightage Field not Available");
+				logger.error("Section Weightage Field not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// CLICK ADD MEASURE
+	public void clickAddMeasure() throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> measure = driver.findElements(addMeasure);
+
+			if (measure.size() > 0) {
+				measure.getLast().click();
+			} else {
+				grep.failTest("Add Measure button Not Available");
+				logger.error("Add Measure button Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// SELECT MEASURE NAME
+	public void selectMeasureNameOption(String measureNameOption) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> measure = driver.findElements(addMeasure);
+
+			if (measure.size() > 0) {
+				WebElement name = measure.getLast();
+				Select selectname = new Select(name);
+				selectname.selectByVisibleText(measureNameOption);
+				waitTime(driver);
+			} else {
+				grep.failTest(" Measure Name Option not Available");
+				logger.error(" Measure Name Option not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// ADD CUSTOM MEASURE NAME
+	public void addCustomMeasureName(String measureName) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> element = driver.findElements(customMeasureName);
+			if (element.size() > 0) {
+				element.getLast().click();
+				element.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				element.getLast().sendKeys(measureName);
+
+			} else {
+				grep.failTest("Measure Name Field not Available");
+				logger.error("Measure Name Field not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// CLICK ADD QUESTION
+	public void clickAddQuestion() throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> question = driver.findElements(addQuestion);
+
+			if (question.size() > 0) {
+				question.getLast().click();
+			} else {
+				grep.failTest("Add Question button Not Available");
+				logger.error("Add Question button Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// ADD QUESTION NAME
+	public void addQuestionName(String questionNameVal) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> element = driver.findElements(questionName);
+			if (element.size() > 0) {
+				element.getLast().click();
+				element.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				element.getLast().sendKeys(questionNameVal);
+
+			} else {
+				grep.failTest("Question Name Field not Available");
+				logger.error("Question Name Field not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// SELECT QUESTION TYPE
+	public void selectQuestionTypeOption(String questionOptionVal) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> type = driver.findElements(questionType);
+			if (type.size() > 0) {
+				WebElement name = type.getLast();
+				Select selectname = new Select(name);
+				selectname.selectByVisibleText(questionOptionVal);
+				waitTime(driver);
+			} else {
+				grep.failTest(" Question Name Option not Available");
+				logger.error(" Question Name Option not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// ADD QUESTION OPTION
+	public void enterQuestionOption(String questionOptionVal) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> element = driver.findElements(questionOption);
+			if (element.size() > 0) {
+				element.getLast().click();
+				element.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				element.getLast().sendKeys(questionOptionVal);
+
+			} else {
+				grep.failTest(" Question Option not Available");
+				logger.error(" Question  Option not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// ADD OPTION WEIGHTAGE
+	public void enterQuestionOptionWeightage(String optionWeightageVal) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> element = driver.findElements(optionWeightage);
+			if (element.size() > 0) {
+				element.getLast().click();
+				element.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				element.getLast().sendKeys(optionWeightageVal);
+
+			} else {
+				grep.failTest(" Question Weightage not Available");
+				logger.error(" Question  Weightage not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// CLICK ADD OPTION BUTTON
+	public void clickAddOption() throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> option = driver.findElements(addOptionBtn);
+
+			if (option.size() > 0) {
+				option.getLast().click();
+			} else {
+				grep.failTest("Add Option button Not Available");
+				logger.error("Add Option button Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+	// SELECT LINEAR SCALE OPTION
+
+	public void selectLinearValue(String linearScaleVal) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> element = driver.findElements(linearScaleTo);
+			if (element.size() > 0) {
+				element.getLast().click();
+				element.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				element.getLast().sendKeys(linearScaleVal);
+
+			} else {
+				grep.failTest(" Question Option not Available");
+				logger.error(" Question  Option not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// BUTTON in Section
+	public void clickButtonsInSection(String btnValue) throws Exception {
+		try {
+			By button = By.xpath("//button/img[@alt='" + btnValue + "']");
+			implWait(driver);
+
+			boolean elementexists = !driver.findElements(button).isEmpty();
+			if (elementexists) {
+				waitForElementToBeClickable(button, 60);
+				driver.findElement(button).click();
+
+			} else {
+				grep.failTest(btnValue + " Button Not Available");
+				logger.error(btnValue + " Button Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
 }

@@ -12303,3 +12303,81 @@ Session ID: e272fde85d1f1d7eb9841976ae700136
 2025-07-22 19:00:07 [main] INFO : Deleting Existing Survey Type Test
 2025-07-22 19:00:11 [main] INFO : Testing Ended
 2025-07-22 19:00:11 [main] INFO : ***********
+2025-07-23 08:37:46 [main] INFO : Launching Chrome Browser
+2025-07-23 08:37:47 [main] INFO : Report Name :CSATSurveyReport.html
+2025-07-23 08:37:51 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-23 08:37:51 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-23 08:37:51 [main] INFO : Inside Login Page: LOGIN
+2025-07-23 08:38:18 [main] INFO : Logged in to CSAT Application
+2025-07-23 08:38:20 [main] INFO : Validating the Header
+2025-07-23 08:38:20 [main] INFO : Header is Valid: Surveys
+2025-07-23 08:38:21 [main] INFO : Validating  the Add New Survey Type Popup
+2025-07-23 08:38:22 [main] INFO : Header is Valid: Add Survey Type
+2025-07-23 08:38:23 [main] INFO : Cancel Button Available
+2025-07-23 08:38:23 [main] INFO : Save Button Available
+2025-07-23 08:38:23 [main] INFO : Validating  the Add New Survey Popup
+2025-07-23 08:38:24 [main] INFO : Header is Valid: Add New Survey
+2025-07-23 08:38:25 [main] INFO : Cancel Button Available
+2025-07-23 08:38:25 [main] INFO : Save Button Available
+2025-07-23 08:38:26 [main] INFO : Validating the Survey Type Dropdown
+2025-07-23 08:38:26 [main] INFO : All Survey Types Dropdown is Available
+2025-07-23 08:38:27 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-07-23 08:38:30 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-23 08:38:30 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-23 08:38:30 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-23 08:38:32 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-07-23 08:38:34 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-23 08:38:34 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-23 08:38:34 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-23 08:38:34 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-23 08:38:36 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-07-23 08:38:39 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-07-23 08:38:41 [main] INFO : Survey Type Update Popup Test
+2025-07-23 08:38:42 [main] INFO : Header is Valid: Update Survey Type
+2025-07-23 08:38:42 [main] INFO : Cancel Button Available
+2025-07-23 08:38:42 [main] INFO : Update Button Available
+2025-07-23 08:38:45 [main] INFO : Column Options is valid Header value
+2025-07-23 08:38:45 [main] INFO : Cancel Button Available
+2025-07-23 08:38:45 [main] INFO : OK Button Available
+2025-07-23 08:38:45 [main] INFO : Verifying Start Date Column Option
+2025-07-23 08:38:45 [main] INFO : Column Option visibility is Hide 
+2025-07-23 08:38:46 [main] INFO : Column Option visibility is View 
+2025-07-23 08:38:48 [main] INFO : Verifying End Date Column Option
+2025-07-23 08:38:48 [main] INFO : Column Option visibility is Hide 
+2025-07-23 08:38:49 [main] INFO : Column Option visibility is View 
+2025-07-23 08:38:51 [main] INFO : Verifying Type Column Option
+2025-07-23 08:38:51 [main] INFO : Column Option visibility is Hide 
+2025-07-23 08:38:52 [main] INFO : Column Option visibility is View 
+2025-07-23 08:38:54 [main] INFO : Selecting Pagination 5
+2025-07-23 08:38:55 [main] INFO : 5 pagination Option Selected
+2025-07-23 08:38:55 [main] INFO : Selecting Pagination 15
+2025-07-23 08:38:55 [main] INFO : 15 pagination Option Selected
+2025-07-23 08:38:56 [main] INFO : Selecting Pagination 10
+2025-07-23 08:38:56 [main] INFO : 10 pagination Option Selected
+2025-07-23 08:38:57 [main] INFO : Download CSV File Format 
+2025-07-23 08:39:03 [main] INFO : Download PDF File Format 
+2025-07-23 08:39:09 [main] INFO : Search Survey
+2025-07-23 08:39:09 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-23 08:39:09 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-23 08:39:09 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-23 08:39:09 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-23 08:39:11 [main] INFO : Clicking Survey from Table
+2025-07-23 08:39:17 [main] INFO : Header is Valid: CR CSAT - Development Project
+2025-07-23 08:39:19 [main] INFO : Validating Edit Survey from Table
+2025-07-23 08:39:20 [main] INFO : Header is Valid: Edit Survey Details
+2025-07-23 08:39:21 [main] INFO : Cancel Button Available
+2025-07-23 08:39:21 [main] INFO : Save Button Available
+2025-07-23 08:39:23 [main] INFO : Entering invalid characters in type field
+2025-07-23 08:39:28 [main] INFO :  Survey Type Error Messgae :Survey type name cannot contain special characters.
+2025-07-23 08:39:32 [main] INFO : Entering spaces in type field
+2025-07-23 08:39:34 [main] INFO :  Survey Type Error Messgae :Survey type name is required
+2025-07-23 08:39:38 [main] INFO : Keeping description field blank
+2025-07-23 08:39:41 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-23 08:39:45 [main] INFO : Entering spaces in description field
+2025-07-23 08:39:47 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-23 08:39:51 [main] INFO : Creating New Survey Type Test
+2025-07-23 08:40:06 [main] INFO : Creating New Survey with Existing Survey Type Name Test
+2025-07-23 08:40:13 [main] INFO :  Survey Type Error Messgae :This survey type already exists.
+2025-07-23 08:40:20 [main] INFO : Deleting Existing Survey Type Test
+2025-07-23 08:40:24 [main] INFO : Testing Ended
+2025-07-23 08:40:24 [main] INFO : ***********

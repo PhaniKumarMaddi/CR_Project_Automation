@@ -163,7 +163,7 @@ public class TestDataKeys {
 	public String updateCustomerContactEmail = "anwar_hussain@skillsynccr.onmicrosoft.com";
 	public String customerContactInvalidEmail = "Phani Maddi";
 
-	public String date_StartDate = "22";
+	public String date_StartDate = "23";
 	public String month_StartDate = "07";
 	public String year_StartDate = "2025";
 	public String date_EndDate = "31";
@@ -270,7 +270,39 @@ public class TestDataKeys {
 	public String selectEngageSurveyType = "CR CSAT -  Engagement Level";
 	public String selectDevelopSurveyType = "CR CSAT - Development Project";
 	public String selectAMSSurveyType = "CR CSAT - AMS Project";
+	public String selectTODSurveyType = "CR CSAT - Resource (TOD)";
 
 	public String surveyTypeName = "CSAT Test Automation";
+	public String updatedSurveyTypeName = "Test Automation";
 	public String surveyTypeDesc = "For Automating The CSAT Survey Module";
+
+	// ADD NEW SURVEY
+	public String surveyName = "CSAT Test Automation";
+	public String deliverySectionOption = "Delivery";
+	public String srviceLevelSectionname = "Service Level Management";
+	public String ownershipSectionname = "Ownership";
+	public String valueAddsSectionname = "Value Adds";
+	public String customSectionname = "➕ Add Custom Section";
+	public String slaMeasureName = "SLA";
+	public String capabilityMeasureName = "Capabilities";
+	public String qualityMeasureName = "Quality";
+	public String customeMeasureName = "➕ Add Custom Measure";
+	public String multipleChoiceQuestionType = "Multiple Choice";
+	public String checkBoxQuestionType = "Checkboxes";
+	public String dropdownQuestionType = "Dropdown";
+	public String linearScaleQuestionType = "Linear Scale";
+	public String testOption1 = "Test Option 1";
+	public String testOption2 = "Test Option 2";
+	public String testOption3 = "Test Option 3";
+
+	public String QuestionFinance = "Competitive pricing is provided";
+	public String Question1 = "This is to test question 1";
+	public String Question2 = "This is to test question 2";
+	public String Question3 = "This is to test question 3";
+	public String Question4 = "This is to test question 4";
+
+	public String weightage_100 = "100";
+	public String weightage_Less_100 = "10";
+	public String weightage_great_100 = "200";
+
 }
