@@ -282,16 +282,21 @@ public class TestDataKeys {
 	public String surveyName = "CSAT Test Automation";
 	public String surveyNameMultiple = "Test Automation Survey";
 	public String existingSurveyName = "Review";
+	
 	public String deliverySectionOption = "Delivery";
 	public String serviceLevelSectionName = "Service Level Management";
 	public String ownershipSectionName = "Ownership";
 	public String valueAddsSectionName = "Value Adds";
+	public String projectMgmtSectionName = "Project Management";
+	public String accountabilitySectionName = "Accountability";
 	public String testingSectionName = "Testing Section";
 	public String customSectionName = "➕ Add Custom Section";
 	
 	public String slaMeasureName = "SLA";
 	public String capabilityMeasureName = "Capabilities";
 	public String qualityMeasureName = "Quality";
+	public String ownershipMeasureName = "Ownership";
+	public String commitmentMeasureName = "Commitment";
 	public String testingMeasureName = "Testing Measure";
 	public String customMeasureName = "➕ Add Custom Measure";
 	
@@ -303,12 +308,15 @@ public class TestDataKeys {
 	public String testOption2 = "Test Option 2";
 	public String testOption3 = "Test Option 3";
 
-	public String QuestionFinance = "Competitive pricing is provided";
+	public String QuestionFinance = "Provide Competative rating";
 	public String Question1 = "This is to test question 1";
 	public String Question2 = "This is to test question 2";
 	public String Question3 = "This is to test question 3";
 	public String Question4 = "This is to test question 4";
 
+	public String weightage_20 = "20";
+	public String weightage_30 = "30";
+	public String weightage_50 = "50";
 	public String weightage_100 = "100";
 	public String weightage_Less_100 = "10";
 	public String weightage_great_100 = "200";

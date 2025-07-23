@@ -36,7 +36,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 	By closeColumn = By.cssSelector("button.close-button");
 
 	// Pagination and export
-	By projectExportBtn = By.cssSelector("div.survey-export-container");
+	By surveyExportBtn = By.cssSelector("div.survey-export-container");
 	By paginationEntries = By.cssSelector("select.survey-items-per-page-select");
 
 	// survey type dropdown
@@ -288,12 +288,12 @@ public class CSAT_SurveyPage extends WaitsManager {
 	}
 
 	// Search Survey
-	public void searchSurvey(String projectName) throws Exception {
+	public void searchSurvey(String surveyNameval) throws Exception {
 		try {
 			implWait(driver);
 			boolean elementExist = !driver.findElements(searchSurveyField).isEmpty();
 			if (elementExist) {
-				driver.findElement(searchSurveyField).sendKeys(projectName);
+				driver.findElement(searchSurveyField).sendKeys(surveyNameval);
 			} else {
 				grep.failTest(" Search Field not Available");
 				logger.error(" Search Field not Available");
@@ -630,11 +630,11 @@ public class CSAT_SurveyPage extends WaitsManager {
 		try {
 			By downloadBtn = By.xpath("//div[@class='survey-export-dropdown']/div[text()='" + fileFormat + "']");
 			implWait(driver);
-			boolean elementexists = !driver.findElements(projectExportBtn).isEmpty();
+			boolean elementexists = !driver.findElements(surveyExportBtn).isEmpty();
 			if (elementexists) {
-				driver.findElement(projectExportBtn).click();
+				driver.findElement(surveyExportBtn).click();
 				driver.findElement(downloadBtn).click();
-				driver.findElement(projectExportBtn).click();
+				driver.findElement(surveyExportBtn).click();
 			} else {
 				grep.failTest("Download Options Not Available");
 				logger.error("Download Options Not Available");
@@ -1282,17 +1282,22 @@ public class CSAT_SurveyPage extends WaitsManager {
 
 			List<WebElement> element = driver.findElements(createdSurveyInTable);
 			if (element.size() > 0) {
+				int count = 0;
 				for (WebElement survey : element) {
+					String getSurvey = survey.getText().trim();
 
-					String getSurvey = survey.getText();
 					if (getSurvey.equals(surveyNameVal)) {
+						count++;
+						System.out.println(getSurvey);
 
-						grep.passTest("Created Survey is shown in table: " + getSurvey);
-						logger.info("Created Survey is shown in table: " + getSurvey);
-					} else {
-						grep.failTest("Created Survey is not shown in table: " + getSurvey);
-						logger.error("Created Survey is not shown in table: " + getSurvey);
 					}
+				}
+				if (count == 1) {
+					grep.passTest("Created Survey is shown in table: " + surveyNameVal);
+					logger.info("Created Survey is shown in table: " + surveyNameVal);
+				} else {
+					grep.failTest("Survey Not Created: " + surveyNameVal);
+					logger.error("Survey Not Created: " + surveyNameVal);
 				}
 
 			} else {
@@ -1306,4 +1311,42 @@ public class CSAT_SurveyPage extends WaitsManager {
 		}
 
 	}
+
+	public void verifySurveyDeletedFromInTable(String surveyNameVal) throws Exception {
+		try {
+
+			implWait(driver);
+
+			List<WebElement> element = driver.findElements(createdSurveyInTable);
+			if (element.size() > 0) {
+				int count = 0;
+				for (WebElement survey : element) {
+					String getSurvey = survey.getText().trim();
+
+					if (getSurvey.equals(surveyNameVal)) {
+						count++;
+						System.out.println(getSurvey);
+
+					}
+				}
+				if (count == 0) {
+					grep.passTest("Survey Deleted: " + surveyNameVal);
+					logger.info("Survey Deleted: " + surveyNameVal);
+				} else {
+					grep.failTest("Survey Not Deleted: " + surveyNameVal);
+					logger.error("Survey Not Deleted: " + surveyNameVal);
+				}
+
+			} else {
+				grep.failTest("Survey Not Deleted");
+				logger.error("Survey Not Deleted");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+
+	}
+
 }
