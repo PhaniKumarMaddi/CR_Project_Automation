@@ -13563,3 +13563,261 @@ Session ID: 835b038e1662307a04e399c58832b36d
 2025-07-23 17:06:53 [main] INFO : Survey Deleted: CSAT Test Automation
 2025-07-23 17:06:55 [main] INFO : Testing Ended
 2025-07-23 17:06:55 [main] INFO : ***********
+2025-07-23 17:50:12 [main] INFO : Launching Chrome Browser
+2025-07-23 17:50:12 [main] INFO : Report Name :CsatPage.html
+2025-07-23 17:50:47 [main] INFO : Launching Chrome Browser
+2025-07-23 17:50:47 [main] INFO : Report Name :CsatPage.html
+2025-07-23 17:51:09 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-23 17:51:09 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-23 17:51:09 [main] INFO : Inside Login Page: LOGIN
+2025-07-23 17:51:42 [main] INFO : Logged in to CSAT Application
+2025-07-23 17:51:43 [main] INFO : Entering invalid characters in Survey name field
+2025-07-23 17:51:46 [main] INFO : Entering invalid characters in Survey name field: #$%^&*
+2025-07-23 17:51:47 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-07-23 17:51:50 [main] INFO : Entering Only Spaces in Survey field
+2025-07-23 17:53:38 [main] INFO : Launching Chrome Browser
+2025-07-23 17:53:38 [main] INFO : Report Name :CsatPage.html
+2025-07-23 17:53:43 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-23 17:53:43 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-23 17:53:43 [main] INFO : Inside Login Page: LOGIN
+2025-07-23 17:54:12 [main] INFO : Logged in to CSAT Application
+2025-07-23 17:54:13 [main] INFO : Entering invalid characters in Survey name field
+2025-07-23 17:54:16 [main] INFO : Entering invalid characters in Survey name field: #$%^&*
+2025-07-23 17:54:17 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-07-23 17:54:20 [main] INFO : Entering Only Spaces in Survey field
+2025-07-23 17:54:38 [main] INFO :  Survey Type Error Messgae :Survey Name cannot be empty or just spaces.
+2025-07-23 17:54:42 [main] INFO : Entering Existing name in Survey field
+2025-07-23 17:54:48 [main] INFO : Entering Existing Survey Name : CR CSAT - Development Project
+2025-07-23 17:54:48 [main] INFO :  Survey Name Error Messgae :Survey name already exists
+2025-07-23 17:54:51 [main] INFO : Verify Entering End Date previous than Start date in add survey
+2025-07-23 17:55:09 [main] INFO :  Survey Type Error Messgae :End Date cannot be earlier than Start Date.
+2025-07-23 17:55:12 [main] INFO : Verify Saving without adding weightage or Section in add survey
+2025-07-23 17:55:31 [main] INFO : Entered Project Start Date: 2025-07-23
+2025-07-23 17:55:31 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-23 17:55:33 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 0%
+2025-07-23 17:55:37 [main] INFO : Verify Saving with Section Name Invalid characters in add survey
+2025-07-23 17:55:58 [main] INFO :  Survey Type Error Messgae :Section name "#$%^&*" contains invalid characters.
+2025-07-23 17:56:01 [main] INFO : Verify Saving with Section Name only spaces in add survey
+2025-07-23 17:56:05 [main] INFO :  Survey Type Error Messgae :Section name cannot be empty or just spaces.
+2025-07-23 17:56:08 [main] INFO : Verify Saving with adding weightage less than 100 in add survey
+2025-07-23 17:56:14 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 10%
+2025-07-23 17:56:17 [main] INFO : Verify Saving with adding weightage greater than 100 in add survey
+2025-07-23 17:56:21 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 200%
+2025-07-23 17:56:24 [main] INFO : Verify Saving with Measure Name Invalid characters in add survey
+2025-07-23 17:56:30 [main] INFO :  Survey Type Error Messgae :Measure name "#$%^&*" contains invalid characters.
+2025-07-23 17:56:33 [main] INFO : Verify Saving with Measure Name only spaces in add survey
+2025-07-23 17:56:37 [main] INFO :  Survey Type Error Messgae :Measure name cannot be empty or just spaces.
+2025-07-23 17:56:40 [main] INFO : Verify Saving with Question Name only spaces in add survey
+2025-07-23 17:56:46 [main] INFO :  Survey Type Error Messgae :Question name cannot be empty or just spaces.
+2025-07-23 17:56:50 [main] INFO : Keeping Options as Blank in Add Survey
+2025-07-23 17:57:17 [main] INFO :  Survey Type Error Messgae :All options must have values filled in.
+2025-07-23 17:57:21 [main] INFO : Creating Single Section, Measure,Question in Add Survey
+2025-07-23 17:57:24 [main] INFO : Entered Survey name: CSAT Test Automation
+2025-07-23 17:57:26 [main] INFO : Entered Survey Type: CR CSAT - Resource (TOD)
+2025-07-23 17:57:39 [main] INFO : Entered Project Start Date: 2025-07-23
+2025-07-23 17:57:40 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-23 17:57:43 [main] INFO : Entered Section Name: Delivery
+2025-07-23 17:57:44 [main] INFO : Entered Section Weightage: 100
+2025-07-23 17:57:46 [main] INFO : Entered Measure Name: Capabilities
+2025-07-23 17:57:48 [main] INFO : Entered Question Name: This is to test question 1
+2025-07-23 17:57:49 [main] INFO : Entered Options 1
+2025-07-23 17:57:51 [main] INFO : Entered Options 2
+2025-07-23 17:57:52 [main] INFO : Entered Options 3
+2025-07-23 17:58:03 [main] INFO : Created Survey is shown in table: CSAT Test Automation
+2025-07-23 17:58:04 [main] INFO : Creating Multiple Section, Measure,Question in Add Survey
+2025-07-23 17:58:07 [main] INFO : Entered Survey name: Test Automation Survey
+2025-07-23 17:58:10 [main] INFO : Entered Survey Type: CR CSAT - Development Project
+2025-07-23 17:58:23 [main] INFO : Entered Project Start Date: 2025-07-23
+2025-07-23 17:58:23 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-23 17:58:24 [main] INFO : ___Creating First Section___
+2025-07-23 17:58:26 [main] INFO : Entered Section Name: Delivery
+2025-07-23 17:58:27 [main] INFO : Entered Section Weightage: 50
+2025-07-23 17:58:29 [main] INFO : Entered Measure Name: Quality
+2025-07-23 17:58:31 [main] INFO : Entered Question Name: This is to test question 1
+2025-07-23 17:58:32 [main] INFO : Entered Options 1
+2025-07-23 17:58:33 [main] INFO : Entered Options 2
+2025-07-23 17:58:35 [main] INFO : Entered Options 3
+2025-07-23 17:58:37 [main] INFO : ___Creating Second Section___
+2025-07-23 17:58:40 [main] INFO : Entered Section Name: Accountability
+2025-07-23 17:58:41 [main] INFO : Entered Section Weightage: 20
+2025-07-23 17:58:42 [main] INFO : Entered Measure Name: Ownership
+2025-07-23 17:58:44 [main] INFO : Entered Question Name: This is to test question 2
+2025-07-23 17:58:46 [main] INFO : Entered Options 1
+2025-07-23 17:58:48 [main] INFO : Entered Options 2
+2025-07-23 17:58:49 [main] INFO : Entered Options 3
+2025-07-23 17:58:54 [main] INFO : Entered Question Name: This is to test question 3
+2025-07-23 17:58:56 [main] INFO : Entered Options 1
+2025-07-23 17:58:57 [main] INFO : Entered Options 2
+2025-07-23 17:58:59 [main] INFO : Entered Options 3
+2025-07-23 17:59:01 [main] INFO : ___Creating Custom Section___
+2025-07-23 17:59:05 [main] INFO : Entered Section Name: Testing Section
+2025-07-23 17:59:05 [main] INFO : Entered Section Weightage: 30
+2025-07-23 17:59:08 [main] INFO : Entered Measure Name: Testing Measure
+2025-07-23 17:59:10 [main] INFO : Entered Question Name: This is to test question 4
+2025-07-23 17:59:11 [main] INFO : Entered Options 1
+2025-07-23 17:59:13 [main] INFO : Entered Options 2
+2025-07-23 17:59:14 [main] INFO : Entered Options 3
+2025-07-23 17:59:15 [main] INFO : Multiple Measure for Same Section
+2025-07-23 17:59:18 [main] INFO : Entered Measure Name: SLA
+2025-07-23 17:59:19 [main] INFO : Entered Question Name: Provide Competative rating
+2025-07-23 17:59:34 [main] INFO : Created Survey is shown in table: Test Automation Survey
+2025-07-23 17:59:35 [main] INFO : Deleting existing Survey
+2025-07-23 17:59:40 [main] INFO : Survey Deleted: CSAT Test Automation
+2025-07-23 17:59:42 [main] INFO : Testing Ended
+2025-07-23 17:59:42 [main] INFO : ***********
+2025-07-23 18:16:15 [main] INFO : Launching Chrome Browser
+2025-07-23 18:16:15 [main] INFO : Report Name :CSATSurveyReport.html
+2025-07-23 18:16:47 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-23 18:16:47 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-23 18:16:47 [main] INFO : Inside Login Page: LOGIN
+2025-07-23 18:17:46 [main] INFO : Logged in to CSAT Application
+2025-07-23 18:17:47 [main] INFO : Validating the Header
+2025-07-23 18:17:48 [main] INFO : Header is Valid: Surveys
+2025-07-23 18:17:48 [main] INFO : Validating  the Add New Survey Type Popup
+2025-07-23 18:17:50 [main] INFO : Header is Valid: Add Survey Type
+2025-07-23 18:17:50 [main] INFO : Cancel Button Available
+2025-07-23 18:17:50 [main] INFO : Save Button Available
+2025-07-23 18:17:51 [main] INFO : Validating  the Add New Survey Popup
+2025-07-23 18:17:52 [main] INFO : Header is Valid: Add New Survey
+2025-07-23 18:17:53 [main] INFO : Cancel Button Available
+2025-07-23 18:17:53 [main] INFO : Save Button Available
+2025-07-23 18:17:54 [main] INFO : Validating the Survey Type Dropdown
+2025-07-23 18:17:54 [main] INFO : All Survey Types Dropdown is Available
+2025-07-23 18:17:55 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-07-23 18:17:58 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-23 18:17:58 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-23 18:17:58 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-23 18:18:00 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-07-23 18:18:02 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-23 18:18:02 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-23 18:18:04 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-07-23 18:18:06 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-07-23 18:18:09 [main] INFO : Survey Type Update Popup Test
+2025-07-23 18:18:10 [main] INFO : Header is Valid: Update Survey Type
+2025-07-23 18:18:10 [main] INFO : Cancel Button Available
+2025-07-23 18:18:10 [main] INFO : Update Button Available
+2025-07-23 18:18:13 [main] INFO : Column Options is valid Header value
+2025-07-23 18:18:13 [main] INFO : Cancel Button Available
+2025-07-23 18:18:13 [main] INFO : OK Button Available
+2025-07-23 18:18:13 [main] INFO : Verifying Start Date Column Option
+2025-07-23 18:18:13 [main] INFO : Column Option visibility is Hide 
+2025-07-23 18:18:14 [main] INFO : Column Option visibility is View 
+2025-07-23 18:18:16 [main] INFO : Verifying End Date Column Option
+2025-07-23 18:18:16 [main] INFO : Column Option visibility is Hide 
+2025-07-23 18:18:17 [main] INFO : Column Option visibility is View 
+2025-07-23 18:18:19 [main] INFO : Verifying Type Column Option
+2025-07-23 18:18:19 [main] INFO : Column Option visibility is Hide 
+2025-07-23 18:18:20 [main] INFO : Column Option visibility is View 
+2025-07-23 18:18:23 [main] INFO : Selecting Pagination 5
+2025-07-23 18:18:23 [main] INFO : 5 pagination Option Selected
+2025-07-23 18:18:23 [main] INFO : Selecting Pagination 15
+2025-07-23 18:18:24 [main] INFO : 15 pagination Option Selected
+2025-07-23 18:18:24 [main] INFO : Selecting Pagination 10
+2025-07-23 18:18:24 [main] INFO : 10 pagination Option Selected
+2025-07-23 18:18:26 [main] INFO : Download CSV File Format 
+2025-07-23 18:18:31 [main] INFO : Download PDF File Format 
+2025-07-23 18:18:37 [main] INFO : Search Survey
+2025-07-23 18:18:38 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-23 18:18:38 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-23 18:18:40 [main] INFO : Clicking Survey from Table
+2025-07-23 18:18:45 [main] INFO : Header is Valid: CR CSAT - Development Project
+2025-07-23 18:18:47 [main] INFO : Validating Edit Survey from Table
+2025-07-23 18:18:48 [main] INFO : Header is Valid: Edit Survey Details
+2025-07-23 18:18:51 [main] INFO : Cancel Button Available
+2025-07-23 18:18:51 [main] INFO : Save Button Available
+2025-07-23 18:18:53 [main] INFO : Entering invalid characters in type field
+2025-07-23 18:18:57 [main] INFO :  Survey Type Error Messgae :Survey type name cannot contain special characters.
+2025-07-23 18:19:01 [main] INFO : Entering spaces in type field
+2025-07-23 18:19:03 [main] INFO :  Survey Type Error Messgae :Survey type name is required
+2025-07-23 18:19:08 [main] INFO : Keeping description field blank
+2025-07-23 18:19:11 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-23 18:19:15 [main] INFO : Entering spaces in description field
+2025-07-23 18:19:18 [main] INFO :  Survey Type Error Messgae :Failed to add survey type: Missing name or description
+2025-07-23 18:19:22 [main] INFO : Creating New Survey Type Test
+2025-07-23 18:19:37 [main] INFO : Creating New Survey with Existing Survey Type Name Test
+2025-07-23 18:19:44 [main] INFO :  Survey Type Error Messgae :This survey type already exists.
+2025-07-23 18:19:51 [main] INFO : Deleting Existing Survey Type Test
+2025-07-23 18:19:55 [main] INFO : Entering invalid characters in Survey name field
+2025-07-23 18:19:59 [main] INFO : Entering invalid characters in Survey name field: #$%^&*
+2025-07-23 18:19:59 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-07-23 18:20:02 [main] INFO : Entering Only Spaces in Survey field
+2025-07-23 18:20:20 [main] INFO :  Survey Type Error Messgae :Survey Name cannot be empty or just spaces.
+2025-07-23 18:20:24 [main] INFO : Entering Existing name in Survey field
+2025-07-23 18:20:30 [main] INFO : Entering Existing Survey Name : CR CSAT - Development Project
+2025-07-23 18:20:30 [main] INFO :  Survey Name Error Messgae :Survey name already exists
+2025-07-23 18:20:33 [main] INFO : Verify Entering End Date previous than Start date in add survey
+2025-07-23 18:20:51 [main] INFO :  Survey Type Error Messgae :End Date cannot be earlier than Start Date.
+2025-07-23 18:20:54 [main] INFO : Verify Saving without adding weightage or Section in add survey
+2025-07-23 18:21:13 [main] INFO : Entered Project Start Date: 2025-07-23
+2025-07-23 18:21:14 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-23 18:21:15 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 0%
+2025-07-23 18:21:19 [main] INFO : Verify Saving with Section Name Invalid characters in add survey
+2025-07-23 18:21:40 [main] INFO :  Survey Type Error Messgae :Section name "#$%^&*" contains invalid characters.
+2025-07-23 18:21:43 [main] INFO : Verify Saving with Section Name only spaces in add survey
+2025-07-23 18:21:46 [main] INFO :  Survey Type Error Messgae :Section name cannot be empty or just spaces.
+2025-07-23 18:21:49 [main] INFO : Verify Saving with adding weightage less than 100 in add survey
+2025-07-23 18:21:55 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 10%
+2025-07-23 18:21:58 [main] INFO : Verify Saving with adding weightage greater than 100 in add survey
+2025-07-23 18:22:02 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 200%
+2025-07-23 18:22:05 [main] INFO : Verify Saving with Measure Name Invalid characters in add survey
+2025-07-23 18:22:11 [main] INFO :  Survey Type Error Messgae :Measure name "#$%^&*" contains invalid characters.
+2025-07-23 18:22:14 [main] INFO : Verify Saving with Measure Name only spaces in add survey
+2025-07-23 18:22:18 [main] INFO :  Survey Type Error Messgae :Measure name cannot be empty or just spaces.
+2025-07-23 18:22:20 [main] INFO : Verify Saving with Question Name only spaces in add survey
+2025-07-23 18:22:26 [main] INFO :  Survey Type Error Messgae :Question name cannot be empty or just spaces.
+2025-07-23 18:22:29 [main] INFO : Keeping Options as Blank in Add Survey
+2025-07-23 18:22:56 [main] INFO :  Survey Type Error Messgae :All options must have values filled in.
+2025-07-23 18:22:59 [main] INFO : Creating Single Section, Measure,Question in Add Survey
+2025-07-23 18:23:02 [main] INFO : Entered Survey name: CSAT Test Automation
+2025-07-23 18:23:05 [main] INFO : Entered Survey Type: CR CSAT - Resource (TOD)
+2025-07-23 18:23:18 [main] INFO : Entered Project Start Date: 2025-07-23
+2025-07-23 18:23:18 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-23 18:23:22 [main] INFO : Entered Section Name: Delivery
+2025-07-23 18:23:22 [main] INFO : Entered Section Weightage: 100
+2025-07-23 18:23:24 [main] INFO : Entered Measure Name: Capabilities
+2025-07-23 18:23:26 [main] INFO : Entered Question Name: This is to test question 1
+2025-07-23 18:23:27 [main] INFO : Entered Options 1
+2025-07-23 18:23:29 [main] INFO : Entered Options 2
+2025-07-23 18:23:30 [main] INFO : Entered Options 3
+2025-07-23 18:23:41 [main] INFO : Created Survey is shown in table: CSAT Test Automation
+2025-07-23 18:23:42 [main] INFO : Creating Multiple Section, Measure,Question in Add Survey
+2025-07-23 18:23:45 [main] INFO : Entered Survey name: Test Automation Survey
+2025-07-23 18:23:47 [main] INFO : Entered Survey Type: CR CSAT - Development Project
+2025-07-23 18:24:00 [main] INFO : Entered Project Start Date: 2025-07-23
+2025-07-23 18:24:01 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-23 18:24:01 [main] INFO : ___Creating First Section___
+2025-07-23 18:24:04 [main] INFO : Entered Section Name: Delivery
+2025-07-23 18:24:05 [main] INFO : Entered Section Weightage: 50
+2025-07-23 18:24:06 [main] INFO : Entered Measure Name: Quality
+2025-07-23 18:24:08 [main] INFO : Entered Question Name: This is to test question 1
+2025-07-23 18:24:10 [main] INFO : Entered Options 1
+2025-07-23 18:24:11 [main] INFO : Entered Options 2
+2025-07-23 18:24:12 [main] INFO : Entered Options 3
+2025-07-23 18:24:15 [main] INFO : ___Creating Second Section___
+2025-07-23 18:24:18 [main] INFO : Entered Section Name: Accountability
+2025-07-23 18:24:18 [main] INFO : Entered Section Weightage: 20
+2025-07-23 18:24:20 [main] INFO : Entered Measure Name: Ownership
+2025-07-23 18:24:22 [main] INFO : Entered Question Name: This is to test question 2
+2025-07-23 18:24:24 [main] INFO : Entered Options 1
+2025-07-23 18:24:26 [main] INFO : Entered Options 2
+2025-07-23 18:24:27 [main] INFO : Entered Options 3
+2025-07-23 18:24:31 [main] INFO : Entered Question Name: This is to test question 3
+2025-07-23 18:24:34 [main] INFO : Entered Options 1
+2025-07-23 18:24:35 [main] INFO : Entered Options 2
+2025-07-23 18:24:37 [main] INFO : Entered Options 3
+2025-07-23 18:24:39 [main] INFO : ___Creating Custom Section___
+2025-07-23 18:24:43 [main] INFO : Entered Section Name: Testing Section
+2025-07-23 18:24:43 [main] INFO : Entered Section Weightage: 30
+2025-07-23 18:24:46 [main] INFO : Entered Measure Name: Testing Measure
+2025-07-23 18:24:48 [main] INFO : Entered Question Name: This is to test question 4
+2025-07-23 18:24:49 [main] INFO : Entered Options 1
+2025-07-23 18:24:51 [main] INFO : Entered Options 2
+2025-07-23 18:24:52 [main] INFO : Entered Options 3
+2025-07-23 18:24:53 [main] INFO : Multiple Measure for Same Section
+2025-07-23 18:24:56 [main] INFO : Entered Measure Name: SLA
+2025-07-23 18:24:58 [main] INFO : Entered Question Name: Provide Competative rating
+2025-07-23 18:25:12 [main] INFO : Created Survey is shown in table: Test Automation Survey
+2025-07-23 18:25:14 [main] INFO : Deleting existing Survey
+2025-07-23 18:25:19 [main] INFO : Survey Deleted: CSAT Test Automation
+2025-07-23 18:25:20 [main] INFO : Testing Ended
+2025-07-23 18:25:20 [main] INFO : ***********

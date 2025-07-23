@@ -20,7 +20,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 	TestDataKeys dataKeys = new TestDataKeys();
 	ValidatingAssertions validAssert = new ValidatingAssertions();
 
-	@Test
+	@Test(priority = 1)
 	public void addNewSurvey_Test() throws Exception {
 
 		csatPage = new CSAT_Survey_AllPages();
@@ -60,7 +60,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		waitTime2(driver);
 		csat_Survey.insertStartDate(dataKeys.date_StartDate, dataKeys.month_StartDate, dataKeys.year_StartDate);
 		waitTime5(driver);
-		csat_Survey.insertEndDate(dataKeys.lesser_date_EndDate, dataKeys.month_EndDate, dataKeys.year_EndDate);
+		csat_Survey.insertEndDate(dataKeys.date_EndDate, dataKeys.month_EndDate, dataKeys.year_EndDate);
 		csat_Survey.clickButton(dataKeys.saveBtn);
 		waitTime(driver);
 		csat_Survey.verifySurveyTypeErrorMessage();
@@ -697,8 +697,19 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "New Survey Created", "created_MultiSurvey_Table");
 		waitTime(driver);
 
+	
+
+
 		validAssert.assertAllFunction();
 
+	}
+//
+//	@Test(priority = 2)
+//	public void updateExistingSurvey_Test() throws Exception {
+//		
+//	}
+	@Test(priority = 3)
+	public void deleteExistingSurvey_Test() throws Exception {
 		// Delete Existing Survey
 		grep.testCreate("Deleting existing Survey Test", "Deleting existing Survey");
 		waitTime(driver);
@@ -716,6 +727,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "Verify Deleted Survey", "survey_Deleted_From_Table");
 		waitTime(driver);
 
-	}
+		validAssert.assertAllFunction();
 
+	}
 }
