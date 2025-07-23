@@ -49,8 +49,6 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		waitTime2(driver);
 
 		// Enter Spaces Characters in Survey Name
-//		grep.testCreate("Entering Only Spaces in Survey name field for add New Survey Test",
-//				"Entering Only Spaces in Survey name field");
 
 		// Entering Existing name in Survey name field for add New Survey Test
 		grep.testCreate("Entering Existing name in Survey name field for add New Survey Test",
@@ -150,6 +148,10 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 				"invalid_Sectionname_Error_AddSurvey");
 		waitTime2(driver);
 
+		
+		// Saving with adding only spaces in section name
+		
+		
 		// Saving with adding weightage less than 100
 		grep.testCreate("Verify Saving with adding weightage less than 100 in add Survey",
 				"Saving with adding weightage less than 100");
@@ -206,6 +208,11 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
 		waitTime(driver);
 
+		
+		// Saving Measure name with only spaces 
+		// Saving Question name with only spaces
+		
+		
 		// Keeping Blank Options
 		grep.testCreate("Keeping Options as Blank in add Survey", "Keeping Options as Blank");
 		waitTime(driver);
@@ -324,12 +331,14 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		grep.infoTest("Entered Option 3");
 		logger.info("Entered Options 3");
 
-		waitTime(driver);
+		waitTime3(driver);
 		grep.captureScreenshot("pass", "Creating Single Section, Measure,Question ", "create_SingleSurvey_AddSurvey");
 		waitTime2(driver);
+		csat_Survey.scrollToButton(dataKeys.saveBtn);
+		waitTime(driver);
 		csat_Survey.clickButton(dataKeys.saveBtn);
 
-		waitTime2(driver);
+		waitTime5(driver);
 
 		// verify created survey
 		csat_Survey.verifySurveyCreatedShownInTable(dataKeys.surveyName);

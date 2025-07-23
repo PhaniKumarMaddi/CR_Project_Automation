@@ -722,6 +722,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 	}
 
 	// CLICK BUTTON
+
 	public void clickButton(String btnValue) throws Exception {
 		try {
 			implWait(driver);
@@ -731,6 +732,27 @@ public class CSAT_SurveyPage extends WaitsManager {
 			if (elementexists) {
 				waitForElementToBeClickable(button, 60);
 				driver.findElement(button).click();
+
+			} else {
+				grep.failTest(btnValue + " Button Not Available");
+				logger.error(btnValue + " Button Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void scrollToButton(String btnValue) throws Exception {
+		try {
+			implWait(driver);
+			By button = By.xpath("//button[text()='" + btnValue + "']");
+
+			boolean elementexists = !driver.findElements(button).isEmpty();
+			if (elementexists) {
+				WebElement element = driver.findElement(button);
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 
 			} else {
 				grep.failTest(btnValue + " Button Not Available");

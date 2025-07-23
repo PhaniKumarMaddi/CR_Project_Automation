@@ -6,6 +6,7 @@
     <classes>
       <class name="CSAT_Survey_Module.CSAT_SurveyModuleUITest"/>
       <class name="CSAT_Survey_Module.CSAT_AddSurveyTypeTest"/>
+      <class name="CSAT_Survey_Module.CSAT_AddNewSurveyTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
