@@ -86,7 +86,8 @@ public class TestDataKeys {
 	public String okBtn = "OK";
 	public String saveBtn = "Save";
 	public String updateBtn = "Update";
-
+	public String closeBtn = "Close";
+	
 	// COLUMN OPTIONS
 	public String colOptions = "Column Options";
 	public String projectName_ColOption = "Project Name";
@@ -105,6 +106,7 @@ public class TestDataKeys {
 	public String buttonEdit = "edit";
 	public String buttonDelete = "delete";
 	public String buttonSend = "send";
+	public String buttonClose = "close";
 
 	// STATUS FILTER
 	public String allStatusesOption = "All Statuses";
@@ -278,15 +280,21 @@ public class TestDataKeys {
 
 	// ADD NEW SURVEY
 	public String surveyName = "CSAT Test Automation";
+	public String surveyNameMultiple = "Test Automation Survey";
+	public String existingSurveyName = "Review";
 	public String deliverySectionOption = "Delivery";
-	public String srviceLevelSectionname = "Service Level Management";
-	public String ownershipSectionname = "Ownership";
-	public String valueAddsSectionname = "Value Adds";
-	public String customSectionname = "➕ Add Custom Section";
+	public String serviceLevelSectionName = "Service Level Management";
+	public String ownershipSectionName = "Ownership";
+	public String valueAddsSectionName = "Value Adds";
+	public String testingSectionName = "Testing Section";
+	public String customSectionName = "➕ Add Custom Section";
+	
 	public String slaMeasureName = "SLA";
 	public String capabilityMeasureName = "Capabilities";
 	public String qualityMeasureName = "Quality";
-	public String customeMeasureName = "➕ Add Custom Measure";
+	public String testingMeasureName = "Testing Measure";
+	public String customMeasureName = "➕ Add Custom Measure";
+	
 	public String multipleChoiceQuestionType = "Multiple Choice";
 	public String checkBoxQuestionType = "Checkboxes";
 	public String dropdownQuestionType = "Dropdown";

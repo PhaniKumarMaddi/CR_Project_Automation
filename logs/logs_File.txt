@@ -12381,3 +12381,229 @@ Session ID: e272fde85d1f1d7eb9841976ae700136
 2025-07-23 08:40:20 [main] INFO : Deleting Existing Survey Type Test
 2025-07-23 08:40:24 [main] INFO : Testing Ended
 2025-07-23 08:40:24 [main] INFO : ***********
+2025-07-23 11:18:25 [main] INFO : Launching Chrome Browser
+2025-07-23 11:18:25 [main] INFO : Report Name :CsatPage.html
+2025-07-23 11:18:53 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-23 11:18:53 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-23 11:18:53 [main] INFO : Inside Login Page: LOGIN
+2025-07-23 11:19:57 [main] INFO : Logged in to CSAT Application
+2025-07-23 11:19:58 [main] INFO : Entering invalid characters in Survey field
+2025-07-23 11:20:02 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-07-23 11:20:05 [main] INFO : Testing Ended
+2025-07-23 11:20:05 [main] INFO : ***********
+2025-07-23 11:50:05 [main] INFO : Launching Chrome Browser
+2025-07-23 11:50:05 [main] INFO : Report Name :CsatPage.html
+2025-07-23 11:50:09 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-23 11:50:09 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-23 11:50:09 [main] INFO : Inside Login Page: LOGIN
+2025-07-23 11:50:40 [main] INFO : Logged in to CSAT Application
+2025-07-23 11:50:41 [main] INFO : Entering invalid characters in Survey field
+2025-07-23 11:50:45 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-07-23 11:50:48 [main] INFO : Entering Existing name in Survey field
+2025-07-23 11:52:11 [main] INFO : Launching Chrome Browser
+2025-07-23 11:52:11 [main] INFO : Report Name :CsatPage.html
+2025-07-23 11:52:15 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-23 11:52:15 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-23 11:52:15 [main] INFO : Inside Login Page: LOGIN
+2025-07-23 11:52:40 [main] INFO : Logged in to CSAT Application
+2025-07-23 11:52:42 [main] INFO : Entering invalid characters in Survey field
+2025-07-23 11:52:45 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-07-23 11:52:48 [main] INFO : Entering Existing name in Survey field
+2025-07-23 11:53:00 [main] INFO :  Survey Name Error Messgae :Survey name already exists
+2025-07-23 11:53:03 [main] INFO : Verify Entering End Date previous than Start date in add survey
+2025-07-23 11:53:20 [main] INFO :  Survey Type Error Messgae :End Date cannot be earlier than Start Date.
+2025-07-23 11:53:24 [main] INFO : Verify Saving without adding weightage or Section in add survey
+2025-07-23 11:53:38 [main] INFO : Launching Chrome Browser
+2025-07-23 11:53:38 [main] INFO : Report Name :CsatPage.html
+2025-07-23 11:53:42 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-23 11:53:42 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-23 11:53:42 [main] INFO : Inside Login Page: LOGIN
+2025-07-23 11:54:16 [main] INFO : Logged in to CSAT Application
+2025-07-23 11:54:17 [main] INFO : Entering invalid characters in Survey field
+2025-07-23 11:54:20 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-07-23 11:54:23 [main] INFO : Entering Existing name in Survey field
+2025-07-23 11:54:45 [main] INFO :  Survey Name Error Messgae :Survey name already exists
+2025-07-23 11:54:48 [main] INFO : Verify Entering End Date previous than Start date in add survey
+2025-07-23 11:55:18 [main] INFO : Launching Chrome Browser
+2025-07-23 11:55:18 [main] INFO : Report Name :CsatPage.html
+2025-07-23 11:55:22 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-23 11:55:22 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-23 11:55:22 [main] INFO : Inside Login Page: LOGIN
+2025-07-23 11:55:54 [main] INFO : Logged in to CSAT Application
+2025-07-23 11:55:55 [main] INFO : Entering invalid characters in Survey field
+2025-07-23 11:55:58 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-07-23 11:56:01 [main] INFO : Entering Existing name in Survey field
+2025-07-23 11:56:05 [main] INFO :  Survey Name Error Messgae :Survey name already exists
+2025-07-23 11:56:08 [main] INFO : Verify Entering End Date previous than Start date in add survey
+2025-07-23 11:57:25 [main] ERROR: Test Failed :Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='MuiBox-root css-19kzrtu']/div[3] (tried for 60 second(s) with 500 milliseconds interval)
+2025-07-23 11:57:29 [main] INFO : Verify Saving without adding weightage or Section in add survey
+2025-07-23 11:57:47 [main] INFO : Entered Project Start Date: 2025-07-23
+2025-07-23 11:57:48 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-23 11:57:49 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 0%
+2025-07-23 11:57:52 [main] INFO : Testing Ended
+2025-07-23 11:57:52 [main] INFO : ***********
+2025-07-23 11:58:58 [main] INFO : Launching Chrome Browser
+2025-07-23 11:58:58 [main] INFO : Report Name :CsatPage.html
+2025-07-23 11:59:02 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-23 11:59:02 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-23 11:59:02 [main] INFO : Inside Login Page: LOGIN
+2025-07-23 11:59:29 [main] INFO : Logged in to CSAT Application
+2025-07-23 11:59:30 [main] INFO : Entering invalid characters in Survey name field
+2025-07-23 11:59:33 [main] INFO : Entering invalid characters in Survey name field: #$%^&*
+2025-07-23 11:59:34 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-07-23 11:59:37 [main] INFO : Entering Existing name in Survey field
+2025-07-23 11:59:40 [main] INFO : Entering Existing Survey Name : CR CSAT - Development Project
+2025-07-23 11:59:41 [main] INFO :  Survey Name Error Messgae :Survey name already exists
+2025-07-23 11:59:44 [main] INFO : Verify Entering End Date previous than Start date in add survey
+2025-07-23 12:00:02 [main] INFO :  Survey Type Error Messgae :End Date cannot be earlier than Start Date.
+2025-07-23 12:00:06 [main] INFO : Verify Saving without adding weightage or Section in add survey
+2025-07-23 12:00:24 [main] INFO : Entered Project Start Date: 2025-07-23
+2025-07-23 12:00:25 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-23 12:00:26 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 0%
+2025-07-23 12:00:29 [main] INFO : Testing Ended
+2025-07-23 12:00:29 [main] INFO : ***********
+2025-07-23 12:16:10 [main] INFO : Launching Chrome Browser
+2025-07-23 12:16:10 [main] INFO : Report Name :CsatPage.html
+2025-07-23 12:16:39 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-23 12:16:39 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-23 12:16:39 [main] INFO : Inside Login Page: LOGIN
+2025-07-23 12:17:15 [main] INFO : Logged in to CSAT Application
+2025-07-23 12:17:16 [main] INFO : Entering invalid characters in Survey name field
+2025-07-23 12:17:19 [main] INFO : Entering invalid characters in Survey name field: #$%^&*
+2025-07-23 12:17:20 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-07-23 12:17:23 [main] INFO : Entering Existing name in Survey field
+2025-07-23 12:17:26 [main] INFO : Entering Existing Survey Name : CR CSAT - Development Project
+2025-07-23 12:17:26 [main] INFO :  Survey Name Error Messgae :Survey name already exists
+2025-07-23 12:17:29 [main] INFO : Verify Entering End Date previous than Start date in add survey
+2025-07-23 12:17:47 [main] INFO :  Survey Type Error Messgae :End Date cannot be earlier than Start Date.
+2025-07-23 12:17:51 [main] INFO : Verify Saving without adding weightage or Section in add survey
+2025-07-23 12:18:10 [main] INFO : Entered Project Start Date: 2025-07-23
+2025-07-23 12:18:10 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-23 12:18:11 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 0%
+2025-07-23 12:18:15 [main] INFO : Verify Saving with Section Name Invalid characters in add survey
+2025-07-23 12:18:37 [main] INFO :  Survey Type Error Messgae :Section name "#$%^&*" contains invalid characters.
+2025-07-23 12:18:39 [main] INFO : Verify Saving with adding weightage less than 100 in add survey
+2025-07-23 12:18:45 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 10%
+2025-07-23 12:18:48 [main] INFO : Verify Saving with adding weightage greater than 100 in add survey
+2025-07-23 12:18:54 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 200%
+2025-07-23 12:18:57 [main] INFO : Verify Saving with Measure Name Invalid characters in add survey
+2025-07-23 12:20:55 [main] INFO : Launching Chrome Browser
+2025-07-23 12:20:55 [main] INFO : Report Name :CsatPage.html
+2025-07-23 12:20:59 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-23 12:20:59 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-23 12:20:59 [main] INFO : Inside Login Page: LOGIN
+2025-07-23 12:21:26 [main] INFO : Logged in to CSAT Application
+2025-07-23 12:21:27 [main] INFO : Entering invalid characters in Survey name field
+2025-07-23 12:21:30 [main] INFO : Entering invalid characters in Survey name field: #$%^&*
+2025-07-23 12:21:31 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-07-23 12:21:34 [main] INFO : Entering Existing name in Survey field
+2025-07-23 12:21:37 [main] INFO : Entering Existing Survey Name : CR CSAT - Development Project
+2025-07-23 12:21:37 [main] INFO :  Survey Name Error Messgae :Survey name already exists
+2025-07-23 12:21:41 [main] INFO : Verify Entering End Date previous than Start date in add survey
+2025-07-23 12:21:58 [main] INFO :  Survey Type Error Messgae :End Date cannot be earlier than Start Date.
+2025-07-23 12:22:02 [main] INFO : Verify Saving without adding weightage or Section in add survey
+2025-07-23 12:22:21 [main] INFO : Entered Project Start Date: 2025-07-23
+2025-07-23 12:22:21 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-23 12:22:23 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 0%
+2025-07-23 12:22:26 [main] INFO : Verify Saving with Section Name Invalid characters in add survey
+2025-07-23 12:22:47 [main] INFO :  Survey Type Error Messgae :Section name "#$%^&*" contains invalid characters.
+2025-07-23 12:22:50 [main] INFO : Verify Saving with adding weightage less than 100 in add survey
+2025-07-23 12:22:56 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 10%
+2025-07-23 12:22:58 [main] INFO : Verify Saving with adding weightage greater than 100 in add survey
+2025-07-23 12:23:02 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 200%
+2025-07-23 12:23:05 [main] INFO : Verify Saving with Measure Name Invalid characters in add survey
+2025-07-23 12:23:09 [main] ERROR: Test Failed :Element should have been "select" but was "button"
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: driver.version: unknown
+2025-07-23 12:24:09 [main] ERROR: Measure Name Field not Available
+2025-07-23 12:25:10 [main] ERROR: Test Failed :Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='MuiBox-root css-19kzrtu']/div[3] (tried for 60 second(s) with 500 milliseconds interval)
+2025-07-23 12:25:12 [main] INFO : Testing Ended
+2025-07-23 12:25:12 [main] INFO : ***********
+2025-07-23 12:27:41 [main] INFO : Launching Chrome Browser
+2025-07-23 12:27:42 [main] INFO : Report Name :CsatPage.html
+2025-07-23 12:28:12 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-23 12:28:12 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-23 12:28:12 [main] INFO : Inside Login Page: LOGIN
+2025-07-23 12:28:39 [main] INFO : Logged in to CSAT Application
+2025-07-23 12:28:41 [main] INFO : Entering invalid characters in Survey name field
+2025-07-23 12:28:44 [main] INFO : Entering invalid characters in Survey name field: #$%^&*
+2025-07-23 12:28:45 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-07-23 12:28:48 [main] INFO : Entering Existing name in Survey field
+2025-07-23 12:28:51 [main] INFO : Entering Existing Survey Name : CR CSAT - Development Project
+2025-07-23 12:28:51 [main] INFO :  Survey Name Error Messgae :Survey name already exists
+2025-07-23 12:28:54 [main] INFO : Verify Entering End Date previous than Start date in add survey
+2025-07-23 12:29:12 [main] INFO :  Survey Type Error Messgae :End Date cannot be earlier than Start Date.
+2025-07-23 12:29:16 [main] INFO : Verify Saving without adding weightage or Section in add survey
+2025-07-23 12:29:35 [main] INFO : Entered Project Start Date: 2025-07-23
+2025-07-23 12:29:35 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-23 12:30:20 [main] INFO : Launching Chrome Browser
+2025-07-23 12:30:20 [main] INFO : Report Name :CsatPage.html
+2025-07-23 12:30:24 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-23 12:30:24 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-23 12:30:24 [main] INFO : Inside Login Page: LOGIN
+2025-07-23 12:30:53 [main] INFO : Logged in to CSAT Application
+2025-07-23 12:30:54 [main] INFO : Entering invalid characters in Survey name field
+2025-07-23 12:30:58 [main] INFO : Entering invalid characters in Survey name field: #$%^&*
+2025-07-23 12:30:58 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-07-23 12:31:02 [main] INFO : Entering Existing name in Survey field
+2025-07-23 12:31:05 [main] INFO : Entering Existing Survey Name : CR CSAT - Development Project
+2025-07-23 12:31:05 [main] INFO :  Survey Name Error Messgae :Survey name already exists
+2025-07-23 12:31:08 [main] INFO : Verify Entering End Date previous than Start date in add survey
+2025-07-23 12:31:26 [main] INFO :  Survey Type Error Messgae :End Date cannot be earlier than Start Date.
+2025-07-23 12:31:30 [main] INFO : Verify Saving without adding weightage or Section in add survey
+2025-07-23 12:31:48 [main] INFO : Entered Project Start Date: 2025-07-23
+2025-07-23 12:31:49 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-23 12:31:50 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 0%
+2025-07-23 12:31:54 [main] INFO : Verify Saving with Section Name Invalid characters in add survey
+2025-07-23 12:32:15 [main] INFO :  Survey Type Error Messgae :Section name "#$%^&*" contains invalid characters.
+2025-07-23 12:32:18 [main] INFO : Verify Saving with adding weightage less than 100 in add survey
+2025-07-23 12:32:24 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 10%
+2025-07-23 12:32:27 [main] INFO : Verify Saving with adding weightage greater than 100 in add survey
+2025-07-23 12:32:31 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 200%
+2025-07-23 12:32:33 [main] INFO : Verify Saving with Measure Name Invalid characters in add survey
+2025-07-23 12:32:40 [main] INFO :  Survey Type Error Messgae :Measure name "#$%^&*" contains invalid characters.
+2025-07-23 12:32:42 [main] INFO : Testing Ended
+2025-07-23 12:32:42 [main] INFO : ***********
+2025-07-23 13:09:41 [main] INFO : Launching Chrome Browser
+2025-07-23 13:09:41 [main] INFO : Report Name :CsatPage.html
+2025-07-23 13:10:18 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-23 13:10:18 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-23 13:10:18 [main] INFO : Inside Login Page: LOGIN
+2025-07-23 13:11:20 [main] INFO : Logged in to CSAT Application
+2025-07-23 13:11:22 [main] INFO : Entering invalid characters in Survey name field
+2025-07-23 13:11:25 [main] INFO : Entering invalid characters in Survey name field: #$%^&*
+2025-07-23 13:11:25 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-07-23 13:11:29 [main] INFO : Entering Existing name in Survey field
+2025-07-23 13:11:32 [main] INFO : Entering Existing Survey Name : CR CSAT - Development Project
+2025-07-23 13:11:32 [main] INFO :  Survey Name Error Messgae :Survey name already exists
+2025-07-23 13:11:35 [main] INFO : Verify Entering End Date previous than Start date in add survey
+2025-07-23 13:11:53 [main] INFO :  Survey Type Error Messgae :End Date cannot be earlier than Start Date.
+2025-07-23 13:11:57 [main] INFO : Verify Saving without adding weightage or Section in add survey
+2025-07-23 13:12:15 [main] INFO : Entered Project Start Date: 2025-07-23
+2025-07-23 13:12:16 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-23 13:12:17 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 0%
+2025-07-23 13:12:21 [main] INFO : Verify Saving with Section Name Invalid characters in add survey
+2025-07-23 13:12:42 [main] INFO :  Survey Type Error Messgae :Section name "#$%^&*" contains invalid characters.
+2025-07-23 13:12:45 [main] INFO : Verify Saving with adding weightage less than 100 in add survey
+2025-07-23 13:12:50 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 10%
+2025-07-23 13:12:53 [main] INFO : Verify Saving with adding weightage greater than 100 in add survey
+2025-07-23 13:12:58 [main] INFO :  Survey Type Error Messgae :Total section weightage must equal 100%. Currently: 200%
+2025-07-23 13:13:00 [main] INFO : Verify Saving with Measure Name Invalid characters in add survey
+2025-07-23 13:13:07 [main] INFO :  Survey Type Error Messgae :Measure name "#$%^&*" contains invalid characters.
+2025-07-23 13:13:10 [main] INFO : Keeping Options as Blank in Add Survey
+2025-07-23 13:13:37 [main] INFO :  Survey Type Error Messgae :All options must have values filled in.
+2025-07-23 13:13:40 [main] INFO : Creating Single Section, Measure,Question in Add Survey
+2025-07-23 13:13:43 [main] INFO : Entered Survey name: CSAT Test Automation
+2025-07-23 13:13:46 [main] INFO : Entered Survey Type: CR CSAT - Resource (TOD)
+2025-07-23 13:13:59 [main] INFO : Entered Project Start Date: 2025-07-23
+2025-07-23 13:13:59 [main] INFO : Entered Project End Date: 2025-07-31
+2025-07-23 13:14:03 [main] INFO : Entered Section Name: Delivery
+2025-07-23 13:14:03 [main] INFO : Entered Section Weightage: 100
+2025-07-23 13:14:05 [main] INFO : Entered Measure Name: Capabilities
+2025-07-23 13:14:07 [main] INFO : Entered Question Name: This is to test question 1
+2025-07-23 13:14:09 [main] INFO : Entered Options 1
+2025-07-23 13:14:10 [main] INFO : Entered Options 2
+2025-07-23 13:14:11 [main] INFO : Entered Options 3
+2025-07-23 13:14:15 [main] INFO : Testing Ended
+2025-07-23 13:14:15 [main] INFO : ***********

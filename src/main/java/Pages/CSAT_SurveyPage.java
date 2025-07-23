@@ -70,6 +70,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 	By endDate = By.xpath("//input[@name='endDate']");
 
 	By addSurveyName = By.xpath("//input[@name='surveyName']");
+	By surveyNameError = By.xpath("//input[@name='surveyName']/following-sibling::span");
 	By addSurveyType = By.xpath("//select[@name='surveyType']");
 
 	// section
@@ -92,6 +93,8 @@ public class CSAT_SurveyPage extends WaitsManager {
 	By addOptionBtn = By.xpath("//span[text()='Add option']");
 	// linear scale type
 	By linearScaleTo = By.xpath("//div[@class='survey-form-linear-scale-range']/select[2]");
+
+	By createdSurveyInTable = By.xpath("//tr[@class='survey-table-row']/td[1]/button");
 
 	// Header for survey
 	public void headerValidation() throws Exception {
@@ -799,8 +802,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 		}
 	}
 
-	// ADD SURVEY POPUP
-
+	// ADD SURVEY POPUP ELEMENTS
 	// START AND END DATE
 	public void insertStartDate(String date, String month, String year) throws Exception {
 		try {
@@ -912,8 +914,28 @@ public class CSAT_SurveyPage extends WaitsManager {
 		}
 	}
 
+	public void verifySurveyNameErrorMessage() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(surveyNameError).isEmpty();
+			if (elementExist) {
+				String error = driver.findElement(surveyNameError).getText();
+				grep.passTest(" Survey Name Error Messgae :" + error);
+				logger.info(" Survey Name Error Messgae :" + error);
+			} else {
+				grep.failTest(" Survey Name Field Error not Available");
+				logger.error(" Survey Name Field Error not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
 	// ADD SURVEY TYPE
-	public void selectSurveyType(String surveyTypeOption) throws Exception {
+	public void selectAddSurveyType(String surveyTypeOption) throws Exception {
 		try {
 			implWait(driver);
 			boolean elementExist = !driver.findElements(addSurveyType).isEmpty();
@@ -1042,7 +1064,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 	public void selectMeasureNameOption(String measureNameOption) throws Exception {
 		try {
 			implWait(driver);
-			List<WebElement> measure = driver.findElements(addMeasure);
+			List<WebElement> measure = driver.findElements(selectMeasureName);
 
 			if (measure.size() > 0) {
 				WebElement name = measure.getLast();
@@ -1231,8 +1253,8 @@ public class CSAT_SurveyPage extends WaitsManager {
 		}
 	}
 
-	// BUTTON in Section
-	public void clickButtonsInSection(String btnValue) throws Exception {
+	// BUTTON in Section -- close, Save, Delete, Close
+	public void clickButtonsInSurveyPopup(String btnValue) throws Exception {
 		try {
 			By button = By.xpath("//button/img[@alt='" + btnValue + "']");
 			implWait(driver);
@@ -1253,4 +1275,35 @@ public class CSAT_SurveyPage extends WaitsManager {
 		}
 	}
 
+	public void verifySurveyCreatedShownInTable(String surveyNameVal) throws Exception {
+		try {
+
+			implWait(driver);
+
+			List<WebElement> element = driver.findElements(createdSurveyInTable);
+			if (element.size() > 0) {
+				for (WebElement survey : element) {
+
+					String getSurvey = survey.getText();
+					if (getSurvey.equals(surveyNameVal)) {
+
+						grep.passTest("Created Survey is shown in table: " + getSurvey);
+						logger.info("Created Survey is shown in table: " + getSurvey);
+					} else {
+						grep.failTest("Created Survey is not shown in table: " + getSurvey);
+						logger.error("Created Survey is not shown in table: " + getSurvey);
+					}
+				}
+
+			} else {
+				grep.failTest("Survey Not Created");
+				logger.error("Survey Not Created");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+
+	}
 }

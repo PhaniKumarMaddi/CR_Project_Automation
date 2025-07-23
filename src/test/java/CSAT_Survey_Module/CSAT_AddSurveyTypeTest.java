@@ -238,6 +238,8 @@ public class CSAT_AddSurveyTypeTest extends CSAT_TestInitializer {
 		csat_Survey.clickButton(dataKeys.buttonYes);
 		waitTime(driver);
 		refreshPage();
+		
+		validAssert.assertAllFunction();
 
 	}
 
