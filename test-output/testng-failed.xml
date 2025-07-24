@@ -6,8 +6,8 @@
       <class name="CSAT_Survey_Module.CSAT_AddNewSurveyTest">
         <methods>
           <include name="setup"/>
-          <include name="addNewSurvey_Test"/>
           <include name="tearDown"/>
+          <include name="updateExistingSurvey_Test"/>
         </methods>
       </class> <!-- CSAT_Survey_Module.CSAT_AddNewSurveyTest -->
     </classes>

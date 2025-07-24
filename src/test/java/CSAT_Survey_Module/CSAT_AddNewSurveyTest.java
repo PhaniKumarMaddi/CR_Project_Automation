@@ -201,7 +201,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 				"lessThan_100_Weight_Error_AddSurvey");
 		waitTime2(driver);
 
-		// Saving with adding weightage less than 100
+		// Saving with adding weightage greater than 100
 		grep.testCreate("Verify Saving with adding weightage greater than 100 in add Survey",
 				"Saving with adding weightage greater than 100");
 		waitTime(driver);
@@ -255,8 +255,6 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "Saving with  Measure Name only spaces",
 				" onlySpaces_MeasureName_Error_AddSurvey");
 		waitTime2(driver);
-//		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
-//		waitTime(driver);
 
 		// Saving Question name with only spaces
 		grep.testCreate("Verify Saving Question Name only spaces in add Survey",
@@ -697,37 +695,152 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "New Survey Created", "created_MultiSurvey_Table");
 		waitTime(driver);
 
-	
-
-
 		validAssert.assertAllFunction();
 
 	}
-//
-//	@Test(priority = 2)
-//	public void updateExistingSurvey_Test() throws Exception {
-//		
-//	}
-	@Test(priority = 3)
-	public void deleteExistingSurvey_Test() throws Exception {
-		// Delete Existing Survey
-		grep.testCreate("Deleting existing Survey Test", "Deleting existing Survey");
+
+	@Test(priority = 2)
+	public void updateExistingSurvey_Test() throws Exception {
+
+		// Saving with adding weightage less than 100 in edit survey
+		grep.testCreate("Verify Saving with adding weightage less than 100 in edit Survey",
+				"Saving with adding weightage less than 100");
 		waitTime(driver);
-		grep.infoTest("Deleting existing Survey");
-		logger.info("Deleting existing Survey");
+		logger.info("Verify Saving with adding weightage less than 100 in edit survey");
+		grep.infoTest("Verify Saving with adding weightage less than 100 in edit survey");
+		waitTime2(driver);
+		csat_Survey.selectActionFromSurveyTable(dataKeys.surveyName, dataKeys.editProjectBtn);
+		waitTime2(driver);
+		csat_Survey.clickButton(dataKeys.questionButton);
 		waitTime(driver);
-		csat_Survey.selectActionFromSurveyTable(dataKeys.surveyName, dataKeys.deleteProjectBtn);
+		csat_Survey.weightageInEditPopup(dataKeys.weightage_Less_100);
 		waitTime(driver);
-		grep.captureScreenshot("pass", "Deleting Existing Survey", "delete_Survey");
+		csat_Survey.clickButton(dataKeys.saveBtn);
+		csat_Survey.verifySurveyTypeErrorMessage();
+		grep.captureScreenshot("pass", "Saving with adding weightage less than 100 in edit popup",
+				"lessThan_100_Weight_Error_EditSurvey");
+		waitTime2(driver);
+
+		// Saving with adding weightage greater than 100 in edit survey
+		grep.testCreate("Verify Saving with adding weightage greater than 100 in edit Survey",
+				"Saving with adding weightage greater than 100");
 		waitTime(driver);
-		csat_Survey.clickButton(dataKeys.buttonYes);
+		logger.info("Verify Saving with adding weightage greater than 100 in edit survey");
+		grep.infoTest("Verify Saving with adding weightage greater than 100 in edit survey");
+		waitTime2(driver);
+		csat_Survey.weightageInEditPopup(dataKeys.weightage_great_100);
+		waitTime(driver);
+		csat_Survey.clickButton(dataKeys.saveBtn);
+		csat_Survey.verifySurveyTypeErrorMessage();
+		grep.captureScreenshot("pass", "Saving with adding weightage greater than 100",
+				"greaterThan_100_Weight_Error_EditSurvey");
+		waitTime2(driver);
+		csat_Survey.clickButton(dataKeys.cancelBtn);
+
+		// Adding New Section,Measure,Question for existing survey Test
+		grep.testCreate("Adding New Section,Measure,Question for existing survey Test",
+				"Adding New Section,Measure,Question for existing survey");
+		waitTime(driver);
+		logger.info("Adding New Section,Measure,Question for existing survey Test");
+		grep.infoTest("Adding New Section,Measure,Question for existing survey Test");
+		waitTime2(driver);
+		csat_Survey.selectActionFromSurveyTable(dataKeys.surveyName, dataKeys.editProjectBtn);
+		waitTime2(driver);
+		csat_Survey.clickButton(dataKeys.questionButton);
+		waitTime(driver);
+		csat_Survey.weightageInEditPopup(dataKeys.weightage_50);
+		waitTime(driver);
+		csat_Survey.scrollToButton(dataKeys.saveBtn);
+		waitTime(driver);
+		csat_Survey.clickAddSection_InEdit();
+		waitTime2(driver);
+		csat_Survey.addSectionName_InEdit(dataKeys.ownershipSectionName);
+
+		grep.infoTest("Entered Section Name: " + dataKeys.ownershipSectionName);
+		logger.info("Entered Section Name: " + dataKeys.ownershipSectionName);
+
+		csat_Survey.addSectionWeightage_InEdit(dataKeys.weightage_50);
+		waitTime(driver);
+		grep.infoTest("Entered Section Weightage: " + dataKeys.weightage_50);
+		logger.info("Entered Section Weightage: " + dataKeys.weightage_50);
+
+		csat_Survey.clickAddMeasure_InEdit();
+		waitTime(driver);
+		csat_Survey.addMeasureName_InEdit(dataKeys.qualityMeasureName);
+		waitTime(driver);
+		grep.infoTest("Entered Measure Name: " + dataKeys.qualityMeasureName);
+		logger.info("Entered Measure Name: " + dataKeys.qualityMeasureName);
+		waitTime(driver);
+		csat_Survey.clickAddQuestion_InEdit();
+		waitTime1(driver);
+		csat_Survey.addQuestionName(dataKeys.Question2);
+		waitTime(driver);
+		grep.infoTest("Entered Question Name: " + dataKeys.Question2);
+		logger.info("Entered Question Name: " + dataKeys.Question2);
+		waitTime(driver);
+		csat_Survey.selectQuestionTypeOption(dataKeys.dropdownQuestionType);
+		waitTime(driver);		
+		csat_Survey.enterQuestionOption_InEdit(dataKeys.testOption1);
+		csat_Survey.enterQuestionOptionWeightage_InEdit("3");
+		waitTime(driver);
+		grep.infoTest("Entered Option 1");
+		logger.info("Entered Options 1");
+
+		waitTime(driver);
+		csat_Survey.clickAddOption();
+		csat_Survey.enterQuestionOption_InEdit(dataKeys.testOption2);
+		csat_Survey.enterQuestionOptionWeightage_InEdit("2");
+		waitTime(driver);
+		grep.infoTest("Entered Option 2");
+		logger.info("Entered Options 2");
+
+		waitTime(driver);
+		csat_Survey.clickAddOption();
+		csat_Survey.enterQuestionOption_InEdit(dataKeys.testOption3);
+		csat_Survey.enterQuestionOptionWeightage_InEdit("5");
+		waitTime(driver);
+		grep.infoTest("Entered Option 3");
+		logger.info("Entered Options 3");
+
 		waitTime3(driver);
-		csat_Survey.verifySurveyDeletedFromInTable(dataKeys.surveyName);
+		grep.captureScreenshot("pass", "Adding another Section, Measure, Question in edit popup", "addAnother_SingleSurvey_EditSurvey");
+		waitTime2(driver);
+		csat_Survey.scrollToButton(dataKeys.saveBtn);
 		waitTime(driver);
-		grep.captureScreenshot("pass", "Verify Deleted Survey", "survey_Deleted_From_Table");
-		waitTime(driver);
+		csat_Survey.clickButton(dataKeys.saveBtn);
 
-		validAssert.assertAllFunction();
+		waitTime10(driver);
+		grep.infoTest("Clicking Survey from Table");
+		logger.info("Clicking Survey from Table");
+		waitTime(driver);
+		csat_Survey.selectSurveyFromTable(dataKeys.surveyName);
+		waitTime5(driver);
+		csat_Survey.surveyDetailHeaderValidation(dataKeys.surveyName);
+		waitTime(driver);
+		
 
 	}
+
+//	@Test(priority = 3)
+//	public void deleteExistingSurvey_Test() throws Exception {
+//		// Delete Existing Survey
+//		grep.testCreate("Deleting existing Survey Test", "Deleting existing Survey");
+//		waitTime(driver);
+//		grep.infoTest("Deleting existing Survey");
+//		logger.info("Deleting existing Survey");
+//		waitTime(driver);
+//		csat_Survey.selectActionFromSurveyTable(dataKeys.surveyName, dataKeys.deleteProjectBtn);
+//		waitTime(driver);
+//		grep.captureScreenshot("pass", "Deleting Existing Survey", "delete_Survey");
+//		waitTime(driver);
+//		csat_Survey.clickButton(dataKeys.buttonYes);
+//		waitTime3(driver);
+//		csat_Survey.verifySurveyDeletedFromInTable(dataKeys.surveyName);
+//		waitTime(driver);
+//		grep.captureScreenshot("pass", "Verify Deleted Survey", "survey_Deleted_From_Table");
+//		waitTime(driver);
+//
+//		validAssert.assertAllFunction();
+//
+//	}
 }

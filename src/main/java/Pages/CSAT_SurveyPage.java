@@ -77,7 +77,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 	By addNewSection = By.xpath("//button[text()=' Add New Section']");
 	By selectSectionName = By.xpath("//label[text()='Section Name']/following-sibling::select");
 	By customSectionName = By.xpath("//input[@placeholder='Custom Section Name']");
-	By sectonWeightage = By.cssSelector("input.survey-form-section-weightage");
+	By sectionWeightage = By.cssSelector("input.survey-form-section-weightage");
 
 	// measure
 	By addMeasure = By.xpath("//button[text()=' Add Measure']");
@@ -91,11 +91,33 @@ public class CSAT_SurveyPage extends WaitsManager {
 	By questionOption = By.cssSelector("input.survey-form-option-input-reduced");
 	By optionWeightage = By.cssSelector("input.survey-form-option-input-weightage"); // 1 to 10
 	By addOptionBtn = By.xpath("//span[text()='Add option']");
+
 	// linear scale type
 	By linearScaleTo = By.xpath("//div[@class='survey-form-linear-scale-range']/select[2]");
 
 	By createdSurveyInTable = By.xpath("//tr[@class='survey-table-row']/td[1]/button");
 
+	// Edit Survey
+	By existingWeightage = By.xpath("//div[@class='add-survey-section-header']/div[1]/span[text()='Weightage:']/input");
+
+	// Add Section in Edit
+	By editNewSection = By.xpath("//button[text()=' Add Section']");
+	By editSectionName = By.xpath("//input[@placeholder='Type section name...']");
+	By editSectionWeightage = By.xpath("//input[@placeholder='Enter weightage']");
+
+	// Add Measure in Edit
+	By editNewMeasure = By.xpath("//button[text()='Add Measure']");
+	By editMeasureName = By.xpath("//input[@placeholder='Measure Name']");
+
+	// Add Question in Edit
+	By editNewQuestion = By.xpath("//button[text()='Add Question']");
+	By editQuestionOption = By.cssSelector("input.add-survey-option-input");
+	By editOptionWeightage = By.cssSelector("input.add-survey-weightage-input"); // 1 to 10
+
+	// Verify survey details section
+	By sectionInSurveyDetails = By.xpath("//div[@class='survey-details-section-title']/strong'");
+
+	
 	// Header for survey
 	public void headerValidation() throws Exception {
 		try {
@@ -1042,14 +1064,14 @@ public class CSAT_SurveyPage extends WaitsManager {
 	}
 
 	// ADD SECTION WEIGHTAGE
-	public void addSectionWeightage(String sectionWeight) throws Exception {
+	public void addSectionWeightage(String sectionWeightVal) throws Exception {
 		try {
 			implWait(driver);
-			List<WebElement> element = driver.findElements(sectonWeightage);
+			List<WebElement> element = driver.findElements(sectionWeightage);
 			if (element.size() > 0) {
 				element.getLast().click();
 				element.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
-				element.getLast().sendKeys(sectionWeight);
+				element.getLast().sendKeys(sectionWeightVal);
 
 			} else {
 				grep.failTest("Section Weightage Field not Available");
@@ -1371,4 +1393,192 @@ public class CSAT_SurveyPage extends WaitsManager {
 
 	}
 
+	// EDITING EXISTING WEIGHTAGE IN EDIT POPUP
+	public void weightageInEditPopup(String sectionWeightVal) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> element = driver.findElements(existingWeightage);
+			if (element.size() > 0) {
+				element.getFirst().click();
+				element.getFirst().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				element.getFirst().sendKeys(sectionWeightVal);
+
+			} else {
+				grep.failTest("Existing Weightage Field not Available");
+				logger.error("Existing Weightage Field not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// CLICK ADD SECTION IN EDIT POPUP
+	public void clickAddSection_InEdit() throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> newSection = driver.findElements(editNewSection);
+
+			if (newSection.size() > 0) {
+				newSection.getLast().click();
+			} else {
+				grep.failTest("New Section button Not Available");
+				logger.error("New Section button Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// ADD SECTION NAME IN EDIT POPUP
+	public void addSectionName_InEdit(String sectionName) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> section = driver.findElements(editSectionName);
+			if (section.size() > 0) {
+				section.getLast().click();
+				section.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				section.getLast().sendKeys(sectionName);
+
+			} else {
+				grep.failTest("Section Name Field not Available");
+				logger.error("Section Name Field not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// ADD SECTION WEIGHTAGE IN EDIT POPUP
+	public void addSectionWeightage_InEdit(String sectionWeightVal) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> element = driver.findElements(editSectionWeightage);
+			if (element.size() > 0) {
+				element.getLast().click();
+				element.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				element.getLast().sendKeys(sectionWeightVal);
+
+			} else {
+				grep.failTest("Section Weightage Field not Available");
+				logger.error("Section Weightage Field not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// CLICK ADD MEASURE IN EDIT POPUP
+	public void clickAddMeasure_InEdit() throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> measure = driver.findElements(editNewMeasure);
+
+			if (measure.size() > 0) {
+				measure.getLast().click();
+			} else {
+				grep.failTest("Add Measure button Not Available");
+				logger.error("Add Measure button Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// ADD MEASURE NAME IN EDIT POPUP
+	public void addMeasureName_InEdit(String measureName) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> element = driver.findElements(editMeasureName);
+			if (element.size() > 0) {
+				element.getLast().click();
+				element.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				element.getLast().sendKeys(measureName);
+
+			} else {
+				grep.failTest("Measure Name Field not Available");
+				logger.error("Measure Name Field not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// CLICK ADD QUESTION IN EDIT POPUP
+	public void clickAddQuestion_InEdit() throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> question = driver.findElements(editNewQuestion);
+
+			if (question.size() > 0) {
+				question.getLast().click();
+			} else {
+				grep.failTest("Add Question button Not Available");
+				logger.error("Add Question button Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// ADD QUESTION OPTION IN EDIT POPUP
+	public void enterQuestionOption_InEdit(String questionOptionVal) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> element = driver.findElements(editQuestionOption);
+			if (element.size() > 0) {
+				element.getLast().click();
+				element.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				element.getLast().sendKeys(questionOptionVal);
+
+			} else {
+				grep.failTest(" Question Option not Available");
+				logger.error(" Question  Option not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// ADD OPTION WEIGHTAGE IN EDIT POPUP
+	public void enterQuestionOptionWeightage_InEdit(String optionWeightageVal) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> element = driver.findElements(editOptionWeightage);
+			if (element.size() > 0) {
+				element.getLast().click();
+				element.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				element.getLast().sendKeys(optionWeightageVal);
+
+			} else {
+				grep.failTest(" Question Weightage not Available");
+				logger.error(" Question  Weightage not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
 }

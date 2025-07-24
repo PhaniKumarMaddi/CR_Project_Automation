@@ -87,6 +87,7 @@ public class TestDataKeys {
 	public String saveBtn = "Save";
 	public String updateBtn = "Update";
 	public String closeBtn = "Close";
+	public String questionButton = "Questions";
 	
 	// COLUMN OPTIONS
 	public String colOptions = "Column Options";
@@ -165,7 +166,7 @@ public class TestDataKeys {
 	public String updateCustomerContactEmail = "anwar_hussain@skillsynccr.onmicrosoft.com";
 	public String customerContactInvalidEmail = "Phani Maddi";
 
-	public String date_StartDate = "23";
+	public String date_StartDate = "24";
 	public String month_StartDate = "07";
 	public String year_StartDate = "2025";
 	public String date_EndDate = "31";
