@@ -93,48 +93,9 @@ public class WaitsManager {
 			return false;
 		}
 	}
+ 
 
-	public static boolean isNullOrEmpty(String str) {
-		if (str == null || str.isEmpty() || str.length() == 0) {
-			// All elements are either null or empty (whitespace)
-			return true;
-		}
-		// All elements are either null or empty (whitespace)
-		return false;
-	}
-
-	public static boolean isNullOrEmpty(String[] str) {
-		if (str == null || str.length == 0) {
-			// All elements are either null or empty (whitespace)
-			return true;
-		}
-
-		for (String element : str) {
-			if (element != null && !element.trim().isEmpty()) {
-				// Array has a non-empty element
-				return false;
-			}
-		}
-
-		// All elements are either null or empty (whitespace)
-		return true;
-	}
-
-	public static List<String> getAllIframeTexts() {
-		// Find all iframes in the page
-		List<WebElement> iframes = driver.findElements(By.tagName("iframe"));
-		List<String> iframeTexts = new ArrayList<>();
-
-		for (WebElement iframe : iframes) {
-			String iframeId = iframe.getAttribute("id");
-			if (iframeId != null && !iframeId.isEmpty()) {
-				iframeTexts.add(iframeId);
-			}
-		}
-
-		return iframeTexts;
-	}
-
+	 
 	public void populateDateField(LocalDate date, By dateElement) {
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(dateFormat);
 		String formattedDate = date.format(formatter);

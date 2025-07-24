@@ -837,8 +837,8 @@ public class CSAT_SurveyPage extends WaitsManager {
 		try {
 			waitForElement(surveyTypeError, 60);
 			String error = driver.findElement(surveyTypeError).getText();
-			grep.passTest(" Survey Type Error Messgae :" + error);
-			logger.info(" Survey Type Error Messgae :" + error);
+			grep.passTest("Error Message :" + error);
+			logger.info("Error Message :" + error);
 
 		} catch (Exception e) {
 			e.printStackTrace();
