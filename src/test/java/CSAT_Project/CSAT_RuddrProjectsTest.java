@@ -246,7 +246,7 @@ public class CSAT_RuddrProjectsTest extends CSAT_TestInitializer {
 		waitTime(driver);
 
 		grep.infoTest("Entering Duplicate Customer contact");
-		logger.info("Entering  Duplicate Customer contact");
+		logger.info("Entering Duplicate Customer contact");
 		waitTime(driver);
 
 		csatProject.clickRuddrButton(dataKeys.noticePeriod_Project, dataKeys.addContactBtn);

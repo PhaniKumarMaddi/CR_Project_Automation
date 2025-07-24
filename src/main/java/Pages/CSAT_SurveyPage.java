@@ -115,9 +115,9 @@ public class CSAT_SurveyPage extends WaitsManager {
 	By editOptionWeightage = By.cssSelector("input.add-survey-weightage-input"); // 1 to 10
 
 	// Verify survey details section
-	By sectionInSurveyDetails = By.xpath("//div[@class='survey-details-section-title']/strong'");
+	By sectionInSurveyDetails = By.xpath("//div[@class='survey-details-section-title']/strong");
+	By sectionToggleArrow = By.xpath("//div[@class='survey-details-section-title']/img");
 
-	
 	// Header for survey
 	public void headerValidation() throws Exception {
 		try {
@@ -786,6 +786,8 @@ public class CSAT_SurveyPage extends WaitsManager {
 			logger.error("Test Failed :" + e.getMessage());
 		}
 	}
+
+	
 
 	// ADD NEW SURVEY TYPE
 	public void insertType(String surveyType) throws Exception {
@@ -1579,6 +1581,56 @@ public class CSAT_SurveyPage extends WaitsManager {
 			grep.failTest("Test Failed :" + e.getMessage());
 			logger.error("Test Failed :" + e.getMessage());
 
+		}
+	}
+
+	// VERIFY SECTION CREATED IN SURVEY DETAILS POPUP
+	public void verifySectionUpdated_InSurveyDetail(String sectionVal) throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> element = driver.findElements(sectionInSurveyDetails);
+			if (element.size() > 0) {
+				String sectionTitle = element.getLast().getText();
+				if (sectionTitle.contains(sectionVal)) {
+
+					grep.passTest("Section is Updated: " + sectionTitle);
+					logger.info("Section is Updated: " + sectionTitle);
+				} else {
+					grep.failTest("Section is  not Updated: " + sectionTitle);
+					logger.error("Section is not Updated: " + sectionTitle);
+				}
+
+			} else {
+				grep.failTest("Survey Sections Not Available");
+				logger.error("Survey Sections Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void verifyToggleArrow_InSurveyDetail() throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> element = driver.findElements(sectionToggleArrow);
+			if (element.size() > 0) {
+				for (WebElement value : element) {
+
+					String getSrc = value.getAttribute("src");
+					if (getSrc.contains("Dropdown")) {
+						value.click();
+					}
+				}
+			} else {
+				grep.failTest("Section Toggle not available");
+				logger.error("Section Toggle not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
 		}
 	}
 }

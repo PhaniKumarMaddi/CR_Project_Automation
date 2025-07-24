@@ -166,16 +166,16 @@ public class CSAT_AddSurveyTypeTest extends CSAT_TestInitializer {
 //		waitTime5(driver);
 //		
 //		// Verify by entering spaces in type field for Edit Survey Type
-//		 grep.testCreate("Editing  entering spaces in type field for Edit Survey Type Test", "Editing entering spaces in type field");
+//		 grep.testCreate("Editing entering spaces in type field for Edit Survey Type Test", "Editing entering spaces in type field");
 //		 waitTime2(driver);
-//			grep.infoTest("Editing  entering spaces in type field for Edit Survey Type Test");
-//			logger.info("Editing  entering spaces in type field for Edit Survey Type Test");
+//			grep.infoTest("Editing entering spaces in type field for Edit Survey Type Test");
+//			logger.info("Editing entering spaces in type field for Edit Survey Type Test");
 //			waitTime(driver);
 //			csat_Survey.insertType(dataKeys.spacesInName);
 //			csat_Survey.clickButton(dataKeys.saveBtn);
 //			csat_Survey.verifySurveyTypeErrorMessage();
 //			waitTime(driver);
-//			grep.captureScreenshot("pass", "Editing  entering spaces in type field for Edit Survey Type Test", "spaces_In_TypeFieldEdit");
+//			grep.captureScreenshot("pass", "Editing entering spaces in type field for Edit Survey Type Test", "spaces_In_TypeFieldEdit");
 //			waitTime5(driver);
 //			
 //		// Verify by entering spaces in description field in Edit Survey Type

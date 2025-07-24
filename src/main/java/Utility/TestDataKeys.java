@@ -169,9 +169,10 @@ public class TestDataKeys {
 	public String date_StartDate = "24";
 	public String month_StartDate = "07";
 	public String year_StartDate = "2025";
-	public String date_EndDate = "31";
+	public String date_EndDate = "07";
 	public String lesser_date_EndDate = "13";
-	public String month_EndDate = "07";
+	public String lesser_month_EndDate = "07";
+	public String month_EndDate = "08";
 	public String year_EndDate = "2025";
 
 	// project buttons

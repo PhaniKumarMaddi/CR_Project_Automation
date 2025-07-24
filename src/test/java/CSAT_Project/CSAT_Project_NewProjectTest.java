@@ -300,7 +300,7 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		waitTime2(driver);
 		csatProject.insertStartDate(dataKeys.date_StartDate, dataKeys.month_StartDate, dataKeys.year_StartDate);
 		waitTime5(driver);
-		csatProject.insertEndDate(dataKeys.lesser_date_EndDate, dataKeys.month_EndDate, dataKeys.year_EndDate);
+		csatProject.insertEndDate(dataKeys.lesser_date_EndDate, dataKeys.lesser_month_EndDate, dataKeys.year_EndDate);
 		waitTime(driver);
 		csatProject.getEndDateError();
 		waitTime(driver);

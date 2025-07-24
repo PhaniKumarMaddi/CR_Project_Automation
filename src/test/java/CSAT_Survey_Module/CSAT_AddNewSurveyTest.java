@@ -102,7 +102,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		waitTime2(driver);
 		csat_Survey.insertStartDate(dataKeys.date_StartDate, dataKeys.month_StartDate, dataKeys.year_StartDate);
 		waitTime5(driver);
-		csat_Survey.insertEndDate(dataKeys.lesser_date_EndDate, dataKeys.month_EndDate, dataKeys.year_EndDate);
+		csat_Survey.insertEndDate(dataKeys.lesser_date_EndDate, dataKeys.lesser_month_EndDate, dataKeys.year_EndDate);
 		csat_Survey.verifySurveyTypeErrorMessage();
 		waitTime(driver);
 
@@ -180,7 +180,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		csat_Survey.clickButton(dataKeys.saveBtn);
 		csat_Survey.verifySurveyTypeErrorMessage();
-		grep.captureScreenshot("pass", "Saving with Section Name  only spaces",
+		grep.captureScreenshot("pass", "Saving with Section Name only spaces",
 				"onlySpaces_Sectionname_Error_AddSurvey");
 		waitTime2(driver);
 
@@ -234,7 +234,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		csat_Survey.clickButton(dataKeys.saveBtn);
 		csat_Survey.verifySurveyTypeErrorMessage();
-		grep.captureScreenshot("pass", "Saving with  Measure Name Invalid characters",
+		grep.captureScreenshot("pass", "Saving with Measure Name Invalid characters",
 				"invalid_MeasureName_Error_AddSurvey");
 		waitTime2(driver);
 //		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
@@ -242,26 +242,26 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 
 		// Saving Measure name with only spaces
 		grep.testCreate("Verify Saving Measure Name only spaces in add Survey",
-				"Saving with Measure Name  only spaces");
+				"Saving with Measure Name only spaces");
 		waitTime(driver);
 		logger.info("Verify Saving with Measure Name only spaces in add survey");
-		grep.infoTest("Verify Saving with Measure Name  only spaces in add survey");
+		grep.infoTest("Verify Saving with Measure Name only spaces in add survey");
 
 		waitTime2(driver);
 		csat_Survey.addCustomMeasureName(dataKeys.spacesInName);
 		waitTime(driver);
 		csat_Survey.clickButton(dataKeys.saveBtn);
 		csat_Survey.verifySurveyTypeErrorMessage();
-		grep.captureScreenshot("pass", "Saving with  Measure Name only spaces",
+		grep.captureScreenshot("pass", "Saving with Measure Name only spaces",
 				" onlySpaces_MeasureName_Error_AddSurvey");
 		waitTime2(driver);
 
 		// Saving Question name with only spaces
 		grep.testCreate("Verify Saving Question Name only spaces in add Survey",
-				"Saving with Question Name  only spaces");
+				"Saving with Question Name only spaces");
 		waitTime(driver);
 		logger.info("Verify Saving with Question Name only spaces in add survey");
-		grep.infoTest("Verify Saving with Question Name  only spaces in add survey");
+		grep.infoTest("Verify Saving with Question Name only spaces in add survey");
 
 		waitTime2(driver);
 		csat_Survey.addCustomMeasureName(dataKeys.testingMeasureName);
@@ -736,6 +736,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 				"greaterThan_100_Weight_Error_EditSurvey");
 		waitTime2(driver);
 		csat_Survey.clickButton(dataKeys.cancelBtn);
+		waitTime5(driver);
 
 		// Adding New Section,Measure,Question for existing survey Test
 		grep.testCreate("Adding New Section,Measure,Question for existing survey Test",
@@ -743,7 +744,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		logger.info("Adding New Section,Measure,Question for existing survey Test");
 		grep.infoTest("Adding New Section,Measure,Question for existing survey Test");
-		waitTime2(driver);
+		waitTime5(driver);
 		csat_Survey.selectActionFromSurveyTable(dataKeys.surveyName, dataKeys.editProjectBtn);
 		waitTime2(driver);
 		csat_Survey.clickButton(dataKeys.questionButton);
@@ -817,7 +818,9 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		waitTime5(driver);
 		csat_Survey.surveyDetailHeaderValidation(dataKeys.surveyName);
 		waitTime(driver);
-		
+		csat_Survey.verifyToggleArrow_InSurveyDetail();
+		csat_Survey.verifySectionUpdated_InSurveyDetail(dataKeys.ownershipSectionName);
+		grep.captureScreenshot("pass", "Added another Section, Measure, Question in edit popup", "added_Another_Section_EditSurvey");
 
 	}
 

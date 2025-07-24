@@ -37,7 +37,7 @@ public class CSAT_SurveyModuleUITest extends CSAT_TestInitializer {
 
 		waitTime(driver);
 		grep.infoTest("Validating the Add New Survey Type Popup");
-		logger.info("Validating  the Add New Survey Type Popup");
+		logger.info("Validating the Add New Survey Type Popup");
 		waitTime(driver);
 		csat_Survey.clickSurveyTypeDropDown();
 		csat_Survey.clickAddNewSurveyTypeBtn();
@@ -51,7 +51,7 @@ public class CSAT_SurveyModuleUITest extends CSAT_TestInitializer {
 
 		waitTime(driver);
 		grep.infoTest("Validating the Add New Survey Popup");
-		logger.info("Validating  the Add New Survey Popup");
+		logger.info("Validating the Add New Survey Popup");
 		waitTime(driver);
 		csat_Survey.clickAddNewSurveyBtn();
 		waitTime(driver);

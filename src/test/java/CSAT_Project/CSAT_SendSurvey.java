@@ -150,8 +150,8 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		// SURVEY POPUP RESEND SURVEY TEST
 		grep.testCreate("CSAT Survey popup Resend Survey Test", "Resend Survey ");
 
-		grep.infoTest("Validating Resend Survey to customer in Survey  Sent Popup");
-		logger.info("Validating Resend Survey to customer in Survey  Sent Popup");
+		grep.infoTest("Validating Resend Survey to customer in Survey Sent Popup");
+		logger.info("Validating Resend Survey to customer in Survey Sent Popup");
 
 		waitTime(driver);
 		csatProject.clickViewSurveySentStatus();
@@ -309,8 +309,8 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		// AT RISK POPUP VALIDATIONS
 		grep.testCreate("Verify AT RISK Test", "Verify AT RISK sent");
 
-		grep.infoTest("Validating AT RISK  Sent Popup");
-		logger.info("Validating AT RISK  Sent Popup");
+		grep.infoTest("Validating AT RISK Sent Popup");
+		logger.info("Validating AT RISK Sent Popup");
 
 		waitTime(driver);
 		csatProject.clickViewSurveyAtRiskStatus();
@@ -353,7 +353,7 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		csatPopup.selectProjectFilterIn_Popup(dataKeys.project_InPopup);
 
 		waitTime(driver);
-		grep.infoTest("Validating Account Executive Filter in At Risk  Popup ");
+		grep.infoTest("Validating Account Executive Filter in At Risk Popup ");
 		logger.info("Validating Account Executive Filter in At Risk Popup ");
 		waitTime(driver);
 		csatPopup.selectAcc_ExecFilterIn_Popup(dataKeys.anwar_AccExe_InPopup);
