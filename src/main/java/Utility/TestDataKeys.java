@@ -309,12 +309,15 @@ public class TestDataKeys {
 	public String testOption1 = "Test Option 1";
 	public String testOption2 = "Test Option 2";
 	public String testOption3 = "Test Option 3";
+	public String testOption4 = "Test Option 4";
+	public String testOption5 = "Test Option 5";
 
 	public String QuestionFinance = "Provide Competative rating";
 	public String Question1 = "This is to test question 1";
 	public String Question2 = "This is to test question 2";
 	public String Question3 = "This is to test question 3";
 	public String Question4 = "This is to test question 4";
+	public String Question5 = "This is to test question 5";
 
 	public String weightage_20 = "20";
 	public String weightage_30 = "30";

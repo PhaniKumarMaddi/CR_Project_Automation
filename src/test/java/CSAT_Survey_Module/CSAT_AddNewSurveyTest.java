@@ -860,7 +860,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 
 		waitTime3(driver);
 		grep.captureScreenshot("pass", "Adding another Section, Measure, Question in edit popup",
-				"addAnother_SingleSurvey_EditSurvey");
+				"addAnother_Section_EditSurvey");
 		waitTime2(driver);
 		csat_Survey.scrollToButton(dataKeys.saveBtn);
 		waitTime(driver);
@@ -881,6 +881,125 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		waitTime1(driver);
 		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
 		waitTime(driver);
+		
+		
+		// Adding one measure and question for existing section in edit Survey's details popup
+		grep.testCreate("Adding New Measure and Question for existing section Test",
+				"Adding New Measure and Question for existing section");
+		waitTime(driver);
+		logger.info("Adding New Measure and Question for existing section Test");
+		grep.infoTest("Adding New Measure and Question for existing section Test");
+		waitTime5(driver);
+		
+		csat_Survey.selectActionFromSurveyTable(dataKeys.surveyName, dataKeys.editProjectBtn);
+		waitTime2(driver);
+		csat_Survey.clickButton(dataKeys.questionButton);
+		waitTime2(driver);
+		csat_Survey.clickAddMeasure_InEdit();
+		waitTime(driver);
+		csat_Survey.addMeasureName_InEdit(dataKeys.ownershipMeasureName);
+		waitTime(driver);
+		grep.infoTest("Entered Measure Name: " + dataKeys.ownershipMeasureName);
+		logger.info("Entered Measure Name: " + dataKeys.ownershipMeasureName);
+		waitTime(driver);
+		csat_Survey.clickAddQuestion_InEdit();
+		waitTime1(driver);
+		csat_Survey.addQuestionName(dataKeys.Question3);
+		waitTime(driver);
+		grep.infoTest("Entered Question Name: " + dataKeys.Question3);
+		logger.info("Entered Question Name: " + dataKeys.Question3);
+		waitTime(driver);
+		csat_Survey.selectQuestionTypeOption(dataKeys.dropdownQuestionType);
+		waitTime(driver);
+		csat_Survey.enterQuestionOption_InEdit(dataKeys.testOption2);
+		csat_Survey.enterQuestionOptionWeightage_InEdit("2");
+		waitTime(driver);
+		grep.infoTest("Entered Option 2");
+		logger.info("Entered Options 2");
+
+		waitTime(driver);
+		csat_Survey.clickAddOption();
+		csat_Survey.enterQuestionOption_InEdit(dataKeys.testOption3);
+		csat_Survey.enterQuestionOptionWeightage_InEdit("5");
+		waitTime(driver);
+		grep.infoTest("Entered Option 3");
+		logger.info("Entered Options 3");
+
+		waitTime3(driver);
+		grep.captureScreenshot("pass", "Adding another Measure, Question for existing section in edit popup",
+				"addAnother_Measure_EditSurvey");
+		waitTime2(driver);
+		csat_Survey.scrollToButton(dataKeys.saveBtn);
+		waitTime(driver);
+		csat_Survey.clickButton(dataKeys.saveBtn);
+	
+		waitTime10(driver);
+		
+		// Adding one question for existing section in edit Survey's details popup
+	
+		grep.testCreate("Adding New Question for existing measure Test",
+				"Adding New Question for existing measure");
+		waitTime(driver);
+		logger.info("Adding New Question for existing measure Test");
+		grep.infoTest("Adding New Question for existing measure Test");
+		waitTime5(driver);
+		
+		csat_Survey.selectActionFromSurveyTable(dataKeys.surveyName, dataKeys.editProjectBtn);
+		waitTime2(driver);
+		csat_Survey.clickButton(dataKeys.questionButton);
+		waitTime2(driver);
+		csat_Survey.clickAddQuestion_InEdit();
+		waitTime1(driver);
+		csat_Survey.addQuestionName(dataKeys.Question5);
+		waitTime(driver);
+		grep.infoTest("Entered Question Name: " + dataKeys.Question5);
+		logger.info("Entered Question Name: " + dataKeys.Question5);
+		waitTime(driver);
+		csat_Survey.selectQuestionTypeOption(dataKeys.dropdownQuestionType);
+		waitTime(driver);
+		csat_Survey.enterQuestionOption_InEdit(dataKeys.testOption4);
+		csat_Survey.enterQuestionOptionWeightage_InEdit("2");
+		waitTime(driver);
+		grep.infoTest("Entered Option 4");
+		logger.info("Entered Options 4");
+
+		waitTime3(driver);
+		grep.captureScreenshot("pass", "Adding another Question for existing measure in edit popup",
+				"addAnother_Question_EditSurvey");
+		waitTime2(driver);
+		csat_Survey.scrollToButton(dataKeys.saveBtn);
+		waitTime(driver);
+		csat_Survey.clickButton(dataKeys.saveBtn);
+		
+		waitTime10(driver);
+		// Adding one option for existing question in edit Survey's details popup
+		grep.testCreate("Adding New option for existing Question Test",
+				"Adding New option for existing Question");
+		waitTime(driver);
+		logger.info("Adding New option for existing Question Test");
+		grep.infoTest("Adding New option for existing Question Test");
+		waitTime5(driver);
+		
+		csat_Survey.selectActionFromSurveyTable(dataKeys.surveyName, dataKeys.editProjectBtn);
+		waitTime2(driver);
+		csat_Survey.clickButton(dataKeys.questionButton);
+		waitTime2(driver);
+		csat_Survey.clickAddOption();
+		waitTime1(driver);
+		csat_Survey.enterQuestionOption_InEdit(dataKeys.testOption5);
+		csat_Survey.enterQuestionOptionWeightage_InEdit("1");
+		waitTime(driver);
+		grep.infoTest("Entered Option 5");
+		logger.info("Entered Options 5");
+
+		waitTime3(driver);
+		grep.captureScreenshot("pass", "Adding another option for existing Question in edit popup",
+				"addAnother_Option_EditSurvey");
+		waitTime2(driver);
+		csat_Survey.scrollToButton(dataKeys.saveBtn);
+		waitTime(driver);
+		csat_Survey.clickButton(dataKeys.saveBtn);
+		
 	}
 
 	@Test(priority = 3)
