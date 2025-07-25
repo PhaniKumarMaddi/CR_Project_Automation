@@ -47,7 +47,7 @@ public class CSAT_AddSurveyTypeTest extends CSAT_TestInitializer {
 		csat_Survey.verifySurveyTypeErrorMessage();
 		grep.captureScreenshot("pass", "Enter Invalid Characters in Type field", "invalid_In_TypeField");
 		waitTime2(driver);
-
+		
 		// Entering spaces in type field for add New Survey Type Test
 		grep.testCreate("Entering spaces in type field for add New Survey Type Test", "Entering spaces in type field");
 

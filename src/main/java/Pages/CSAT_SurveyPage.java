@@ -118,6 +118,8 @@ public class CSAT_SurveyPage extends WaitsManager {
 	By sectionInSurveyDetails = By.xpath("//div[@class='survey-details-section-title']/strong");
 	By sectionToggleArrow = By.xpath("//div[@class='survey-details-section-title']/img");
 
+	By deleteSection_InEdit = By.xpath("//div[@class='add-survey-section-actions']/img[@alt='delete']");
+
 	// Header for survey
 	public void headerValidation() throws Exception {
 		try {
@@ -786,8 +788,6 @@ public class CSAT_SurveyPage extends WaitsManager {
 			logger.error("Test Failed :" + e.getMessage());
 		}
 	}
-
-	
 
 	// ADD NEW SURVEY TYPE
 	public void insertType(String surveyType) throws Exception {
@@ -1626,6 +1626,24 @@ public class CSAT_SurveyPage extends WaitsManager {
 			} else {
 				grep.failTest("Section Toggle not available");
 				logger.error("Section Toggle not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void clickDeleteSection_InEdit() throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> element = driver.findElements(deleteSection_InEdit);
+			if (element.size() > 0) {
+
+				element.getLast().click();
+			} else {
+				grep.failTest("Deleet Section not available");
+				logger.error("Delete Section not available");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

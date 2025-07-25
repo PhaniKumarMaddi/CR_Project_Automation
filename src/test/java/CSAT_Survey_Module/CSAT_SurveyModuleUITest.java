@@ -40,8 +40,9 @@ public class CSAT_SurveyModuleUITest extends CSAT_TestInitializer {
 		logger.info("Validating the Add New Survey Type Popup");
 		waitTime(driver);
 		csat_Survey.clickSurveyTypeDropDown();
-		csat_Survey.clickAddNewSurveyTypeBtn();
 		waitTime(driver);
+		csat_Survey.clickAddNewSurveyTypeBtn();
+		waitTime2(driver);
 		csat_Survey.popupHeaderValidation(dataKeys.addSurveyTypeHeader);
 		waitTime(driver);
 		csat_Survey.verifyButton(dataKeys.cancelBtn);
