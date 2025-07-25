@@ -134,9 +134,8 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 
 		waitTime10(driver);
 //		csatProject.retrieveFeedBackSentMessage();
-
 		refreshPage();
-		waitTime(driver);
+		waitTime10(driver);
 		refreshPage();
 		waitTime5(driver);
 		String sentSurveyCountBeforeSubmit = csatProject.getSurveyCount(dataKeys.sentSurvey);
