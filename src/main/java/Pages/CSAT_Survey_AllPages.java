@@ -112,7 +112,6 @@ public class CSAT_Survey_AllPages extends WaitsManager {
 	// navigation to different pages
 	public void navigateToPage(String pageName) throws Exception {
 		try {
-//			By pageNavigation = By.xpath("//span[text()='" + pageName + "']");
 //			By pageNavigation = By.xpath("//a[@class='nav-link']/span[text()='" + pageName + "']");
 			By pageNavigation = By.xpath("//a[@class='nav-link' and @href='" + pageName + "']");
 			implWait(driver);

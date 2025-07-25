@@ -30,7 +30,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 
 	By surveyPageHeader = By.cssSelector("h1.add-survey-survey-title");
 
-	// Column Options in Survye
+	// Column Options in Survey
 	By columnOptionsBtn = By.cssSelector("button.survey-column-options-button");
 	By columnOptionsHeader = By.xpath("//div[@class='column-options-header']/h3");
 	By closeColumn = By.cssSelector("button.close-button");
