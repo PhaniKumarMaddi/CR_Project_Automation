@@ -325,5 +325,18 @@ public class TestDataKeys {
 	public String weightage_100 = "100";
 	public String weightage_Less_100 = "10";
 	public String weightage_great_100 = "200";
+	
+	
+	
+	// ROLES PAGE
+	public String adminRole= "Administrator";
+	public String ownerRole = "Owner";
+	public String contributorRole= "Contributor";
+	public String ReaderRole= "Reader";
+	
+	public String roleColHeader= "Role";
+	public String DescColHeader= "Description";
+	public String lastModifiedBy_ColHeader= "Last Modified By";
+	public String lastModifiedOn_ColHeader= "Last Modified On";
 
 }

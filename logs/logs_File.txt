@@ -18319,3 +18319,33 @@ Session ID: 88196a7b0ecfe526de0d4d8c9d64bbe3
 2025-07-25 17:12:32 [main] INFO : Survey Deleted: CSAT Test Automation
 2025-07-25 17:12:33 [main] INFO : Testing Ended
 2025-07-25 17:12:33 [main] INFO : ***********
+2025-07-28 09:27:12 [main] INFO : Launching Chrome Browser
+2025-07-28 09:27:13 [main] INFO : Report Name :CsatPage.html
+2025-07-28 09:27:45 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-28 09:27:45 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-28 09:27:45 [main] INFO : Inside Login Page: LOGIN
+2025-07-28 09:28:42 [main] INFO : Logged in to CSAT Application
+2025-07-28 09:28:46 [main] INFO : Verify Roles Header
+2025-07-28 09:28:46 [main] INFO : Header is Valid: Roles
+2025-07-28 09:28:46 [main] INFO : Verify Role Column Header
+2025-07-28 09:28:46 [main] INFO : Column Header is Valid: Role
+2025-07-28 09:28:46 [main] INFO : Verify Description Column Header
+2025-07-28 09:28:46 [main] INFO : Column Header is Valid: Description
+2025-07-28 09:28:46 [main] INFO : Verify Last Modified By Column Header
+2025-07-28 09:28:46 [main] INFO : Column Header is Valid: Last Modified By
+2025-07-28 09:28:46 [main] INFO : Verify Last Modified On Column Header
+2025-07-28 09:28:46 [main] INFO : Column Header is Valid: Last Modified On
+2025-07-28 09:28:46 [main] INFO : Verify Administrator Role and Description
+2025-07-28 09:28:46 [main] INFO : Roles is Valid: Administrator
+2025-07-28 09:28:47 [main] INFO : Role Description : Full Access To Manage All The Surveys, Projects And Roles
+2025-07-28 09:28:47 [main] INFO : Verify Contributor Role and Description
+2025-07-28 09:28:47 [main] INFO : Roles is Valid: Contributor
+2025-07-28 09:28:47 [main] INFO : Role Description : Grants Full Access To Manage All Surveys And Projects But Does Not Allow You To Assign Roles
+2025-07-28 09:28:47 [main] INFO : Verify Owner Role and Description
+2025-07-28 09:28:47 [main] INFO : Roles is Valid: Owner
+2025-07-28 09:28:47 [main] INFO : Role Description : Grants Full Access To Manage All Surveys And Projects Including Ability To Assigned Role But Does Not Allow You To Make Any Changes To Roles
+2025-07-28 09:28:47 [main] INFO : Verify Reader Role and Description
+2025-07-28 09:28:47 [main] INFO : Roles is Valid: Reader
+2025-07-28 09:28:47 [main] INFO : Role Description : View Surveys, Projects And Roles But Does Not Allow You To Make Any Changes
+2025-07-28 09:28:47 [main] INFO : Testing Ended
+2025-07-28 09:28:47 [main] INFO : ***********
