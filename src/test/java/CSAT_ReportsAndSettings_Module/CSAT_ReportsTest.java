@@ -1,4 +1,4 @@
-package CSAT_Reports_Module;
+package CSAT_ReportsAndSettings_Module;
 
 import java.awt.Robot;
 import java.awt.event.KeyEvent;

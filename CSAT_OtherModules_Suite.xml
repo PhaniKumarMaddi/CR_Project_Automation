@@ -6,7 +6,7 @@
     <classes>
       <class name="CSAT_RolesAndProfile_Module.CSAT_ProfileTest"/>
       <class name="CSAT_RolesAndProfile_Module.CSAT_RolesTest"/>
-      <class name="CSAT_Reports_Module.CSAT_ReportsTest"/>
+      <class name="CSAT_ReportsAndSettings_Module.CSAT_ReportsTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
