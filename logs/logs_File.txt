@@ -18363,3 +18363,298 @@ Session ID: 88196a7b0ecfe526de0d4d8c9d64bbe3
 2025-07-28 09:45:09 [main] INFO : Email: anwar_hussain@skillsynccr.onmicrosoft.com
 2025-07-28 09:45:09 [main] INFO : Testing Ended
 2025-07-28 09:45:09 [main] INFO : ***********
+2025-07-28 11:12:44 [main] INFO : Launching Chrome Browser
+2025-07-28 11:12:45 [main] INFO : Report Name :CsatPage.html
+2025-07-28 11:13:12 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-28 11:13:12 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-28 11:13:12 [main] INFO : Inside Login Page: LOGIN
+2025-07-28 11:14:13 [main] INFO : Logged in to CSAT Application
+2025-07-28 11:14:16 [main] INFO : Verify Profile Header
+2025-07-28 11:14:17 [main] INFO : Header is Valid: Reports
+2025-07-28 11:14:17 [main] INFO : Inside CSAT Development Project
+2025-07-28 11:14:27 [main] INFO : OverAll CSAT Card Value3.91
+2025-07-28 11:14:28 [main] INFO : Promoter Card Value: 48 %
+2025-07-28 11:14:28 [main] INFO : Neutral Card Value: 48 %
+2025-07-28 11:14:29 [main] INFO : Detractors Card Value: 4 %
+2025-07-28 11:14:30 [main] INFO : Response Count Card Value: 23
+2025-07-28 11:14:30 [main] INFO : Inside CSAT Resource TOD Project
+2025-07-28 11:14:41 [main] INFO : OverAll CSAT Card Value3.59
+2025-07-28 11:14:42 [main] INFO : Promoter Card Value: 49 %
+2025-07-28 11:14:42 [main] INFO : Neutral Card Value: 20 %
+2025-07-28 11:14:43 [main] INFO : Detractors Card Value: 31 %
+2025-07-28 11:14:43 [main] INFO : Response Count Card Value: 35
+2025-07-28 11:14:44 [main] INFO : Inside CSAT AMS Project
+2025-07-28 11:15:17 [main] INFO : Launching Chrome Browser
+2025-07-28 11:15:17 [main] INFO : Report Name :CsatPage.html
+2025-07-28 11:15:24 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-28 11:15:24 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-28 11:15:24 [main] INFO : Inside Login Page: LOGIN
+2025-07-28 11:15:50 [main] INFO : Logged in to CSAT Application
+2025-07-28 11:15:53 [main] INFO : Verify Profile Header
+2025-07-28 11:15:54 [main] INFO : Header is Valid: Reports
+2025-07-28 11:15:54 [main] INFO : Inside CSAT Development Project
+2025-07-28 11:16:04 [main] INFO : OverAll CSAT Card Value3.91
+2025-07-28 11:16:05 [main] INFO : Promoter Card Value: 48 %
+2025-07-28 11:16:05 [main] INFO : Neutral Card Value: 48 %
+2025-07-28 11:16:06 [main] INFO : Detractors Card Value: 4 %
+2025-07-28 11:16:07 [main] INFO : Response Count Card Value: 23
+2025-07-28 11:16:07 [main] INFO : Inside CSAT Resource TOD Project
+2025-07-28 11:16:18 [main] INFO : OverAll CSAT Card Value3.59
+2025-07-28 11:16:19 [main] INFO : Promoter Card Value: 49 %
+2025-07-28 11:16:19 [main] INFO : Neutral Card Value: 20 %
+2025-07-28 11:16:20 [main] INFO : Detractors Card Value: 31 %
+2025-07-28 11:16:20 [main] INFO : Response Count Card Value: 35
+2025-07-28 11:16:21 [main] INFO : Inside CSAT AMS Project
+2025-07-28 11:17:32 [main] ERROR: OverAll CSAT Card Value Not Available
+2025-07-28 11:19:10 [main] INFO : Launching Chrome Browser
+2025-07-28 11:19:10 [main] INFO : Report Name :CsatPage.html
+2025-07-28 11:19:14 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-28 11:19:14 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-28 11:19:15 [main] INFO : Inside Login Page: LOGIN
+2025-07-28 11:19:40 [main] INFO : Logged in to CSAT Application
+2025-07-28 11:19:44 [main] INFO : Verify Profile Header
+2025-07-28 11:19:44 [main] INFO : Header is Valid: Reports
+2025-07-28 11:19:44 [main] INFO : Inside CSAT Development Project
+2025-07-28 11:19:55 [main] INFO : OverAll CSAT Card Value3.91
+2025-07-28 11:19:56 [main] INFO : Promoter Card Value: 48 %
+2025-07-28 11:19:56 [main] INFO : Neutral Card Value: 48 %
+2025-07-28 11:19:57 [main] INFO : Detractors Card Value: 4 %
+2025-07-28 11:19:57 [main] INFO : Response Count Card Value: 23
+2025-07-28 11:19:58 [main] INFO : Inside CSAT Resource TOD Project
+2025-07-28 11:21:11 [main] ERROR: OverAll CSAT Card Value Not Available
+2025-07-28 11:22:11 [main] ERROR: Promoter Card Value Not Available
+2025-07-28 11:23:12 [main] ERROR: Neutral Card Value Not Available
+2025-07-28 11:24:12 [main] ERROR: Response Count Card Value Not Available
+2025-07-28 11:25:13 [main] ERROR: Response Count Card Value Not Available
+2025-07-28 11:25:14 [main] INFO : Inside CSAT AMS Project
+2025-07-28 11:25:26 [main] INFO : OverAll CSAT Card Value3.59
+2025-07-28 11:25:27 [main] INFO : Promoter Card Value: 49 %
+2025-07-28 11:25:28 [main] INFO : Neutral Card Value: 20 %
+2025-07-28 11:25:28 [main] INFO : Detractors Card Value: 31 %
+2025-07-28 11:25:29 [main] INFO : Response Count Card Value: 35
+2025-07-28 11:25:29 [main] INFO : Inside CSAT Engagement Level Project
+2025-07-28 11:25:42 [main] INFO : OverAll CSAT Card Value3.36
+2025-07-28 11:25:43 [main] INFO : Promoter Card Value: 37.5 %
+2025-07-28 11:25:43 [main] INFO : Neutral Card Value: 31.25 %
+2025-07-28 11:25:44 [main] INFO : Detractors Card Value: 31.25 %
+2025-07-28 11:25:45 [main] INFO : Response Count Card Value: 32
+2025-07-28 11:25:45 [main] INFO : Testing Ended
+2025-07-28 11:25:45 [main] INFO : ***********
+2025-07-28 11:27:42 [main] INFO : Launching Chrome Browser
+2025-07-28 11:27:42 [main] INFO : Report Name :CsatPage.html
+2025-07-28 11:27:48 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-28 11:27:48 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-28 11:27:48 [main] INFO : Inside Login Page: LOGIN
+2025-07-28 11:28:09 [main] INFO : Logged in to CSAT Application
+2025-07-28 11:28:13 [main] INFO : Verify Profile Header
+2025-07-28 11:28:13 [main] INFO : Header is Valid: Reports
+2025-07-28 11:28:13 [main] INFO : Inside CSAT Development Project
+2025-07-28 11:28:24 [main] INFO : OverAll CSAT Card Value: 3.91
+2025-07-28 11:28:24 [main] INFO : Promoter Card Value: 48 %
+2025-07-28 11:28:25 [main] INFO : Neutral Card Value: 48 %
+2025-07-28 11:28:25 [main] INFO : Detractors Card Value: 4 %
+2025-07-28 11:28:26 [main] INFO : Response Count Card Value: 23
+2025-07-28 11:28:27 [main] INFO : Inside CSAT Resource TOD Project
+2025-07-28 11:28:39 [main] INFO : OverAll CSAT Card Value: 3.8
+2025-07-28 11:28:40 [main] INFO : Promoter Card Value: 50%
+2025-07-28 11:28:41 [main] INFO : Neutral Card Value: 35%
+2025-07-28 11:28:41 [main] INFO : Detractors Card Value: 15%
+2025-07-28 11:28:42 [main] INFO : Response Count Card Value: 40
+2025-07-28 11:28:43 [main] INFO : Inside CSAT AMS Project
+2025-07-28 11:28:56 [main] INFO : OverAll CSAT Card Value: 3.59
+2025-07-28 11:28:56 [main] INFO : Promoter Card Value: 49 %
+2025-07-28 11:28:57 [main] INFO : Neutral Card Value: 20 %
+2025-07-28 11:28:57 [main] INFO : Detractors Card Value: 31 %
+2025-07-28 11:28:58 [main] INFO : Response Count Card Value: 35
+2025-07-28 11:28:59 [main] INFO : Inside CSAT Engagement Level Project
+2025-07-28 11:29:12 [main] INFO : OverAll CSAT Card Value: 3.36
+2025-07-28 11:29:12 [main] INFO : Promoter Card Value: 37.5 %
+2025-07-28 11:29:13 [main] INFO : Neutral Card Value: 31.25 %
+2025-07-28 11:29:13 [main] INFO : Detractors Card Value: 31.25 %
+2025-07-28 11:29:14 [main] INFO : Response Count Card Value: 32
+2025-07-28 11:29:14 [main] INFO : Testing Ended
+2025-07-28 11:29:14 [main] INFO : ***********
+2025-07-28 12:01:44 [main] INFO : Launching Chrome Browser
+2025-07-28 12:01:44 [main] INFO : Report Name :CsatPage.html
+2025-07-28 12:02:12 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-28 12:02:17 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-28 12:02:17 [main] INFO : Inside Login Page: LOGIN
+2025-07-28 12:02:45 [main] INFO : Logged in to CSAT Application
+2025-07-28 12:02:49 [main] INFO : Verify Profile Header
+2025-07-28 12:02:49 [main] INFO : Header is Valid: Reports
+2025-07-28 12:02:49 [main] INFO : Inside CSAT Development Project
+2025-07-28 12:03:00 [main] INFO : OverAll CSAT Card Value: 3.91
+2025-07-28 12:03:00 [main] INFO : Promoter Card Value: 48 %
+2025-07-28 12:03:01 [main] INFO : Neutral Card Value: 48 %
+2025-07-28 12:03:02 [main] INFO : Detractors Card Value: 4 %
+2025-07-28 12:03:02 [main] INFO : Response Count Card Value: 23
+2025-07-28 12:03:03 [main] INFO : Inside CSAT Resource TOD Project
+2025-07-28 12:03:16 [main] INFO : OverAll CSAT Card Value: 3.8
+2025-07-28 12:03:16 [main] INFO : Promoter Card Value: 50%
+2025-07-28 12:03:17 [main] INFO : Neutral Card Value: 35%
+2025-07-28 12:03:17 [main] INFO : Detractors Card Value: 15%
+2025-07-28 12:03:18 [main] INFO : Response Count Card Value: 40
+2025-07-28 12:03:19 [main] INFO : Inside CSAT AMS Project
+2025-07-28 12:03:32 [main] INFO : OverAll CSAT Card Value: 3.59
+2025-07-28 12:03:32 [main] INFO : Promoter Card Value: 49 %
+2025-07-28 12:03:33 [main] INFO : Neutral Card Value: 20 %
+2025-07-28 12:03:34 [main] INFO : Detractors Card Value: 31 %
+2025-07-28 12:03:34 [main] INFO : Response Count Card Value: 35
+2025-07-28 12:03:35 [main] INFO : Inside CSAT Engagement Level Project
+2025-07-28 12:03:48 [main] INFO : OverAll CSAT Card Value: 3.36
+2025-07-28 12:03:48 [main] INFO : Promoter Card Value: 37.5 %
+2025-07-28 12:03:49 [main] INFO : Neutral Card Value: 31.25 %
+2025-07-28 12:03:49 [main] INFO : Detractors Card Value: 31.25 %
+2025-07-28 12:03:50 [main] INFO : Response Count Card Value: 32
+2025-07-28 12:04:01 [main] INFO : Click Entire Dashboard Download Button
+2025-07-28 12:04:03 [main] INFO : Download CSV File Format 
+2025-07-28 12:04:09 [main] INFO : Download PDF File Format 
+2025-07-28 12:04:15 [main] INFO : Sharing Report to Customer
+2025-07-28 12:04:16 [main] INFO : Entered Email: phani.maddi@criticalriver.com
+2025-07-28 12:04:17 [main] INFO : Selecting Email
+2025-07-28 12:04:18 [main] INFO : Click Send PDF
+2025-07-28 12:05:05 [main] INFO : Inside Customer Mail
+2025-07-28 12:05:19 [main] INFO : Get Email Header: Development Project Dashboard Report
+2025-07-28 12:05:21 [main] INFO : Get Email Body: Hi phani.maddi,
+We hope you're doing well! We're excited to share the latest Development Project Dashboard Report.
+The full dashboard is attached as a PDF for your review.
+Thank you for your engagement,
+CriticalRiver Technologies Team
+2025-07-28 12:05:26 [main] INFO : Download PDF from mail
+2025-07-28 12:06:26 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//spn[text()='Download']"}
+  (Session info: chrome=138.0.7204.169)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f1dbedcc92b7e64def71d52609b51b1, findElement {value=//spn[text()='Download'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51530/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f1dbedcc92b7e64def71d52609b51b1
+2025-07-28 12:06:33 [main] INFO : Testing Ended
+2025-07-28 12:06:33 [main] INFO : ***********
+2025-07-28 12:08:23 [main] INFO : Launching Chrome Browser
+2025-07-28 12:08:23 [main] INFO : Report Name :CsatPage.html
+2025-07-28 12:08:26 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-28 12:08:26 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-28 12:08:26 [main] INFO : Inside Login Page: LOGIN
+2025-07-28 12:08:52 [main] INFO : Logged in to CSAT Application
+2025-07-28 12:08:56 [main] INFO : Verify Profile Header
+2025-07-28 12:08:56 [main] INFO : Header is Valid: Reports
+2025-07-28 12:08:56 [main] INFO : Inside CSAT Development Project
+2025-07-28 12:09:07 [main] INFO : OverAll CSAT Card Value: 3.91
+2025-07-28 12:09:07 [main] INFO : Promoter Card Value: 48 %
+2025-07-28 12:09:08 [main] INFO : Neutral Card Value: 48 %
+2025-07-28 12:09:08 [main] INFO : Detractors Card Value: 4 %
+2025-07-28 12:09:09 [main] INFO : Response Count Card Value: 23
+2025-07-28 12:09:10 [main] INFO : Inside CSAT Resource TOD Project
+2025-07-28 12:09:22 [main] INFO : OverAll CSAT Card Value: 3.8
+2025-07-28 12:09:23 [main] INFO : Promoter Card Value: 50%
+2025-07-28 12:09:24 [main] INFO : Neutral Card Value: 35%
+2025-07-28 12:09:24 [main] INFO : Detractors Card Value: 15%
+2025-07-28 12:09:25 [main] INFO : Response Count Card Value: 40
+2025-07-28 12:09:26 [main] INFO : Inside CSAT AMS Project
+2025-07-28 12:09:39 [main] INFO : OverAll CSAT Card Value: 3.59
+2025-07-28 12:09:39 [main] INFO : Promoter Card Value: 49 %
+2025-07-28 12:09:40 [main] INFO : Neutral Card Value: 20 %
+2025-07-28 12:09:40 [main] INFO : Detractors Card Value: 31 %
+2025-07-28 12:09:41 [main] INFO : Response Count Card Value: 35
+2025-07-28 12:09:42 [main] INFO : Inside CSAT Engagement Level Project
+2025-07-28 12:09:54 [main] INFO : OverAll CSAT Card Value: 3.36
+2025-07-28 12:09:55 [main] INFO : Promoter Card Value: 37.5 %
+2025-07-28 12:09:55 [main] INFO : Neutral Card Value: 31.25 %
+2025-07-28 12:09:56 [main] INFO : Detractors Card Value: 31.25 %
+2025-07-28 12:09:57 [main] INFO : Response Count Card Value: 32
+2025-07-28 12:10:08 [main] INFO : Click Entire Dashboard Download Button
+2025-07-28 12:10:10 [main] INFO : Download CSV File Format 
+2025-07-28 12:10:15 [main] INFO : Download PDF File Format 
+2025-07-28 12:10:22 [main] INFO : Sharing Report to Customer
+2025-07-28 12:10:23 [main] INFO : Entered Email: phani.maddi@criticalriver.com
+2025-07-28 12:10:24 [main] INFO : Selecting Email
+2025-07-28 12:10:25 [main] INFO : Click Send PDF
+2025-07-28 12:11:10 [main] INFO : Inside Customer Mail
+2025-07-28 12:11:24 [main] INFO : Get Email Header: Development Project Dashboard Report
+2025-07-28 12:11:26 [main] INFO : Get Email Body: Hi phani.maddi,
+We hope you're doing well! We're excited to share the latest Development Project Dashboard Report.
+The full dashboard is attached as a PDF for your review.
+Thank you for your engagement,
+CriticalRiver Technologies Team
+2025-07-28 12:11:30 [main] INFO : Download PDF from mail
+2025-07-28 12:11:49 [main] INFO : Testing Ended
+2025-07-28 12:11:49 [main] INFO : ***********
+2025-07-28 12:50:11 [main] INFO : Launching Chrome Browser
+2025-07-28 12:50:11 [main] INFO : Report Name :CSATOtherModules_Report.html
+2025-07-28 12:50:49 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-28 12:50:49 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-28 12:50:49 [main] INFO : Inside Login Page: LOGIN
+2025-07-28 12:51:48 [main] INFO : Logged in to CSAT Application
+2025-07-28 12:51:51 [main] INFO : Verify Profile Header
+2025-07-28 12:51:51 [main] INFO : Header is Valid: Profile
+2025-07-28 12:51:51 [main] INFO : Verify Full name
+2025-07-28 12:51:51 [main] INFO : Full Name: Anwar Hussain
+2025-07-28 12:51:51 [main] INFO : Verify Email
+2025-07-28 12:51:51 [main] INFO : Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-28 12:51:55 [main] INFO : Verify Profile Header
+2025-07-28 12:51:55 [main] INFO : Header is Valid: Reports
+2025-07-28 12:51:55 [main] INFO : Inside CSAT Development Project
+2025-07-28 12:52:06 [main] INFO : OverAll CSAT Card Value: 3.91
+2025-07-28 12:52:07 [main] INFO : Promoter Card Value: 48 %
+2025-07-28 12:52:07 [main] INFO : Neutral Card Value: 48 %
+2025-07-28 12:52:08 [main] INFO : Detractors Card Value: 4 %
+2025-07-28 12:52:08 [main] INFO : Response Count Card Value: 23
+2025-07-28 12:52:09 [main] INFO : Inside CSAT Resource TOD Project
+2025-07-28 12:52:22 [main] INFO : OverAll CSAT Card Value: 3.8
+2025-07-28 12:52:23 [main] INFO : Promoter Card Value: 50%
+2025-07-28 12:52:23 [main] INFO : Neutral Card Value: 35%
+2025-07-28 12:52:24 [main] INFO : Detractors Card Value: 15%
+2025-07-28 12:52:24 [main] INFO : Response Count Card Value: 40
+2025-07-28 12:52:25 [main] INFO : Inside CSAT AMS Project
+2025-07-28 12:52:38 [main] INFO : OverAll CSAT Card Value: 3.59
+2025-07-28 12:52:39 [main] INFO : Promoter Card Value: 49 %
+2025-07-28 12:52:39 [main] INFO : Neutral Card Value: 20 %
+2025-07-28 12:52:40 [main] INFO : Detractors Card Value: 31 %
+2025-07-28 12:52:40 [main] INFO : Response Count Card Value: 35
+2025-07-28 12:52:41 [main] INFO : Inside CSAT Engagement Level Project
+2025-07-28 12:52:54 [main] INFO : OverAll CSAT Card Value: 3.36
+2025-07-28 12:52:54 [main] INFO : Promoter Card Value: 37.5 %
+2025-07-28 12:52:55 [main] INFO : Neutral Card Value: 31.25 %
+2025-07-28 12:52:56 [main] INFO : Detractors Card Value: 31.25 %
+2025-07-28 12:52:56 [main] INFO : Response Count Card Value: 32
+2025-07-28 12:53:08 [main] INFO : Click Entire Dashboard Download Button
+2025-07-28 12:53:09 [main] INFO : Download CSV File Format 
+2025-07-28 12:53:15 [main] INFO : Download PDF File Format 
+2025-07-28 12:53:21 [main] INFO : Sharing Report to Customer
+2025-07-28 12:53:22 [main] INFO : Entered Email: phani.maddi@criticalriver.com
+2025-07-28 12:53:23 [main] INFO : Selecting Email
+2025-07-28 12:53:24 [main] INFO : Click Send PDF
+2025-07-28 12:54:09 [main] INFO : Inside Customer Mail
+2025-07-28 12:54:23 [main] INFO : Get Email Header: Development Project Dashboard Report
+2025-07-28 12:54:25 [main] INFO : Get Email Body: Hi phani.maddi,
+We hope you're doing well! We're excited to share the latest Development Project Dashboard Report.
+The full dashboard is attached as a PDF for your review.
+Thank you for your engagement,
+CriticalRiver Technologies Team
+2025-07-28 12:54:29 [main] INFO : Download PDF from mail
+2025-07-28 12:54:51 [main] INFO : Verify Roles Header
+2025-07-28 12:54:51 [main] INFO : Header is Valid: Roles
+2025-07-28 12:54:51 [main] INFO : Verify Role Column Header
+2025-07-28 12:54:51 [main] INFO : Column Header is Valid: Role
+2025-07-28 12:54:51 [main] INFO : Verify Description Column Header
+2025-07-28 12:54:51 [main] INFO : Column Header is Valid: Description
+2025-07-28 12:54:51 [main] INFO : Verify Last Modified By Column Header
+2025-07-28 12:54:51 [main] INFO : Column Header is Valid: Last Modified By
+2025-07-28 12:54:51 [main] INFO : Verify Last Modified On Column Header
+2025-07-28 12:54:51 [main] INFO : Column Header is Valid: Last Modified On
+2025-07-28 12:54:51 [main] INFO : Verify Administrator Role and Description
+2025-07-28 12:54:51 [main] INFO : Roles is Valid: Administrator
+2025-07-28 12:54:51 [main] INFO : Role Description : Full Access To Manage All The Surveys, Projects And Roles
+2025-07-28 12:54:51 [main] INFO : Verify Contributor Role and Description
+2025-07-28 12:54:51 [main] INFO : Roles is Valid: Contributor
+2025-07-28 12:54:51 [main] INFO : Role Description : Grants Full Access To Manage All Surveys And Projects But Does Not Allow You To Assign Roles
+2025-07-28 12:54:51 [main] INFO : Verify Owner Role and Description
+2025-07-28 12:54:51 [main] INFO : Roles is Valid: Owner
+2025-07-28 12:54:52 [main] INFO : Role Description : Grants Full Access To Manage All Surveys And Projects Including Ability To Assigned Role But Does Not Allow You To Make Any Changes To Roles
+2025-07-28 12:54:52 [main] INFO : Verify Reader Role and Description
+2025-07-28 12:54:52 [main] INFO : Roles is Valid: Reader
+2025-07-28 12:54:52 [main] INFO : Role Description : View Surveys, Projects And Roles But Does Not Allow You To Make Any Changes
+2025-07-28 12:54:52 [main] INFO : Testing Ended
+2025-07-28 12:54:52 [main] INFO : ***********

@@ -1,9 +1,12 @@
 package Pages;
 
+import java.util.List;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import Utility.DriverManager;
 import Utility.GenerateReports;
@@ -22,8 +25,8 @@ public class CSAT_Reports_Page extends WaitsManager {
 
 	By reportHeader = By.xpath("//div[@class='reports-container']/h2");
 	By csat_DEV_link = By.xpath("//div[@class='reports-tabs-container']/button[1]");
-	By csat_AMS_link = By.xpath("//div[@class='reports-tabs-container']/button[2]");
-	By csat_TOD_link = By.xpath("//div[@class='reports-tabs-container']/button[3]");
+	By csat_TOD_link = By.xpath("//div[@class='reports-tabs-container']/button[2]");
+	By csat_AMS_link = By.xpath("//div[@class='reports-tabs-container']/button[3]");
 	By csat_ENGAGE_link = By.xpath("//div[@class='reports-tabs-container']/button[4]");
 
 	By overallCSATVal = By.xpath("//div[@class='ams-card orange']/span[2]");
@@ -32,6 +35,12 @@ public class CSAT_Reports_Page extends WaitsManager {
 	By detractorsVal = By.xpath("//div[@class='ams-card darkblue']/span[2]");
 	By responseCountVal = By.xpath("//div[@class='ams-card purple']/span[2]");
 
+	By overallCSATVal_resource = By.xpath("//div[@class='resource-card orange']/span[2]");
+	By promotersVal_resource = By.xpath("//div[@class='resource-card green']/span[2]");
+	By neutralVal_resource = By.xpath("//div[@class='resource-card blue']/span[2]");
+	By detractorsVal_resource = By.xpath("//div[@class='resource-card darkblue']/span[2]");
+	By responseCountVal_resource = By.xpath("//div[@class='resource-card purple']/span[2]");
+
 	// export
 	By downloadBtnAT_Cards = By.xpath("//button/img[@alt='Download Entire Dashboard']");
 	By shareBtn = By.xpath("//button[@id='settings-email-wrapper']");
@@ -39,6 +48,13 @@ public class CSAT_Reports_Page extends WaitsManager {
 	By selectSuggestion = By.xpath("//li[@class='suggestion-item even']/div[1]/span[1]");
 	By sendPDF = By.cssSelector("div.dashboard-export-option");
 	By downloadAT_ProjectWise = By.xpath("//button/img[@alt='Download']");
+
+	By selectSurveyMail = By.xpath("//span[text()='skill sync']");
+	By getEmailheader = By.xpath("//div[@class='x_email-container']/div[1]/h2");
+	By getEmailBody = By.xpath("//div[@class='x_email-container']/div[2]");
+	By getPDF = By.xpath("//div[@class='vkChN PQeLQ QEiYT']");
+	By downloadPdf = By.xpath("//span[text()='Download']");
+	By closePDF = By.xpath("//button/span/i[@data-icon-name='Cancel']");
 
 	// GET REPORTS PAGE HEADER
 	public void reportsHeaderValidation() throws Exception {
@@ -140,7 +156,7 @@ public class CSAT_Reports_Page extends WaitsManager {
 			if (elementExists) {
 				waitForElement(overallCSATVal, 30);
 				String getresponse = driver.findElement(overallCSATVal).getText();
-				logger.info("OverAll CSAT Card Value" + getresponse);
+				logger.info("OverAll CSAT Card Value: " + getresponse);
 				grep.passTest("OverAll CSAT Card Value: " + getresponse);
 			} else {
 				logger.error("OverAll CSAT Card Value Not Available");
@@ -237,6 +253,111 @@ public class CSAT_Reports_Page extends WaitsManager {
 		}
 	}
 
+	// GET OVERALL CSAT FOR RESOURCES
+	public void getResources_OverAllCSAT_CardValue() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(overallCSATVal_resource).isEmpty();
+			if (elementExists) {
+				waitForElement(overallCSATVal_resource, 30);
+				String getresponse = driver.findElement(overallCSATVal_resource).getText();
+				logger.info("OverAll CSAT Card Value: " + getresponse);
+				grep.passTest("OverAll CSAT Card Value: " + getresponse);
+			} else {
+				logger.error("OverAll CSAT Card Value Not Available");
+				grep.failTest("OverAll CSAT Card Value Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// GET PROMOTERS FOR RESOURCES
+	public void getResources_Promoters_CardValue() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(promotersVal_resource).isEmpty();
+			if (elementExists) {
+				waitForElement(promotersVal_resource, 30);
+				String getresponse = driver.findElement(promotersVal_resource).getText();
+				logger.info("Promoter Card Value: " + getresponse);
+				grep.passTest("Promoter Card Value: " + getresponse);
+			} else {
+				logger.error("Promoter Card Value Not Available");
+				grep.failTest("Promoter Card Value Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// GET NEUTRAL FOR RESOURCES
+	public void getResources_Neutral_CardValue() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(neutralVal_resource).isEmpty();
+			if (elementExists) {
+				waitForElement(neutralVal_resource, 30);
+				String getresponse = driver.findElement(neutralVal_resource).getText();
+				logger.info("Neutral Card Value: " + getresponse);
+				grep.passTest("Neutral Card Value: " + getresponse);
+			} else {
+				logger.error("Neutral Card Value Not Available");
+				grep.failTest("Neutral Card Value Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// GET DECTRACTORS FOR RESOURCES
+	public void getResources_Detractors_CardValue() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(detractorsVal_resource).isEmpty();
+			if (elementExists) {
+				waitForElement(detractorsVal_resource, 30);
+				String getresponse = driver.findElement(detractorsVal_resource).getText();
+				logger.info("Detractors Card Value: " + getresponse);
+				grep.passTest("Detractors Card Value: " + getresponse);
+			} else {
+				logger.error("Response Count Card Value Not Available");
+				grep.failTest("Response Count Card Value Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// RESPONSE COUNT FOR RESOURCES
+	public void getResources_ResponseCount_CardValue() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(responseCountVal_resource).isEmpty();
+			if (elementExists) {
+				waitForElement(responseCountVal_resource, 30);
+				String getresponse = driver.findElement(responseCountVal_resource).getText();
+				logger.info("Response Count Card Value: " + getresponse);
+				grep.passTest("Response Count Card Value: " + getresponse);
+			} else {
+				logger.error("Response Count Card Value Not Available");
+				grep.failTest("Response Count Card Value Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
 	// DOWNLOAD AT CARDS
 	public void clickDownloadEntireDashboardBtn() throws Exception {
 		try {
@@ -307,12 +428,12 @@ public class CSAT_Reports_Page extends WaitsManager {
 				grep.infoTest("Selecting Email");
 				driver.findElement(selectSuggestion).click();
 				waitTime(driver);
-				
+
 				logger.info("Click Send PDF");
 				grep.infoTest("Click Send PDF");
 				driver.findElement(sendPDF).click();
 				waitTime(driver);
-				
+
 			} else {
 				grep.failTest("Share Option Not Available");
 				logger.error("Share Option Not Available");
@@ -324,4 +445,95 @@ public class CSAT_Reports_Page extends WaitsManager {
 		}
 	}
 
+	// Skill Sync Mail
+	public void clickSkillSyncMail() throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> selectMail = driver.findElements(selectSurveyMail);
+			if (selectMail.size() > 0) {
+				waitForElementToBeClickable(selectSurveyMail, 30);
+				selectMail.getFirst().click();
+			} else {
+				logger.error("Survey mail Not Available ");
+				grep.failTest("Survey mail button Not Available ");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// Get Header in Mail
+	public void getMailHeaderText() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(getEmailheader).isEmpty();
+			if (elementExists) {
+				waitForElement(getEmailheader, 30);
+				String getresponse = driver.findElement(getEmailheader).getText();
+				logger.info("Get Email Header: " + getresponse);
+				grep.passTest("Get Email Header: " + getresponse);
+			} else {
+				logger.error("Email Header Not Available");
+				grep.failTest("Email Header Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// Get Email Body
+	public void getMailBodyText() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(getEmailBody).isEmpty();
+			if (elementExists) {
+				waitForElement(getEmailBody, 30);
+				String getresponse = driver.findElement(getEmailBody).getText();
+				logger.info("Get Email Body: " + getresponse);
+				grep.passTest("Get Email Body: " + getresponse);
+			} else {
+				logger.error("Email Body Not Available");
+				grep.failTest("Email Body Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// Verify Attachment
+
+	public void verifyAttachementFile() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(getPDF).isEmpty();
+			if (elementExists) {
+				waitForElementToBeClickable(getPDF, 30);
+				driver.findElement(getPDF).click();
+				waitTime3(driver);
+				logger.info("Download PDF from mail");
+				grep.infoTest("Download PDF from mail");
+				waitTime3(driver);
+				driver.findElement(downloadPdf).click();
+				waitTime5(driver);
+				grep.captureScreenshot("pass", "Attachement in Email","ReportInEmail");
+				waitTime3(driver);
+				driver.findElement(closePDF).click();
+				
+			}else {
+				logger.error("Email Not Available");
+				grep.failTest("Email Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
 }
