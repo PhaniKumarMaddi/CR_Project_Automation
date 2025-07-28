@@ -31,6 +31,7 @@ public class CSAT_Settings_OrgMember_Page extends WaitsManager {
 
 	// Org members fields
 	By insertMailId = By.xpath("//input[@placeholder='Type email ID']");
+	By selectSuggestion = By.xpath("//li[@class='suggestion-item even'][1]/div[2]/span[2]");
 	By selectRoleDropdowm = By.xpath("//div[@title='Select Role']");
 
 	By sendInviteBtn = By.cssSelector("button#invite-button11");
@@ -46,7 +47,7 @@ public class CSAT_Settings_OrgMember_Page extends WaitsManager {
 			implWait(driver);
 			waitForElement(orgPageHeader, 30);
 			String verifyHeader = driver.findElement(orgPageHeader).getText();
-			if (verifyHeader.equals(dataKeys.orgMemebersPage)) {
+			if (verifyHeader.equals(dataKeys.orgMemberHeader)) {
 				logger.info("Header is Valid: " + verifyHeader);
 				grep.passTest("Header is Valid: " + verifyHeader);
 			} else {
@@ -139,7 +140,15 @@ public class CSAT_Settings_OrgMember_Page extends WaitsManager {
 			implWait(driver);
 			boolean elementExist = !driver.findElements(insertMailId).isEmpty();
 			if (elementExist) {
-				driver.findElement(insertMailId).sendKeys(emailVal);
+				logger.info("Insert Email: " + emailVal);
+				grep.infoTest("Insert Email: " + emailVal);
+				waitTime(driver);
+				WebElement emailId = driver.findElement(insertMailId);
+				emailId.sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				waitTime(driver);
+				emailId.sendKeys(emailVal);
+				waitTime(driver);
+				driver.findElement(selectSuggestion).click();
 			} else {
 				grep.failTest(" Email Field not Available");
 				logger.error(" Email Field not Available");
@@ -232,6 +241,7 @@ public class CSAT_Settings_OrgMember_Page extends WaitsManager {
 			boolean elementExist = !driver.findElements(searchOrgMember).isEmpty();
 			if (elementExist) {
 				WebElement searchField = driver.findElement(searchOrgMember);
+				waitTime(driver);
 				searchField.sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
 				waitTime(driver);
 				searchField.sendKeys(searchVal);
@@ -325,7 +335,7 @@ public class CSAT_Settings_OrgMember_Page extends WaitsManager {
 
 		}
 	}
-	
+
 	public void afterUpdateRoleForUser(String userName) throws Exception {
 		try {
 			By selectRoleForMember = By.xpath("//p[text()='" + userName + "']/parent::div/following-sibling::div/div");

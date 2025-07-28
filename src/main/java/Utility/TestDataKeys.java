@@ -66,6 +66,7 @@ public class TestDataKeys {
 	public String orgMemebersPage = "Org Members";
 	public String teamsPage = "Teams";
 	public String profilePage = "Profile";
+	public String orgMemberHeader= "Organization Members";
 
 	// PROJECT PAGE UI
 	public String sentSurveyHeader = "Surveys Sent";
@@ -339,4 +340,7 @@ public class TestDataKeys {
 	public String lastModifiedBy_ColHeader= "Last Modified By";
 	public String lastModifiedOn_ColHeader= "Last Modified On";
 
+	public String userNameSearch = "Jhansi Raj";
+
 }
+
