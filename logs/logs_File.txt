@@ -19359,3 +19359,193 @@ CriticalRiver Technologies Team
 2025-07-28 16:22:34 [main] INFO : Survey Deleted: CSAT Test Automation
 2025-07-28 16:22:36 [main] INFO : Testing Ended
 2025-07-28 16:22:36 [main] INFO : ***********
+2025-07-28 16:44:31 [main] INFO : Launching Chrome Browser
+2025-07-28 16:44:31 [main] INFO : Report Name :CSATOtherModules_Report.html
+2025-07-28 16:45:03 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-28 16:45:03 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-28 16:45:03 [main] INFO : Inside Login Page: LOGIN
+2025-07-28 16:45:32 [main] INFO : Logged in to CSAT Application
+2025-07-28 16:45:35 [main] INFO : Verify Profile Header
+2025-07-28 16:45:35 [main] INFO : Header is Valid: Profile
+2025-07-28 16:45:35 [main] INFO : Verify Full name
+2025-07-28 16:45:35 [main] INFO : Full Name: Anwar Hussain
+2025-07-28 16:45:35 [main] INFO : Verify Email
+2025-07-28 16:45:36 [main] INFO : Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-28 16:45:39 [main] INFO : Verify Roles Header
+2025-07-28 16:45:39 [main] INFO : Header is Valid: Roles
+2025-07-28 16:45:39 [main] INFO : Verify Role Column Header
+2025-07-28 16:45:39 [main] INFO : Column Header is Valid: Role
+2025-07-28 16:45:39 [main] INFO : Verify Description Column Header
+2025-07-28 16:45:40 [main] INFO : Column Header is Valid: Description
+2025-07-28 16:45:40 [main] INFO : Verify Last Modified By Column Header
+2025-07-28 16:45:40 [main] INFO : Column Header is Valid: Last Modified By
+2025-07-28 16:45:40 [main] INFO : Verify Last Modified On Column Header
+2025-07-28 16:45:40 [main] INFO : Column Header is Valid: Last Modified On
+2025-07-28 16:45:40 [main] INFO : Verify Administrator Role and Description
+2025-07-28 16:45:40 [main] INFO : Roles is Valid: Administrator
+2025-07-28 16:45:40 [main] INFO : Role Description : Full Access To Manage All The Surveys, Projects And Roles
+2025-07-28 16:45:40 [main] INFO : Verify Contributor Role and Description
+2025-07-28 16:45:40 [main] INFO : Roles is Valid: Contributor
+2025-07-28 16:45:40 [main] INFO : Role Description : Grants Full Access To Manage All Surveys And Projects But Does Not Allow You To Assign Roles
+2025-07-28 16:45:40 [main] INFO : Verify Owner Role and Description
+2025-07-28 16:45:40 [main] INFO : Roles is Valid: Owner
+2025-07-28 16:45:41 [main] INFO : Role Description : Grants Full Access To Manage All Surveys And Projects Including Ability To Assigned Role But Does Not Allow You To Make Any Changes To Roles
+2025-07-28 16:45:41 [main] INFO : Verify Reader Role and Description
+2025-07-28 16:45:41 [main] INFO : Roles is Valid: Reader
+2025-07-28 16:45:41 [main] INFO : Role Description : View Surveys, Projects And Roles But Does Not Allow You To Make Any Changes
+2025-07-28 16:45:44 [main] INFO : Verify Profile Header
+2025-07-28 16:45:45 [main] INFO : Header is Valid: Reports
+2025-07-28 16:45:45 [main] INFO : Inside CSAT Development Project
+2025-07-28 16:45:55 [main] INFO : OverAll CSAT Card Value: 3.91
+2025-07-28 16:45:56 [main] INFO : Promoter Card Value: 48 %
+2025-07-28 16:45:56 [main] INFO : Neutral Card Value: 48 %
+2025-07-28 16:45:57 [main] INFO : Detractors Card Value: 4 %
+2025-07-28 16:45:58 [main] INFO : Response Count Card Value: 23
+2025-07-28 16:45:58 [main] INFO : Inside CSAT Resource TOD Project
+2025-07-28 16:46:11 [main] INFO : OverAll CSAT Card Value: 3.8
+2025-07-28 16:46:12 [main] INFO : Promoter Card Value: 50%
+2025-07-28 16:46:12 [main] INFO : Neutral Card Value: 35%
+2025-07-28 16:46:13 [main] INFO : Detractors Card Value: 15%
+2025-07-28 16:46:13 [main] INFO : Response Count Card Value: 40
+2025-07-28 16:46:15 [main] INFO : Inside CSAT AMS Project
+2025-07-28 16:46:27 [main] INFO : OverAll CSAT Card Value: 3.59
+2025-07-28 16:46:28 [main] INFO : Promoter Card Value: 49 %
+2025-07-28 16:46:28 [main] INFO : Neutral Card Value: 20 %
+2025-07-28 16:46:29 [main] INFO : Detractors Card Value: 31 %
+2025-07-28 16:46:30 [main] INFO : Response Count Card Value: 35
+2025-07-28 16:46:30 [main] INFO : Inside CSAT Engagement Level Project
+2025-07-28 16:46:43 [main] INFO : OverAll CSAT Card Value: 3.36
+2025-07-28 16:46:44 [main] INFO : Promoter Card Value: 37.5 %
+2025-07-28 16:46:45 [main] INFO : Neutral Card Value: 31.25 %
+2025-07-28 16:46:45 [main] INFO : Detractors Card Value: 31.25 %
+2025-07-28 16:46:46 [main] INFO : Response Count Card Value: 32
+2025-07-28 16:46:57 [main] INFO : Click Entire Dashboard Download Button
+2025-07-28 16:47:00 [main] INFO : Download CSV File Format 
+2025-07-28 16:47:05 [main] INFO : Download PDF File Format 
+2025-07-28 16:47:12 [main] INFO : Sharing Report to Customer
+2025-07-28 16:47:13 [main] INFO : Entered Email: phani.maddi@criticalriver.com
+2025-07-28 16:47:15 [main] INFO : Selecting Email
+2025-07-28 16:47:16 [main] INFO : Click Send PDF
+2025-07-28 16:48:02 [main] INFO : Inside Customer Mail
+2025-07-28 16:48:16 [main] INFO : Get Email Header: Development Project Dashboard Report
+2025-07-28 16:48:18 [main] INFO : Get Email Body: Hi phani.maddi,
+We hope you're doing well! We're excited to share the latest Development Project Dashboard Report.
+The full dashboard is attached as a PDF for your review.
+Thank you for your engagement,
+CriticalRiver Technologies Team
+2025-07-28 16:48:23 [main] INFO : Download PDF from mail
+2025-07-28 16:48:47 [main] INFO : Verify ORG Members Header
+2025-07-28 16:48:47 [main] INFO : Header is Valid: Organization Members
+2025-07-28 16:48:48 [main] INFO : Selecting Pagination 5
+2025-07-28 16:48:48 [main] INFO : 5 pagination Option Selected
+2025-07-28 16:48:49 [main] INFO : Selecting Pagination 15
+2025-07-28 16:48:50 [main] INFO : 15 pagination Option Selected
+2025-07-28 16:48:51 [main] INFO : Selecting Pagination 10
+2025-07-28 16:48:51 [main] INFO : 10 pagination Option Selected
+2025-07-28 16:48:52 [main] INFO : Download CSV File Format 
+2025-07-28 16:48:58 [main] INFO : Download PDF File Format 
+2025-07-28 16:49:05 [main] INFO : Insert Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-28 16:49:12 [main] INFO : Error Message: This user already has a role assigned.
+2025-07-28 16:49:15 [main] INFO : Insert Email: phani.maddi@criticalriver.com
+2025-07-28 16:49:22 [main] INFO : Insert Search Value: Jhansi Raj
+2025-07-28 16:49:24 [main] INFO : Search Related Value: Jhansi Raj
+2025-07-28 16:49:28 [main] INFO : Role Before Update: Administrator
+2025-07-28 16:49:31 [main] INFO : Updating Role for User: Contributor
+2025-07-28 16:49:36 [main] INFO : Role After Update: Contributor
+2025-07-28 16:49:43 [main] INFO : Testing Ended
+2025-07-28 16:49:43 [main] INFO : ***********
+2025-07-28 16:59:26 [main] INFO : Launching Chrome Browser
+2025-07-28 16:59:26 [main] INFO : Report Name :CSATOtherModules_Report.html
+2025-07-28 17:00:02 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-28 17:00:04 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-28 17:00:04 [main] INFO : Inside Login Page: LOGIN
+2025-07-28 17:01:04 [main] INFO : Logged in to CSAT Application
+2025-07-28 17:01:08 [main] INFO : Verify Profile Header
+2025-07-28 17:01:08 [main] INFO : Header is Valid: Profile
+2025-07-28 17:01:08 [main] INFO : Verify Full name
+2025-07-28 17:01:08 [main] INFO : Full Name: Anwar Hussain
+2025-07-28 17:01:08 [main] INFO : Verify Email
+2025-07-28 17:01:08 [main] INFO : Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-28 17:01:12 [main] INFO : Verify Roles Header
+2025-07-28 17:01:12 [main] INFO : Header is Valid: Roles
+2025-07-28 17:01:12 [main] INFO : Verify Role Column Header
+2025-07-28 17:01:12 [main] INFO : Column Header is Valid: Role
+2025-07-28 17:01:12 [main] INFO : Verify Description Column Header
+2025-07-28 17:01:12 [main] INFO : Column Header is Valid: Description
+2025-07-28 17:01:12 [main] INFO : Verify Last Modified By Column Header
+2025-07-28 17:01:12 [main] INFO : Column Header is Valid: Last Modified By
+2025-07-28 17:01:12 [main] INFO : Verify Last Modified On Column Header
+2025-07-28 17:01:12 [main] INFO : Column Header is Valid: Last Modified On
+2025-07-28 17:01:13 [main] INFO : Verify Administrator Role and Description
+2025-07-28 17:01:13 [main] INFO : Roles is Valid: Administrator
+2025-07-28 17:01:13 [main] INFO : Role Description : Full Access To Manage All The Surveys, Projects And Roles
+2025-07-28 17:01:13 [main] INFO : Verify Contributor Role and Description
+2025-07-28 17:01:13 [main] INFO : Roles is Valid: Contributor
+2025-07-28 17:01:13 [main] INFO : Role Description : Grants Full Access To Manage All Surveys And Projects But Does Not Allow You To Assign Roles
+2025-07-28 17:01:13 [main] INFO : Verify Owner Role and Description
+2025-07-28 17:01:13 [main] INFO : Roles is Valid: Owner
+2025-07-28 17:01:13 [main] INFO : Role Description : Grants Full Access To Manage All Surveys And Projects Including Ability To Assigned Role But Does Not Allow You To Make Any Changes To Roles
+2025-07-28 17:01:13 [main] INFO : Verify Reader Role and Description
+2025-07-28 17:01:13 [main] INFO : Roles is Valid: Reader
+2025-07-28 17:01:13 [main] INFO : Role Description : View Surveys, Projects And Roles But Does Not Allow You To Make Any Changes
+2025-07-28 17:01:17 [main] INFO : Verify Profile Header
+2025-07-28 17:01:17 [main] INFO : Header is Valid: Reports
+2025-07-28 17:01:17 [main] INFO : Inside CSAT Development Project
+2025-07-28 17:01:28 [main] INFO : OverAll CSAT Card Value: 3.91
+2025-07-28 17:01:28 [main] INFO : Promoter Card Value: 48 %
+2025-07-28 17:01:29 [main] INFO : Neutral Card Value: 48 %
+2025-07-28 17:01:29 [main] INFO : Detractors Card Value: 4 %
+2025-07-28 17:01:30 [main] INFO : Response Count Card Value: 23
+2025-07-28 17:01:31 [main] INFO : Inside CSAT Resource TOD Project
+2025-07-28 17:01:43 [main] INFO : OverAll CSAT Card Value: 3.8
+2025-07-28 17:01:44 [main] INFO : Promoter Card Value: 50%
+2025-07-28 17:01:45 [main] INFO : Neutral Card Value: 35%
+2025-07-28 17:01:45 [main] INFO : Detractors Card Value: 15%
+2025-07-28 17:01:46 [main] INFO : Response Count Card Value: 40
+2025-07-28 17:01:47 [main] INFO : Inside CSAT AMS Project
+2025-07-28 17:02:00 [main] INFO : OverAll CSAT Card Value: 3.59
+2025-07-28 17:02:00 [main] INFO : Promoter Card Value: 49 %
+2025-07-28 17:02:01 [main] INFO : Neutral Card Value: 20 %
+2025-07-28 17:02:01 [main] INFO : Detractors Card Value: 31 %
+2025-07-28 17:02:02 [main] INFO : Response Count Card Value: 35
+2025-07-28 17:02:03 [main] INFO : Inside CSAT Engagement Level Project
+2025-07-28 17:02:16 [main] INFO : OverAll CSAT Card Value: 3.36
+2025-07-28 17:02:16 [main] INFO : Promoter Card Value: 37.5 %
+2025-07-28 17:02:17 [main] INFO : Neutral Card Value: 31.25 %
+2025-07-28 17:02:17 [main] INFO : Detractors Card Value: 31.25 %
+2025-07-28 17:02:18 [main] INFO : Response Count Card Value: 32
+2025-07-28 17:02:29 [main] INFO : Click Entire Dashboard Download Button
+2025-07-28 17:02:34 [main] INFO : Download CSV File Format 
+2025-07-28 17:02:40 [main] INFO : Download PDF File Format 
+2025-07-28 17:02:46 [main] INFO : Sharing Report to Customer
+2025-07-28 17:02:48 [main] INFO : Entered Email: phani.maddi@criticalriver.com
+2025-07-28 17:02:49 [main] INFO : Selecting Email
+2025-07-28 17:02:50 [main] INFO : Click Send PDF
+2025-07-28 17:03:35 [main] INFO : Inside Customer Mail
+2025-07-28 17:03:48 [main] INFO : Get Email Header: Development Project Dashboard Report
+2025-07-28 17:03:50 [main] INFO : Get Email Body: Hi phani.maddi,
+We hope you're doing well! We're excited to share the latest Development Project Dashboard Report.
+The full dashboard is attached as a PDF for your review.
+Thank you for your engagement,
+CriticalRiver Technologies Team
+2025-07-28 17:03:55 [main] INFO : Download PDF from mail
+2025-07-28 17:04:19 [main] INFO : Verify ORG Members Header
+2025-07-28 17:04:19 [main] INFO : Header is Valid: Organization Members
+2025-07-28 17:04:20 [main] INFO : Selecting Pagination 5
+2025-07-28 17:04:20 [main] INFO : 5 pagination Option Selected
+2025-07-28 17:04:20 [main] INFO : Selecting Pagination 15
+2025-07-28 17:04:21 [main] INFO : 15 pagination Option Selected
+2025-07-28 17:04:21 [main] INFO : Selecting Pagination 10
+2025-07-28 17:04:22 [main] INFO : 10 pagination Option Selected
+2025-07-28 17:04:23 [main] INFO : Download CSV File Format 
+2025-07-28 17:04:28 [main] INFO : Download PDF File Format 
+2025-07-28 17:04:34 [main] INFO : Insert Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-28 17:04:40 [main] INFO : Error Message: This user already has a role assigned.
+2025-07-28 17:04:43 [main] INFO : Insert Email: phani.maddi@criticalriver.com
+2025-07-28 17:04:48 [main] INFO : Insert Search Value: Jhansi Raj
+2025-07-28 17:04:50 [main] INFO : Search Related Value: Jhansi Raj
+2025-07-28 17:04:54 [main] INFO : Role Before Update: Administrator
+2025-07-28 17:04:57 [main] INFO : Updating Role for User: Contributor
+2025-07-28 17:05:02 [main] INFO : Role After Update: Contributor
+2025-07-28 17:05:08 [main] INFO : Testing Ended
+2025-07-28 17:05:08 [main] INFO : ***********

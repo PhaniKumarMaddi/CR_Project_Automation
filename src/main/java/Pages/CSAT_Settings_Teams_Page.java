@@ -3,11 +3,7 @@ package Pages;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
-
 import Utility.DriverManager;
 import Utility.GenerateReports;
 import Utility.TestDataKeys;
@@ -27,6 +23,8 @@ public class CSAT_Settings_Teams_Page extends WaitsManager {
 	By searchTeamAndUser = By.xpath("//input[@placeholder='Search Team and User']");
 	
 	By getTeamName= By.xpath("//div[@class='teams-grid'][1]/button[1]/h3");
+	By getTeamCount= By.xpath("//div[@class='teams-grid'][1]/button[1]/div/p");
+	
 	By getTeamDetailHeader=By.xpath("//div[@class='team-details-container']/h2[1]");
 	
 	// ROLES PAGE HEADER

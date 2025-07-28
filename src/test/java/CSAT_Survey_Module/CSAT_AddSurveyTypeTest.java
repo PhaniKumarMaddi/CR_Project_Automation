@@ -135,7 +135,7 @@ public class CSAT_AddSurveyTypeTest extends CSAT_TestInitializer {
 
 		// Editing existing Survey Type
 	// Verify by entering invalid characters in type field for Edit Survey Type
-	 grep.testCreate("Editing invalid characters in type field for Edit Survey Type Test", "Editing invalid characters in type");
+	 grep.testCreate("Entering invalid characters in type field for Edit Survey Type Test", "Editing invalid characters in type");
 		waitTime2(driver);
 		grep.infoTest("Editing invalid characters in type field for Edit Survey Type Test");
 		logger.info("Editing invalid characters in type field for Edit Survey Type Test");
@@ -152,7 +152,7 @@ public class CSAT_AddSurveyTypeTest extends CSAT_TestInitializer {
 		waitTime5(driver);
 		
 		// Verify by entering spaces in type field for Edit Survey Type
-		 grep.testCreate("Editing entering spaces in type field for Edit Survey Type Test", "Editing entering spaces in type field");
+		 grep.testCreate("Entering only spaces in type field for Edit Survey Type Test", "Editing entering spaces in type field");
 		 waitTime2(driver);
 			grep.infoTest("Editing entering spaces in type field for Edit Survey Type Test");
 			logger.info("Editing entering spaces in type field for Edit Survey Type Test");
@@ -184,6 +184,11 @@ public class CSAT_AddSurveyTypeTest extends CSAT_TestInitializer {
 		 waitTime2(driver);
 			grep.infoTest("Updating the type and description in Edit Survey type Test");
 			logger.info("Updating the type and description in Edit Survey type Test");
+			waitTime(driver);
+			logger.info("Updating Type: "+dataKeys.updatedSurveyTypeName);
+			grep.infoTest("Updating Type:"+dataKeys.updatedSurveyTypeName);
+			logger.info("Updating Description: "+dataKeys.surveyTypeDesc);
+			grep.infoTest("Updating Description: "+dataKeys.surveyTypeDesc);
 			waitTime(driver);
 			csat_Survey.insertType(dataKeys.updatedSurveyTypeName);
 			csat_Survey.insertDescription(dataKeys.surveyTypeDesc);
