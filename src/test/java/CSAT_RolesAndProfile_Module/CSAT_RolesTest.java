@@ -1,4 +1,4 @@
-package CSAT_Roles_Module;
+package CSAT_RolesAndProfile_Module;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
