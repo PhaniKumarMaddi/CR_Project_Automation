@@ -22,7 +22,7 @@ public class CSAT_RolesTest extends CSAT_TestInitializer {
 	ValidatingAssertions validAssert = new ValidatingAssertions();
 
 	@Test
-	public void addNewSurvey_Test() throws Exception {
+	public void rolesPageTest() throws Exception {
 
 		csatPage = new CSAT_Survey_AllPages();
 		csatRole = new CSAT_Roles_Page();

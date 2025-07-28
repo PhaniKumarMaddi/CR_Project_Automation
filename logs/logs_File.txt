@@ -18349,3 +18349,17 @@ Session ID: 88196a7b0ecfe526de0d4d8c9d64bbe3
 2025-07-28 09:28:47 [main] INFO : Role Description : View Surveys, Projects And Roles But Does Not Allow You To Make Any Changes
 2025-07-28 09:28:47 [main] INFO : Testing Ended
 2025-07-28 09:28:47 [main] INFO : ***********
+2025-07-28 09:43:43 [main] INFO : Launching Chrome Browser
+2025-07-28 09:43:43 [main] INFO : Report Name :CsatPage.html
+2025-07-28 09:44:13 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-28 09:44:13 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-28 09:44:14 [main] INFO : Inside Login Page: LOGIN
+2025-07-28 09:45:05 [main] INFO : Logged in to CSAT Application
+2025-07-28 09:45:08 [main] INFO : Verify Profile Header
+2025-07-28 09:45:08 [main] INFO : Header is Valid: Profile
+2025-07-28 09:45:08 [main] INFO : Verify Full name
+2025-07-28 09:45:09 [main] INFO : Full Name: Anwar Hussain
+2025-07-28 09:45:09 [main] INFO : Verify Email
+2025-07-28 09:45:09 [main] INFO : Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-28 09:45:09 [main] INFO : Testing Ended
+2025-07-28 09:45:09 [main] INFO : ***********
