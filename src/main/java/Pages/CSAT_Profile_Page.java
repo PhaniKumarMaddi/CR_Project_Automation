@@ -24,7 +24,7 @@ public class CSAT_Profile_Page extends WaitsManager {
 	By fullname = By.xpath("//div[@class='profile-details']/p[1]");
 	By email = By.xpath("//div[@class='profile-details']/p[2]");
 
-	// GET FULL NAME
+	// GET PROFILE PAGE HEADER
 	public void profileHeaderValidation() throws Exception {
 		try {
 			implWait(driver);

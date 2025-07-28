@@ -1,49 +1,41 @@
-package CSAT_RolesAndProfile_Module;
+package CSAT_Reports_Module;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Test;
 
-import Pages.CSAT_Profile_Page;
+import Pages.CSAT_Reports_Page;
 import Pages.CSAT_Survey_AllPages;
 import Utility.CSAT_TestInitializer;
 import Utility.GenerateReports;
 import Utility.TestDataKeys;
 import Utility.ValidatingAssertions;
 
-public class CSAT_ProfileTest extends CSAT_TestInitializer {
+public class CSAT_ReportsTest extends CSAT_TestInitializer {
 
-	private static final Logger logger = LogManager.getLogger(CSAT_ProfileTest.class);
+	private static final Logger logger = LogManager.getLogger(CSAT_ReportsTest.class);
 	GenerateReports grep = new GenerateReports();
 	CSAT_Survey_AllPages csatPage;
-	CSAT_Profile_Page csatProfile;
+	CSAT_Reports_Page csatReports;
 	TestDataKeys dataKeys = new TestDataKeys();
 	ValidatingAssertions validAssert = new ValidatingAssertions();
 
 	@Test
-	public void profilePageTest() throws Exception {
+	public void reportsPageTest() throws Exception {
 
 		csatPage = new CSAT_Survey_AllPages();
-		csatProfile = new CSAT_Profile_Page();
+		csatReports = new CSAT_Reports_Page();
 
-		csatPage.navigateToPage(dataKeys.profile_Url);
+		csatPage.navigateToPage(dataKeys.reports_Url);
 		waitTime3(driver);
 
-		// Validating the Profile Page
-		grep.testCreate("Validating the Profile Page Test", "Validating the Profile Page");
+		// Validating the Reports Page
+		grep.testCreate("Validating the Reports Page Test", "Validating the Reports Page");
 		waitTime(driver);
 
 		logger.info("Verify Profile Header");
 		grep.infoTest("Verify Profile Header");
-		csatProfile.profileHeaderValidation();
-
-		logger.info("Verify Full name");
-		grep.infoTest("Verify Full name");
-		csatProfile.getFullName();
-
-		logger.info("Verify Email");
-		grep.infoTest("Verify Email");
-		csatProfile.getEmail();
+		csatReports.reportsHeaderValidation();
 
 		grep.captureScreenshot("pass", "Profile Page Test", "Profile_Page_Test");
 
