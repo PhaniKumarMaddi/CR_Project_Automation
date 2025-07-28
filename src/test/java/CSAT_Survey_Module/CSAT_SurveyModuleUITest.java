@@ -79,6 +79,7 @@ public class CSAT_SurveyModuleUITest extends CSAT_TestInitializer {
 		selectSurveyTypeTest(dataKeys.selectAMSSurveyType);
 		waitTime1(driver);
 		csat_Survey.clickSurveyTypeDropDown();
+		waitTime(driver);
 		csat_Survey.selectAllSurveyTypeOption();
 
 		grep.infoTest("Survey Type Update Popup Test");
@@ -94,7 +95,8 @@ public class CSAT_SurveyModuleUITest extends CSAT_TestInitializer {
 		csat_Survey.verifyButton(dataKeys.updateBtn);
 		grep.captureScreenshot("pass", "Update Survey type Popup Test", "updateSurveyTypePopup");
 		csat_Survey.clickCloseSurveyPopups();
-		waitTime(driver);
+		waitTime1(driver);
+		csat_Survey.clickSurveyTypeDropDown();
 		csat_Survey.selectAllSurveyTypeOption();
 		waitTime(driver);
 

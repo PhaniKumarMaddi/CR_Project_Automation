@@ -50,8 +50,6 @@ public class CSAT_TestInitializer extends WaitsManager {
 			logger.info("Launching Firefox Browser");
 		}
 		if (browserType.equalsIgnoreCase("Edge")) {
-//			WebDriverManager.edgedriver().setup();
-//			driver = new EdgeDriver();
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 			System.out.println("Launching Edge Browser");
