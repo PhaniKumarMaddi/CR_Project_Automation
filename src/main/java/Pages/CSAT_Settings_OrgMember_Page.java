@@ -39,9 +39,9 @@ public class CSAT_Settings_OrgMember_Page extends WaitsManager {
 			.xpath("//div[@class='MuiSnackbar-root MuiSnackbar-anchorOriginBottomLeft css-1qtl9ks']/div/div");
 
 	By searchOrgMember = By.xpath("//input[@placeholder='Search Org Member']");
-	By searchMemeberList = By.xpath("//div[@class='member-list1']/div[1]/div[1]/p[1]");
+	By searchMemberList = By.xpath("//div[@class='member-list1']/div[1]/div[1]/p[1]");
 
-	// ROLES PAGE HEADER
+	// ORG Member PAGE HEADER
 	public void orgMembers_HeaderValidation() throws Exception {
 		try {
 			implWait(driver);
@@ -261,9 +261,9 @@ public class CSAT_Settings_OrgMember_Page extends WaitsManager {
 	public void verifySearchRelatedMember(String searchVal) throws Exception {
 		try {
 			implWait(driver);
-			boolean elementExist = !driver.findElements(searchMemeberList).isEmpty();
+			boolean elementExist = !driver.findElements(searchMemberList).isEmpty();
 			if (elementExist) {
-				String getVal = driver.findElement(searchMemeberList).getText();
+				String getVal = driver.findElement(searchMemberList).getText();
 				if (getVal.equalsIgnoreCase(searchVal)) {
 					logger.info("Search Related Value: " + getVal);
 					grep.passTest("Search Related Value: " + getVal);
