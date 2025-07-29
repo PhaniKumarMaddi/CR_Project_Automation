@@ -141,28 +141,35 @@ public class CSAT_ReportsTest extends CSAT_TestInitializer {
 
 		// Send Survey Report
 		waitTime2(driver);
-//		grep.testCreate("Login to Customer account Test", "Login to Customer account");
-//		waitTime(driver);
-
-		clickNewTab();
 		switchToLastTab();
-		waitTime2(driver);
-		enterURL(dataKeys.url);
-
-		login.clickUseAnotherAccount();
-		login.enterUserName(dataKeys.ssoUserName);
-		login.clickSignIn();
-		waitTime2(driver);
-		login.enterPassword(dataKeys.ssoPassword);
-		waitTime2(driver);
-		login.clickSignIn();
-		waitTime10(driver);
-
-		login.clickSignInOnTop();
-		waitTime2(driver);
-		login.SelectProfileToLogin(dataKeys.myProfileName);
-
 		waitTime(driver);
+		String title = getTitleMethod();
+		System.out.println("Page Title: "+title); 
+		waitTime3(driver);
+		if (title.startsWith("Mail")) {
+			switchToLastTab();
+		} else {
+
+			clickNewTab();
+			switchToLastTab();
+			waitTime2(driver);
+			enterURL(dataKeys.url);
+
+			login.clickUseAnotherAccount();
+			login.enterUserName(dataKeys.ssoUserName);
+			login.clickSignIn();
+			waitTime2(driver);
+			login.enterPassword(dataKeys.ssoPassword);
+			waitTime2(driver);
+			login.clickSignIn();
+			waitTime10(driver);
+
+			login.clickSignInOnTop();
+			waitTime2(driver);
+			login.SelectProfileToLogin(dataKeys.myProfileName);
+		}
+
+		waitTime5(driver);
 		grep.infoTest("Inside Customer Mail");
 		logger.info("Inside Customer Mail");
 		waitTime10(driver);

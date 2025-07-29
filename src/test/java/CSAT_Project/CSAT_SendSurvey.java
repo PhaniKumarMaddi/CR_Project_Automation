@@ -131,7 +131,6 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		csatProject.clickButton(dataKeys.sendProjectBtn);
 
 		waitTime10(driver);
-//		csatProject.retrieveFeedBackSentMessage();
 		refreshPage();
 		waitTime10(driver);
 		refreshPage();
@@ -157,7 +156,6 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		waitTime(driver);
 		csatPopup.selectAcc_ExecFilterIn_Popup(dataKeys.phani_AccExe_InPopup);
 		waitTime(driver);
-//		csatPopup.selectProjectFilterIn_Popup(dataKeys.projectNameForSend);
 
 		waitTime(driver);
 		csatPopup.selectNotRespondedSurvey(dataKeys.selectDevelopSurvey);

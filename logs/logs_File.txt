@@ -21128,3 +21128,418 @@ Session ID: c2faa1bc00453b638622c496797613ee
 2025-07-29 11:33:07 [main] INFO : CSAT Project Automation Project Deleted
 2025-07-29 11:33:08 [main] INFO : Testing Ended
 2025-07-29 11:33:08 [main] INFO : ***********
+2025-07-29 12:00:28 [main] INFO : Launching Chrome Browser
+2025-07-29 12:00:28 [main] INFO : Report Name :CSATSurveyReport.html
+2025-07-29 12:00:54 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-29 12:01:00 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-29 12:01:00 [main] INFO : Inside Login Page: LOGIN
+2025-07-29 12:02:01 [main] INFO : Logged in to CSAT Application
+2025-07-29 12:02:02 [main] INFO : Validating the Header
+2025-07-29 12:02:03 [main] INFO : Header is Valid: Surveys
+2025-07-29 12:02:03 [main] INFO : Validating the Add New Survey Type Popup
+2025-07-29 12:02:07 [main] INFO : Header is Valid: Add Survey Type
+2025-07-29 12:02:07 [main] INFO : Cancel Button Available
+2025-07-29 12:02:07 [main] INFO : Save Button Available
+2025-07-29 12:02:08 [main] INFO : Validating the Add New Survey Popup
+2025-07-29 12:02:09 [main] INFO : Header is Valid: Add New Survey
+2025-07-29 12:02:10 [main] INFO : Cancel Button Available
+2025-07-29 12:02:10 [main] INFO : Save Button Available
+2025-07-29 12:02:11 [main] INFO : Validating the Survey Type Dropdown
+2025-07-29 12:02:11 [main] INFO : All Survey Types Dropdown is Available
+2025-07-29 12:02:12 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-07-29 12:02:15 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-29 12:02:15 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-29 12:02:15 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-07-29 12:02:17 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-07-29 12:02:19 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-29 12:02:19 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-29 12:02:19 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-29 12:02:22 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-07-29 12:02:24 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-07-29 12:02:27 [main] INFO : Survey Type Update Popup Test
+2025-07-29 12:02:28 [main] INFO : Header is Valid: Update Survey Type
+2025-07-29 12:02:29 [main] INFO : Cancel Button Available
+2025-07-29 12:02:29 [main] INFO : Update Button Available
+2025-07-29 12:02:32 [main] INFO : Column Options is valid Header value
+2025-07-29 12:02:32 [main] INFO : Cancel Button Available
+2025-07-29 12:02:32 [main] INFO : OK Button Available
+2025-07-29 12:02:32 [main] INFO : Verifying Start Date Column Option
+2025-07-29 12:02:32 [main] INFO : Column Option visibility is Hide 
+2025-07-29 12:02:33 [main] INFO : Column Option visibility is View 
+2025-07-29 12:02:35 [main] INFO : Verifying End Date Column Option
+2025-07-29 12:02:35 [main] INFO : Column Option visibility is Hide 
+2025-07-29 12:02:37 [main] INFO : Column Option visibility is View 
+2025-07-29 12:02:39 [main] INFO : Verifying Type Column Option
+2025-07-29 12:02:39 [main] INFO : Column Option visibility is Hide 
+2025-07-29 12:02:40 [main] INFO : Column Option visibility is View 
+2025-07-29 12:02:43 [main] INFO : Selecting Pagination 5
+2025-07-29 12:02:43 [main] INFO : 5 pagination Option Selected
+2025-07-29 12:02:44 [main] INFO : Selecting Pagination 15
+2025-07-29 12:02:44 [main] INFO : 15 pagination Option Selected
+2025-07-29 12:02:44 [main] INFO : Selecting Pagination 10
+2025-07-29 12:02:45 [main] INFO : 10 pagination Option Selected
+2025-07-29 12:02:46 [main] INFO : Download CSV File Format 
+2025-07-29 12:02:51 [main] INFO : Download PDF File Format 
+2025-07-29 12:02:58 [main] INFO : Search Survey
+2025-07-29 12:02:58 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-29 12:02:58 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-29 12:02:58 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-07-29 12:03:00 [main] INFO : Clicking Survey from Table
+2025-07-29 12:03:06 [main] INFO : Header is Valid: CR CSAT - Development Project
+2025-07-29 12:03:08 [main] INFO : Validating Edit Survey from Table
+2025-07-29 12:03:09 [main] INFO : Header is Valid: Edit Survey Details
+2025-07-29 12:03:12 [main] INFO : Cancel Button Available
+2025-07-29 12:03:12 [main] INFO : Save Button Available
+2025-07-29 12:03:14 [main] INFO : Entering invalid characters in type field
+2025-07-29 12:03:19 [main] INFO : Error Message :Survey type name cannot contain special characters.
+2025-07-29 12:03:23 [main] INFO : Entering spaces in type field
+2025-07-29 12:03:25 [main] INFO : Error Message :Survey type name is required
+2025-07-29 12:03:29 [main] INFO : Keeping description field blank
+2025-07-29 12:03:33 [main] INFO : Error Message :Failed to add survey type: Missing name or description
+2025-07-29 12:03:37 [main] INFO : Entering spaces in description field
+2025-07-29 12:03:40 [main] INFO : Error Message :Failed to add survey type: Missing name or description
+2025-07-29 12:03:44 [main] INFO : Creating New Survey Type Test
+2025-07-29 12:04:00 [main] INFO : Creating New Survey with Existing Survey Type Name Test
+2025-07-29 12:04:08 [main] INFO : Error Message :This survey type already exists.
+2025-07-29 12:04:15 [main] INFO : Editing invalid characters in type field for Edit Survey Type Test
+2025-07-29 12:04:18 [main] INFO : Error Message :Survey type name cannot contain special characters.
+2025-07-29 12:04:26 [main] INFO : Editing entering spaces in type field for Edit Survey Type Test
+2025-07-29 12:04:27 [main] INFO : Error Message :Survey type name is required
+2025-07-29 12:04:35 [main] INFO : Entering spaces in description field in Edit Survey Type Test
+2025-07-29 12:04:38 [main] INFO : Error Message :Description cannot be just spaces.
+2025-07-29 12:04:46 [main] INFO : Updating the type and description in Edit Survey type Test
+2025-07-29 12:04:46 [main] INFO : Updating Type: Test Automation
+2025-07-29 12:04:46 [main] INFO : Updating Description: For Automating The CSAT Survey Module
+2025-07-29 12:04:56 [main] INFO : Deleting Existing Survey Type Test
+2025-07-29 12:05:01 [main] INFO : Entering invalid characters in Survey name field
+2025-07-29 12:05:08 [main] INFO : Entering invalid characters in Survey name field: #$%^&*
+2025-07-29 12:05:08 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-07-29 12:05:12 [main] INFO : Entering Only Spaces in Survey field
+2025-07-29 12:05:30 [main] INFO : Error Message :Survey Name cannot be empty or just spaces.
+2025-07-29 12:05:34 [main] INFO : Entering Existing name in Survey field
+2025-07-29 12:05:40 [main] INFO : Entering Existing Survey Name : CR CSAT - Development Project
+2025-07-29 12:05:40 [main] INFO :  Survey Name Error Messgae :Survey name already exists
+2025-07-29 12:05:43 [main] INFO : Verify Entering End Date previous than Start date in add survey
+2025-07-29 12:06:02 [main] INFO : Error Message :End Date cannot be earlier than Start Date.
+2025-07-29 12:06:06 [main] INFO : Verify Saving without adding weightage or Section in add survey
+2025-07-29 12:06:24 [main] INFO : Entered Project Start Date: 2025-07-29
+2025-07-29 12:06:25 [main] INFO : Entered Project End Date: 2025-08-09
+2025-07-29 12:06:26 [main] INFO : Error Message :
+2025-07-29 12:06:30 [main] INFO : Verify Saving with Section Name Invalid characters in add survey
+2025-07-29 12:06:52 [main] INFO : Error Message :Section name "#$%^&*" contains invalid characters.
+2025-07-29 12:06:55 [main] INFO : Verify Saving with Section Name only spaces in add survey
+2025-07-29 12:06:59 [main] INFO : Error Message :Section name cannot be empty or just spaces.
+2025-07-29 12:07:01 [main] INFO : Verify Saving with adding weightage less than 100 in add survey
+2025-07-29 12:07:08 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 10%
+2025-07-29 12:07:11 [main] INFO : Verify Saving with adding weightage greater than 100 in add survey
+2025-07-29 12:07:15 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 200%
+2025-07-29 12:07:18 [main] INFO : Verify Saving with Measure Name Invalid characters in add survey
+2025-07-29 12:07:25 [main] INFO : Error Message :Measure name "#$%^&*" contains invalid characters.
+2025-07-29 12:07:27 [main] INFO : Verify Saving with Measure Name only spaces in add survey
+2025-07-29 12:07:32 [main] INFO : Error Message :Measure name cannot be empty or just spaces.
+2025-07-29 12:07:35 [main] INFO : Verify Saving with Question Name only spaces in add survey
+2025-07-29 12:07:41 [main] INFO : Error Message :Question name cannot be empty or just spaces.
+2025-07-29 12:07:45 [main] INFO : Keeping Options as Blank in Add Survey
+2025-07-29 12:07:49 [main] INFO : Error Message :All options must have values filled in.
+2025-07-29 12:07:51 [main] INFO : Keeping Options Weightage as Blank in Add Survey
+2025-07-29 12:07:54 [main] INFO : Error Message :Checkbox option weightage must be a positive number.
+2025-07-29 12:07:58 [main] INFO : Adding only Section without adding Measure and Question in Add Survey
+2025-07-29 12:08:01 [main] INFO : Entered Survey name: CSAT Test Automation
+2025-07-29 12:08:03 [main] INFO : Entered Survey Type: CR CSAT - Resource (TOD)
+2025-07-29 12:08:19 [main] INFO : Entered Section Name: Delivery
+2025-07-29 12:08:20 [main] INFO : Entered Section Weightage: 100
+2025-07-29 12:08:23 [main] INFO : Error Message :
+2025-07-29 12:08:29 [main] INFO : Adding Section and Measure without adding Question in Add Survey
+2025-07-29 12:08:34 [main] INFO : Entered Measure Name: Capabilities
+2025-07-29 12:08:39 [main] INFO : Error Message :At least one section must have one measure with one question.
+2025-07-29 12:08:44 [main] INFO : Creating Single Section, Measure,Question in Add Survey
+2025-07-29 12:08:47 [main] INFO : Entered Survey name: CSAT Test Automation
+2025-07-29 12:08:49 [main] INFO : Entered Survey Type: CR CSAT - Resource (TOD)
+2025-07-29 12:09:02 [main] INFO : Entered Project Start Date: 2025-07-29
+2025-07-29 12:09:03 [main] INFO : Entered Project End Date: 2025-08-09
+2025-07-29 12:09:06 [main] INFO : Entered Section Name: Delivery
+2025-07-29 12:09:07 [main] INFO : Entered Section Weightage: 100
+2025-07-29 12:09:09 [main] INFO : Entered Measure Name: Capabilities
+2025-07-29 12:09:11 [main] INFO : Entered Question Name: This is to test question 1
+2025-07-29 12:09:12 [main] INFO : Entered Options 1
+2025-07-29 12:09:14 [main] INFO : Entered Options 2
+2025-07-29 12:09:15 [main] INFO : Entered Options 3
+2025-07-29 12:09:27 [main] INFO : Created Survey is shown in table: CSAT Test Automation
+2025-07-29 12:09:28 [main] INFO : Creating Multiple Section, Measure,Question in Add Survey
+2025-07-29 12:09:31 [main] INFO : Entered Survey name: Test Automation Survey
+2025-07-29 12:09:33 [main] INFO : Entered Survey Type: CR CSAT - Development Project
+2025-07-29 12:09:46 [main] INFO : Entered Project Start Date: 2025-07-29
+2025-07-29 12:09:47 [main] INFO : Entered Project End Date: 2025-08-09
+2025-07-29 12:09:47 [main] INFO : ___Creating First Section___
+2025-07-29 12:09:50 [main] INFO : Entered Section Name: Delivery
+2025-07-29 12:09:51 [main] INFO : Entered Section Weightage: 50
+2025-07-29 12:09:53 [main] INFO : Entered Measure Name: Quality
+2025-07-29 12:09:54 [main] INFO : Entered Question Name: This is to test question 1
+2025-07-29 12:09:56 [main] INFO : Entered Options 1
+2025-07-29 12:09:58 [main] INFO : Entered Options 2
+2025-07-29 12:09:59 [main] INFO : Entered Options 3
+2025-07-29 12:10:02 [main] INFO : ___Creating Second Section___
+2025-07-29 12:10:05 [main] INFO : Entered Section Name: Accountability
+2025-07-29 12:10:06 [main] INFO : Entered Section Weightage: 20
+2025-07-29 12:10:07 [main] INFO : Entered Measure Name: Ownership
+2025-07-29 12:10:09 [main] INFO : Entered Question Name: This is to test question 2
+2025-07-29 12:10:12 [main] INFO : Entered Options 1
+2025-07-29 12:10:13 [main] INFO : Entered Options 2
+2025-07-29 12:10:15 [main] INFO : Entered Options 3
+2025-07-29 12:10:20 [main] INFO : Entered Question Name: This is to test question 3
+2025-07-29 12:10:22 [main] INFO : Entered Options 1
+2025-07-29 12:10:24 [main] INFO : Entered Options 2
+2025-07-29 12:10:26 [main] INFO : Entered Options 3
+2025-07-29 12:10:28 [main] INFO : ___Creating Custom Section___
+2025-07-29 12:10:32 [main] INFO : Entered Section Name: Testing Section
+2025-07-29 12:10:33 [main] INFO : Entered Section Weightage: 30
+2025-07-29 12:10:36 [main] INFO : Entered Measure Name: Testing Measure
+2025-07-29 12:10:38 [main] INFO : Entered Question Name: This is to test question 4
+2025-07-29 12:10:39 [main] INFO : Entered Options 1
+2025-07-29 12:10:41 [main] INFO : Entered Options 2
+2025-07-29 12:10:42 [main] INFO : Entered Options 3
+2025-07-29 12:10:43 [main] INFO : Multiple Measure for Same Section
+2025-07-29 12:10:46 [main] INFO : Entered Measure Name: SLA
+2025-07-29 12:10:48 [main] INFO : Entered Question Name: Provide Competative rating
+2025-07-29 12:11:03 [main] INFO : Created Survey is shown in table: Test Automation Survey
+2025-07-29 12:11:04 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-07-29 12:11:12 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 10%
+2025-07-29 12:11:14 [main] INFO : Verify Saving with adding weightage greater than 100 in edit survey
+2025-07-29 12:11:17 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 200%
+2025-07-29 12:11:25 [main] INFO : Adding only Section without adding Measure and Question in Edit Survey
+2025-07-29 12:11:34 [main] INFO : Entered Section Name: Ownership
+2025-07-29 12:11:35 [main] INFO : Entered Section Weightage: 50
+2025-07-29 12:11:37 [main] INFO : Error Message :Section "Ownership" must have at least one measure.
+2025-07-29 12:11:43 [main] INFO : Adding Section and Measure without adding Question in Edit Survey
+2025-07-29 12:11:47 [main] INFO : Entered Measure Name: Quality
+2025-07-29 12:11:48 [main] INFO : Error Message :Section "Ownership" must have at least one measure with at least one question.
+2025-07-29 12:11:51 [main] INFO : Keeping Options Weightage as Blank in edit Survey
+2025-07-29 12:11:56 [main] INFO : Entered Question Name: This is to test question 2
+2025-07-29 12:11:59 [main] INFO : Error Message :Weightage is required for option 1 in question "This is to test question 2" in section "Ownership".
+2025-07-29 12:12:02 [main] INFO : Adding New Section,Measure,Question for existing survey Test
+2025-07-29 12:12:15 [main] INFO : Entered Section Name: Ownership
+2025-07-29 12:12:16 [main] INFO : Entered Section Weightage: 50
+2025-07-29 12:12:17 [main] INFO : Entered Measure Name: Quality
+2025-07-29 12:12:19 [main] INFO : Entered Question Name: This is to test question 2
+2025-07-29 12:12:22 [main] INFO : Entered Options 1
+2025-07-29 12:12:24 [main] INFO : Entered Options 2
+2025-07-29 12:12:25 [main] INFO : Entered Options 3
+2025-07-29 12:12:41 [main] INFO : Clicking Survey from Table
+2025-07-29 12:12:51 [main] INFO : Header is Valid: CSAT Test Automation
+2025-07-29 12:12:52 [main] INFO : Section is Updated: Ownership(50%)
+2025-07-29 12:12:54 [main] INFO : Adding New Measure and Question for existing section Test
+2025-07-29 12:13:06 [main] INFO : Entered Measure Name: Ownership
+2025-07-29 12:13:09 [main] INFO : Entered Question Name: This is to test question 3
+2025-07-29 12:13:11 [main] INFO : Entered Options 2
+2025-07-29 12:13:13 [main] INFO : Entered Options 3
+2025-07-29 12:13:29 [main] INFO : Adding New Question for existing measure Test
+2025-07-29 12:13:52 [main] INFO : Entered Question Name: This is to test question 5
+2025-07-29 12:13:55 [main] INFO : Entered Options 4
+2025-07-29 12:14:11 [main] INFO : Adding New option for existing Question Test
+2025-07-29 12:14:34 [main] INFO : Entered Options 5
+2025-07-29 12:14:55 [main] INFO : Deleting Existing section in edit survey detail popup without saving
+2025-07-29 12:15:42 [main] INFO : Clicking Survey from Table
+2025-07-29 12:15:52 [main] INFO : Header is Valid: CSAT Test Automation
+2025-07-29 12:15:54 [main] INFO : Section is Updated: Ownership(50%)
+2025-07-29 12:16:01 [main] INFO : Deleting Existing section in edit survey detail popup
+2025-07-29 12:16:50 [main] INFO : Clicking Survey from Table
+2025-07-29 12:17:00 [main] INFO : Header is Valid: CSAT Test Automation
+2025-07-29 12:17:07 [main] INFO : Deleting existing Survey
+2025-07-29 12:17:27 [main] INFO : Survey Deleted: CSAT Test Automation
+2025-07-29 12:17:29 [main] INFO : Testing Ended
+2025-07-29 12:17:29 [main] INFO : ***********
+2025-07-29 12:17:30 [main] INFO : Launching Chrome Browser
+2025-07-29 12:17:30 [main] INFO : Report Name :CSATOtherModules_Report.html
+2025-07-29 12:17:58 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-29 12:17:58 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-29 12:17:58 [main] INFO : Inside Login Page: LOGIN
+2025-07-29 12:18:19 [main] INFO : Logged in to CSAT Application
+2025-07-29 12:18:23 [main] INFO : Verify Profile Header
+2025-07-29 12:18:23 [main] INFO : Header is Valid: Profile
+2025-07-29 12:18:23 [main] INFO : Verify Full name
+2025-07-29 12:18:23 [main] INFO : Full Name: Anwar Hussain
+2025-07-29 12:18:23 [main] INFO : Verify Email
+2025-07-29 12:18:23 [main] INFO : Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-29 12:18:27 [main] INFO : Verify Roles Header
+2025-07-29 12:18:27 [main] INFO : Header is Valid: Roles
+2025-07-29 12:18:27 [main] INFO : Verify Role Column Header
+2025-07-29 12:18:27 [main] INFO : Column Header is Valid: Role
+2025-07-29 12:18:27 [main] INFO : Verify Description Column Header
+2025-07-29 12:18:27 [main] INFO : Column Header is Valid: Description
+2025-07-29 12:18:27 [main] INFO : Verify Last Modified By Column Header
+2025-07-29 12:18:27 [main] INFO : Column Header is Valid: Last Modified By
+2025-07-29 12:18:27 [main] INFO : Verify Last Modified On Column Header
+2025-07-29 12:18:27 [main] INFO : Column Header is Valid: Last Modified On
+2025-07-29 12:18:28 [main] INFO : Verify Administrator Role and Description
+2025-07-29 12:18:28 [main] INFO : Roles is Valid: Administrator
+2025-07-29 12:18:28 [main] INFO : Role Description : Full Access To Manage All The Surveys, Projects And Roles
+2025-07-29 12:18:28 [main] INFO : Verify Contributor Role and Description
+2025-07-29 12:18:28 [main] INFO : Roles is Valid: Contributor
+2025-07-29 12:18:28 [main] INFO : Role Description : Grants Full Access To Manage All Surveys And Projects But Does Not Allow You To Assign Roles
+2025-07-29 12:18:28 [main] INFO : Verify Owner Role and Description
+2025-07-29 12:18:28 [main] INFO : Roles is Valid: Owner
+2025-07-29 12:18:28 [main] INFO : Role Description : Grants Full Access To Manage All Surveys And Projects Including Ability To Assigned Role But Does Not Allow You To Make Any Changes To Roles
+2025-07-29 12:18:28 [main] INFO : Verify Reader Role and Description
+2025-07-29 12:18:28 [main] INFO : Roles is Valid: Reader
+2025-07-29 12:18:28 [main] INFO : Role Description : View Surveys, Projects And Roles But Does Not Allow You To Make Any Changes
+2025-07-29 12:18:33 [main] INFO : Verify Profile Header
+2025-07-29 12:18:33 [main] INFO : Header is Valid: Reports
+2025-07-29 12:18:33 [main] INFO : Inside CSAT Development Project
+2025-07-29 12:18:43 [main] INFO : OverAll CSAT Card Value: 3.91
+2025-07-29 12:18:44 [main] INFO : Promoter Card Value: 48 %
+2025-07-29 12:18:45 [main] INFO : Neutral Card Value: 48 %
+2025-07-29 12:18:45 [main] INFO : Detractors Card Value: 4 %
+2025-07-29 12:18:46 [main] INFO : Response Count Card Value: 23
+2025-07-29 12:18:47 [main] INFO : Inside CSAT Resource TOD Project
+2025-07-29 12:18:59 [main] INFO : OverAll CSAT Card Value: 3.8
+2025-07-29 12:19:00 [main] INFO : Promoter Card Value: 50%
+2025-07-29 12:19:00 [main] INFO : Neutral Card Value: 35%
+2025-07-29 12:19:01 [main] INFO : Detractors Card Value: 15%
+2025-07-29 12:19:02 [main] INFO : Response Count Card Value: 40
+2025-07-29 12:19:03 [main] INFO : Inside CSAT AMS Project
+2025-07-29 12:19:16 [main] INFO : OverAll CSAT Card Value: 3.59
+2025-07-29 12:19:16 [main] INFO : Promoter Card Value: 49 %
+2025-07-29 12:19:17 [main] INFO : Neutral Card Value: 20 %
+2025-07-29 12:19:17 [main] INFO : Detractors Card Value: 31 %
+2025-07-29 12:19:18 [main] INFO : Response Count Card Value: 35
+2025-07-29 12:19:19 [main] INFO : Inside CSAT Engagement Level Project
+2025-07-29 12:19:31 [main] INFO : OverAll CSAT Card Value: 3.36
+2025-07-29 12:19:32 [main] INFO : Promoter Card Value: 37.5 %
+2025-07-29 12:19:33 [main] INFO : Neutral Card Value: 31.25 %
+2025-07-29 12:19:33 [main] INFO : Detractors Card Value: 31.25 %
+2025-07-29 12:19:34 [main] INFO : Response Count Card Value: 32
+2025-07-29 12:19:45 [main] INFO : Click Entire Dashboard Download Button
+2025-07-29 12:19:49 [main] INFO : Download CSV File Format 
+2025-07-29 12:19:55 [main] INFO : Download PDF File Format 
+2025-07-29 12:20:01 [main] INFO : Sharing Report to Customer
+2025-07-29 12:20:03 [main] INFO : Entered Email: phani.maddi@criticalriver.com
+2025-07-29 12:20:04 [main] INFO : Selecting Email
+2025-07-29 12:20:05 [main] INFO : Click Send PDF
+2025-07-29 12:20:49 [main] INFO : Inside Customer Mail
+2025-07-29 12:21:03 [main] INFO : Get Email Header: Development Project Dashboard Report
+2025-07-29 12:21:05 [main] INFO : Get Email Body: Hi phani.maddi,
+We hope you're doing well! We're excited to share the latest Development Project Dashboard Report.
+The full dashboard is attached as a PDF for your review.
+Thank you for your engagement,
+CriticalRiver Technologies Team
+2025-07-29 12:21:09 [main] INFO : Download PDF from mail
+2025-07-29 12:21:34 [main] INFO : Verify ORG Members Header
+2025-07-29 12:21:34 [main] INFO : Header is Valid: Organization Members
+2025-07-29 12:21:34 [main] INFO : Selecting Pagination 5
+2025-07-29 12:21:35 [main] INFO : 5 pagination Option Selected
+2025-07-29 12:21:36 [main] INFO : Selecting Pagination 15
+2025-07-29 12:21:36 [main] INFO : 15 pagination Option Selected
+2025-07-29 12:21:37 [main] INFO : Selecting Pagination 10
+2025-07-29 12:21:37 [main] INFO : 10 pagination Option Selected
+2025-07-29 12:21:38 [main] INFO : Download CSV File Format 
+2025-07-29 12:21:44 [main] INFO : Download PDF File Format 
+2025-07-29 12:21:50 [main] INFO : Validating the Send invite without selecting role in Org Member Test
+2025-07-29 12:21:51 [main] INFO : Insert Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-29 12:21:53 [main] INFO : Error Message: Please enter an email and select a role.
+2025-07-29 12:21:56 [main] INFO : Validating the existing user invite in ORG Members Test
+2025-07-29 12:21:56 [main] INFO : Insert Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-29 12:22:03 [main] INFO : Error Message: This user already has a role assigned.
+2025-07-29 12:22:06 [main] INFO : Validating the user invite in ORG Members Test
+2025-07-29 12:22:06 [main] INFO : Insert Email: phani.maddi@criticalriver.com
+2025-07-29 12:22:11 [main] INFO : Validating the Search Org Member Test
+2025-07-29 12:22:12 [main] INFO : Insert Search Value: Jhansi Raj
+2025-07-29 12:22:14 [main] INFO : Search Related Value: Jhansi Raj
+2025-07-29 12:22:17 [main] INFO : Update the role for user Test
+2025-07-29 12:22:18 [main] INFO : Role Before Update: Administrator
+2025-07-29 12:22:22 [main] INFO : Updating Role for User: Contributor
+2025-07-29 12:22:26 [main] INFO : Role After Update: Contributor
+2025-07-29 12:23:40 [main] INFO : Search Team name using search team and user field in Setting Teams Page
+2025-07-29 12:23:40 [main] INFO : Verify Teams Header
+2025-07-29 12:23:41 [main] INFO : Header is Valid: Teams
+2025-07-29 12:23:42 [main] INFO : Search for the Team :Data Science and AI
+2025-07-29 12:23:44 [main] INFO : Team Name: Data Science and AI
+2025-07-29 12:23:45 [main] INFO : Team Count: 70
+2025-07-29 12:23:50 [main] INFO : Team Name in Team Detail Page: Data Science and AI
+2025-07-29 12:23:53 [main] INFO : Search for the Team :ERP Applications
+2025-07-29 12:23:56 [main] INFO : Team Name: ERP Applications
+2025-07-29 12:23:56 [main] INFO : Team Count: 96
+2025-07-29 12:24:02 [main] INFO : Team Name in Team Detail Page: ERP Applications
+2025-07-29 12:24:05 [main] INFO : Search User using search team and user field in Setting Teams Page
+2025-07-29 12:24:05 [main] INFO : Search for the User :phani.maddi@criticalriver.com
+2025-07-29 12:24:07 [main] INFO : Team Name: DSiL
+2025-07-29 12:24:08 [main] INFO : Team Count: 34
+2025-07-29 12:24:12 [main] INFO : Team Name in Team Detail Page: DSiL
+2025-07-29 12:24:13 [main] INFO : Search Related Value: Phani Kumar Maddi
+2025-07-29 12:24:17 [main] INFO : Validating Team Detail Page Pagination in Setting Teams Page
+2025-07-29 12:24:17 [main] INFO : Verify Team Detail Page Header
+2025-07-29 12:24:17 [main] INFO : Header is Available: Teams / Team Details
+2025-07-29 12:24:18 [main] INFO : Selecting Pagination 5
+2025-07-29 12:24:18 [main] INFO : 5 pagination Option Selected
+2025-07-29 12:24:19 [main] INFO : Selecting Pagination 15
+2025-07-29 12:24:19 [main] INFO : 15 pagination Option Selected
+2025-07-29 12:24:20 [main] INFO : Selecting Pagination 10
+2025-07-29 12:24:20 [main] INFO : 10 pagination Option Selected
+2025-07-29 12:24:21 [main] INFO : Download CSV File Format 
+2025-07-29 12:24:27 [main] INFO : Download PDF File Format 
+2025-07-29 12:24:34 [main] INFO : Validating the Send invite without selecting role in Teams Test
+2025-07-29 12:24:36 [main] INFO : Insert Email: phani.maddi@criticalriver.com
+2025-07-29 12:24:39 [main] INFO : Error Message: Please enter an email, select a role, and choose a team.
+2025-07-29 12:24:42 [main] INFO : Validating the existing user invite in Teams Test
+2025-07-29 12:24:55 [main] INFO : Error Message: This user is already has a role assigned.
+2025-07-29 12:24:58 [main] INFO : Validating the user invite in Teams Test
+2025-07-29 12:24:59 [main] INFO : Insert Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-29 12:25:05 [main] INFO : Validating the Search User in Team Test
+2025-07-29 12:25:06 [main] INFO : Insert Search Value: Jhansi Raj Todiganji
+2025-07-29 12:25:08 [main] INFO : Search Related Value: Jhansi Raj Todiganji
+2025-07-29 12:25:12 [main] INFO : Update the role for user in Team Test
+2025-07-29 12:25:13 [main] INFO : Role Before Update: Reader
+2025-07-29 12:25:16 [main] INFO : Updating Role for User: Contributor
+2025-07-29 12:25:21 [main] INFO : Role After Update: Contributor
+2025-07-29 12:25:27 [main] INFO : Testing Ended
+2025-07-29 12:25:27 [main] INFO : ***********
+2025-07-29 12:28:15 [main] INFO : Launching Chrome Browser
+2025-07-29 12:28:16 [main] INFO : Report Name :CSATOtherModules_Report.html
+2025-07-29 12:28:44 [main] INFO : Launching Chrome Browser
+2025-07-29 12:28:44 [main] INFO : Report Name :CsatPage.html
+2025-07-29 12:28:47 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-29 12:28:47 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-29 12:28:47 [main] INFO : Inside Login Page: LOGIN
+2025-07-29 12:29:30 [main] INFO : Logged in to CSAT Application
+2025-07-29 12:29:34 [main] INFO : Verify Profile Header
+2025-07-29 12:29:34 [main] INFO : Header is Valid: Reports
+2025-07-29 12:29:34 [main] INFO : Inside CSAT Development Project
+2025-07-29 12:29:45 [main] INFO : OverAll CSAT Card Value: 3.91
+2025-07-29 12:29:45 [main] INFO : Promoter Card Value: 48 %
+2025-07-29 12:29:46 [main] INFO : Neutral Card Value: 48 %
+2025-07-29 12:29:46 [main] INFO : Detractors Card Value: 4 %
+2025-07-29 12:29:47 [main] INFO : Response Count Card Value: 23
+2025-07-29 12:29:48 [main] INFO : Inside CSAT Resource TOD Project
+2025-07-29 12:30:00 [main] INFO : OverAll CSAT Card Value: 3.8
+2025-07-29 12:30:01 [main] INFO : Promoter Card Value: 50%
+2025-07-29 12:30:01 [main] INFO : Neutral Card Value: 35%
+2025-07-29 12:30:02 [main] INFO : Detractors Card Value: 15%
+2025-07-29 12:30:03 [main] INFO : Response Count Card Value: 40
+2025-07-29 12:30:04 [main] INFO : Inside CSAT AMS Project
+2025-07-29 12:30:16 [main] INFO : OverAll CSAT Card Value: 3.59
+2025-07-29 12:30:17 [main] INFO : Promoter Card Value: 49 %
+2025-07-29 12:30:18 [main] INFO : Neutral Card Value: 20 %
+2025-07-29 12:30:18 [main] INFO : Detractors Card Value: 31 %
+2025-07-29 12:30:19 [main] INFO : Response Count Card Value: 35
+2025-07-29 12:30:19 [main] INFO : Inside CSAT Engagement Level Project
+2025-07-29 12:30:32 [main] INFO : OverAll CSAT Card Value: 3.36
+2025-07-29 12:30:33 [main] INFO : Promoter Card Value: 37.5 %
+2025-07-29 12:30:33 [main] INFO : Neutral Card Value: 31.25 %
+2025-07-29 12:30:34 [main] INFO : Detractors Card Value: 31.25 %
+2025-07-29 12:30:34 [main] INFO : Response Count Card Value: 32
+2025-07-29 12:30:45 [main] INFO : Click Entire Dashboard Download Button
+2025-07-29 12:30:47 [main] INFO : Download CSV File Format 
+2025-07-29 12:30:53 [main] INFO : Download PDF File Format 
+2025-07-29 12:30:59 [main] INFO : Sharing Report to Customer
+2025-07-29 12:31:00 [main] INFO : Entered Email: phani.maddi@criticalriver.com
+2025-07-29 12:31:01 [main] INFO : Selecting Email
+2025-07-29 12:31:02 [main] INFO : Click Send PDF
+2025-07-29 12:31:56 [main] INFO : Inside Customer Mail
+2025-07-29 12:32:10 [main] INFO : Get Email Header: Development Project Dashboard Report
+2025-07-29 12:32:13 [main] INFO : Get Email Body: Hi phani.maddi,
+We hope you're doing well! We're excited to share the latest Development Project Dashboard Report.
+The full dashboard is attached as a PDF for your review.
+Thank you for your engagement,
+CriticalRiver Technologies Team
+2025-07-29 12:32:17 [main] INFO : Download PDF from mail
+2025-07-29 12:32:36 [main] INFO : Testing Ended
+2025-07-29 12:32:36 [main] INFO : ***********

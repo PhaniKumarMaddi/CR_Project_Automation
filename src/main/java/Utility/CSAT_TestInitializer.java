@@ -116,7 +116,7 @@ public class CSAT_TestInitializer extends WaitsManager {
 		grep = new GenerateReports(); // report class
 		grep.flushReport(); // flush report
 
-//		driver.quit();
+		driver.quit();
 		System.out.println("Testing Ended");
 		System.out.println("******");
 

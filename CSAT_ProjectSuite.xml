@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="CSAT_Project_Suite">
 	<test thread-count="5" name="CSAT_Project_Test">
-		<parameter name="FileName" value="CSATPageReport.html" />
+		<parameter name="FileName" value="CSATProject_PageReport.html" />
 		<classes>
 			<class name="CSAT_Project.CSAT_SurveyUITest" />
 			<class name="CSAT_Project.CSAT_ProjectFiltersTest" />
