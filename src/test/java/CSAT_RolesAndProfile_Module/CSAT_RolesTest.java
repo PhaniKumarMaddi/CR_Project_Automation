@@ -29,6 +29,8 @@ public class CSAT_RolesTest extends CSAT_TestInitializer {
 
 		csatPage.navigateToPage(dataKeys.roles_Url);
 		waitTime3(driver);
+		csatPage.expandSideMenu();
+		waitTime(driver);
 
 		// Validating the Roles Page Headers
 		grep.testCreate("Validating the Roles Page Header Test", "Validating the Roles Page Header");

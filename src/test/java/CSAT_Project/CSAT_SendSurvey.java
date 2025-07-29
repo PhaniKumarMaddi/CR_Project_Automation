@@ -438,10 +438,11 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		csatPopup.getSurvey_ValueFromTable(dataKeys.csatAms_Survey_InPopup);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "CSAT AMS survey Name in Survey Complete Popup", "CsatAMS_InSurveyComplete");
-		waitTime(driver);
+		waitTime2(driver);
+
 		csatPopup.selectSurveyFilterIn_Popup(dataKeys.surveyName_InPopup);
 
-		waitTime(driver);
+		waitTime5(driver);
 		csatProject.clickCloseSurveyPopupBtn();
 		waitTime(driver);
 

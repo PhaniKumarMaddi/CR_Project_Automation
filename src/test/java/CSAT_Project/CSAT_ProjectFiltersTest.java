@@ -28,7 +28,8 @@ public class CSAT_ProjectFiltersTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		csatPage.collapseSideMenu();
 		waitTime(driver);
-
+		csatPage.navigateToPage(dataKeys.project_Url);
+		waitTime(driver);
 		csatProject.headerValidation();
 		waitTime(driver);
 		csatProject.clickViewSurveySentStatus();

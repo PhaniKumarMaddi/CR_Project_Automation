@@ -27,7 +27,7 @@ public class CSAT_Settings_TeamsTest extends CSAT_TestInitializer {
 		csatTeam = new CSAT_Settings_Teams_Page();
 
 		csatPage.navigateToSettingsPage(dataKeys.teams_Url);
-		
+
 		waitTime3(driver);
 
 		// Verify Search Team using search team and user field
@@ -108,7 +108,7 @@ public class CSAT_Settings_TeamsTest extends CSAT_TestInitializer {
 		waitTime(driver);
 
 		// Verify team detail page header and team name and pagination
-		
+
 		grep.testCreate("Validating Team Detail Page Pagination in Setting Teams Page",
 				"Validating Team Detail Page Pagination");
 		waitTime(driver);
@@ -242,6 +242,22 @@ public class CSAT_Settings_TeamsTest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "After Updating the role for existing user", "After_UpdatingRole_ForTeamUser");
 		waitTime2(driver);
 		csatTeam.updateRoleForUser(dataKeys.userNameSearch_InTeam, dataKeys.ReaderRole);
+
+		waitTime1(driver);
+		grep.testCreate("Logout from Application Test", "Logout from Application");
+		waitTime3(driver);
+
+		csatPage.clickLogout();
+		String getUrlVal = getURL();
+		if (getUrlVal.endsWith(dataKeys.login_Url)) {
+			grep.passTest("Logged out Successfully");
+			logger.info("Logged out Successfully");
+		} else {
+			grep.failTest("Log out Functionality failed");
+			logger.info("Log out Functionality failed");
+		}
+		waitTime5(driver);
+		grep.captureScreenshot("pass", "Logged out From Application", "logout_Test");
 
 	}
 }

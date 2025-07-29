@@ -414,7 +414,8 @@ public class CSAT_Popup_Page extends WaitsManager {
 			implWait(driver);
 //			By selectCheckbox = By
 //					.xpath("//td[text()='" + surveyName + "']/preceding-sibling::td/span/input[@type='checkbox']");
-			By selectCheckbox = By.xpath("//td[@data-tooltip='" + surveyName + "']/preceding-sibling::td/span/input[@type='checkbox']");
+			By selectCheckbox = By.xpath(
+					"//td[@data-tooltip='" + surveyName + "']/preceding-sibling::td/span/input[@type='checkbox']");
 			List<WebElement> element = driver.findElements(selectCheckbox);
 			if (element.size() > 0) {
 				element.getFirst().click();
@@ -1001,4 +1002,6 @@ public class CSAT_Popup_Page extends WaitsManager {
 
 		}
 	}
+
+	
 }

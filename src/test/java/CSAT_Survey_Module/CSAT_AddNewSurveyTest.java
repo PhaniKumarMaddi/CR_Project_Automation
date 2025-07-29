@@ -761,7 +761,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		logger.info("Verify Saving with adding weightage less than 100 in edit survey");
 		grep.infoTest("Verify Saving with adding weightage less than 100 in edit survey");
-		waitTime2(driver);
+		waitTime5(driver);
 		csat_Survey.selectActionFromSurveyTable(dataKeys.surveyName, dataKeys.editProjectBtn);
 		waitTime2(driver);
 		csat_Survey.clickButton(dataKeys.questionButton);

@@ -4,29 +4,25 @@
 	<test thread-count="5" name="CSAT_Master_Test">
 		<parameter name="FileName" value="CSAT_ApplicationReport.html" />
 		<classes>
+			<!-- Page Navigation -->
 			<class name="CSAT_Project.CSAT_SurveyUITest" />
+			<!-- Survey Module -->
+			<class name="CSAT_Survey_Module.CSAT_SurveyModuleUITest" />
+			<class name="CSAT_Survey_Module.CSAT_AddSurveyTypeTest" />
+			<class name="CSAT_Survey_Module.CSAT_AddNewSurveyTest" />
+			<!-- Project Module -->
 			<class name="CSAT_Project.CSAT_ProjectFiltersTest" />
 			<class name="CSAT_Project.CSAT_Project_NewProjectTest" />
 			<class name="CSAT_Project.CSAT_SendSurvey" />
 			<class name="CSAT_Project.CSAT_RuddrProjectsTest" />
-			<!-- </classes>
-	</test>
-	<test thread-count="5" name="CSATSurvey_Test">
-		<parameter name="FileName" value="CSATSurveyReport.html" />
-    <classes>-->
-			<class name="CSAT_Survey_Module.CSAT_SurveyModuleUITest" />
-			<class name="CSAT_Survey_Module.CSAT_AddSurveyTypeTest" />
-			<class name="CSAT_Survey_Module.CSAT_AddNewSurveyTest" />
-			<!-- </classes>
-  </test>
-  <test thread-count="5" name="CSAT_Other_Test">
-		<parameter name="FileName" value="CSATOtherModules_Report.html" />
-    <classes>-->
+			<!-- Profile Module -->
 			<class name="CSAT_RolesAndProfile_Module.CSAT_ProfileTest" />
+			<!-- Roles Module -->
 			<class name="CSAT_RolesAndProfile_Module.CSAT_RolesTest" />
+			<!-- Reports Module -->
 			<class name="CSAT_ReportsAndSettings_Module.CSAT_ReportsTest" />
-			<class
-				name="CSAT_ReportsAndSettings_Module.CSAT_Settings_OrgMembersTest" />
+			<!-- Setting Module -->
+			<class name="CSAT_ReportsAndSettings_Module.CSAT_Settings_OrgMembersTest" />
 			<class name="CSAT_ReportsAndSettings_Module.CSAT_Settings_TeamsTest" />
 		</classes>
 	</test> <!--

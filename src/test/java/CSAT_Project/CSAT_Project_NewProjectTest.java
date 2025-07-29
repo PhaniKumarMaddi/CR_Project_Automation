@@ -31,6 +31,9 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		csatPage.collapseSideMenu();
 		waitTime(driver);
+		csatPage.navigateToPage(dataKeys.project_Url);
+		waitTime(driver);
+
 		logger.info("Verify keeping mandatory Fields empty ");
 		grep.infoTest("Verify keeping mandatory Fields empty ");
 		csatProject.clickNewProject();
@@ -173,8 +176,8 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		csatProject.clickButton(dataKeys.cancelBtn);
 
 		waitTime15(driver);
-		refreshPage();
-		waitTime15(driver);
+//		refreshPage();
+//		waitTime15(driver);
 
 		// adding Invalid Email in customer email
 		grep.testCreate("Verify adding invalid customer email format in project Creation Test",
@@ -226,8 +229,8 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		waitTime(driver);
 
 		waitTime15(driver);
-		refreshPage();
-		waitTime5(driver);
+//		refreshPage();
+//		waitTime5(driver);
 
 		// Enter an invalid characters in project description field
 		grep.testCreate("Verify Entering Invalid Characters in Description Field Test",
@@ -336,6 +339,8 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		waitTime30(driver);
 		refreshPage();
 		waitTime30(driver);
+		refreshPage();
+		waitTime15(driver);
 		csatProject.verifyCreatedProjectNameInList(dataKeys.newProjectName);
 		waitTime2(driver);
 		grep.captureScreenshot("pass", "Project Created", "ProjectCreated");

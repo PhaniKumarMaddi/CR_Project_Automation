@@ -183,6 +183,13 @@ public class WaitsManager {
 		String title=driver.getTitle();
 		return title;
 	}
+
+
+	public String getURL() {
+		String urlVal=driver.getCurrentUrl();
+	return urlVal;
+	}
+	
 	public void refreshPage() {
 		driver.navigate().refresh();
 //		 String currentURL = driver.getCurrentUrl();

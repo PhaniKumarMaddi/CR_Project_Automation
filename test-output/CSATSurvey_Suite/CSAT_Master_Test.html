@@ -1,0 +1,196 @@
+<html>
+<head>
+<title>TestNG:  CSAT_Master_Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>CSAT_Master_Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 29 14:41:21 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>2493 seconds (2493768 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CSAT_ReportsAndSettings_Module.CSAT_Settings_TeamsTest.teamsTest()'><b>teamsTest</b><br>Test class: CSAT_ReportsAndSettings_Module.CSAT_Settings_TeamsTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getCurrentUrl()&quot; because &quot;this.driver&quot; is null
+	at CSAT_ReportsAndSettings_Module.CSAT_Settings_TeamsTest.teamsTest(CSAT_Settings_TeamsTest.java:250)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace195172955", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace195172955'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getCurrentUrl()&quot; because &quot;this.driver&quot; is null
+	at CSAT_ReportsAndSettings_Module.CSAT_Settings_TeamsTest.teamsTest(CSAT_Settings_TeamsTest.java:250)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>106</td>
+<td>CSAT_ReportsAndSettings_Module.CSAT_Settings_TeamsTest@49872d67</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CSAT_Project.CSAT_SendSurvey.csat_SendSurvey_Test()'><b>csat_SendSurvey_Test</b><br>Test class: CSAT_Project.CSAT_SendSurvey</td>
+<td></td>
+<td>391</td>
+<td>CSAT_Project.CSAT_SendSurvey@5b068087</td></tr>
+<tr>
+<td title='CSAT_Survey_Module.CSAT_AddNewSurveyTest.addNewSurvey_Test()'><b>addNewSurvey_Test</b><br>Test class: CSAT_Survey_Module.CSAT_AddNewSurveyTest</td>
+<td></td>
+<td>356</td>
+<td>CSAT_Survey_Module.CSAT_AddNewSurveyTest@3300f4fd</td></tr>
+<tr>
+<td title='CSAT_Survey_Module.CSAT_SurveyModuleUITest.surveyModule_UI_Test()'><b>surveyModule_UI_Test</b><br>Test class: CSAT_Survey_Module.CSAT_SurveyModuleUITest</td>
+<td></td>
+<td>72</td>
+<td>CSAT_Survey_Module.CSAT_SurveyModuleUITest@12bd8a64</td></tr>
+<tr>
+<td title='CSAT_RolesAndProfile_Module.CSAT_RolesTest.rolesPageTest()'><b>rolesPageTest</b><br>Test class: CSAT_RolesAndProfile_Module.CSAT_RolesTest</td>
+<td></td>
+<td>4</td>
+<td>CSAT_RolesAndProfile_Module.CSAT_RolesTest@13518f37</td></tr>
+<tr>
+<td title='CSAT_Project.CSAT_Project_NewProjectTest.csat_NewProject_Test()'><b>csat_NewProject_Test</b><br>Test class: CSAT_Project.CSAT_Project_NewProjectTest</td>
+<td></td>
+<td>353</td>
+<td>CSAT_Project.CSAT_Project_NewProjectTest@70ab2d48</td></tr>
+<tr>
+<td title='CSAT_Project.CSAT_ProjectFiltersTest.csat_ProjectUI_Test()'><b>csat_ProjectUI_Test</b><br>Test class: CSAT_Project.CSAT_ProjectFiltersTest</td>
+<td></td>
+<td>154</td>
+<td>CSAT_Project.CSAT_ProjectFiltersTest@ebb6851</td></tr>
+<tr>
+<td title='CSAT_Survey_Module.CSAT_AddNewSurveyTest.updateExistingSurvey_Test()'><b>updateExistingSurvey_Test</b><br>Test class: CSAT_Survey_Module.CSAT_AddNewSurveyTest</td>
+<td></td>
+<td>366</td>
+<td>CSAT_Survey_Module.CSAT_AddNewSurveyTest@3300f4fd</td></tr>
+<tr>
+<td title='CSAT_Survey_Module.CSAT_AddNewSurveyTest.deleteExistingSurvey_Test()'><b>deleteExistingSurvey_Test</b><br>Test class: CSAT_Survey_Module.CSAT_AddNewSurveyTest</td>
+<td></td>
+<td>21</td>
+<td>CSAT_Survey_Module.CSAT_AddNewSurveyTest@3300f4fd</td></tr>
+<tr>
+<td title='CSAT_Survey_Module.CSAT_AddSurveyTypeTest.addSurveyType_Test()'><b>addSurveyType_Test</b><br>Test class: CSAT_Survey_Module.CSAT_AddSurveyTypeTest</td>
+<td></td>
+<td>102</td>
+<td>CSAT_Survey_Module.CSAT_AddSurveyTypeTest@61e94def</td></tr>
+<tr>
+<td title='CSAT_Project.CSAT_SurveyUITest.csat_Ui_Test()'><b>csat_Ui_Test</b><br>Test class: CSAT_Project.CSAT_SurveyUITest</td>
+<td></td>
+<td>60</td>
+<td>CSAT_Project.CSAT_SurveyUITest@615091b8</td></tr>
+<tr>
+<td title='CSAT_ReportsAndSettings_Module.CSAT_ReportsTest.reportsPageTest()'><b>reportsPageTest</b><br>Test class: CSAT_ReportsAndSettings_Module.CSAT_ReportsTest</td>
+<td></td>
+<td>155</td>
+<td>CSAT_ReportsAndSettings_Module.CSAT_ReportsTest@7cbc3762</td></tr>
+<tr>
+<td title='CSAT_RolesAndProfile_Module.CSAT_ProfileTest.profilePageTest()'><b>profilePageTest</b><br>Test class: CSAT_RolesAndProfile_Module.CSAT_ProfileTest</td>
+<td></td>
+<td>3</td>
+<td>CSAT_RolesAndProfile_Module.CSAT_ProfileTest@3a393455</td></tr>
+<tr>
+<td title='CSAT_ReportsAndSettings_Module.CSAT_Settings_OrgMembersTest.orgMemebersTest()'><b>orgMemebersTest</b><br>Test class: CSAT_ReportsAndSettings_Module.CSAT_Settings_OrgMembersTest</td>
+<td></td>
+<td>63</td>
+<td>CSAT_ReportsAndSettings_Module.CSAT_Settings_OrgMembersTest@3a6f2de3</td></tr>
+<tr>
+<td title='CSAT_Project.CSAT_RuddrProjectsTest.csat_RuddrProjects_Test()'><b>csat_RuddrProjects_Test</b><br>Test class: CSAT_Project.CSAT_RuddrProjectsTest</td>
+<td></td>
+<td>251</td>
+<td>CSAT_Project.CSAT_RuddrProjectsTest@6f152006</td></tr>
+</table><p>
+</body>
+</html>

@@ -52,6 +52,8 @@ public class CSAT_SurveyUITest extends CSAT_TestInitializer {
 		grep.infoTest("Navigating To Profile Page");
 		navigateToAllPagesTest(dataKeys.profile_Url);
 
+		csatPage.expandSideMenu();
+		waitTime(driver);
 		grep.infoTest("Navigating To Teams Page");
 		navigateToSettingsPagesTest(dataKeys.teams_Url);
 		waitTime(driver);
@@ -62,19 +64,8 @@ public class CSAT_SurveyUITest extends CSAT_TestInitializer {
 		navigateToAllPagesTest(dataKeys.project_Url);
 
 		waitTime(driver);
-		csatPage.expandSideMenu();
-		waitTime(driver);
+		
 		grep.captureScreenshot("pass", "Menu Expanded", "expandMenu");
-
-//		csatPage.clickLogout();
-//		String getUrl = driver.getCurrentUrl();
-//		if (getUrl.endsWith(dataKeys.login_Url)) {
-//			grep.passTest("Logged out Successfully");
-//			logger.info("Logged out Successfully");
-//		} else {
-//			grep.failTest("Log out Functionality failed");
-//			logger.info("Log out Functionality failed");
-//		}
 
 		validAssert.assertAllFunction();
 
