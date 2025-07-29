@@ -167,10 +167,10 @@ public class TestDataKeys {
 	public String updateCustomerContactEmail = "anwar_hussain@skillsynccr.onmicrosoft.com";
 	public String customerContactInvalidEmail = "Phani Maddi";
 
-	public String date_StartDate = "28";
+	public String date_StartDate = "29";
 	public String month_StartDate = "07";
 	public String year_StartDate = "2025";
-	public String date_EndDate = "07";
+	public String date_EndDate = "09";
 	public String lesser_date_EndDate = "13";
 	public String lesser_month_EndDate = "07";
 	public String month_EndDate = "08";

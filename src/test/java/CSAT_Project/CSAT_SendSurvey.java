@@ -53,8 +53,6 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		logger.info("CSAT Score Count Before :" + csatSurveyCountBefore);
 		grep.infoTest("CSAT Score Count Before :" + csatSurveyCountBefore);
 
-		
-		
 		logger.info("Verify Creating a new Project for Sent feedback test");
 		grep.infoTest("Verify Creating a new Project for Sent feedback test");
 		csatProject.clickNewProject();
@@ -114,7 +112,7 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		waitTime2(driver);
 		grep.captureScreenshot("pass", "Project Created", "Send_ProjectCreated");
 		waitTime5(driver);
-		
+
 		String csatValueBefore = csatProject.verifyCsatColInTable(dataKeys.projectNameForSend);
 		logger.info("CSAT Column Value Before :" + csatValueBefore);
 		grep.infoTest("CSAT Column Value Before :" + csatValueBefore);
@@ -607,7 +605,7 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		waitTime(driver);
 		csatPopup.getAverageRating();
 		waitTime(driver);
-		grep.captureScreenshot("pass", "Feedbak Filled", "FeedBackFilled");
+		grep.captureScreenshot("pass", "Feedback Filled", "FeedBackFilled");
 		waitTime2(driver);
 		csatPopup.clickSendButton();
 		waitTime5(driver);
@@ -615,7 +613,12 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 
 		waitTime3(driver);
 
-		grep.captureScreenshot("pass", "Feedbak Submitted", "FeedBackSubmitted");
+		grep.captureScreenshot("pass", "Feedback Submitted", "FeedBackSubmitted");
+		waitTime(driver);
+
+		closeCurrentTab();
+		waitTime2(driver);
+
 		switchToFirstTab();
 		waitTime3(driver);
 

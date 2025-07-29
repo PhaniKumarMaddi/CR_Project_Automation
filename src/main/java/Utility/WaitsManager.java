@@ -189,4 +189,8 @@ public class WaitsManager {
 //	        driver.get(currentURL);
 	}
 
+	public void refreshPageUrl() {
+		 String currentURL = driver.getCurrentUrl();
+	        driver.get(currentURL);
+	}
 }
