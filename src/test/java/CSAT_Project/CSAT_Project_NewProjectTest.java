@@ -175,9 +175,9 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		csatProject.clickButton(dataKeys.cancelBtn);
 
-		waitTime15(driver);
-//		refreshPage();
-//		waitTime15(driver);
+		waitTime30(driver);
+		refreshPage();
+		waitTime30(driver);
 
 		// adding Invalid Email in customer email
 		grep.testCreate("Verify adding invalid customer email format in project Creation Test",
@@ -228,7 +228,7 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		csatProject.clickButton(dataKeys.cancelBtn);
 		waitTime(driver);
 
-		waitTime15(driver);
+//		waitTime15(driver);
 //		refreshPage();
 //		waitTime5(driver);
 
@@ -339,8 +339,6 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		waitTime30(driver);
 		refreshPage();
 		waitTime30(driver);
-		refreshPage();
-		waitTime15(driver);
 		csatProject.verifyCreatedProjectNameInList(dataKeys.newProjectName);
 		waitTime2(driver);
 		grep.captureScreenshot("pass", "Project Created", "ProjectCreated");

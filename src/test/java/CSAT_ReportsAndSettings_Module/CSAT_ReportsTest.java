@@ -130,9 +130,9 @@ public class CSAT_ReportsTest extends CSAT_TestInitializer {
 		csatReports.clickShareBtn();
 		waitTime(driver);
 		csatReports.selectEmailToSend(dataKeys.ssoUserName);
-		waitTime15(driver);
+		waitTime30(driver);
 		csat_CustomerReport();
-		waitTime(driver);
+		waitTime5(driver);
 	}
 
 	public void csat_CustomerReport() throws Exception {
@@ -145,7 +145,7 @@ public class CSAT_ReportsTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		String title = getTitleMethod();
 		System.out.println("Page Title: "+title); 
-		waitTime3(driver);
+		waitTime5(driver);
 		if (title.startsWith("Mail")) {
 			switchToLastTab();
 		} else {

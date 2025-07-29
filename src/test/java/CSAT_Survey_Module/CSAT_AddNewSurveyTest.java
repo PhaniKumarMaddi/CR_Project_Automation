@@ -946,7 +946,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		csat_Survey.clickButton(dataKeys.saveBtn);
 
-		waitTime10(driver);
+		waitTime30(driver);
 		grep.infoTest("Clicking Survey from Table");
 		logger.info("Clicking Survey from Table");
 		waitTime5(driver);
@@ -1144,7 +1144,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		csat_Survey.clickButton(dataKeys.saveBtn);
 
 		waitTime15(driver);
-		
+		waitTime15(driver);
 		grep.infoTest("Clicking Survey from Table");
 		logger.info("Clicking Survey from Table");
 		waitTime5(driver);
