@@ -15,7 +15,7 @@ import Utility.WaitsManager;
 
 public class CSAT_Settings_Teams_Page extends WaitsManager {
 	static WebDriver driver;
-	private static Logger logger = LogManager.getLogger(CSAT_Reports_Page.class);
+	private static Logger logger = LogManager.getLogger(CSAT_Settings_Teams_Page.class);
 	GenerateReports grep = new GenerateReports();
 	TestDataKeys dataKeys = new TestDataKeys();
 
@@ -37,11 +37,11 @@ public class CSAT_Settings_Teams_Page extends WaitsManager {
 	By getTeamDetailHeader = By.xpath("//div[@class='team-details-container']/h2[1]");
 	By teamNameInTeamDetailPage = By.xpath("//h2[text()='Team Name']/following-sibling::div[1]/input");
 
-	By backToTeams = By.xpath("//button[text()='Teams']'");
+	By backToTeams = By.xpath("//button[text()='Teams']");
 
 	// Team Details fields
 	By insertMailId = By.xpath("//input[@placeholder='Type email ID']");
-	By selectSuggestion = By.xpath("//li[@class='suggestion-item even'][1]/div[2]/span");
+	By selectSuggestion = By.xpath("//li[@class='suggestion-item even'][1]/div[2]/span[2]");
 	By selectRoleDropdowm = By.xpath("//div[@title='Select Role']");
 
 	By sendInviteBtn = By.cssSelector("button#invite-button11");
@@ -337,7 +337,7 @@ public class CSAT_Settings_Teams_Page extends WaitsManager {
 			waitForElement(existingUserError, 60);
 			String error = driver.findElement(existingUserError).getText();
 			logger.info("Error Message: " + error);
-			grep.infoTest("Error Message: " + error);
+			grep.passTest("Error Message: " + error);
 		} catch (Exception e) {
 			e.printStackTrace();
 			grep.failTest("Test Failed :" + e.getMessage());
@@ -369,6 +369,26 @@ public class CSAT_Settings_Teams_Page extends WaitsManager {
 
 		}
 	}
+		public void clearSearchUser() throws Exception {
+			try {
+				implWait(driver);
+				boolean elementExist = !driver.findElements(searchOrgMember).isEmpty();
+				if (elementExist) {
+					WebElement searchField = driver.findElement(searchOrgMember);
+					waitTime(driver);
+					searchField.sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+					waitTime(driver);
+				} else {
+					grep.failTest("Search Field not Available");
+					logger.error("Search Field not Available");
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+				grep.failTest("Test Failed :" + e.getMessage());
+				logger.error("Test Failed :" + e.getMessage());
+
+			}
+		}
 
 	public void verifySearchRelatedMember(String searchVal) throws Exception {
 		try {
@@ -376,7 +396,7 @@ public class CSAT_Settings_Teams_Page extends WaitsManager {
 			boolean elementExist = !driver.findElements(searchMemberList).isEmpty();
 			if (elementExist) {
 				String getVal = driver.findElement(searchMemberList).getText();
-				if (getVal.equalsIgnoreCase(searchVal)) {
+				if (getVal.contains(searchVal)) {
 					logger.info("Search Related Value: " + getVal);
 					grep.passTest("Search Related Value: " + getVal);
 

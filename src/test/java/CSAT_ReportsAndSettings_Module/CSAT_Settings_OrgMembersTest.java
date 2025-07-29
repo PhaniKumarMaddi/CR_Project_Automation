@@ -58,7 +58,7 @@ public class CSAT_Settings_OrgMembersTest extends CSAT_TestInitializer {
 		waitTime(driver);
 
 		// DOWNLOAD FILE TEST
-		grep.testCreate("Download File test ", "Download File");
+		grep.testCreate("Download File test for ORG member page ", "Download File");
 		waitTime(driver);
 		logger.info("Download CSV File Format ");
 		grep.infoTest("Download CSV File Format ");
@@ -71,9 +71,27 @@ public class CSAT_Settings_OrgMembersTest extends CSAT_TestInitializer {
 		waitTime5(driver);
 		grep.captureScreenshot("pass", "Download PDF", "OrgMember_PDFFormat");
 
+		// Verify Send invite without selecting role
+
+		grep.testCreate("Validating the Send invite without selecting role in Org Member Test",
+				"Validating the Send invite without selecting role in Org Member");
+		waitTime(driver);
+		logger.info("Validating the Send invite without selecting role in Org Member Test");
+		grep.infoTest("Validating the Send invite without selecting role in Org Member Test");
+		waitTime(driver);
+		csatOrgMem.insertEmailToInvite(dataKeys.ssoUserNameDev);
+		waitTime(driver);
+		csatOrgMem.clickSendInvite();
+		csatOrgMem.existingUserErrorMessage();
+		grep.captureScreenshot("pass", "Send invite without selecting role", "Sendinvite_WithoutRole_OrgMember");
+		waitTime2(driver);
+
 		// Validating the Org Member send invite for existing user
 		grep.testCreate("Validating the existing user invite in ORG Members Test",
 				"Validating the existing user invite in ORG Members ");
+		waitTime(driver);
+		logger.info("Validating the existing user invite in ORG Members Test");
+		grep.infoTest("Validating the existing user invite in ORG Members Test");
 		waitTime(driver);
 		csatOrgMem.insertEmailToInvite(dataKeys.ssoUserNameDev);
 		csatOrgMem.clickSelectRoleDropDown();
@@ -88,6 +106,9 @@ public class CSAT_Settings_OrgMembersTest extends CSAT_TestInitializer {
 		// Validating the Org Member send invite for user
 		grep.testCreate("Validating the user invite in ORG Members Test", "Validating the user invite in ORG Members ");
 		waitTime(driver);
+		logger.info("Validating the user invite in ORG Members Test");
+		grep.infoTest("Validating the user invite in ORG Members Test");
+		waitTime(driver);
 		csatOrgMem.insertEmailToInvite(dataKeys.ssoUserName);
 		csatOrgMem.clickSelectRoleDropDown();
 		csatOrgMem.selectRoleToInvite(dataKeys.contributorRole);
@@ -101,7 +122,9 @@ public class CSAT_Settings_OrgMembersTest extends CSAT_TestInitializer {
 		grep.testCreate("Validating the Search Org Member Test", "Validating the Search Org Member");
 
 		waitTime(driver);
-
+		logger.info("Validating the Search Org Member Test");
+		grep.infoTest("Validating the Search Org Member Test");
+		waitTime(driver);
 		logger.info("Insert Search Value: " + dataKeys.userNameSearch);
 		grep.infoTest("Insert Search Value: " + dataKeys.userNameSearch);
 		csatOrgMem.insertValueToSearch(dataKeys.userNameSearch);
@@ -112,7 +135,10 @@ public class CSAT_Settings_OrgMembersTest extends CSAT_TestInitializer {
 		waitTime2(driver);
 
 		// Updating the role for specific user
-		grep.testCreate("Update the role for user Test", "Update the role for existing user");
+		grep.testCreate("Update the role for user in org member Test", "Update the role for existing user");
+		waitTime(driver);
+		logger.info("Update the role for user Test");
+		grep.infoTest("Update the role for user Test");
 		waitTime(driver);
 		csatOrgMem.beforeUpdateRoleForUser(dataKeys.userNameSearch);
 		waitTime(driver);
@@ -129,6 +155,8 @@ public class CSAT_Settings_OrgMembersTest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "After Updating the role for existing user", "After_UpdatingRole_ForOrgMember");
 		waitTime2(driver);
 		csatOrgMem.updateRoleForUser(dataKeys.userNameSearch, dataKeys.adminRole);
+		waitTime(driver);
+		csatPage.navigateToSettingsPage(dataKeys.orgMembers_Url);
 
 	}
 }

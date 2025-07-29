@@ -8,6 +8,7 @@
       <class name="CSAT_RolesAndProfile_Module.CSAT_RolesTest"/>
       <class name="CSAT_ReportsAndSettings_Module.CSAT_ReportsTest"/>
       <class name="CSAT_ReportsAndSettings_Module.CSAT_Settings_OrgMembersTest"/>
+      <class name="CSAT_ReportsAndSettings_Module.CSAT_Settings_TeamsTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

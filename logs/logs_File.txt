@@ -19549,3 +19549,615 @@ CriticalRiver Technologies Team
 2025-07-28 17:05:02 [main] INFO : Role After Update: Contributor
 2025-07-28 17:05:08 [main] INFO : Testing Ended
 2025-07-28 17:05:08 [main] INFO : ***********
+2025-07-29 08:55:05 [main] INFO : Launching Chrome Browser
+2025-07-29 08:55:06 [main] INFO : Report Name :CsatPage.html
+2025-07-29 08:55:33 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-29 08:55:33 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-29 08:55:34 [main] INFO : Inside Login Page: LOGIN
+2025-07-29 08:56:00 [main] INFO : Logged in to CSAT Application
+2025-07-29 08:56:06 [main] INFO : Search Team name using search team and user field in Setting Teams Page
+2025-07-29 08:56:06 [main] INFO : Verify Teams Header
+2025-07-29 08:56:06 [main] INFO : Header is Valid: Teams
+2025-07-29 08:56:06 [main] INFO : Search for the Team :Data Science and AI
+2025-07-29 08:56:09 [main] INFO : Team Name: Data Science and AI
+2025-07-29 08:56:09 [main] INFO : Team Count: 70
+2025-07-29 08:56:47 [main] INFO : Team Name in Team Detail Page: Data Science and AI
+2025-07-29 08:56:48 [main] ERROR: Test Failed :invalid selector: Unable to locate an element with the xpath expression //button[text()='Teams']' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[text()='Teams']'' is not a valid XPath expression.
+  (Session info: chrome=138.0.7204.169)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [574effec13634d0a03086f38753cc362, findElements {value=//button[text()='Teams']', using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52720}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52720/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 574effec13634d0a03086f38753cc362
+2025-07-29 08:56:57 [main] INFO : Launching Chrome Browser
+2025-07-29 08:56:57 [main] INFO : Report Name :CsatPage.html
+2025-07-29 08:57:00 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-29 08:57:00 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-29 08:57:00 [main] INFO : Inside Login Page: LOGIN
+2025-07-29 08:57:24 [main] INFO : Logged in to CSAT Application
+2025-07-29 08:57:30 [main] INFO : Search Team name using search team and user field in Setting Teams Page
+2025-07-29 08:57:30 [main] INFO : Verify Teams Header
+2025-07-29 08:57:31 [main] INFO : Header is Valid: Teams
+2025-07-29 08:57:31 [main] INFO : Search for the Team :Data Science and AI
+2025-07-29 08:57:33 [main] INFO : Team Name: Data Science and AI
+2025-07-29 08:57:34 [main] INFO : Team Count: 70
+2025-07-29 08:57:39 [main] INFO : Team Name in Team Detail Page: Data Science and AI
+2025-07-29 08:57:41 [main] ERROR: Test Failed :invalid selector: Unable to locate an element with the xpath expression //button[text()='Teams']' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[text()='Teams']'' is not a valid XPath expression.
+  (Session info: chrome=138.0.7204.169)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [732b39fa4d50968ee5c71f1d6b06ffa3, findElements {value=//button[text()='Teams']', using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52956}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52956/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 732b39fa4d50968ee5c71f1d6b06ffa3
+2025-07-29 08:57:41 [main] INFO : Search for the Team :ERP Applications
+2025-07-29 08:58:26 [main] INFO : Launching Chrome Browser
+2025-07-29 08:58:27 [main] INFO : Report Name :CsatPage.html
+2025-07-29 08:58:30 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-29 08:58:30 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-29 08:58:30 [main] INFO : Inside Login Page: LOGIN
+2025-07-29 08:58:53 [main] INFO : Logged in to CSAT Application
+2025-07-29 08:59:00 [main] INFO : Search Team name using search team and user field in Setting Teams Page
+2025-07-29 08:59:00 [main] INFO : Verify Teams Header
+2025-07-29 08:59:00 [main] INFO : Header is Valid: Teams
+2025-07-29 08:59:00 [main] INFO : Search for the Team :Data Science and AI
+2025-07-29 08:59:02 [main] INFO : Team Name: Data Science and AI
+2025-07-29 08:59:03 [main] INFO : Team Count: 70
+2025-07-29 08:59:08 [main] INFO : Team Name in Team Detail Page: Data Science and AI
+2025-07-29 08:59:11 [main] INFO : Search for the Team :ERP Applications
+2025-07-29 08:59:14 [main] INFO : Team Name: ERP Applications
+2025-07-29 08:59:14 [main] INFO : Team Count: 96
+2025-07-29 08:59:19 [main] INFO : Team Name in Team Detail Page: ERP Applications
+2025-07-29 08:59:23 [main] INFO : Search User using search team and user field in Setting Teams Page
+2025-07-29 08:59:23 [main] INFO : Search for the User :phani.maddi@criticalriver.com
+2025-07-29 08:59:25 [main] INFO : Team Name: DSiL
+2025-07-29 08:59:26 [main] INFO : Team Count: 34
+2025-07-29 08:59:30 [main] INFO : Team Name in Team Detail Page: DSiL
+2025-07-29 08:59:31 [main] INFO : Search Related Value: Phani Kumar Maddi
+2025-07-29 08:59:33 [main] INFO : Validating Team Detail Page Pagination in Setting Teams Page
+2025-07-29 08:59:33 [main] INFO : Verify Team Detail Page Header
+2025-07-29 08:59:34 [main] INFO : Header is Available: Teams / Team Details
+2025-07-29 08:59:34 [main] INFO : Selecting Pagination 5
+2025-07-29 08:59:34 [main] INFO : 5 pagination Option Selected
+2025-07-29 08:59:35 [main] INFO : Selecting Pagination 15
+2025-07-29 08:59:35 [main] INFO : 15 pagination Option Selected
+2025-07-29 08:59:36 [main] INFO : Selecting Pagination 10
+2025-07-29 08:59:36 [main] INFO : 10 pagination Option Selected
+2025-07-29 08:59:37 [main] INFO : Download CSV File Format 
+2025-07-29 08:59:43 [main] INFO : Download PDF File Format 
+2025-07-29 08:59:49 [main] INFO : Testing Ended
+2025-07-29 08:59:49 [main] INFO : ***********
+2025-07-29 09:17:13 [main] INFO : Launching Chrome Browser
+2025-07-29 09:17:13 [main] INFO : Report Name :CsatPage.html
+2025-07-29 09:17:16 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-29 09:17:16 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-29 09:17:16 [main] INFO : Inside Login Page: LOGIN
+2025-07-29 09:17:41 [main] INFO : Logged in to CSAT Application
+2025-07-29 09:17:48 [main] INFO : Search Team name using search team and user field in Setting Teams Page
+2025-07-29 09:17:48 [main] INFO : Verify Teams Header
+2025-07-29 09:17:48 [main] INFO : Header is Valid: Teams
+2025-07-29 09:17:48 [main] INFO : Search for the Team :Data Science and AI
+2025-07-29 09:17:51 [main] INFO : Team Name: Data Science and AI
+2025-07-29 09:17:51 [main] INFO : Team Count: 71
+2025-07-29 09:17:56 [main] INFO : Team Name in Team Detail Page: Data Science and AI
+2025-07-29 09:17:59 [main] INFO : Search for the Team :ERP Applications
+2025-07-29 09:18:01 [main] INFO : Team Name: ERP Applications
+2025-07-29 09:18:02 [main] INFO : Team Count: 96
+2025-07-29 09:18:07 [main] INFO : Team Name in Team Detail Page: ERP Applications
+2025-07-29 09:18:11 [main] INFO : Search User using search team and user field in Setting Teams Page
+2025-07-29 09:18:11 [main] INFO : Search for the User :phani.maddi@criticalriver.com
+2025-07-29 09:18:13 [main] INFO : Team Name: DSiL
+2025-07-29 09:18:14 [main] INFO : Team Count: 34
+2025-07-29 09:18:18 [main] INFO : Team Name in Team Detail Page: DSiL
+2025-07-29 09:18:19 [main] INFO : Search Related Value: Phani Kumar Maddi
+2025-07-29 09:18:23 [main] INFO : Validating Team Detail Page Pagination in Setting Teams Page
+2025-07-29 09:18:23 [main] INFO : Verify Team Detail Page Header
+2025-07-29 09:18:23 [main] INFO : Header is Available: Teams / Team Details
+2025-07-29 09:18:24 [main] INFO : Selecting Pagination 5
+2025-07-29 09:18:24 [main] INFO : 5 pagination Option Selected
+2025-07-29 09:18:25 [main] INFO : Selecting Pagination 15
+2025-07-29 09:18:25 [main] INFO : 15 pagination Option Selected
+2025-07-29 09:18:25 [main] INFO : Selecting Pagination 10
+2025-07-29 09:18:26 [main] INFO : 10 pagination Option Selected
+2025-07-29 09:18:27 [main] INFO : Download CSV File Format 
+2025-07-29 09:18:32 [main] INFO : Download PDF File Format 
+2025-07-29 09:18:39 [main] INFO : Validating the Send invite without selecting role in Teams Test
+2025-07-29 09:18:41 [main] INFO : Insert Email: phani.maddi@criticalriver.com
+2025-07-29 09:24:01 [main] INFO : Launching Chrome Browser
+2025-07-29 09:24:02 [main] INFO : Report Name :CsatPage.html
+2025-07-29 09:24:28 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-29 09:24:28 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-29 09:24:28 [main] INFO : Inside Login Page: LOGIN
+2025-07-29 09:25:24 [main] INFO : Logged in to CSAT Application
+2025-07-29 09:25:30 [main] INFO : Search Team name using search team and user field in Setting Teams Page
+2025-07-29 09:25:30 [main] INFO : Verify Teams Header
+2025-07-29 09:25:31 [main] INFO : Header is Valid: Teams
+2025-07-29 09:25:31 [main] INFO : Search for the Team :Data Science and AI
+2025-07-29 09:25:33 [main] INFO : Team Name: Data Science and AI
+2025-07-29 09:25:34 [main] INFO : Team Count: 71
+2025-07-29 09:25:39 [main] INFO : Team Name in Team Detail Page: Data Science and AI
+2025-07-29 09:25:42 [main] INFO : Search for the Team :ERP Applications
+2025-07-29 09:25:44 [main] INFO : Team Name: ERP Applications
+2025-07-29 09:25:45 [main] INFO : Team Count: 96
+2025-07-29 09:25:50 [main] INFO : Team Name in Team Detail Page: ERP Applications
+2025-07-29 09:25:53 [main] INFO : Search User using search team and user field in Setting Teams Page
+2025-07-29 09:25:53 [main] INFO : Search for the User :phani.maddi@criticalriver.com
+2025-07-29 09:25:56 [main] INFO : Team Name: DSiL
+2025-07-29 09:25:56 [main] INFO : Team Count: 34
+2025-07-29 09:26:01 [main] INFO : Team Name in Team Detail Page: DSiL
+2025-07-29 09:26:02 [main] INFO : Search Related Value: Phani Kumar Maddi
+2025-07-29 09:26:05 [main] INFO : Validating Team Detail Page Pagination in Setting Teams Page
+2025-07-29 09:26:06 [main] INFO : Verify Team Detail Page Header
+2025-07-29 09:26:06 [main] INFO : Header is Available: Teams / Team Details
+2025-07-29 09:26:06 [main] INFO : Selecting Pagination 5
+2025-07-29 09:26:07 [main] INFO : 5 pagination Option Selected
+2025-07-29 09:26:07 [main] INFO : Selecting Pagination 15
+2025-07-29 09:26:07 [main] INFO : 15 pagination Option Selected
+2025-07-29 09:26:08 [main] INFO : Selecting Pagination 10
+2025-07-29 09:26:08 [main] INFO : 10 pagination Option Selected
+2025-07-29 09:26:09 [main] INFO : Download CSV File Format 
+2025-07-29 09:26:15 [main] INFO : Download PDF File Format 
+2025-07-29 09:26:22 [main] INFO : Validating the Send invite without selecting role in Teams Test
+2025-07-29 09:26:24 [main] INFO : Insert Email: phani.maddi@criticalriver.com
+2025-07-29 09:27:22 [main] INFO : Launching Chrome Browser
+2025-07-29 09:27:22 [main] INFO : Report Name :CsatPage.html
+2025-07-29 09:27:25 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-29 09:27:25 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-29 09:27:25 [main] INFO : Inside Login Page: LOGIN
+2025-07-29 09:27:41 [main] INFO : Launching Chrome Browser
+2025-07-29 09:27:41 [main] INFO : Report Name :CsatPage.html
+2025-07-29 09:27:46 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-29 09:27:46 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-29 09:27:46 [main] INFO : Inside Login Page: LOGIN
+2025-07-29 09:28:11 [main] INFO : Logged in to CSAT Application
+2025-07-29 09:28:17 [main] INFO : Search Team name using search team and user field in Setting Teams Page
+2025-07-29 09:28:17 [main] INFO : Verify Teams Header
+2025-07-29 09:28:17 [main] INFO : Header is Valid: Teams
+2025-07-29 09:28:17 [main] INFO : Search for the Team :Data Science and AI
+2025-07-29 09:28:20 [main] INFO : Team Name: Data Science and AI
+2025-07-29 09:28:20 [main] INFO : Team Count: 71
+2025-07-29 09:28:26 [main] INFO : Team Name in Team Detail Page: Data Science and AI
+2025-07-29 09:28:28 [main] INFO : Search for the Team :ERP Applications
+2025-07-29 09:28:31 [main] INFO : Team Name: ERP Applications
+2025-07-29 09:28:31 [main] INFO : Team Count: 96
+2025-07-29 09:28:37 [main] INFO : Team Name in Team Detail Page: ERP Applications
+2025-07-29 09:28:40 [main] INFO : Search User using search team and user field in Setting Teams Page
+2025-07-29 09:28:40 [main] INFO : Search for the User :phani.maddi@criticalriver.com
+2025-07-29 09:28:42 [main] INFO : Team Name: DSiL
+2025-07-29 09:28:43 [main] INFO : Team Count: 34
+2025-07-29 09:28:48 [main] INFO : Team Name in Team Detail Page: DSiL
+2025-07-29 09:28:49 [main] INFO : Search Related Value: Phani Kumar Maddi
+2025-07-29 09:28:52 [main] INFO : Validating Team Detail Page Pagination in Setting Teams Page
+2025-07-29 09:28:52 [main] INFO : Verify Team Detail Page Header
+2025-07-29 09:28:53 [main] INFO : Header is Available: Teams / Team Details
+2025-07-29 09:28:53 [main] INFO : Selecting Pagination 5
+2025-07-29 09:28:53 [main] INFO : 5 pagination Option Selected
+2025-07-29 09:28:54 [main] INFO : Selecting Pagination 15
+2025-07-29 09:28:54 [main] INFO : 15 pagination Option Selected
+2025-07-29 09:28:55 [main] INFO : Selecting Pagination 10
+2025-07-29 09:28:55 [main] INFO : 10 pagination Option Selected
+2025-07-29 09:28:56 [main] INFO : Download CSV File Format 
+2025-07-29 09:29:01 [main] INFO : Download PDF File Format 
+2025-07-29 09:29:08 [main] INFO : Validating the Send invite without selecting role in Teams Test
+2025-07-29 09:29:10 [main] INFO : Insert Email: phani.maddi@criticalriver.com
+2025-07-29 09:29:13 [main] INFO : Error Message: Please enter an email, select a role, and choose a team.
+2025-07-29 09:29:16 [main] INFO : Validating the existing user invite in Teams Test
+2025-07-29 09:29:26 [main] INFO : Error Message: This user is already has a role assigned.
+2025-07-29 09:29:28 [main] INFO : Validating the user invite in Teams Test
+2025-07-29 09:29:29 [main] INFO : Insert Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-29 09:29:34 [main] INFO : Testing Ended
+2025-07-29 09:29:34 [main] INFO : ***********
+2025-07-29 09:37:04 [main] INFO : Launching Chrome Browser
+2025-07-29 09:37:04 [main] INFO : Report Name :CsatPage.html
+2025-07-29 09:37:33 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-29 09:37:33 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-29 09:37:33 [main] INFO : Inside Login Page: LOGIN
+2025-07-29 09:37:57 [main] INFO : Logged in to CSAT Application
+2025-07-29 09:38:03 [main] INFO : Search Team name using search team and user field in Setting Teams Page
+2025-07-29 09:38:03 [main] INFO : Verify Teams Header
+2025-07-29 09:38:03 [main] INFO : Header is Valid: Teams
+2025-07-29 09:38:04 [main] INFO : Search for the Team :Data Science and AI
+2025-07-29 09:38:06 [main] INFO : Team Name: Data Science and AI
+2025-07-29 09:38:06 [main] INFO : Team Count: 71
+2025-07-29 09:38:12 [main] INFO : Team Name in Team Detail Page: Data Science and AI
+2025-07-29 09:38:15 [main] INFO : Search for the Team :ERP Applications
+2025-07-29 09:38:17 [main] INFO : Team Name: ERP Applications
+2025-07-29 09:38:17 [main] INFO : Team Count: 96
+2025-07-29 09:38:23 [main] INFO : Team Name in Team Detail Page: ERP Applications
+2025-07-29 09:38:26 [main] INFO : Search User using search team and user field in Setting Teams Page
+2025-07-29 09:38:26 [main] INFO : Search for the User :phani.maddi@criticalriver.com
+2025-07-29 09:38:28 [main] INFO : Team Name: DSiL
+2025-07-29 09:38:29 [main] INFO : Team Count: 34
+2025-07-29 09:38:34 [main] INFO : Team Name in Team Detail Page: DSiL
+2025-07-29 09:38:35 [main] INFO : Search Related Value: Phani Kumar Maddi
+2025-07-29 09:38:38 [main] INFO : Validating Team Detail Page Pagination in Setting Teams Page
+2025-07-29 09:38:39 [main] INFO : Verify Team Detail Page Header
+2025-07-29 09:38:39 [main] INFO : Header is Available: Teams / Team Details
+2025-07-29 09:38:39 [main] INFO : Selecting Pagination 5
+2025-07-29 09:38:39 [main] INFO : 5 pagination Option Selected
+2025-07-29 09:38:40 [main] INFO : Selecting Pagination 15
+2025-07-29 09:38:40 [main] INFO : 15 pagination Option Selected
+2025-07-29 09:38:41 [main] INFO : Selecting Pagination 10
+2025-07-29 09:38:41 [main] INFO : 10 pagination Option Selected
+2025-07-29 09:38:42 [main] INFO : Download CSV File Format 
+2025-07-29 09:38:48 [main] INFO : Download PDF File Format 
+2025-07-29 09:38:55 [main] INFO : Validating the Send invite without selecting role in Teams Test
+2025-07-29 09:38:56 [main] INFO : Insert Email: phani.maddi@criticalriver.com
+2025-07-29 09:38:59 [main] INFO : Error Message: Please enter an email, select a role, and choose a team.
+2025-07-29 09:39:02 [main] INFO : Validating the existing user invite in Teams Test
+2025-07-29 09:39:11 [main] INFO : Error Message: This user is already has a role assigned.
+2025-07-29 09:39:13 [main] INFO : Validating the user invite in Teams Test
+2025-07-29 09:39:14 [main] INFO : Insert Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-29 09:39:19 [main] INFO : Validating the Search User in Team Test
+2025-07-29 09:39:20 [main] INFO : Insert Search Value: Jhansi Raj Todiganji
+2025-07-29 09:39:22 [main] INFO : Search Related Value: Jhansi Raj Todiganji
+2025-07-29 09:39:25 [main] INFO : Update the role for user in Team Test
+2025-07-29 09:39:26 [main] INFO : Role Before Update: Reader
+2025-07-29 09:39:30 [main] INFO : Updating Role for User: Contributor
+2025-07-29 09:39:34 [main] INFO : Role After Update: Contributor
+2025-07-29 09:39:41 [main] INFO : Testing Ended
+2025-07-29 09:39:41 [main] INFO : ***********
+2025-07-29 09:40:44 [main] INFO : Launching Chrome Browser
+2025-07-29 09:40:44 [main] INFO : Report Name :CsatPage.html
+2025-07-29 09:40:48 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-29 09:40:48 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-29 09:40:48 [main] INFO : Inside Login Page: LOGIN
+2025-07-29 09:41:13 [main] INFO : Logged in to CSAT Application
+2025-07-29 09:41:19 [main] INFO : Search Team name using search team and user field in Setting Teams Page
+2025-07-29 09:41:19 [main] INFO : Verify Teams Header
+2025-07-29 09:41:19 [main] INFO : Header is Valid: Teams
+2025-07-29 09:41:20 [main] INFO : Search for the Team :Data Science and AI
+2025-07-29 09:41:22 [main] INFO : Team Name: Data Science and AI
+2025-07-29 09:41:23 [main] INFO : Team Count: 71
+2025-07-29 09:41:28 [main] INFO : Team Name in Team Detail Page: Data Science and AI
+2025-07-29 09:41:31 [main] INFO : Search for the Team :ERP Applications
+2025-07-29 09:41:33 [main] INFO : Team Name: ERP Applications
+2025-07-29 09:41:34 [main] INFO : Team Count: 96
+2025-07-29 09:41:39 [main] INFO : Team Name in Team Detail Page: ERP Applications
+2025-07-29 09:41:42 [main] INFO : Search User using search team and user field in Setting Teams Page
+2025-07-29 09:41:42 [main] INFO : Search for the User :phani.maddi@criticalriver.com
+2025-07-29 09:41:45 [main] INFO : Team Name: DSiL
+2025-07-29 09:41:45 [main] INFO : Team Count: 34
+2025-07-29 09:41:50 [main] INFO : Team Name in Team Detail Page: DSiL
+2025-07-29 09:41:51 [main] INFO : Search Related Value: Phani Kumar Maddi
+2025-07-29 09:41:54 [main] INFO : Validating Team Detail Page Pagination in Setting Teams Page
+2025-07-29 09:41:55 [main] INFO : Verify Team Detail Page Header
+2025-07-29 09:41:55 [main] INFO : Header is Available: Teams / Team Details
+2025-07-29 09:41:55 [main] INFO : Selecting Pagination 5
+2025-07-29 09:41:56 [main] INFO : 5 pagination Option Selected
+2025-07-29 09:41:56 [main] INFO : Selecting Pagination 15
+2025-07-29 09:41:57 [main] INFO : 15 pagination Option Selected
+2025-07-29 09:41:57 [main] INFO : Selecting Pagination 10
+2025-07-29 09:41:58 [main] INFO : 10 pagination Option Selected
+2025-07-29 09:41:59 [main] INFO : Download CSV File Format 
+2025-07-29 09:42:04 [main] INFO : Download PDF File Format 
+2025-07-29 09:42:12 [main] INFO : Validating the Send invite without selecting role in Teams Test
+2025-07-29 09:42:13 [main] INFO : Insert Email: phani.maddi@criticalriver.com
+2025-07-29 09:42:16 [main] INFO : Error Message: Please enter an email, select a role, and choose a team.
+2025-07-29 09:42:19 [main] INFO : Validating the existing user invite in Teams Test
+2025-07-29 09:42:29 [main] INFO : Error Message: This user is already has a role assigned.
+2025-07-29 09:42:32 [main] INFO : Validating the user invite in Teams Test
+2025-07-29 09:42:32 [main] INFO : Insert Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-29 09:42:38 [main] INFO : Validating the Search User in Team Test
+2025-07-29 09:42:38 [main] INFO : Insert Search Value: Jhansi Raj Todiganji
+2025-07-29 09:42:41 [main] INFO : Search Related Value: Jhansi Raj Todiganji
+2025-07-29 09:42:44 [main] INFO : Update the role for user in Team Test
+2025-07-29 09:42:45 [main] INFO : Role Before Update: Reader
+2025-07-29 09:42:48 [main] INFO : Updating Role for User: Contributor
+2025-07-29 09:42:53 [main] INFO : Role After Update: Contributor
+2025-07-29 09:42:59 [main] INFO : Testing Ended
+2025-07-29 09:42:59 [main] INFO : ***********
+2025-07-29 09:47:27 [main] INFO : Launching Chrome Browser
+2025-07-29 09:47:28 [main] INFO : Report Name :CsatPage.html
+2025-07-29 09:48:02 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-29 09:48:02 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-29 09:48:02 [main] INFO : Inside Login Page: LOGIN
+2025-07-29 09:48:27 [main] INFO : Logged in to CSAT Application
+2025-07-29 09:48:33 [main] INFO : Verify ORG Members Header
+2025-07-29 09:48:33 [main] INFO : Header is Valid: Organization Members
+2025-07-29 09:48:34 [main] INFO : Selecting Pagination 5
+2025-07-29 09:48:34 [main] INFO : 5 pagination Option Selected
+2025-07-29 09:48:34 [main] INFO : Selecting Pagination 15
+2025-07-29 09:48:35 [main] INFO : 15 pagination Option Selected
+2025-07-29 09:48:35 [main] INFO : Selecting Pagination 10
+2025-07-29 09:48:36 [main] INFO : 10 pagination Option Selected
+2025-07-29 09:48:37 [main] INFO : Download CSV File Format 
+2025-07-29 09:48:42 [main] INFO : Download PDF File Format 
+2025-07-29 09:48:48 [main] INFO : Validating the Send invite without selecting role in Org Member Test
+2025-07-29 09:48:49 [main] INFO : Insert Email: phani.maddi@criticalriver.com
+2025-07-29 09:48:51 [main] INFO : Error Message: Please enter an email and select a role.
+2025-07-29 09:48:54 [main] INFO : Validating the existing user invite in ORG Members Test
+2025-07-29 09:48:57 [main] INFO : Error Message: 
+2025-07-29 09:49:00 [main] INFO : Validating the user invite in ORG Members Test
+2025-07-29 09:49:01 [main] INFO : Insert Email: phani.maddi@criticalriver.com
+2025-07-29 09:49:06 [main] INFO : Validating the Search Org Member Test
+2025-07-29 09:49:06 [main] INFO : Insert Search Value: Jhansi Raj
+2025-07-29 09:49:09 [main] INFO : Search Related Value: Jhansi Raj
+2025-07-29 09:49:12 [main] INFO : Update the role for user Test
+2025-07-29 09:49:13 [main] INFO : Role Before Update: Administrator
+2025-07-29 09:49:16 [main] INFO : Updating Role for User: Contributor
+2025-07-29 09:49:41 [main] INFO : Launching Chrome Browser
+2025-07-29 09:49:41 [main] INFO : Report Name :CsatPage.html
+2025-07-29 09:49:44 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-29 09:49:44 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-29 09:49:44 [main] INFO : Inside Login Page: LOGIN
+2025-07-29 09:50:09 [main] INFO : Logged in to CSAT Application
+2025-07-29 09:50:15 [main] INFO : Verify ORG Members Header
+2025-07-29 09:50:15 [main] INFO : Header is Valid: Organization Members
+2025-07-29 09:50:15 [main] INFO : Selecting Pagination 5
+2025-07-29 09:50:16 [main] INFO : 5 pagination Option Selected
+2025-07-29 09:50:16 [main] INFO : Selecting Pagination 15
+2025-07-29 09:50:17 [main] INFO : 15 pagination Option Selected
+2025-07-29 09:50:17 [main] INFO : Selecting Pagination 10
+2025-07-29 09:50:17 [main] INFO : 10 pagination Option Selected
+2025-07-29 09:50:19 [main] INFO : Download CSV File Format 
+2025-07-29 09:50:24 [main] INFO : Download PDF File Format 
+2025-07-29 09:50:30 [main] INFO : Validating the Send invite without selecting role in Org Member Test
+2025-07-29 09:50:31 [main] INFO : Insert Email: phani.maddi@criticalriver.com
+2025-07-29 09:50:33 [main] INFO : Error Message: Please enter an email and select a role.
+2025-07-29 09:50:36 [main] INFO : Validating the existing user invite in ORG Members Test
+2025-07-29 09:50:39 [main] INFO : Error Message: This user has already been invited.
+2025-07-29 09:50:42 [main] INFO : Validating the user invite in ORG Members Test
+2025-07-29 09:50:42 [main] INFO : Insert Email: phani.maddi@criticalriver.com
+2025-07-29 09:50:48 [main] INFO : Validating the Search Org Member Test
+2025-07-29 09:50:48 [main] INFO : Insert Search Value: Jhansi Raj
+2025-07-29 09:50:50 [main] INFO : Search Related Value: Jhansi Raj
+2025-07-29 09:50:53 [main] INFO : Update the role for user Test
+2025-07-29 09:50:55 [main] INFO : Role Before Update: Administrator
+2025-07-29 09:50:58 [main] INFO : Updating Role for User: Contributor
+2025-07-29 09:51:03 [main] INFO : Role After Update: Contributor
+2025-07-29 09:51:17 [main] INFO : Launching Chrome Browser
+2025-07-29 09:51:17 [main] INFO : Report Name :CsatPage.html
+2025-07-29 09:51:20 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-29 09:51:20 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-29 09:51:20 [main] INFO : Inside Login Page: LOGIN
+2025-07-29 09:51:46 [main] INFO : Logged in to CSAT Application
+2025-07-29 09:51:52 [main] INFO : Verify ORG Members Header
+2025-07-29 09:51:52 [main] INFO : Header is Valid: Organization Members
+2025-07-29 09:51:53 [main] INFO : Selecting Pagination 5
+2025-07-29 09:51:53 [main] INFO : 5 pagination Option Selected
+2025-07-29 09:51:53 [main] INFO : Selecting Pagination 15
+2025-07-29 09:51:53 [main] INFO : 15 pagination Option Selected
+2025-07-29 09:51:54 [main] INFO : Selecting Pagination 10
+2025-07-29 09:51:54 [main] INFO : 10 pagination Option Selected
+2025-07-29 09:51:55 [main] INFO : Download CSV File Format 
+2025-07-29 09:52:01 [main] INFO : Download PDF File Format 
+2025-07-29 09:52:07 [main] INFO : Validating the Send invite without selecting role in Org Member Test
+2025-07-29 09:52:07 [main] INFO : Insert Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-29 09:52:10 [main] INFO : Error Message: Please enter an email and select a role.
+2025-07-29 09:52:12 [main] INFO : Validating the existing user invite in ORG Members Test
+2025-07-29 09:52:13 [main] INFO : Insert Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-29 09:52:17 [main] INFO : Error Message: This user already has a role assigned.
+2025-07-29 09:52:20 [main] INFO : Validating the user invite in ORG Members Test
+2025-07-29 09:52:21 [main] INFO : Insert Email: phani.maddi@criticalriver.com
+2025-07-29 09:52:26 [main] INFO : Validating the Search Org Member Test
+2025-07-29 09:52:26 [main] INFO : Insert Search Value: Jhansi Raj
+2025-07-29 09:52:28 [main] INFO : Search Related Value: Jhansi Raj
+2025-07-29 09:52:32 [main] INFO : Update the role for user Test
+2025-07-29 09:52:33 [main] INFO : Role Before Update: Administrator
+2025-07-29 09:52:36 [main] INFO : Updating Role for User: Contributor
+2025-07-29 09:52:40 [main] INFO : Role After Update: Contributor
+2025-07-29 09:52:46 [main] INFO : Testing Ended
+2025-07-29 09:52:46 [main] INFO : ***********
+2025-07-29 10:10:05 [main] INFO : Launching Chrome Browser
+2025-07-29 10:10:05 [main] INFO : Report Name :CSATOtherModules_Report.html
+2025-07-29 10:10:31 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-29 10:10:34 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-29 10:10:34 [main] INFO : Inside Login Page: LOGIN
+2025-07-29 10:11:30 [main] INFO : Logged in to CSAT Application
+2025-07-29 10:11:34 [main] INFO : Verify Profile Header
+2025-07-29 10:11:34 [main] INFO : Header is Valid: Profile
+2025-07-29 10:11:34 [main] INFO : Verify Full name
+2025-07-29 10:11:34 [main] INFO : Full Name: Anwar Hussain
+2025-07-29 10:11:34 [main] INFO : Verify Email
+2025-07-29 10:11:34 [main] INFO : Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-29 10:11:38 [main] INFO : Verify Roles Header
+2025-07-29 10:11:38 [main] INFO : Header is Valid: Roles
+2025-07-29 10:11:38 [main] INFO : Verify Role Column Header
+2025-07-29 10:11:38 [main] INFO : Column Header is Valid: Role
+2025-07-29 10:11:38 [main] INFO : Verify Description Column Header
+2025-07-29 10:11:38 [main] INFO : Column Header is Valid: Description
+2025-07-29 10:11:38 [main] INFO : Verify Last Modified By Column Header
+2025-07-29 10:11:38 [main] INFO : Column Header is Valid: Last Modified By
+2025-07-29 10:11:38 [main] INFO : Verify Last Modified On Column Header
+2025-07-29 10:11:38 [main] INFO : Column Header is Valid: Last Modified On
+2025-07-29 10:11:38 [main] INFO : Verify Administrator Role and Description
+2025-07-29 10:11:39 [main] INFO : Roles is Valid: Administrator
+2025-07-29 10:11:39 [main] INFO : Role Description : Full Access To Manage All The Surveys, Projects And Roles
+2025-07-29 10:11:39 [main] INFO : Verify Contributor Role and Description
+2025-07-29 10:11:39 [main] INFO : Roles is Valid: Contributor
+2025-07-29 10:11:39 [main] INFO : Role Description : Grants Full Access To Manage All Surveys And Projects But Does Not Allow You To Assign Roles
+2025-07-29 10:11:39 [main] INFO : Verify Owner Role and Description
+2025-07-29 10:11:39 [main] INFO : Roles is Valid: Owner
+2025-07-29 10:11:39 [main] INFO : Role Description : Grants Full Access To Manage All Surveys And Projects Including Ability To Assigned Role But Does Not Allow You To Make Any Changes To Roles
+2025-07-29 10:11:39 [main] INFO : Verify Reader Role and Description
+2025-07-29 10:11:39 [main] INFO : Roles is Valid: Reader
+2025-07-29 10:11:39 [main] INFO : Role Description : View Surveys, Projects And Roles But Does Not Allow You To Make Any Changes
+2025-07-29 10:11:43 [main] INFO : Verify Profile Header
+2025-07-29 10:11:43 [main] INFO : Header is Valid: Reports
+2025-07-29 10:11:43 [main] INFO : Inside CSAT Development Project
+2025-07-29 10:11:54 [main] INFO : OverAll CSAT Card Value: 3.91
+2025-07-29 10:11:54 [main] INFO : Promoter Card Value: 48 %
+2025-07-29 10:11:55 [main] INFO : Neutral Card Value: 48 %
+2025-07-29 10:11:55 [main] INFO : Detractors Card Value: 4 %
+2025-07-29 10:11:56 [main] INFO : Response Count Card Value: 23
+2025-07-29 10:11:57 [main] INFO : Inside CSAT Resource TOD Project
+2025-07-29 10:12:09 [main] INFO : OverAll CSAT Card Value: 3.8
+2025-07-29 10:12:10 [main] INFO : Promoter Card Value: 50%
+2025-07-29 10:12:10 [main] INFO : Neutral Card Value: 35%
+2025-07-29 10:12:11 [main] INFO : Detractors Card Value: 15%
+2025-07-29 10:12:12 [main] INFO : Response Count Card Value: 40
+2025-07-29 10:12:13 [main] INFO : Inside CSAT AMS Project
+2025-07-29 10:12:25 [main] INFO : OverAll CSAT Card Value: 3.59
+2025-07-29 10:12:26 [main] INFO : Promoter Card Value: 49 %
+2025-07-29 10:12:27 [main] INFO : Neutral Card Value: 20 %
+2025-07-29 10:12:27 [main] INFO : Detractors Card Value: 31 %
+2025-07-29 10:12:28 [main] INFO : Response Count Card Value: 35
+2025-07-29 10:12:29 [main] INFO : Inside CSAT Engagement Level Project
+2025-07-29 10:12:42 [main] INFO : OverAll CSAT Card Value: 3.36
+2025-07-29 10:12:42 [main] INFO : Promoter Card Value: 37.5 %
+2025-07-29 10:12:43 [main] INFO : Neutral Card Value: 31.25 %
+2025-07-29 10:12:43 [main] INFO : Detractors Card Value: 31.25 %
+2025-07-29 10:12:44 [main] INFO : Response Count Card Value: 32
+2025-07-29 10:12:55 [main] INFO : Click Entire Dashboard Download Button
+2025-07-29 10:12:58 [main] INFO : Download CSV File Format 
+2025-07-29 10:13:03 [main] INFO : Download PDF File Format 
+2025-07-29 10:13:10 [main] INFO : Sharing Report to Customer
+2025-07-29 10:13:11 [main] INFO : Entered Email: phani.maddi@criticalriver.com
+2025-07-29 10:13:13 [main] INFO : Selecting Email
+2025-07-29 10:13:14 [main] INFO : Click Send PDF
+2025-07-29 10:13:59 [main] INFO : Inside Customer Mail
+2025-07-29 10:14:13 [main] INFO : Get Email Header: Development Project Dashboard Report
+2025-07-29 10:14:15 [main] INFO : Get Email Body: Hi phani.maddi,
+We hope you're doing well! We're excited to share the latest Development Project Dashboard Report.
+The full dashboard is attached as a PDF for your review.
+Thank you for your engagement,
+CriticalRiver Technologies Team
+2025-07-29 10:14:20 [main] INFO : Download PDF from mail
+2025-07-29 10:14:44 [main] INFO : Verify ORG Members Header
+2025-07-29 10:14:44 [main] INFO : Header is Valid: Organization Members
+2025-07-29 10:14:45 [main] INFO : Selecting Pagination 5
+2025-07-29 10:14:45 [main] INFO : 5 pagination Option Selected
+2025-07-29 10:14:45 [main] INFO : Selecting Pagination 15
+2025-07-29 10:14:46 [main] INFO : 15 pagination Option Selected
+2025-07-29 10:14:46 [main] INFO : Selecting Pagination 10
+2025-07-29 10:14:47 [main] INFO : 10 pagination Option Selected
+2025-07-29 10:14:48 [main] INFO : Download CSV File Format 
+2025-07-29 10:14:53 [main] INFO : Download PDF File Format 
+2025-07-29 10:14:59 [main] INFO : Validating the Send invite without selecting role in Org Member Test
+2025-07-29 10:15:00 [main] INFO : Insert Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-29 10:15:03 [main] INFO : Error Message: Please enter an email and select a role.
+2025-07-29 10:15:05 [main] INFO : Validating the existing user invite in ORG Members Test
+2025-07-29 10:15:06 [main] INFO : Insert Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-29 10:15:11 [main] INFO : Error Message: This user already has a role assigned.
+2025-07-29 10:15:14 [main] INFO : Validating the user invite in ORG Members Test
+2025-07-29 10:15:15 [main] INFO : Insert Email: phani.maddi@criticalriver.com
+2025-07-29 10:15:21 [main] INFO : Validating the Search Org Member Test
+2025-07-29 10:15:22 [main] INFO : Insert Search Value: Jhansi Raj
+2025-07-29 10:15:24 [main] INFO : Search Related Value: Jhansi Raj
+2025-07-29 10:15:27 [main] INFO : Update the role for user Test
+2025-07-29 10:15:28 [main] INFO : Role Before Update: Administrator
+2025-07-29 10:15:32 [main] INFO : Updating Role for User: Contributor
+2025-07-29 10:15:37 [main] INFO : Role After Update: Contributor
+2025-07-29 10:16:47 [main] INFO : Search Team name using search team and user field in Setting Teams Page
+2025-07-29 10:16:47 [main] INFO : Verify Teams Header
+2025-07-29 10:17:14 [main] INFO : Header is Valid: Teams
+2025-07-29 10:17:15 [main] INFO : Search for the Team :Data Science and AI
+2025-07-29 10:17:17 [main] INFO : Team Name: Data Science and AI
+2025-07-29 10:17:18 [main] INFO : Team Count: 71
+2025-07-29 10:17:23 [main] INFO : Team Name in Team Detail Page: Data Science and AI
+2025-07-29 10:17:26 [main] INFO : Search for the Team :ERP Applications
+2025-07-29 10:17:28 [main] INFO : Team Name: ERP Applications
+2025-07-29 10:17:29 [main] INFO : Team Count: 96
+2025-07-29 10:17:34 [main] INFO : Team Name in Team Detail Page: ERP Applications
+2025-07-29 10:17:38 [main] INFO : Search User using search team and user field in Setting Teams Page
+2025-07-29 10:17:38 [main] INFO : Search for the User :phani.maddi@criticalriver.com
+2025-07-29 10:17:40 [main] INFO : Team Name: DSiL
+2025-07-29 10:17:41 [main] INFO : Team Count: 34
+2025-07-29 10:17:45 [main] INFO : Team Name in Team Detail Page: DSiL
+2025-07-29 10:17:47 [main] INFO : Search Related Value: Phani Kumar Maddi
+2025-07-29 10:17:50 [main] INFO : Validating Team Detail Page Pagination in Setting Teams Page
+2025-07-29 10:17:50 [main] INFO : Verify Team Detail Page Header
+2025-07-29 10:17:51 [main] INFO : Header is Available: Teams / Team Details
+2025-07-29 10:17:51 [main] INFO : Selecting Pagination 5
+2025-07-29 10:17:51 [main] INFO : 5 pagination Option Selected
+2025-07-29 10:17:52 [main] INFO : Selecting Pagination 15
+2025-07-29 10:17:52 [main] INFO : 15 pagination Option Selected
+2025-07-29 10:17:53 [main] INFO : Selecting Pagination 10
+2025-07-29 10:17:53 [main] INFO : 10 pagination Option Selected
+2025-07-29 10:17:55 [main] INFO : Download CSV File Format 
+2025-07-29 10:18:00 [main] INFO : Download PDF File Format 
+2025-07-29 10:18:08 [main] INFO : Validating the Send invite without selecting role in Teams Test
+2025-07-29 10:18:10 [main] INFO : Insert Email: phani.maddi@criticalriver.com
+2025-07-29 10:18:13 [main] INFO : Error Message: Please enter an email, select a role, and choose a team.
+2025-07-29 10:18:16 [main] INFO : Validating the existing user invite in Teams Test
+2025-07-29 10:18:27 [main] INFO : Error Message: This user is already has a role assigned.
+2025-07-29 10:18:29 [main] INFO : Validating the user invite in Teams Test
+2025-07-29 10:18:30 [main] INFO : Insert Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-29 10:18:36 [main] INFO : Validating the Search User in Team Test
+2025-07-29 10:18:37 [main] INFO : Insert Search Value: Jhansi Raj Todiganji
+2025-07-29 10:18:39 [main] INFO : Search Related Value: Jhansi Raj Todiganji
+2025-07-29 10:18:43 [main] INFO : Update the role for user in Team Test
+2025-07-29 10:18:44 [main] INFO : Role Before Update: Reader
+2025-07-29 10:18:47 [main] INFO : Updating Role for User: Contributor
+2025-07-29 10:18:52 [main] INFO : Role After Update: Contributor
+2025-07-29 10:18:58 [main] INFO : Testing Ended
+2025-07-29 10:18:58 [main] INFO : ***********
+2025-07-29 10:21:33 [main] INFO : Launching Chrome Browser
+2025-07-29 10:21:33 [main] INFO : Report Name :CsatPage.html
+2025-07-29 10:21:38 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-29 10:21:38 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-29 10:21:39 [main] INFO : Inside Login Page: LOGIN
+2025-07-29 10:22:05 [main] INFO : Logged in to CSAT Application
+2025-07-29 10:23:14 [main] INFO : Launching Chrome Browser
+2025-07-29 10:23:14 [main] INFO : Report Name :CSATOtherModules_Report.html
+2025-07-29 10:23:15 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-29 10:23:22 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-29 10:23:22 [main] INFO : Inside Login Page: LOGIN
+2025-07-29 10:23:47 [main] INFO : Logged in to CSAT Application
+2025-07-29 10:23:51 [main] INFO : Verify Profile Header
+2025-07-29 10:23:51 [main] INFO : Header is Valid: Profile
+2025-07-29 10:23:51 [main] INFO : Verify Full name
+2025-07-29 10:23:51 [main] INFO : Full Name: Anwar Hussain
+2025-07-29 10:23:51 [main] INFO : Verify Email
+2025-07-29 10:23:51 [main] INFO : Email: anwar_hussain@skillsynccr.onmicrosoft.com
+2025-07-29 10:23:55 [main] INFO : Verify Roles Header
+2025-07-29 10:23:55 [main] INFO : Header is Valid: Roles
+2025-07-29 10:23:55 [main] INFO : Verify Role Column Header
+2025-07-29 10:23:55 [main] INFO : Column Header is Valid: Role
+2025-07-29 10:23:55 [main] INFO : Verify Description Column Header
+2025-07-29 10:23:55 [main] INFO : Column Header is Valid: Description
+2025-07-29 10:23:55 [main] INFO : Verify Last Modified By Column Header
+2025-07-29 10:23:55 [main] INFO : Column Header is Valid: Last Modified By
+2025-07-29 10:23:55 [main] INFO : Verify Last Modified On Column Header
+2025-07-29 10:23:55 [main] INFO : Column Header is Valid: Last Modified On
+2025-07-29 10:23:56 [main] INFO : Verify Administrator Role and Description
+2025-07-29 10:23:56 [main] INFO : Roles is Valid: Administrator
+2025-07-29 10:23:56 [main] INFO : Role Description : Full Access To Manage All The Surveys, Projects And Roles
+2025-07-29 10:23:56 [main] INFO : Verify Contributor Role and Description
+2025-07-29 10:23:56 [main] INFO : Roles is Valid: Contributor
+2025-07-29 10:23:56 [main] INFO : Role Description : Grants Full Access To Manage All Surveys And Projects But Does Not Allow You To Assign Roles
+2025-07-29 10:23:56 [main] INFO : Verify Owner Role and Description
+2025-07-29 10:23:56 [main] INFO : Roles is Valid: Owner
+2025-07-29 10:23:56 [main] INFO : Role Description : Grants Full Access To Manage All Surveys And Projects Including Ability To Assigned Role But Does Not Allow You To Make Any Changes To Roles
+2025-07-29 10:23:56 [main] INFO : Verify Reader Role and Description
+2025-07-29 10:23:56 [main] INFO : Roles is Valid: Reader
+2025-07-29 10:23:56 [main] INFO : Role Description : View Surveys, Projects And Roles But Does Not Allow You To Make Any Changes
+2025-07-29 10:24:00 [main] INFO : Verify Profile Header
+2025-07-29 10:24:00 [main] INFO : Header is Valid: Reports
+2025-07-29 10:24:00 [main] INFO : Inside CSAT Development Project
+2025-07-29 10:24:11 [main] INFO : OverAll CSAT Card Value: 3.91
+2025-07-29 10:24:12 [main] INFO : Promoter Card Value: 48 %
+2025-07-29 10:24:13 [main] INFO : Neutral Card Value: 48 %
+2025-07-29 10:24:13 [main] INFO : Detractors Card Value: 4 %
+2025-07-29 10:24:14 [main] INFO : Response Count Card Value: 23
+2025-07-29 10:24:15 [main] INFO : Inside CSAT Resource TOD Project
+2025-07-29 10:24:27 [main] INFO : OverAll CSAT Card Value: 3.8
+2025-07-29 10:24:28 [main] INFO : Promoter Card Value: 50%
+2025-07-29 10:24:29 [main] INFO : Neutral Card Value: 35%
+2025-07-29 10:24:29 [main] INFO : Detractors Card Value: 15%
+2025-07-29 10:24:30 [main] INFO : Response Count Card Value: 40
+2025-07-29 10:24:31 [main] INFO : Inside CSAT AMS Project
+2025-07-29 10:24:44 [main] INFO : OverAll CSAT Card Value: 3.59
+2025-07-29 10:24:45 [main] INFO : Promoter Card Value: 49 %
+2025-07-29 10:24:45 [main] INFO : Neutral Card Value: 20 %
+2025-07-29 10:24:46 [main] INFO : Detractors Card Value: 31 %
+2025-07-29 10:24:46 [main] INFO : Response Count Card Value: 35
+2025-07-29 10:24:47 [main] INFO : Inside CSAT Engagement Level Project
+2025-07-29 10:25:00 [main] INFO : OverAll CSAT Card Value: 3.36
+2025-07-29 10:25:01 [main] INFO : Promoter Card Value: 37.5 %
+2025-07-29 10:25:01 [main] INFO : Neutral Card Value: 31.25 %
+2025-07-29 10:25:02 [main] INFO : Detractors Card Value: 31.25 %
+2025-07-29 10:25:02 [main] INFO : Response Count Card Value: 32
+2025-07-29 10:25:14 [main] INFO : Click Entire Dashboard Download Button
+2025-07-29 10:25:18 [main] INFO : Download CSV File Format 
+2025-07-29 10:25:24 [main] INFO : Download PDF File Format 
+2025-07-29 10:25:30 [main] INFO : Sharing Report to Customer
+2025-07-29 10:25:31 [main] INFO : Entered Email: phani.maddi@criticalriver.com
+2025-07-29 10:25:32 [main] INFO : Selecting Email
+2025-07-29 10:25:33 [main] INFO : Click Send PDF
