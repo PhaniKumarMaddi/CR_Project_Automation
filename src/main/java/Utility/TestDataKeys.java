@@ -43,6 +43,10 @@ public class TestDataKeys {
 //	public String ssoUserNameDev = "jhansi_raj@skillsynccr.onmicrosoft.com";
 //	public String ssoPasswordDev = "Guta565967#";
 
+	public String ssoUserNameContributor = "pavan_kumar@skillsynccr.onmicrosoft.com";
+	public String ssoPasswordContributor = "Nuxo857581#";
+
+	
 	// pages url
 	public String project_Url = "/projects";
 	public String survey_Url = "/surveys";
