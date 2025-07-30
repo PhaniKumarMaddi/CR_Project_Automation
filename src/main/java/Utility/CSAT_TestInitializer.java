@@ -61,8 +61,6 @@ public class CSAT_TestInitializer extends WaitsManager {
 //		String url = configFile.getProperty("CSAT_Url"); // UAT
 		String url = configFile.getProperty("CSAT_Dev_Url"); // DEV
 
-//		String nameForReport = configFile.getProperty("ReportName");
-//		nameForReport = configFile.getProperty("ReportName");
 
 		grep.setupExtentReport(nameForReport);
 		grep.testCreate("Login Page", "Login test");

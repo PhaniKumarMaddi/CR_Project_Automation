@@ -4,7 +4,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.asserts.SoftAssert;
 
-import Pages.CR_ChatBot_Page;
 import Pages.CSAT_Project_Page;
 
 public class ValidatingAssertions extends WaitsManager {
@@ -14,7 +13,6 @@ public class ValidatingAssertions extends WaitsManager {
 	GenerateReports grep = new GenerateReports();
 	TestDataKeys testData = new TestDataKeys();
 	SoftAssert softAsserts = new SoftAssert();
-	CR_ChatBot_Page crPage = new CR_ChatBot_Page();
 	CSAT_Project_Page csatProject = new CSAT_Project_Page();
 
 	// Validate equal assert
@@ -87,45 +85,6 @@ public class ValidatingAssertions extends WaitsManager {
 
 	public void assertAllFunction() {
 		softAsserts.assertAll();
-	}
-
-	// CHATBOT PROMPTS VALIDATION
-	public void validatePromptMessage(String result) throws Exception {
-
-		String getMessage = crPage.getUserMessagePrompt();
-		softAsserts.assertEquals(getMessage, result);
-		System.out.println("Expected :" + result + " and Actual :" + getMessage);
-		assertPassOrFail(getMessage, result);
-	}
-
-	public void validateLinkPreviewTitle(String result) throws Exception {
-
-		String getTitle = crPage.getLinkTitle();
-		softAsserts.assertEquals(getTitle, result);
-		System.out.println("Expected :" + result + " and Actual :" + getTitle);
-		assertPassOrFail(getTitle, result);
-	}
-
-	public void validateLinkDescription(String result) throws Exception {
-
-		String getDesc = crPage.getLinkDescription();
-		System.out.println("Validating the Link Description: " + getDesc);
-		grep.infoTest("Validating the Link Description: " + getDesc);
-		logger.info("Validating the Link Description: " + getDesc);
-		softAsserts.assertEquals(getDesc, result);
-		System.out.println("Expected :" + result + " and Actual :" + getDesc);
-		assertPassOrFail(getDesc, result);
-	}
-
-	public void validatePageTitle(String result) throws Exception {
-
-		String pageHeaderVal = crPage.verifyPageTitle();
-		System.out.println("Validating the Page Header value for Link Page: " + pageHeaderVal);
-		grep.infoTest("Validating the Table Header value for Link Page: " + pageHeaderVal);
-		logger.info("Validating the Table Header value for Link Page: " + pageHeaderVal);
-		softAsserts.assertEquals(pageHeaderVal.trim(), result);
-		System.out.println("Expected :" + result + " and Actual :" + result);
-		assertPassOrFail(pageHeaderVal, result);
 	}
 
 	// CSAT RELATED
