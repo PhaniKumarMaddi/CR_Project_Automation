@@ -124,7 +124,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 	public void headerValidation() throws Exception {
 		try {
 			implWait(driver);
-			waitForElement(surveyPageHeader, 30);
+			waitForElement(surveyPageHeader, 60);
 			String verifyHeader = driver.findElement(surveyPageHeader).getText();
 			if (verifyHeader.equals(dataKeys.surveyPage)) {
 				logger.info("Header is Valid: " + verifyHeader);
@@ -172,7 +172,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 			implWait(driver);
 			boolean elementexists = !driver.findElements(surveyTypeDroprdown).isEmpty();
 			if (elementexists) {
-				waitForElementToBeClickable(surveyTypeDroprdown, 30);
+				waitForElementToBeClickable(surveyTypeDroprdown, 60);
 				driver.findElement(surveyTypeDroprdown).click();
 
 			} else {
@@ -192,7 +192,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 			implWait(driver);
 			boolean elementexists = !driver.findElements(allSurveyType).isEmpty();
 			if (elementexists) {
-				waitForElementToBeClickable(allSurveyType, 30);
+				waitForElementToBeClickable(allSurveyType, 60);
 				driver.findElement(allSurveyType).click();
 			} else {
 				grep.failTest("All Survey Type Not Available");
@@ -259,7 +259,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 			implWait(driver);
 			boolean elementExists = !driver.findElements(closeSurveyPopups).isEmpty();
 			if (elementExists) {
-				waitForElementToBeClickable(closeSurveyPopups, 30);
+				waitForElementToBeClickable(closeSurveyPopups, 60);
 				driver.findElement(closeSurveyPopups).click();
 			} else {
 				grep.failTest("Survey Close Popup button not available");
@@ -295,7 +295,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 	public void popupHeaderValidation(String headerVal) throws Exception {
 		try {
 			implWait(driver);
-			waitForElement(popupsHeader, 30);
+			waitForElement(popupsHeader, 60);
 			String verifyHeader = driver.findElement(popupsHeader).getText();
 			if (verifyHeader.equals(headerVal)) {
 				logger.info("Header is Valid: " + verifyHeader);
@@ -355,7 +355,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 			implWait(driver);
 			boolean elementexists = !driver.findElements(selectSurvey).isEmpty();
 			if (elementexists) {
-				waitForElementToBeClickable(selectSurvey, 30);
+				waitForElementToBeClickable(selectSurvey, 60);
 				driver.findElement(selectSurvey).click();
 			} else {
 				grep.failTest(surveyName + " Survey Not Available");
@@ -372,7 +372,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 	public void surveyDetailHeaderValidation(String header) throws Exception {
 		try {
 			implWait(driver);
-			waitForElement(surveyDetailsHeader, 30);
+			waitForElement(surveyDetailsHeader, 60);
 			String verifyHeader = driver.findElement(surveyDetailsHeader).getText();
 			if (verifyHeader.equals(header)) {
 				logger.info("Header is Valid: " + verifyHeader);
@@ -397,7 +397,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 			implWait(driver);
 			boolean elementexists = !driver.findElements(surveyActionsInTable).isEmpty();
 			if (elementexists) {
-				waitForElementToBeClickable(surveyActionsInTable, 30);
+				waitForElementToBeClickable(surveyActionsInTable, 60);
 				driver.findElement(surveyActionsInTable).click();
 			} else {
 				grep.failTest(action + " for " + option + " Survey Type Not Available");
@@ -435,7 +435,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 			implWait(driver);
 			boolean elementExists = !driver.findElements(closeEditPopup).isEmpty();
 			if (elementExists) {
-				waitForElementToBeClickable(closeEditPopup, 30);
+				waitForElementToBeClickable(closeEditPopup, 60);
 				driver.findElement(closeEditPopup).click();
 			} else {
 				grep.failTest("Edit Survey Close Popup button not available");
@@ -903,7 +903,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 			implWait(driver);
 			boolean elementExists = !driver.findElements(startDate).isEmpty();
 			if (elementExists) {
-				waitForElement(startDate, 30);
+				waitForElement(startDate, 60);
 				dateVal = driver.findElement(startDate).getAttribute("value");
 			} else {
 				dateVal = "Start Date Does Not Exists";
@@ -923,7 +923,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 			implWait(driver);
 			boolean elementExists = !driver.findElements(endDate).isEmpty();
 			if (elementExists) {
-				waitForElement(endDate, 30);
+				waitForElement(endDate, 60);
 				dateVal = driver.findElement(endDate).getAttribute("value");
 			} else {
 				dateVal = "End Date Does Not Exists";
