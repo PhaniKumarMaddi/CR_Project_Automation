@@ -25643,3 +25643,80 @@ CriticalRiver Technologies Team
 2025-07-30 09:49:03 [main] INFO : Logged out Successfully
 2025-07-30 09:49:09 [main] INFO : Testing Ended
 2025-07-30 09:49:09 [main] INFO : ***********
+2025-07-31 09:25:32 [main] INFO : Launching Chrome Browser
+2025-07-31 09:25:32 [main] INFO : Report Name :CsatPage.html
+2025-07-31 09:25:36 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-07-31 09:25:36 [main] INFO : Logo is Available CRSurvey Logo
+2025-07-31 09:25:36 [main] INFO : Inside Login Page: LOGIN
+2025-07-31 09:26:03 [main] INFO : Logged in to CSAT Application
+2025-07-31 09:26:04 [main] INFO : Menu Collapsed
+2025-07-31 09:26:05 [main] INFO : Verify keeping mandatory Fields empty 
+2025-07-31 09:26:06 [main] INFO : Save Button is Disabled
+2025-07-31 09:26:08 [main] INFO : Verify Keeping One mandatory field Empty in add Project
+2025-07-31 09:26:09 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-07-31 09:26:09 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-31 09:26:10 [main] INFO : Entering Project Status: Pipeline
+2025-07-31 09:26:11 [main] INFO : Entering Project Type: Development
+2025-07-31 09:26:11 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-31 09:26:13 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-31 09:26:15 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-31 09:26:20 [main] INFO : Save Button is Disabled
+2025-07-31 09:26:23 [main] INFO : Verify adding invalid characters in project name Test
+2025-07-31 09:26:23 [main] INFO : Entering Project Name: #$%^&*
+2025-07-31 09:26:23 [main] INFO : Verify the error message 
+2025-07-31 09:26:23 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-07-31 09:26:25 [main] INFO : Verify adding only Space character in project name Test
+2025-07-31 09:26:26 [main] INFO : Entering Project Name Only Spaces :    
+2025-07-31 09:26:26 [main] INFO : Verify the error message 
+2025-07-31 09:26:26 [main] INFO : Project name can't be empty.
+2025-07-31 09:26:28 [main] INFO : Verify Adding Invalid customer name
+2025-07-31 09:26:29 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-07-31 09:26:31 [main] INFO : Entering Customer Name: #$%^&*
+2025-07-31 09:26:32 [main] INFO : Customer Name Error :Full Name can only contain letters, numbers, spaces, hyphens, or underscores.
+2025-07-31 09:26:34 [main] INFO : Verify Adding only spaces in customer name
+2025-07-31 09:26:35 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-07-31 09:26:38 [main] INFO : Entering Customer Name only spaces:     
+2025-07-31 09:26:39 [main] INFO : Customer Name Error :Full Name cannot be empty.
+2025-07-31 09:27:41 [main] INFO : Verify Adding Invalid customer email format
+2025-07-31 09:27:42 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-07-31 09:27:45 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-31 09:27:47 [main] INFO : Entering Customer Email: Phani Maddi
+2025-07-31 09:27:48 [main] INFO : Customer Email Error :Please enter a valid email address (e.g., user@example.com).
+2025-07-31 09:27:50 [main] INFO : Verify Adding existing project name
+2025-07-31 09:27:51 [main] INFO : Entering Project Name: CSAT Test
+2025-07-31 09:27:51 [main] INFO : Verify the error message 
+2025-07-31 09:28:15 [main] INFO : A project with this name already exists.
+2025-07-31 09:28:17 [main] INFO : Verify Entering Invalid Characters in Description Field
+2025-07-31 09:28:19 [main] INFO : Description Error: Special characters (e.g., !@#$%^&*()) are not allowed in the project description.
+2025-07-31 09:28:21 [main] INFO : Verify Entering End Date previous than Start date
+2025-07-31 09:28:22 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-07-31 09:28:23 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-31 09:28:24 [main] INFO : Entering Project Status: Pipeline
+2025-07-31 09:28:24 [main] INFO : Entering Project Type: Development
+2025-07-31 09:28:39 [main] INFO : End Date Error: End date must be greater than start date.
+2025-07-31 09:28:43 [main] INFO : Verify Creating a new Project
+2025-07-31 09:28:43 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-07-31 09:28:44 [main] INFO : Entering Project Practice: Data Science and AI
+2025-07-31 09:28:45 [main] INFO : Entering Project Status: Pipeline
+2025-07-31 09:28:45 [main] INFO : Entering Project Type: Development
+2025-07-31 09:29:01 [main] INFO : Entered Project Start Date: 2025-07-30
+2025-07-31 09:29:01 [main] INFO : Entered Project End Date: 2025-08-09
+2025-07-31 09:29:02 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-07-31 09:29:05 [main] INFO : Entering Customer Name: Phani Maddi
+2025-07-31 09:29:06 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-07-31 09:29:25 [main] INFO : Save Project
+2025-07-31 09:30:25 [main] ERROR: CSAT Project Automation Project Not Created
+2025-07-31 09:30:29 [main] INFO : Update Duplicate customer contact
+2025-07-31 09:30:38 [main] INFO : Customer Email Error :A contact with this name and email already exists.
+2025-07-31 09:30:40 [main] INFO : Update new customer contact to existing project
+2025-07-31 09:30:58 [main] INFO : Delete customer contact from existing project
+2025-07-31 09:31:19 [main] INFO : Delete Existing Project
+2025-07-31 09:32:24 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//td[text()='CSAT Project Automation']/parent::tr/td[@class='Project-action-cell']/div/button[@title='Delete']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a2a8695f922edfdecc83085a26920067, findElement {using=xpath, value=//td[text()='CSAT Project Automation']/parent::tr/td[@class='Project-action-cell']/div/button[@title='Delete']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50355}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50355/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a2a8695f922edfdecc83085a26920067

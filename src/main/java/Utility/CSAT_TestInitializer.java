@@ -2,12 +2,10 @@ package Utility;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
@@ -83,12 +81,12 @@ public class CSAT_TestInitializer extends WaitsManager {
 		waitTime(driver);
 		login.clickSSOLoginBtn();
 		waitTime(driver);
-//		login.enterUserName(dataKeys.ssoUserName);
-		login.enterUserName(dataKeys.ssoUserNameDev);
+		login.enterUserName(dataKeys.ssoUserName);
+//		login.enterUserName(dataKeys.ssoUserNameDev);
 		login.clickSignIn();
 		waitTime2(driver);
-//		login.enterPassword(dataKeys.ssoPassword);
-		login.enterPassword(dataKeys.ssoPasswordDev);
+		login.enterPassword(dataKeys.ssoPassword);
+//		login.enterPassword(dataKeys.ssoPasswordDev);
 		login.clickSignIn();
 		waitTime5(driver);
 		// yes or no

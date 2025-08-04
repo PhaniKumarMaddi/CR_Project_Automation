@@ -8,9 +8,11 @@ import java.util.ArrayList;
 import java.util.Set;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -196,5 +198,27 @@ public class WaitsManager {
 	public void refreshPageUrl() {
 		 String currentURL = driver.getCurrentUrl();
 	        driver.get(currentURL);
+	}
+	
+	public void actionsRelated() {
+		Actions act = new Actions(driver);
+		WebElement element = driver.findElement(By.id("Test"));
+		// move to element and click 
+		act.moveToElement(element).click().perform();
+		// move to element and hover 
+		act.moveToElement(element).build().perform();
+		// double click 
+		act.doubleClick(element).build().perform();
+		// context click
+		act.contextClick(element).build().perform();
+		//  drag and drop 
+		act.dragAndDrop(element, element).build().perform();
+		// Copy and paste 
+		// control a
+		act.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).perform();
+		// control c
+		act.keyDown(Keys.CONTROL).sendKeys("c").keyUp(Keys.CONTROL).perform();
+		// control v
+		act.keyDown(Keys.CONTROL).sendKeys("v").keyUp(Keys.CONTROL).perform();
 	}
 }
