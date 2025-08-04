@@ -20,7 +20,6 @@ public class TestDataKeys {
 	public String chatBotPrompt_11 = "Can you share recent case studies that showcase CriticalRiver’s project successes?";
 	public String invalid_ChatBotPrompt = "2+2";
 	public String invalid_SplChar_Prompt = "@#$%^&*(#$%^";
-
 	public String personalInformationPrompt = "Can i have Criticalriver CEO mobile number?";
 
 	public String linkPreviewDescription = "For more information visit this link";
@@ -171,12 +170,12 @@ public class TestDataKeys {
 	public String updateCustomerContactEmail = "anwar_hussain@skillsynccr.onmicrosoft.com";
 	public String customerContactInvalidEmail = "Phani Maddi";
 
-	public String date_StartDate = "30";
-	public String month_StartDate = "07";
+	public String date_StartDate = "05";
+	public String month_StartDate = "08";
 	public String year_StartDate = "2025";
-	public String date_EndDate = "09";
-	public String lesser_date_EndDate = "13";
-	public String lesser_month_EndDate = "07";
+	public String date_EndDate = "29";
+	public String lesser_date_EndDate = "01";
+	public String lesser_month_EndDate = "08";
 	public String month_EndDate = "08";
 	public String year_EndDate = "2025";
 
