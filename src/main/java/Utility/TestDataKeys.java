@@ -148,7 +148,7 @@ public class TestDataKeys {
 
 	// Create New Project
 	public String newProjectName = "CSAT Project Automation";
-	public String duplicateProjectName = "CSAT Test";
+	public String duplicateProjectName = "CSAT Test Project";
 	public String invalidName = "#$%^&*";
 	public String spacesInName = "    ";
 

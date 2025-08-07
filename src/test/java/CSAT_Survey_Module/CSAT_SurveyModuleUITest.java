@@ -183,7 +183,8 @@ public class CSAT_SurveyModuleUITest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "Selecting Survey From Table Popup", "Selecting_Survey_from_Table");
 
 		waitTime(driver);
-		csat_Survey.clickCloseSurveyPopups();
+//		csat_Survey.clickCloseSurveyPopups();
+		csat_Survey.clickCloseSurveyDetailsPopup();
 
 		waitTime(driver);
 		grep.infoTest("Validating Edit Survey from Table");

@@ -45,21 +45,24 @@ public class CSAT_SurveyPage extends WaitsManager {
 
 	// add new survey type
 	By addNewSurveyType = By.xpath("//span[@title='Add New Survey Type']");
-	By closeSurveyPopups = By.cssSelector("img.close-img");
-
+//	By closeSurveyPopups = By.cssSelector("img.close-img");
+	By closeSurveyPopups = By.cssSelector("button.survey-form-close-btn");
 	// Search
 	By searchSurveyField = By.cssSelector("input.survey-search");
 
 	// Add new Survey
 	By addNewSurvey = By.xpath("//button[@title='Add New Survey']");
-	By popupsHeader = By.cssSelector("div.survey-form-modal-header");
+//	By popupsHeader = By.cssSelector("div.survey-form-modal-header");
+	By popupsHeader = By.cssSelector("div.survey-form-modal-header>h2");
 	By editPopupHeader = By.xpath("//div[@class='add-survey-modal-header']/h2");
 	By closeEditPopup = By.cssSelector("button.add-survey-close-btn");
 
 	// Select Survey from Table
 	By surveyDetailsHeader = By.cssSelector("h1.survey-title");
 	By surveyTypeColInTable = By.xpath("//tr[@class='survey-table-row']/td[2]");
-
+	//
+	By closeSurveyDetailsPopup = By.cssSelector("img.close-img");
+	
 	// Add new Survey Type Test
 	By typeField = By.xpath("//input[@placeholder='Survey Type']");
 	By descField = By.xpath("//textarea[@name='description']");
@@ -479,6 +482,25 @@ public class CSAT_SurveyPage extends WaitsManager {
 			logger.error("Test Failed :" + e.getMessage());
 		}
 
+	}
+	
+	// close survey Details popups
+	public void clickCloseSurveyDetailsPopup() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(closeSurveyDetailsPopup).isEmpty();
+			if (elementExists) {
+				waitForElementToBeClickable(closeSurveyDetailsPopup, 60);
+				driver.findElement(closeSurveyDetailsPopup).click();
+			} else {
+				grep.failTest("Survey Details Close Popup button not available");
+				logger.error("Survey Details Close popup button not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
 	}
 
 	// click Add New Survey Type
