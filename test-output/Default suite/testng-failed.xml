@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CSAT_Survey_Module.CSAT_SurveyModuleUITest">
+      <class name="L_And_D_Project.LAndD_Page_UI_Test">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="surveyModule_UI_Test"/>
+          <include name="homePageTest"/>
         </methods>
-      </class> <!-- CSAT_Survey_Module.CSAT_SurveyModuleUITest -->
+      </class> <!-- L_And_D_Project.LAndD_Page_UI_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

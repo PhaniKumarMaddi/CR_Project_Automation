@@ -70,14 +70,12 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 		logger.info("Home Page Ui test");
 		lndPage.validateHomePageHeader();
 		lndPage.clickStartLearning();
-		lndPage.statCardsData();
+		lndPage.homePageStatCards(dataKeys.dept_StatCard);
+		lndPage.homePageStatCards(dataKeys.totCours_StatCard);
+		lndPage.homePageStatCards(dataKeys.mycertificate_StatCard);
+		lndPage.homePageStatCards(dataKeys.popCourse_StatCard);
+
 		grep.captureScreenshot("pass", "Home page ui test", "homePageHeader_lnd");
-		waitTime(driver);
-		lndPage.clickDepartmentStatCard();
-		waitTime(driver);
-		verifyDeptUrl("departmentTrackCard");
-		waitTime(driver);
-		lndPage.navigateToPage(dataKeys.homePageUrl);
 		waitTime(driver);
 
 		grep.testCreate("Home Page Continue Learning Test", "Home Page Continue Learning");
@@ -93,7 +91,6 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 		waitTime(driver);
 		lndPage.navigateToPage(dataKeys.homePageUrl);
 		waitTime(driver);
-		verifyDeptUrl("departmentTrackCard");
 
 		grep.testCreate("Home Page Feature Courses Test", "Home Page Feature Courses");
 		grep.infoTest("Home Page Feature Courses test");
@@ -123,8 +120,21 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 
 		grep.infoTest("Verify clicking on department card");
 		logger.info("Verify clicking on department card");
+		clickDeptCard(dataKeys.dept_DsAndAi);
+		waitTime(driver);
+		clickDeptCard(dataKeys.dept_Salesforce);
+		waitTime(driver);
 
-	
+	}
+
+	public void clickDeptCard(String deptName) throws Exception {
+		lndPage = new L_And_D_Page();
+
+		waitTime(driver);
+		lndPage.clickDeptCard_InBrowseDept(deptName);
+		waitTime5(driver);
+		grep.captureScreenshot("pass", "Clicking " + deptName + " Department Card", "click" + deptName + "_Card");
+		lndPage.navigateToPage(dataKeys.homePageUrl);
 	}
 
 	public void navigateToAllPages(String pageNameValue) throws Exception {

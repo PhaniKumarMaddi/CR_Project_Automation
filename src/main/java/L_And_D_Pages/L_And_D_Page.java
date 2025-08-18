@@ -28,11 +28,6 @@ public class L_And_D_Page extends WaitsManager {
 	By heroContectDesc = By.cssSelector("div.hero-content >p");
 	By startLearning = By.xpath("//button[text()='Start Learning']");
 
-	// Stat cards course available and departments count
-	By coursesAvailabeCount = By.xpath("//p[text()='Courses Available']/parent::div/h2");
-	By departmentCounts = By.xpath("//p[text()='Department Tracks']/parent::a/h2");
-	By deptCardLink = By.xpath("//p[text()='Department Tracks']/parent::a");
-
 	// Course Continue Learning
 	By continueLearnHeader = By.xpath("//div[@class='continue-learning']/div/h2");
 	By continueCourseName = By.xpath("//div[@class='cl-courses']/div[1]/div[2]/h3");
@@ -170,30 +165,25 @@ public class L_And_D_Page extends WaitsManager {
 		}
 	}
 
-	// Stat cards
-	public void statCardsData() throws Exception {
+	// Stat cards 
+	public void homePageStatCards(String cardName) throws Exception {
 		try {
 			implWait(driver);
 
-			boolean elementExists = !driver.findElements(coursesAvailabeCount).isEmpty();
+			By statCard=By.xpath("//p[text()='"+cardName+"']/parent::div/h2");
+
+			boolean elementExists = !driver.findElements(statCard).isEmpty();
 			if (elementExists) {
-				scrollView(coursesAvailabeCount);
+				scrollView(statCard);
 				waitTime(driver);
-				String coursesCnt = driver.findElement(coursesAvailabeCount).getText();
-
-				grep.passTest("Courses Available Count: " + coursesCnt);
-				logger.info("Courses Available Count: " + coursesCnt);
-				waitTime(driver);
-
-				String deptCnt = driver.findElement(departmentCounts).getText();
-
-				grep.passTest("Department Tracks Available Count: " + deptCnt);
-				logger.info("Department Tracks Available Count: " + deptCnt);
-				waitTime(driver);
+				
+				String count= driver.findElement(statCard).getText();
+				grep.infoTest(cardName+" Card Count: "+count);
+				logger.info(cardName+" Card Count: "+count);
 
 			} else {
-				grep.failTest("Stat Cards are Not Available");
-				logger.error("Stat Cards are Not Available");
+				grep.failTest(cardName +" Stat Card not available");
+				logger.error(cardName +" Stat Card not available");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -202,29 +192,7 @@ public class L_And_D_Page extends WaitsManager {
 
 		}
 	}
-
-	public void clickDepartmentStatCard() throws Exception {
-		try {
-			implWait(driver);
-
-			boolean elementExists = !driver.findElements(deptCardLink).isEmpty();
-			if (elementExists) {
-				scrollView(coursesAvailabeCount);
-				waitTime(driver);
-
-				driver.findElement(deptCardLink).click();
-
-			} else {
-				grep.failTest("Department Tracks Card Link is disabled");
-				logger.error("Department Tracks Card Link is disabled");
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-			grep.failTest("Test Failed :" + e.getMessage());
-			logger.error("Test Failed :" + e.getMessage());
-
-		}
-	}
+	
 
 	// Continue Learning
 	public void continueLearningDetails() throws Exception {
@@ -374,6 +342,9 @@ public class L_And_D_Page extends WaitsManager {
 
 			List<WebElement> element = driver.findElements(featureCourseEnrollBtn);
 			if (element.size() > 0) {
+				scrollView(featureCourseEnrollBtn);
+				waitTime(driver);
+				
 				element.getFirst().click();
 
 			} else {
@@ -447,6 +418,9 @@ public class L_And_D_Page extends WaitsManager {
 
 			boolean elementExists = !driver.findElements(selectDeptCard).isEmpty();
 			if (elementExists) {
+				scrollView(selectDeptCard);
+				waitTime(driver);
+				
 				driver.findElement(selectDeptCard).click();
 
 				if (deptpageInfo.getText().endsWith(deptName)) {
