@@ -48,10 +48,15 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 
 		grep.captureScreenshot("pass", "Course Details Page", "courseDetails");
 
-		grep.testCreate("Continue Course test", "Continue Course");
+		grep.testCreate("Continue and update progress for Course test", "Continue and update progress for Course");
 		waitTime(driver);
-		grep.infoTest("Continue Course test");
-		logger.info("Continue Course test");
+		grep.infoTest("Continue and update progress for Course test");
+		logger.info("Continue and update progress for Course test");
+		waitTime(driver);
+
+		waitTime(driver);
+		lndCoursePage.getProgressPercent(dataKeys.pythonBeginnerCourse);
+		waitTime(driver);
 		lndCoursePage.clickContinueLearning(dataKeys.pythonBeginnerCourse);
 		waitTime(driver);
 		verifyUrl();
@@ -61,15 +66,25 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		waitTime(driver);
 
 		lndCoursePage.clickPlayVideoList();
+
+		waitTime1(driver);
+		grep.captureScreenshot("pass", "Select Course video", "selectVideo_ForCourse");
 		waitTime(driver);
 		switchToFrame("youtube-player");
 		waitTime(driver);
 		lndCoursePage.clickPlayButton();
-		switchToMainFrame();
-		grep.captureScreenshot("pass", "Play Course video", "playVideo");
+		waitTime3(driver);
+		grep.captureScreenshot("pass", "Play Course video", "playVideo_ForCourse");
 		waitTime10(driver);
+		lndCoursePage.completeVideo();
+		lndCoursePage.verifyCompleteVideoMessage();
+		waitTime(driver);
+		switchToMainFrame();
+		lndPage.navigateToPage(dataKeys.myCoursesPageUrl);
+		waitTime(driver);
+		lndCoursePage.getProgressPercent(dataKeys.pythonBeginnerCourse);
+		waitTime(driver);
 
-		
 	}
 
 	public void verifyUrl() throws Exception {

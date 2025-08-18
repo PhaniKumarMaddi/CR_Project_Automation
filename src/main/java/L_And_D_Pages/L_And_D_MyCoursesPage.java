@@ -7,6 +7,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 import Utility.DriverManager;
 import Utility.GenerateReports;
@@ -29,6 +30,8 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 
 	By playIn_VideoList = By.xpath("//div[@class='coursevideos-video-item  ']");
 	By playBtn = By.xpath("//button[@title='Play']");
+
+	By completeTestMsg = By.xpath("//div[@class='coursevideos-player-meta']/span[3]");
 
 	public void myCoursesHeader() throws Exception {
 		try {
@@ -158,7 +161,6 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 //			By playIn_VideoListValue = By.xpath("//div[@class='coursevideos-video-item  ']/span");
 			List<WebElement> play = driver.findElements(playIn_VideoList);
 			if (play.size() > 0) {
-
 				String fullText = play.getFirst().getText();
 
 				String[] parts = fullText.split(" ");
@@ -217,6 +219,93 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 			} else {
 				grep.failTest("Course Not Found");
 				logger.error("Course Not Found");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void completeVideo() throws Exception {
+		try {
+			implWait(driver);
+			By video = By.cssSelector("div.html5-video-container");
+			By complete = By.cssSelector(".ytp-progress-bar");
+			boolean elementExist = !driver.findElements(complete).isEmpty();
+			if (elementExist) {
+				WebElement videoScreen = driver.findElement(video);
+				WebElement progressBar = driver.findElement(complete);
+				// Locate the scrubber button
+				WebElement scrubber = driver.findElement(By.cssSelector(".ytp-scrubber-button"));
+
+				waitTime(driver);
+				Actions actions = new Actions(driver);
+				actions.moveToElement(videoScreen).perform();
+				waitTime(driver);
+
+				// Get the width of the progress bar to calculate the end point
+				int progressBarWidth = progressBar.getSize().getWidth();
+
+				// Perform the drag and drop action
+				// Drag from the scrubber's current position to the far right of the progress
+				// bar
+				actions.dragAndDropBy(scrubber, progressBarWidth, 0).build().perform();
+
+				grep.infoTest("Video playback moved to the end.");
+				logger.info("Video playback moved to the end.");
+
+			} else {
+				grep.failTest("Course Video Not Found");
+				logger.error("Course Video Not Found");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void verifyCompleteVideoMessage() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(completeTestMsg).isEmpty();
+			if (elementExist) {
+				WebElement msg = driver.findElement(completeTestMsg);
+				String message = msg.getText();
+				if (message.contains("Completed")) {
+					grep.passTest("Video Completed");
+					logger.info("Video Completed");
+
+				} else {
+					grep.failTest("Course Video Not Found");
+					logger.error("Course Video Not Found");
+				}
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void getProgressPercent(String courseName) throws Exception {
+		try {
+			implWait(driver);
+			By progressPercent = By.xpath("//h3[text()='" + courseName + "']/parent::div/div[2]/span");
+
+			boolean elementExist = !driver.findElements(progressPercent).isEmpty();
+			if (elementExist) {
+				String percent = driver.findElement(progressPercent).getText();
+				grep.infoTest("Progress Percent :" + percent);
+				logger.info("Progress Percent :" + percent);
+
+			} else {
+				grep.failTest("Course Not Found for percent");
+				logger.error("Course Not Found for percent");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

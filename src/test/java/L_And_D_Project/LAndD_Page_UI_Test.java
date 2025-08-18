@@ -143,7 +143,7 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 		grep.testCreate("L&D Profile Page Test", "Profile Page");
 		waitTime(driver);
 		lndPage.clickProfilePage();
-		waitTime(driver);
+		waitTime3(driver);
 		grep.captureScreenshot("pass", "L and D Profile Page", "LAndD_Profile");
 		waitTime(driver);
 		lndPage.getProfileInfo();

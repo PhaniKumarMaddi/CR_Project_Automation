@@ -29003,3 +29003,194 @@ No certifications
 2025-08-18 18:34:39 [main] INFO : Navigated to /Home
 2025-08-18 18:34:40 [main] INFO : Testing Ended
 2025-08-18 18:34:40 [main] INFO : ***********
+2025-08-18 19:35:42 [main] INFO : Launching Chrome Browser
+2025-08-18 19:35:42 [main] INFO : Report Name :LandD_Page.html
+2025-08-18 19:35:44 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-18 19:35:44 [main] INFO : Inside Login Page: Learning and Development
+2025-08-18 19:36:11 [main] INFO : Logged in to Learning and Development Application
+2025-08-18 19:36:12 [main] INFO : Navigated to /my-courses
+2025-08-18 19:36:13 [main] INFO : Header : My Courses
+2025-08-18 19:36:13 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-18 19:36:13 [main] INFO : Inside In progress Tab
+2025-08-18 19:36:14 [main] INFO : Inside Completed Tab
+2025-08-18 19:36:15 [main] INFO : Inside All courses Tab
+2025-08-18 19:36:16 [main] INFO : Course Card Details test
+2025-08-18 19:36:16 [main] INFO : Course Category for Python Beginner: Programming
+2025-08-18 19:36:16 [main] INFO : Course Level for Python Beginner: Beginner
+2025-08-18 19:36:16 [main] INFO : Course Video Count for Python Beginner: 🎥 Videos : 42
+2025-08-18 19:36:16 [main] INFO : Course Duration for Python Beginner: ⏱ Duration : 6 hrs 35 mins
+2025-08-18 19:36:16 [main] INFO : Course Progress percent for Python Beginner: Progress: 3%
+2025-08-18 19:36:17 [main] INFO : Course Category for Airflow Beginner: Data Engineering Tools
+2025-08-18 19:36:17 [main] INFO : Course Level for Airflow Beginner: Beginner
+2025-08-18 19:36:17 [main] INFO : Course Video Count for Airflow Beginner: 🎥 Videos : 1
+2025-08-18 19:36:17 [main] INFO : Course Duration for Airflow Beginner: ⏱ Duration : 2 hrs 1 mins
+2025-08-18 19:36:17 [main] INFO : Course Progress percent for Airflow Beginner: Progress: 5%
+2025-08-18 19:36:17 [main] INFO : Course Category for Meter Data Management Beginner: Industry Applications
+2025-08-18 19:36:17 [main] INFO : Course Level for Meter Data Management Beginner: Beginner
+2025-08-18 19:36:17 [main] INFO : Course Video Count for Meter Data Management Beginner: 🎥 Videos : 1
+2025-08-18 19:36:17 [main] INFO : Course Duration for Meter Data Management Beginner: ⏱ Duration : 17 mins
+2025-08-18 19:36:17 [main] INFO : Course Progress percent for Meter Data Management Beginner: Progress: 100%
+2025-08-18 19:36:17 [main] INFO : Continue Course test
+2025-08-18 19:36:18 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-18 19:36:19 [main] INFO : Video Available in the list:4
+3.
+2025-08-18 19:36:20 [main] INFO : Select Video from video list
+2025-08-18 19:37:23 [main] INFO : Click Play Video
+2025-08-18 19:38:36 [main] ERROR: Course Not Found
+2025-08-18 19:38:36 [main] INFO : Testing Ended
+2025-08-18 19:38:36 [main] INFO : ***********
+2025-08-18 19:54:04 [main] INFO : Launching Chrome Browser
+2025-08-18 19:54:05 [main] INFO : Report Name :LandD_Page.html
+2025-08-18 19:54:07 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-18 19:54:07 [main] INFO : Inside Login Page: Learning and Development
+2025-08-18 19:54:35 [main] INFO : Logged in to Learning and Development Application
+2025-08-18 19:54:36 [main] INFO : Navigated to /my-courses
+2025-08-18 19:54:36 [main] INFO : Header : My Courses
+2025-08-18 19:54:36 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-18 19:54:36 [main] INFO : Inside In progress Tab
+2025-08-18 19:54:37 [main] INFO : Inside Completed Tab
+2025-08-18 19:54:38 [main] INFO : Inside All courses Tab
+2025-08-18 19:54:39 [main] INFO : Course Card Details test
+2025-08-18 19:54:40 [main] INFO : Course Category for Python Beginner: Programming
+2025-08-18 19:54:40 [main] INFO : Course Level for Python Beginner: Beginner
+2025-08-18 19:54:40 [main] INFO : Course Video Count for Python Beginner: 🎥 Videos : 42
+2025-08-18 19:54:40 [main] INFO : Course Duration for Python Beginner: ⏱ Duration : 6 hrs 35 mins
+2025-08-18 19:54:40 [main] INFO : Course Progress percent for Python Beginner: Progress: 3%
+2025-08-18 19:54:40 [main] INFO : Course Category for Airflow Beginner: Data Engineering Tools
+2025-08-18 19:54:40 [main] INFO : Course Level for Airflow Beginner: Beginner
+2025-08-18 19:54:40 [main] INFO : Course Video Count for Airflow Beginner: 🎥 Videos : 1
+2025-08-18 19:54:40 [main] INFO : Course Duration for Airflow Beginner: ⏱ Duration : 2 hrs 1 mins
+2025-08-18 19:54:40 [main] INFO : Course Progress percent for Airflow Beginner: Progress: 5%
+2025-08-18 19:54:40 [main] INFO : Course Category for Meter Data Management Beginner: Industry Applications
+2025-08-18 19:54:40 [main] INFO : Course Level for Meter Data Management Beginner: Beginner
+2025-08-18 19:54:40 [main] INFO : Course Video Count for Meter Data Management Beginner: 🎥 Videos : 1
+2025-08-18 19:54:40 [main] INFO : Course Duration for Meter Data Management Beginner: ⏱ Duration : 17 mins
+2025-08-18 19:54:40 [main] INFO : Course Progress percent for Meter Data Management Beginner: Progress: 100%
+2025-08-18 19:54:41 [main] INFO : Continue Course test
+2025-08-18 19:54:41 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-18 19:54:43 [main] INFO : Video Available in the list:4
+3.
+2025-08-18 19:54:43 [main] INFO : Select Video from video list
+2025-08-18 19:55:46 [main] INFO : Click Play Video
+2025-08-18 19:56:11 [main] ERROR: Test Failed :invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5d76973f7f69860d2ce08faf821c94ea, findElements {value=.ytp-progress-bar, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53353}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53353/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d76973f7f69860d2ce08faf821c94ea
+2025-08-18 19:56:12 [main] INFO : Testing Ended
+2025-08-18 19:56:12 [main] INFO : ***********
+2025-08-18 19:56:26 [main] INFO : Launching Chrome Browser
+2025-08-18 19:56:26 [main] INFO : Report Name :LandD_Page.html
+2025-08-18 19:56:28 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-18 19:56:28 [main] INFO : Inside Login Page: Learning and Development
+2025-08-18 19:56:53 [main] INFO : Logged in to Learning and Development Application
+2025-08-18 19:56:53 [main] INFO : Navigated to /my-courses
+2025-08-18 19:56:54 [main] INFO : Header : My Courses
+2025-08-18 19:56:54 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-18 19:56:54 [main] INFO : Inside In progress Tab
+2025-08-18 19:56:55 [main] INFO : Inside Completed Tab
+2025-08-18 19:56:56 [main] INFO : Inside All courses Tab
+2025-08-18 19:56:57 [main] INFO : Course Card Details test
+2025-08-18 19:56:57 [main] INFO : Course Category for Python Beginner: Programming
+2025-08-18 19:56:57 [main] INFO : Course Level for Python Beginner: Beginner
+2025-08-18 19:56:57 [main] INFO : Course Video Count for Python Beginner: 🎥 Videos : 42
+2025-08-18 19:56:57 [main] INFO : Course Duration for Python Beginner: ⏱ Duration : 6 hrs 35 mins
+2025-08-18 19:56:57 [main] INFO : Course Progress percent for Python Beginner: Progress: 3%
+2025-08-18 19:56:58 [main] INFO : Course Category for Airflow Beginner: Data Engineering Tools
+2025-08-18 19:56:58 [main] INFO : Course Level for Airflow Beginner: Beginner
+2025-08-18 19:56:58 [main] INFO : Course Video Count for Airflow Beginner: 🎥 Videos : 1
+2025-08-18 19:56:58 [main] INFO : Course Duration for Airflow Beginner: ⏱ Duration : 2 hrs 1 mins
+2025-08-18 19:56:58 [main] INFO : Course Progress percent for Airflow Beginner: Progress: 5%
+2025-08-18 19:56:58 [main] INFO : Course Category for Meter Data Management Beginner: Industry Applications
+2025-08-18 19:56:58 [main] INFO : Course Level for Meter Data Management Beginner: Beginner
+2025-08-18 19:56:58 [main] INFO : Course Video Count for Meter Data Management Beginner: 🎥 Videos : 1
+2025-08-18 19:56:58 [main] INFO : Course Duration for Meter Data Management Beginner: ⏱ Duration : 17 mins
+2025-08-18 19:56:58 [main] INFO : Course Progress percent for Meter Data Management Beginner: Progress: 100%
+2025-08-18 19:56:59 [main] INFO : Continue Course test
+2025-08-18 19:56:59 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-18 19:57:00 [main] INFO : Video Available in the list:4
+3.
+2025-08-18 19:57:01 [main] INFO : Select Video from video list
+2025-08-18 19:58:04 [main] INFO : Click Play Video
+2025-08-18 19:58:18 [main] INFO : Video playback moved to the end.
+2025-08-18 19:58:19 [main] INFO : Testing Ended
+2025-08-18 19:58:19 [main] INFO : ***********
+2025-08-18 20:03:55 [main] INFO : Launching Chrome Browser
+2025-08-18 20:03:55 [main] INFO : Report Name :LandD_Page.html
+2025-08-18 20:04:23 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-18 20:04:25 [main] INFO : Inside Login Page: Learning and Development
+2025-08-18 20:05:20 [main] INFO : Logged in to Learning and Development Application
+2025-08-18 20:05:21 [main] INFO : Navigated to /my-courses
+2025-08-18 20:05:22 [main] INFO : Header : My Courses
+2025-08-18 20:05:22 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-18 20:05:22 [main] INFO : Inside In progress Tab
+2025-08-18 20:05:23 [main] INFO : Inside Completed Tab
+2025-08-18 20:05:24 [main] INFO : Inside All courses Tab
+2025-08-18 20:05:25 [main] INFO : Course Card Details test
+2025-08-18 20:05:25 [main] INFO : Course Category for Python Beginner: Programming
+2025-08-18 20:05:25 [main] INFO : Course Level for Python Beginner: Beginner
+2025-08-18 20:05:25 [main] INFO : Course Video Count for Python Beginner: 🎥 Videos : 42
+2025-08-18 20:05:25 [main] INFO : Course Duration for Python Beginner: ⏱ Duration : 6 hrs 35 mins
+2025-08-18 20:05:25 [main] INFO : Course Progress percent for Python Beginner: Progress: 3%
+2025-08-18 20:05:25 [main] INFO : Course Category for Airflow Beginner: Data Engineering Tools
+2025-08-18 20:05:25 [main] INFO : Course Level for Airflow Beginner: Beginner
+2025-08-18 20:05:25 [main] INFO : Course Video Count for Airflow Beginner: 🎥 Videos : 1
+2025-08-18 20:05:25 [main] INFO : Course Duration for Airflow Beginner: ⏱ Duration : 2 hrs 1 mins
+2025-08-18 20:05:25 [main] INFO : Course Progress percent for Airflow Beginner: Progress: 5%
+2025-08-18 20:05:26 [main] INFO : Course Category for Meter Data Management Beginner: Industry Applications
+2025-08-18 20:05:26 [main] INFO : Course Level for Meter Data Management Beginner: Beginner
+2025-08-18 20:05:26 [main] INFO : Course Video Count for Meter Data Management Beginner: 🎥 Videos : 1
+2025-08-18 20:05:26 [main] INFO : Course Duration for Meter Data Management Beginner: ⏱ Duration : 17 mins
+2025-08-18 20:05:26 [main] INFO : Course Progress percent for Meter Data Management Beginner: Progress: 100%
+2025-08-18 20:05:26 [main] INFO : Continue Course test
+2025-08-18 20:05:27 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-18 20:05:28 [main] INFO : Video Available in the list:4
+3.
+2025-08-18 20:05:29 [main] INFO : Select Video from video list
+2025-08-18 20:06:31 [main] INFO : Click Play Video
+2025-08-18 20:06:46 [main] INFO : Video playback moved to the end.
+2025-08-18 20:06:47 [main] INFO : Testing Ended
+2025-08-18 20:06:47 [main] INFO : ***********
+2025-08-18 20:19:27 [main] INFO : Launching Chrome Browser
+2025-08-18 20:19:28 [main] INFO : Report Name :LandD_Page.html
+2025-08-18 20:20:02 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-18 20:20:02 [main] INFO : Inside Login Page: Learning and Development
+2025-08-18 20:20:59 [main] INFO : Logged in to Learning and Development Application
+2025-08-18 20:20:59 [main] INFO : Navigated to /my-courses
+2025-08-18 20:21:00 [main] INFO : Header : My Courses
+2025-08-18 20:21:00 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-18 20:21:00 [main] INFO : Inside In progress Tab
+2025-08-18 20:21:01 [main] INFO : Inside Completed Tab
+2025-08-18 20:21:02 [main] INFO : Inside All courses Tab
+2025-08-18 20:21:03 [main] INFO : Course Card Details test
+2025-08-18 20:21:04 [main] INFO : Course Category for Python Beginner: Programming
+2025-08-18 20:21:04 [main] INFO : Course Level for Python Beginner: Beginner
+2025-08-18 20:21:04 [main] INFO : Course Video Count for Python Beginner: 🎥 Videos : 42
+2025-08-18 20:21:04 [main] INFO : Course Duration for Python Beginner: ⏱ Duration : 6 hrs 35 mins
+2025-08-18 20:21:04 [main] INFO : Course Progress percent for Python Beginner: Progress: 5%
+2025-08-18 20:21:04 [main] INFO : Course Category for Airflow Beginner: Data Engineering Tools
+2025-08-18 20:21:04 [main] INFO : Course Level for Airflow Beginner: Beginner
+2025-08-18 20:21:04 [main] INFO : Course Video Count for Airflow Beginner: 🎥 Videos : 1
+2025-08-18 20:21:04 [main] INFO : Course Duration for Airflow Beginner: ⏱ Duration : 2 hrs 1 mins
+2025-08-18 20:21:04 [main] INFO : Course Progress percent for Airflow Beginner: Progress: 5%
+2025-08-18 20:21:04 [main] INFO : Course Category for Meter Data Management Beginner: Industry Applications
+2025-08-18 20:21:04 [main] INFO : Course Level for Meter Data Management Beginner: Beginner
+2025-08-18 20:21:04 [main] INFO : Course Video Count for Meter Data Management Beginner: 🎥 Videos : 1
+2025-08-18 20:21:04 [main] INFO : Course Duration for Meter Data Management Beginner: ⏱ Duration : 17 mins
+2025-08-18 20:21:04 [main] INFO : Course Progress percent for Meter Data Management Beginner: Progress: 100%
+2025-08-18 20:21:05 [main] INFO : Continue and update progress for Course test
+2025-08-18 20:21:06 [main] INFO : Progress Percent :Progress: 5%
+2025-08-18 20:21:07 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-18 20:21:08 [main] INFO : Video Available in the list:5
+4.
+2025-08-18 20:21:09 [main] INFO : Select Video from video list
+2025-08-18 20:22:11 [main] INFO : Click Play Video
+2025-08-18 20:22:26 [main] INFO : Video playback moved to the end.
+2025-08-18 20:23:27 [main] INFO : Navigated to /my-courses
+2025-08-18 20:23:28 [main] INFO : Progress Percent :Progress: 7%
+2025-08-18 20:23:29 [main] INFO : Testing Ended
+2025-08-18 20:23:29 [main] INFO : ***********
