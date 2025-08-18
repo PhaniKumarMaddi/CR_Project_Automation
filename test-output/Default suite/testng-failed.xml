@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="L_And_D_Project.LAndD_Page_UI_Test">
+      <class name="L_And_D_Project.LAndD_Courses_Test">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="homePageTest"/>
+          <include name="l_and_d_MyCourses"/>
         </methods>
-      </class> <!-- L_And_D_Project.LAndD_Page_UI_Test -->
+      </class> <!-- L_And_D_Project.LAndD_Courses_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

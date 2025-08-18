@@ -22,7 +22,7 @@ public class L_And_D_TestDataKeys {
 	public String totCours_StatCard = "Total Courses";
 	public String mycertificate_StatCard = "My Certificates";
 	public String popCourse_StatCard = "Popular Courses";
-	
+
 	// Department Card Name
 	public String deptCard_DsAndAiLink = "/departments/Data Science and AI";
 	public String deptCard_SfdcLink = "/departments/Salesforce";
@@ -36,9 +36,22 @@ public class L_And_D_TestDataKeys {
 	public String helpCenterFooter = "/help-center";
 	public String feedbackFooter = "/feedback";
 	public String profile = "/profile";
-	// Social Medio
+
+	// Social Media
 	public String facebookFooter = "Facebook";
 	public String linkedinFooter = "LinkedIn";
 	public String twitterFooter = "Twitter";
 	public String instaFooter = "Instagram";
+
+	// My Courses Tabs
+	public String allCourseTab = "All courses";
+	public String inProgressTab = "In progress";
+	public String completeTab = "Completed";
+
+	// Courses Names
+	public String pythonBeginnerCourse = "Python Beginner";
+	public String testAutomationBeginnerCourse = "Test Automation(Selenium) Beginner";
+	public String airflowBeginnerCourse = "Airflow Beginner";
+	public String mdmBeginnerCourse = "Meter Data Management Beginner";
+
 }

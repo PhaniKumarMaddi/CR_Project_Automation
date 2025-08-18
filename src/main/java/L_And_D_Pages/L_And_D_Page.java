@@ -63,7 +63,6 @@ public class L_And_D_Page extends WaitsManager {
 
 	// Footer
 	By reserveRights = By.cssSelector("div.footer-bottom>p");
-	
 
 	// Navigate to Pages For Top
 	public void navigateToPage(String pageName) throws Exception {
@@ -185,7 +184,7 @@ public class L_And_D_Page extends WaitsManager {
 				grep.failTest("Start Learning Button Not Available");
 				logger.error("Start Learning Button Not Available");
 			}
-			
+
 		} catch (Exception e) {
 			e.printStackTrace();
 			grep.failTest("Test Failed :" + e.getMessage());
@@ -558,7 +557,6 @@ public class L_And_D_Page extends WaitsManager {
 	}
 
 	// Footer Urls
-	
 
 	public void footerRights() throws Exception {
 		try {
@@ -568,8 +566,8 @@ public class L_And_D_Page extends WaitsManager {
 				scrollView(reserveRights);
 
 				String rights = driver.findElement(reserveRights).getText();
-				grep.infoTest("Reserve Rigths: "+rights);
-				logger.info("Reserve Rigths: "+rights);
+				grep.infoTest("Reserve Rigths: " + rights);
+				logger.info("Reserve Rigths: " + rights);
 			} else {
 				grep.failTest("Reserve Rigths not available");
 				logger.error("Reserve Rigths not available");
@@ -605,16 +603,17 @@ public class L_And_D_Page extends WaitsManager {
 
 		}
 	}
+
 	public void footerMedia_URLs(String footerName) throws Exception {
 		try {
 			implWait(driver);
-			By socialMediaLinks = By.xpath("//div[@class='footer-social']/a[@aria-label='"+footerName+"']");
+			By socialMediaLinks = By.xpath("//div[@class='footer-social']/a[@aria-label='" + footerName + "']");
 
 			List<WebElement> element = driver.findElements(socialMediaLinks);
 			if (element.size() > 0) {
 				scrollView(reserveRights);
 				element.getLast().click();
-	
+
 				grep.passTest("Navigated to " + footerName);
 				logger.info("Navigated to " + footerName);
 			} else {
@@ -628,8 +627,7 @@ public class L_And_D_Page extends WaitsManager {
 
 		}
 	}
-	
-	
+
 	// for scroll to view
 	public void scrollView(By locator) {
 		WebElement element = driver.findElement(locator);
