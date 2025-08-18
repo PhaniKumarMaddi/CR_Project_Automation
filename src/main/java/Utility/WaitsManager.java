@@ -229,4 +229,15 @@ public class WaitsManager {
 		// control v
 		act.keyDown(Keys.CONTROL).sendKeys("v").keyUp(Keys.CONTROL).perform();
 	}
+	
+	public void switchToMainFrame() {
+		// Switch the focus to the main frame
+		driver.switchTo().defaultContent();
+	}
+
+	public void switchToFrame(String frameName) {
+		switchToMainFrame();
+		// Switch the focus to the UI Map Pop-up
+		driver.switchTo().frame(frameName);
+	}
 }

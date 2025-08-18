@@ -61,7 +61,10 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 
 		lndCoursePage.clickPlayVideoList();
 		waitTime(driver);
+		switchToFrame("youtube-player");
+		waitTime(driver);
 		lndCoursePage.clickPlayButton();
+		switchToMainFrame();
 		grep.captureScreenshot("pass", "Play Course video", "playVideo");
 		waitTime10(driver);
 

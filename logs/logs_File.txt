@@ -28821,3 +28821,38 @@ No certifications
 2025-08-18 18:06:31 [main] ERROR: Course Not Found
 2025-08-18 18:06:42 [main] INFO : Testing Ended
 2025-08-18 18:06:42 [main] INFO : ***********
+2025-08-18 18:20:31 [main] INFO : Launching Chrome Browser
+2025-08-18 18:20:31 [main] INFO : Report Name :LandD_Page.html
+2025-08-18 18:21:04 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-18 18:21:04 [main] INFO : Inside Login Page: Learning and Development
+2025-08-18 18:21:28 [main] INFO : Logged in to Learning and Development Application
+2025-08-18 18:21:28 [main] INFO : Navigated to /my-courses
+2025-08-18 18:21:30 [main] INFO : Header : My Courses
+2025-08-18 18:21:30 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-18 18:21:30 [main] INFO : Inside In progress Tab
+2025-08-18 18:21:30 [main] INFO : Inside Completed Tab
+2025-08-18 18:21:31 [main] INFO : Inside All courses Tab
+2025-08-18 18:21:32 [main] INFO : Course Card Details test
+2025-08-18 18:21:32 [main] INFO : Course Category for Python Beginner: Programming
+2025-08-18 18:21:32 [main] INFO : Course Level for Python Beginner: Beginner
+2025-08-18 18:21:32 [main] INFO : Course Video Count for Python Beginner: 🎥 Videos : 42
+2025-08-18 18:21:32 [main] INFO : Course Duration for Python Beginner: ⏱ Duration : 6 hrs 35 mins
+2025-08-18 18:21:32 [main] INFO : Course Progress percent for Python Beginner: Progress: 2%
+2025-08-18 18:21:32 [main] INFO : Course Category for Airflow Beginner: Data Engineering Tools
+2025-08-18 18:21:32 [main] INFO : Course Level for Airflow Beginner: Beginner
+2025-08-18 18:21:32 [main] INFO : Course Video Count for Airflow Beginner: 🎥 Videos : 1
+2025-08-18 18:21:32 [main] INFO : Course Duration for Airflow Beginner: ⏱ Duration : 2 hrs 1 mins
+2025-08-18 18:21:32 [main] INFO : Course Progress percent for Airflow Beginner: Progress: 5%
+2025-08-18 18:21:33 [main] INFO : Course Category for Meter Data Management Beginner: Industry Applications
+2025-08-18 18:21:33 [main] INFO : Course Level for Meter Data Management Beginner: Beginner
+2025-08-18 18:21:33 [main] INFO : Course Video Count for Meter Data Management Beginner: 🎥 Videos : 1
+2025-08-18 18:21:33 [main] INFO : Course Duration for Meter Data Management Beginner: ⏱ Duration : 17 mins
+2025-08-18 18:21:33 [main] INFO : Course Progress percent for Meter Data Management Beginner: Progress: 100%
+2025-08-18 18:21:33 [main] INFO : Continue Course test
+2025-08-18 18:21:34 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-18 18:21:35 [main] INFO : Video Available in the list:3
+2.
+2025-08-18 18:21:35 [main] INFO : Select Video from video list
+2025-08-18 18:22:36 [main] INFO : Click Play Video
+2025-08-18 18:22:47 [main] INFO : Testing Ended
+2025-08-18 18:22:47 [main] INFO : ***********
