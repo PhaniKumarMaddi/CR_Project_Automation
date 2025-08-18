@@ -93,7 +93,15 @@ public class WaitsManager {
 		}
 	}
  
-
+	public void acceptalert() {
+		try {
+			driver.switchTo().alert().accept();
+			
+		} catch (NoAlertPresentException e) {
+			e.printStackTrace();
+		}
+	}
+ 
 	 
 	public void populateDateField(LocalDate date, By dateElement) {
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(dateFormat);

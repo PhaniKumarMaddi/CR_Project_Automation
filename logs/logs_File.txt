@@ -26244,3 +26244,306 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [492edbb050cf13b3197888223c5aada0, findElements {using=css selector, value=input#idSIButton9}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52010}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52010/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 492edbb050cf13b3197888223c5aada0
+2025-08-18 10:30:45 [main] INFO : Launching Chrome Browser
+2025-08-18 10:30:45 [main] INFO : Report Name :LandD_Page.html
+2025-08-18 10:30:47 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-18 10:30:47 [main] INFO : Inside Login Page: Learning and Development
+2025-08-18 10:31:25 [main] INFO : Logged in to CSAT Application
+2025-08-18 10:32:27 [main] ERROR: My Courses Not Available
+2025-08-18 10:32:32 [main] INFO : Inside My Courses Page 
+2025-08-18 10:32:32 [main] ERROR: My Courses Url is InValid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home?name=Phani+Kumar+Maddi&email=phani.maddi%40criticalriver.com&department=Software+Engineer&token=eyJ0eXAiOiJKV1QiLCJub25jZSI6InBVdnppVk45RnRSTmJGM19QbzRpMXJzcW5UaFg0bE12Q2l0MVpqaHRhbjgiLCJhbGciOiJSUzI1NiIsIng1dCI6IkpZaEFjVFBNWl9MWDZEQmxPV1E3SG4wTmVYRSIsImtpZCI6IkpZaEFjVFBNWl9MWDZEQmxPV1E3SG4wTmVYRSJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC85NDUyNWIxNi1kYzkwLTRkY2MtODJiYy0wNzE5ZTE0YjM3OGUvIiwiaWF0IjoxNzU1NDkyOTc3LCJuYmYiOjE3NTU0OTI5NzcsImV4cCI6MTc1NTQ5NzgzMywiYWNjdCI6MCwiYWNyIjoiMSIsImFjcnMiOlsicDEiXSwiYWlvIjoiQVpRQWEvOFpBQUFBWWkvZXhtdjF5Q1dZWXJ2a3Q1c2NuS2JIcFJOakcrVTRJSlVMZGhsSGtjdXcrOWxzckc0NmZwZmswMTkwOXArVk93Sndpd0VmMDA3LyszSmhQRDdMUjdDVzlBbHdxays1amh1R2ZBQ2RIVGxZY3RFQUlwWVFVSTZtd0JPTlphVStLaGN3aVk1SUlPQWl5MUNaaFZHV2ZzYlpuK09UVHhwd0kzWS9lRXZHa0RxazE2aGdkb2pBSmt0OXJKcE8wTHRkIiwiYW1yIjpbInB3ZCIsIm1mYSJdLCJhcHBfZGlzcGxheW5hbWUiOiJDUi1MZWFybmluZ05EZXYiLCJhcHBpZCI6ImVjYzYzMDVlLWJlMzktNDVhYS1iYzRjLTIzYTIzOWViN2NlNyIsImFwcGlkYWNyIjoiMSIsImZhbWlseV9uYW1lIjoiTWFkZGkiLCJnaXZlbl9uYW1lIjoiUGhhbmkgS3VtYXIiLCJpZHR5cCI6InVzZXIiLCJpcGFkZHIiOiIyNDA2Ojc0MDA6MzU6M2Q0NDpmNTkzOjRmMjE6ZDk1OjNiYjQiLCJuYW1lIjoiUGhhbmkgS3VtYXIgTWFkZGkiLCJvaWQiOiIzYTA4ZWEyNy1hY2E4LTQ4YmYtYjI2My1kZTRhYmIyZjQ1YjMiLCJwbGF0ZiI6IjMiLCJwdWlkIjoiMTAwMzIwMDFBMDQ5RkQ1RSIsInJoIjoiMS5BU3NBRmx0U2xKRGN6RTJDdkFjWjRVczNqZ01BQUFBQUFBQUF3QUFBQUFBQUFBRG9BT29yQUEuIiwic2NwIjoiVXNlci5SZWFkIFVzZXIuUmVhZC5BbGwgcHJvZmlsZSBvcGVuaWQgZW1haWwiLCJzaWQiOiIwMDdjZDkwOS1iYjczLWY2YWMtOTI3Zi00ODhhNTk0NmUzY2MiLCJzdWIiOiJyNVhpN3BoTXk4RkNGc3J4YjdfVXliVlA5bXFFUEw5bjl6VFhjMzdKYXRRIiwidGVuYW50X3JlZ2lvbl9zY29wZSI6IkFTIiwidGlkIjoiOTQ1MjViMTYtZGM5MC00ZGNjLTgyYmMtMDcxOWUxNGIzNzhlIiwidW5pcXVlX25hbWUiOiJwaGFuaS5tYWRkaUBjcml0aWNhbHJpdmVyLmNvbSIsInVwbiI6InBoYW5pLm1hZGRpQGNyaXRpY2Fscml2ZXIuY29tIiwidXRpIjoiRG9hcUlvNVg1MHFtVUlDMDBIbC1BQSIsInZlciI6IjEuMCIsIndpZHMiOlsiYjc5ZmJmNGQtM2VmOS00Njg5LTgxNDMtNzZiMTk0ZTg1NTA5Il0sInhtc19mdGQiOiJqdzkyeWViQ1RpSFpJb2VrYlBmaFFvelFpWHRJUlZ3eFlhNVV0SGx3aTI0QmEyOXlaV0Z6YjNWMGFDMWtjMjF6IiwieG1zX2lkcmVsIjoiMSAyIiwieG1zX3N0Ijp7InN1YiI6IlctdXpxNnFEbHBhaUxRZ0s3UUVNMThBakk2VW92MXE4VnZDZ2s5LUZSVncifSwieG1zX3RjZHQiOjE1MTQ5NTgyMzl9.C67su3ehX9BvBe53wcPzCMWm2lYNyGsDumVXynIX4SfLRkzY2nfWTJlfKJ4e9zHNegbHE5Z7A1D65PF_Y2-cgZrId9jlIpRQE92glPqjNHyJ1DOK4XwMHMuUEcqj3QvR-jhC9xTshD2i4eKf4kewIU9evRjcA7GdtEA19GOuT9IcOauh41gq7To263KmeD1r864zEbXxzNeUGCnj_zzxjeNKcbFp9XGXBvSGGOYPK4RiWeeJNodTC-NOdxJryoc1kuEN_fuordgCtQefPT4wxx6tvHYfF9TNjRJNxslANDXy2op07mlNyyARXFnNic2CVzo7PwVuLthOvx0SzJvSKA
+2025-08-18 10:33:34 [main] ERROR: Departments Not Available
+2025-08-18 10:33:39 [main] INFO : Inside Departments Page 
+2025-08-18 10:33:39 [main] ERROR: Departments Url is InValid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home?name=Phani+Kumar+Maddi&email=phani.maddi%40criticalriver.com&department=Software+Engineer&token=eyJ0eXAiOiJKV1QiLCJub25jZSI6InBVdnppVk45RnRSTmJGM19QbzRpMXJzcW5UaFg0bE12Q2l0MVpqaHRhbjgiLCJhbGciOiJSUzI1NiIsIng1dCI6IkpZaEFjVFBNWl9MWDZEQmxPV1E3SG4wTmVYRSIsImtpZCI6IkpZaEFjVFBNWl9MWDZEQmxPV1E3SG4wTmVYRSJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC85NDUyNWIxNi1kYzkwLTRkY2MtODJiYy0wNzE5ZTE0YjM3OGUvIiwiaWF0IjoxNzU1NDkyOTc3LCJuYmYiOjE3NTU0OTI5NzcsImV4cCI6MTc1NTQ5NzgzMywiYWNjdCI6MCwiYWNyIjoiMSIsImFjcnMiOlsicDEiXSwiYWlvIjoiQVpRQWEvOFpBQUFBWWkvZXhtdjF5Q1dZWXJ2a3Q1c2NuS2JIcFJOakcrVTRJSlVMZGhsSGtjdXcrOWxzckc0NmZwZmswMTkwOXArVk93Sndpd0VmMDA3LyszSmhQRDdMUjdDVzlBbHdxays1amh1R2ZBQ2RIVGxZY3RFQUlwWVFVSTZtd0JPTlphVStLaGN3aVk1SUlPQWl5MUNaaFZHV2ZzYlpuK09UVHhwd0kzWS9lRXZHa0RxazE2aGdkb2pBSmt0OXJKcE8wTHRkIiwiYW1yIjpbInB3ZCIsIm1mYSJdLCJhcHBfZGlzcGxheW5hbWUiOiJDUi1MZWFybmluZ05EZXYiLCJhcHBpZCI6ImVjYzYzMDVlLWJlMzktNDVhYS1iYzRjLTIzYTIzOWViN2NlNyIsImFwcGlkYWNyIjoiMSIsImZhbWlseV9uYW1lIjoiTWFkZGkiLCJnaXZlbl9uYW1lIjoiUGhhbmkgS3VtYXIiLCJpZHR5cCI6InVzZXIiLCJpcGFkZHIiOiIyNDA2Ojc0MDA6MzU6M2Q0NDpmNTkzOjRmMjE6ZDk1OjNiYjQiLCJuYW1lIjoiUGhhbmkgS3VtYXIgTWFkZGkiLCJvaWQiOiIzYTA4ZWEyNy1hY2E4LTQ4YmYtYjI2My1kZTRhYmIyZjQ1YjMiLCJwbGF0ZiI6IjMiLCJwdWlkIjoiMTAwMzIwMDFBMDQ5RkQ1RSIsInJoIjoiMS5BU3NBRmx0U2xKRGN6RTJDdkFjWjRVczNqZ01BQUFBQUFBQUF3QUFBQUFBQUFBRG9BT29yQUEuIiwic2NwIjoiVXNlci5SZWFkIFVzZXIuUmVhZC5BbGwgcHJvZmlsZSBvcGVuaWQgZW1haWwiLCJzaWQiOiIwMDdjZDkwOS1iYjczLWY2YWMtOTI3Zi00ODhhNTk0NmUzY2MiLCJzdWIiOiJyNVhpN3BoTXk4RkNGc3J4YjdfVXliVlA5bXFFUEw5bjl6VFhjMzdKYXRRIiwidGVuYW50X3JlZ2lvbl9zY29wZSI6IkFTIiwidGlkIjoiOTQ1MjViMTYtZGM5MC00ZGNjLTgyYmMtMDcxOWUxNGIzNzhlIiwidW5pcXVlX25hbWUiOiJwaGFuaS5tYWRkaUBjcml0aWNhbHJpdmVyLmNvbSIsInVwbiI6InBoYW5pLm1hZGRpQGNyaXRpY2Fscml2ZXIuY29tIiwidXRpIjoiRG9hcUlvNVg1MHFtVUlDMDBIbC1BQSIsInZlciI6IjEuMCIsIndpZHMiOlsiYjc5ZmJmNGQtM2VmOS00Njg5LTgxNDMtNzZiMTk0ZTg1NTA5Il0sInhtc19mdGQiOiJqdzkyeWViQ1RpSFpJb2VrYlBmaFFvelFpWHRJUlZ3eFlhNVV0SGx3aTI0QmEyOXlaV0Z6YjNWMGFDMWtjMjF6IiwieG1zX2lkcmVsIjoiMSAyIiwieG1zX3N0Ijp7InN1YiI6IlctdXpxNnFEbHBhaUxRZ0s3UUVNMThBakk2VW92MXE4VnZDZ2s5LUZSVncifSwieG1zX3RjZHQiOjE1MTQ5NTgyMzl9.C67su3ehX9BvBe53wcPzCMWm2lYNyGsDumVXynIX4SfLRkzY2nfWTJlfKJ4e9zHNegbHE5Z7A1D65PF_Y2-cgZrId9jlIpRQE92glPqjNHyJ1DOK4XwMHMuUEcqj3QvR-jhC9xTshD2i4eKf4kewIU9evRjcA7GdtEA19GOuT9IcOauh41gq7To263KmeD1r864zEbXxzNeUGCnj_zzxjeNKcbFp9XGXBvSGGOYPK4RiWeeJNodTC-NOdxJryoc1kuEN_fuordgCtQefPT4wxx6tvHYfF9TNjRJNxslANDXy2op07mlNyyARXFnNic2CVzo7PwVuLthOvx0SzJvSKA
+2025-08-18 10:35:14 [main] INFO : Launching Chrome Browser
+2025-08-18 10:35:14 [main] INFO : Report Name :LandD_Page.html
+2025-08-18 10:35:16 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-18 10:35:16 [main] INFO : Inside Login Page: Learning and Development
+2025-08-18 10:35:47 [main] INFO : Logged in to Learning and Development Application
+2025-08-18 10:35:49 [main] INFO : Navigated to /my-courses
+2025-08-18 10:35:54 [main] INFO : Inside /my-courses Page 
+2025-08-18 10:35:54 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-18 10:35:56 [main] INFO : Navigated to /departments
+2025-08-18 10:36:01 [main] INFO : Inside /departments Page 
+2025-08-18 10:36:01 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-18 10:36:04 [main] INFO : Navigated to /certificates
+2025-08-18 10:36:09 [main] INFO : Inside /certificates Page 
+2025-08-18 10:36:09 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-18 10:36:11 [main] INFO : Navigated to /admin
+2025-08-18 10:36:16 [main] INFO : Inside /admin Page 
+2025-08-18 10:36:16 [main] ERROR: /admin Url is InValid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-18 10:37:18 [main] ERROR: /admin/courses Not Available
+2025-08-18 10:37:23 [main] INFO : Inside /admin/courses Tab in Admin Page 
+2025-08-18 10:37:23 [main] ERROR: /admin/courses Url is InValid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-18 10:37:55 [main] ERROR: Test Failed :invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a041bb466bfbf2e6d2f4fa8d782c7b74, findElements {using=link text, value=/admin/tests}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62575/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a041bb466bfbf2e6d2f4fa8d782c7b74
+2025-08-18 10:39:44 [main] INFO : Launching Chrome Browser
+2025-08-18 10:39:44 [main] INFO : Report Name :LandD_Page.html
+2025-08-18 10:39:46 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-18 10:39:46 [main] INFO : Inside Login Page: Learning and Development
+2025-08-18 10:40:11 [main] INFO : Logged in to Learning and Development Application
+2025-08-18 10:40:13 [main] INFO : Navigated to /my-courses
+2025-08-18 10:40:18 [main] INFO : Inside /my-courses Page 
+2025-08-18 10:40:18 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-18 10:40:20 [main] INFO : Navigated to /departments
+2025-08-18 10:40:25 [main] INFO : Inside /departments Page 
+2025-08-18 10:40:25 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-18 10:40:28 [main] INFO : Navigated to /certificates
+2025-08-18 10:40:33 [main] INFO : Inside /certificates Page 
+2025-08-18 10:40:33 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-18 10:42:14 [main] INFO : Launching Chrome Browser
+2025-08-18 10:42:14 [main] INFO : Report Name :LandD_Page.html
+2025-08-18 10:42:16 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-18 10:42:16 [main] INFO : Inside Login Page: Learning and Development
+2025-08-18 10:42:46 [main] INFO : Logged in to Learning and Development Application
+2025-08-18 10:42:48 [main] INFO : Navigated to /my-courses
+2025-08-18 10:42:53 [main] INFO : Inside /my-courses Page 
+2025-08-18 10:42:53 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-18 10:42:55 [main] INFO : Navigated to /departments
+2025-08-18 10:43:00 [main] INFO : Inside /departments Page 
+2025-08-18 10:43:00 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-18 10:43:03 [main] INFO : Navigated to /certificates
+2025-08-18 10:43:08 [main] INFO : Inside /certificates Page 
+2025-08-18 10:43:08 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-18 10:43:09 [main] INFO : Navigated to /admin
+2025-08-18 10:43:10 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-18 10:43:11 [main] INFO : Navigated to /admin/courses
+2025-08-18 10:43:16 [main] INFO : Inside /admin/courses Tab in Admin Page 
+2025-08-18 10:43:16 [main] INFO : /admin/courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/courses
+2025-08-18 10:43:19 [main] INFO : Navigated to /admin/tests
+2025-08-18 10:43:24 [main] INFO : Inside /admin/tests Tab in Admin Page 
+2025-08-18 10:43:24 [main] INFO : /admin/tests Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/tests
+2025-08-18 10:43:26 [main] INFO : Navigated to /admin/roles
+2025-08-18 10:43:31 [main] INFO : Inside /admin/roles Tab in Admin Page 
+2025-08-18 10:43:31 [main] INFO : /admin/roles Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/roles
+2025-08-18 10:43:33 [main] INFO : Navigated to /admin/dashboard
+2025-08-18 10:43:38 [main] INFO : Inside /admin/dashboard Tab in Admin Page 
+2025-08-18 10:43:38 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-18 10:43:40 [main] INFO : Navigated to /Home
+2025-08-18 10:43:45 [main] INFO : Inside /Home Page 
+2025-08-18 10:43:45 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-18 10:43:48 [main] INFO : Testing Ended
+2025-08-18 10:43:48 [main] INFO : ***********
+2025-08-18 11:59:00 [main] INFO : Launching Chrome Browser
+2025-08-18 11:59:00 [main] INFO : Report Name :LandD_Page.html
+2025-08-18 11:59:02 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-18 11:59:02 [main] INFO : Inside Login Page: Learning and Development
+2025-08-18 11:59:33 [main] ERROR: Test Failed :invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3b1bd684d0d9a23cc35eb623a2264851, findElement {value=input#idSIButton9, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51817}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51817/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b1bd684d0d9a23cc35eb623a2264851
+2025-08-18 11:59:55 [main] INFO : Launching Chrome Browser
+2025-08-18 11:59:55 [main] INFO : Report Name :LandD_Page.html
+2025-08-18 11:59:57 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-18 11:59:57 [main] INFO : Inside Login Page: Learning and Development
+2025-08-18 12:00:26 [main] INFO : Logged in to Learning and Development Application
+2025-08-18 12:00:31 [main] INFO : Navigated to /my-courses
+2025-08-18 12:00:36 [main] INFO : Inside /my-courses Page 
+2025-08-18 12:00:36 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-18 12:00:38 [main] INFO : Navigated to /departments
+2025-08-18 12:00:43 [main] INFO : Inside /departments Page 
+2025-08-18 12:00:43 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-18 12:00:45 [main] INFO : Navigated to /certificates
+2025-08-18 12:00:50 [main] INFO : Inside /certificates Page 
+2025-08-18 12:00:50 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-18 12:00:52 [main] INFO : Navigated to /admin
+2025-08-18 12:00:52 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-18 12:00:54 [main] INFO : Navigated to /admin/courses
+2025-08-18 12:00:59 [main] INFO : Inside /admin/courses Tab in Admin Page 
+2025-08-18 12:00:59 [main] INFO : /admin/courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/courses
+2025-08-18 12:01:01 [main] INFO : Navigated to /admin/tests
+2025-08-18 12:01:06 [main] INFO : Inside /admin/tests Tab in Admin Page 
+2025-08-18 12:01:06 [main] INFO : /admin/tests Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/tests
+2025-08-18 12:01:09 [main] INFO : Navigated to /admin/roles
+2025-08-18 12:01:14 [main] INFO : Inside /admin/roles Tab in Admin Page 
+2025-08-18 12:01:14 [main] INFO : /admin/roles Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/roles
+2025-08-18 12:01:16 [main] INFO : Navigated to /admin/dashboard
+2025-08-18 12:01:21 [main] INFO : Inside /admin/dashboard Tab in Admin Page 
+2025-08-18 12:01:21 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-18 12:01:23 [main] INFO : Navigated to /Home
+2025-08-18 12:01:28 [main] INFO : Inside /Home Page 
+2025-08-18 12:01:28 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-18 12:01:32 [main] INFO : Home Page Header Content: Grow your skills, advance your career
+2025-08-18 12:01:32 [main] INFO : Home Page Description Content: Access all the learning resources you need to excel at CriticalRiver
+2025-08-18 12:01:32 [main] INFO : Start Learning Button Available
+2025-08-18 12:01:33 [main] INFO : Header: Browse Courses by Department
+2025-08-18 12:01:34 [main] INFO : Courses Available Count: 462
+2025-08-18 12:01:34 [main] INFO : Department Tracks Available Count: 14
+2025-08-18 12:01:35 [main] ERROR: Test Failed :element not interactable: element has zero size
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2cbd9959290a3ef506b8eabf1dad24eb, clickElement {id=f.3CA9768A157B9E5C4322C64DFFE6DE48.d.2669BB91CD2F0AA352849BA525D29B49.e.314}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51914/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2cbd9959290a3ef506b8eabf1dad24eb)] -> xpath: //p[text()='Department Tracks']/parent::a]
+Session ID: 2cbd9959290a3ef506b8eabf1dad24eb
+2025-08-18 12:01:35 [main] ERROR: Url is not Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-18 12:01:36 [main] INFO : Navigated to /Home
+2025-08-18 12:01:38 [main] INFO : Continue Learning Header is correctContinue Learning
+2025-08-18 12:01:39 [main] INFO : Continue Learning Course NamePython Beginner
+2025-08-18 12:01:39 [main] INFO : Continue Learning Progress Percentage: 4% complete
+2025-08-18 12:01:39 [main] INFO : Continue Learning Course Category: Programming
+2025-08-18 12:01:39 [main] INFO : Continue Learning Course Last Accessed: Last accessed: Recently
+2025-08-18 12:01:40 [main] INFO : Navigated to Course Video Page
+2025-08-18 12:01:40 [main] INFO : /course-videos Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-18 12:01:58 [main] INFO : Feature Course List Contains : Airflow Beginner course
+2025-08-18 12:01:58 [main] INFO : Feature Course List Contains : Airflow Advanced course
+2025-08-18 12:01:59 [main] INFO : Feature Course List Contains : ABAP Beginner course
+2025-08-18 12:01:59 [main] INFO : Feature Course List Contains : Statistics Beginner course
+2025-08-18 12:02:00 [main] INFO : Feature Course List Contains : Automation Testing (Selenium) Advanced course
+2025-08-18 12:02:01 [main] INFO : Feature Course Department Name: Data Science and AI
+2025-08-18 12:02:01 [main] INFO : Feature Course Course Level: Beginner
+2025-08-18 12:02:01 [main] INFO : Feature Course Name: Airflow Beginner
+2025-08-18 12:02:01 [main] INFO : Feature Course Video Count: 🎥 1 Videos
+2025-08-18 12:02:01 [main] INFO : Feature Course Duration: ⏱ 1 hrs 37 mins
+2025-08-18 12:02:03 [main] INFO : Testing Ended
+2025-08-18 12:02:03 [main] INFO : ***********
+2025-08-18 12:04:22 [main] INFO : Launching Chrome Browser
+2025-08-18 12:04:22 [main] INFO : Report Name :LandD_Page.html
+2025-08-18 12:04:24 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-18 12:04:24 [main] INFO : Inside Login Page: Learning and Development
+2025-08-18 12:04:53 [main] INFO : Logged in to Learning and Development Application
+2025-08-18 12:05:02 [main] INFO : Navigated to /my-courses
+2025-08-18 12:05:07 [main] INFO : Inside /my-courses Page 
+2025-08-18 12:05:07 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-18 12:05:10 [main] INFO : Navigated to /departments
+2025-08-18 12:05:15 [main] INFO : Inside /departments Page 
+2025-08-18 12:05:15 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-18 12:05:18 [main] INFO : Navigated to /certificates
+2025-08-18 12:05:23 [main] INFO : Inside /certificates Page 
+2025-08-18 12:05:23 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-18 12:05:25 [main] INFO : Navigated to /admin
+2025-08-18 12:05:25 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-18 12:05:27 [main] INFO : Navigated to /admin/courses
+2025-08-18 12:05:32 [main] INFO : Inside /admin/courses Tab in Admin Page 
+2025-08-18 12:05:32 [main] INFO : /admin/courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/courses
+2025-08-18 12:05:34 [main] INFO : Navigated to /admin/tests
+2025-08-18 12:05:39 [main] INFO : Inside /admin/tests Tab in Admin Page 
+2025-08-18 12:05:39 [main] INFO : /admin/tests Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/tests
+2025-08-18 12:05:42 [main] INFO : Navigated to /admin/roles
+2025-08-18 12:05:47 [main] INFO : Inside /admin/roles Tab in Admin Page 
+2025-08-18 12:05:47 [main] INFO : /admin/roles Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/roles
+2025-08-18 12:05:49 [main] INFO : Navigated to /admin/dashboard
+2025-08-18 12:05:54 [main] INFO : Inside /admin/dashboard Tab in Admin Page 
+2025-08-18 12:05:54 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-18 12:05:57 [main] INFO : Navigated to /Home
+2025-08-18 12:06:02 [main] INFO : Inside /Home Page 
+2025-08-18 12:06:02 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-18 12:06:06 [main] INFO : Home Page Header Content: Grow your skills, advance your career
+2025-08-18 12:06:06 [main] INFO : Home Page Description Content: Access all the learning resources you need to excel at CriticalRiver
+2025-08-18 12:06:06 [main] INFO : Start Learning Button Available
+2025-08-18 12:06:07 [main] INFO : Header: Browse Courses by Department
+2025-08-18 12:06:08 [main] INFO : Courses Available Count: 462
+2025-08-18 12:06:09 [main] INFO : Department Tracks Available Count: 14
+2025-08-18 12:06:11 [main] ERROR: Test Failed :element not interactable: element has zero size
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [907dc1b19783ec6874eff4dc1a307f75, clickElement {id=f.0B8DA65E513D1C05F6D6A78792F91D98.d.DE21A747C392192969BBC764182339ED.e.193}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52296}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52296/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (907dc1b19783ec6874eff4dc1a307f75)] -> xpath: //p[text()='Department Tracks']/parent::a]
+Session ID: 907dc1b19783ec6874eff4dc1a307f75
+2025-08-18 12:06:11 [main] ERROR: Url is not Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-18 12:06:12 [main] INFO : Navigated to /Home
+2025-08-18 12:06:14 [main] INFO : Continue Learning Header is correctContinue Learning
+2025-08-18 12:06:15 [main] INFO : Continue Learning Course NamePython Beginner
+2025-08-18 12:06:15 [main] INFO : Continue Learning Progress Percentage: 4% complete
+2025-08-18 12:06:15 [main] INFO : Continue Learning Course Category: Programming
+2025-08-18 12:06:15 [main] INFO : Continue Learning Course Last Accessed: Last accessed: Recently
+2025-08-18 12:06:16 [main] INFO : Navigated to Course Video Page
+2025-08-18 12:06:16 [main] INFO : /course-videos Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-18 12:06:18 [main] INFO : Navigated to /Home
+2025-08-18 12:06:20 [main] INFO : Feature Course List Contains : Airflow Beginner course
+2025-08-18 12:06:20 [main] INFO : Feature Course List Contains : Airflow Advanced course
+2025-08-18 12:06:21 [main] INFO : Feature Course List Contains : ABAP Beginner course
+2025-08-18 12:06:22 [main] INFO : Feature Course List Contains : Statistics Beginner course
+2025-08-18 12:06:22 [main] INFO : Feature Course List Contains : Automation Testing (Selenium) Advanced course
+2025-08-18 12:06:24 [main] INFO : Feature Course Department Name: Data Science and AI
+2025-08-18 12:06:24 [main] INFO : Feature Course Course Level: Beginner
+2025-08-18 12:06:24 [main] INFO : Feature Course Name: Airflow Beginner
+2025-08-18 12:06:24 [main] INFO : Feature Course Video Count: 🎥 1 Videos
+2025-08-18 12:06:24 [main] INFO : Feature Course Duration: ⏱ 1 hrs 37 mins
+2025-08-18 12:06:26 [main] INFO : Testing Ended
+2025-08-18 12:06:26 [main] INFO : ***********
+2025-08-18 12:06:44 [main] INFO : Launching Chrome Browser
+2025-08-18 12:06:44 [main] INFO : Report Name :LandD_Page.html
+2025-08-18 12:06:46 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-18 12:06:46 [main] INFO : Inside Login Page: Learning and Development
+2025-08-18 12:07:15 [main] INFO : Logged in to Learning and Development Application
+2025-08-18 12:07:18 [main] INFO : Navigated to /my-courses
+2025-08-18 12:07:23 [main] INFO : Inside /my-courses Page 
+2025-08-18 12:07:23 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-18 12:07:25 [main] INFO : Navigated to /departments
+2025-08-18 12:07:30 [main] INFO : Inside /departments Page 
+2025-08-18 12:07:30 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-18 12:07:33 [main] INFO : Navigated to /certificates
+2025-08-18 12:07:38 [main] INFO : Inside /certificates Page 
+2025-08-18 12:07:38 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-18 12:07:40 [main] INFO : Navigated to /admin
+2025-08-18 12:07:40 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-18 12:07:41 [main] INFO : Navigated to /admin/courses
+2025-08-18 12:07:46 [main] INFO : Inside /admin/courses Tab in Admin Page 
+2025-08-18 12:07:46 [main] INFO : /admin/courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/courses
+2025-08-18 12:07:49 [main] INFO : Navigated to /admin/tests
+2025-08-18 12:07:54 [main] INFO : Inside /admin/tests Tab in Admin Page 
+2025-08-18 12:07:54 [main] INFO : /admin/tests Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/tests
+2025-08-18 12:07:56 [main] INFO : Navigated to /admin/roles
+2025-08-18 12:08:01 [main] INFO : Inside /admin/roles Tab in Admin Page 
+2025-08-18 12:08:01 [main] INFO : /admin/roles Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/roles
+2025-08-18 12:08:04 [main] INFO : Navigated to /admin/dashboard
+2025-08-18 12:08:09 [main] INFO : Inside /admin/dashboard Tab in Admin Page 
+2025-08-18 12:08:09 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-18 12:08:11 [main] INFO : Navigated to /Home
+2025-08-18 12:08:16 [main] INFO : Inside /Home Page 
+2025-08-18 12:08:16 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-18 12:08:19 [main] INFO : Home Page Header Content: Grow your skills, advance your career
+2025-08-18 12:08:19 [main] INFO : Home Page Description Content: Access all the learning resources you need to excel at CriticalRiver
+2025-08-18 12:08:20 [main] INFO : Start Learning Button Available
+2025-08-18 12:08:20 [main] INFO : Header: Browse Courses by Department
+2025-08-18 12:08:21 [main] INFO : Courses Available Count: 462
+2025-08-18 12:08:22 [main] INFO : Department Tracks Available Count: 14
+2025-08-18 12:08:24 [main] ERROR: Test Failed :element not interactable: element has zero size
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [836a14239804d4056888d7b62ce494db, clickElement {id=f.ABEA6B6C19605D301E92E345B2078B12.d.FC06FC2ADBEE19AC3CA9E523A16E1248.e.310}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52487/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (836a14239804d4056888d7b62ce494db)] -> xpath: //p[text()='Department Tracks']/parent::a]
+Session ID: 836a14239804d4056888d7b62ce494db
+2025-08-18 12:08:24 [main] ERROR: Url is not Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-18 12:08:25 [main] INFO : Navigated to /Home
+2025-08-18 12:08:27 [main] INFO : Continue Learning Header is correctContinue Learning
+2025-08-18 12:08:28 [main] INFO : Continue Learning Course NamePython Beginner
+2025-08-18 12:08:28 [main] INFO : Continue Learning Progress Percentage: 4% complete
+2025-08-18 12:08:28 [main] INFO : Continue Learning Course Category: Programming
+2025-08-18 12:08:28 [main] INFO : Continue Learning Course Last Accessed: Last accessed: Recently
+2025-08-18 12:08:28 [main] INFO : Navigated to Course Video Page
+2025-08-18 12:08:29 [main] INFO : /course-videos Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-18 12:08:31 [main] INFO : Navigated to /Home
+2025-08-18 12:08:33 [main] INFO : Feature Course List Contains : Airflow Beginner course
+2025-08-18 12:08:33 [main] INFO : Feature Course List Contains : Airflow Advanced course
+2025-08-18 12:08:34 [main] INFO : Feature Course List Contains : ABAP Beginner course
+2025-08-18 12:08:34 [main] INFO : Feature Course List Contains : Statistics Beginner course
+2025-08-18 12:08:35 [main] INFO : Feature Course List Contains : Automation Testing (Selenium) Advanced course
+2025-08-18 12:08:37 [main] INFO : Feature Course Department Name: Data Science and AI
+2025-08-18 12:08:37 [main] INFO : Feature Course Course Level: Beginner
+2025-08-18 12:08:37 [main] INFO : Feature Course Name: Airflow Beginner
+2025-08-18 12:08:37 [main] INFO : Feature Course Video Count: 🎥 1 Videos
+2025-08-18 12:08:37 [main] INFO : Feature Course Duration: ⏱ 1 hrs 37 mins
+2025-08-18 12:08:38 [main] INFO : Testing Ended
+2025-08-18 12:08:38 [main] INFO : ***********
