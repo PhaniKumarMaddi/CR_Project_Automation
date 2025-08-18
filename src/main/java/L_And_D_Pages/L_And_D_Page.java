@@ -52,16 +52,18 @@ public class L_And_D_Page extends WaitsManager {
 
 	// Criticalriver Academy
 	By academyHeader = By.cssSelector("div.why-academy>h2");
-	By reasonCards = By.cssSelector("div.wa-reasons>div");
+	// ready to start
+	By readyToStrt = By.xpath("//div[@class='ready-to-start']");
 	By exploreAllCourses = By.cssSelector("button.btn-explore");
+
+	// User Profile
+	By profileLogo = By.cssSelector("div.user-profile");
+	By profileBtn = By.xpath("//div[@class='user-profile']/div[2]/div[1]");
+	By profileInfo = By.cssSelector("div.profile-info-block");
 
 	// Footer
 	By reserveRights = By.cssSelector("div.footer-bottom>p");
-	By socialMediaLinks = By.xpath("//div[@class='footer-social']/a[@aria-label='Facebook']");
-
-	// User Profile
-	By profileLogo = By.xpath("div.user-profile");
-	By profileBtn = By.xpath("//div[@class='user-profile']/div[2]/div[1]");
+	
 
 	// Navigate to Pages For Top
 	public void navigateToPage(String pageName) throws Exception {
@@ -157,6 +159,7 @@ public class L_And_D_Page extends WaitsManager {
 				grep.failTest("Start Learning Button Not Available");
 				logger.error("Start Learning Button Not Available");
 			}
+			scrollView(startLearning);
 		} catch (Exception e) {
 			e.printStackTrace();
 			grep.failTest("Test Failed :" + e.getMessage());
@@ -165,25 +168,45 @@ public class L_And_D_Page extends WaitsManager {
 		}
 	}
 
-	// Stat cards 
-	public void homePageStatCards(String cardName) throws Exception {
+	// Click Profile
+	public void clickProfilePage() throws Exception {
 		try {
 			implWait(driver);
 
-			By statCard=By.xpath("//p[text()='"+cardName+"']/parent::div/h2");
-
-			boolean elementExists = !driver.findElements(statCard).isEmpty();
+			boolean elementExists = !driver.findElements(profileLogo).isEmpty();
 			if (elementExists) {
-				scrollView(statCard);
+				driver.findElement(profileLogo).click();
 				waitTime(driver);
-				
-				String count= driver.findElement(statCard).getText();
-				grep.infoTest(cardName+" Card Count: "+count);
-				logger.info(cardName+" Card Count: "+count);
+				driver.findElement(profileBtn).click();
+				grep.passTest("Navigate to Profile Page");
+				logger.info("Navigate to Profile Page");
 
 			} else {
-				grep.failTest(cardName +" Stat Card not available");
-				logger.error(cardName +" Stat Card not available");
+				grep.failTest("Start Learning Button Not Available");
+				logger.error("Start Learning Button Not Available");
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void getProfileInfo() throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(profileInfo).isEmpty();
+			if (elementExists) {
+				String info = driver.findElement(profileInfo).getText();
+
+				grep.infoTest("Profile Page Information: " + info);
+				logger.info("Profile Page Information: " + info);
+			} else {
+				grep.failTest("Profile Page Information Not available");
+				logger.error("Profile Page Information Not available");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -192,7 +215,32 @@ public class L_And_D_Page extends WaitsManager {
 
 		}
 	}
-	
+
+	// Stat cards
+	public void homePageStatCards(String cardName) throws Exception {
+		try {
+			implWait(driver);
+
+			By statCard = By.xpath("//p[text()='" + cardName + "']/parent::div/h2");
+
+			boolean elementExists = !driver.findElements(statCard).isEmpty();
+			if (elementExists) {
+
+				String count = driver.findElement(statCard).getText();
+				grep.infoTest(cardName + " Card Count: " + count);
+				logger.info(cardName + " Card Count: " + count);
+
+			} else {
+				grep.failTest(cardName + " Stat Card not available");
+				logger.error(cardName + " Stat Card not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
 
 	// Continue Learning
 	public void continueLearningDetails() throws Exception {
@@ -209,7 +257,7 @@ public class L_And_D_Page extends WaitsManager {
 				if (header.equals("Continue Learning")) {
 
 					grep.passTest("Continue Learning Header is correct: " + header);
-					logger.info("Continue Learning Header is correct" + header);
+					logger.info("Continue Learning Header is correct: " + header);
 					waitTime(driver);
 				} else {
 					grep.failTest("Continue Learning Header is not correct: " + header);
@@ -312,17 +360,17 @@ public class L_And_D_Page extends WaitsManager {
 
 				waitTime(driver);
 
-				grep.passTest("Feature Course Department Name: " + featurCrsDept);
-				logger.info("Feature Course Department Name: " + featurCrsDept);
-				grep.passTest("Feature Course Course Level: " + featurCrsLevel);
-				logger.info("Feature Course Course Level: " + featurCrsLevel);
-				grep.passTest("Feature Course Name: " + featurCrsname);
-				logger.info("Feature Course Name: " + featurCrsname);
-				grep.passTest("Feature Course Video Count: " + featurCrsVidCnt);
-				logger.info("Feature Course Video Count: " + featurCrsVidCnt);
+				grep.passTest("Feature Courses contains Department Name: " + featurCrsDept);
+				logger.info("Feature Courses contains Department Name: " + featurCrsDept);
+				grep.passTest("Feature Courses contains Course Level: " + featurCrsLevel);
+				logger.info("Feature Courses contains Course Level: " + featurCrsLevel);
+				grep.passTest("Feature Courses contains Name: " + featurCrsname);
+				logger.info("Feature Courses contains Name: " + featurCrsname);
+				grep.passTest("Feature Courses contains Video Count: " + featurCrsVidCnt);
+				logger.info("Feature Courses contains Video Count: " + featurCrsVidCnt);
 
-				grep.passTest("Feature Course Duration: " + featurCrsDuration);
-				logger.info("Feature Course Duration: " + featurCrsDuration);
+				grep.passTest("Feature Courses contains Duration: " + featurCrsDuration);
+				logger.info("Feature Courses contains Duration: " + featurCrsDuration);
 
 			} else {
 				grep.failTest("Feature Course List not Available");
@@ -342,9 +390,9 @@ public class L_And_D_Page extends WaitsManager {
 
 			List<WebElement> element = driver.findElements(featureCourseEnrollBtn);
 			if (element.size() > 0) {
-				scrollView(featureCourseEnrollBtn);
+				scrollView(continueLearnHeader);
 				waitTime(driver);
-				
+
 				element.getFirst().click();
 
 			} else {
@@ -365,6 +413,8 @@ public class L_And_D_Page extends WaitsManager {
 			implWait(driver);
 			boolean elementExists = !driver.findElements(viewAllDeptLink).isEmpty();
 			if (elementExists) {
+				scrollView(featureCourseDepartment);
+				waitTime(driver);
 				driver.findElement(viewAllDeptLink).click();
 			} else {
 				grep.failTest("View All Department Link not available");
@@ -390,7 +440,8 @@ public class L_And_D_Page extends WaitsManager {
 					grep.infoTest(headerList + " department is available");
 					logger.info(headerList + " department is available");
 					waitTime(driver);
-					By deptTotalCourses = By.xpath("//h3[text()='" + headerList + "']/ancestor::a/div/span");
+					String deptTotalCourses = driver
+							.findElement(By.xpath("//h3[text()='" + headerList + "']/ancestor::a/div/span")).getText();
 
 					grep.infoTest("Total Courses count for " + headerList + ": " + deptTotalCourses);
 					logger.info("Total Courses count for " + headerList + ": " + deptTotalCourses);
@@ -410,20 +461,20 @@ public class L_And_D_Page extends WaitsManager {
 		}
 	}
 
-	public void clickDeptCard_InBrowseDept(String deptName) throws Exception {
+	public void clickDeptCard_InBrowseDept(String deptCardName, String deptName) throws Exception {
 		try {
 			implWait(driver);
-			By selectDeptCard = By.xpath("//div[@class='bbd-card']/h3[text()='" + deptName + "']");
-			WebElement deptpageInfo = driver.findElement(By.cssSelector("div.department-info>h1"));
+			scrollView(browseDeptHeader);
+			waitTime(driver);
+//			By selectDeptCard = By.xpath("//a[@href='" + deptCardName + "']");
+			By selectDeptCard = By.xpath("//div[@class='bbd-grid']/a[@href='" + deptCardName + "']/div");
 
 			boolean elementExists = !driver.findElements(selectDeptCard).isEmpty();
 			if (elementExists) {
-				scrollView(selectDeptCard);
-				waitTime(driver);
-				
 				driver.findElement(selectDeptCard).click();
-
-				if (deptpageInfo.getText().endsWith(deptName)) {
+				waitTime(driver);
+				WebElement deptpageInfo = driver.findElement(By.cssSelector("div.department-info>h1"));
+				if (deptpageInfo.getText().equals(deptName)) {
 					grep.passTest("Navigated to " + deptName + " Department");
 					logger.info("Navigated to " + deptName + " Department");
 				} else {
@@ -443,14 +494,102 @@ public class L_And_D_Page extends WaitsManager {
 		}
 	}
 
+	// CriticalRiver Academy
+	public void whyCR_Academy() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(academyHeader).isEmpty();
+			if (elementExists) {
+				String academyHeadVal = driver.findElement(academyHeader).getText();
+				String reason1 = driver.findElement(By.xpath("//div[@class='wa-reasons']/div[1]")).getText();
+				String reason2 = driver.findElement(By.xpath("//div[@class='wa-reasons']/div[2]")).getText();
+				String reason3 = driver.findElement(By.xpath("//div[@class='wa-reasons']/div[3]")).getText();
+
+				grep.infoTest("Academy Header :" + academyHeadVal);
+				logger.info("Academy Header :" + academyHeadVal);
+
+				grep.infoTest("Academy Reason youtube :" + reason1);
+				logger.info("Academy Reason youtube :" + reason1);
+
+				grep.infoTest("Academy Reason Certificates :" + reason2);
+				logger.info("Academy Reason Certificates :" + reason2);
+
+				grep.infoTest("Academy Reason Learning paths :" + reason3);
+				logger.info("Academy Reason Learning paths :" + reason3);
+
+			} else {
+				grep.failTest("Academy Info Not Available");
+				logger.error("Academy Info Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// Ready to start
+	public void homePage_ReadyToStart() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(readyToStrt).isEmpty();
+			if (elementExists) {
+				String readyVal = driver.findElement(readyToStrt).getText();
+
+				grep.infoTest("Ready To Start:" + readyVal);
+				logger.info("Ready To Start" + readyVal);
+
+				grep.infoTest("Explore all courses");
+				logger.info("Explore all courses");
+
+				driver.findElement(exploreAllCourses).click();
+
+			} else {
+				grep.failTest("Ready to start Info Not Available");
+				logger.error("Ready to start Info Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
 	// Footer Urls
+	
+
+	public void footerRights() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(reserveRights).isEmpty();
+			if (elementExists) {
+				scrollView(reserveRights);
+
+				String rights = driver.findElement(reserveRights).getText();
+				grep.infoTest("Reserve Rigths: "+rights);
+				logger.info("Reserve Rigths: "+rights);
+			} else {
+				grep.failTest("Reserve Rigths not available");
+				logger.error("Reserve Rigths not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
 	public void footerURLs(String footerName) throws Exception {
 		try {
 			implWait(driver);
-			By footerNav = By.xpath("//div[@class='footer-links-col']/a[text()='" + footerName + "']");
+			By footerNav = By.xpath("//div[@class='footer-links-col']/a[@href='" + footerName + "']");
 
 			List<WebElement> element = driver.findElements(footerNav);
 			if (element.size() > 0) {
+				scrollView(reserveRights);
 				element.getLast().click();
 
 				grep.passTest("Navigated to " + footerName);
@@ -466,7 +605,31 @@ public class L_And_D_Page extends WaitsManager {
 
 		}
 	}
+	public void footerMedia_URLs(String footerName) throws Exception {
+		try {
+			implWait(driver);
+			By socialMediaLinks = By.xpath("//div[@class='footer-social']/a[@aria-label='"+footerName+"']");
 
+			List<WebElement> element = driver.findElements(socialMediaLinks);
+			if (element.size() > 0) {
+				scrollView(reserveRights);
+				element.getLast().click();
+	
+				grep.passTest("Navigated to " + footerName);
+				logger.info("Navigated to " + footerName);
+			} else {
+				grep.failTest(footerName + " Not Available");
+				logger.error(footerName + " Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+	
+	
 	// for scroll to view
 	public void scrollView(By locator) {
 		WebElement element = driver.findElement(locator);

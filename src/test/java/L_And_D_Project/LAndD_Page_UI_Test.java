@@ -22,6 +22,7 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 
 		refreshPage();
 
+		waitTime3(driver);
 		grep.testCreate("Learning and Development Page navigation Test", "Learning and Development  Page navigation");
 		waitTime(driver);
 
@@ -61,8 +62,6 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 	@Test(priority = 2)
 	public void homePageTest() throws Exception {
 		lndPage = new L_And_D_Page();
-		refreshPage();
-		waitTime3(driver);
 
 		grep.testCreate("Home Page UI Test", "Home Page UI");
 		waitTime(driver);
@@ -90,7 +89,7 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 		validateUrl(dataKeys.courseVideoUrl);
 		waitTime(driver);
 		lndPage.navigateToPage(dataKeys.homePageUrl);
-		waitTime(driver);
+		waitTime2(driver);
 
 		grep.testCreate("Home Page Feature Courses Test", "Home Page Feature Courses");
 		grep.infoTest("Home Page Feature Courses test");
@@ -99,8 +98,11 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 		lndPage.getListOfFeatureCourses();
 		lndPage.featureCourseDetails();
 		grep.captureScreenshot("pass", "Home Page Feature Course test", "FeatureCoursesTest");
+		waitTime(driver);
 		lndPage.clickFeatureCourseEnrollButton();
-//		isAlertPresent();
+		waitTime(driver);
+		isAlertPresent();
+		waitTime(driver);
 		acceptalert();
 		waitTime(driver);
 
@@ -117,24 +119,131 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 		verifyDeptUrl("viewAll_DepartmentLink");
 		lndPage.navigateToPage(dataKeys.homePageUrl);
 		waitTime(driver);
+		refreshPage();
+		waitTime5(driver);
 
 		grep.infoTest("Verify clicking on department card");
 		logger.info("Verify clicking on department card");
-		clickDeptCard(dataKeys.dept_DsAndAi);
+		waitTime3(driver);
+		clickDeptCard(dataKeys.deptCard_DsAndAiLink, dataKeys.dept_DsAndAi);
+		clickDeptCard(dataKeys.deptCard_SfdcLink, dataKeys.dept_Salesforce);
 		waitTime(driver);
-		clickDeptCard(dataKeys.dept_Salesforce);
+
+		grep.testCreate("Home Page Why Criticalriver Academy Info test", "Home Page Why Criticalriver Academy Info ");
 		waitTime(driver);
+		grep.infoTest("Verify Why Criticalriver Academy Info");
+		logger.info("Verify Why Criticalriver Academy Info");
+		lndPage.whyCR_Academy();
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Academy and ready to start", "readyToStart_And_Academy");
+		waitTime(driver);
+		lndPage.homePage_ReadyToStart();
+		waitTime(driver);
+
+		grep.testCreate("L&D Profile Page Test", "Profile Page");
+		waitTime(driver);
+		lndPage.clickProfilePage();
+		waitTime(driver);
+		grep.captureScreenshot("pass", "L and D Profile Page", "LAndD_Profile");
+		waitTime(driver);
+		lndPage.getProfileInfo();
 
 	}
 
-	public void clickDeptCard(String deptName) throws Exception {
+	@Test(priority = 3)
+	public void l_and_d_Footer() throws Exception {
+		lndPage = new L_And_D_Page();
+		grep.testCreate("L&D Footer link Test", "Footer link");
+		waitTime(driver);
+		lndPage.footerRights();
+		waitTime(driver);
+
+		grep.captureScreenshot("pass", "Footer for L and D", "LnD_Footer");
+		waitTime(driver);
+		lndPage.footerURLs(dataKeys.myCoursesPageUrl);
+		verifyFooterUrl(dataKeys.myCoursesPageUrl);
+
+		lndPage.footerURLs(dataKeys.depatmentsPageUrl);
+		verifyFooterUrl(dataKeys.depatmentsPageUrl);
+
+		lndPage.footerURLs(dataKeys.helpCenterFooter);
+		verifyFooterUrl(dataKeys.helpCenterFooter);
+
+		lndPage.footerURLs(dataKeys.feedbackFooter);
+		verifyFooterUrl(dataKeys.feedbackFooter);
+
+		lndPage.footerURLs(dataKeys.certificatesPageUrl);
+		verifyFooterUrl(dataKeys.certificatesPageUrl);
+
+		lndPage.footerURLs(dataKeys.profile);
+		verifyFooterUrl(dataKeys.profile);
+
+		grep.infoTest("Verify Social media links");
+		logger.info("Social Media Links");
+		verifySocialMediaFooter(dataKeys.facebookFooter);
+		verifySocialMediaFooter(dataKeys.linkedinFooter);
+//		verifySocialMediaFooter(dataKeys.twitterFooter);
+		verifySocialMediaFooter(dataKeys.instaFooter);
+
+		lndPage.footerMedia_URLs(dataKeys.twitterFooter);
+
+		switchToLastTab();
+		String getUrl = driver.getCurrentUrl();
+		if (getUrl.contains("x.com")) {
+			grep.passTest(" Url is Valid :" + getUrl);
+			logger.info(" Url is Valid :" + getUrl);
+			waitTime(driver);
+			grep.captureScreenshot("pass", "Navigated to department page", "Twitter_Media_Footer");
+			waitTime(driver);
+
+		} else {
+			grep.failTest("Url is not Valid :" + getUrl);
+			logger.error("Url is not Valid :" + getUrl);
+		}
+		closeCurrentTab();
+		waitTime(driver);
+
+		switchToFirstTab();
+		waitTime(driver);
+
+		waitTime(driver);
+		lndPage.navigateToPage(dataKeys.homePageUrl);
+	}
+
+	public void clickDeptCard(String deptCardName, String deptName) throws Exception {
 		lndPage = new L_And_D_Page();
 
 		waitTime(driver);
-		lndPage.clickDeptCard_InBrowseDept(deptName);
+		lndPage.clickDeptCard_InBrowseDept(deptCardName, deptName);
 		waitTime5(driver);
 		grep.captureScreenshot("pass", "Clicking " + deptName + " Department Card", "click" + deptName + "_Card");
 		lndPage.navigateToPage(dataKeys.homePageUrl);
+	}
+
+	public void verifySocialMediaFooter(String footerVal) throws Exception {
+		lndPage = new L_And_D_Page();
+		lndPage.footerMedia_URLs(footerVal);
+
+		switchToLastTab();
+		String getUrl = driver.getCurrentUrl();
+		String value = footerVal.toLowerCase();
+		if (getUrl.contains(value)) {
+			grep.passTest(" Url is Valid :" + getUrl);
+			logger.info(" Url is Valid :" + getUrl);
+			waitTime(driver);
+			grep.captureScreenshot("pass", "Navigated to department page", footerVal + "_Media_Footer");
+			waitTime(driver);
+
+		} else {
+			grep.failTest("Url is not Valid :" + getUrl);
+			logger.error("Url is not Valid :" + getUrl);
+		}
+		closeCurrentTab();
+		waitTime(driver);
+
+		switchToFirstTab();
+		waitTime(driver);
+
 	}
 
 	public void navigateToAllPages(String pageNameValue) throws Exception {
@@ -188,6 +297,21 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 			logger.info(" Url is Valid :" + getUrl);
 			waitTime(driver);
 			grep.captureScreenshot("pass", "Navigated to department page", ss_Value);
+			waitTime(driver);
+		} else {
+			grep.failTest("Url is not Valid :" + getUrl);
+			logger.error("Url is not Valid :" + getUrl);
+		}
+
+	}
+
+	public void verifyFooterUrl(String footerVal) throws Exception {
+		String getUrl = driver.getCurrentUrl();
+		if (getUrl.endsWith(footerVal)) {
+			grep.passTest(" Url is Valid :" + getUrl);
+			logger.info(" Url is Valid :" + getUrl);
+			waitTime(driver);
+			grep.captureScreenshot("pass", "Navigated to department page", footerVal + "_Footer");
 			waitTime(driver);
 		} else {
 			grep.failTest("Url is not Valid :" + getUrl);

@@ -5,17 +5,6 @@ public class L_And_D_TestDataKeys {
 	public String ssoUserName = "phani.maddi@criticalriver.com";
 	public String ssoPassword = "Rklalitha$67";
 
-	// Pages on top
-//	public String homePage = "Home";
-//	public String myCoursesPage = "My Courses";
-//	public String depatmentsPage = "Departments";
-//	public String certificatesPage = "Certificates";
-//	public String adminPage = "Admin";
-//	public String dashboardTab = "Dashboard";
-//	public String coursesTab = "Courses";
-//	public String testsTab = "Tests";
-//	public String rolesTab = "Roles";
-
 	// Url val
 	public String homePageUrl = "/Home";
 	public String myCoursesPageUrl = "/my-courses";
@@ -34,7 +23,9 @@ public class L_And_D_TestDataKeys {
 	public String mycertificate_StatCard = "My Certificates";
 	public String popCourse_StatCard = "Popular Courses";
 	
-	// Department Name
+	// Department Card Name
+	public String deptCard_DsAndAiLink = "/departments/Data Science and AI";
+	public String deptCard_SfdcLink = "/departments/Salesforce";
 	public String dept_DsAndAi = "Data Science and AI";
 	public String dept_ERP = "ERP Application";
 	public String dept_Salesforce = "Salesforce";
@@ -42,9 +33,10 @@ public class L_And_D_TestDataKeys {
 	public String dept_EnergyWater = "Energy & Water";
 	public String dept_GlobalEngOrg = "Global Engineering Org";
 	// Footer links
-	public String helpCenterFooter = "Help Center";
-	public String feedbackFooter = "Feedback";
-	public String profile = "Profile";
+	public String helpCenterFooter = "/help-center";
+	public String feedbackFooter = "/feedback";
+	public String profile = "/profile";
+	// Social Medio
 	public String facebookFooter = "Facebook";
 	public String linkedinFooter = "LinkedIn";
 	public String twitterFooter = "Twitter";
