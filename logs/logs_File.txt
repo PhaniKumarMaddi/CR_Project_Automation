@@ -26164,3 +26164,83 @@ Session ID: 5dd1a2e2c723520de35f2f32d4e7dfb1
 2025-08-07 10:58:29 [main] INFO : Cancel Button Available
 2025-08-07 10:58:29 [main] INFO : Save Button Available
 2025-08-07 10:58:31 [main] INFO : Entering invalid characters in type field
+2025-08-12 08:56:39 [main] INFO : Launching Chrome Browser
+2025-08-12 08:56:39 [main] INFO : Report Name :CSATSurveyReport.html
+2025-08-12 08:56:43 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-12 08:56:43 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-12 08:56:43 [main] INFO : Inside Login Page: LOGIN
+2025-08-12 08:59:50 [main] INFO : Launching Chrome Browser
+2025-08-12 08:59:51 [main] INFO : Report Name :CSATSurveyReport.html
+2025-08-12 08:59:54 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-12 08:59:54 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-12 08:59:54 [main] INFO : Inside Login Page: LOGIN
+2025-08-12 09:00:07 [main] ERROR: Test Failed :no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [902b6b38b46bf00018dbb9d61c5dc0ea, findElements {using=xpath, value=//input[@id='i0116']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51636/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 902b6b38b46bf00018dbb9d61c5dc0ea
+2025-08-12 09:00:07 [main] ERROR: Test Failed :no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [902b6b38b46bf00018dbb9d61c5dc0ea, findElements {using=css selector, value=input#idSIButton9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51636/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 902b6b38b46bf00018dbb9d61c5dc0ea
+2025-08-12 09:00:09 [main] ERROR: Test Failed :no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [902b6b38b46bf00018dbb9d61c5dc0ea, findElements {using=xpath, value=//input[@id='i0118']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51636/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 902b6b38b46bf00018dbb9d61c5dc0ea
+2025-08-12 09:00:09 [main] ERROR: Test Failed :no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [902b6b38b46bf00018dbb9d61c5dc0ea, findElements {using=css selector, value=input#idSIButton9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51636/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 902b6b38b46bf00018dbb9d61c5dc0ea
+2025-08-12 09:00:14 [main] ERROR: Test Failed :no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [902b6b38b46bf00018dbb9d61c5dc0ea, findElements {using=css selector, value=input#idSIButton9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51636/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 902b6b38b46bf00018dbb9d61c5dc0ea
+2025-08-12 09:00:25 [main] INFO : Logged in to CSAT Application
+2025-08-12 09:00:26 [main] INFO : Validating the Header
+2025-08-12 09:04:58 [main] INFO : Launching Chrome Browser
+2025-08-12 09:04:58 [main] INFO : Report Name :CSATSurveyReport.html
+2025-08-12 09:05:02 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-12 09:05:02 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-12 09:05:02 [main] INFO : Inside Login Page: LOGIN
+2025-08-12 09:06:05 [main] ERROR: Test Failed :no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [492edbb050cf13b3197888223c5aada0, findElements {using=xpath, value=//input[@id='i0116']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52010}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52010/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 492edbb050cf13b3197888223c5aada0
+2025-08-12 09:06:05 [main] ERROR: Test Failed :no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [492edbb050cf13b3197888223c5aada0, findElements {using=css selector, value=input#idSIButton9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52010}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52010/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 492edbb050cf13b3197888223c5aada0
