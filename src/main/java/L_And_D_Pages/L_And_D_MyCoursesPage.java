@@ -150,8 +150,8 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 		}
 	}
 
-	public String getPlayVideoListDetails() throws Exception {
-		String playText = null;
+	public void getPlayVideoListDetails() throws Exception {
+//		String playText = null;
 		try {
 			implWait(driver);
 
@@ -162,7 +162,7 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 				String fullText = play.getFirst().getText();
 
 				String[] parts = fullText.split(" ");
-				playText = parts[0];
+				String playText = parts[0];
 				grep.infoTest("Video Available in the list:" + playText);
 				logger.info("Video Available in the list:" + playText);
 
@@ -176,9 +176,10 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 			logger.error("Test Failed :" + e.getMessage());
 
 		}
-		return playText;
+//		return playText;
 	}
 
+	// select video from video list
 	public void clickPlayVideoList() throws Exception {
 		try {
 			implWait(driver);
@@ -202,6 +203,7 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 		}
 	}
 
+	// Click play youtube button
 	public void clickPlayButton() throws Exception {
 		try {
 			implWait(driver);

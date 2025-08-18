@@ -57,7 +57,8 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		verifyUrl();
 		grep.captureScreenshot("pass", "Inside Continue Learning page", "continueLearningPage");
 		waitTime(driver);
-		String list = lndCoursePage.getPlayVideoListDetails();
+		lndCoursePage.getPlayVideoListDetails();
+		waitTime(driver);
 
 		lndCoursePage.clickPlayVideoList();
 		waitTime(driver);

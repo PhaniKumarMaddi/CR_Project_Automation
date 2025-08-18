@@ -199,8 +199,6 @@ public class WaitsManager {
 	
 	public void refreshPage() {
 		driver.navigate().refresh();
-//		 String currentURL = driver.getCurrentUrl();
-//	        driver.get(currentURL);
 	}
 
 	public void refreshPageUrl() {
@@ -208,27 +206,27 @@ public class WaitsManager {
 	        driver.get(currentURL);
 	}
 	
-	public void actionsRelated() {
-		Actions act = new Actions(driver);
-		WebElement element = driver.findElement(By.id("Test"));
-		// move to element and click 
-		act.moveToElement(element).click().perform();
-		// move to element and hover 
-		act.moveToElement(element).build().perform();
-		// double click 
-		act.doubleClick(element).build().perform();
-		// context click
-		act.contextClick(element).build().perform();
-		//  drag and drop 
-		act.dragAndDrop(element, element).build().perform();
-		// Copy and paste 
-		// control a
-		act.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).perform();
-		// control c
-		act.keyDown(Keys.CONTROL).sendKeys("c").keyUp(Keys.CONTROL).perform();
-		// control v
-		act.keyDown(Keys.CONTROL).sendKeys("v").keyUp(Keys.CONTROL).perform();
-	}
+//	public void actionsRelated() {
+//		Actions act = new Actions(driver);
+//		WebElement element = driver.findElement(By.id("Test"));
+//		// move to element and click 
+//		act.moveToElement(element).click().perform();
+//		// move to element and hover 
+//		act.moveToElement(element).build().perform();
+//		// double click 
+//		act.doubleClick(element).build().perform();
+//		// context click
+//		act.contextClick(element).build().perform();
+//		//  drag and drop 
+//		act.dragAndDrop(element, element).build().perform();
+//		// Copy and paste 
+//		// control a
+//		act.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).perform();
+//		// control c
+//		act.keyDown(Keys.CONTROL).sendKeys("c").keyUp(Keys.CONTROL).perform();
+//		// control v
+//		act.keyDown(Keys.CONTROL).sendKeys("v").keyUp(Keys.CONTROL).perform();
+//	}
 	
 	public void switchToMainFrame() {
 		// Switch the focus to the main frame
