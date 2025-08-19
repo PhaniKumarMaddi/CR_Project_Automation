@@ -49,7 +49,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 
 		// Continue and update progress for Course test
 
-		completeAndUpdateVideo(dataKeys.testAutomationBeginnerCourse);
+		completeAndUpdateVideo(dataKeys.pythonBeginnerCourse);
 
 	}
 
@@ -200,6 +200,50 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		lndOther.clearRolesTable(dataKeys.userMgmtTable_dashboard, dataKeys.email_column_Test);
 
 		waitTime(driver);
+	}
+
+	@Test(priority = 3)
+	public void l_and_d_CreateAssessment_Test() throws Exception {
+		lndPage = new L_And_D_Page();
+		lndOther = new L_And_D_OtherPages();
+
+		lndPage.naviagteToAdminTabs(dataKeys.testsTabUrl);
+		waitTime3(driver);
+		grep.testCreate("Create New Assessment Test", "Create New Assessment");
+		waitTime(driver);
+		lndOther.selectCourseInAssessment(dataKeys.create_Assmt, dataKeys.course_id);
+		waitTime(driver);
+		lndOther.selectAssessment_number(dataKeys.create_Assmt, dataKeys.assmt_Number);
+		lndOther.enter_Assmt_or_UserId(dataKeys.create_Assmt, dataKeys.assmt_id);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Create New Assessment Test", "createNewAssessment");
+		waitTime(driver);
+		lndOther.clickCreateOrGenerate_Assessment(dataKeys.create_Assmt);
+		waitTime(driver);
+		lndOther.generatedSuccessMessage(dataKeys.create_Assmt);
+		waitTime5(driver);
+
+		grep.testCreate("Generate Assessment Test", "Generate Assessment");
+		waitTime(driver);
+		lndOther.selectCourseInAssessment(dataKeys.generate_Assmt, dataKeys.course_id);
+		waitTime(driver);
+		lndOther.enter_Assmt_or_UserId(dataKeys.generate_Assmt, dataKeys.user_id);
+		lndOther.selectAssessment_number(dataKeys.generate_Assmt, dataKeys.assmt_Number);
+
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Generate Assessment Test", "generateAssessment");
+		waitTime(driver);
+		lndOther.clickCreateOrGenerate_Assessment(dataKeys.generate_Assmt);
+		waitTime(driver);
+		lndOther.generatedSuccessMessage(dataKeys.generate_Assmt);
+
+		waitTime(driver);
+		grep.testCreate("Certificates Page Test", "Certificates page");
+		waitTime(driver);
+		lndPage.navigateToPage(dataKeys.certificatesPageUrl);
+		waitTime(driver);
+		lndOther.certificatesPageTest();
+		grep.captureScreenshot("pass", "Certificates Page Test", "certificate_Page_Test");
 	}
 
 	public void completeAndUpdateVideo(String courseName) throws Exception {

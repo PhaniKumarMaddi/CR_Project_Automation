@@ -8,7 +8,5 @@
 			<class name="L_And_D_Project.LAndD_Courses_Test" />
 			
 		</classes>
-	</test> <!--
-	Test -->
-</suite> <!--
-Suite -->
+	</test> <!--Test -->
+</suite> <!--Suite -->

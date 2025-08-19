@@ -572,11 +572,11 @@ public class L_And_D_OtherPages extends WaitsManager {
 				selectValue.selectByValue(courseValues);
 				waitTime(driver);
 
-				grep.passTest("Selecting Course froom dropdown: " + selectValue.getFirstSelectedOption());
-				logger.info("Selecting Course froom dropdown: " + selectValue.getFirstSelectedOption());
+				grep.passTest("Selecting Course from dropdown: " + selectValue.getFirstSelectedOption().getText());
+				logger.info("Selecting Course from dropdown: " + selectValue.getFirstSelectedOption().getText());
 			} else {
-				grep.failTest("Selecting Course froom dropdown Failed");
-				logger.error("Selecting Course froom dropdown Failed");
+				grep.failTest("Selecting Course from dropdown Failed");
+				logger.error("Selecting Course from dropdown Failed");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -597,11 +597,13 @@ public class L_And_D_OtherPages extends WaitsManager {
 				selectValue.selectByValue(assmtValues);
 				waitTime(driver);
 
-				grep.passTest("Selecting Assessment Number froom dropdown: " + selectValue.getFirstSelectedOption());
-				logger.info("Selecting Assessment Number froom dropdown: " + selectValue.getFirstSelectedOption());
+				grep.passTest(
+						"Selecting Assessment Number from dropdown: " + selectValue.getFirstSelectedOption().getText());
+				logger.info(
+						"Selecting Assessment Number from dropdown: " + selectValue.getFirstSelectedOption().getText());
 			} else {
-				grep.failTest("Selecting Assessment Number froom dropdown failed");
-				logger.error("Selecting Assessment Number froom dropdown failed");
+				grep.failTest("Selecting Assessment Number from dropdown failed");
+				logger.error("Selecting Assessment Number from dropdown failed");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -659,22 +661,45 @@ public class L_And_D_OtherPages extends WaitsManager {
 	public void generatedSuccessMessage(String content) throws Exception {
 		try {
 			By createAssmt_SuccessMsg = By.xpath("//h3[text()='" + content + "']/following-sibling::p");
-			boolean elementExist = !driver.findElements(createAssmt_SuccessMsg).isEmpty();
-			if (elementExist) {
 
-				String message = driver.findElement(createAssmt_SuccessMsg).getText();
-				grep.passTest("Assessment Generated message: " + message);
-				logger.info("Assessment Generated message: " + message);
+			waitForElement(createAssmt_SuccessMsg, 90);
 
-			} else {
-				grep.failTest("Assessment Generated message Fail");
-				logger.error("Assessment Generated message Fail");
-			}
+			String message = driver.findElement(createAssmt_SuccessMsg).getText();
+			grep.passTest("Assessment Generated message: " + message);
+			logger.info("Assessment Generated message: " + message);
+
 		} catch (Exception e) {
 			e.printStackTrace();
 			grep.failTest("Test Failed :" + e.getMessage());
 			logger.error("Test Failed :" + e.getMessage());
 
+		}
+	}
+
+	public void certificatesPageTest() throws Exception {
+		try {
+			By certificateHeader = By.xpath("//section[@class='my-certificates-section']/div[1]");
+			By certificateList = By.xpath("//section[@class='my-certificates-section']/div[2]");
+
+			boolean elementExist = !driver.findElements(certificateHeader).isEmpty();
+			if (elementExist) {
+
+				String header = driver.findElement(certificateHeader).getText();
+				String list = driver.findElement(certificateList).getText();
+
+				grep.passTest("Verify Certificate Header: " + header);
+				logger.info("Verify Certificate Header: " + header);
+
+				grep.passTest("Verify Certificate List: " + list);
+				logger.info("Verify Certificate List: " + list);
+			} else {
+				grep.failTest("Certificate page fail");
+				logger.error("Certificate page fail");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
 		}
 	}
 

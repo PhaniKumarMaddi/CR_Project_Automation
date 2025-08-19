@@ -81,13 +81,14 @@ public class L_And_D_TestDataKeys {
 	public String courseName_column_Test = "Search by Course Name";
 	public String userName_column_Test = "Search by Username";
 	public String email_column_Test = "Search by Email";
-	
-	// Create and Generate Assessment  in test tab
-	public String generate_Assmt= "Generate Assessment Link For User";
-	public String create_Assmt= "Create New Assessment";
-	
-	public String assmt_or_user_id ="1";
-	public String assmt_Number ="1";
-	public String course_id ="210";
-	
+
+	// Create and Generate Assessment in test tab
+	public String generate_Assmt = "Generate Assessment Link For User";
+	public String create_Assmt = "Create New Assessment";
+
+	public String assmt_id = "a6cb19b2-7acb-4ff3-9b4b-76572900d73e";
+	public String user_id = "32";
+	public String assmt_Number = "1";
+	public String course_id = "210";
+
 }
