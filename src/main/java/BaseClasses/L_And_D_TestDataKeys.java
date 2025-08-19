@@ -69,9 +69,10 @@ public class L_And_D_TestDataKeys {
 	public String email_column_Dashboard = "email";
 	public String dept_column_Dashboard = "department";
 	public String username_column_Dashboard = "userName";
-	public String userId_column_Dashboard = "userName";
+	public String userId_column_Dashboard = "userId";
+	public String courseName_column_Dashboard = "courseName";
 	public String userId_col_Value = "32";
-	
+
 	// Tests tab table names
 	public String ass_request_notify_table_Test = "Assessment Request Notifications";
 	public String course_Ass_table_Test = "Course Assessments";
@@ -79,4 +80,5 @@ public class L_And_D_TestDataKeys {
 	public String userId_column_Test = "Search by User ID";
 	public String courseName_column_Test = "Search by Course Name";
 	public String userName_column_Test = "Search by Username";
+	public String email_column_Test = "Search by Email";
 }

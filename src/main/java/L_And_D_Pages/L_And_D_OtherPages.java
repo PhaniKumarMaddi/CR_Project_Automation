@@ -6,6 +6,7 @@ import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -30,6 +31,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 	By deptpageInfo = By.cssSelector("div.department-info>h1");
 	By searchCourse = By.xpath("//input[@class='search-input']");
+	By adminHeader = By.xpath("//span[text()='Admin - CriticalRiver Learning & Development']");
 
 	// search department
 	public void searchDepartment(String deptName) throws Exception {
@@ -124,8 +126,8 @@ public class L_And_D_OtherPages extends WaitsManager {
 			if (elementExist) {
 
 				driver.findElement(enrollCourse).click();
-				grep.passTest("Enrolling " + courseName + " Name");
-				logger.info("Enrolling " + courseName + " Name");
+				grep.passTest("Enrolling " + courseName + " Course");
+				logger.info("Enrolling " + courseName + " Course");
 			} else {
 				grep.failTest("Seach department Element Not Found");
 				logger.error("Seach department Element Not Found");
@@ -138,7 +140,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 		}
 	}
 
-	// Verify Cards in Admin Page
+	// Verify Cards in Admin Page DASHBOARD TAB
 	public void adminCardsText(String cardName) throws Exception {
 		try {
 			By adminCards = By.xpath("//h3[text()='" + cardName + "']/following-sibling::p");
@@ -261,6 +263,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 			boolean elementExist = !driver.findElements(searchBy).isEmpty();
 			if (elementExist) {
+//				scrollView(searchBy);
 
 				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
 				driver.findElement(searchBy).sendKeys(searchValue);
@@ -278,7 +281,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 		}
 	}
 
-	public void clearDashboardTable(String tableName, String searchFieldName, String searchValue) throws Exception {
+	public void clearDashboardTable(String tableName, String searchFieldName) throws Exception {
 		try {
 			By searchBy = By.xpath(
 					"//h2[text()='" + tableName + "']/following-sibling::div/input[@name='" + searchFieldName + "']");
@@ -317,12 +320,12 @@ public class L_And_D_OtherPages extends WaitsManager {
 				}
 				if (isValid && table.size() > 0) {
 					System.out.println("✅ Search validation passed. All Values match: " + verifyValue);
-					grep.infoTest("✅ Search validation passed. All Values match: " + verifyValue);
+					grep.passTest("✅ Search validation passed. All Values match: " + verifyValue);
 					logger.info("✅ Search validation passed. All Values match: " + verifyValue);
 				} else {
-					System.out.println("❌ Search validation failed. Mismatched Value found or no rows.");
-					grep.infoTest("❌ Search validation failed. Mismatched Value found or no rows.");
-					logger.info("❌ Search validation failed. Mismatched Value found or no rows.");
+					System.out.println("❌ Search validation failed. Mismatched Value found or no rows: " + verifyValue);
+					grep.failTest("❌ Search validation failed. Mismatched Value found or no rows: " + verifyValue);
+					logger.error("❌ Search validation failed. Mismatched Value found or no rows: " + verifyValue);
 				}
 
 			} else {
@@ -341,8 +344,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 	// click total users and get user details
 	public void clickTotalUsersInDashboard(String tableName) throws Exception {
 		try {
-			By getTableData = By.xpath(
-					"//h2[text()='" + tableName + "']/following-sibling::table[@class='course-table']/tbody/tr/td[3]");
+			By getTableData = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table/tbody/tr/td[3]");
 			List<WebElement> table = driver.findElements(getTableData);
 			if (table.size() > 0) {
 				table.getFirst().click();
@@ -360,19 +362,21 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 		}
 	}
-	
-	public void getUserDetails(String tableName) throws Exception {
+
+	public void clearFilterButton() throws Exception {
 		try {
-			By getTableData = By.xpath(
-					"//h2[text()='" + tableName + "']/following-sibling::table[@class='course-table']/tbody/tr/td[3]");
-			List<WebElement> table = driver.findElements(getTableData);
-			if (table.size() > 0) {
-				table.getFirst().click();
-				grep.passTest("Click Total Users");
-				logger.info("Click Total Users");
+			By clearFilter = By.xpath("//button[text()='Clear Course Filter (Show All Users)']");
+
+			boolean elementExist = !driver.findElements(clearFilter).isEmpty();
+			if (elementExist) {
+				scrollView(adminHeader);
+				waitTime(driver);
+				driver.findElement(clearFilter).click();
+				grep.infoTest("Clear Filter");
+				logger.info("Clear Filter");
 			} else {
-				grep.failTest("No Users Enrolled");
-				logger.error("No Users Enrolled");
+				grep.failTest("Clear filter not Available");
+				logger.error("Clear filter not Available");
 			}
 
 		} catch (Exception e) {
@@ -383,5 +387,180 @@ public class L_And_D_OtherPages extends WaitsManager {
 		}
 	}
 
-	
+// TEST TAB
+	// Search filter in table
+	public void searchTestsTable(String tableName, String searchFieldName, String searchValue) throws Exception {
+		try {
+			By searchBy = By.xpath("//h3[text()='" + tableName + "']/following-sibling::div/input[@placeholder='"
+					+ searchFieldName + "']");
+
+			boolean elementExist = !driver.findElements(searchBy).isEmpty();
+			if (elementExist) {
+
+				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				driver.findElement(searchBy).sendKeys(searchValue);
+
+			} else {
+				grep.failTest("Table is not available in dashboard tab");
+				logger.error("Table is not available in dashboard tab");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void clearTestsTable(String tableName, String searchFieldName) throws Exception {
+		try {
+			By searchBy = By.xpath("//h3[text()='" + tableName + "']/following-sibling::div/input[@placeholder='"
+					+ searchFieldName + "']");
+			boolean elementExist = !driver.findElements(searchBy).isEmpty();
+			if (elementExist) {
+
+				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+
+			} else {
+				grep.failTest("Table is not available in dashboard tab");
+				logger.error("Table is not available in dashboard tab");
+			}
+			scrollView(adminHeader);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void verifyDataInTestTable(String tableName, String verifyValue) throws Exception {
+		try {
+			By searchBy = By.xpath("//h3[text()='" + tableName + "']/following-sibling::table/tbody/tr");
+
+			List<WebElement> table = driver.findElements(searchBy);
+			if (table.size() > 0) {
+				boolean isValid = true;
+				for (WebElement rows : table) {
+					String rowvalues = rows.getText();
+					if (!rowvalues.contains(verifyValue)) {
+						isValid = false;
+						break;
+					}
+				}
+				if (isValid && table.size() > 0) {
+					System.out.println("✅ Search validation passed. All Values match: " + verifyValue);
+					grep.passTest("✅ Search validation passed. All Values match: " + verifyValue);
+					logger.info("✅ Search validation passed. All Values match: " + verifyValue);
+				} else {
+					System.out.println("❌ Search validation failed. Mismatched Value found or no rows: " + verifyValue);
+					grep.failTest("❌ Search validation failed. Mismatched Value found or no rows: " + verifyValue);
+					logger.error("❌ Search validation failed. Mismatched Value found or no rows: " + verifyValue);
+				}
+
+			} else {
+				grep.failTest("No Data found");
+				logger.error("No Data found");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// ROLES TAB
+	// Search filter in table
+	public void searchRolesTable(String tableName, String searchFieldName, String searchValue) throws Exception {
+		try {
+			By searchBy = By.xpath("//h1[text()='" + tableName + "']/following-sibling::div/input[@placeholder='"
+					+ searchFieldName + "']");
+
+			boolean elementExist = !driver.findElements(searchBy).isEmpty();
+			if (elementExist) {
+
+				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				driver.findElement(searchBy).sendKeys(searchValue);
+
+			} else {
+				grep.failTest("Table is not available in dashboard tab");
+				logger.error("Table is not available in dashboard tab");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void clearRolesTable(String tableName, String searchFieldName) throws Exception {
+		try {
+			By searchBy = By.xpath("//h1[text()='" + tableName + "']/following-sibling::div/input[@placeholder='"
+					+ searchFieldName + "']");
+			boolean elementExist = !driver.findElements(searchBy).isEmpty();
+			if (elementExist) {
+
+				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+
+			} else {
+				grep.failTest("Table is not available in dashboard tab");
+				logger.error("Table is not available in dashboard tab");
+			}
+			scrollView(adminHeader);
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void verifyDataInRolesTable(String tableName, String verifyValue) throws Exception {
+		try {
+			By searchBy = By.xpath("//h1[text()='" + tableName + "']/following-sibling::table/tbody/tr");
+
+			List<WebElement> table = driver.findElements(searchBy);
+			if (table.size() > 0) {
+				boolean isValid = true;
+				for (WebElement rows : table) {
+					String rowvalues = rows.getText();
+					if (!rowvalues.contains(verifyValue)) {
+						isValid = false;
+						break;
+					}
+				}
+				if (isValid && table.size() > 0) {
+					System.out.println("✅ Search validation passed. All Values match: " + verifyValue);
+					grep.passTest("✅ Search validation passed. All Values match: " + verifyValue);
+					logger.info("✅ Search validation passed. All Values match: " + verifyValue);
+				} else {
+					System.out.println("❌ Search validation failed. Mismatched Value found or no rows: " + verifyValue);
+					grep.failTest("❌ Search validation failed. Mismatched Value found or no rows: " + verifyValue);
+					logger.error("❌ Search validation failed. Mismatched Value found or no rows: " + verifyValue);
+				}
+
+			} else {
+				grep.failTest("No Data found");
+				logger.error("No Data found");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// for scroll to view
+	public void scrollView(By locator) {
+		WebElement element = driver.findElement(locator);
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+	}
 }

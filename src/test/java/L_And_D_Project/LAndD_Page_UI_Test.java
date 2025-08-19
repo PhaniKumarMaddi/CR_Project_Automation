@@ -26,6 +26,9 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 		grep.testCreate("Learning and Development Page navigation Test", "Learning and Development  Page navigation");
 		waitTime(driver);
 
+		grep.infoTest("Learning and Development Page navigation Test");
+		logger.info("Learning and Development Page navigation Test");
+
 		grep.infoTest("Navigating To My Courses Page");
 		navigateToAllPages(dataKeys.myCoursesPageUrl);
 
@@ -182,7 +185,6 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 		logger.info("Social Media Links");
 		verifySocialMediaFooter(dataKeys.facebookFooter);
 		verifySocialMediaFooter(dataKeys.linkedinFooter);
-//		verifySocialMediaFooter(dataKeys.twitterFooter);
 		verifySocialMediaFooter(dataKeys.instaFooter);
 
 		lndPage.footerMedia_URLs(dataKeys.twitterFooter);

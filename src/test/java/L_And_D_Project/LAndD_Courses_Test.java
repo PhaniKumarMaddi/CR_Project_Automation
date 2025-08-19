@@ -19,7 +19,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 	L_And_D_OtherPages lndOther;
 	L_And_D_TestDataKeys dataKeys = new L_And_D_TestDataKeys();
 
-	@Test(priority = 1, enabled = false)
+	@Test(priority = 1)
 	public void l_and_d_MyCourses() throws Exception {
 		lndPage = new L_And_D_Page();
 		lndCoursePage = new L_And_D_MyCoursesPage();
@@ -33,9 +33,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		waitTime(driver);
 
 		grep.testCreate("My Courses Page test", "My Courses Page");
-		waitTime(driver);
-
-		waitTime(driver);
+		waitTime3(driver);
 
 		lndCoursePage.myCoursesHeader();
 
@@ -47,9 +45,8 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		waitTime(driver);
 		lndCoursePage.clickTabInMyCourses(dataKeys.allCourseTab);
 		grep.captureScreenshot("pass", "My Courses All Courses tab", "myCourses_AllCoursesTab");
-		waitTime(driver);
+		waitTime5(driver);
 
-		waitTime(driver);
 		// Continue and update progress for Course test
 		completeAndUpdateVideo(dataKeys.testAutomationBeginnerCourse);
 
@@ -91,7 +88,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 
 		waitTime(driver);
 
-		grep.testCreate("Search Functioanlity for tables in dashboard test", "Search filter Tables in dashboard");
+		grep.testCreate("Search Functionality for tables in dashboard test", "Search filter Tables in dashboard");
 
 		waitTime(driver);
 
@@ -104,8 +101,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		grep.captureScreenshot("pass", "Search in user management table", "searchIn_userMgmtTable_dashboard");
 
 		lndOther.verifyDataInTable(dataKeys.userMgmtTable_dashboard, dataKeys.ssoUserName);
-		lndOther.clearDashboardTable(dataKeys.userMgmtTable_dashboard, dataKeys.email_column_Dashboard,
-				dataKeys.ssoUserName);
+		lndOther.clearDashboardTable(dataKeys.userMgmtTable_dashboard, dataKeys.email_column_Dashboard);
 
 		// course statistic table
 		grep.infoTest("Search Functionality for " + dataKeys.courseStctTable_dashboard + " table");
@@ -116,8 +112,9 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		grep.captureScreenshot("pass", "Search in Course Statistics table", "searchIn_courseStctsTable_dashboard");
 
 		lndOther.verifyDataInTable(dataKeys.courseStctTable_dashboard, dataKeys.dept_EnergyWater);
-		lndOther.clearDashboardTable(dataKeys.courseStctTable_dashboard, dataKeys.dept_column_Dashboard,
-				dataKeys.dept_EnergyWater);
+		lndOther.clearDashboardTable(dataKeys.courseStctTable_dashboard, dataKeys.dept_column_Dashboard);
+
+		waitTime2(driver);
 
 		// Feedback overview table
 		grep.infoTest("Search Functionality for " + dataKeys.feedbackTable_dashboard + " table");
@@ -127,19 +124,83 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 
 		grep.captureScreenshot("pass", "Search in Feedback Overview table", "searchIn_feedbackTable_dashboard");
 
-		lndOther.verifyDataInTable(dataKeys.feedbackTable_dashboard, dataKeys.dept_EnergyWater);
-		lndOther.clearDashboardTable(dataKeys.feedbackTable_dashboard, dataKeys.userId_column_Dashboard,
+		lndOther.verifyDataInTable(dataKeys.feedbackTable_dashboard, dataKeys.userId_col_Value);
+		lndOther.clearDashboardTable(dataKeys.feedbackTable_dashboard, dataKeys.userId_column_Dashboard);
+
+		waitTime3(driver);
+
+		// get users for course by using course statistics
+		grep.testCreate("Get Users for Course by using Course statistics table test",
+				"Get Users for Course by using Course statistics table");
+		grep.infoTest("Get Users for Course by using Course statistics table test");
+		logger.info("Get Users for Course by using Course statistics table test");
+
+		lndOther.searchDashboardTable(dataKeys.courseStctTable_dashboard, dataKeys.courseName_column_Dashboard,
+				dataKeys.airflowBeginnerCourse);
+		lndOther.clickTotalUsersInDashboard(dataKeys.courseStctTable_dashboard);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Verify Total Users in course statistics table ",
+				"totalUsers_CourseStst_Dashboad");
+		waitTime(driver);
+		lndOther.verifyDataInTable(dataKeys.userMgmtTable_dashboard, dataKeys.airflowBeginnerCourse);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Verify Users for course table", "usersForCourseTable");
+		waitTime(driver);
+		lndOther.clearDashboardTable(dataKeys.courseStctTable_dashboard, dataKeys.courseName_column_Dashboard);
+		waitTime2(driver);
+		lndOther.clearFilterButton();
+
+		// Test Tab in admin
+		grep.testCreate("Search Functionality for tables in Tests Tab test", "Search filter Tables in tests");
+
+		waitTime(driver);
+		lndPage.naviagteToAdminTabs(dataKeys.testsTabUrl);
+		waitTime5(driver);
+
+		// Assessment request Notification table
+		grep.infoTest("Search Functionality for " + dataKeys.ass_request_notify_table_Test + " table");
+		logger.info("Search Functionality for " + dataKeys.ass_request_notify_table_Test + " table");
+		lndOther.searchTestsTable(dataKeys.ass_request_notify_table_Test, dataKeys.userId_column_Test,
 				dataKeys.userId_col_Value);
 
-		// get users for course  by using course statistics
-		grep.testCreate("Get Users for Course by using Course statistics table test", "Get Users for Course by using Course statistics table");
-		lndOther.searchDashboardTable(dataKeys.courseStctTable_dashboard, dataKeys.courseName_column_Test,
-				dataKeys.airflowBeginnerCourse);
-		
+		grep.captureScreenshot("pass", "Search in Assessment Request table", "searchIn_AssmntRqstTable_Test");
 
-	
+		waitTime3(driver);
+		lndOther.verifyDataInTestTable(dataKeys.ass_request_notify_table_Test, dataKeys.userId_col_Value);
+
+		waitTime(driver);
+		grep.infoTest("Search Functionality for " + dataKeys.course_Ass_table_Test + " table");
+		logger.info("Search Functionality for " + dataKeys.course_Ass_table_Test + " table");
+		lndOther.searchTestsTable(dataKeys.course_Ass_table_Test, dataKeys.courseName_column_Test,
+				dataKeys.mdmBeginnerCourse);
+
+		grep.captureScreenshot("pass", "Search in Assessment Request table", "searchIn_CourseAssmtTable_Test");
+
+		lndOther.verifyDataInTestTable(dataKeys.course_Ass_table_Test, dataKeys.mdmBeginnerCourse);
+		lndOther.clearTestsTable(dataKeys.course_Ass_table_Test, dataKeys.courseName_column_Test);
+
+		waitTime2(driver);
+
+		// Roles Tab in admin
+		grep.testCreate("Search Functionality for tables in Roles Tab test", "Search filter Tables in roles");
+
+		waitTime5(driver);
+		lndPage.naviagteToAdminTabs(dataKeys.rolesTabUrl);
+
+		waitTime(driver);
+		// User management table
+		grep.infoTest("Search Functionality for " + dataKeys.userMgmtTable_dashboard + " table");
+		logger.info("Search Functionality for " + dataKeys.userMgmtTable_dashboard + " table");
+		lndOther.searchRolesTable(dataKeys.userMgmtTable_dashboard, dataKeys.email_column_Test, dataKeys.ssoUserName);
+
+		grep.captureScreenshot("pass", "Search in User Management table", "searchIn_UsrMgmtTable_Role");
+
+		lndOther.verifyDataInRolesTable(dataKeys.userMgmtTable_dashboard, dataKeys.ssoUserName);
+		lndOther.clearRolesTable(dataKeys.userMgmtTable_dashboard, dataKeys.email_column_Test);
+
+		waitTime(driver);
 	}
-
+	
 	public void completeAndUpdateVideo(String courseName) throws Exception {
 
 		grep.testCreate("Continue and update progress for Course test", "Continue and update progress for Course");
@@ -150,7 +211,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 
 		waitTime(driver);
 		lndCoursePage.getProgressPercent(courseName);
-		waitTime(driver);
+		waitTime3(driver);
 		lndCoursePage.clickContinueLearning(courseName);
 		waitTime(driver);
 		verifyUrl();
@@ -212,6 +273,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		waitTime(driver);
 
 		lndPage.navigateToPage(dataKeys.myCoursesPageUrl);
+		waitTime(driver);
 		grep.testCreate("Verify enrolled course Card Details test", "Verify Enrolled Course Card Details");
 		waitTime(driver);
 		grep.infoTest("Enrolled Course Card Details test");

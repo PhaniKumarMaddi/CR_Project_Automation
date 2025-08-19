@@ -29617,3 +29617,940 @@ nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-
 2025-08-19 10:46:02 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
 2025-08-19 10:46:03 [main] INFO : Testing Ended
 2025-08-19 10:46:03 [main] INFO : ***********
+2025-08-19 11:11:34 [main] INFO : Launching Chrome Browser
+2025-08-19 11:11:34 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 11:12:07 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 11:12:07 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 11:13:07 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 11:13:10 [main] INFO : Explore Department and Enroll Course test
+2025-08-19 11:13:10 [main] INFO : Navigated to /departments
+2025-08-19 11:13:11 [main] INFO : Searching Data Science and AI Name
+2025-08-19 11:13:14 [main] INFO : Exploring Data Science and AI Name
+2025-08-19 11:13:15 [main] INFO : Searching Airflow Advanced Name
+2025-08-19 11:13:16 [main] INFO : Enrolling Airflow Advanced Name
+2025-08-19 11:13:18 [main] INFO : Navigated to /my-courses
+2025-08-19 11:13:18 [main] INFO : Enrolled Course Card Details test
+2025-08-19 11:13:19 [main] INFO : Course Category for Airflow Advanced: Data Engineering Tools
+2025-08-19 11:13:19 [main] INFO : Course Level for Airflow Advanced: Advanced
+2025-08-19 11:13:19 [main] INFO : Course Video Count for Airflow Advanced: 🎥 Videos : 50
+2025-08-19 11:13:19 [main] INFO : Course Duration for Airflow Advanced: ⏱ Duration : 9 hrs 52 mins
+2025-08-19 11:13:19 [main] INFO : Course Progress percent for Airflow Advanced: Progress: 0%
+2025-08-19 11:13:19 [main] INFO : Course Enrolled Successful:Airflow Advanced
+2025-08-19 11:13:21 [main] INFO : Header : My Courses
+2025-08-19 11:13:21 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-19 11:13:21 [main] INFO : Inside In progress Tab
+2025-08-19 11:13:22 [main] INFO : Inside Completed Tab
+2025-08-19 11:13:23 [main] INFO : Inside All courses Tab
+2025-08-19 11:13:25 [main] INFO : Continue and update progress for Course test
+2025-08-19 11:13:26 [main] INFO : Progress Percent :Progress: 18%
+2025-08-19 11:13:27 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-19 11:13:29 [main] INFO : Video Available in the list:10
+Selenium
+2025-08-19 11:13:29 [main] INFO : Select Video from video list
+2025-08-19 11:14:32 [main] INFO : Click Play Video
+2025-08-19 11:14:50 [main] INFO : Video playback moved to the end.
+2025-08-19 11:15:16 [main] INFO : Video Completed: Completed
+2025-08-19 11:15:16 [main] INFO : Navigated to /my-courses
+2025-08-19 11:15:17 [main] INFO : Progress Percent :Progress: 20%
+2025-08-19 11:15:18 [main] INFO : Navigated to /admin
+2025-08-19 11:15:19 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 11:15:22 [main] INFO : Certificates card Value: 3
+2025-08-19 11:15:22 [main] INFO : Departments card Value: 14
+2025-08-19 11:15:22 [main] INFO : Active Courses card Value: 462
+2025-08-19 11:15:22 [main] INFO : Users card Value: 22
+2025-08-19 11:15:23 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 11:15:23 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 11:15:23 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19
+2025-08-19 11:15:24 [main] INFO : View Certificates
+2025-08-19 11:15:30 [main] INFO : Close Certificate
+2025-08-19 11:15:31 [main] INFO : Search Functionality for User Management table
+2025-08-19 11:15:32 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 11:15:32 [main] INFO : Search Functionality for Course Statistics table
+2025-08-19 11:15:33 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-19 11:15:33 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-19 11:15:33 [main] INFO : ❌ Search validation failed. Mismatched Value found or no rows.
+2025-08-19 11:16:34 [main] ERROR: Table is not available in dashboard tab
+2025-08-19 11:16:34 [main] INFO : Click Total Users
+2025-08-19 11:16:35 [main] INFO : ❌ Search validation failed. Mismatched Value found or no rows.
+2025-08-19 11:17:35 [main] ERROR: Table is not available in dashboard tab
+2025-08-19 11:17:36 [main] INFO : Testing Ended
+2025-08-19 11:17:36 [main] INFO : ***********
+2025-08-19 11:26:56 [main] INFO : Launching Chrome Browser
+2025-08-19 11:26:57 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 11:26:59 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 11:26:59 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 11:27:25 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 11:27:25 [main] INFO : Navigated to /admin
+2025-08-19 11:27:26 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 11:27:29 [main] INFO : Certificates card Value: 3
+2025-08-19 11:27:29 [main] INFO : Departments card Value: 14
+2025-08-19 11:27:29 [main] INFO : Active Courses card Value: 462
+2025-08-19 11:27:29 [main] INFO : Users card Value: 22
+2025-08-19 11:27:30 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 11:27:30 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 11:27:30 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19
+2025-08-19 11:27:31 [main] INFO : View Certificates
+2025-08-19 11:27:37 [main] INFO : Close Certificate
+2025-08-19 11:27:39 [main] INFO : Search Functionality for User Management table
+2025-08-19 11:27:39 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 11:27:39 [main] INFO : Search Functionality for Course Statistics table
+2025-08-19 11:27:40 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-19 11:27:40 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-19 11:27:40 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-19 11:28:41 [main] ERROR: Table is not available in dashboard tab
+2025-08-19 11:28:42 [main] ERROR: Test Failed :element click intercepted: Element <td>...</td> is not clickable at point (1238, 18). Other element would receive the click: <header class="header">...</header>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a40dbc47185f2d3e0859c7d796629cd, clickElement {id=f.325BEECFE1476453F786CAE4B21D9E46.d.E6E3C4CFA92B298688F2568BC9527184.e.150}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56332/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0a40dbc47185f2d3e0859c7d796629cd)] -> xpath: //h2[text()='Course Statistics']/following-sibling::table/tbody/tr/td[3]]
+Session ID: 0a40dbc47185f2d3e0859c7d796629cd
+2025-08-19 11:31:57 [main] INFO : Launching Chrome Browser
+2025-08-19 11:31:57 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 11:31:59 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 11:32:00 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 11:32:23 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 11:32:23 [main] INFO : Navigated to /admin
+2025-08-19 11:32:24 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 11:32:27 [main] INFO : Certificates card Value: 3
+2025-08-19 11:32:27 [main] INFO : Departments card Value: 14
+2025-08-19 11:32:27 [main] INFO : Active Courses card Value: 462
+2025-08-19 11:32:27 [main] INFO : Users card Value: 22
+2025-08-19 11:32:28 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 11:32:28 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 11:32:28 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19
+2025-08-19 11:32:29 [main] INFO : View Certificates
+2025-08-19 11:32:35 [main] INFO : Close Certificate
+2025-08-19 11:32:37 [main] INFO : Search Functionality for User Management table
+2025-08-19 11:32:37 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 11:32:37 [main] INFO : Search Functionality for Course Statistics table
+2025-08-19 11:32:38 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-19 11:32:38 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-19 11:32:39 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-19 11:32:39 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-19 11:33:39 [main] ERROR: Table is not available in dashboard tab
+2025-08-19 11:33:39 [main] INFO : Click Total Users
+2025-08-19 11:33:40 [main] ERROR: ❌ Search validation failed. Mismatched Value found or no rows: Airflow Beginner
+2025-08-19 11:34:38 [main] INFO : Launching Chrome Browser
+2025-08-19 11:34:38 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 11:34:40 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 11:34:40 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 11:35:09 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 11:35:09 [main] INFO : Navigated to /admin
+2025-08-19 11:35:10 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 11:35:13 [main] INFO : Certificates card Value: 3
+2025-08-19 11:35:13 [main] INFO : Departments card Value: 14
+2025-08-19 11:35:13 [main] INFO : Active Courses card Value: 462
+2025-08-19 11:35:13 [main] INFO : Users card Value: 22
+2025-08-19 11:35:14 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 11:35:14 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 11:35:14 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19
+2025-08-19 11:35:15 [main] INFO : View Certificates
+2025-08-19 11:35:20 [main] INFO : Close Certificate
+2025-08-19 11:35:22 [main] INFO : Search Functionality for User Management table
+2025-08-19 11:35:23 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 11:35:23 [main] INFO : Search Functionality for Course Statistics table
+2025-08-19 11:35:23 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-19 11:35:23 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-19 11:36:23 [main] ERROR: Table is not available in dashboard tab
+2025-08-19 11:36:24 [main] INFO : Click Total Users
+2025-08-19 11:38:03 [main] INFO : Launching Chrome Browser
+2025-08-19 11:38:04 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 11:38:06 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 11:38:06 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 11:38:36 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 11:38:36 [main] INFO : Navigated to /admin
+2025-08-19 11:38:37 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 11:38:40 [main] INFO : Certificates card Value: 3
+2025-08-19 11:38:40 [main] INFO : Departments card Value: 14
+2025-08-19 11:38:40 [main] INFO : Active Courses card Value: 462
+2025-08-19 11:38:40 [main] INFO : Users card Value: 22
+2025-08-19 11:38:40 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 11:38:41 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 11:38:41 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19
+2025-08-19 11:38:41 [main] INFO : View Certificates
+2025-08-19 11:38:47 [main] INFO : Close Certificate
+2025-08-19 11:38:49 [main] INFO : Search Functionality for User Management table
+2025-08-19 11:38:49 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 11:38:49 [main] INFO : Search Functionality for Course Statistics table
+2025-08-19 11:38:50 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-19 11:38:52 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-19 11:38:52 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-19 11:38:55 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-19 11:38:55 [main] INFO : Click Total Users
+2025-08-19 11:38:57 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-19 11:39:57 [main] ERROR: Table is not available in dashboard tab
+2025-08-19 11:39:57 [main] INFO : Testing Ended
+2025-08-19 11:39:57 [main] INFO : ***********
+2025-08-19 11:41:21 [main] INFO : Launching Chrome Browser
+2025-08-19 11:41:21 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 11:41:23 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 11:41:23 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 11:41:57 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 11:41:57 [main] INFO : Navigated to /admin
+2025-08-19 11:41:58 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 11:42:01 [main] INFO : Certificates card Value: 3
+2025-08-19 11:42:01 [main] INFO : Departments card Value: 14
+2025-08-19 11:42:01 [main] INFO : Active Courses card Value: 462
+2025-08-19 11:42:01 [main] INFO : Users card Value: 22
+2025-08-19 11:42:02 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 11:42:02 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 11:42:02 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19
+2025-08-19 11:42:03 [main] INFO : View Certificates
+2025-08-19 11:42:09 [main] INFO : Close Certificate
+2025-08-19 11:42:10 [main] INFO : Search Functionality for User Management table
+2025-08-19 11:42:11 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 11:42:11 [main] INFO : Search Functionality for Course Statistics table
+2025-08-19 11:42:11 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-19 11:42:13 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-19 11:42:13 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-19 11:42:17 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-19 11:42:17 [main] INFO : Click Total Users
+2025-08-19 11:42:18 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-19 11:42:19 [main] INFO : Testing Ended
+2025-08-19 11:42:19 [main] INFO : ***********
+2025-08-19 12:02:10 [main] INFO : Launching Chrome Browser
+2025-08-19 12:02:11 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 12:02:34 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 12:03:04 [main] ERROR: Test Failed :Expected condition failed: waiting for presence of element located by: By.cssSelector: h2.login-platform (tried for 30 second(s) with 500 milliseconds interval)
+2025-08-19 12:03:15 [main] INFO : Launching Chrome Browser
+2025-08-19 12:03:15 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 12:03:17 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 12:03:17 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 12:03:47 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 12:03:47 [main] INFO : Navigated to /admin
+2025-08-19 12:03:47 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 12:03:50 [main] INFO : Certificates card Value: 3
+2025-08-19 12:03:50 [main] INFO : Departments card Value: 14
+2025-08-19 12:03:50 [main] INFO : Active Courses card Value: 462
+2025-08-19 12:03:50 [main] INFO : Users card Value: 22
+2025-08-19 12:03:51 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 12:03:51 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 12:03:51 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19
+2025-08-19 12:03:52 [main] INFO : View Certificates
+2025-08-19 12:03:58 [main] INFO : Close Certificate
+2025-08-19 12:03:59 [main] INFO : Search Functionality for User Management table
+2025-08-19 12:04:00 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 12:04:00 [main] INFO : Search Functionality for Course Statistics table
+2025-08-19 12:04:00 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-19 12:04:02 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-19 12:04:50 [main] INFO : Launching Chrome Browser
+2025-08-19 12:04:51 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 12:04:52 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 12:04:52 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 12:05:17 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 12:05:17 [main] INFO : Navigated to /admin
+2025-08-19 12:05:18 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 12:05:21 [main] INFO : Certificates card Value: 3
+2025-08-19 12:05:21 [main] INFO : Departments card Value: 14
+2025-08-19 12:05:21 [main] INFO : Active Courses card Value: 462
+2025-08-19 12:05:21 [main] INFO : Users card Value: 22
+2025-08-19 12:05:22 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 12:05:22 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 12:05:22 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19
+2025-08-19 12:05:23 [main] INFO : View Certificates
+2025-08-19 12:05:28 [main] INFO : Close Certificate
+2025-08-19 12:05:30 [main] INFO : Search Functionality for User Management table
+2025-08-19 12:05:31 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 12:05:31 [main] INFO : Search Functionality for Course Statistics table
+2025-08-19 12:05:31 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-19 12:05:33 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-19 12:06:32 [main] INFO : Launching Chrome Browser
+2025-08-19 12:06:32 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 12:06:34 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 12:06:34 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 12:06:55 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 12:06:55 [main] INFO : Navigated to /admin
+2025-08-19 12:06:56 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 12:06:59 [main] INFO : Certificates card Value: 3
+2025-08-19 12:06:59 [main] INFO : Departments card Value: 14
+2025-08-19 12:06:59 [main] INFO : Active Courses card Value: 462
+2025-08-19 12:06:59 [main] INFO : Users card Value: 22
+2025-08-19 12:07:00 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 12:07:00 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 12:07:00 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19
+2025-08-19 12:07:00 [main] INFO : View Certificates
+2025-08-19 12:07:06 [main] INFO : Close Certificate
+2025-08-19 12:07:08 [main] INFO : Search Functionality for User Management table
+2025-08-19 12:07:08 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 12:07:08 [main] INFO : Search Functionality for Course Statistics table
+2025-08-19 12:07:09 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-19 12:07:11 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-19 12:07:11 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-19 12:07:14 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-19 12:07:15 [main] INFO : Click Total Users
+2025-08-19 12:15:41 [main] INFO : Launching Chrome Browser
+2025-08-19 12:15:41 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 12:15:43 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 12:15:43 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 12:16:07 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 12:16:07 [main] INFO : Navigated to /admin
+2025-08-19 12:16:08 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 12:16:11 [main] INFO : Certificates card Value: 3
+2025-08-19 12:16:11 [main] INFO : Departments card Value: 14
+2025-08-19 12:16:11 [main] INFO : Active Courses card Value: 462
+2025-08-19 12:16:11 [main] INFO : Users card Value: 22
+2025-08-19 12:16:12 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 12:16:12 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 12:16:12 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19
+2025-08-19 12:16:13 [main] INFO : View Certificates
+2025-08-19 12:16:18 [main] INFO : Close Certificate
+2025-08-19 12:16:20 [main] INFO : Search Functionality for User Management table
+2025-08-19 12:16:20 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 12:16:21 [main] INFO : Search Functionality for Course Statistics table
+2025-08-19 12:16:21 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-19 12:16:23 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-19 12:16:23 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-19 12:16:27 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-19 12:16:27 [main] INFO : Click Total Users
+2025-08-19 12:16:28 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-19 12:16:30 [main] ERROR: Test Failed :element click intercepted: Element <button>...</button> is not clickable at point (779, 60). Other element would receive the click: <header class="header">...</header>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [30abe83c5d421c30e510c5a19406a7a1, clickElement {id=f.15DBB936BB69B4C74B4BA1201180BD33.d.851C06A5B4CF483727A10E2334812F45.e.336}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49977}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49977/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (30abe83c5d421c30e510c5a19406a7a1)] -> xpath: //button[text()='Clear Course Filter (Show All Users)']]
+Session ID: 30abe83c5d421c30e510c5a19406a7a1
+2025-08-19 12:16:33 [main] ERROR: Test Failed :element click intercepted: Element <a class="" href="/admin/tests" style="flex: 1 1 0%; padding: 12px 0px; background: transparent; border: none; outline: none; font-weight: bold; color: rgb(34, 34, 34); cursor: pointer; font-size: 1rem; transition: background 0.2s; text-decoration: none; text-align: center;">...</a> is not clickable at point (1549, 22). Other element would receive the click: <header class="header">...</header>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [30abe83c5d421c30e510c5a19406a7a1, clickElement {id=f.15DBB936BB69B4C74B4BA1201180BD33.d.851C06A5B4CF483727A10E2334812F45.e.371}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49977}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49977/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (30abe83c5d421c30e510c5a19406a7a1)] -> xpath: //a[@href='/admin/tests']]
+Session ID: 30abe83c5d421c30e510c5a19406a7a1
+2025-08-19 12:16:33 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-19 12:18:42 [main] INFO : Launching Chrome Browser
+2025-08-19 12:18:42 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 12:18:43 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 12:18:43 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 12:19:06 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 12:19:07 [main] INFO : Navigated to /admin
+2025-08-19 12:19:07 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 12:19:10 [main] INFO : Certificates card Value: 3
+2025-08-19 12:19:10 [main] INFO : Departments card Value: 14
+2025-08-19 12:19:10 [main] INFO : Active Courses card Value: 462
+2025-08-19 12:19:10 [main] INFO : Users card Value: 22
+2025-08-19 12:19:11 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 12:19:11 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 12:19:11 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19
+2025-08-19 12:19:12 [main] INFO : View Certificates
+2025-08-19 12:19:18 [main] INFO : Close Certificate
+2025-08-19 12:19:19 [main] INFO : Search Functionality for User Management table
+2025-08-19 12:19:20 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 12:19:20 [main] INFO : Search Functionality for Course Statistics table
+2025-08-19 12:19:20 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-19 12:19:22 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-19 12:19:23 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-19 12:19:26 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-19 12:19:26 [main] INFO : Click Total Users
+2025-08-19 12:19:27 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-19 12:19:31 [main] ERROR: Test Failed :element click intercepted: Element <button>...</button> is not clickable at point (779, 9). Other element would receive the click: <header class="header">...</header>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9aa0c4c0582bbdd4279d052914117ef, clickElement {id=f.028BC2587E4C57C5D3A70437A55B8B30.d.A0E0017662087F4CAAC22C018B0AADB7.e.337}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58411/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f9aa0c4c0582bbdd4279d052914117ef)] -> xpath: //button[text()='Clear Course Filter (Show All Users)']]
+Session ID: f9aa0c4c0582bbdd4279d052914117ef
+2025-08-19 12:19:32 [main] ERROR: Test Failed :element click intercepted: Element <a class="" href="/admin/tests" style="flex: 1 1 0%; padding: 12px 0px; background: transparent; border: none; outline: none; font-weight: bold; color: rgb(34, 34, 34); cursor: pointer; font-size: 1rem; transition: background 0.2s; text-decoration: none; text-align: center;">...</a> is not clickable at point (1549, 22). Other element would receive the click: <header class="header">...</header>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9aa0c4c0582bbdd4279d052914117ef, clickElement {id=f.028BC2587E4C57C5D3A70437A55B8B30.d.A0E0017662087F4CAAC22C018B0AADB7.e.374}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58411/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f9aa0c4c0582bbdd4279d052914117ef)] -> xpath: //a[@href='/admin/tests']]
+Session ID: f9aa0c4c0582bbdd4279d052914117ef
+2025-08-19 12:19:33 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-19 12:21:08 [main] INFO : Launching Chrome Browser
+2025-08-19 12:21:08 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 12:21:10 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 12:21:10 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 12:21:38 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 12:21:38 [main] INFO : Navigated to /admin
+2025-08-19 12:21:39 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 12:21:42 [main] INFO : Certificates card Value: 3
+2025-08-19 12:21:42 [main] INFO : Departments card Value: 14
+2025-08-19 12:21:42 [main] INFO : Active Courses card Value: 462
+2025-08-19 12:21:42 [main] INFO : Users card Value: 22
+2025-08-19 12:21:43 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 12:21:43 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 12:21:43 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19
+2025-08-19 12:21:44 [main] INFO : View Certificates
+2025-08-19 12:21:49 [main] INFO : Close Certificate
+2025-08-19 12:21:51 [main] INFO : Search Functionality for User Management table
+2025-08-19 12:21:52 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 12:21:52 [main] INFO : Search Functionality for Course Statistics table
+2025-08-19 12:21:52 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-19 12:21:54 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-19 12:21:55 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-19 12:21:58 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-19 12:21:58 [main] INFO : Click Total Users
+2025-08-19 12:21:59 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-19 12:22:03 [main] INFO : Clear Filter
+2025-08-19 12:22:04 [main] INFO : Navigated to /admin/tests
+2025-08-19 12:22:04 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-19 12:22:04 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-19 12:23:15 [main] INFO : Launching Chrome Browser
+2025-08-19 12:23:16 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 12:23:17 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 12:23:17 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 12:23:59 [main] INFO : Launching Chrome Browser
+2025-08-19 12:23:59 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 12:24:00 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 12:24:01 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 12:24:23 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 12:24:24 [main] INFO : Navigated to /admin
+2025-08-19 12:24:24 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 12:24:27 [main] INFO : Certificates card Value: 3
+2025-08-19 12:24:27 [main] INFO : Departments card Value: 14
+2025-08-19 12:24:27 [main] INFO : Active Courses card Value: 462
+2025-08-19 12:24:27 [main] INFO : Users card Value: 22
+2025-08-19 12:24:28 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 12:24:28 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 12:24:28 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19
+2025-08-19 12:24:29 [main] INFO : View Certificates
+2025-08-19 12:24:35 [main] INFO : Close Certificate
+2025-08-19 12:24:36 [main] INFO : Search Functionality for User Management table
+2025-08-19 12:24:37 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 12:24:37 [main] INFO : Search Functionality for Course Statistics table
+2025-08-19 12:24:37 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-19 12:24:39 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-19 12:24:40 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-19 12:24:43 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-19 12:24:43 [main] INFO : Click Total Users
+2025-08-19 12:24:44 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-19 12:24:48 [main] INFO : Clear Filter
+2025-08-19 12:24:49 [main] INFO : Navigated to /admin/tests
+2025-08-19 12:24:49 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-19 12:24:50 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-19 12:24:50 [main] INFO : Search Functionality for Course Assessments table
+2025-08-19 12:24:50 [main] INFO : ✅ Search validation passed. All Values match: Meter Data Management Beginner
+2025-08-19 12:24:54 [main] ERROR: Test Failed :element click intercepted: Element <a class="" href="/admin/roles" style="flex: 1 1 0%; padding: 12px 0px; background: transparent; border: none; outline: none; font-weight: bold; color: rgb(34, 34, 34); cursor: pointer; font-size: 1rem; transition: background 0.2s; text-decoration: none; text-align: center;">...</a> is not clickable at point (2118, 51). Other element would receive the click: <header class="header">...</header>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8b7ebc2ab2f12815b285d6b2a802c2e4, clickElement {id=f.9199CDBBB1291F1655DA7F764F0CC7C1.d.D4AE968F0C624C7213BBEC6E15DDA2AB.e.441}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64005}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64005/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8b7ebc2ab2f12815b285d6b2a802c2e4)] -> xpath: //a[@href='/admin/roles']]
+Session ID: 8b7ebc2ab2f12815b285d6b2a802c2e4
+2025-08-19 12:24:55 [main] INFO : Search Functionality for User Management table
+2025-08-19 12:25:55 [main] ERROR: Table is not available in dashboard tab
+2025-08-19 12:26:18 [main] ERROR: ❌ Search validation failed. Mismatched Value found or no rows: phani.maddi@criticalriver.com
+2025-08-19 12:26:19 [main] INFO : Testing Ended
+2025-08-19 12:26:19 [main] INFO : ***********
+2025-08-19 12:26:35 [main] INFO : Launching Chrome Browser
+2025-08-19 12:26:35 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 12:26:37 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 12:26:37 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 12:27:05 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 12:27:06 [main] INFO : Navigated to /admin
+2025-08-19 12:27:06 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 12:27:09 [main] INFO : Certificates card Value: 3
+2025-08-19 12:27:09 [main] INFO : Departments card Value: 14
+2025-08-19 12:27:09 [main] INFO : Active Courses card Value: 462
+2025-08-19 12:27:09 [main] INFO : Users card Value: 22
+2025-08-19 12:27:10 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 12:27:10 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 12:27:10 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19
+2025-08-19 12:27:11 [main] INFO : View Certificates
+2025-08-19 12:27:17 [main] INFO : Close Certificate
+2025-08-19 12:27:18 [main] INFO : Search Functionality for User Management table
+2025-08-19 12:27:19 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 12:27:19 [main] INFO : Search Functionality for Course Statistics table
+2025-08-19 12:27:19 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-19 12:27:21 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-19 12:27:22 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-19 12:27:25 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-19 12:27:25 [main] INFO : Click Total Users
+2025-08-19 12:27:26 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-19 12:27:30 [main] INFO : Clear Filter
+2025-08-19 12:27:31 [main] INFO : Navigated to /admin/tests
+2025-08-19 12:27:32 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-19 12:27:32 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-19 12:27:32 [main] INFO : Search Functionality for Course Assessments table
+2025-08-19 12:27:33 [main] INFO : ✅ Search validation passed. All Values match: Meter Data Management Beginner
+2025-08-19 12:27:35 [main] INFO : Navigated to /admin/roles
+2025-08-19 12:27:36 [main] INFO : Search Functionality for User Management table
+2025-08-19 12:27:36 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 12:27:37 [main] INFO : Testing Ended
+2025-08-19 12:27:37 [main] INFO : ***********
+2025-08-19 12:29:29 [main] INFO : Launching Chrome Browser
+2025-08-19 12:29:29 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 12:29:31 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 12:29:31 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 12:29:57 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 12:29:58 [main] INFO : Navigated to /admin
+2025-08-19 12:29:58 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 12:30:01 [main] INFO : Certificates card Value: 3
+2025-08-19 12:30:01 [main] INFO : Departments card Value: 14
+2025-08-19 12:30:01 [main] INFO : Active Courses card Value: 462
+2025-08-19 12:30:01 [main] INFO : Users card Value: 22
+2025-08-19 12:30:02 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 12:30:02 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 12:30:02 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19
+2025-08-19 12:30:03 [main] INFO : View Certificates
+2025-08-19 12:30:09 [main] INFO : Close Certificate
+2025-08-19 12:30:10 [main] INFO : Search Functionality for User Management table
+2025-08-19 12:30:11 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 12:30:11 [main] INFO : Search Functionality for Course Statistics table
+2025-08-19 12:30:11 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-19 12:30:13 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-19 12:30:14 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-19 12:30:17 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-19 12:30:17 [main] INFO : Click Total Users
+2025-08-19 12:30:18 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-19 12:30:22 [main] INFO : Clear Filter
+2025-08-19 12:30:23 [main] INFO : Navigated to /admin/tests
+2025-08-19 12:30:23 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-19 12:30:24 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-19 12:30:24 [main] INFO : Search Functionality for Course Assessments table
+2025-08-19 12:30:25 [main] INFO : ✅ Search validation passed. All Values match: Meter Data Management Beginner
+2025-08-19 12:30:27 [main] INFO : Navigated to /admin/roles
+2025-08-19 12:30:28 [main] INFO : Search Functionality for User Management table
+2025-08-19 12:30:28 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 12:30:29 [main] INFO : Testing Ended
+2025-08-19 12:30:29 [main] INFO : ***********
+2025-08-19 12:34:45 [main] INFO : Launching Chrome Browser
+2025-08-19 12:34:45 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 12:34:47 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 12:34:47 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 12:35:47 [main] INFO : Launching Chrome Browser
+2025-08-19 12:35:47 [main] INFO : Report Name :LandDPage_Report.html
+2025-08-19 12:35:49 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 12:35:49 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 12:36:15 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 12:36:18 [main] INFO : Explore Department and Enroll Course test
+2025-08-19 12:36:19 [main] INFO : Navigated to /departments
+2025-08-19 12:36:20 [main] INFO : Searching Data Science and AI Name
+2025-08-19 12:36:22 [main] INFO : Exploring Data Science and AI Name
+2025-08-19 12:36:23 [main] INFO : Searching Airflow Advanced Name
+2025-08-19 12:36:24 [main] INFO : Enrolling Airflow Advanced Name
+2025-08-19 12:36:26 [main] INFO : Navigated to /my-courses
+2025-08-19 12:36:26 [main] INFO : Enrolled Course Card Details test
+2025-08-19 12:36:26 [main] INFO : Course Category for Airflow Advanced: Data Engineering Tools
+2025-08-19 12:36:26 [main] INFO : Course Level for Airflow Advanced: Advanced
+2025-08-19 12:36:26 [main] INFO : Course Video Count for Airflow Advanced: 🎥 Videos : 50
+2025-08-19 12:36:26 [main] INFO : Course Duration for Airflow Advanced: ⏱ Duration : 9 hrs 52 mins
+2025-08-19 12:36:26 [main] INFO : Course Progress percent for Airflow Advanced: Progress: 0%
+2025-08-19 12:36:26 [main] INFO : Course Enrolled Successful:Airflow Advanced
+2025-08-19 12:36:29 [main] INFO : Header : My Courses
+2025-08-19 12:36:29 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-19 12:36:29 [main] INFO : Inside In progress Tab
+2025-08-19 12:36:29 [main] INFO : Inside Completed Tab
+2025-08-19 12:36:30 [main] INFO : Inside All courses Tab
+2025-08-19 12:36:32 [main] INFO : Continue and update progress for Course test
+2025-08-19 12:36:33 [main] INFO : Progress Percent :Progress: 20%
+2025-08-19 12:36:34 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-19 12:36:35 [main] INFO : Video Available in the list:11
+Selenium
+2025-08-19 12:36:36 [main] INFO : Select Video from video list
+2025-08-19 12:37:38 [main] INFO : Click Play Video
+2025-08-19 12:37:53 [main] INFO : Video playback moved to the end.
+2025-08-19 12:37:54 [main] INFO : Video Completed: Completed
+2025-08-19 12:37:54 [main] INFO : Navigated to /my-courses
+2025-08-19 12:37:55 [main] INFO : Progress Percent :Progress: 24%
+2025-08-19 12:37:56 [main] INFO : Navigated to /admin
+2025-08-19 12:37:56 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 12:37:59 [main] INFO : Certificates card Value: 3
+2025-08-19 12:37:59 [main] INFO : Departments card Value: 14
+2025-08-19 12:37:59 [main] INFO : Active Courses card Value: 462
+2025-08-19 12:37:59 [main] INFO : Users card Value: 22
+2025-08-19 12:38:00 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 12:38:00 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 12:38:00 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19
+2025-08-19 12:38:01 [main] INFO : View Certificates
+2025-08-19 12:38:06 [main] INFO : Close Certificate
+2025-08-19 12:38:08 [main] INFO : Search Functionality for User Management table
+2025-08-19 12:38:08 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 12:38:08 [main] INFO : Search Functionality for Course Statistics table
+2025-08-19 12:38:09 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-19 12:38:11 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-19 12:38:11 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-19 12:38:14 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-19 12:38:14 [main] INFO : Click Total Users
+2025-08-19 12:38:15 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-19 12:38:19 [main] INFO : Clear Filter
+2025-08-19 12:38:20 [main] INFO : Navigated to /admin/tests
+2025-08-19 12:38:20 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-19 12:38:21 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-19 12:38:21 [main] INFO : Search Functionality for Course Assessments table
+2025-08-19 12:38:21 [main] INFO : ✅ Search validation passed. All Values match: Meter Data Management Beginner
+2025-08-19 12:38:24 [main] INFO : Navigated to /admin/roles
+2025-08-19 12:38:25 [main] INFO : Search Functionality for User Management table
+2025-08-19 12:38:25 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 12:38:30 [main] INFO : Navigated to /my-courses
+2025-08-19 12:38:35 [main] INFO : Inside /my-courses Page 
+2025-08-19 12:38:35 [main] INFO : Home Page Ui test
+2025-08-19 12:39:36 [main] ERROR: Element Not Found
+2025-08-19 12:40:36 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Start Learning']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d053f02da62c8340ce29e37c196ba7ee, findElement {using=xpath, value=//button[text()='Start Learning']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54203/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d053f02da62c8340ce29e37c196ba7ee
+2025-08-19 12:41:29 [main] INFO : Launching Chrome Browser
+2025-08-19 12:41:29 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 12:41:31 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 12:41:31 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 12:41:55 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 12:42:04 [main] INFO : Navigated to /my-courses
+2025-08-19 12:42:09 [main] INFO : Inside /my-courses Page 
+2025-08-19 12:42:09 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-19 12:42:11 [main] INFO : Navigated to /departments
+2025-08-19 12:42:16 [main] INFO : Inside /departments Page 
+2025-08-19 12:42:16 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-19 12:42:19 [main] INFO : Navigated to /certificates
+2025-08-19 12:42:24 [main] INFO : Inside /certificates Page 
+2025-08-19 12:42:24 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-19 12:42:26 [main] INFO : Navigated to /admin
+2025-08-19 12:42:26 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-19 12:42:28 [main] INFO : Navigated to /admin/courses
+2025-08-19 12:42:33 [main] INFO : Inside /admin/courses Tab in Admin Page 
+2025-08-19 12:42:33 [main] INFO : /admin/courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/courses
+2025-08-19 12:42:35 [main] INFO : Navigated to /admin/tests
+2025-08-19 12:42:40 [main] INFO : Inside /admin/tests Tab in Admin Page 
+2025-08-19 12:42:40 [main] INFO : /admin/tests Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/tests
+2025-08-19 12:42:43 [main] INFO : Navigated to /admin/roles
+2025-08-19 12:42:48 [main] INFO : Inside /admin/roles Tab in Admin Page 
+2025-08-19 12:42:48 [main] INFO : /admin/roles Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/roles
+2025-08-19 12:42:50 [main] INFO : Navigated to /admin/dashboard
+2025-08-19 12:42:55 [main] INFO : Inside /admin/dashboard Tab in Admin Page 
+2025-08-19 12:42:55 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-19 12:42:58 [main] INFO : Navigated to /Home
+2025-08-19 12:43:03 [main] INFO : Inside /Home Page 
+2025-08-19 12:43:03 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-19 12:43:05 [main] INFO : Home Page Ui test
+2025-08-19 12:43:06 [main] INFO : Home Page Header Content: Grow your skills, advance your career
+2025-08-19 12:43:06 [main] INFO : Home Page Description Content: Access all the learning resources you need to excel at CriticalRiver
+2025-08-19 12:43:06 [main] INFO : Start Learning Button Available
+2025-08-19 12:43:06 [main] INFO : Header: Browse Courses by Department
+2025-08-19 12:43:06 [main] INFO : Departments Card Count: 14
+2025-08-19 12:43:06 [main] INFO : Total Courses Card Count: 462
+2025-08-19 12:43:06 [main] INFO : My Certificates Card Count: 0
+2025-08-19 12:43:07 [main] INFO : Popular Courses Card Count: 5
+2025-08-19 12:43:07 [main] INFO : Home Page Continue Learning test
+2025-08-19 12:43:08 [main] INFO : Continue Learning Header is correct: Continue Learning
+2025-08-19 12:43:10 [main] INFO : Continue Learning Course NameAirflow Beginner
+2025-08-19 12:43:10 [main] INFO : Continue Learning Progress Percentage: 5% complete
+2025-08-19 12:43:10 [main] INFO : Continue Learning Course Category: Data Engineering Tools
+2025-08-19 12:43:10 [main] INFO : Continue Learning Course Last Accessed: Last accessed: Recently
+2025-08-19 12:43:10 [main] INFO : Navigated to Course Video Page
+2025-08-19 12:43:11 [main] INFO : /course-videos Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-19 12:43:12 [main] INFO : Navigated to /Home
+2025-08-19 12:43:14 [main] INFO : Home Page Feature Courses test
+2025-08-19 12:43:16 [main] INFO : Feature Course List Contains : Airflow Beginner course
+2025-08-19 12:43:16 [main] INFO : Feature Course List Contains : Airflow Advanced course
+2025-08-19 12:43:17 [main] INFO : Feature Course List Contains : ABAP Beginner course
+2025-08-19 12:43:17 [main] INFO : Feature Course List Contains : Statistics Beginner course
+2025-08-19 12:43:18 [main] INFO : Feature Course List Contains : Automation Testing (Selenium) Advanced course
+2025-08-19 12:43:19 [main] INFO : Feature Courses contains Department Name: Data Science and AI
+2025-08-19 12:43:19 [main] INFO : Feature Courses contains Course Level: Beginner
+2025-08-19 12:43:19 [main] INFO : Feature Courses contains Name: Airflow Beginner
+2025-08-19 12:43:19 [main] INFO : Feature Courses contains Video Count: 🎥 1 Videos
+2025-08-19 12:43:19 [main] INFO : Feature Courses contains Duration: ⏱ 1 hrs 37 mins
+2025-08-19 12:43:23 [main] INFO : Home Page Browse Course By Department test
+2025-08-19 12:43:24 [main] INFO : Data Science and AI department is available
+2025-08-19 12:43:24 [main] INFO : Total Courses count for Data Science and AI: 43 courses
+2025-08-19 12:43:25 [main] INFO : ERP Application department is available
+2025-08-19 12:43:25 [main] INFO : Total Courses count for ERP Application: 35 courses
+2025-08-19 12:43:26 [main] INFO : Product Engineering Services department is available
+2025-08-19 12:43:26 [main] INFO : Total Courses count for Product Engineering Services: 29 courses
+2025-08-19 12:43:27 [main] INFO : Hardware and Validation department is available
+2025-08-19 12:43:28 [main] INFO : Total Courses count for Hardware and Validation: 21 courses
+2025-08-19 12:43:28 [main] INFO : H1B Staffing department is available
+2025-08-19 12:43:29 [main] INFO : Total Courses count for H1B Staffing: 21 courses
+2025-08-19 12:43:29 [main] INFO : Salesforce department is available
+2025-08-19 12:43:30 [main] INFO : Total Courses count for Salesforce: 28 courses
+2025-08-19 12:43:30 [main] INFO : DSIL department is available
+2025-08-19 12:43:31 [main] INFO : Total Courses count for DSIL: 49 courses
+2025-08-19 12:43:31 [main] INFO : Enterprise Architecture department is available
+2025-08-19 12:43:32 [main] INFO : Total Courses count for Enterprise Architecture: 34 courses
+2025-08-19 12:43:32 [main] INFO : Global Engineering Org department is available
+2025-08-19 12:43:33 [main] INFO : Total Courses count for Global Engineering Org: 69 courses
+2025-08-19 12:43:33 [main] INFO : Enterprise Integration department is available
+2025-08-19 12:43:34 [main] INFO : Total Courses count for Enterprise Integration: 27 courses
+2025-08-19 12:43:34 [main] INFO : India Public Sector department is available
+2025-08-19 12:43:35 [main] INFO : Total Courses count for India Public Sector: 36 courses
+2025-08-19 12:43:35 [main] INFO : Energy & Water department is available
+2025-08-19 12:43:36 [main] INFO : Total Courses count for Energy & Water: 18 courses
+2025-08-19 12:43:37 [main] INFO : Business Process Services department is available
+2025-08-19 12:43:37 [main] INFO : Total Courses count for Business Process Services: 23 courses
+2025-08-19 12:43:38 [main] INFO : Enabling Team department is available
+2025-08-19 12:43:38 [main] INFO : Total Courses count for Enabling Team: 29 courses
+2025-08-19 12:43:39 [main] INFO : Click View All Department Link
+2025-08-19 12:43:40 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-19 12:43:42 [main] INFO : Navigated to /Home
+2025-08-19 12:43:48 [main] INFO : Verify clicking on department card
+2025-08-19 12:43:54 [main] INFO : Navigated to Data Science and AI Department
+2025-08-19 12:44:00 [main] INFO : Navigated to /Home
+2025-08-19 12:44:04 [main] INFO : Navigated to Salesforce Department
+2025-08-19 12:44:10 [main] INFO : Navigated to /Home
+2025-08-19 12:44:11 [main] INFO : Verify Why Criticalriver Academy Info
+2025-08-19 12:44:11 [main] INFO : Academy Header :Why CriticalRiver Academy?
+2025-08-19 12:44:11 [main] INFO : Academy Reason youtube :▶️
+Learn from YouTube
+Access curated YouTube content organized by departments and skills, making it easy to find relevant learning materials.
+2025-08-19 12:44:11 [main] INFO : Academy Reason Certificates :📜
+Earn Certificates
+Complete courses and assessments to earn certificates that demonstrate your skills and expertise.
+2025-08-19 12:44:11 [main] INFO : Academy Reason Learning paths :🗺️
+Structured Learning Paths
+Follow department-specific learning paths designed to help you grow in your role and advance your career.
+2025-08-19 12:44:12 [main] INFO : Ready To StartReady to start learning?
+Take the first step in your learning journey with CriticalRiver Academy
+Explore All Courses
+2025-08-19 12:44:12 [main] INFO : Explore all courses
+2025-08-19 12:44:14 [main] INFO : Navigate to Profile Page
+2025-08-19 12:44:18 [main] INFO : Profile Page Information: Personal Information
+Full Name:
+Phani Kumar Maddi
+Email:
+phani.maddi@criticalriver.com
+Job Title:
+Software engineer
+Certifications
+No certifications
+2025-08-19 12:44:19 [main] INFO : Reserve Rigths: © 2025 CriticalRiver. All rights reserved.
+2025-08-19 12:44:20 [main] INFO : Navigated to /my-courses
+2025-08-19 12:44:20 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-19 12:44:22 [main] INFO : Navigated to /departments
+2025-08-19 12:44:22 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-19 12:44:24 [main] INFO : Navigated to /help-center
+2025-08-19 12:44:24 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/help-center
+2025-08-19 12:44:25 [main] INFO : Navigated to /feedback
+2025-08-19 12:44:25 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/feedback
+2025-08-19 12:44:27 [main] INFO : Navigated to /certificates
+2025-08-19 12:44:27 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-19 12:44:28 [main] INFO : Navigated to /profile
+2025-08-19 12:44:28 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/profile
+2025-08-19 12:44:29 [main] INFO : Social Media Links
+2025-08-19 12:44:29 [main] INFO : Navigated to Facebook
+2025-08-19 12:44:31 [main] INFO :  Url is Valid :https://www.facebook.com/criticalriver/
+2025-08-19 12:44:34 [main] INFO : Navigated to LinkedIn
+2025-08-19 12:44:36 [main] INFO :  Url is Valid :https://in.linkedin.com/company/criticalriver
+2025-08-19 12:44:40 [main] INFO : Navigated to Instagram
+2025-08-19 12:44:41 [main] INFO :  Url is Valid :https://www.instagram.com/criticalriver/?hl=en
+2025-08-19 12:44:44 [main] INFO : Navigated to Twitter
+2025-08-19 12:44:46 [main] INFO :  Url is Valid :https://x.com/CriticalRiver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+2025-08-19 12:44:49 [main] INFO : Navigated to /Home
+2025-08-19 12:44:50 [main] INFO : Testing Ended
+2025-08-19 12:44:50 [main] INFO : ***********
+2025-08-19 12:46:54 [main] INFO : Launching Chrome Browser
+2025-08-19 12:46:54 [main] INFO : Report Name :LandDPage_Report.html
+2025-08-19 12:46:56 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 12:46:56 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 12:47:21 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 12:47:25 [main] INFO : Learning and Development Page navigation Test
+2025-08-19 12:47:26 [main] INFO : Navigated to /my-courses
+2025-08-19 12:47:31 [main] INFO : Inside /my-courses Page 
+2025-08-19 12:47:31 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-19 12:47:33 [main] INFO : Navigated to /departments
+2025-08-19 12:47:38 [main] INFO : Inside /departments Page 
+2025-08-19 12:47:38 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-19 12:47:41 [main] INFO : Navigated to /certificates
+2025-08-19 12:47:46 [main] INFO : Inside /certificates Page 
+2025-08-19 12:47:46 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-19 12:47:48 [main] INFO : Navigated to /admin
+2025-08-19 12:47:48 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-19 12:47:50 [main] INFO : Navigated to /admin/courses
+2025-08-19 12:47:55 [main] INFO : Inside /admin/courses Tab in Admin Page 
+2025-08-19 12:47:55 [main] INFO : /admin/courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/courses
+2025-08-19 12:47:57 [main] INFO : Navigated to /admin/tests
+2025-08-19 12:48:02 [main] INFO : Inside /admin/tests Tab in Admin Page 
+2025-08-19 12:48:02 [main] INFO : /admin/tests Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/tests
+2025-08-19 12:48:04 [main] INFO : Navigated to /admin/roles
+2025-08-19 12:48:09 [main] INFO : Inside /admin/roles Tab in Admin Page 
+2025-08-19 12:48:09 [main] INFO : /admin/roles Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/roles
+2025-08-19 12:48:12 [main] INFO : Navigated to /admin/dashboard
+2025-08-19 12:48:17 [main] INFO : Inside /admin/dashboard Tab in Admin Page 
+2025-08-19 12:48:17 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-19 12:48:19 [main] INFO : Navigated to /Home
+2025-08-19 12:48:24 [main] INFO : Inside /Home Page 
+2025-08-19 12:48:24 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-19 12:48:27 [main] INFO : Home Page Ui test
+2025-08-19 12:48:27 [main] INFO : Home Page Header Content: Grow your skills, advance your career
+2025-08-19 12:48:27 [main] INFO : Home Page Description Content: Access all the learning resources you need to excel at CriticalRiver
+2025-08-19 12:48:27 [main] INFO : Start Learning Button Available
+2025-08-19 12:48:28 [main] INFO : Header: Browse Courses by Department
+2025-08-19 12:48:28 [main] INFO : Departments Card Count: 14
+2025-08-19 12:48:28 [main] INFO : Total Courses Card Count: 462
+2025-08-19 12:48:28 [main] INFO : My Certificates Card Count: 0
+2025-08-19 12:48:28 [main] INFO : Popular Courses Card Count: 5
+2025-08-19 12:48:29 [main] INFO : Home Page Continue Learning test
+2025-08-19 12:48:30 [main] INFO : Continue Learning Header is correct: Continue Learning
+2025-08-19 12:48:31 [main] INFO : Continue Learning Course NameAirflow Beginner
+2025-08-19 12:48:31 [main] INFO : Continue Learning Progress Percentage: 5% complete
+2025-08-19 12:48:31 [main] INFO : Continue Learning Course Category: Data Engineering Tools
+2025-08-19 12:48:31 [main] INFO : Continue Learning Course Last Accessed: Last accessed: Recently
+2025-08-19 12:48:31 [main] INFO : Navigated to Course Video Page
+2025-08-19 12:48:32 [main] INFO : /course-videos Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-19 12:48:34 [main] INFO : Navigated to /Home
+2025-08-19 12:48:36 [main] INFO : Home Page Feature Courses test
+2025-08-19 12:48:37 [main] INFO : Feature Course List Contains : Airflow Beginner course
+2025-08-19 12:48:37 [main] INFO : Feature Course List Contains : Airflow Advanced course
+2025-08-19 12:48:38 [main] INFO : Feature Course List Contains : ABAP Beginner course
+2025-08-19 12:48:38 [main] INFO : Feature Course List Contains : Statistics Beginner course
+2025-08-19 12:48:39 [main] INFO : Feature Course List Contains : Automation Testing (Selenium) Advanced course
+2025-08-19 12:48:41 [main] INFO : Feature Courses contains Department Name: Data Science and AI
+2025-08-19 12:48:41 [main] INFO : Feature Courses contains Course Level: Beginner
+2025-08-19 12:48:41 [main] INFO : Feature Courses contains Name: Airflow Beginner
+2025-08-19 12:48:41 [main] INFO : Feature Courses contains Video Count: 🎥 1 Videos
+2025-08-19 12:48:41 [main] INFO : Feature Courses contains Duration: ⏱ 1 hrs 37 mins
+2025-08-19 12:48:44 [main] INFO : Home Page Browse Course By Department test
+2025-08-19 12:48:45 [main] INFO : Data Science and AI department is available
+2025-08-19 12:48:46 [main] INFO : Total Courses count for Data Science and AI: 43 courses
+2025-08-19 12:48:46 [main] INFO : ERP Application department is available
+2025-08-19 12:48:47 [main] INFO : Total Courses count for ERP Application: 35 courses
+2025-08-19 12:48:47 [main] INFO : Product Engineering Services department is available
+2025-08-19 12:48:48 [main] INFO : Total Courses count for Product Engineering Services: 29 courses
+2025-08-19 12:48:49 [main] INFO : Hardware and Validation department is available
+2025-08-19 12:48:49 [main] INFO : Total Courses count for Hardware and Validation: 21 courses
+2025-08-19 12:48:50 [main] INFO : H1B Staffing department is available
+2025-08-19 12:48:50 [main] INFO : Total Courses count for H1B Staffing: 21 courses
+2025-08-19 12:48:51 [main] INFO : Salesforce department is available
+2025-08-19 12:48:51 [main] INFO : Total Courses count for Salesforce: 28 courses
+2025-08-19 12:48:52 [main] INFO : DSIL department is available
+2025-08-19 12:48:52 [main] INFO : Total Courses count for DSIL: 49 courses
+2025-08-19 12:48:53 [main] INFO : Enterprise Architecture department is available
+2025-08-19 12:48:53 [main] INFO : Total Courses count for Enterprise Architecture: 34 courses
+2025-08-19 12:48:54 [main] INFO : Global Engineering Org department is available
+2025-08-19 12:48:54 [main] INFO : Total Courses count for Global Engineering Org: 69 courses
+2025-08-19 12:48:55 [main] INFO : Enterprise Integration department is available
+2025-08-19 12:48:56 [main] INFO : Total Courses count for Enterprise Integration: 27 courses
+2025-08-19 12:48:56 [main] INFO : India Public Sector department is available
+2025-08-19 12:48:57 [main] INFO : Total Courses count for India Public Sector: 36 courses
+2025-08-19 12:48:57 [main] INFO : Energy & Water department is available
+2025-08-19 12:48:58 [main] INFO : Total Courses count for Energy & Water: 18 courses
+2025-08-19 12:48:58 [main] INFO : Business Process Services department is available
+2025-08-19 12:48:59 [main] INFO : Total Courses count for Business Process Services: 23 courses
+2025-08-19 12:48:59 [main] INFO : Enabling Team department is available
+2025-08-19 12:49:00 [main] INFO : Total Courses count for Enabling Team: 29 courses
+2025-08-19 12:49:01 [main] INFO : Click View All Department Link
+2025-08-19 12:49:02 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-19 12:49:04 [main] INFO : Navigated to /Home
+2025-08-19 12:49:10 [main] INFO : Verify clicking on department card
+2025-08-19 12:49:15 [main] INFO : Navigated to Data Science and AI Department
+2025-08-19 12:49:20 [main] INFO : Navigated to /Home
+2025-08-19 12:49:24 [main] INFO : Navigated to Salesforce Department
+2025-08-19 12:49:29 [main] INFO : Navigated to /Home
+2025-08-19 12:49:30 [main] INFO : Verify Why Criticalriver Academy Info
+2025-08-19 12:49:30 [main] INFO : Academy Header :Why CriticalRiver Academy?
+2025-08-19 12:49:30 [main] INFO : Academy Reason youtube :▶️
+Learn from YouTube
+Access curated YouTube content organized by departments and skills, making it easy to find relevant learning materials.
+2025-08-19 12:49:30 [main] INFO : Academy Reason Certificates :📜
+Earn Certificates
+Complete courses and assessments to earn certificates that demonstrate your skills and expertise.
+2025-08-19 12:49:30 [main] INFO : Academy Reason Learning paths :🗺️
+Structured Learning Paths
+Follow department-specific learning paths designed to help you grow in your role and advance your career.
+2025-08-19 12:49:31 [main] INFO : Ready To StartReady to start learning?
+Take the first step in your learning journey with CriticalRiver Academy
+Explore All Courses
+2025-08-19 12:49:31 [main] INFO : Explore all courses
+2025-08-19 12:49:33 [main] INFO : Navigate to Profile Page
+2025-08-19 12:49:37 [main] INFO : Profile Page Information: Personal Information
+Full Name:
+Phani Kumar Maddi
+Email:
+phani.maddi@criticalriver.com
+Job Title:
+Software engineer
+Certifications
+No certifications
+2025-08-19 12:49:38 [main] INFO : Reserve Rigths: © 2025 CriticalRiver. All rights reserved.
+2025-08-19 12:49:39 [main] INFO : Navigated to /my-courses
+2025-08-19 12:49:39 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-19 12:49:40 [main] INFO : Navigated to /departments
+2025-08-19 12:49:40 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-19 12:49:42 [main] INFO : Navigated to /help-center
+2025-08-19 12:49:42 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/help-center
+2025-08-19 12:49:43 [main] INFO : Navigated to /feedback
+2025-08-19 12:49:43 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/feedback
+2025-08-19 12:49:44 [main] INFO : Navigated to /certificates
+2025-08-19 12:49:44 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-19 12:49:46 [main] INFO : Navigated to /profile
+2025-08-19 12:49:46 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/profile
+2025-08-19 12:49:47 [main] INFO : Social Media Links
+2025-08-19 12:49:47 [main] INFO : Navigated to Facebook
+2025-08-19 12:49:48 [main] INFO :  Url is Valid :https://www.facebook.com/criticalriver/
+2025-08-19 12:49:51 [main] INFO : Navigated to LinkedIn
+2025-08-19 12:49:53 [main] INFO :  Url is Valid :https://in.linkedin.com/company/criticalriver
+2025-08-19 12:49:56 [main] INFO : Navigated to Instagram
+2025-08-19 12:49:57 [main] INFO :  Url is Valid :https://www.instagram.com/criticalriver/?hl=en
+2025-08-19 12:49:59 [main] INFO : Navigated to Twitter
+2025-08-19 12:50:02 [main] INFO :  Url is Valid :https://x.com/CriticalRiver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+2025-08-19 12:50:05 [main] INFO : Navigated to /Home
+2025-08-19 12:50:08 [main] INFO : Explore Department and Enroll Course test
+2025-08-19 12:50:08 [main] INFO : Navigated to /departments
+2025-08-19 12:50:09 [main] INFO : Searching Data Science and AI Name
+2025-08-19 12:50:12 [main] INFO : Exploring Data Science and AI Name
+2025-08-19 12:50:13 [main] INFO : Searching Airflow Advanced Name
+2025-08-19 12:50:14 [main] INFO : Enrolling Airflow Advanced Name
+2025-08-19 12:50:16 [main] INFO : Navigated to /my-courses
+2025-08-19 12:50:17 [main] INFO : Enrolled Course Card Details test
+2025-08-19 12:50:17 [main] INFO : Course Category for Airflow Advanced: Data Engineering Tools
+2025-08-19 12:50:17 [main] INFO : Course Level for Airflow Advanced: Advanced
+2025-08-19 12:50:17 [main] INFO : Course Video Count for Airflow Advanced: 🎥 Videos : 50
+2025-08-19 12:50:17 [main] INFO : Course Duration for Airflow Advanced: ⏱ Duration : 9 hrs 52 mins
+2025-08-19 12:50:17 [main] INFO : Course Progress percent for Airflow Advanced: Progress: 0%
+2025-08-19 12:50:17 [main] INFO : Course Enrolled Successful:Airflow Advanced
+2025-08-19 12:50:19 [main] INFO : Header : My Courses
+2025-08-19 12:50:19 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-19 12:50:19 [main] INFO : Inside In progress Tab
+2025-08-19 12:50:20 [main] INFO : Inside Completed Tab
+2025-08-19 12:50:21 [main] INFO : Inside All courses Tab
+2025-08-19 12:50:23 [main] INFO : Continue and update progress for Course test
+2025-08-19 12:50:24 [main] INFO : Progress Percent :Progress: 24%
+2025-08-19 12:50:25 [main] INFO : Navigated to /admin
+2025-08-19 12:50:25 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 12:50:29 [main] INFO : Certificates card Value: 3
+2025-08-19 12:50:29 [main] INFO : Departments card Value: 14
+2025-08-19 12:50:29 [main] INFO : Active Courses card Value: 462
+2025-08-19 12:50:29 [main] INFO : Users card Value: 22
+2025-08-19 12:50:30 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 12:50:30 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 12:50:30 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19
+2025-08-19 12:50:30 [main] INFO : View Certificates
+2025-08-19 12:50:36 [main] INFO : Close Certificate
+2025-08-19 12:50:38 [main] INFO : Search Functionality for User Management table
+2025-08-19 12:50:38 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 12:50:39 [main] INFO : Search Functionality for Course Statistics table
+2025-08-19 12:50:39 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-19 12:50:41 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-19 12:50:42 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-19 12:50:45 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-19 12:50:45 [main] INFO : Click Total Users
+2025-08-19 12:50:47 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-19 12:50:51 [main] INFO : Clear Filter
+2025-08-19 12:50:51 [main] INFO : Navigated to /admin/tests
+2025-08-19 12:50:52 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-19 12:50:52 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af9013adc4081e0ce932e3eb3706cd13, getElementText {id=f.48DE3EF80BF6BC71B87ABBA558F891C0.d.900E1D3831033945E708FE5FAC56ED93.e.1049}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61879/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (af9013adc4081e0ce932e3eb3706cd13)] -> xpath: //h3[text()='Assessment Request Notifications']/following-sibling::table/tbody/tr]
+Session ID: af9013adc4081e0ce932e3eb3706cd13
+2025-08-19 12:50:53 [main] INFO : Search Functionality for Course Assessments table
+2025-08-19 12:50:53 [main] INFO : ✅ Search validation passed. All Values match: Meter Data Management Beginner
+2025-08-19 12:50:56 [main] INFO : Navigated to /admin/roles
+2025-08-19 12:50:56 [main] INFO : Search Functionality for User Management table
+2025-08-19 12:50:57 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 12:50:58 [main] INFO : Testing Ended
+2025-08-19 12:50:58 [main] INFO : ***********

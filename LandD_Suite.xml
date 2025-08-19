@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LandD_Suite">
+	<test thread-count="5" name="LandDPage_Test">
+		<parameter name="FileName" value="LandDPage_Report.html" />
+		<classes>
+			<class name="L_And_D_Project.LAndD_Page_UI_Test" />
+			<class name="L_And_D_Project.LAndD_Courses_Test" />
+			
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
