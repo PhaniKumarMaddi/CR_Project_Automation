@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import BaseClasses.L_And_D_TestDataKeys;
 import BaseClasses.L_And_D_TestInitializer;
 import L_And_D_Pages.L_And_D_MyCoursesPage;
+import L_And_D_Pages.L_And_D_OtherPages;
 import L_And_D_Pages.L_And_D_Page;
 import Utility.GenerateReports;
 
@@ -15,17 +16,24 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 	GenerateReports grep = new GenerateReports();
 	L_And_D_Page lndPage;
 	L_And_D_MyCoursesPage lndCoursePage;
+	L_And_D_OtherPages lndOther;
 	L_And_D_TestDataKeys dataKeys = new L_And_D_TestDataKeys();
 
 	@Test
 	public void l_and_d_MyCourses() throws Exception {
 		lndPage = new L_And_D_Page();
 		lndCoursePage = new L_And_D_MyCoursesPage();
+		lndOther = new L_And_D_OtherPages();
 
+		// exploring the department and enrolling the course
+		exploreAndEnrollCourse(dataKeys.dept_DsAndAi, dataKeys.airflowAdvanceCourse);
+		waitTime(driver);
+		
 		grep.testCreate("My Courses Page test", "My Courses Page");
 		waitTime(driver);
-		lndPage.navigateToPage(dataKeys.myCoursesPageUrl);
+
 		waitTime(driver);
+		
 		lndCoursePage.myCoursesHeader();
 
 		lndCoursePage.clickTabInMyCourses(dataKeys.inProgressTab);
@@ -38,15 +46,13 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		grep.captureScreenshot("pass", "My Courses All Courses tab", "myCourses_AllCoursesTab");
 		waitTime(driver);
 
-		grep.testCreate("Course Card Details test", "Course Card Details");
 		waitTime(driver);
-		grep.infoTest("Course Card Details test");
-		logger.info("Course Card Details test");
-		lndCoursePage.verifyCourseDetails(dataKeys.pythonBeginnerCourse);
-		lndCoursePage.verifyCourseDetails(dataKeys.airflowBeginnerCourse);
-		lndCoursePage.verifyCourseDetails(dataKeys.mdmBeginnerCourse);
+		// Continue and update progress for Course test
+		completeAndUpdateVideo(dataKeys.testAutomationBeginnerCourse);
 
-		grep.captureScreenshot("pass", "Course Details Page", "courseDetails");
+	}
+
+	public void completeAndUpdateVideo(String courseName) throws Exception {
 
 		grep.testCreate("Continue and update progress for Course test", "Continue and update progress for Course");
 		waitTime(driver);
@@ -55,9 +61,9 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		waitTime(driver);
 
 		waitTime(driver);
-		lndCoursePage.getProgressPercent(dataKeys.pythonBeginnerCourse);
+		lndCoursePage.getProgressPercent(courseName);
 		waitTime(driver);
-		lndCoursePage.clickContinueLearning(dataKeys.pythonBeginnerCourse);
+		lndCoursePage.clickContinueLearning(courseName);
 		waitTime(driver);
 		verifyUrl();
 		grep.captureScreenshot("pass", "Inside Continue Learning page", "continueLearningPage");
@@ -77,14 +83,56 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		grep.captureScreenshot("pass", "Play Course video", "playVideo_ForCourse");
 		waitTime10(driver);
 		lndCoursePage.completeVideo();
+		switchToMainFrame();
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Complete Course video", "completeVideo_ForCourse");
 		lndCoursePage.verifyCompleteVideoMessage();
 		waitTime(driver);
-		switchToMainFrame();
+
 		lndPage.navigateToPage(dataKeys.myCoursesPageUrl);
 		waitTime(driver);
-		lndCoursePage.getProgressPercent(dataKeys.pythonBeginnerCourse);
+		lndCoursePage.getProgressPercent(courseName);
 		waitTime(driver);
 
+	}
+
+	public void exploreAndEnrollCourse(String deptName, String courseName) throws Exception {
+		grep.testCreate("Explore Department and Enroll Course test", "Explore Department and Enroll Course");
+		waitTime(driver);
+		grep.infoTest("Explore Department and Enroll Course test");
+		logger.info("Explore Department and Enroll Course test");
+
+		lndPage.navigateToPage(dataKeys.depatmentsPageUrl);
+		waitTime(driver);
+		lndOther.searchDepartment(deptName);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Search Department", "searchDepartment_inDept");
+		waitTime(driver);
+		lndOther.selectAndExploreDepartment(deptName);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Explore Department", "exploreDepartment_inDept");
+		lndOther.searchCoursesInDept(courseName);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Search and Enrolling Course", "Search_EnrollCourse_inDept");
+		waitTime(driver);
+		lndOther.enrollCourseInDepartment(courseName);
+		waitTime(driver);
+		if (isAlertPresent()) {
+			acceptalert();
+		}
+	
+		waitTime(driver);
+		
+		lndPage.navigateToPage(dataKeys.myCoursesPageUrl);
+		grep.testCreate("Verify enrolled course Card Details test", "Verify Enrolled Course Card Details");
+		waitTime(driver);
+		grep.infoTest("Enrolled Course Card Details test");
+		logger.info("Enrolled Course Card Details test");
+		lndCoursePage.verifyCourseDetails(courseName);
+		
+		grep.captureScreenshot("pass", "Course Details Page", "courseDetails");
+
+		waitTime(driver);
 	}
 
 	public void verifyUrl() throws Exception {

@@ -5,6 +5,7 @@ import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -119,9 +120,12 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 				grep.infoTest("Course Progress percent for " + courseName + ": " + progressPercent);
 				logger.info("Course Progress percent for " + courseName + ": " + progressPercent);
 
+				grep.passTest("Course Enrolled Successful: " + courseName);
+				logger.info("Course Enrolled Successful:" + courseName);
+
 			} else {
-				grep.failTest("Course Not Found");
-				logger.error("Course Not Found");
+				grep.failTest("Course Not Enrolled: " + courseName);
+				logger.error("Course Not Enrolled: " + courseName);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -154,11 +158,9 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 	}
 
 	public void getPlayVideoListDetails() throws Exception {
-//		String playText = null;
 		try {
 			implWait(driver);
 
-//			By playIn_VideoListValue = By.xpath("//div[@class='coursevideos-video-item  ']/span");
 			List<WebElement> play = driver.findElements(playIn_VideoList);
 			if (play.size() > 0) {
 				String fullText = play.getFirst().getText();
@@ -178,7 +180,6 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 			logger.error("Test Failed :" + e.getMessage());
 
 		}
-//		return playText;
 	}
 
 	// select video from video list
@@ -276,8 +277,8 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 				WebElement msg = driver.findElement(completeTestMsg);
 				String message = msg.getText();
 				if (message.contains("Completed")) {
-					grep.passTest("Video Completed");
-					logger.info("Video Completed");
+					grep.passTest("Video Completed: " + message);
+					logger.info("Video Completed: " + message);
 
 				} else {
 					grep.failTest("Course Video Not Found");
@@ -314,4 +315,5 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 
 		}
 	}
+
 }

@@ -53,5 +53,6 @@ public class L_And_D_TestDataKeys {
 	public String testAutomationBeginnerCourse = "Test Automation(Selenium) Beginner";
 	public String airflowBeginnerCourse = "Airflow Beginner";
 	public String mdmBeginnerCourse = "Meter Data Management Beginner";
-
+	
+	public String airflowAdvanceCourse = "Airflow Advanced";
 }
