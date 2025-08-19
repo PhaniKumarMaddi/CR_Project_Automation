@@ -48,9 +48,8 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		waitTime5(driver);
 
 		// Continue and update progress for Course test
-		
+
 		completeAndUpdateVideo(dataKeys.testAutomationBeginnerCourse);
-		
 
 	}
 
@@ -202,7 +201,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 
 		waitTime(driver);
 	}
-	
+
 	public void completeAndUpdateVideo(String courseName) throws Exception {
 
 		grep.testCreate("Continue and update progress for Course test", "Continue and update progress for Course");

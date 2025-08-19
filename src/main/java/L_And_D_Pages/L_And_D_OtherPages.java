@@ -10,6 +10,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 import Utility.DriverManager;
 import Utility.GenerateReports;
@@ -550,6 +551,125 @@ public class L_And_D_OtherPages extends WaitsManager {
 				logger.error("No Data found");
 			}
 
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// Create and Generate Assessment
+
+	public void selectCourseInAssessment(String content, String courseValues) throws Exception {
+		try {
+			By select_course = By.xpath("//h3[text()='" + content + "']/following-sibling::form/select[1]");
+			boolean elementExist = !driver.findElements(select_course).isEmpty();
+			if (elementExist) {
+
+				WebElement selectCrs = driver.findElement(select_course);
+				Select selectValue = new Select(selectCrs);
+				selectValue.selectByValue(courseValues);
+				waitTime(driver);
+
+				grep.passTest("Selecting Course froom dropdown: " + selectValue.getFirstSelectedOption());
+				logger.info("Selecting Course froom dropdown: " + selectValue.getFirstSelectedOption());
+			} else {
+				grep.failTest("Selecting Course froom dropdown Failed");
+				logger.error("Selecting Course froom dropdown Failed");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void selectAssessment_number(String content, String assmtValues) throws Exception {
+		try {
+			By select_assmntNumber = By.xpath("//h3[text()='" + content + "']/following-sibling::form/select[2]");
+			boolean elementExist = !driver.findElements(select_assmntNumber).isEmpty();
+			if (elementExist) {
+
+				WebElement selectAssmt = driver.findElement(select_assmntNumber);
+				Select selectValue = new Select(selectAssmt);
+				selectValue.selectByValue(assmtValues);
+				waitTime(driver);
+
+				grep.passTest("Selecting Assessment Number froom dropdown: " + selectValue.getFirstSelectedOption());
+				logger.info("Selecting Assessment Number froom dropdown: " + selectValue.getFirstSelectedOption());
+			} else {
+				grep.failTest("Selecting Assessment Number froom dropdown failed");
+				logger.error("Selecting Assessment Number froom dropdown failed");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void enter_Assmt_or_UserId(String content, String userId) throws Exception {
+		try {
+			By createAssmt_assmntId = By.xpath("//h3[text()='" + content + "']/following-sibling::form/input");
+			boolean elementExist = !driver.findElements(createAssmt_assmntId).isEmpty();
+			if (elementExist) {
+
+				driver.findElement(createAssmt_assmntId).sendKeys(userId);
+				waitTime(driver);
+
+				grep.passTest("Enter Assessment or User Id: " + userId);
+				logger.info("Enter Assessment or User Id: " + userId);
+			} else {
+				grep.failTest("Assessment or User id insertion Failed");
+				logger.error("Assessment or User id insertion Failed");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void clickCreateOrGenerate_Assessment(String content) throws Exception {
+		try {
+			By createAssmt_btn = By.xpath("//h3[text()='" + content + "']/following-sibling::form/button");
+			boolean elementExist = !driver.findElements(createAssmt_btn).isEmpty();
+			if (elementExist) {
+
+				driver.findElement(createAssmt_btn).click();
+
+				grep.passTest("Click Generated button for: " + content);
+				logger.info("Click Generated button for: " + content);
+			} else {
+				grep.failTest("Click Submit button failed");
+				logger.error("Click Submit button failed");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void generatedSuccessMessage(String content) throws Exception {
+		try {
+			By createAssmt_SuccessMsg = By.xpath("//h3[text()='" + content + "']/following-sibling::p");
+			boolean elementExist = !driver.findElements(createAssmt_SuccessMsg).isEmpty();
+			if (elementExist) {
+
+				String message = driver.findElement(createAssmt_SuccessMsg).getText();
+				grep.passTest("Assessment Generated message: " + message);
+				logger.info("Assessment Generated message: " + message);
+
+			} else {
+				grep.failTest("Assessment Generated message Fail");
+				logger.error("Assessment Generated message Fail");
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 			grep.failTest("Test Failed :" + e.getMessage());
