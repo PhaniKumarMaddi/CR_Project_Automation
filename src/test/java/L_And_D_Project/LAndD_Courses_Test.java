@@ -48,7 +48,9 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		waitTime5(driver);
 
 		// Continue and update progress for Course test
+		
 		completeAndUpdateVideo(dataKeys.testAutomationBeginnerCourse);
+		
 
 	}
 
@@ -204,7 +206,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 	public void completeAndUpdateVideo(String courseName) throws Exception {
 
 		grep.testCreate("Continue and update progress for Course test", "Continue and update progress for Course");
-		waitTime(driver);
+		waitTime3(driver);
 		grep.infoTest("Continue and update progress for Course test");
 		logger.info("Continue and update progress for Course test");
 		waitTime(driver);
@@ -213,8 +215,9 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		lndCoursePage.getProgressPercent(courseName);
 		waitTime3(driver);
 		lndCoursePage.clickContinueLearning(courseName);
-		waitTime(driver);
+		waitTime5(driver);
 		verifyUrl();
+		waitTime3(driver);
 		grep.captureScreenshot("pass", "Inside Continue Learning page", "continueLearningPage");
 		waitTime(driver);
 		lndCoursePage.getPlayVideoListDetails();
@@ -286,14 +289,14 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 	}
 
 	public void verifyUrl() throws Exception {
-		String getUrl = driver.getCurrentUrl();
-		if (getUrl.endsWith(dataKeys.courseVideoUrl)) {
-			grep.passTest(" Url is Valid :" + getUrl);
-			logger.info(" Url is Valid :" + getUrl);
+		String getUrlVal = getURL();
+		if (getUrlVal.endsWith(dataKeys.courseVideoUrl)) {
+			grep.passTest(" Url is Valid :" + getUrlVal);
+			logger.info(" Url is Valid :" + getUrlVal);
 			waitTime(driver);
 		} else {
-			grep.failTest("Url is not Valid :" + getUrl);
-			logger.error("Url is not Valid :" + getUrl);
+			grep.failTest("Url is not Valid :" + getUrlVal);
+			logger.error("Url is not Valid :" + getUrlVal);
 		}
 
 	}
