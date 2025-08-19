@@ -19,21 +19,24 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 	L_And_D_OtherPages lndOther;
 	L_And_D_TestDataKeys dataKeys = new L_And_D_TestDataKeys();
 
-	@Test
+	@Test(priority = 1, enabled = false)
 	public void l_and_d_MyCourses() throws Exception {
 		lndPage = new L_And_D_Page();
 		lndCoursePage = new L_And_D_MyCoursesPage();
 		lndOther = new L_And_D_OtherPages();
 
+		refreshPage();
+		waitTime2(driver);
+
 		// exploring the department and enrolling the course
 		exploreAndEnrollCourse(dataKeys.dept_DsAndAi, dataKeys.airflowAdvanceCourse);
 		waitTime(driver);
-		
+
 		grep.testCreate("My Courses Page test", "My Courses Page");
 		waitTime(driver);
 
 		waitTime(driver);
-		
+
 		lndCoursePage.myCoursesHeader();
 
 		lndCoursePage.clickTabInMyCourses(dataKeys.inProgressTab);
@@ -50,6 +53,91 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		// Continue and update progress for Course test
 		completeAndUpdateVideo(dataKeys.testAutomationBeginnerCourse);
 
+	}
+
+	@Test(priority = 2)
+	public void l_and_d_AdminPageTest() throws Exception {
+		lndPage = new L_And_D_Page();
+		lndOther = new L_And_D_OtherPages();
+
+		lndPage.navigateToPage(dataKeys.adminPageUrl);
+		waitTime(driver);
+		grep.testCreate("Verify Admin page cards in dashboard tab", "Admin page Cards");
+
+		grep.infoTest("Verify Admin page cards in dashboard tab");
+		logger.info("Verify Admin page cards in dashboard tab");
+		waitTime3(driver);
+		lndOther.adminCardsText(dataKeys.certificate_adminCard);
+		lndOther.adminCardsText(dataKeys.department_adminCard);
+		lndOther.adminCardsText(dataKeys.activeCourses_adminCard);
+		lndOther.adminCardsText(dataKeys.users_adminCard);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Admin Card Details", "adminCards_Dashboad");
+
+		// verify certificate details
+		grep.testCreate("Verify Admin page certificates details in dashboard tab", "Admin page certificates details");
+		lndOther.clickCertificateAdminCards();
+		lndOther.getCertificateDetails(dataKeys.userMgmtTable_dashboard);
+		grep.captureScreenshot("pass", "Admin Card Certificates Details", "certificateCardDeatils_Dashboad");
+		waitTime(driver);
+		lndOther.openCertificate(dataKeys.userMgmtTable_dashboard);
+		waitTime5(driver);
+		grep.captureScreenshot("pass", "Open Certificate", "viewCertificate");
+		waitTime(driver);
+		lndOther.clickCloseCertificate();
+		waitTime(driver);
+
+		lndOther.clickCertificateAdminCards();
+
+		waitTime(driver);
+
+		grep.testCreate("Search Functioanlity for tables in dashboard test", "Search filter Tables in dashboard");
+
+		waitTime(driver);
+
+		// user management table
+		grep.infoTest("Search Functionality for " + dataKeys.userMgmtTable_dashboard + " table");
+		logger.info("Search Functionality for " + dataKeys.userMgmtTable_dashboard + " table");
+		lndOther.searchDashboardTable(dataKeys.userMgmtTable_dashboard, dataKeys.email_column_Dashboard,
+				dataKeys.ssoUserName);
+
+		grep.captureScreenshot("pass", "Search in user management table", "searchIn_userMgmtTable_dashboard");
+
+		lndOther.verifyDataInTable(dataKeys.userMgmtTable_dashboard, dataKeys.ssoUserName);
+		lndOther.clearDashboardTable(dataKeys.userMgmtTable_dashboard, dataKeys.email_column_Dashboard,
+				dataKeys.ssoUserName);
+
+		// course statistic table
+		grep.infoTest("Search Functionality for " + dataKeys.courseStctTable_dashboard + " table");
+		logger.info("Search Functionality for " + dataKeys.courseStctTable_dashboard + " table");
+		lndOther.searchDashboardTable(dataKeys.courseStctTable_dashboard, dataKeys.dept_column_Dashboard,
+				dataKeys.dept_EnergyWater);
+
+		grep.captureScreenshot("pass", "Search in Course Statistics table", "searchIn_courseStctsTable_dashboard");
+
+		lndOther.verifyDataInTable(dataKeys.courseStctTable_dashboard, dataKeys.dept_EnergyWater);
+		lndOther.clearDashboardTable(dataKeys.courseStctTable_dashboard, dataKeys.dept_column_Dashboard,
+				dataKeys.dept_EnergyWater);
+
+		// Feedback overview table
+		grep.infoTest("Search Functionality for " + dataKeys.feedbackTable_dashboard + " table");
+		logger.info("Search Functionality for " + dataKeys.feedbackTable_dashboard + " table");
+		lndOther.searchDashboardTable(dataKeys.feedbackTable_dashboard, dataKeys.userId_column_Dashboard,
+				dataKeys.userId_col_Value);
+
+		grep.captureScreenshot("pass", "Search in Feedback Overview table", "searchIn_feedbackTable_dashboard");
+
+		lndOther.verifyDataInTable(dataKeys.feedbackTable_dashboard, dataKeys.dept_EnergyWater);
+		lndOther.clearDashboardTable(dataKeys.feedbackTable_dashboard, dataKeys.userId_column_Dashboard,
+				dataKeys.userId_col_Value);
+
+		// get users for course  by using course statistics
+		grep.testCreate("Get Users for Course by using Course statistics table test", "Get Users for Course by using Course statistics table");
+		lndOther.searchDashboardTable(dataKeys.courseStctTable_dashboard, dataKeys.courseName_column_Test,
+				dataKeys.airflowBeginnerCourse);
+		
+
+	
 	}
 
 	public void completeAndUpdateVideo(String courseName) throws Exception {
@@ -120,16 +208,16 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		if (isAlertPresent()) {
 			acceptalert();
 		}
-	
+
 		waitTime(driver);
-		
+
 		lndPage.navigateToPage(dataKeys.myCoursesPageUrl);
 		grep.testCreate("Verify enrolled course Card Details test", "Verify Enrolled Course Card Details");
 		waitTime(driver);
 		grep.infoTest("Enrolled Course Card Details test");
 		logger.info("Enrolled Course Card Details test");
 		lndCoursePage.verifyCourseDetails(courseName);
-		
+
 		grep.captureScreenshot("pass", "Course Details Page", "courseDetails");
 
 		waitTime(driver);

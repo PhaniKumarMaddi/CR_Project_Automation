@@ -29519,3 +29519,101 @@ Selenium
 2025-08-19 08:41:44 [main] INFO : Course Enrolled Successful:Airflow Advanced
 2025-08-19 08:41:46 [main] INFO : Testing Ended
 2025-08-19 08:41:46 [main] INFO : ***********
+2025-08-19 09:00:29 [main] INFO : Launching Chrome Browser
+2025-08-19 09:00:29 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 09:00:31 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 09:00:31 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 09:00:54 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 09:01:23 [main] INFO : Navigated to /admin
+2025-08-19 09:01:24 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 09:01:24 [main] INFO : Certificates card Value: 1
+2025-08-19 09:01:24 [main] INFO : Departments card Value: 14
+2025-08-19 09:01:24 [main] INFO : Active Courses card Value: 462
+2025-08-19 09:01:24 [main] INFO : Users card Value: 21
+2025-08-19 09:01:25 [main] INFO : Testing Ended
+2025-08-19 09:01:25 [main] INFO : ***********
+2025-08-19 10:11:18 [main] INFO : Launching Chrome Browser
+2025-08-19 10:11:18 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 10:11:20 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 10:11:20 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 10:12:04 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 10:12:04 [main] INFO : Navigated to /admin
+2025-08-19 10:12:05 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 10:12:05 [main] INFO : Certificates card Value: 0
+2025-08-19 10:12:05 [main] INFO : Departments card Value: 0
+2025-08-19 10:12:05 [main] INFO : Active Courses card Value: 0
+2025-08-19 10:12:05 [main] INFO : Users card Value: 0
+2025-08-19 10:13:42 [main] INFO : Launching Chrome Browser
+2025-08-19 10:13:43 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 10:13:45 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 10:13:45 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 10:14:15 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 10:14:15 [main] INFO : Navigated to /admin
+2025-08-19 10:14:16 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 10:14:19 [main] INFO : Certificates card Value: 2
+2025-08-19 10:14:19 [main] INFO : Departments card Value: 14
+2025-08-19 10:14:19 [main] INFO : Active Courses card Value: 462
+2025-08-19 10:14:19 [main] INFO : Users card Value: 21
+2025-08-19 10:14:20 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 10:14:21 [main] INFO : Search Functionality for User Management table
+2025-08-19 10:14:22 [main] INFO : Testing Ended
+2025-08-19 10:14:22 [main] INFO : ***********
+2025-08-19 10:26:55 [main] INFO : Launching Chrome Browser
+2025-08-19 10:26:56 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 10:26:57 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 10:26:57 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 10:27:24 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 10:27:25 [main] INFO : Navigated to /admin
+2025-08-19 10:27:25 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 10:27:28 [main] INFO : Certificates card Value: 2
+2025-08-19 10:27:28 [main] INFO : Departments card Value: 14
+2025-08-19 10:27:28 [main] INFO : Active Courses card Value: 462
+2025-08-19 10:27:28 [main] INFO : Users card Value: 22
+2025-08-19 10:27:29 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 10:27:29 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 10:27:30 [main] INFO : View Certificates
+2025-08-19 10:27:31 [main] INFO : Close Certificate
+2025-08-19 10:27:33 [main] INFO : Search Functionality for User Management table
+2025-08-19 10:27:34 [main] INFO : Testing Ended
+2025-08-19 10:27:34 [main] INFO : ***********
+2025-08-19 10:32:39 [main] INFO : Launching Chrome Browser
+2025-08-19 10:32:40 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 10:32:42 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 10:32:42 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 10:33:11 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 10:33:11 [main] INFO : Navigated to /admin
+2025-08-19 10:33:11 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 10:33:15 [main] INFO : Certificates card Value: 2
+2025-08-19 10:33:15 [main] INFO : Departments card Value: 14
+2025-08-19 10:33:15 [main] INFO : Active Courses card Value: 462
+2025-08-19 10:33:15 [main] INFO : Users card Value: 22
+2025-08-19 10:33:15 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 10:33:15 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 10:33:16 [main] INFO : View Certificates
+2025-08-19 10:33:22 [main] INFO : Close Certificate
+2025-08-19 10:33:24 [main] INFO : Search Functionality for User Management table
+2025-08-19 10:33:24 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 10:33:25 [main] INFO : Testing Ended
+2025-08-19 10:33:25 [main] INFO : ***********
+2025-08-19 10:45:19 [main] INFO : Launching Chrome Browser
+2025-08-19 10:45:19 [main] INFO : Report Name :LandD_Page.html
+2025-08-19 10:45:21 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-19 10:45:21 [main] INFO : Inside Login Page: Learning and Development
+2025-08-19 10:45:48 [main] INFO : Logged in to Learning and Development Application
+2025-08-19 10:45:48 [main] INFO : Navigated to /admin
+2025-08-19 10:45:49 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-19 10:45:52 [main] INFO : Certificates card Value: 2
+2025-08-19 10:45:52 [main] INFO : Departments card Value: 14
+2025-08-19 10:45:52 [main] INFO : Active Courses card Value: 462
+2025-08-19 10:45:52 [main] INFO : Users card Value: 22
+2025-08-19 10:45:53 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-19 10:45:53 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19
+2025-08-19 10:45:54 [main] INFO : View Certificates
+2025-08-19 10:45:59 [main] INFO : Close Certificate
+2025-08-19 10:46:01 [main] INFO : Search Functionality for User Management table
+2025-08-19 10:46:02 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-19 10:46:02 [main] INFO : Search Functionality for Course Statistics table
+2025-08-19 10:46:02 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-19 10:46:03 [main] INFO : Testing Ended
+2025-08-19 10:46:03 [main] INFO : ***********

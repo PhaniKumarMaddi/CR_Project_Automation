@@ -53,6 +53,30 @@ public class L_And_D_TestDataKeys {
 	public String testAutomationBeginnerCourse = "Test Automation(Selenium) Beginner";
 	public String airflowBeginnerCourse = "Airflow Beginner";
 	public String mdmBeginnerCourse = "Meter Data Management Beginner";
-	
 	public String airflowAdvanceCourse = "Airflow Advanced";
+
+	// admin dashboard cards
+	public String certificate_adminCard = "Certificates";
+	public String department_adminCard = "Departments";
+	public String activeCourses_adminCard = "Active Courses";
+	public String users_adminCard = "Users";
+
+	// Dashboard tab table names
+	public String userMgmtTable_dashboard = "User Management";
+	public String courseStctTable_dashboard = "Course Statistics";
+	public String feedbackTable_dashboard = "Feedback Overview";
+
+	public String email_column_Dashboard = "email";
+	public String dept_column_Dashboard = "department";
+	public String username_column_Dashboard = "userName";
+	public String userId_column_Dashboard = "userName";
+	public String userId_col_Value = "32";
+	
+	// Tests tab table names
+	public String ass_request_notify_table_Test = "Assessment Request Notifications";
+	public String course_Ass_table_Test = "Course Assessments";
+
+	public String userId_column_Test = "Search by User ID";
+	public String courseName_column_Test = "Search by Course Name";
+	public String userName_column_Test = "Search by Username";
 }

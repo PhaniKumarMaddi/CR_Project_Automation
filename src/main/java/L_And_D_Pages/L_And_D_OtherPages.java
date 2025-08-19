@@ -1,5 +1,8 @@
 package L_And_D_Pages;
 
+import java.io.Closeable;
+import java.util.List;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -27,10 +30,6 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 	By deptpageInfo = By.cssSelector("div.department-info>h1");
 	By searchCourse = By.xpath("//input[@class='search-input']");
-
-	// Admin page
-	By adminCards = By.xpath("//h3[text()='Certificates']/following-sibling::p");
-	
 
 	// search department
 	public void searchDepartment(String deptName) throws Exception {
@@ -139,7 +138,250 @@ public class L_And_D_OtherPages extends WaitsManager {
 		}
 	}
 
-	
 	// Verify Cards in Admin Page
-//	public void a
+	public void adminCardsText(String cardName) throws Exception {
+		try {
+			By adminCards = By.xpath("//h3[text()='" + cardName + "']/following-sibling::p");
+			boolean elementExist = !driver.findElements(adminCards).isEmpty();
+			if (elementExist) {
+
+				String getCardValue = driver.findElement(adminCards).getText();
+				grep.passTest(cardName + " card Value: " + getCardValue);
+				logger.info(cardName + " card Value: " + getCardValue);
+			} else {
+				grep.failTest(cardName + " Admin card Not Found");
+				logger.error(cardName + " Admin card Not Found");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void clickCertificateAdminCards() throws Exception {
+		try {
+			By adminCardsClick = By.xpath("//h3[text()='Certificates']/parent::div");
+
+			boolean elementExist = !driver.findElements(adminCardsClick).isEmpty();
+			if (elementExist) {
+
+				driver.findElement(adminCardsClick).click();
+
+			} else {
+				grep.failTest("Certificates Admin card Not Found");
+				logger.error("Certificates Admin card Not Found");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void getCertificateDetails(String tableName) throws Exception {
+		try {
+			By getTableData = By
+					.xpath("//h2[text()='" + tableName + "']/following-sibling::table[@class='course-table']/tbody/tr");
+			List<WebElement> table = driver.findElements(getTableData);
+			if (table.size() > 0) {
+				for (WebElement getDetails : table) {
+					String details = getDetails.getText();
+					grep.passTest("Certificates Details: " + details);
+					logger.info("Certificates Details: " + details);
+				}
+			} else {
+				grep.failTest("Certificates Details Not Avaialable");
+				logger.error("Certificates Details Not Avaialable");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+// open certificate
+	public void openCertificate(String tableName) throws Exception {
+		try {
+			By getTableData = By.xpath(
+					"//h2[text()='" + tableName + "']/following-sibling::table[@class='course-table']/tbody/tr/td[4]");
+			List<WebElement> table = driver.findElements(getTableData);
+			if (table.size() > 0) {
+				table.getFirst().click();
+				grep.passTest("View Certificates");
+				logger.info("View Certificates");
+			} else {
+				grep.failTest("No Certificates Available");
+				logger.error("No Certificates Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void clickCloseCertificate() throws Exception {
+		try {
+			By closeBtn = By.cssSelector("button.certificate-modal-close");
+
+			boolean elementExist = !driver.findElements(closeBtn).isEmpty();
+			if (elementExist) {
+
+				driver.findElement(closeBtn).click();
+				grep.passTest("Close Certificate");
+				logger.info("Close Certificate");
+			} else {
+				grep.failTest("Close Certificate not Available");
+				logger.error("Close Certificate not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// Search filter in table
+	public void searchDashboardTable(String tableName, String searchFieldName, String searchValue) throws Exception {
+		try {
+			By searchBy = By.xpath(
+					"//h2[text()='" + tableName + "']/following-sibling::div/input[@name='" + searchFieldName + "']");
+
+			boolean elementExist = !driver.findElements(searchBy).isEmpty();
+			if (elementExist) {
+
+				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				driver.findElement(searchBy).sendKeys(searchValue);
+
+			} else {
+				grep.failTest("Table is not available in dashboard tab");
+				logger.error("Table is not available in dashboard tab");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void clearDashboardTable(String tableName, String searchFieldName, String searchValue) throws Exception {
+		try {
+			By searchBy = By.xpath(
+					"//h2[text()='" + tableName + "']/following-sibling::div/input[@name='" + searchFieldName + "']");
+
+			boolean elementExist = !driver.findElements(searchBy).isEmpty();
+			if (elementExist) {
+
+				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+
+			} else {
+				grep.failTest("Table is not available in dashboard tab");
+				logger.error("Table is not available in dashboard tab");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void verifyDataInTable(String tableName, String verifyValue) throws Exception {
+		try {
+			By searchBy = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table/tbody/tr");
+
+			List<WebElement> table = driver.findElements(searchBy);
+			if (table.size() > 0) {
+				boolean isValid = true;
+				for (WebElement rows : table) {
+					String rowvalues = rows.getText();
+					if (!rowvalues.contains(verifyValue)) {
+						isValid = false;
+						break;
+					}
+				}
+				if (isValid && table.size() > 0) {
+					System.out.println("✅ Search validation passed. All Values match: " + verifyValue);
+					grep.infoTest("✅ Search validation passed. All Values match: " + verifyValue);
+					logger.info("✅ Search validation passed. All Values match: " + verifyValue);
+				} else {
+					System.out.println("❌ Search validation failed. Mismatched Value found or no rows.");
+					grep.infoTest("❌ Search validation failed. Mismatched Value found or no rows.");
+					logger.info("❌ Search validation failed. Mismatched Value found or no rows.");
+				}
+
+			} else {
+				grep.failTest("No Data found");
+				logger.error("No Data found");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// click total users and get user details
+	public void clickTotalUsersInDashboard(String tableName) throws Exception {
+		try {
+			By getTableData = By.xpath(
+					"//h2[text()='" + tableName + "']/following-sibling::table[@class='course-table']/tbody/tr/td[3]");
+			List<WebElement> table = driver.findElements(getTableData);
+			if (table.size() > 0) {
+				table.getFirst().click();
+				grep.passTest("Click Total Users");
+				logger.info("Click Total Users");
+			} else {
+				grep.failTest("No Users Enrolled");
+				logger.error("No Users Enrolled");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+	
+	public void getUserDetails(String tableName) throws Exception {
+		try {
+			By getTableData = By.xpath(
+					"//h2[text()='" + tableName + "']/following-sibling::table[@class='course-table']/tbody/tr/td[3]");
+			List<WebElement> table = driver.findElements(getTableData);
+			if (table.size() > 0) {
+				table.getFirst().click();
+				grep.passTest("Click Total Users");
+				logger.info("Click Total Users");
+			} else {
+				grep.failTest("No Users Enrolled");
+				logger.error("No Users Enrolled");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	
 }
