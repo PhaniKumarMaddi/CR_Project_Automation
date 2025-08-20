@@ -1345,8 +1345,8 @@ public class CSAT_Project_Page extends WaitsManager {
 				grep.passTest("Customer Email Error :"+error);
 				logger.info("Customer Email Error :"+error);
 			} else {
-				grep.failTest("Customer Email not available");
-				logger.error("Customer Email not available");
+				grep.failTest("Customer Email error not available");
+				logger.error("Customer Email error not available");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
