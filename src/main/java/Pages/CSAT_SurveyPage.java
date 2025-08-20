@@ -92,7 +92,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 //	By customMeasureName = By.xpath("//input[@placeholder='Custom Measure Name']");
 	By selectMeasureName = By.xpath("//label[starts-with(text(),'Measure Name ')]/following-sibling::select");
 	By customMeasureName = By.xpath("//label[starts-with(text(),'Measure Name ')]/following-sibling::input");
-	
+
 	// question
 	By addQuestion = By.xpath("//button[text()=' Add Question']");
 	By questionName = By.xpath("//label[starts-with(text(),'Question Name ')]/following-sibling::input");
@@ -113,8 +113,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 	By editNewSection = By.xpath("//button[text()=' Add Section']");
 	By editSectionName = By.xpath("//input[@placeholder='Type section name...']");
 	By editSectionWeightage = By.xpath("//label[starts-with(text(),'Section Weight')]/following-sibling::input");
-			//input[@placeholder='Enter weightage']");
-	
+	// input[@placeholder='Enter weightage']");
 
 	// Add Measure in Edit
 	By editNewMeasure = By.xpath("//button[text()='Add Measure']");
@@ -458,6 +457,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 			logger.error("Test Failed :" + e.getMessage());
 		}
 	}
+	
 
 	// VERIFY COLUMN IN TABLE
 	public void verifyTypeColInTable(String colvalues) throws Exception {
@@ -1516,7 +1516,9 @@ public class CSAT_SurveyPage extends WaitsManager {
 			implWait(driver);
 			List<WebElement> element = driver.findElements(editSectionWeightage);
 			if (element.size() > 0) {
-				element.getLast().click();
+				WebElement element2 = driver.findElement(editNewSection);
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element2);
+//				element.getLast().click();
 				element.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
 				element.getLast().sendKeys(sectionWeightVal);
 
@@ -1539,6 +1541,9 @@ public class CSAT_SurveyPage extends WaitsManager {
 			List<WebElement> measure = driver.findElements(editNewMeasure);
 
 			if (measure.size() > 0) {
+				WebElement element = driver.findElement(editNewMeasure);
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+				
 				measure.getLast().click();
 			} else {
 				grep.failTest("Add Measure button Not Available");
@@ -1558,6 +1563,9 @@ public class CSAT_SurveyPage extends WaitsManager {
 //			List<WebElement> element = driver.findElements(editMeasureName);
 			List<WebElement> element = driver.findElements(customMeasureName);
 			if (element.size() > 0) {
+				WebElement element2 = driver.findElement(editNewSection);
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element2);
+				waitTime(driver);
 				element.getLast().click();
 				element.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
 				element.getLast().sendKeys(measureName);
@@ -1581,6 +1589,9 @@ public class CSAT_SurveyPage extends WaitsManager {
 			List<WebElement> question = driver.findElements(editNewQuestion);
 
 			if (question.size() > 0) {
+				WebElement element2 = driver.findElement(editNewSection);
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element2);
+				waitTime(driver);
 				question.getLast().click();
 			} else {
 				grep.failTest("Add Question button Not Available");

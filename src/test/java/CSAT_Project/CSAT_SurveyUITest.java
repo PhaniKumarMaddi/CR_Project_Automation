@@ -42,6 +42,9 @@ public class CSAT_SurveyUITest extends CSAT_TestInitializer {
 
 //		grep.infoTest("Navigating To Roles Page");
 //		navigateToAllPagesTest(dataKeys.roles_Url);
+		waitTime(driver);
+		grep.infoTest("Navigating To Roles Page");
+		navigateToSettingsPagesTest(dataKeys.roles_Url);
 
 		grep.infoTest("Navigating To Reports Page");
 		navigateToAllPagesTest(dataKeys.reports_Url);
@@ -56,10 +59,7 @@ public class CSAT_SurveyUITest extends CSAT_TestInitializer {
 		waitTime(driver);
 		grep.infoTest("Navigating To Teams Page");
 		navigateToSettingsPagesTest(dataKeys.teams_Url);
-		waitTime(driver);
-		grep.infoTest("Navigating To Roles Page");
-		navigateToSettingsPagesTest(dataKeys.roles_Url);
-
+		
 		waitTime(driver);
 		
 		grep.infoTest("Navigating To Projects Page");

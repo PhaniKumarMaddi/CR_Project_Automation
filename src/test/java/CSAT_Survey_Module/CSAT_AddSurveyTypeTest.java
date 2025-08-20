@@ -207,6 +207,8 @@ public class CSAT_AddSurveyTypeTest extends CSAT_TestInitializer {
 		logger.info("Deleting Existing Survey Type Test");
 		waitTime(driver);
 		csat_Survey.clickSurveyTypeDropDown();
+		waitTime(driver); 
+		
 		csat_Survey.selectActionInSurveyType(dataKeys.updatedSurveyTypeName, dataKeys.deleteProjectBtn);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Deleteing Existing Survey Type", "delete_SurveyType");

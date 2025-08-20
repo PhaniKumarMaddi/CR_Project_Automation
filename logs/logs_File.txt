@@ -34799,3 +34799,1820 @@ CriticalRiver Technologies Team
 2025-08-20 14:06:59 [main] INFO : Logged out Successfully
 2025-08-20 14:07:05 [main] INFO : Testing Ended
 2025-08-20 14:07:05 [main] INFO : ***********
+2025-08-20 14:09:10 [main] INFO : Launching Chrome Browser
+2025-08-20 14:09:10 [main] INFO : Report Name :CSATSurveyReport.html
+2025-08-20 14:09:16 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 14:09:17 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 14:09:17 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 14:09:42 [main] INFO : Logged in to CSAT Application
+2025-08-20 14:09:44 [main] INFO : Validating the Header
+2025-08-20 14:09:45 [main] INFO : Header is Valid: Surveys
+2025-08-20 14:09:45 [main] INFO : Validating the Add New Survey Type Popup
+2025-08-20 14:09:49 [main] INFO : Header is Valid: Add Survey Type
+2025-08-20 14:09:49 [main] INFO : Cancel Button Available
+2025-08-20 14:09:49 [main] INFO : Save Button Available
+2025-08-20 14:09:50 [main] INFO : Validating the Add New Survey Popup
+2025-08-20 14:09:51 [main] INFO : Header is Valid: Add New Survey
+2025-08-20 14:09:52 [main] INFO : Cancel Button Available
+2025-08-20 14:09:52 [main] INFO : Save Button Available
+2025-08-20 14:09:53 [main] INFO : Validating the Survey Type Dropdown
+2025-08-20 14:09:53 [main] INFO : All Survey Types Dropdown is Available
+2025-08-20 14:09:54 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-08-20 14:09:57 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-08-20 14:09:59 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-08-20 14:10:01 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-08-20 14:10:04 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-08-20 14:10:06 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-08-20 14:10:09 [main] INFO : Survey Type Update Popup Test
+2025-08-20 14:10:10 [main] INFO : Header is Valid: Update Survey Type
+2025-08-20 14:10:11 [main] INFO : Cancel Button Available
+2025-08-20 14:10:11 [main] INFO : Update Button Available
+2025-08-20 14:10:14 [main] INFO : Column Options is valid Header value
+2025-08-20 14:10:14 [main] INFO : Cancel Button Available
+2025-08-20 14:10:14 [main] INFO : OK Button Available
+2025-08-20 14:10:14 [main] INFO : Verifying Start Date Column Option
+2025-08-20 14:10:14 [main] INFO : Column Option visibility is Hide 
+2025-08-20 14:10:15 [main] INFO : Column Option visibility is View 
+2025-08-20 14:10:17 [main] INFO : Verifying End Date Column Option
+2025-08-20 14:10:17 [main] INFO : Column Option visibility is Hide 
+2025-08-20 14:10:19 [main] INFO : Column Option visibility is View 
+2025-08-20 14:10:21 [main] INFO : Verifying Type Column Option
+2025-08-20 14:10:21 [main] INFO : Column Option visibility is Hide 
+2025-08-20 14:10:22 [main] INFO : Column Option visibility is View 
+2025-08-20 14:10:24 [main] INFO : Selecting Pagination 5
+2025-08-20 14:10:25 [main] INFO : 5 pagination Option Selected
+2025-08-20 14:10:25 [main] INFO : Selecting Pagination 15
+2025-08-20 14:10:26 [main] INFO : 15 pagination Option Selected
+2025-08-20 14:10:26 [main] INFO : Selecting Pagination 10
+2025-08-20 14:10:27 [main] INFO : 10 pagination Option Selected
+2025-08-20 14:10:28 [main] INFO : Download CSV File Format 
+2025-08-20 14:10:33 [main] INFO : Download PDF File Format 
+2025-08-20 14:10:39 [main] INFO : Search Survey
+2025-08-20 14:10:40 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-08-20 14:10:42 [main] INFO : Clicking Survey from Table
+2025-08-20 14:10:48 [main] INFO : Header is Valid: CR CSAT - Development Project
+2025-08-20 14:10:50 [main] INFO : Validating Edit Survey from Table
+2025-08-20 14:10:51 [main] INFO : Header is Valid: Edit Survey Details
+2025-08-20 14:10:54 [main] INFO : Cancel Button Available
+2025-08-20 14:10:54 [main] INFO : Save Button Available
+2025-08-20 14:10:56 [main] INFO : Entering invalid characters in type field
+2025-08-20 14:11:01 [main] INFO : Error Message :Survey type name cannot contain special characters.
+2025-08-20 14:11:05 [main] INFO : Entering spaces in type field
+2025-08-20 14:11:07 [main] INFO : Error Message :Survey type name is required
+2025-08-20 14:11:11 [main] INFO : Keeping description field blank
+2025-08-20 14:11:14 [main] INFO : Error Message :Failed to add survey type: Missing name or description
+2025-08-20 14:11:19 [main] INFO : Entering spaces in description field
+2025-08-20 14:11:22 [main] INFO : Error Message :Failed to add survey type: Missing name or description
+2025-08-20 14:11:26 [main] INFO : Creating New Survey Type Test
+2025-08-20 14:11:41 [main] INFO : Creating New Survey with Existing Survey Type Name Test
+2025-08-20 14:11:48 [main] INFO : Error Message :This survey type already exists.
+2025-08-20 14:11:55 [main] INFO : Editing invalid characters in type field for Edit Survey Type Test
+2025-08-20 14:11:57 [main] INFO : Error Message :Survey type name cannot contain special characters.
+2025-08-20 14:12:05 [main] INFO : Editing entering spaces in type field for Edit Survey Type Test
+2025-08-20 14:12:06 [main] INFO : Error Message :Survey type name is required
+2025-08-20 14:12:14 [main] INFO : Entering spaces in description field in Edit Survey Type Test
+2025-08-20 14:12:17 [main] INFO : Error Message :Description cannot be just spaces.
+2025-08-20 14:12:24 [main] INFO : Updating the type and description in Edit Survey type Test
+2025-08-20 14:12:25 [main] INFO : Updating Type: Test Automation
+2025-08-20 14:12:25 [main] INFO : Updating Description: For Automating The CSAT Survey Module
+2025-08-20 14:12:34 [main] INFO : Deleting Existing Survey Type Test
+2025-08-20 14:12:39 [main] INFO : Entering invalid characters in Survey name field
+2025-08-20 14:12:45 [main] INFO : Entering invalid characters in Survey name field: #$%^&*
+2025-08-20 14:12:46 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-08-20 14:12:49 [main] INFO : Entering Only Spaces in Survey field
+2025-08-20 14:13:07 [main] INFO : Error Message :Survey Name cannot be empty or just spaces.
+2025-08-20 14:13:11 [main] INFO : Entering Existing name in Survey field
+2025-08-20 14:13:16 [main] INFO : Entering Existing Survey Name : CR CSAT - Development Project
+2025-08-20 14:13:16 [main] INFO :  Survey Name Error Messgae :Survey name already exists
+2025-08-20 14:13:20 [main] INFO : Verify Entering End Date previous than Start date in add survey
+2025-08-20 14:13:38 [main] INFO : Error Message :End Date cannot be earlier than Start Date.
+2025-08-20 14:13:41 [main] INFO : Verify Saving without adding weightage or Section in add survey
+2025-08-20 14:14:00 [main] INFO : Entered Project Start Date: 2025-08-20
+2025-08-20 14:14:00 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-20 14:14:02 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 0%
+2025-08-20 14:14:05 [main] INFO : Verify Saving with Section Name Invalid characters in add survey
+2025-08-20 14:14:27 [main] INFO : Error Message :Section name "#$%^&*" contains invalid characters.
+2025-08-20 14:14:30 [main] INFO : Verify Saving with Section Name only spaces in add survey
+2025-08-20 14:14:34 [main] INFO : Error Message :Section name cannot be empty or just spaces.
+2025-08-20 14:14:36 [main] INFO : Verify Saving with adding weightage less than 100 in add survey
+2025-08-20 14:14:42 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 10%
+2025-08-20 14:14:45 [main] INFO : Verify Saving with adding weightage greater than 100 in add survey
+2025-08-20 14:14:49 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 200%
+2025-08-20 14:14:52 [main] INFO : Verify Saving with Measure Name Invalid characters in add survey
+2025-08-20 14:14:59 [main] INFO : Error Message :Measure name "#$%^&*" contains invalid characters.
+2025-08-20 14:15:01 [main] INFO : Verify Saving with Measure Name only spaces in add survey
+2025-08-20 14:15:05 [main] INFO : Error Message :Measure name cannot be empty or just spaces.
+2025-08-20 14:15:08 [main] INFO : Verify Saving with Question Name only spaces in add survey
+2025-08-20 14:15:14 [main] INFO : Error Message :Question name cannot be empty or just spaces.
+2025-08-20 14:15:18 [main] INFO : Keeping Options as Blank in Add Survey
+2025-08-20 14:15:22 [main] INFO : Error Message :All options must have values filled in.
+2025-08-20 14:15:25 [main] INFO : Keeping Options Weightage as Blank in Add Survey
+2025-08-20 14:15:27 [main] INFO : Error Message :Checkbox option weightage must be a positive number.
+2025-08-20 14:15:30 [main] INFO : Adding only Section without adding Measure and Question in Add Survey
+2025-08-20 14:15:33 [main] INFO : Entered Survey name: CSAT Test Automation
+2025-08-20 14:15:36 [main] INFO : Entered Survey Type: CR CSAT - Resource (TOD)
+2025-08-20 14:15:52 [main] INFO : Entered Section Name: Delivery
+2025-08-20 14:15:52 [main] INFO : Entered Section Weightage: 100
+2025-08-20 14:15:56 [main] INFO : Error Message :At least one section must have one measure with one question.
+2025-08-20 14:16:02 [main] INFO : Adding Section and Measure without adding Question in Add Survey
+2025-08-20 14:16:07 [main] INFO : Entered Measure Name: Capabilities
+2025-08-20 14:16:11 [main] INFO : Error Message :At least one section must have one measure with one question.
+2025-08-20 14:16:17 [main] INFO : Creating Single Section, Measure,Question in Add Survey
+2025-08-20 14:16:20 [main] INFO : Entered Survey name: CSAT Test Automation
+2025-08-20 14:16:22 [main] INFO : Entered Survey Type: CR CSAT - Resource (TOD)
+2025-08-20 14:16:35 [main] INFO : Entered Project Start Date: 2025-08-20
+2025-08-20 14:16:36 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-20 14:16:39 [main] INFO : Entered Section Name: Delivery
+2025-08-20 14:16:40 [main] INFO : Entered Section Weightage: 100
+2025-08-20 14:16:42 [main] INFO : Entered Measure Name: Capabilities
+2025-08-20 14:16:43 [main] INFO : Entered Question Name: This is to test question 1
+2025-08-20 14:16:45 [main] INFO : Entered Options 1
+2025-08-20 14:16:47 [main] INFO : Entered Options 2
+2025-08-20 14:16:48 [main] INFO : Entered Options 3
+2025-08-20 14:16:59 [main] INFO : Created Survey is shown in table: CSAT Test Automation
+2025-08-20 14:17:01 [main] INFO : Creating Multiple Section, Measure,Question in Add Survey
+2025-08-20 14:17:04 [main] INFO : Entered Survey name: Test Automation Survey
+2025-08-20 14:17:06 [main] INFO : Entered Survey Type: CR CSAT - Development Project
+2025-08-20 14:17:19 [main] INFO : Entered Project Start Date: 2025-08-20
+2025-08-20 14:17:20 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-20 14:17:20 [main] INFO : ___Creating First Section___
+2025-08-20 14:17:23 [main] INFO : Entered Section Name: Delivery
+2025-08-20 14:17:24 [main] INFO : Entered Section Weightage: 50
+2025-08-20 14:17:25 [main] INFO : Entered Measure Name: Quality
+2025-08-20 14:17:27 [main] INFO : Entered Question Name: This is to test question 1
+2025-08-20 14:17:29 [main] INFO : Entered Options 1
+2025-08-20 14:17:30 [main] INFO : Entered Options 2
+2025-08-20 14:17:32 [main] INFO : Entered Options 3
+2025-08-20 14:17:35 [main] INFO : ___Creating Second Section___
+2025-08-20 14:17:38 [main] INFO : Entered Section Name: Accountability
+2025-08-20 14:17:38 [main] INFO : Entered Section Weightage: 20
+2025-08-20 14:17:40 [main] INFO : Entered Measure Name: Ownership
+2025-08-20 14:17:42 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-20 14:17:45 [main] INFO : Entered Options 1
+2025-08-20 14:17:46 [main] INFO : Entered Options 2
+2025-08-20 14:17:48 [main] INFO : Entered Options 3
+2025-08-20 14:17:53 [main] INFO : Entered Question Name: This is to test question 3
+2025-08-20 14:17:55 [main] INFO : Entered Options 1
+2025-08-20 14:17:57 [main] INFO : Entered Options 2
+2025-08-20 14:17:59 [main] INFO : Entered Options 3
+2025-08-20 14:18:02 [main] INFO : ___Creating Custom Section___
+2025-08-20 14:18:05 [main] INFO : Entered Section Name: Testing Section
+2025-08-20 14:18:06 [main] INFO : Entered Section Weightage: 30
+2025-08-20 14:18:09 [main] INFO : Entered Measure Name: Testing Measure
+2025-08-20 14:18:11 [main] INFO : Entered Question Name: This is to test question 4
+2025-08-20 14:18:12 [main] INFO : Entered Options 1
+2025-08-20 14:18:14 [main] INFO : Entered Options 2
+2025-08-20 14:18:16 [main] INFO : Entered Options 3
+2025-08-20 14:18:16 [main] INFO : Multiple Measure for Same Section
+2025-08-20 14:18:19 [main] INFO : Entered Measure Name: SLA
+2025-08-20 14:18:21 [main] INFO : Entered Question Name: Provide Competative rating
+2025-08-20 14:18:36 [main] INFO : Created Survey is shown in table: Test Automation Survey
+2025-08-20 14:18:37 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-20 14:18:48 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 10%
+2025-08-20 14:18:50 [main] INFO : Verify Saving with adding weightage greater than 100 in edit survey
+2025-08-20 14:18:53 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 200%
+2025-08-20 14:19:01 [main] INFO : Adding only Section without adding Measure and Question in Edit Survey
+2025-08-20 14:19:10 [main] INFO : Entered Section Name: Ownership
+2025-08-20 14:19:13 [main] ERROR: Test Failed :element click intercepted: Element <input placeholder="Enter weightage (Ex:50)" min="0" max="100" type="number" value=""> is not clickable at point (1255, 1017). Other element would receive the click: <div class="add-survey-modal" id="addsurvey">...</div>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3f87491695fffab1c86d3161087a84b1, clickElement {id=f.35AFEC1C7EDC62E27E537CB2A019CD32.d.94006A20822A3FF98CE0AEA7A3F56CF5.e.1500}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54557}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54557/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3f87491695fffab1c86d3161087a84b1)] -> xpath: //label[starts-with(text(),'Section Weight')]/following-sibling::input]
+Session ID: 3f87491695fffab1c86d3161087a84b1
+2025-08-20 14:19:14 [main] INFO : Entered Section Weightage: 50
+2025-08-20 14:19:16 [main] INFO : Error Message :Section "Ownership" must have at least one measure.
+2025-08-20 14:19:22 [main] INFO : Adding Section and Measure without adding Question in Edit Survey
+2025-08-20 14:19:25 [main] ERROR: Test Failed :element click intercepted: Element <button type="button" class="add-question-btn" title="..." style="border: none; background: none; color: blue; font-size: 16px; padding-bottom: 5px;">Add Measure</button> is not clickable at point (819, 974). Other element would receive the click: <div class="addsurvey1">...</div>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3f87491695fffab1c86d3161087a84b1, clickElement {id=f.35AFEC1C7EDC62E27E537CB2A019CD32.d.94006A20822A3FF98CE0AEA7A3F56CF5.e.1509}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54557}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54557/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3f87491695fffab1c86d3161087a84b1)] -> xpath: //button[text()='Add Measure']]
+Session ID: 3f87491695fffab1c86d3161087a84b1
+2025-08-20 14:20:44 [main] INFO : Launching Chrome Browser
+2025-08-20 14:20:44 [main] INFO : Report Name :CsatPage.html
+2025-08-20 14:20:48 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 14:20:48 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 14:20:48 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 14:21:18 [main] INFO : Logged in to CSAT Application
+2025-08-20 14:21:19 [main] INFO : Entering invalid characters in Survey name field
+2025-08-20 14:21:26 [main] INFO : Entering invalid characters in Survey name field: #$%^&*
+2025-08-20 14:21:26 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-08-20 14:21:30 [main] INFO : Entering Only Spaces in Survey field
+2025-08-20 14:21:48 [main] INFO : Error Message :Survey Name cannot be empty or just spaces.
+2025-08-20 14:21:52 [main] INFO : Entering Existing name in Survey field
+2025-08-20 14:21:57 [main] INFO : Entering Existing Survey Name : CR CSAT - Development Project
+2025-08-20 14:21:58 [main] INFO :  Survey Name Error Messgae :Survey name already exists
+2025-08-20 14:22:01 [main] INFO : Verify Entering End Date previous than Start date in add survey
+2025-08-20 14:22:19 [main] INFO : Error Message :End Date cannot be earlier than Start Date.
+2025-08-20 14:22:23 [main] INFO : Verify Saving without adding weightage or Section in add survey
+2025-08-20 14:22:42 [main] INFO : Entered Project Start Date: 2025-08-20
+2025-08-20 14:22:43 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-20 14:22:44 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 0%
+2025-08-20 14:22:48 [main] INFO : Verify Saving with Section Name Invalid characters in add survey
+2025-08-20 14:23:10 [main] INFO : Error Message :Section name "#$%^&*" contains invalid characters.
+2025-08-20 14:23:12 [main] INFO : Verify Saving with Section Name only spaces in add survey
+2025-08-20 14:23:16 [main] INFO : Error Message :Section name cannot be empty or just spaces.
+2025-08-20 14:23:19 [main] INFO : Verify Saving with adding weightage less than 100 in add survey
+2025-08-20 14:23:25 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 10%
+2025-08-20 14:23:28 [main] INFO : Verify Saving with adding weightage greater than 100 in add survey
+2025-08-20 14:23:32 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 200%
+2025-08-20 14:23:35 [main] INFO : Verify Saving with Measure Name Invalid characters in add survey
+2025-08-20 14:23:42 [main] INFO : Error Message :Measure name "#$%^&*" contains invalid characters.
+2025-08-20 14:23:44 [main] INFO : Verify Saving with Measure Name only spaces in add survey
+2025-08-20 14:23:48 [main] INFO : Error Message :Measure name cannot be empty or just spaces.
+2025-08-20 14:23:51 [main] INFO : Verify Saving with Question Name only spaces in add survey
+2025-08-20 14:23:58 [main] INFO : Error Message :Question name cannot be empty or just spaces.
+2025-08-20 14:24:01 [main] INFO : Keeping Options as Blank in Add Survey
+2025-08-20 14:24:05 [main] INFO : Error Message :All options must have values filled in.
+2025-08-20 14:24:07 [main] INFO : Keeping Options Weightage as Blank in Add Survey
+2025-08-20 14:24:10 [main] INFO : Error Message :Checkbox option weightage must be a positive number.
+2025-08-20 14:24:13 [main] INFO : Adding only Section without adding Measure and Question in Add Survey
+2025-08-20 14:24:16 [main] INFO : Entered Survey name: CSAT Test Automation
+2025-08-20 14:24:19 [main] INFO : Entered Survey Type: CR CSAT - Resource (TOD)
+2025-08-20 14:24:35 [main] INFO : Entered Section Name: Delivery
+2025-08-20 14:24:35 [main] INFO : Entered Section Weightage: 100
+2025-08-20 14:24:38 [main] INFO : Error Message :At least one section must have one measure with one question.
+2025-08-20 14:24:45 [main] INFO : Adding Section and Measure without adding Question in Add Survey
+2025-08-20 14:24:50 [main] INFO : Entered Measure Name: Capabilities
+2025-08-20 14:24:54 [main] INFO : Error Message :At least one section must have one measure with one question.
+2025-08-20 14:24:59 [main] INFO : Creating Single Section, Measure,Question in Add Survey
+2025-08-20 14:25:02 [main] INFO : Entered Survey name: CSAT Test Automation
+2025-08-20 14:25:05 [main] INFO : Entered Survey Type: CR CSAT - Resource (TOD)
+2025-08-20 14:25:18 [main] INFO : Entered Project Start Date: 2025-08-20
+2025-08-20 14:25:18 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-20 14:25:21 [main] INFO : Entered Section Name: Delivery
+2025-08-20 14:25:22 [main] INFO : Entered Section Weightage: 100
+2025-08-20 14:25:24 [main] INFO : Entered Measure Name: Capabilities
+2025-08-20 14:25:26 [main] INFO : Entered Question Name: This is to test question 1
+2025-08-20 14:25:27 [main] INFO : Entered Options 1
+2025-08-20 14:25:29 [main] INFO : Entered Options 2
+2025-08-20 14:25:30 [main] INFO : Entered Options 3
+2025-08-20 14:25:41 [main] INFO : Created Survey is shown in table: CSAT Test Automation
+2025-08-20 14:25:42 [main] INFO : Creating Multiple Section, Measure,Question in Add Survey
+2025-08-20 14:25:45 [main] INFO : Entered Survey name: Test Automation Survey
+2025-08-20 14:25:48 [main] INFO : Entered Survey Type: CR CSAT - Development Project
+2025-08-20 14:26:01 [main] INFO : Entered Project Start Date: 2025-08-20
+2025-08-20 14:26:01 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-20 14:26:02 [main] INFO : ___Creating First Section___
+2025-08-20 14:26:04 [main] INFO : Entered Section Name: Delivery
+2025-08-20 14:26:05 [main] INFO : Entered Section Weightage: 50
+2025-08-20 14:26:07 [main] INFO : Entered Measure Name: Quality
+2025-08-20 14:26:08 [main] INFO : Entered Question Name: This is to test question 1
+2025-08-20 14:26:10 [main] INFO : Entered Options 1
+2025-08-20 14:26:12 [main] INFO : Entered Options 2
+2025-08-20 14:26:13 [main] INFO : Entered Options 3
+2025-08-20 14:26:16 [main] INFO : ___Creating Second Section___
+2025-08-20 14:26:19 [main] INFO : Entered Section Name: Accountability
+2025-08-20 14:26:19 [main] INFO : Entered Section Weightage: 20
+2025-08-20 14:26:21 [main] INFO : Entered Measure Name: Ownership
+2025-08-20 14:26:23 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-20 14:26:25 [main] INFO : Entered Options 1
+2025-08-20 14:26:27 [main] INFO : Entered Options 2
+2025-08-20 14:26:28 [main] INFO : Entered Options 3
+2025-08-20 14:26:33 [main] INFO : Entered Question Name: This is to test question 3
+2025-08-20 14:26:35 [main] INFO : Entered Options 1
+2025-08-20 14:26:37 [main] INFO : Entered Options 2
+2025-08-20 14:26:38 [main] INFO : Entered Options 3
+2025-08-20 14:26:41 [main] INFO : ___Creating Custom Section___
+2025-08-20 14:26:44 [main] INFO : Entered Section Name: Testing Section
+2025-08-20 14:26:45 [main] INFO : Entered Section Weightage: 30
+2025-08-20 14:26:48 [main] INFO : Entered Measure Name: Testing Measure
+2025-08-20 14:26:50 [main] INFO : Entered Question Name: This is to test question 4
+2025-08-20 14:26:51 [main] INFO : Entered Options 1
+2025-08-20 14:26:52 [main] INFO : Entered Options 2
+2025-08-20 14:26:54 [main] INFO : Entered Options 3
+2025-08-20 14:26:55 [main] INFO : Multiple Measure for Same Section
+2025-08-20 14:26:57 [main] INFO : Entered Measure Name: SLA
+2025-08-20 14:26:59 [main] INFO : Entered Question Name: Provide Competative rating
+2025-08-20 14:27:14 [main] INFO : Created Survey is shown in table: Test Automation Survey
+2025-08-20 14:27:15 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-20 14:27:26 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 10%
+2025-08-20 14:27:29 [main] INFO : Verify Saving with adding weightage greater than 100 in edit survey
+2025-08-20 14:27:32 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 200%
+2025-08-20 14:27:40 [main] INFO : Adding only Section without adding Measure and Question in Edit Survey
+2025-08-20 14:27:48 [main] INFO : Entered Section Name: Ownership
+2025-08-20 14:27:53 [main] INFO : Entered Section Weightage: 50
+2025-08-20 14:27:56 [main] INFO : Error Message :Section "Ownership" must have at least one measure.
+2025-08-20 14:28:02 [main] INFO : Adding Section and Measure without adding Question in Edit Survey
+2025-08-20 14:28:05 [main] ERROR: Test Failed :element click intercepted: Element <input placeholder="Enter Measure Name(Ex:Schedule)" type="text" value=""> is not clickable at point (1255, 966). Other element would receive the click: <div class="add-survey-modal-footer">...</div>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f8349738e5377e15acf5304fb924521b, clickElement {id=f.6A934562934CEDA7582E2BA2DB386D89.d.50C3F0C2965255159FF863AC26E47701.e.1188}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57697}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57697/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f8349738e5377e15acf5304fb924521b)] -> xpath: //label[starts-with(text(),'Measure Name ')]/following-sibling::input]
+Session ID: f8349738e5377e15acf5304fb924521b
+2025-08-20 14:28:06 [main] INFO : Entered Measure Name: Quality
+2025-08-20 14:28:07 [main] INFO : Error Message :Measure name is required and cannot be just spaces.
+2025-08-20 14:28:10 [main] INFO : Keeping Options Weightage as Blank in edit Survey
+2025-08-20 14:28:15 [main] ERROR: Test Failed :element click intercepted: Element <button type="button" class="add-question-btn" title="..." style="border: none; background: none; color: blue; font-size: 16px; padding-bottom: 5px;">Add Question</button> is not clickable at point (820, 1016). Other element would receive the click: <div class="addsurvey1">...</div>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f8349738e5377e15acf5304fb924521b, clickElement {id=f.6A934562934CEDA7582E2BA2DB386D89.d.50C3F0C2965255159FF863AC26E47701.e.1197}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57697}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57697/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f8349738e5377e15acf5304fb924521b)] -> xpath: //button[text()='Add Question']]
+Session ID: f8349738e5377e15acf5304fb924521b
+2025-08-20 14:29:16 [main] ERROR: Question Name Field not Available
+2025-08-20 14:29:16 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-20 14:30:33 [main] INFO : Launching Chrome Browser
+2025-08-20 14:30:33 [main] INFO : Report Name :CsatPage.html
+2025-08-20 14:30:39 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 14:30:39 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 14:30:40 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 14:31:17 [main] INFO : Logged in to CSAT Application
+2025-08-20 14:31:17 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-20 14:31:23 [main] INFO : Deleting existing Survey
+2025-08-20 14:31:38 [main] INFO : Testing Ended
+2025-08-20 14:31:38 [main] INFO : ***********
+2025-08-20 14:31:56 [main] INFO : Launching Chrome Browser
+2025-08-20 14:31:56 [main] INFO : Report Name :CsatPage.html
+2025-08-20 14:32:03 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 14:32:03 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 14:32:03 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 14:32:32 [main] INFO : Logged in to CSAT Application
+2025-08-20 14:32:32 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-20 14:32:38 [main] INFO : Deleting existing Survey
+2025-08-20 14:34:13 [main] INFO : Launching Chrome Browser
+2025-08-20 14:34:13 [main] INFO : Report Name :CSATProject_PageReport.html
+2025-08-20 14:34:16 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 14:34:16 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 14:34:16 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 14:34:40 [main] INFO : Logged in to CSAT Application
+2025-08-20 14:34:41 [main] INFO : Inside Test class 
+2025-08-20 14:34:41 [main] INFO : Logo is Available CSAT Logo
+2025-08-20 14:34:41 [main] ERROR: Profile Name is not Valid: Phani Kumar Maddi
+2025-08-20 14:34:43 [main] INFO : Menu Collapsed
+2025-08-20 14:34:49 [main] INFO : Inside /surveys Page 
+2025-08-20 14:34:49 [main] INFO : /surveys Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveys
+2025-08-20 14:34:56 [main] INFO : Inside /reports Page 
+2025-08-20 14:34:56 [main] INFO : /reports Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/reports
+2025-08-20 14:35:04 [main] INFO : Inside /settings/org-members Page 
+2025-08-20 14:35:04 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/org-members
+2025-08-20 14:35:12 [main] INFO : Inside /profile Page 
+2025-08-20 14:35:12 [main] INFO : /profile Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/profile
+2025-08-20 14:35:14 [main] INFO : Menu Expanded
+2025-08-20 14:35:23 [main] INFO : Inside /settings/teams Page 
+2025-08-20 14:35:23 [main] INFO : /settings/teams Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/teams
+2025-08-20 14:36:31 [main] INFO : Inside /roles Page 
+2025-08-20 14:36:31 [main] ERROR: /roles Url is InValid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/org-members
+2025-08-20 14:36:41 [main] INFO : Inside /projects Page 
+2025-08-20 14:36:41 [main] INFO : /projects Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/projects
+2025-08-20 14:36:44 [main] INFO : Menu Collapsed
+2025-08-20 14:36:47 [main] INFO : Header is Valid: Projects
+2025-08-20 14:36:49 [main] INFO : Popup Header: Surveys Sent
+2025-08-20 14:36:50 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-08-20 14:36:50 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-08-20 14:36:56 [main] INFO : Cancel Button Available
+2025-08-20 14:36:56 [main] INFO : Cancel Button is Enabled
+2025-08-20 14:36:56 [main] INFO : Share Button Available
+2025-08-20 14:36:56 [main] INFO : Share Button is Enabled
+2025-08-20 14:36:59 [main] INFO : Popup Header: At Risk Surveys
+2025-08-20 14:37:00 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-08-20 14:37:00 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-08-20 14:37:02 [main] INFO : Cancel Button Available
+2025-08-20 14:37:02 [main] INFO : Export Button Available
+2025-08-20 14:37:02 [main] INFO : Cancel Button is Enabled
+2025-08-20 14:37:02 [main] INFO : Export Button is Enabled
+2025-08-20 14:37:05 [main] INFO : Popup Header: Completed Surveys
+2025-08-20 14:37:06 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-08-20 14:37:06 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-08-20 14:37:08 [main] INFO : Cancel Button Available
+2025-08-20 14:37:08 [main] INFO : Export Button Available
+2025-08-20 14:37:08 [main] INFO : Cancel Button is Enabled
+2025-08-20 14:37:08 [main] INFO : Export Button is Enabled
+2025-08-20 14:37:11 [main] INFO : Popup Header: CSAT Summary
+2025-08-20 14:37:12 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-08-20 14:37:12 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-08-20 14:37:14 [main] INFO : Cancel Button Available
+2025-08-20 14:37:14 [main] INFO : Export Button Available
+2025-08-20 14:37:14 [main] INFO : Cancel Button is Enabled
+2025-08-20 14:37:14 [main] INFO : Export Button is Enabled
+2025-08-20 14:37:16 [main] INFO : popup Header New Project Details
+2025-08-20 14:37:16 [main] INFO : Expected :New Project Details and Actual :New Project Details
+2025-08-20 14:37:16 [main] INFO : Expected :New Project Details and Actual :New Project Details both are same
+2025-08-20 14:37:18 [main] INFO : Cancel Button Available
+2025-08-20 14:37:18 [main] INFO : Save Button Available
+2025-08-20 14:37:19 [main] INFO : Download CSV File Format 
+2025-08-20 14:37:24 [main] INFO : Download PDF File Format 
+2025-08-20 14:37:31 [main] INFO : Selecting Pagination 5
+2025-08-20 14:37:31 [main] INFO : 5 pagination Option Selected
+2025-08-20 14:37:31 [main] INFO : Selecting Pagination 50
+2025-08-20 14:37:31 [main] INFO : 50 pagination Option Selected
+2025-08-20 14:37:31 [main] INFO : Selecting Pagination 100
+2025-08-20 14:37:32 [main] INFO : 100 pagination Option Selected
+2025-08-20 14:37:33 [main] INFO : Verify Edit button
+2025-08-20 14:37:33 [main] INFO : edit Button is Available
+2025-08-20 14:37:33 [main] INFO : Verify Delete button
+2025-08-20 14:37:33 [main] INFO : delete Button is Available
+2025-08-20 14:37:33 [main] INFO : Verify Send button
+2025-08-20 14:37:33 [main] INFO : send Button is Available
+2025-08-20 14:37:34 [main] INFO : Column Options is valid Header value
+2025-08-20 14:37:34 [main] INFO : Cancel Button Available
+2025-08-20 14:37:34 [main] INFO : OK Button Available
+2025-08-20 14:37:34 [main] INFO : Verifying Project Name Column Option
+2025-08-20 14:37:34 [main] INFO : Column Option visibility is Hide 
+2025-08-20 14:37:35 [main] INFO : Column Option visibility is View 
+2025-08-20 14:37:37 [main] INFO : Verifying Practice Name Column Option
+2025-08-20 14:37:38 [main] INFO : Column Option visibility is Hide 
+2025-08-20 14:37:39 [main] INFO : Column Option visibility is View 
+2025-08-20 14:37:41 [main] INFO : Verifying CSAT Column Option
+2025-08-20 14:37:41 [main] INFO : Column Option visibility is Hide 
+2025-08-20 14:37:43 [main] INFO : Column Option visibility is View 
+2025-08-20 14:37:46 [main] INFO : All Statuses Status Option Selected
+2025-08-20 14:37:46 [main] INFO : Selecting Pipeline Status Option
+2025-08-20 14:37:47 [main] INFO : Pipeline Status Option Selected
+2025-08-20 14:37:47 [main] INFO : Expected :Pipeline and Actual :Pipeline both are same
+2025-08-20 14:37:47 [main] INFO : Selecting Completed Status Option
+2025-08-20 14:37:47 [main] INFO : Completed Status Option Selected
+2025-08-20 14:37:47 [main] INFO : Expected :Completed and Actual :Completed both are same
+2025-08-20 14:37:48 [main] INFO : Selecting In Progress Status Option
+2025-08-20 14:37:48 [main] INFO : In Progress Status Option Selected
+2025-08-20 14:37:48 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-08-20 14:37:49 [main] INFO : Survey Response Status survey Response Option Selected
+2025-08-20 14:37:50 [main] INFO : Selecting Not Received Survey response Option
+2025-08-20 14:37:53 [main] INFO : Not Received survey Response Option Selected
+2025-08-20 14:37:54 [main] INFO : Expected :No and Actual :No both are same
+2025-08-20 14:37:54 [main] INFO : Selecting Received Survey response Option
+2025-08-20 14:37:57 [main] INFO : Received survey Response Option Selected
+2025-08-20 14:37:58 [main] INFO : Expected :Yes and Actual :Yes both are same
+2025-08-20 14:37:59 [main] INFO : Survey Projects Project Option Selected
+2025-08-20 14:37:59 [main] INFO : Selecting Ruddr Projects Project Option
+2025-08-20 14:38:05 [main] INFO : Ruddr Projects Project Option Selected
+2025-08-20 14:38:07 [main] INFO : Expected :Ruddr and Actual :Ruddr both are same
+2025-08-20 14:38:15 [main] INFO : All Practices Practice Option Selected
+2025-08-20 14:38:17 [main] INFO : Selecting ERP Applications Practice Option
+2025-08-20 14:38:17 [main] INFO : ERP Applications Practice Option Selected
+2025-08-20 14:38:17 [main] INFO : Expected :ERP Applications and Actual :ERP Applications both are same
+2025-08-20 14:38:17 [main] INFO : Selecting Product Engineering Services Practice Option
+2025-08-20 14:38:17 [main] INFO : Product Engineering Services Practice Option Selected
+2025-08-20 14:38:17 [main] INFO : Expected :Product Engineering Services and Actual :Product Engineering Services both are same
+2025-08-20 14:38:18 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-08-20 14:38:18 [main] INFO : Selecting 60 Days Ending Days Option
+2025-08-20 14:38:18 [main] INFO : 60 Days Ending Days Option Selected
+2025-08-20 14:38:19 [main] INFO : Selecting 7 Days Ending Days Option
+2025-08-20 14:38:19 [main] INFO : 7 Days Ending Days Option Selected
+2025-08-20 14:38:21 [main] INFO : Selecting In Progress Status Option
+2025-08-20 14:38:21 [main] INFO : In Progress Status Option Selected
+2025-08-20 14:38:21 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-08-20 14:38:24 [main] INFO : Selecting Not Received Survey response Option
+2025-08-20 14:38:26 [main] INFO : Not Received survey Response Option Selected
+2025-08-20 14:39:27 [main] ERROR:  Surevy Respinse Filter not Available
+2025-08-20 14:39:28 [main] INFO : Menu Collapsed
+2025-08-20 14:39:29 [main] INFO : Verify keeping mandatory Fields empty 
+2025-08-20 14:39:30 [main] INFO : Save Button is Disabled
+2025-08-20 14:39:32 [main] INFO : Verify Keeping One mandatory field Empty in add Project
+2025-08-20 14:39:33 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-08-20 14:39:33 [main] INFO : Entering Project Practice: Data Science and AI
+2025-08-20 14:39:34 [main] INFO : Entering Project Status: Pipeline
+2025-08-20 14:39:35 [main] INFO : Entering Project Type: Development
+2025-08-20 14:39:36 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-08-20 14:39:38 [main] INFO : Entering Customer Name: Phani Maddi
+2025-08-20 14:39:40 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-08-20 14:39:45 [main] INFO : Save Button is Disabled
+2025-08-20 14:39:48 [main] INFO : Verify adding invalid characters in project name Test
+2025-08-20 14:39:48 [main] INFO : Entering Project Name: #$%^&*
+2025-08-20 14:39:48 [main] INFO : Verify the error message 
+2025-08-20 14:40:49 [main] ERROR: project Name not available
+2025-08-20 14:40:51 [main] INFO : Verify adding only Space character in project name Test
+2025-08-20 14:40:52 [main] INFO : Entering Project Name Only Spaces :    
+2025-08-20 14:40:52 [main] INFO : Verify the error message 
+2025-08-20 14:40:52 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-08-20 14:40:54 [main] INFO : Verify Adding Invalid customer name
+2025-08-20 14:40:55 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-08-20 14:40:57 [main] INFO : Entering Customer Name: #$%^&*
+2025-08-20 14:40:58 [main] INFO : Customer Name Error :Full Name can only contain letters, numbers, spaces, hyphens, or underscores.
+2025-08-20 14:41:00 [main] INFO : Verify Adding only spaces in customer name
+2025-08-20 14:41:01 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-08-20 14:41:04 [main] INFO : Entering Customer Name only spaces:     
+2025-08-20 14:41:05 [main] INFO : Customer Name Error :Full Name cannot be empty.
+2025-08-20 14:42:07 [main] INFO : Verify Adding Invalid customer email format
+2025-08-20 14:42:08 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-08-20 14:42:11 [main] INFO : Entering Customer Name: Phani Maddi
+2025-08-20 14:42:13 [main] INFO : Entering Customer Email: Phani Maddi
+2025-08-20 14:42:14 [main] INFO : Customer Email Error :Please enter a valid email address (e.g., user@example.com).
+2025-08-20 14:42:16 [main] INFO : Verify Adding existing project name
+2025-08-20 14:42:17 [main] INFO : Entering Project Name: CSAT Test Project
+2025-08-20 14:42:17 [main] INFO : Verify the error message 
+2025-08-20 14:42:58 [main] INFO : Project name can't be empty.
+2025-08-20 14:43:00 [main] INFO : Verify Entering Invalid Characters in Description Field
+2025-08-20 14:43:02 [main] INFO : Description Error: Special characters (e.g., !@#$%^&*()) are not allowed in the project description.
+2025-08-20 14:43:04 [main] INFO : Verify Entering End Date previous than Start date
+2025-08-20 14:43:05 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-08-20 14:43:06 [main] INFO : Entering Project Practice: Data Science and AI
+2025-08-20 14:43:07 [main] INFO : Entering Project Status: Pipeline
+2025-08-20 14:43:43 [main] INFO : Launching Chrome Browser
+2025-08-20 14:43:43 [main] INFO : Report Name :CSATProject_PageReport.html
+2025-08-20 14:43:50 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 14:43:50 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 14:43:50 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 14:44:14 [main] INFO : Logged in to CSAT Application
+2025-08-20 14:44:15 [main] INFO : Inside Test class 
+2025-08-20 14:44:15 [main] INFO : Logo is Available CSAT Logo
+2025-08-20 14:44:15 [main] ERROR: Profile Name is not Valid: Phani Kumar Maddi
+2025-08-20 14:44:17 [main] INFO : Menu Collapsed
+2025-08-20 14:44:23 [main] INFO : Inside /surveys Page 
+2025-08-20 14:44:23 [main] INFO : /surveys Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveys
+2025-08-20 14:44:31 [main] INFO : Inside /roles Page 
+2025-08-20 14:44:31 [main] INFO : /roles Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/roles
+2025-08-20 14:44:38 [main] INFO : Inside /reports Page 
+2025-08-20 14:44:38 [main] INFO : /reports Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/reports
+2025-08-20 14:44:46 [main] INFO : Inside /settings/org-members Page 
+2025-08-20 14:44:46 [main] INFO : /settings/org-members Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/org-members
+2025-08-20 14:44:53 [main] INFO : Inside /profile Page 
+2025-08-20 14:44:53 [main] INFO : /profile Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/profile
+2025-08-20 14:44:55 [main] INFO : Menu Expanded
+2025-08-20 14:45:04 [main] INFO : Inside /settings/teams Page 
+2025-08-20 14:45:04 [main] INFO : /settings/teams Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/settings/teams
+2025-08-20 14:45:13 [main] INFO : Inside /projects Page 
+2025-08-20 14:45:13 [main] INFO : /projects Url is Valid :https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/projects
+2025-08-20 14:45:16 [main] INFO : Menu Collapsed
+2025-08-20 14:45:17 [main] INFO : Header is Valid: Projects
+2025-08-20 14:45:20 [main] INFO : Popup Header: Surveys Sent
+2025-08-20 14:45:21 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-08-20 14:45:21 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-08-20 14:45:23 [main] INFO : Cancel Button Available
+2025-08-20 14:45:23 [main] INFO : Cancel Button is Enabled
+2025-08-20 14:45:23 [main] INFO : Share Button Available
+2025-08-20 14:45:23 [main] INFO : Share Button is Enabled
+2025-08-20 14:45:26 [main] INFO : Popup Header: At Risk Surveys
+2025-08-20 14:45:27 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-08-20 14:45:27 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-08-20 14:45:29 [main] INFO : Cancel Button Available
+2025-08-20 14:45:29 [main] INFO : Export Button Available
+2025-08-20 14:45:29 [main] INFO : Cancel Button is Enabled
+2025-08-20 14:45:29 [main] INFO : Export Button is Enabled
+2025-08-20 14:45:32 [main] INFO : Popup Header: Completed Surveys
+2025-08-20 14:45:33 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-08-20 14:45:33 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-08-20 14:45:35 [main] INFO : Cancel Button Available
+2025-08-20 14:45:35 [main] INFO : Export Button Available
+2025-08-20 14:45:35 [main] INFO : Cancel Button is Enabled
+2025-08-20 14:45:35 [main] INFO : Export Button is Enabled
+2025-08-20 14:45:37 [main] INFO : Popup Header: CSAT Summary
+2025-08-20 14:45:38 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-08-20 14:45:38 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-08-20 14:45:41 [main] INFO : Cancel Button Available
+2025-08-20 14:45:41 [main] INFO : Export Button Available
+2025-08-20 14:45:41 [main] INFO : Cancel Button is Enabled
+2025-08-20 14:45:41 [main] INFO : Export Button is Enabled
+2025-08-20 14:45:42 [main] INFO : popup Header New Project Details
+2025-08-20 14:45:42 [main] INFO : Expected :New Project Details and Actual :New Project Details
+2025-08-20 14:45:42 [main] INFO : Expected :New Project Details and Actual :New Project Details both are same
+2025-08-20 14:45:45 [main] INFO : Cancel Button Available
+2025-08-20 14:45:45 [main] INFO : Save Button Available
+2025-08-20 14:45:45 [main] INFO : Download CSV File Format 
+2025-08-20 14:45:51 [main] INFO : Download PDF File Format 
+2025-08-20 14:45:57 [main] INFO : Selecting Pagination 5
+2025-08-20 14:45:57 [main] INFO : 5 pagination Option Selected
+2025-08-20 14:45:57 [main] INFO : Selecting Pagination 50
+2025-08-20 14:45:57 [main] INFO : 50 pagination Option Selected
+2025-08-20 14:45:57 [main] INFO : Selecting Pagination 100
+2025-08-20 14:45:57 [main] INFO : 100 pagination Option Selected
+2025-08-20 14:45:58 [main] INFO : Verify Edit button
+2025-08-20 14:45:58 [main] INFO : edit Button is Available
+2025-08-20 14:45:58 [main] INFO : Verify Delete button
+2025-08-20 14:45:58 [main] INFO : delete Button is Available
+2025-08-20 14:45:58 [main] INFO : Verify Send button
+2025-08-20 14:45:58 [main] INFO : send Button is Available
+2025-08-20 14:45:59 [main] INFO : Column Options is valid Header value
+2025-08-20 14:45:59 [main] INFO : Cancel Button Available
+2025-08-20 14:45:59 [main] INFO : OK Button Available
+2025-08-20 14:45:59 [main] INFO : Verifying Project Name Column Option
+2025-08-20 14:45:59 [main] INFO : Column Option visibility is Hide 
+2025-08-20 14:46:01 [main] INFO : Column Option visibility is View 
+2025-08-20 14:46:02 [main] INFO : Verifying Practice Name Column Option
+2025-08-20 14:46:02 [main] INFO : Column Option visibility is Hide 
+2025-08-20 14:46:04 [main] INFO : Column Option visibility is View 
+2025-08-20 14:46:05 [main] INFO : Verifying CSAT Column Option
+2025-08-20 14:46:05 [main] INFO : Column Option visibility is Hide 
+2025-08-20 14:46:07 [main] INFO : Column Option visibility is View 
+2025-08-20 14:46:10 [main] INFO : All Statuses Status Option Selected
+2025-08-20 14:46:10 [main] INFO : Selecting Pipeline Status Option
+2025-08-20 14:46:11 [main] INFO : Pipeline Status Option Selected
+2025-08-20 14:46:11 [main] INFO : Expected :Pipeline and Actual :Pipeline both are same
+2025-08-20 14:46:11 [main] INFO : Selecting Completed Status Option
+2025-08-20 14:46:11 [main] INFO : Completed Status Option Selected
+2025-08-20 14:46:11 [main] INFO : Expected :Completed and Actual :Completed both are same
+2025-08-20 14:46:11 [main] INFO : Selecting In Progress Status Option
+2025-08-20 14:46:11 [main] INFO : In Progress Status Option Selected
+2025-08-20 14:46:11 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-08-20 14:46:13 [main] INFO : Survey Response Status survey Response Option Selected
+2025-08-20 14:46:13 [main] INFO : Selecting Not Received Survey response Option
+2025-08-20 14:46:16 [main] INFO : Not Received survey Response Option Selected
+2025-08-20 14:46:17 [main] INFO : Expected :No and Actual :No both are same
+2025-08-20 14:46:18 [main] INFO : Selecting Received Survey response Option
+2025-08-20 14:46:20 [main] INFO : Received survey Response Option Selected
+2025-08-20 14:46:21 [main] INFO : Expected :Yes and Actual :Yes both are same
+2025-08-20 14:46:23 [main] INFO : Survey Projects Project Option Selected
+2025-08-20 14:46:23 [main] INFO : Selecting Ruddr Projects Project Option
+2025-08-20 14:46:28 [main] INFO : Ruddr Projects Project Option Selected
+2025-08-20 14:46:28 [main] INFO : Expected :Ruddr and Actual :Ruddr both are same
+2025-08-20 14:46:35 [main] INFO : All Practices Practice Option Selected
+2025-08-20 14:46:37 [main] INFO : Selecting ERP Applications Practice Option
+2025-08-20 14:46:37 [main] INFO : ERP Applications Practice Option Selected
+2025-08-20 14:46:37 [main] INFO : Expected :ERP Applications and Actual :ERP Applications both are same
+2025-08-20 14:46:37 [main] INFO : Selecting Product Engineering Services Practice Option
+2025-08-20 14:46:37 [main] INFO : Product Engineering Services Practice Option Selected
+2025-08-20 14:46:37 [main] INFO : Expected :Product Engineering Services and Actual :Product Engineering Services both are same
+2025-08-20 14:46:38 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-08-20 14:46:38 [main] INFO : Selecting 60 Days Ending Days Option
+2025-08-20 14:46:38 [main] INFO : 60 Days Ending Days Option Selected
+2025-08-20 14:46:39 [main] INFO : Selecting 7 Days Ending Days Option
+2025-08-20 14:46:39 [main] INFO : 7 Days Ending Days Option Selected
+2025-08-20 14:46:41 [main] INFO : Selecting In Progress Status Option
+2025-08-20 14:46:41 [main] INFO : In Progress Status Option Selected
+2025-08-20 14:46:41 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-08-20 14:46:43 [main] INFO : Selecting Not Received Survey response Option
+2025-08-20 14:46:46 [main] INFO : Not Received survey Response Option Selected
+2025-08-20 14:47:47 [main] ERROR:  Survey Response Filter not Available
+2025-08-20 14:47:48 [main] INFO : Menu Collapsed
+2025-08-20 14:47:49 [main] INFO : Verify keeping mandatory Fields empty 
+2025-08-20 14:47:50 [main] INFO : Save Button is Disabled
+2025-08-20 14:47:52 [main] INFO : Verify Keeping One mandatory field Empty in add Project
+2025-08-20 14:47:53 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-08-20 14:47:53 [main] INFO : Entering Project Practice: Data Science and AI
+2025-08-20 14:47:54 [main] INFO : Entering Project Status: Pipeline
+2025-08-20 14:47:55 [main] INFO : Entering Project Type: Development
+2025-08-20 14:47:56 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-08-20 14:47:58 [main] INFO : Entering Customer Name: Phani Maddi
+2025-08-20 14:48:00 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-08-20 14:48:05 [main] INFO : Save Button is Disabled
+2025-08-20 14:48:08 [main] INFO : Verify adding invalid characters in project name Test
+2025-08-20 14:48:08 [main] INFO : Entering Project Name: #$%^&*
+2025-08-20 14:48:08 [main] INFO : Verify the error message 
+2025-08-20 14:48:40 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-08-20 14:48:42 [main] INFO : Verify adding only Space character in project name Test
+2025-08-20 14:48:43 [main] INFO : Entering Project Name Only Spaces :    
+2025-08-20 14:48:43 [main] INFO : Verify the error message 
+2025-08-20 14:48:43 [main] INFO : Project name can't be empty.
+2025-08-20 14:48:45 [main] INFO : Verify Adding Invalid customer name
+2025-08-20 14:48:46 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-08-20 14:48:48 [main] INFO : Entering Customer Name: #$%^&*
+2025-08-20 14:48:48 [main] INFO : Customer Name Error :Full Name can only contain letters, numbers, spaces, hyphens, or underscores.
+2025-08-20 14:48:51 [main] INFO : Verify Adding only spaces in customer name
+2025-08-20 14:48:52 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-08-20 14:48:55 [main] INFO : Entering Customer Name only spaces:     
+2025-08-20 14:48:55 [main] INFO : Customer Name Error :Full Name cannot be empty.
+2025-08-20 14:49:58 [main] INFO : Verify Adding Invalid customer email format
+2025-08-20 14:49:58 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-08-20 14:50:02 [main] INFO : Entering Customer Name: Phani Maddi
+2025-08-20 14:50:03 [main] INFO : Entering Customer Email: Phani Maddi
+2025-08-20 14:50:04 [main] INFO : Customer Email Error :Please enter a valid email address (e.g., user@example.com).
+2025-08-20 14:50:06 [main] INFO : Verify Adding existing project name
+2025-08-20 14:50:07 [main] INFO : Entering Project Name: CSAT Test Project
+2025-08-20 14:50:07 [main] INFO : Verify the error message 
+2025-08-20 14:50:11 [main] INFO : A project with this name already exists.
+2025-08-20 14:50:13 [main] INFO : Verify Entering Invalid Characters in Description Field
+2025-08-20 14:50:15 [main] INFO : Description Error: Special characters (e.g., !@#$%^&*()) are not allowed in the project description.
+2025-08-20 14:50:18 [main] INFO : Verify Entering End Date previous than Start date
+2025-08-20 14:50:19 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-08-20 14:50:19 [main] INFO : Entering Project Practice: Data Science and AI
+2025-08-20 14:50:20 [main] INFO : Entering Project Status: Pipeline
+2025-08-20 14:50:21 [main] INFO : Entering Project Type: Development
+2025-08-20 14:50:36 [main] INFO : End Date Error: End date must be greater than start date.
+2025-08-20 14:50:39 [main] INFO : Verify Creating a new Project
+2025-08-20 14:50:40 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-08-20 14:50:41 [main] INFO : Entering Project Practice: Data Science and AI
+2025-08-20 14:50:42 [main] INFO : Entering Project Status: Pipeline
+2025-08-20 14:50:42 [main] INFO : Entering Project Type: Development
+2025-08-20 14:50:58 [main] INFO : Entered Project Start Date: 2025-08-20
+2025-08-20 14:50:58 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-20 14:50:59 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-08-20 14:51:01 [main] INFO : Entering Customer Name: Phani Maddi
+2025-08-20 14:51:03 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-08-20 14:51:06 [main] INFO : Save Project
+2025-08-20 14:51:51 [main] INFO : Launching Chrome Browser
+2025-08-20 14:51:51 [main] INFO : Report Name :CsatPage.html
+2025-08-20 14:51:58 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 14:51:58 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 14:51:58 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 14:52:24 [main] INFO : Logged in to CSAT Application
+2025-08-20 14:52:25 [main] INFO : Menu Collapsed
+2025-08-20 14:52:26 [main] INFO : Header is Valid: Projects
+2025-08-20 14:52:29 [main] INFO : Popup Header: Surveys Sent
+2025-08-20 14:52:30 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent
+2025-08-20 14:52:30 [main] INFO : Expected :Surveys Sent and Actual :Surveys Sent both are same
+2025-08-20 14:52:32 [main] INFO : Cancel Button Available
+2025-08-20 14:52:32 [main] INFO : Cancel Button is Enabled
+2025-08-20 14:52:32 [main] INFO : Share Button Available
+2025-08-20 14:52:32 [main] INFO : Share Button is Enabled
+2025-08-20 14:52:35 [main] INFO : Popup Header: At Risk Surveys
+2025-08-20 14:52:36 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys
+2025-08-20 14:52:36 [main] INFO : Expected :At Risk Surveys and Actual :At Risk Surveys both are same
+2025-08-20 14:52:38 [main] INFO : Cancel Button Available
+2025-08-20 14:52:38 [main] INFO : Export Button Available
+2025-08-20 14:52:38 [main] INFO : Cancel Button is Enabled
+2025-08-20 14:52:38 [main] INFO : Export Button is Enabled
+2025-08-20 14:52:40 [main] INFO : Popup Header: Completed Surveys
+2025-08-20 14:52:41 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys
+2025-08-20 14:52:41 [main] INFO : Expected :Completed Surveys and Actual :Completed Surveys both are same
+2025-08-20 14:52:44 [main] INFO : Cancel Button Available
+2025-08-20 14:52:44 [main] INFO : Export Button Available
+2025-08-20 14:52:44 [main] INFO : Cancel Button is Enabled
+2025-08-20 14:52:44 [main] INFO : Export Button is Enabled
+2025-08-20 14:52:46 [main] INFO : Popup Header: CSAT Summary
+2025-08-20 14:52:47 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary
+2025-08-20 14:52:47 [main] INFO : Expected :CSAT Summary and Actual :CSAT Summary both are same
+2025-08-20 14:52:49 [main] INFO : Cancel Button Available
+2025-08-20 14:52:49 [main] INFO : Export Button Available
+2025-08-20 14:52:49 [main] INFO : Cancel Button is Enabled
+2025-08-20 14:52:49 [main] INFO : Export Button is Enabled
+2025-08-20 14:52:51 [main] INFO : popup Header New Project Details
+2025-08-20 14:52:51 [main] INFO : Expected :New Project Details and Actual :New Project Details
+2025-08-20 14:52:51 [main] INFO : Expected :New Project Details and Actual :New Project Details both are same
+2025-08-20 14:52:54 [main] INFO : Cancel Button Available
+2025-08-20 14:52:54 [main] INFO : Save Button Available
+2025-08-20 14:52:54 [main] INFO : Download CSV File Format 
+2025-08-20 14:53:00 [main] INFO : Download PDF File Format 
+2025-08-20 14:53:06 [main] INFO : Selecting Pagination 5
+2025-08-20 14:53:06 [main] INFO : 5 pagination Option Selected
+2025-08-20 14:53:06 [main] INFO : Selecting Pagination 50
+2025-08-20 14:53:06 [main] INFO : 50 pagination Option Selected
+2025-08-20 14:53:06 [main] INFO : Selecting Pagination 100
+2025-08-20 14:53:07 [main] INFO : 100 pagination Option Selected
+2025-08-20 14:53:08 [main] INFO : Verify Edit button
+2025-08-20 14:53:08 [main] INFO : edit Button is Available
+2025-08-20 14:53:08 [main] INFO : Verify Delete button
+2025-08-20 14:53:08 [main] INFO : delete Button is Available
+2025-08-20 14:53:08 [main] INFO : Verify Send button
+2025-08-20 14:53:08 [main] INFO : send Button is Available
+2025-08-20 14:53:09 [main] INFO : Column Options is valid Header value
+2025-08-20 14:53:09 [main] INFO : Cancel Button Available
+2025-08-20 14:53:09 [main] INFO : OK Button Available
+2025-08-20 14:53:09 [main] INFO : Verifying Project Name Column Option
+2025-08-20 14:53:09 [main] INFO : Column Option visibility is Hide 
+2025-08-20 14:53:10 [main] INFO : Column Option visibility is View 
+2025-08-20 14:53:12 [main] INFO : Verifying Practice Name Column Option
+2025-08-20 14:53:12 [main] INFO : Column Option visibility is Hide 
+2025-08-20 14:53:14 [main] INFO : Column Option visibility is View 
+2025-08-20 14:53:15 [main] INFO : Verifying CSAT Column Option
+2025-08-20 14:53:16 [main] INFO : Column Option visibility is Hide 
+2025-08-20 14:53:17 [main] INFO : Column Option visibility is View 
+2025-08-20 14:53:21 [main] INFO : All Statuses Status Option Selected
+2025-08-20 14:53:21 [main] INFO : Selecting Pipeline Status Option
+2025-08-20 14:53:21 [main] INFO : Pipeline Status Option Selected
+2025-08-20 14:53:21 [main] INFO : Expected :Pipeline and Actual :Pipeline both are same
+2025-08-20 14:53:21 [main] INFO : Selecting Completed Status Option
+2025-08-20 14:53:22 [main] INFO : Completed Status Option Selected
+2025-08-20 14:53:22 [main] INFO : Expected :Completed and Actual :Completed both are same
+2025-08-20 14:53:22 [main] INFO : Selecting In Progress Status Option
+2025-08-20 14:53:22 [main] INFO : In Progress Status Option Selected
+2025-08-20 14:53:22 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-08-20 14:53:26 [main] INFO : Survey Response Status survey Response Option Selected
+2025-08-20 14:53:26 [main] INFO : Selecting Not Received Survey response Option
+2025-08-20 14:53:29 [main] INFO : Not Received survey Response Option Selected
+2025-08-20 14:53:30 [main] INFO : Expected :No and Actual :No both are same
+2025-08-20 14:53:31 [main] INFO : Selecting Received Survey response Option
+2025-08-20 14:53:33 [main] INFO : Received survey Response Option Selected
+2025-08-20 14:53:34 [main] INFO : Expected :Yes and Actual :Yes both are same
+2025-08-20 14:53:36 [main] INFO : Survey Projects Project Option Selected
+2025-08-20 14:53:36 [main] INFO : Selecting Ruddr Projects Project Option
+2025-08-20 14:53:41 [main] INFO : Ruddr Projects Project Option Selected
+2025-08-20 14:53:41 [main] INFO : Expected :Ruddr and Actual :Ruddr both are same
+2025-08-20 14:53:48 [main] INFO : All Practices Practice Option Selected
+2025-08-20 14:53:50 [main] INFO : Selecting ERP Applications Practice Option
+2025-08-20 14:53:50 [main] INFO : ERP Applications Practice Option Selected
+2025-08-20 14:53:50 [main] INFO : Expected :ERP Applications and Actual :ERP Applications both are same
+2025-08-20 14:53:51 [main] INFO : Selecting Product Engineering Services Practice Option
+2025-08-20 14:53:51 [main] INFO : Product Engineering Services Practice Option Selected
+2025-08-20 14:53:51 [main] INFO : Expected :Product Engineering Services and Actual :Product Engineering Services both are same
+2025-08-20 14:53:52 [main] INFO : Projects Ending In Ending Days Option Selected
+2025-08-20 14:53:52 [main] INFO : Selecting 60 Days Ending Days Option
+2025-08-20 14:53:53 [main] INFO : 60 Days Ending Days Option Selected
+2025-08-20 14:53:53 [main] INFO : Selecting 7 Days Ending Days Option
+2025-08-20 14:53:53 [main] INFO : 7 Days Ending Days Option Selected
+2025-08-20 14:53:56 [main] INFO : Selecting In Progress Status Option
+2025-08-20 14:53:56 [main] INFO : In Progress Status Option Selected
+2025-08-20 14:53:56 [main] INFO : Expected :In Progress and Actual :In Progress both are same
+2025-08-20 14:53:58 [main] INFO : Selecting Not Received Survey response Option
+2025-08-20 14:54:01 [main] INFO : Not Received survey Response Option Selected
+2025-08-20 14:54:15 [main] ERROR: Expected and Actual are not same Expected [No ], but found [Yes]
+2025-08-20 14:54:16 [main] INFO : Menu Expanded
+2025-08-20 14:54:18 [main] INFO : Testing Ended
+2025-08-20 14:54:18 [main] INFO : ***********
+2025-08-20 14:56:54 [main] INFO : Launching Chrome Browser
+2025-08-20 14:56:54 [main] INFO : Report Name :CsatPage.html
+2025-08-20 14:57:00 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 14:57:00 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 14:57:00 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 14:57:26 [main] INFO : Logged in to CSAT Application
+2025-08-20 14:57:27 [main] INFO : Menu Collapsed
+2025-08-20 14:57:29 [main] INFO : Verify keeping mandatory Fields empty 
+2025-08-20 14:57:30 [main] INFO : Save Button is Disabled
+2025-08-20 14:57:32 [main] INFO : Verify Keeping One mandatory field Empty in add Project
+2025-08-20 14:57:33 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-08-20 14:57:34 [main] INFO : Entering Project Practice: Data Science and AI
+2025-08-20 14:57:35 [main] INFO : Entering Project Status: Pipeline
+2025-08-20 14:57:36 [main] INFO : Entering Project Type: Development
+2025-08-20 14:57:37 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-08-20 14:57:39 [main] INFO : Entering Customer Name: Phani Maddi
+2025-08-20 14:57:41 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-08-20 14:57:46 [main] INFO : Save Button is Disabled
+2025-08-20 14:57:48 [main] INFO : Verify adding invalid characters in project name Test
+2025-08-20 14:57:49 [main] INFO : Entering Project Name: #$%^&*
+2025-08-20 14:57:49 [main] INFO : Verify the error message 
+2025-08-20 14:57:49 [main] INFO : Special characters (e.g., !@#$%^&*()) are not allowed in the project name.
+2025-08-20 14:57:52 [main] INFO : Verify adding only Space character in project name Test
+2025-08-20 14:57:53 [main] INFO : Entering Project Name Only Spaces :    
+2025-08-20 14:57:53 [main] INFO : Verify the error message 
+2025-08-20 14:57:58 [main] INFO : Project name can't be empty.
+2025-08-20 14:58:00 [main] INFO : Verify Adding Invalid customer name
+2025-08-20 14:58:01 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-08-20 14:58:03 [main] INFO : Entering Customer Name: #$%^&*
+2025-08-20 14:58:03 [main] INFO : Customer Name Error :Full Name can only contain letters, numbers, spaces, hyphens, or underscores.
+2025-08-20 14:58:06 [main] INFO : Verify Adding only spaces in customer name
+2025-08-20 14:58:07 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-08-20 14:58:10 [main] INFO : Entering Customer Name only spaces:     
+2025-08-20 14:58:11 [main] INFO : Customer Name Error :Full Name cannot be empty.
+2025-08-20 14:59:13 [main] INFO : Verify Adding Invalid customer email format
+2025-08-20 14:59:14 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-08-20 14:59:18 [main] INFO : Entering Customer Name: Phani Maddi
+2025-08-20 14:59:19 [main] INFO : Entering Customer Email: Phani Maddi
+2025-08-20 14:59:20 [main] INFO : Customer Email Error :Please enter a valid email address (e.g., user@example.com).
+2025-08-20 14:59:22 [main] INFO : Verify Adding existing project name
+2025-08-20 14:59:23 [main] INFO : Entering Project Name: CSAT Test Project
+2025-08-20 14:59:23 [main] INFO : Verify the error message 
+2025-08-20 14:59:44 [main] INFO : A project with this name already exists.
+2025-08-20 14:59:45 [main] INFO : Verify Entering Invalid Characters in Description Field
+2025-08-20 14:59:47 [main] INFO : Description Error: Special characters (e.g., !@#$%^&*()) are not allowed in the project description.
+2025-08-20 14:59:50 [main] INFO : Verify Entering End Date previous than Start date
+2025-08-20 14:59:51 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-08-20 14:59:51 [main] INFO : Entering Project Practice: Data Science and AI
+2025-08-20 14:59:52 [main] INFO : Entering Project Status: Pipeline
+2025-08-20 14:59:53 [main] INFO : Entering Project Type: Development
+2025-08-20 15:00:08 [main] INFO : End Date Error: End date must be greater than start date.
+2025-08-20 15:00:11 [main] INFO : Verify Creating a new Project
+2025-08-20 15:00:12 [main] INFO : Entering Project Name: CSAT Project Automation
+2025-08-20 15:00:13 [main] INFO : Entering Project Practice: Data Science and AI
+2025-08-20 15:00:13 [main] INFO : Entering Project Status: Pipeline
+2025-08-20 15:00:14 [main] INFO : Entering Project Type: Development
+2025-08-20 15:00:29 [main] INFO : Entered Project Start Date: 2025-08-20
+2025-08-20 15:00:30 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-20 15:00:31 [main] INFO : Entering Project Description: For Automating The CSAT Application
+2025-08-20 15:00:33 [main] INFO : Entering Customer Name: Phani Maddi
+2025-08-20 15:00:35 [main] INFO : Entering Customer Email: phani.maddi@criticalriver.com
+2025-08-20 15:00:38 [main] INFO : Save Project
+2025-08-20 15:01:44 [main] INFO : Launching Chrome Browser
+2025-08-20 15:01:44 [main] INFO : Report Name :CSATSurveyReport.html
+2025-08-20 15:01:50 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 15:01:50 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 15:01:50 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 15:02:23 [main] INFO : Logged in to CSAT Application
+2025-08-20 15:02:25 [main] INFO : Validating the Header
+2025-08-20 15:02:26 [main] INFO : Header is Valid: Surveys
+2025-08-20 15:02:26 [main] INFO : Validating the Add New Survey Type Popup
+2025-08-20 15:02:29 [main] INFO : Header is Valid: Add Survey Type
+2025-08-20 15:02:30 [main] INFO : Cancel Button Available
+2025-08-20 15:02:30 [main] INFO : Save Button Available
+2025-08-20 15:02:31 [main] INFO : Validating the Add New Survey Popup
+2025-08-20 15:02:32 [main] INFO : Header is Valid: Add New Survey
+2025-08-20 15:02:32 [main] INFO : Cancel Button Available
+2025-08-20 15:02:33 [main] INFO : Save Button Available
+2025-08-20 15:02:34 [main] INFO : Validating the Survey Type Dropdown
+2025-08-20 15:02:34 [main] INFO : All Survey Types Dropdown is Available
+2025-08-20 15:02:35 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-08-20 15:02:38 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-08-20 15:02:40 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-08-20 15:02:42 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-08-20 15:02:45 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-08-20 15:02:47 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-08-20 15:02:51 [main] INFO : Survey Type Update Popup Test
+2025-08-20 15:02:52 [main] INFO : Header is Valid: Update Survey Type
+2025-08-20 15:02:52 [main] INFO : Cancel Button Available
+2025-08-20 15:02:52 [main] INFO : Update Button Available
+2025-08-20 15:02:56 [main] INFO : Column Options is valid Header value
+2025-08-20 15:02:56 [main] INFO : Cancel Button Available
+2025-08-20 15:02:56 [main] INFO : OK Button Available
+2025-08-20 15:02:56 [main] INFO : Verifying Start Date Column Option
+2025-08-20 15:02:56 [main] INFO : Column Option visibility is Hide 
+2025-08-20 15:02:57 [main] INFO : Column Option visibility is View 
+2025-08-20 15:02:59 [main] INFO : Verifying End Date Column Option
+2025-08-20 15:03:00 [main] INFO : Column Option visibility is Hide 
+2025-08-20 15:03:01 [main] INFO : Column Option visibility is View 
+2025-08-20 15:03:03 [main] INFO : Verifying Type Column Option
+2025-08-20 15:03:03 [main] INFO : Column Option visibility is Hide 
+2025-08-20 15:03:05 [main] INFO : Column Option visibility is View 
+2025-08-20 15:03:07 [main] INFO : Selecting Pagination 5
+2025-08-20 15:03:08 [main] INFO : 5 pagination Option Selected
+2025-08-20 15:03:09 [main] INFO : Selecting Pagination 15
+2025-08-20 15:03:09 [main] INFO : 15 pagination Option Selected
+2025-08-20 15:03:10 [main] INFO : Selecting Pagination 10
+2025-08-20 15:03:10 [main] INFO : 10 pagination Option Selected
+2025-08-20 15:03:11 [main] INFO : Download CSV File Format 
+2025-08-20 15:03:18 [main] INFO : Download PDF File Format 
+2025-08-20 15:03:24 [main] INFO : Search Survey
+2025-08-20 15:03:25 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-08-20 15:03:27 [main] INFO : Clicking Survey from Table
+2025-08-20 15:03:32 [main] INFO : Header is Valid: CR CSAT - Development Project
+2025-08-20 15:03:34 [main] INFO : Validating Edit Survey from Table
+2025-08-20 15:03:36 [main] INFO : Header is Valid: Edit Survey Details
+2025-08-20 15:03:38 [main] INFO : Cancel Button Available
+2025-08-20 15:03:38 [main] INFO : Save Button Available
+2025-08-20 15:03:40 [main] INFO : Entering invalid characters in type field
+2025-08-20 15:03:45 [main] INFO : Error Message :Survey type name cannot contain special characters.
+2025-08-20 15:03:50 [main] INFO : Entering spaces in type field
+2025-08-20 15:03:51 [main] INFO : Error Message :Survey type name is required
+2025-08-20 15:03:56 [main] INFO : Keeping description field blank
+2025-08-20 15:03:59 [main] INFO : Error Message :Failed to add survey type: Missing name or description
+2025-08-20 15:04:03 [main] INFO : Entering spaces in description field
+2025-08-20 15:04:06 [main] INFO : Error Message :Failed to add survey type: Missing name or description
+2025-08-20 15:04:10 [main] INFO : Creating New Survey Type Test
+2025-08-20 15:04:25 [main] INFO : Creating New Survey with Existing Survey Type Name Test
+2025-08-20 15:04:33 [main] INFO : Error Message :This survey type already exists.
+2025-08-20 15:04:40 [main] INFO : Editing invalid characters in type field for Edit Survey Type Test
+2025-08-20 15:04:43 [main] INFO : Error Message :Survey type name cannot contain special characters.
+2025-08-20 15:04:50 [main] INFO : Editing entering spaces in type field for Edit Survey Type Test
+2025-08-20 15:04:51 [main] INFO : Error Message :Survey type name is required
+2025-08-20 15:04:59 [main] INFO : Entering spaces in description field in Edit Survey Type Test
+2025-08-20 15:05:01 [main] INFO : Error Message :
+2025-08-20 15:05:09 [main] INFO : Updating the type and description in Edit Survey type Test
+2025-08-20 15:05:10 [main] INFO : Updating Type: Test Automation
+2025-08-20 15:05:10 [main] INFO : Updating Description: For Automating The CSAT Survey Module
+2025-08-20 15:05:19 [main] INFO : Deleting Existing Survey Type Test
+2025-08-20 15:05:23 [main] INFO : Entering invalid characters in Survey name field
+2025-08-20 15:05:30 [main] INFO : Entering invalid characters in Survey name field: #$%^&*
+2025-08-20 15:05:30 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-08-20 15:05:33 [main] INFO : Entering Only Spaces in Survey field
+2025-08-20 15:05:51 [main] INFO : Error Message :Survey Name cannot be empty or just spaces.
+2025-08-20 15:05:55 [main] INFO : Entering Existing name in Survey field
+2025-08-20 15:06:00 [main] INFO : Entering Existing Survey Name : CR CSAT - Development Project
+2025-08-20 15:06:00 [main] INFO :  Survey Name Error Messgae :Survey name already exists
+2025-08-20 15:06:04 [main] INFO : Verify Entering End Date previous than Start date in add survey
+2025-08-20 15:06:21 [main] INFO : Error Message :End Date cannot be earlier than Start Date.
+2025-08-20 15:06:25 [main] INFO : Verify Saving without adding weightage or Section in add survey
+2025-08-20 15:06:44 [main] INFO : Entered Project Start Date: 2025-08-20
+2025-08-20 15:06:45 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-20 15:06:46 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 0%
+2025-08-20 15:06:50 [main] INFO : Verify Saving with Section Name Invalid characters in add survey
+2025-08-20 15:07:11 [main] INFO : Error Message :Section name "#$%^&*" contains invalid characters.
+2025-08-20 15:07:14 [main] INFO : Verify Saving with Section Name only spaces in add survey
+2025-08-20 15:07:18 [main] INFO : Error Message :Section name cannot be empty or just spaces.
+2025-08-20 15:07:20 [main] INFO : Verify Saving with adding weightage less than 100 in add survey
+2025-08-20 15:07:26 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 10%
+2025-08-20 15:07:29 [main] INFO : Verify Saving with adding weightage greater than 100 in add survey
+2025-08-20 15:07:33 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 200%
+2025-08-20 15:07:36 [main] INFO : Verify Saving with Measure Name Invalid characters in add survey
+2025-08-20 15:07:42 [main] INFO : Error Message :Measure name "#$%^&*" contains invalid characters.
+2025-08-20 15:07:45 [main] INFO : Verify Saving with Measure Name only spaces in add survey
+2025-08-20 15:07:49 [main] INFO : Error Message :Measure name cannot be empty or just spaces.
+2025-08-20 15:07:52 [main] INFO : Verify Saving with Question Name only spaces in add survey
+2025-08-20 15:07:58 [main] INFO : Error Message :Question name cannot be empty or just spaces.
+2025-08-20 15:08:02 [main] INFO : Keeping Options as Blank in Add Survey
+2025-08-20 15:08:05 [main] INFO : Error Message :All options must have values filled in.
+2025-08-20 15:08:08 [main] INFO : Keeping Options Weightage as Blank in Add Survey
+2025-08-20 15:08:10 [main] INFO : Error Message :Checkbox option weightage must be a positive number.
+2025-08-20 15:08:14 [main] INFO : Adding only Section without adding Measure and Question in Add Survey
+2025-08-20 15:08:16 [main] INFO : Entered Survey name: CSAT Test Automation
+2025-08-20 15:08:19 [main] INFO : Entered Survey Type: CR CSAT - Resource (TOD)
+2025-08-20 15:08:34 [main] INFO : Entered Section Name: Delivery
+2025-08-20 15:08:35 [main] INFO : Entered Section Weightage: 100
+2025-08-20 15:08:38 [main] INFO : Error Message :At least one section must have one measure with one question.
+2025-08-20 15:08:44 [main] INFO : Adding Section and Measure without adding Question in Add Survey
+2025-08-20 15:08:50 [main] INFO : Entered Measure Name: Capabilities
+2025-08-20 15:08:54 [main] INFO : Error Message :At least one section must have one measure with one question.
+2025-08-20 15:08:59 [main] INFO : Creating Single Section, Measure,Question in Add Survey
+2025-08-20 15:09:02 [main] INFO : Entered Survey name: CSAT Test Automation
+2025-08-20 15:09:05 [main] INFO : Entered Survey Type: CR CSAT - Resource (TOD)
+2025-08-20 15:09:18 [main] INFO : Entered Project Start Date: 2025-08-20
+2025-08-20 15:09:18 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-20 15:09:22 [main] INFO : Entered Section Name: Delivery
+2025-08-20 15:09:22 [main] INFO : Entered Section Weightage: 100
+2025-08-20 15:09:24 [main] INFO : Entered Measure Name: Capabilities
+2025-08-20 15:09:26 [main] INFO : Entered Question Name: This is to test question 1
+2025-08-20 15:09:27 [main] INFO : Entered Options 1
+2025-08-20 15:09:29 [main] INFO : Entered Options 2
+2025-08-20 15:09:31 [main] INFO : Entered Options 3
+2025-08-20 15:09:42 [main] INFO : Created Survey is shown in table: CSAT Test Automation
+2025-08-20 15:09:43 [main] INFO : Creating Multiple Section, Measure,Question in Add Survey
+2025-08-20 15:09:46 [main] INFO : Entered Survey name: Test Automation Survey
+2025-08-20 15:09:49 [main] INFO : Entered Survey Type: CR CSAT - Development Project
+2025-08-20 15:10:01 [main] INFO : Entered Project Start Date: 2025-08-20
+2025-08-20 15:10:02 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-20 15:10:03 [main] INFO : ___Creating First Section___
+2025-08-20 15:10:05 [main] INFO : Entered Section Name: Delivery
+2025-08-20 15:10:06 [main] INFO : Entered Section Weightage: 50
+2025-08-20 15:10:08 [main] INFO : Entered Measure Name: Quality
+2025-08-20 15:10:10 [main] INFO : Entered Question Name: This is to test question 1
+2025-08-20 15:10:11 [main] INFO : Entered Options 1
+2025-08-20 15:10:13 [main] INFO : Entered Options 2
+2025-08-20 15:10:14 [main] INFO : Entered Options 3
+2025-08-20 15:10:17 [main] INFO : ___Creating Second Section___
+2025-08-20 15:10:20 [main] INFO : Entered Section Name: Accountability
+2025-08-20 15:10:21 [main] INFO : Entered Section Weightage: 20
+2025-08-20 15:10:22 [main] INFO : Entered Measure Name: Ownership
+2025-08-20 15:10:24 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-20 15:10:27 [main] INFO : Entered Options 1
+2025-08-20 15:10:28 [main] INFO : Entered Options 2
+2025-08-20 15:10:30 [main] INFO : Entered Options 3
+2025-08-20 15:10:35 [main] INFO : Entered Question Name: This is to test question 3
+2025-08-20 15:10:37 [main] INFO : Entered Options 1
+2025-08-20 15:10:39 [main] INFO : Entered Options 2
+2025-08-20 15:10:41 [main] INFO : Entered Options 3
+2025-08-20 15:10:43 [main] INFO : ___Creating Custom Section___
+2025-08-20 15:10:47 [main] INFO : Entered Section Name: Testing Section
+2025-08-20 15:10:48 [main] INFO : Entered Section Weightage: 30
+2025-08-20 15:10:51 [main] INFO : Entered Measure Name: Testing Measure
+2025-08-20 15:10:52 [main] INFO : Entered Question Name: This is to test question 4
+2025-08-20 15:10:54 [main] INFO : Entered Options 1
+2025-08-20 15:10:56 [main] INFO : Entered Options 2
+2025-08-20 15:10:57 [main] INFO : Entered Options 3
+2025-08-20 15:10:58 [main] INFO : Multiple Measure for Same Section
+2025-08-20 15:11:01 [main] INFO : Entered Measure Name: SLA
+2025-08-20 15:11:03 [main] INFO : Entered Question Name: Provide Competative rating
+2025-08-20 15:11:18 [main] INFO : Created Survey is shown in table: Test Automation Survey
+2025-08-20 15:11:19 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-20 15:11:30 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 10%
+2025-08-20 15:11:33 [main] INFO : Verify Saving with adding weightage greater than 100 in edit survey
+2025-08-20 15:11:36 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 200%
+2025-08-20 15:11:44 [main] INFO : Adding only Section without adding Measure and Question in Edit Survey
+2025-08-20 15:11:52 [main] INFO : Entered Section Name: Ownership
+2025-08-20 15:11:58 [main] ERROR: Test Failed :element click intercepted: Element <input placeholder="Enter weightage (Ex:50)" min="0" max="100" type="number" value=""> is not clickable at point (1255, 1020). Other element would receive the click: <div class="add-survey-modal" id="addsurvey">...</div>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6eb2c0f1f77cfb9537fc90c7107d65d3, clickElement {id=f.EF5563A70F0A883B7413B7444477A07E.d.392DE1C42EEA3F16A79F3A58BA5A980A.e.1488}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60949}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60949/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6eb2c0f1f77cfb9537fc90c7107d65d3)] -> xpath: //label[starts-with(text(),'Section Weight')]/following-sibling::input]
+Session ID: 6eb2c0f1f77cfb9537fc90c7107d65d3
+2025-08-20 15:11:59 [main] INFO : Entered Section Weightage: 50
+2025-08-20 15:12:01 [main] INFO : Error Message :Section "Ownership" must have at least one measure.
+2025-08-20 15:12:07 [main] INFO : Adding Section and Measure without adding Question in Edit Survey
+2025-08-20 15:12:13 [main] ERROR: Test Failed :element click intercepted: Element <input placeholder="Enter Measure Name(Ex:Schedule)" type="text" value=""> is not clickable at point (1255, 934). Other element would receive the click: <div class="add-survey-modal-footer">...</div>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6eb2c0f1f77cfb9537fc90c7107d65d3, clickElement {id=f.EF5563A70F0A883B7413B7444477A07E.d.392DE1C42EEA3F16A79F3A58BA5A980A.e.1501}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60949}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60949/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6eb2c0f1f77cfb9537fc90c7107d65d3)] -> xpath: //label[starts-with(text(),'Measure Name ')]/following-sibling::input]
+Session ID: 6eb2c0f1f77cfb9537fc90c7107d65d3
+2025-08-20 15:12:13 [main] INFO : Entered Measure Name: Quality
+2025-08-20 15:12:14 [main] INFO : Error Message :Measure name is required and cannot be just spaces.
+2025-08-20 15:12:18 [main] INFO : Keeping Options Weightage as Blank in edit Survey
+2025-08-20 15:12:22 [main] ERROR: Test Failed :element click intercepted: Element <button type="button" class="add-question-btn" title="..." style="border: none; background: none; color: blue; font-size: 16px; padding-bottom: 5px;">Add Question</button> is not clickable at point (820, 1060). Other element would receive the click: <div class="add-survey-modal-overlay">...</div>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6eb2c0f1f77cfb9537fc90c7107d65d3, clickElement {id=f.EF5563A70F0A883B7413B7444477A07E.d.392DE1C42EEA3F16A79F3A58BA5A980A.e.1507}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60949}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60949/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6eb2c0f1f77cfb9537fc90c7107d65d3)] -> xpath: //button[text()='Add Question']]
+Session ID: 6eb2c0f1f77cfb9537fc90c7107d65d3
+2025-08-20 15:15:25 [main] INFO : Launching Chrome Browser
+2025-08-20 15:15:26 [main] INFO : Report Name :CsatPage.html
+2025-08-20 15:15:32 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 15:15:32 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 15:15:32 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 15:15:56 [main] INFO : Logged in to CSAT Application
+2025-08-20 15:15:57 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-20 15:16:08 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 10%
+2025-08-20 15:16:11 [main] INFO : Verify Saving with adding weightage greater than 100 in edit survey
+2025-08-20 15:16:14 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 200%
+2025-08-20 15:16:22 [main] INFO : Adding only Section without adding Measure and Question in Edit Survey
+2025-08-20 15:16:30 [main] INFO : Entered Section Name: Ownership
+2025-08-20 15:16:37 [main] ERROR: Test Failed :element click intercepted: Element <input placeholder="Enter weightage (Ex:50)" min="0" max="100" type="number" value=""> is not clickable at point (1255, 1030). Other element would receive the click: <div class="add-survey-modal" id="addsurvey">...</div>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7257b10e51dd9faaa95c1bf3ef858377, clickElement {id=f.C18DB7F82CD5C56EA27BA5671A858300.d.68367E02D4903D153C53420F4EAA1932.e.560}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51392}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51392/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7257b10e51dd9faaa95c1bf3ef858377)] -> xpath: //label[starts-with(text(),'Section Weight')]/following-sibling::input]
+Session ID: 7257b10e51dd9faaa95c1bf3ef858377
+2025-08-20 15:16:37 [main] INFO : Entered Section Weightage: 50
+2025-08-20 15:16:40 [main] INFO : Error Message :Section "Ownership" must have at least one measure.
+2025-08-20 15:18:34 [main] INFO : Launching Chrome Browser
+2025-08-20 15:18:35 [main] INFO : Report Name :CsatPage.html
+2025-08-20 15:18:40 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 15:18:40 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 15:18:40 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 15:19:08 [main] INFO : Logged in to CSAT Application
+2025-08-20 15:19:09 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-20 15:19:21 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 10%
+2025-08-20 15:19:24 [main] INFO : Verify Saving with adding weightage greater than 100 in edit survey
+2025-08-20 15:19:27 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 200%
+2025-08-20 15:19:35 [main] INFO : Adding only Section without adding Measure and Question in Edit Survey
+2025-08-20 15:19:44 [main] INFO : Entered Section Name: Ownership
+2025-08-20 15:19:49 [main] ERROR: Test Failed :javascript error: arguments[0].scrollIntoView is not a function
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2e22cb9b974298de047e7584db1ee61, executeScript {script=arguments[0].scrollIntoView(true);, args=[[{element-6066-11e4-a52e-4f735466cecf=f.BFC51F2CF84A8611C900326378430EDF.d.D1F5F2DC8E9A3EA3AC3808F418D901C1.e.366}]]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61579}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61579/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2e22cb9b974298de047e7584db1ee61
+2025-08-20 15:19:50 [main] INFO : Entered Section Weightage: 50
+2025-08-20 15:19:52 [main] INFO : Error Message :Section "Ownership" must have at least one measure.
+2025-08-20 15:19:58 [main] INFO : Adding Section and Measure without adding Question in Edit Survey
+2025-08-20 15:20:03 [main] ERROR: Test Failed :javascript error: arguments[0].scrollIntoView is not a function
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2e22cb9b974298de047e7584db1ee61, executeScript {script=arguments[0].scrollIntoView(true);, args=[[{element-6066-11e4-a52e-4f735466cecf=f.BFC51F2CF84A8611C900326378430EDF.d.D1F5F2DC8E9A3EA3AC3808F418D901C1.e.380}]]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61579}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61579/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2e22cb9b974298de047e7584db1ee61
+2025-08-20 15:20:04 [main] INFO : Entered Measure Name: Quality
+2025-08-20 15:20:05 [main] INFO : Error Message :Measure name is required and cannot be just spaces.
+2025-08-20 15:20:08 [main] INFO : Keeping Options Weightage as Blank in edit Survey
+2025-08-20 15:20:11 [main] ERROR: Test Failed :javascript error: arguments[0].scrollIntoView is not a function
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2e22cb9b974298de047e7584db1ee61, executeScript {script=arguments[0].scrollIntoView(true);, args=[[{element-6066-11e4-a52e-4f735466cecf=f.BFC51F2CF84A8611C900326378430EDF.d.D1F5F2DC8E9A3EA3AC3808F418D901C1.e.386}]]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61579}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61579/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2e22cb9b974298de047e7584db1ee61
+2025-08-20 15:20:50 [main] INFO : Launching Chrome Browser
+2025-08-20 15:20:50 [main] INFO : Report Name :CsatPage.html
+2025-08-20 15:20:56 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 15:20:56 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 15:20:56 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 15:21:34 [main] INFO : Logged in to CSAT Application
+2025-08-20 15:21:35 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-20 15:21:46 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 10%
+2025-08-20 15:21:49 [main] INFO : Verify Saving with adding weightage greater than 100 in edit survey
+2025-08-20 15:21:52 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 200%
+2025-08-20 15:22:00 [main] INFO : Adding only Section without adding Measure and Question in Edit Survey
+2025-08-20 15:22:09 [main] INFO : Entered Section Name: Ownership
+2025-08-20 15:22:15 [main] INFO : Entered Section Weightage: 50
+2025-08-20 15:22:17 [main] INFO : Error Message :Section "Ownership" must have at least one measure.
+2025-08-20 15:22:24 [main] INFO : Adding Section and Measure without adding Question in Edit Survey
+2025-08-20 15:22:28 [main] ERROR: Test Failed :javascript error: arguments[0].scrollIntoView is not a function
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf32d4cb637e3a25c847de3584a7fd36, executeScript {script=arguments[0].scrollIntoView(true);, args=[[{element-6066-11e4-a52e-4f735466cecf=f.D51CE1F5077CEE6B119BDDF6E9A0100A.d.14E3CC8BE46387145A589E675EE55933.e.566}]]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53449}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53449/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cf32d4cb637e3a25c847de3584a7fd36
+2025-08-20 15:22:29 [main] INFO : Entered Measure Name: Quality
+2025-08-20 15:22:30 [main] INFO : Error Message :Measure name is required and cannot be just spaces.
+2025-08-20 15:22:33 [main] INFO : Keeping Options Weightage as Blank in edit Survey
+2025-08-20 15:22:36 [main] ERROR: Test Failed :javascript error: arguments[0].scrollIntoView is not a function
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf32d4cb637e3a25c847de3584a7fd36, executeScript {script=arguments[0].scrollIntoView(true);, args=[[{element-6066-11e4-a52e-4f735466cecf=f.D51CE1F5077CEE6B119BDDF6E9A0100A.d.14E3CC8BE46387145A589E675EE55933.e.572}]]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53449}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53449/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cf32d4cb637e3a25c847de3584a7fd36
+2025-08-20 15:23:51 [main] INFO : Launching Chrome Browser
+2025-08-20 15:23:52 [main] INFO : Report Name :CsatPage.html
+2025-08-20 15:23:58 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 15:23:58 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 15:23:58 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 15:24:22 [main] INFO : Logged in to CSAT Application
+2025-08-20 15:24:23 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-20 15:24:34 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 10%
+2025-08-20 15:24:37 [main] INFO : Verify Saving with adding weightage greater than 100 in edit survey
+2025-08-20 15:24:40 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 200%
+2025-08-20 15:24:48 [main] INFO : Adding only Section without adding Measure and Question in Edit Survey
+2025-08-20 15:24:56 [main] INFO : Entered Section Name: Ownership
+2025-08-20 15:25:03 [main] ERROR: Test Failed :element click intercepted: Element <input placeholder="Enter weightage (Ex:50)" min="0" max="100" type="number" value=""> is not clickable at point (1255, 1008). Other element would receive the click: <div class="add-survey-modal-footer">...</div>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [56fa5c893088a47f6a35e16268c9affa, clickElement {id=f.526558C976CA2509EECA05675F1160CC.d.474CE68D5D0DAA1DCDDB1A67D448CCFC.e.321}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62365}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62365/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (56fa5c893088a47f6a35e16268c9affa)] -> xpath: //label[starts-with(text(),'Section Weight')]/following-sibling::input]
+Session ID: 56fa5c893088a47f6a35e16268c9affa
+2025-08-20 15:25:04 [main] INFO : Entered Section Weightage: 50
+2025-08-20 15:25:06 [main] INFO : Error Message :Section "Ownership" must have at least one measure.
+2025-08-20 15:25:54 [main] INFO : Launching Chrome Browser
+2025-08-20 15:25:54 [main] INFO : Report Name :CSATSurveyReport.html
+2025-08-20 15:25:57 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 15:25:58 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 15:25:58 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 15:26:25 [main] INFO : Logged in to CSAT Application
+2025-08-20 15:26:27 [main] INFO : Validating the Header
+2025-08-20 15:26:27 [main] INFO : Header is Valid: Surveys
+2025-08-20 15:26:28 [main] INFO : Validating the Add New Survey Type Popup
+2025-08-20 15:26:31 [main] INFO : Header is Valid: Add Survey Type
+2025-08-20 15:26:32 [main] INFO : Cancel Button Available
+2025-08-20 15:26:32 [main] INFO : Save Button Available
+2025-08-20 15:26:33 [main] INFO : Validating the Add New Survey Popup
+2025-08-20 15:26:34 [main] INFO : Header is Valid: Add New Survey
+2025-08-20 15:26:34 [main] INFO : Cancel Button Available
+2025-08-20 15:26:34 [main] INFO : Save Button Available
+2025-08-20 15:26:36 [main] INFO : Validating the Survey Type Dropdown
+2025-08-20 15:26:36 [main] INFO : All Survey Types Dropdown is Available
+2025-08-20 15:26:37 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-08-20 15:26:39 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-08-20 15:26:41 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-08-20 15:26:44 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-08-20 15:26:46 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-08-20 15:26:48 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-08-20 15:26:51 [main] INFO : Survey Type Update Popup Test
+2025-08-20 15:26:52 [main] INFO : Header is Valid: Update Survey Type
+2025-08-20 15:26:53 [main] INFO : Cancel Button Available
+2025-08-20 15:26:53 [main] INFO : Update Button Available
+2025-08-20 15:26:55 [main] INFO : Column Options is valid Header value
+2025-08-20 15:26:55 [main] INFO : Cancel Button Available
+2025-08-20 15:26:55 [main] INFO : OK Button Available
+2025-08-20 15:26:55 [main] INFO : Verifying Start Date Column Option
+2025-08-20 15:26:55 [main] INFO : Column Option visibility is Hide 
+2025-08-20 15:26:57 [main] INFO : Column Option visibility is View 
+2025-08-20 15:26:58 [main] INFO : Verifying End Date Column Option
+2025-08-20 15:26:59 [main] INFO : Column Option visibility is Hide 
+2025-08-20 15:27:00 [main] INFO : Column Option visibility is View 
+2025-08-20 15:27:02 [main] INFO : Verifying Type Column Option
+2025-08-20 15:27:02 [main] INFO : Column Option visibility is Hide 
+2025-08-20 15:27:03 [main] INFO : Column Option visibility is View 
+2025-08-20 15:27:05 [main] INFO : Selecting Pagination 5
+2025-08-20 15:27:06 [main] INFO : 5 pagination Option Selected
+2025-08-20 15:27:06 [main] INFO : Selecting Pagination 15
+2025-08-20 15:27:07 [main] INFO : 15 pagination Option Selected
+2025-08-20 15:27:07 [main] INFO : Selecting Pagination 10
+2025-08-20 15:27:07 [main] INFO : 10 pagination Option Selected
+2025-08-20 15:27:09 [main] INFO : Download CSV File Format 
+2025-08-20 15:27:14 [main] INFO : Download PDF File Format 
+2025-08-20 15:27:20 [main] INFO : Search Survey
+2025-08-20 15:27:21 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-08-20 15:27:22 [main] INFO : Clicking Survey from Table
+2025-08-20 15:27:28 [main] INFO : Header is Valid: CR CSAT - Development Project
+2025-08-20 15:27:30 [main] INFO : Validating Edit Survey from Table
+2025-08-20 15:27:31 [main] INFO : Header is Valid: Edit Survey Details
+2025-08-20 15:27:35 [main] INFO : Cancel Button Available
+2025-08-20 15:27:35 [main] INFO : Save Button Available
+2025-08-20 15:27:37 [main] INFO : Entering invalid characters in type field
+2025-08-20 15:27:42 [main] INFO : Error Message :Survey type name cannot contain special characters.
+2025-08-20 15:27:46 [main] INFO : Entering spaces in type field
+2025-08-20 15:27:48 [main] INFO : Error Message :Survey type name is required
+2025-08-20 15:27:52 [main] INFO : Keeping description field blank
+2025-08-20 15:27:55 [main] INFO : Error Message :Failed to add survey type: Missing name or description
+2025-08-20 15:27:59 [main] INFO : Entering spaces in description field
+2025-08-20 15:28:02 [main] INFO : Error Message :Failed to add survey type: Missing name or description
+2025-08-20 15:28:07 [main] INFO : Creating New Survey Type Test
+2025-08-20 15:28:22 [main] INFO : Creating New Survey with Existing Survey Type Name Test
+2025-08-20 15:28:29 [main] INFO : Error Message :This survey type already exists.
+2025-08-20 15:28:36 [main] INFO : Editing invalid characters in type field for Edit Survey Type Test
+2025-08-20 15:28:39 [main] INFO : Error Message :Survey type name cannot contain special characters.
+2025-08-20 15:28:46 [main] INFO : Editing entering spaces in type field for Edit Survey Type Test
+2025-08-20 15:28:47 [main] INFO : Error Message :Survey type name is required
+2025-08-20 15:28:55 [main] INFO : Entering spaces in description field in Edit Survey Type Test
+2025-08-20 15:28:58 [main] INFO : Error Message :Description cannot be just spaces.
+2025-08-20 15:29:05 [main] INFO : Updating the type and description in Edit Survey type Test
+2025-08-20 15:29:06 [main] INFO : Updating Type: Test Automation
+2025-08-20 15:29:06 [main] INFO : Updating Description: For Automating The CSAT Survey Module
+2025-08-20 15:29:15 [main] INFO : Deleting Existing Survey Type Test
+2025-08-20 15:29:17 [main] ERROR: Test Failed :element click intercepted: Element <button class="text-red-600 hover:text-red-800" title="Delete" id="table-5">...</button> is not clickable at point (507, 380). Other element would receive the click: <div id="type1" style="display: flex; justify-content: space-between; width: 100%;">...</div>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [37b998f19a5ff4fff15642c356a12226, clickElement {id=f.D997BD45EB042874B6E7359480C0E84A.d.A2B0301F081223132A551B3703668DA5.e.692}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63197/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (37b998f19a5ff4fff15642c356a12226)] -> xpath: //li/div/span[text()='Test Automation']/following-sibling::div/button[@title='Delete']]
+Session ID: 37b998f19a5ff4fff15642c356a12226
+2025-08-20 15:30:03 [main] INFO : Launching Chrome Browser
+2025-08-20 15:30:03 [main] INFO : Report Name :CsatPage.html
+2025-08-20 15:30:07 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 15:30:07 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 15:30:07 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 15:30:32 [main] INFO : Logged in to CSAT Application
+2025-08-20 15:30:33 [main] INFO : Entering invalid characters in Survey name field
+2025-08-20 15:30:40 [main] INFO : Entering invalid characters in Survey name field: #$%^&*
+2025-08-20 15:30:40 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-08-20 15:30:43 [main] INFO : Entering Only Spaces in Survey field
+2025-08-20 15:31:01 [main] INFO : Error Message :Survey Name cannot be empty or just spaces.
+2025-08-20 15:31:05 [main] INFO : Entering Existing name in Survey field
+2025-08-20 15:31:11 [main] INFO : Entering Existing Survey Name : CR CSAT - Development Project
+2025-08-20 15:31:11 [main] INFO :  Survey Name Error Messgae :Survey name already exists
+2025-08-20 15:31:14 [main] INFO : Verify Entering End Date previous than Start date in add survey
+2025-08-20 15:31:32 [main] INFO : Error Message :End Date cannot be earlier than Start Date.
+2025-08-20 15:31:36 [main] INFO : Verify Saving without adding weightage or Section in add survey
+2025-08-20 15:31:54 [main] INFO : Entered Project Start Date: 2025-08-20
+2025-08-20 15:31:55 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-20 15:31:56 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 0%
+2025-08-20 15:32:00 [main] INFO : Verify Saving with Section Name Invalid characters in add survey
+2025-08-20 15:32:21 [main] INFO : Error Message :Section name "#$%^&*" contains invalid characters.
+2025-08-20 15:32:24 [main] INFO : Verify Saving with Section Name only spaces in add survey
+2025-08-20 15:32:28 [main] INFO : Error Message :Section name cannot be empty or just spaces.
+2025-08-20 15:32:31 [main] INFO : Verify Saving with adding weightage less than 100 in add survey
+2025-08-20 15:32:37 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 10%
+2025-08-20 15:32:39 [main] INFO : Verify Saving with adding weightage greater than 100 in add survey
+2025-08-20 15:32:43 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 200%
+2025-08-20 15:32:46 [main] INFO : Verify Saving with Measure Name Invalid characters in add survey
+2025-08-20 15:32:53 [main] INFO : Error Message :Measure name "#$%^&*" contains invalid characters.
+2025-08-20 15:32:55 [main] INFO : Verify Saving with Measure Name only spaces in add survey
+2025-08-20 15:32:59 [main] INFO : Error Message :Measure name cannot be empty or just spaces.
+2025-08-20 15:33:02 [main] INFO : Verify Saving with Question Name only spaces in add survey
+2025-08-20 15:33:09 [main] INFO : Error Message :Question name cannot be empty or just spaces.
+2025-08-20 15:33:12 [main] INFO : Keeping Options as Blank in Add Survey
+2025-08-20 15:33:16 [main] INFO : Error Message :All options must have values filled in.
+2025-08-20 15:33:19 [main] INFO : Keeping Options Weightage as Blank in Add Survey
+2025-08-20 15:33:21 [main] INFO : Error Message :Checkbox option weightage must be a positive number.
+2025-08-20 15:33:24 [main] INFO : Adding only Section without adding Measure and Question in Add Survey
+2025-08-20 15:33:27 [main] INFO : Entered Survey name: CSAT Test Automation
+2025-08-20 15:33:30 [main] INFO : Entered Survey Type: CR CSAT - Resource (TOD)
+2025-08-20 15:33:45 [main] INFO : Entered Section Name: Delivery
+2025-08-20 15:33:46 [main] INFO : Entered Section Weightage: 100
+2025-08-20 15:33:49 [main] INFO : Error Message :At least one section must have one measure with one question.
+2025-08-20 15:33:55 [main] INFO : Adding Section and Measure without adding Question in Add Survey
+2025-08-20 15:34:00 [main] INFO : Entered Measure Name: Capabilities
+2025-08-20 15:34:04 [main] INFO : Error Message :At least one section must have one measure with one question.
+2025-08-20 15:34:10 [main] INFO : Creating Single Section, Measure,Question in Add Survey
+2025-08-20 15:34:12 [main] INFO : Entered Survey name: CSAT Test Automation
+2025-08-20 15:34:15 [main] INFO : Entered Survey Type: CR CSAT - Resource (TOD)
+2025-08-20 15:34:28 [main] INFO : Entered Project Start Date: 2025-08-20
+2025-08-20 15:34:29 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-20 15:34:32 [main] INFO : Entered Section Name: Delivery
+2025-08-20 15:34:32 [main] INFO : Entered Section Weightage: 100
+2025-08-20 15:34:34 [main] INFO : Entered Measure Name: Capabilities
+2025-08-20 15:34:36 [main] INFO : Entered Question Name: This is to test question 1
+2025-08-20 15:34:37 [main] INFO : Entered Options 1
+2025-08-20 15:34:39 [main] INFO : Entered Options 2
+2025-08-20 15:34:40 [main] INFO : Entered Options 3
+2025-08-20 15:34:51 [main] INFO : Created Survey is shown in table: CSAT Test Automation
+2025-08-20 15:34:52 [main] INFO : Creating Multiple Section, Measure,Question in Add Survey
+2025-08-20 15:34:55 [main] INFO : Entered Survey name: Test Automation Survey
+2025-08-20 15:34:57 [main] INFO : Entered Survey Type: CR CSAT - Development Project
+2025-08-20 15:35:10 [main] INFO : Entered Project Start Date: 2025-08-20
+2025-08-20 15:35:11 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-20 15:35:11 [main] INFO : ___Creating First Section___
+2025-08-20 15:35:14 [main] INFO : Entered Section Name: Delivery
+2025-08-20 15:35:15 [main] INFO : Entered Section Weightage: 50
+2025-08-20 15:35:16 [main] INFO : Entered Measure Name: Quality
+2025-08-20 15:35:18 [main] INFO : Entered Question Name: This is to test question 1
+2025-08-20 15:35:19 [main] INFO : Entered Options 1
+2025-08-20 15:35:21 [main] INFO : Entered Options 2
+2025-08-20 15:35:22 [main] INFO : Entered Options 3
+2025-08-20 15:35:25 [main] INFO : ___Creating Second Section___
+2025-08-20 15:35:27 [main] INFO : Entered Section Name: Accountability
+2025-08-20 15:35:28 [main] INFO : Entered Section Weightage: 20
+2025-08-20 15:35:30 [main] INFO : Entered Measure Name: Ownership
+2025-08-20 15:35:31 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-20 15:35:34 [main] INFO : Entered Options 1
+2025-08-20 15:35:35 [main] INFO : Entered Options 2
+2025-08-20 15:35:36 [main] INFO : Entered Options 3
+2025-08-20 15:35:41 [main] INFO : Entered Question Name: This is to test question 3
+2025-08-20 15:35:43 [main] INFO : Entered Options 1
+2025-08-20 15:35:45 [main] INFO : Entered Options 2
+2025-08-20 15:35:46 [main] INFO : Entered Options 3
+2025-08-20 15:35:49 [main] INFO : ___Creating Custom Section___
+2025-08-20 15:35:52 [main] INFO : Entered Section Name: Testing Section
+2025-08-20 15:35:53 [main] INFO : Entered Section Weightage: 30
+2025-08-20 15:35:55 [main] INFO : Entered Measure Name: Testing Measure
+2025-08-20 15:35:57 [main] INFO : Entered Question Name: This is to test question 4
+2025-08-20 15:35:58 [main] INFO : Entered Options 1
+2025-08-20 15:36:00 [main] INFO : Entered Options 2
+2025-08-20 15:36:01 [main] INFO : Entered Options 3
+2025-08-20 15:36:02 [main] INFO : Multiple Measure for Same Section
+2025-08-20 15:36:05 [main] INFO : Entered Measure Name: SLA
+2025-08-20 15:36:07 [main] INFO : Entered Question Name: Provide Competative rating
+2025-08-20 15:36:22 [main] INFO : Created Survey is shown in table: Test Automation Survey
+2025-08-20 15:36:23 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-20 15:36:33 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 10%
+2025-08-20 15:36:36 [main] INFO : Verify Saving with adding weightage greater than 100 in edit survey
+2025-08-20 15:36:39 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 200%
+2025-08-20 15:36:47 [main] INFO : Adding only Section without adding Measure and Question in Edit Survey
+2025-08-20 15:36:56 [main] INFO : Entered Section Name: Ownership
+2025-08-20 15:38:01 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=' Add New Section']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d10e57a314c553b4032c2ee9647bf933, findElement {using=xpath, value=//button[text()=' Add New Section']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58776}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58776/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d10e57a314c553b4032c2ee9647bf933
+2025-08-20 15:38:02 [main] INFO : Entered Section Weightage: 50
+2025-08-20 15:38:04 [main] INFO : Error Message :Section "Ownership" must have at least one measure.
+2025-08-20 15:38:10 [main] INFO : Adding Section and Measure without adding Question in Edit Survey
+2025-08-20 15:39:38 [main] INFO : Launching Chrome Browser
+2025-08-20 15:39:38 [main] INFO : Report Name :CsatPage.html
+2025-08-20 15:39:41 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 15:39:41 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 15:39:41 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 15:40:05 [main] INFO : Logged in to CSAT Application
+2025-08-20 15:40:06 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-20 15:40:17 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 10%
+2025-08-20 15:40:20 [main] INFO : Verify Saving with adding weightage greater than 100 in edit survey
+2025-08-20 15:40:23 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 200%
+2025-08-20 15:40:31 [main] INFO : Adding only Section without adding Measure and Question in Edit Survey
+2025-08-20 15:40:39 [main] INFO : Entered Section Name: Ownership
+2025-08-20 15:40:45 [main] ERROR: Test Failed :element click intercepted: Element <input placeholder="Enter weightage (Ex:50)" min="0" max="100" type="number" value=""> is not clickable at point (1255, 1019). Other element would receive the click: <div class="add-survey-modal" id="addsurvey">...</div>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17c5f66006be136e848044571950e2fe, clickElement {id=f.0C05F79F22178A01498A40225D49431B.d.3AA60CC55A2F7263A9AFF7A8641F75F7.e.560}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54558}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54558/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (17c5f66006be136e848044571950e2fe)] -> xpath: //label[starts-with(text(),'Section Weight')]/following-sibling::input]
+Session ID: 17c5f66006be136e848044571950e2fe
+2025-08-20 15:40:46 [main] INFO : Entered Section Weightage: 50
+2025-08-20 15:40:48 [main] INFO : Error Message :Section "Ownership" must have at least one measure.
+2025-08-20 15:40:54 [main] INFO : Adding Section and Measure without adding Question in Edit Survey
+2025-08-20 15:41:00 [main] INFO : Entered Measure Name: Quality
+2025-08-20 15:41:01 [main] INFO : Error Message :Measure name is required and cannot be just spaces.
+2025-08-20 15:41:05 [main] INFO : Keeping Options Weightage as Blank in edit Survey
+2025-08-20 15:41:10 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-20 15:41:12 [main] INFO : Error Message :Measure name is required and cannot be just spaces.
+2025-08-20 15:42:32 [main] INFO : Launching Chrome Browser
+2025-08-20 15:42:32 [main] INFO : Report Name :CsatPage.html
+2025-08-20 15:42:35 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 15:42:36 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 15:42:36 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 15:42:59 [main] INFO : Logged in to CSAT Application
+2025-08-20 15:43:00 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-20 15:43:10 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 10%
+2025-08-20 15:43:13 [main] INFO : Verify Saving with adding weightage greater than 100 in edit survey
+2025-08-20 15:43:16 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 200%
+2025-08-20 15:43:24 [main] INFO : Adding only Section without adding Measure and Question in Edit Survey
+2025-08-20 15:43:32 [main] INFO : Entered Section Name: Ownership
+2025-08-20 15:43:38 [main] INFO : Entered Section Weightage: 50
+2025-08-20 15:43:40 [main] INFO : Error Message :Section "Ownership" must have at least one measure.
+2025-08-20 15:43:46 [main] INFO : Adding Section and Measure without adding Question in Edit Survey
+2025-08-20 15:43:52 [main] INFO : Entered Measure Name: Quality
+2025-08-20 15:43:53 [main] INFO : Error Message :Section "Ownership" must have at least one measure with at least one question.
+2025-08-20 15:43:56 [main] INFO : Keeping Options Weightage as Blank in edit Survey
+2025-08-20 15:44:01 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-20 15:44:04 [main] INFO : Error Message :Weightage is required for option 1 in question "This is to test question 2" in section "Ownership".
+2025-08-20 15:44:07 [main] INFO : Adding New Section,Measure,Question for existing survey Test
+2025-08-20 15:44:21 [main] INFO : Entered Section Name: Ownership
+2025-08-20 15:44:22 [main] INFO : Entered Section Weightage: 50
+2025-08-20 15:44:23 [main] INFO : Entered Measure Name: Quality
+2025-08-20 15:44:26 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-20 15:44:28 [main] INFO : Entered Options 1
+2025-08-20 15:44:30 [main] INFO : Entered Options 2
+2025-08-20 15:44:31 [main] INFO : Entered Options 3
+2025-08-20 15:45:07 [main] INFO : Clicking Survey from Table
+2025-08-20 15:45:17 [main] INFO : Header is Valid: CSAT Test Automation
+2025-08-20 15:45:18 [main] INFO : Section is Updated: Ownership(50%)
+2025-08-20 15:46:19 [main] ERROR: Edit Survey Close popup button not available
+2025-08-20 15:46:20 [main] INFO : Adding New Measure and Question for existing section Test
+2025-08-20 15:46:26 [main] ERROR: Test Failed :element click intercepted: Element <button class="text-blue-600 hover:text-blue-800" id="table-5" title="Edit">...</button> is not clickable at point (2362, 587). Other element would receive the click: <div class="survey-details-popup-overlay">...</div>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [34f1306faaacfaf7145beb764e2d3beb, clickElement {id=f.82009D4EA7000CF6E04787E56CCC87DA.d.4EFC4BD6443BEAD6FB8CE4190485F294.e.737}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62937}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62937/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (34f1306faaacfaf7145beb764e2d3beb)] -> xpath: //button[text()='CSAT Test Automation']/parent::td/following-sibling::td/div/button[@title='Edit']]
+Session ID: 34f1306faaacfaf7145beb764e2d3beb
+2025-08-20 15:48:31 [main] INFO : Launching Chrome Browser
+2025-08-20 15:48:31 [main] INFO : Report Name :CsatPage.html
+2025-08-20 15:48:32 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 15:49:00 [main] INFO : Launching Chrome Browser
+2025-08-20 15:49:01 [main] INFO : Report Name :CsatPage.html
+2025-08-20 15:49:04 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 15:49:04 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 15:49:04 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 15:49:36 [main] INFO : Logged in to CSAT Application
+2025-08-20 15:49:37 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-20 15:49:48 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 10%
+2025-08-20 15:49:51 [main] INFO : Verify Saving with adding weightage greater than 100 in edit survey
+2025-08-20 15:49:53 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 200%
+2025-08-20 15:50:01 [main] INFO : Adding only Section without adding Measure and Question in Edit Survey
+2025-08-20 15:50:10 [main] INFO : Entered Section Name: Ownership
+2025-08-20 15:50:15 [main] INFO : Entered Section Weightage: 50
+2025-08-20 15:50:18 [main] INFO : Error Message :Section "Ownership" must have at least one measure.
+2025-08-20 15:50:24 [main] INFO : Adding Section and Measure without adding Question in Edit Survey
+2025-08-20 15:50:30 [main] INFO : Entered Measure Name: Quality
+2025-08-20 15:50:31 [main] INFO : Error Message :
+2025-08-20 15:50:34 [main] INFO : Keeping Options Weightage as Blank in edit Survey
+2025-08-20 15:50:39 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-20 15:50:42 [main] INFO : Error Message :Weightage is required for option 1 in question "This is to test question 2" in section "Ownership".
+2025-08-20 15:50:45 [main] INFO : Adding New Section,Measure,Question for existing survey Test
+2025-08-20 15:50:59 [main] INFO : Entered Section Name: Ownership
+2025-08-20 15:51:00 [main] INFO : Entered Section Weightage: 50
+2025-08-20 15:51:02 [main] INFO : Entered Measure Name: Quality
+2025-08-20 15:51:05 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-20 15:51:07 [main] INFO : Entered Options 1
+2025-08-20 15:51:08 [main] INFO : Entered Options 2
+2025-08-20 15:51:10 [main] INFO : Entered Options 3
+2025-08-20 15:51:46 [main] INFO : Clicking Survey from Table
+2025-08-20 15:51:56 [main] INFO : Header is Valid: CSAT Test Automation
+2025-08-20 15:51:56 [main] INFO : Section is Updated: Ownership(50%)
+2025-08-20 15:53:25 [main] INFO : Launching Chrome Browser
+2025-08-20 15:53:25 [main] INFO : Report Name :CsatPage.html
+2025-08-20 15:53:28 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 15:53:28 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 15:53:28 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 15:53:52 [main] INFO : Logged in to CSAT Application
+2025-08-20 15:53:53 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-20 15:54:04 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 10%
+2025-08-20 15:54:06 [main] INFO : Verify Saving with adding weightage greater than 100 in edit survey
+2025-08-20 15:54:09 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 200%
+2025-08-20 15:54:17 [main] INFO : Adding only Section without adding Measure and Question in Edit Survey
+2025-08-20 15:54:25 [main] INFO : Entered Section Name: Ownership
+2025-08-20 15:54:31 [main] INFO : Entered Section Weightage: 50
+2025-08-20 15:54:33 [main] INFO : Error Message :Section "Ownership" must have at least one measure.
+2025-08-20 15:54:39 [main] INFO : Adding Section and Measure without adding Question in Edit Survey
+2025-08-20 15:54:45 [main] INFO : Entered Measure Name: Quality
+2025-08-20 15:54:46 [main] INFO : Error Message :Section "Ownership" must have at least one measure with at least one question.
+2025-08-20 15:54:50 [main] INFO : Keeping Options Weightage as Blank in edit Survey
+2025-08-20 15:54:55 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-20 15:54:57 [main] INFO : Error Message :Weightage is required for option 1 in question "This is to test question 2" in section "Ownership".
+2025-08-20 15:55:01 [main] INFO : Adding New Section,Measure,Question for existing survey Test
+2025-08-20 15:55:15 [main] INFO : Entered Section Name: Ownership
+2025-08-20 15:55:16 [main] INFO : Entered Section Weightage: 50
+2025-08-20 15:55:17 [main] INFO : Entered Measure Name: Quality
+2025-08-20 15:55:20 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-20 15:55:23 [main] INFO : Entered Options 1
+2025-08-20 15:55:25 [main] INFO : Entered Options 2
+2025-08-20 15:55:26 [main] INFO : Entered Options 3
+2025-08-20 15:56:02 [main] INFO : Clicking Survey from Table
+2025-08-20 15:56:12 [main] INFO : Header is Valid: CSAT Test Automation
+2025-08-20 15:56:13 [main] INFO : Section is Updated: Ownership(50%)
+2025-08-20 15:56:15 [main] INFO : Adding New Measure and Question for existing section Test
+2025-08-20 15:56:27 [main] ERROR: Test Failed :element click intercepted: Element is not clickable at point (819, 2297)
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a5b56fbe86056ca4d213b359cde76664, clickElement {id=f.2C382AF74DD5DBD5235BF10C2BB2A6CF.d.BEB5F3C33AB1781814C256A02D6A6461.e.792}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52549}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52549/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a5b56fbe86056ca4d213b359cde76664)] -> xpath: //button[text()='Add Measure']]
+Session ID: a5b56fbe86056ca4d213b359cde76664
+2025-08-20 15:56:29 [main] INFO : Entered Measure Name: Ownership
+2025-08-20 15:56:31 [main] INFO : Entered Question Name: This is to test question 3
+2025-08-20 15:56:34 [main] INFO : Entered Options 2
+2025-08-20 15:56:35 [main] INFO : Entered Options 3
+2025-08-20 15:56:51 [main] INFO : Adding New Question for existing measure Test
+2025-08-20 15:57:14 [main] INFO : Entered Question Name: This is to test question 5
+2025-08-20 15:57:17 [main] INFO : Entered Options 4
+2025-08-20 15:57:33 [main] INFO : Adding New option for existing Question Test
+2025-08-20 15:57:55 [main] ERROR: Test Failed :element click intercepted: Element is not clickable at point (822, 2809)
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a5b56fbe86056ca4d213b359cde76664, clickElement {id=f.2C382AF74DD5DBD5235BF10C2BB2A6CF.d.BEB5F3C33AB1781814C256A02D6A6461.e.1031}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52549}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52549/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a5b56fbe86056ca4d213b359cde76664)] -> xpath: //span[text()='Add option']]
+Session ID: a5b56fbe86056ca4d213b359cde76664
+2025-08-20 15:57:57 [main] INFO : Entered Options 5
+2025-08-20 15:58:19 [main] INFO : Deleting Existing section in edit survey detail popup without saving
+2025-08-20 15:58:43 [main] ERROR: Test Failed :element click intercepted: Element is not clickable at point (1765, 1523)
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a5b56fbe86056ca4d213b359cde76664, clickElement {id=f.2C382AF74DD5DBD5235BF10C2BB2A6CF.d.BEB5F3C33AB1781814C256A02D6A6461.e.1127}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52549}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52549/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a5b56fbe86056ca4d213b359cde76664)] -> xpath: //div[@class='add-survey-section-actions']/img[@alt='delete']]
+Session ID: a5b56fbe86056ca4d213b359cde76664
+2025-08-20 15:59:06 [main] INFO : Clicking Survey from Table
+2025-08-20 15:59:16 [main] INFO : Header is Valid: CSAT Test Automation
+2025-08-20 15:59:18 [main] INFO : Section is Updated: Ownership(50%)
+2025-08-20 15:59:24 [main] INFO : Deleting Existing section in edit survey detail popup
+2025-08-20 15:59:50 [main] ERROR: Test Failed :element click intercepted: Element is not clickable at point (1765, 1526)
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a5b56fbe86056ca4d213b359cde76664, clickElement {id=f.2C382AF74DD5DBD5235BF10C2BB2A6CF.d.BEB5F3C33AB1781814C256A02D6A6461.e.1244}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52549}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52549/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a5b56fbe86056ca4d213b359cde76664)] -> xpath: //div[@class='add-survey-section-actions']/img[@alt='delete']]
+Session ID: a5b56fbe86056ca4d213b359cde76664
+2025-08-20 16:00:30 [main] INFO : Clicking Survey from Table
+2025-08-20 16:00:36 [main] ERROR: Test Failed :element click intercepted: Element <button style="color: rgb(3, 81, 159); text-decoration: underline; background: none; border: none; cursor: pointer;">...</button> is not clickable at point (506, 587). Other element would receive the click: <div class="add-survey-modal-overlay">...</div>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a5b56fbe86056ca4d213b359cde76664, clickElement {id=f.2C382AF74DD5DBD5235BF10C2BB2A6CF.d.BEB5F3C33AB1781814C256A02D6A6461.e.1133}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52549}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52549/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a5b56fbe86056ca4d213b359cde76664)] -> xpath: //tr[@class='survey-table-row']/td/button[text()='CSAT Test Automation']]
+Session ID: a5b56fbe86056ca4d213b359cde76664
+2025-08-20 16:01:41 [main] ERROR: Test Failed :Expected condition failed: waiting for presence of element located by: By.cssSelector: h1.survey-title (tried for 60 second(s) with 500 milliseconds interval)
+2025-08-20 16:02:04 [main] INFO : Deleting existing Survey
+2025-08-20 16:02:23 [main] INFO : Survey Deleted: CSAT Test Automation
+2025-08-20 16:02:25 [main] INFO : Testing Ended
+2025-08-20 16:02:25 [main] INFO : ***********
+2025-08-20 16:03:32 [main] INFO : Launching Chrome Browser
+2025-08-20 16:03:32 [main] INFO : Report Name :CSATSurveyReport.html
+2025-08-20 16:03:35 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-20 16:03:35 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-20 16:03:35 [main] INFO : Inside Login Page: LOGIN
+2025-08-20 16:04:00 [main] INFO : Logged in to CSAT Application
+2025-08-20 16:04:01 [main] INFO : Validating the Header
+2025-08-20 16:04:02 [main] INFO : Header is Valid: Surveys
+2025-08-20 16:04:03 [main] INFO : Validating the Add New Survey Type Popup
+2025-08-20 16:04:06 [main] INFO : Header is Valid: Add Survey Type
+2025-08-20 16:04:07 [main] INFO : Cancel Button Available
+2025-08-20 16:04:07 [main] INFO : Save Button Available
+2025-08-20 16:04:08 [main] INFO : Validating the Add New Survey Popup
+2025-08-20 16:04:09 [main] INFO : Header is Valid: Add New Survey
+2025-08-20 16:04:10 [main] INFO : Cancel Button Available
+2025-08-20 16:04:10 [main] INFO : Save Button Available
+2025-08-20 16:04:11 [main] INFO : Validating the Survey Type Dropdown
+2025-08-20 16:04:11 [main] INFO : All Survey Types Dropdown is Available
+2025-08-20 16:04:12 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-08-20 16:04:14 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-08-20 16:04:17 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-08-20 16:04:19 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-08-20 16:04:21 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-08-20 16:04:23 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-08-20 16:04:26 [main] INFO : Survey Type Update Popup Test
+2025-08-20 16:04:27 [main] INFO : Header is Valid: Update Survey Type
+2025-08-20 16:04:28 [main] INFO : Cancel Button Available
+2025-08-20 16:04:28 [main] INFO : Update Button Available
+2025-08-20 16:04:31 [main] INFO : Column Options is valid Header value
+2025-08-20 16:04:31 [main] INFO : Cancel Button Available
+2025-08-20 16:04:31 [main] INFO : OK Button Available
+2025-08-20 16:04:31 [main] INFO : Verifying Start Date Column Option
+2025-08-20 16:04:31 [main] INFO : Column Option visibility is Hide 
+2025-08-20 16:04:32 [main] INFO : Column Option visibility is View 
+2025-08-20 16:04:34 [main] INFO : Verifying End Date Column Option
+2025-08-20 16:04:34 [main] INFO : Column Option visibility is Hide 
+2025-08-20 16:04:35 [main] INFO : Column Option visibility is View 
+2025-08-20 16:04:37 [main] INFO : Verifying Type Column Option
+2025-08-20 16:04:37 [main] INFO : Column Option visibility is Hide 
+2025-08-20 16:04:38 [main] INFO : Column Option visibility is View 
+2025-08-20 16:04:41 [main] INFO : Selecting Pagination 5
+2025-08-20 16:04:41 [main] INFO : 5 pagination Option Selected
+2025-08-20 16:04:41 [main] INFO : Selecting Pagination 15
+2025-08-20 16:04:42 [main] INFO : 15 pagination Option Selected
+2025-08-20 16:04:42 [main] INFO : Selecting Pagination 10
+2025-08-20 16:04:43 [main] INFO : 10 pagination Option Selected
+2025-08-20 16:04:44 [main] INFO : Download CSV File Format 
+2025-08-20 16:04:49 [main] INFO : Download PDF File Format 
+2025-08-20 16:04:55 [main] INFO : Search Survey
+2025-08-20 16:04:56 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-08-20 16:04:58 [main] INFO : Clicking Survey from Table
+2025-08-20 16:05:03 [main] INFO : Header is Valid: CR CSAT - Development Project
+2025-08-20 16:05:05 [main] INFO : Validating Edit Survey from Table
+2025-08-20 16:05:06 [main] INFO : Header is Valid: Edit Survey Details
+2025-08-20 16:05:09 [main] INFO : Cancel Button Available
+2025-08-20 16:05:09 [main] INFO : Save Button Available
+2025-08-20 16:05:11 [main] INFO : Entering invalid characters in type field
+2025-08-20 16:05:16 [main] INFO : Error Message :Survey type name cannot contain special characters.
+2025-08-20 16:05:20 [main] INFO : Entering spaces in type field
+2025-08-20 16:05:22 [main] INFO : Error Message :Survey type name is required
+2025-08-20 16:05:26 [main] INFO : Keeping description field blank
+2025-08-20 16:05:29 [main] INFO : Error Message :Failed to add survey type: Missing name or description
+2025-08-20 16:05:34 [main] INFO : Entering spaces in description field
+2025-08-20 16:05:36 [main] INFO : Error Message :Failed to add survey type: Missing name or description
+2025-08-20 16:05:40 [main] INFO : Creating New Survey Type Test
+2025-08-20 16:05:55 [main] INFO : Creating New Survey with Existing Survey Type Name Test
+2025-08-20 16:06:02 [main] INFO : Error Message :This survey type already exists.
+2025-08-20 16:06:10 [main] INFO : Editing invalid characters in type field for Edit Survey Type Test
+2025-08-20 16:06:12 [main] INFO : Error Message :Survey type name cannot contain special characters.
+2025-08-20 16:06:19 [main] INFO : Editing entering spaces in type field for Edit Survey Type Test
+2025-08-20 16:06:20 [main] INFO : Error Message :Survey type name is required
+2025-08-20 16:06:28 [main] INFO : Entering spaces in description field in Edit Survey Type Test
+2025-08-20 16:06:31 [main] INFO : Error Message :Description cannot be just spaces.
+2025-08-20 16:06:38 [main] INFO : Updating the type and description in Edit Survey type Test
+2025-08-20 16:06:39 [main] INFO : Updating Type: Test Automation
+2025-08-20 16:06:39 [main] INFO : Updating Description: For Automating The CSAT Survey Module
+2025-08-20 16:06:48 [main] INFO : Deleting Existing Survey Type Test
+2025-08-20 16:06:53 [main] INFO : Entering invalid characters in Survey name field
+2025-08-20 16:06:59 [main] INFO : Entering invalid characters in Survey name field: #$%^&*
+2025-08-20 16:06:59 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-08-20 16:07:03 [main] INFO : Entering Only Spaces in Survey field
+2025-08-20 16:07:20 [main] INFO : Error Message :Survey Name cannot be empty or just spaces.
+2025-08-20 16:07:24 [main] INFO : Entering Existing name in Survey field
+2025-08-20 16:07:30 [main] INFO : Entering Existing Survey Name : CR CSAT - Development Project
+2025-08-20 16:07:30 [main] INFO :  Survey Name Error Messgae :Survey name already exists
+2025-08-20 16:07:33 [main] INFO : Verify Entering End Date previous than Start date in add survey
+2025-08-20 16:07:51 [main] INFO : Error Message :End Date cannot be earlier than Start Date.
+2025-08-20 16:07:55 [main] INFO : Verify Saving without adding weightage or Section in add survey
+2025-08-20 16:08:13 [main] INFO : Entered Project Start Date: 2025-08-20
+2025-08-20 16:08:14 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-20 16:08:16 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 0%
+2025-08-20 16:08:19 [main] INFO : Verify Saving with Section Name Invalid characters in add survey
+2025-08-20 16:08:40 [main] INFO : Error Message :Section name "#$%^&*" contains invalid characters.
+2025-08-20 16:08:43 [main] INFO : Verify Saving with Section Name only spaces in add survey
+2025-08-20 16:08:47 [main] INFO : Error Message :Section name cannot be empty or just spaces.
+2025-08-20 16:08:50 [main] INFO : Verify Saving with adding weightage less than 100 in add survey
+2025-08-20 16:08:56 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 10%
+2025-08-20 16:08:59 [main] INFO : Verify Saving with adding weightage greater than 100 in add survey
+2025-08-20 16:09:03 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 200%
+2025-08-20 16:09:06 [main] INFO : Verify Saving with Measure Name Invalid characters in add survey
+2025-08-20 16:09:12 [main] INFO : Error Message :Measure name "#$%^&*" contains invalid characters.
+2025-08-20 16:09:15 [main] INFO : Verify Saving with Measure Name only spaces in add survey
+2025-08-20 16:09:19 [main] INFO : Error Message :Measure name cannot be empty or just spaces.
+2025-08-20 16:09:21 [main] INFO : Verify Saving with Question Name only spaces in add survey
+2025-08-20 16:09:28 [main] INFO : Error Message :Question name cannot be empty or just spaces.
+2025-08-20 16:09:32 [main] INFO : Keeping Options as Blank in Add Survey
+2025-08-20 16:09:35 [main] INFO : Error Message :All options must have values filled in.
+2025-08-20 16:09:38 [main] INFO : Keeping Options Weightage as Blank in Add Survey
+2025-08-20 16:09:40 [main] INFO : Error Message :Checkbox option weightage must be a positive number.
+2025-08-20 16:09:43 [main] INFO : Adding only Section without adding Measure and Question in Add Survey
+2025-08-20 16:09:46 [main] INFO : Entered Survey name: CSAT Test Automation
+2025-08-20 16:09:48 [main] INFO : Entered Survey Type: CR CSAT - Resource (TOD)
+2025-08-20 16:10:04 [main] INFO : Entered Section Name: Delivery
+2025-08-20 16:10:05 [main] INFO : Entered Section Weightage: 100
+2025-08-20 16:10:08 [main] INFO : Error Message :At least one section must have one measure with one question.
+2025-08-20 16:10:14 [main] INFO : Adding Section and Measure without adding Question in Add Survey
+2025-08-20 16:10:19 [main] INFO : Entered Measure Name: Capabilities
+2025-08-20 16:10:23 [main] INFO : Error Message :At least one section must have one measure with one question.
+2025-08-20 16:10:29 [main] INFO : Creating Single Section, Measure,Question in Add Survey
+2025-08-20 16:10:31 [main] INFO : Entered Survey name: CSAT Test Automation
+2025-08-20 16:10:34 [main] INFO : Entered Survey Type: CR CSAT - Resource (TOD)
+2025-08-20 16:10:47 [main] INFO : Entered Project Start Date: 2025-08-20
+2025-08-20 16:10:47 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-20 16:10:51 [main] INFO : Entered Section Name: Delivery
+2025-08-20 16:10:51 [main] INFO : Entered Section Weightage: 100
+2025-08-20 16:10:53 [main] INFO : Entered Measure Name: Capabilities
+2025-08-20 16:10:55 [main] INFO : Entered Question Name: This is to test question 1
+2025-08-20 16:10:56 [main] INFO : Entered Options 1
+2025-08-20 16:10:58 [main] INFO : Entered Options 2
+2025-08-20 16:10:59 [main] INFO : Entered Options 3
+2025-08-20 16:11:10 [main] INFO : Created Survey is shown in table: CSAT Test Automation
+2025-08-20 16:11:11 [main] INFO : Creating Multiple Section, Measure,Question in Add Survey
+2025-08-20 16:11:14 [main] INFO : Entered Survey name: Test Automation Survey
+2025-08-20 16:11:17 [main] INFO : Entered Survey Type: CR CSAT - Development Project
+2025-08-20 16:11:30 [main] INFO : Entered Project Start Date: 2025-08-20
+2025-08-20 16:11:30 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-20 16:11:31 [main] INFO : ___Creating First Section___
+2025-08-20 16:11:34 [main] INFO : Entered Section Name: Delivery
+2025-08-20 16:11:34 [main] INFO : Entered Section Weightage: 50
+2025-08-20 16:11:36 [main] INFO : Entered Measure Name: Quality
+2025-08-20 16:11:38 [main] INFO : Entered Question Name: This is to test question 1
+2025-08-20 16:11:39 [main] INFO : Entered Options 1
+2025-08-20 16:11:40 [main] INFO : Entered Options 2
+2025-08-20 16:11:41 [main] INFO : Entered Options 3
+2025-08-20 16:11:44 [main] INFO : ___Creating Second Section___
+2025-08-20 16:11:47 [main] INFO : Entered Section Name: Accountability
+2025-08-20 16:11:47 [main] INFO : Entered Section Weightage: 20
+2025-08-20 16:11:49 [main] INFO : Entered Measure Name: Ownership
+2025-08-20 16:11:51 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-20 16:11:53 [main] INFO : Entered Options 1
+2025-08-20 16:11:55 [main] INFO : Entered Options 2
+2025-08-20 16:11:56 [main] INFO : Entered Options 3
+2025-08-20 16:12:01 [main] INFO : Entered Question Name: This is to test question 3
+2025-08-20 16:12:03 [main] INFO : Entered Options 1
+2025-08-20 16:12:04 [main] INFO : Entered Options 2
+2025-08-20 16:12:06 [main] INFO : Entered Options 3
+2025-08-20 16:12:08 [main] INFO : ___Creating Custom Section___
+2025-08-20 16:12:12 [main] INFO : Entered Section Name: Testing Section
+2025-08-20 16:12:12 [main] INFO : Entered Section Weightage: 30
+2025-08-20 16:12:15 [main] INFO : Entered Measure Name: Testing Measure
+2025-08-20 16:12:17 [main] INFO : Entered Question Name: This is to test question 4
+2025-08-20 16:12:18 [main] INFO : Entered Options 1
+2025-08-20 16:12:20 [main] INFO : Entered Options 2
+2025-08-20 16:12:21 [main] INFO : Entered Options 3
+2025-08-20 16:12:22 [main] INFO : Multiple Measure for Same Section
+2025-08-20 16:12:24 [main] INFO : Entered Measure Name: SLA
+2025-08-20 16:12:26 [main] INFO : Entered Question Name: Provide Competative rating
+2025-08-20 16:12:41 [main] INFO : Created Survey is shown in table: Test Automation Survey
+2025-08-20 16:12:42 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-20 16:12:52 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 10%
+2025-08-20 16:12:55 [main] INFO : Verify Saving with adding weightage greater than 100 in edit survey
+2025-08-20 16:12:58 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 200%
+2025-08-20 16:13:06 [main] INFO : Adding only Section without adding Measure and Question in Edit Survey
+2025-08-20 16:13:14 [main] INFO : Entered Section Name: Ownership
+2025-08-20 16:13:19 [main] INFO : Entered Section Weightage: 50
+2025-08-20 16:13:21 [main] INFO : Error Message :Section "Ownership" must have at least one measure.
+2025-08-20 16:13:28 [main] INFO : Adding Section and Measure without adding Question in Edit Survey
+2025-08-20 16:13:33 [main] INFO : Entered Measure Name: Quality
+2025-08-20 16:13:34 [main] INFO : Error Message :Section "Ownership" must have at least one measure with at least one question.
+2025-08-20 16:13:38 [main] INFO : Keeping Options Weightage as Blank in edit Survey
+2025-08-20 16:13:43 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-20 16:13:45 [main] INFO : Error Message :Weightage is required for option 1 in question "This is to test question 2" in section "Ownership".
+2025-08-20 16:13:49 [main] INFO : Adding New Section,Measure,Question for existing survey Test
+2025-08-20 16:14:03 [main] INFO : Entered Section Name: Ownership
+2025-08-20 16:14:04 [main] INFO : Entered Section Weightage: 50
+2025-08-20 16:14:05 [main] INFO : Entered Measure Name: Quality
+2025-08-20 16:14:08 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-20 16:14:10 [main] INFO : Entered Options 1
+2025-08-20 16:14:12 [main] INFO : Entered Options 2
+2025-08-20 16:14:13 [main] INFO : Entered Options 3
+2025-08-20 16:14:49 [main] INFO : Clicking Survey from Table
+2025-08-20 16:14:59 [main] INFO : Header is Valid: CSAT Test Automation
+2025-08-20 16:14:59 [main] INFO : Section is Updated: Ownership(50%)
+2025-08-20 16:15:02 [main] INFO : Adding New Measure and Question for existing section Test
+2025-08-20 16:15:15 [main] INFO : Entered Measure Name: Ownership
+2025-08-20 16:15:17 [main] INFO : Entered Question Name: This is to test question 3
+2025-08-20 16:15:20 [main] INFO : Entered Options 2
+2025-08-20 16:15:21 [main] INFO : Entered Options 3
+2025-08-20 16:15:37 [main] INFO : Adding New Question for existing measure Test
+2025-08-20 16:16:00 [main] INFO : Entered Question Name: This is to test question 5
+2025-08-20 16:16:03 [main] INFO : Entered Options 4
+2025-08-20 16:16:19 [main] INFO : Adding New option for existing Question Test
+2025-08-20 16:16:41 [main] INFO : Entered Options 5
+2025-08-20 16:17:03 [main] INFO : Deleting Existing section in edit survey detail popup without saving
+2025-08-20 16:17:49 [main] INFO : Clicking Survey from Table
+2025-08-20 16:17:59 [main] INFO : Header is Valid: CSAT Test Automation
+2025-08-20 16:18:00 [main] INFO : Section is Updated: Ownership(50%)
+2025-08-20 16:18:07 [main] INFO : Deleting Existing section in edit survey detail popup
+2025-08-20 16:18:37 [main] ERROR: Test Failed :element click intercepted: Element is not clickable at point (1080, -442)
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3d32815b5e52af7603bb23c8355e90ab, clickElement {id=f.79DFB1F2936BE001518F16E6F0B16388.d.663AB74110325D9B7D3B05D51AA2E8F3.e.2194}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60064}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60064/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3d32815b5e52af7603bb23c8355e90ab)] -> xpath: //div[@class='add-survey-section-header']/div[1]/span[text()='Weightage:']/input]
+Session ID: 3d32815b5e52af7603bb23c8355e90ab
+2025-08-20 16:19:11 [main] INFO : Clicking Survey from Table
+2025-08-20 16:19:22 [main] INFO : Header is Valid: CSAT Test Automation
+2025-08-20 16:19:29 [main] INFO : Deleting existing Survey
+2025-08-20 16:19:49 [main] INFO : Survey Deleted: CSAT Test Automation
+2025-08-20 16:19:50 [main] INFO : Testing Ended
+2025-08-20 16:19:50 [main] INFO : ***********

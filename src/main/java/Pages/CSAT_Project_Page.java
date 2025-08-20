@@ -810,7 +810,7 @@ public class CSAT_Project_Page extends WaitsManager {
 				}
 			} else {
 				grep.failTest(" Survey Response Filter not Available");
-				logger.error(" Surevy Respinse Filter not Available");
+				logger.error(" Survey Response Filter not Available");
 
 			}
 		} catch (Exception e) {

@@ -336,6 +336,7 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		csatProject.clickButton(dataKeys.saveBtn);
 		logger.info("Save Project");
 		grep.infoTest("Save Project");
+		
 		waitTime30(driver);
 		refreshPage();
 		waitTime30(driver);

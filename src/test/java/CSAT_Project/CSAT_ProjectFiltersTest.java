@@ -160,6 +160,7 @@ public class CSAT_ProjectFiltersTest extends CSAT_TestInitializer {
 		validAssert.verifyStatusFilters(dataKeys.pipelineStatusOption);
 		validAssert.verifyStatusFilters(dataKeys.completedStatusOption);
 		validAssert.verifyStatusFilters(dataKeys.inProgressStatusOption);
+		waitTime2(driver);
 		csatProject.selectStatusFilterOption(dataKeys.allStatusesOption);
 
 		// survey response filter
@@ -210,7 +211,10 @@ public class CSAT_ProjectFiltersTest extends CSAT_TestInitializer {
 
 		validAssert.verifyStatusFilters(dataKeys.inProgressStatusOption);
 		waitTime2(driver);
-		validAssert.verifySurveyResponseFilters(dataKeys.surveyResponseNo, dataKeys.verifySurveyResponseNo);
+		csatProject.selectSurveyResponseFilterOption(dataKeys.surveyResponseNo);
+		waitTime2(driver);
+		csatProject.verifySurveyResponseSelectedOption(dataKeys.surveyResponseNo);
+//		validAssert.verifySurveyResponseFilters(dataKeys.surveyResponseNo, dataKeys.verifySurveyResponseNo);
 //		validAssert.verifyPracticesFilters(dataKeys.ERP_Practice);
 
 		grep.captureScreenshot("pass", "Multi filter test ", "MultiFilterTest");

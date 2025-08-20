@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="L_And_D_Project.LAndD_Courses_Test">
+      <class name="CSAT_Project.CSAT_ProjectFiltersTest">
         <methods>
+          <include name="csat_ProjectUI_Test"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="l_and_d_AdminPageTest"/>
-          <include name="l_and_d_CreateAssessment_Test"/>
         </methods>
-      </class> <!-- L_And_D_Project.LAndD_Courses_Test -->
+      </class> <!-- CSAT_Project.CSAT_ProjectFiltersTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

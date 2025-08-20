@@ -818,7 +818,8 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		grep.infoTest("Entered Section Name: " + dataKeys.ownershipSectionName);
 		logger.info("Entered Section Name: " + dataKeys.ownershipSectionName);
 
-		waitTime2(driver);
+		waitTime5(driver);
+//		csat_Survey.scrollToButton(dataKeys.saveBtn);
 		csat_Survey.addSectionWeightage_InEdit(dataKeys.weightage_50);
 		waitTime(driver);
 		grep.infoTest("Entered Section Weightage: " + dataKeys.weightage_50);
@@ -841,6 +842,8 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		grep.infoTest("Adding Section and Measure without adding Question in Edit Survey");
 		waitTime2(driver);
 		csat_Survey.clickAddMeasure_InEdit();
+		waitTime2(driver);
+		csat_Survey.scrollToButton(dataKeys.saveBtn);
 		waitTime(driver);
 		csat_Survey.addMeasureName_InEdit(dataKeys.qualityMeasureName);
 		waitTime(driver);
@@ -890,7 +893,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		csat_Survey.clickButton(dataKeys.questionButton);
 		waitTime(driver);
 		csat_Survey.weightageInEditPopup(dataKeys.weightage_50);
-		waitTime(driver);
+		waitTime2(driver);
 		csat_Survey.scrollToButton(dataKeys.saveBtn);
 		waitTime(driver);
 		csat_Survey.clickAddSection_InEdit();
@@ -965,7 +968,8 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 				"added_Another_Section_EditSurvey");
 		waitTime1(driver);
 //		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
-		csat_Survey.clickCloseEditSurveyPopups();
+//		csat_Survey.clickCloseEditSurveyPopups();
+		csat_Survey.clickCloseSurveyDetailsPopup();
 		waitTime(driver);
 
 		// Adding one measure and question for existing section in edit Survey's details
@@ -1121,8 +1125,10 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "After Deleting the section in edit popup",
 				"DeletingSection_WithoutSave_EditSurvey");
 		waitTime1(driver);
+
 //		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
-		csat_Survey.clickCloseEditSurveyPopups();
+//		csat_Survey.clickCloseEditSurveyPopups();
+		csat_Survey.clickCloseSurveyDetailsPopup();
 		waitTime5(driver);
 
 		// Deleting existing Section,Measure,Question in edit Survey's details popup
@@ -1160,7 +1166,8 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "After Deleting the section in edit popup", "After_Deleting_Section_EditSurvey");
 		waitTime1(driver);
 //		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
-		csat_Survey.clickCloseEditSurveyPopups();
+//		csat_Survey.clickCloseEditSurveyPopups();
+		csat_Survey.clickCloseSurveyDetailsPopup();
 		waitTime5(driver);
 	}
 

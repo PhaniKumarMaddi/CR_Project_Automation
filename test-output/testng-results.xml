@@ -2,55 +2,51 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-20T13:58:44 IST" name="CSAT_Other_Suite" finished-at="2025-08-20T14:07:05 IST" duration-ms="500793">
+  <suite started-at="2025-08-20T16:03:30 IST" name="CSATSurvey_Suite" finished-at="2025-08-20T16:19:50 IST" duration-ms="980783">
     <groups>
     </groups>
-    <test started-at="2025-08-20T13:58:44 IST" name="CSAT_Other_Test" finished-at="2025-08-20T14:07:05 IST" duration-ms="500793">
-      <class name="CSAT_ReportsAndSettings_Module.CSAT_Settings_OrgMembersTest">
-        <test-method signature="orgMemebersTest()[pri:0, instance:CSAT_ReportsAndSettings_Module.CSAT_Settings_OrgMembersTest@732f29af]" started-at="2025-08-20T14:03:02 IST" name="orgMemebersTest" finished-at="2025-08-20T14:05:07 IST" duration-ms="125235" status="PASS">
+    <test started-at="2025-08-20T16:03:30 IST" name="CSATSurvey_Test" finished-at="2025-08-20T16:19:50 IST" duration-ms="980783">
+      <class name="CSAT_Survey_Module.CSAT_AddNewSurveyTest">
+        <test-method signature="addNewSurvey_Test()[pri:1, instance:CSAT_Survey_Module.CSAT_AddNewSurveyTest@35a9782c]" started-at="2025-08-20T16:06:51 IST" name="addNewSurvey_Test" finished-at="2025-08-20T16:12:42 IST" duration-ms="350320" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- orgMemebersTest -->
-      </class> <!-- CSAT_ReportsAndSettings_Module.CSAT_Settings_OrgMembersTest -->
-      <class name="CSAT_ReportsAndSettings_Module.CSAT_ReportsTest">
-        <test-method signature="reportsPageTest()[pri:0, instance:CSAT_ReportsAndSettings_Module.CSAT_ReportsTest@45815ffc]" started-at="2025-08-20T13:59:28 IST" name="reportsPageTest" finished-at="2025-08-20T14:03:02 IST" duration-ms="213395" status="PASS">
+        </test-method> <!-- addNewSurvey_Test -->
+        <test-method signature="updateExistingSurvey_Test()[pri:2, instance:CSAT_Survey_Module.CSAT_AddNewSurveyTest@35a9782c]" started-at="2025-08-20T16:12:42 IST" name="updateExistingSurvey_Test" finished-at="2025-08-20T16:19:28 IST" duration-ms="406759" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reportsPageTest -->
-      </class> <!-- CSAT_ReportsAndSettings_Module.CSAT_ReportsTest -->
-      <class name="CSAT_ReportsAndSettings_Module.CSAT_Settings_TeamsTest">
-        <test-method signature="teamsTest()[pri:0, instance:CSAT_ReportsAndSettings_Module.CSAT_Settings_TeamsTest@d3957fe]" started-at="2025-08-20T14:05:07 IST" name="teamsTest" finished-at="2025-08-20T14:07:04 IST" duration-ms="117482" status="PASS">
+        </test-method> <!-- updateExistingSurvey_Test -->
+        <test-method signature="deleteExistingSurvey_Test()[pri:3, instance:CSAT_Survey_Module.CSAT_AddNewSurveyTest@35a9782c]" started-at="2025-08-20T16:19:28 IST" name="deleteExistingSurvey_Test" finished-at="2025-08-20T16:19:50 IST" duration-ms="21301" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teamsTest -->
-      </class> <!-- CSAT_ReportsAndSettings_Module.CSAT_Settings_TeamsTest -->
-      <class name="CSAT_RolesAndProfile_Module.CSAT_ProfileTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:CSAT_RolesAndProfile_Module.CSAT_ProfileTest@2ceb80a1]" started-at="2025-08-20T13:58:44 IST" name="setup" description="Setup and Login To Browser" finished-at="2025-08-20T13:59:16 IST" duration-ms="31547" status="PASS">
+        </test-method> <!-- deleteExistingSurvey_Test -->
+      </class> <!-- CSAT_Survey_Module.CSAT_AddNewSurveyTest -->
+      <class name="CSAT_Survey_Module.CSAT_AddSurveyTypeTest">
+        <test-method signature="addSurveyType_Test()[pri:0, instance:CSAT_Survey_Module.CSAT_AddSurveyTypeTest@50ecde95]" started-at="2025-08-20T16:05:10 IST" name="addSurveyType_Test" finished-at="2025-08-20T16:06:51 IST" duration-ms="101118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSurveyType_Test -->
+      </class> <!-- CSAT_Survey_Module.CSAT_AddSurveyTypeTest -->
+      <class name="CSAT_Survey_Module.CSAT_SurveyModuleUITest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:CSAT_Survey_Module.CSAT_SurveyModuleUITest@674bd420]" started-at="2025-08-20T16:03:30 IST" name="setup" description="Setup and Login To Browser" finished-at="2025-08-20T16:04:00 IST" duration-ms="30181" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[CSATOtherModules_Report.html]]>
+                <![CDATA[CSATSurveyReport.html]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="profilePageTest()[pri:0, instance:CSAT_RolesAndProfile_Module.CSAT_ProfileTest@2ceb80a1]" started-at="2025-08-20T13:59:16 IST" name="profilePageTest" finished-at="2025-08-20T13:59:20 IST" duration-ms="4006" status="PASS">
+        <test-method signature="surveyModule_UI_Test()[pri:0, instance:CSAT_Survey_Module.CSAT_SurveyModuleUITest@674bd420]" started-at="2025-08-20T16:04:00 IST" name="surveyModule_UI_Test" finished-at="2025-08-20T16:05:10 IST" duration-ms="70527" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- profilePageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:CSAT_RolesAndProfile_Module.CSAT_ProfileTest@2ceb80a1]" started-at="2025-08-20T14:07:04 IST" name="tearDown" description="Quit Browser" finished-at="2025-08-20T14:07:05 IST" duration-ms="836" status="PASS">
+        </test-method> <!-- surveyModule_UI_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CSAT_Survey_Module.CSAT_SurveyModuleUITest@674bd420]" started-at="2025-08-20T16:19:50 IST" name="tearDown" description="Quit Browser" finished-at="2025-08-20T16:19:50 IST" duration-ms="550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- CSAT_RolesAndProfile_Module.CSAT_ProfileTest -->
-      <class name="CSAT_RolesAndProfile_Module.CSAT_RolesTest">
-        <test-method signature="rolesPageTest()[pri:0, instance:CSAT_RolesAndProfile_Module.CSAT_RolesTest@70a36a66]" started-at="2025-08-20T13:59:20 IST" name="rolesPageTest" finished-at="2025-08-20T13:59:28 IST" duration-ms="8212" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- rolesPageTest -->
-      </class> <!-- CSAT_RolesAndProfile_Module.CSAT_RolesTest -->
-    </test> <!-- CSAT_Other_Test -->
-  </suite> <!-- CSAT_Other_Suite -->
+      </class> <!-- CSAT_Survey_Module.CSAT_SurveyModuleUITest -->
+    </test> <!-- CSATSurvey_Test -->
+  </suite> <!-- CSATSurvey_Suite -->
 </testng-results>
