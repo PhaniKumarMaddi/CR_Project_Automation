@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 
 import Utility.DriverManager;
 import Utility.GenerateReports;
+import Utility.TestDataKeys;
 import Utility.WaitsManager;
 
 public class CSAT_Survey_AllPages extends WaitsManager {
@@ -48,7 +49,7 @@ public class CSAT_Survey_AllPages extends WaitsManager {
 		try {
 			waitForElement(profileName, 30);
 			String verifyProfile = driver.findElement(profileName).getText();
-			if (verifyProfile.equals(profileNameValue)) {
+			if (verifyProfile.contains(profileNameValue)) {
 				logger.info("Profile Name is Valid: " + verifyProfile);
 				grep.passTest("Profile Name is Valid: " + verifyProfile);
 			} else {

@@ -69,6 +69,7 @@ public class TestDataKeys {
 	public String orgMemebersPage = "Org Members";
 	public String teamsPage = "Teams";
 	public String profilePage = "Profile";
+	public String clientsPage = "Clients";
 	public String orgMemberHeader= "Organization Members";
 
 	// PROJECT PAGE UI

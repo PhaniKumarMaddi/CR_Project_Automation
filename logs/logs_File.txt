@@ -37051,3 +37051,448 @@ Session ID: c9f6eac2c7eb745291ff06a6d4728aae
 Anwar Hussain: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/7d7373d9912344c7b7ac9d897c49db97
 2025-08-20 16:51:27 [main] INFO : Testing Ended
 2025-08-20 16:51:27 [main] INFO : ***********
+2025-08-20 18:11:13 [main] INFO : Launching Chrome Browser
+2025-08-20 18:11:13 [main] INFO : Report Name :LandDPage_Report.html
+2025-08-20 18:11:15 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-20 18:11:15 [main] INFO : Inside Login Page: Learning and Development
+2025-08-20 18:11:45 [main] INFO : Logged in to Learning and Development Application
+2025-08-20 18:11:57 [main] INFO : Learning and Development Page navigation Test
+2025-08-20 18:11:58 [main] INFO : Navigated to /my-courses
+2025-08-20 18:12:03 [main] INFO : Inside /my-courses Page 
+2025-08-20 18:12:03 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-20 18:12:05 [main] INFO : Navigated to /departments
+2025-08-20 18:12:10 [main] INFO : Inside /departments Page 
+2025-08-20 18:12:10 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-20 18:12:13 [main] INFO : Navigated to /certificates
+2025-08-20 18:12:18 [main] INFO : Inside /certificates Page 
+2025-08-20 18:12:18 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-20 18:12:19 [main] INFO : Navigated to /admin
+2025-08-20 18:12:19 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-20 18:12:21 [main] INFO : Navigated to /admin/courses
+2025-08-20 18:12:26 [main] INFO : Inside /admin/courses Tab in Admin Page 
+2025-08-20 18:12:26 [main] INFO : /admin/courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/courses
+2025-08-20 18:12:29 [main] INFO : Navigated to /admin/tests
+2025-08-20 18:12:34 [main] INFO : Inside /admin/tests Tab in Admin Page 
+2025-08-20 18:12:34 [main] INFO : /admin/tests Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/tests
+2025-08-20 18:12:36 [main] INFO : Navigated to /admin/roles
+2025-08-20 18:12:41 [main] INFO : Inside /admin/roles Tab in Admin Page 
+2025-08-20 18:12:41 [main] INFO : /admin/roles Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/roles
+2025-08-20 18:12:43 [main] INFO : Navigated to /admin/dashboard
+2025-08-20 18:12:48 [main] INFO : Inside /admin/dashboard Tab in Admin Page 
+2025-08-20 18:12:48 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-20 18:12:51 [main] INFO : Navigated to /Home
+2025-08-20 18:12:56 [main] INFO : Inside /Home Page 
+2025-08-20 18:12:56 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-20 18:12:59 [main] INFO : Home Page Ui test
+2025-08-20 18:12:59 [main] INFO : Home Page Header Content: Grow your skills, advance your career
+2025-08-20 18:12:59 [main] INFO : Home Page Description Content: Access all the learning resources you need to excel at CriticalRiver
+2025-08-20 18:12:59 [main] INFO : Start Learning Button Available
+2025-08-20 18:13:00 [main] INFO : Header: Browse Courses by Department
+2025-08-20 18:13:00 [main] INFO : Total Courses Card Count: 462
+2025-08-20 18:13:00 [main] INFO : Departments Card Count: 15
+2025-08-20 18:13:00 [main] INFO : Popular Courses Card Count: 5
+2025-08-20 18:13:00 [main] INFO : My Certificates Card Count: 0
+2025-08-20 18:13:00 [main] INFO : My Courses Card Count: 9
+2025-08-20 18:13:01 [main] INFO : Home Page Continue Learning test
+2025-08-20 18:13:02 [main] INFO : Continue Learning Header is correct: Continue Learning
+2025-08-20 18:13:04 [main] INFO : Continue Learning Course NameAirflow Beginner
+2025-08-20 18:13:04 [main] INFO : Continue Learning Progress Percentage: 100% complete
+2025-08-20 18:13:04 [main] INFO : Continue Learning Course Category: Data Engineering Tools
+2025-08-20 18:13:04 [main] INFO : Continue Learning Course Last Accessed: Last accessed: Recently
+2025-08-20 18:13:04 [main] INFO : Navigated to Course Video Page
+2025-08-20 18:13:05 [main] INFO : /course-videos Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-20 18:13:07 [main] INFO : Navigated to /Home
+2025-08-20 18:13:09 [main] INFO : Home Page Feature Courses test
+2025-08-20 18:13:10 [main] INFO : Feature Course List Contains : Airflow Beginner course
+2025-08-20 18:13:10 [main] INFO : Feature Course List Contains : Airflow Advanced course
+2025-08-20 18:13:11 [main] INFO : Feature Course List Contains : ABAP Beginner course
+2025-08-20 18:13:12 [main] INFO : Feature Course List Contains : Statistics Beginner course
+2025-08-20 18:13:12 [main] INFO : Feature Course List Contains : Automation Testing (Selenium) Beginner course
+2025-08-20 18:13:14 [main] INFO : Feature Courses contains Department Name: Data Science and AI
+2025-08-20 18:13:14 [main] INFO : Feature Courses contains Course Level: Beginner
+2025-08-20 18:13:14 [main] INFO : Feature Courses contains Name: Airflow Beginner
+2025-08-20 18:13:14 [main] INFO : Feature Courses contains Video Count: 🎥 1 Videos
+2025-08-20 18:13:14 [main] INFO : Feature Courses contains Duration: ⏱ 1 hrs 37 mins
+2025-08-20 18:13:16 [main] INFO : Course Enrollment message: Already enrolled in the course
+2025-08-20 18:13:17 [main] INFO : Home Page Browse Course By Department test
+2025-08-20 18:13:18 [main] INFO : Data Science and AI department is available
+2025-08-20 18:13:18 [main] INFO : Total Courses count for Data Science and AI: 43 courses
+2025-08-20 18:13:19 [main] INFO : ERP Application department is available
+2025-08-20 18:13:19 [main] INFO : Total Courses count for ERP Application: 35 courses
+2025-08-20 18:13:20 [main] INFO : Product Engineering Services department is available
+2025-08-20 18:13:20 [main] INFO : Total Courses count for Product Engineering Services: 29 courses
+2025-08-20 18:13:21 [main] INFO : Hardware and Validation department is available
+2025-08-20 18:13:21 [main] INFO : Total Courses count for Hardware and Validation: 21 courses
+2025-08-20 18:13:22 [main] INFO : H1B Staffing department is available
+2025-08-20 18:13:22 [main] INFO : Total Courses count for H1B Staffing: 21 courses
+2025-08-20 18:13:23 [main] INFO : Salesforce department is available
+2025-08-20 18:13:24 [main] INFO : Total Courses count for Salesforce: 28 courses
+2025-08-20 18:13:24 [main] INFO : DSIL department is available
+2025-08-20 18:13:25 [main] INFO : Total Courses count for DSIL: 49 courses
+2025-08-20 18:13:25 [main] INFO : Enterprise Architecture department is available
+2025-08-20 18:13:26 [main] INFO : Total Courses count for Enterprise Architecture: 34 courses
+2025-08-20 18:13:26 [main] INFO : Global Engineering Org department is available
+2025-08-20 18:13:27 [main] INFO : Total Courses count for Global Engineering Org: 69 courses
+2025-08-20 18:13:27 [main] INFO : Enterprise Integration department is available
+2025-08-20 18:13:28 [main] INFO : Total Courses count for Enterprise Integration: 27 courses
+2025-08-20 18:13:28 [main] INFO : India Public Sector department is available
+2025-08-20 18:13:29 [main] INFO : Total Courses count for India Public Sector: 36 courses
+2025-08-20 18:13:29 [main] INFO : Energy & Water department is available
+2025-08-20 18:13:30 [main] INFO : Total Courses count for Energy & Water: 18 courses
+2025-08-20 18:13:31 [main] INFO : Business Process Services department is available
+2025-08-20 18:13:31 [main] INFO : Total Courses count for Business Process Services: 23 courses
+2025-08-20 18:13:32 [main] INFO : Enabling Team department is available
+2025-08-20 18:13:32 [main] INFO : Total Courses count for Enabling Team: 29 courses
+2025-08-20 18:13:33 [main] INFO : Others department is available
+2025-08-20 18:13:33 [main] INFO : Total Courses count for Others: 0 courses
+2025-08-20 18:13:34 [main] INFO : Click View All Department Link
+2025-08-20 18:13:35 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-20 18:13:37 [main] INFO : Navigated to /Home
+2025-08-20 18:13:43 [main] INFO : Verify clicking on department card
+2025-08-20 18:13:49 [main] INFO : Navigated to Data Science and AI Department
+2025-08-20 18:13:54 [main] INFO : Navigated to /Home
+2025-08-20 18:13:57 [main] INFO : Navigated to Salesforce Department
+2025-08-20 18:14:02 [main] INFO : Navigated to /Home
+2025-08-20 18:14:03 [main] INFO : Verify Why Criticalriver Academy Info
+2025-08-20 18:14:03 [main] INFO : Academy Header :Why CriticalRiver Academy?
+2025-08-20 18:14:03 [main] INFO : Academy Reason youtube :▶️
+Learn from YouTube
+Access curated YouTube content organized by departments and skills, making it easy to find relevant learning materials.
+2025-08-20 18:14:03 [main] INFO : Academy Reason Certificates :📜
+Earn Certificates
+Complete courses and assessments to earn certificates that demonstrate your skills and expertise.
+2025-08-20 18:14:03 [main] INFO : Academy Reason Learning paths :🗺️
+Structured Learning Paths
+Follow department-specific learning paths designed to help you grow in your role and advance your career.
+2025-08-20 18:14:05 [main] INFO : Ready To StartReady to start learning?
+Take the first step in your learning journey with CriticalRiver Academy
+Explore All Courses
+2025-08-20 18:14:05 [main] INFO : Explore all courses
+2025-08-20 18:14:06 [main] INFO : Navigate to Profile Page
+2025-08-20 18:14:10 [main] INFO : Profile Page Information: Personal Information
+2025-08-20 18:14:10 [main] INFO : Profile Page Information: Full Name:
+Phani Kumar Maddi
+2025-08-20 18:14:10 [main] INFO : Profile Page Information: Email:
+phani.maddi@criticalriver.com
+2025-08-20 18:14:10 [main] INFO : Profile Page Information: Department:
+DSIL
+2025-08-20 18:14:10 [main] INFO : Profile Page Information: Job Title:
+Software Engineer
+2025-08-20 18:14:10 [main] INFO : Profile Page Information: Certifications
+2025-08-20 18:14:10 [main] INFO : Profile Page Information: No certifications
+2025-08-20 18:14:11 [main] INFO : Reserve Rigths: © 2025 CriticalRiver. All rights reserved.
+2025-08-20 18:14:12 [main] INFO : Navigated to /my-courses
+2025-08-20 18:14:12 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-20 18:14:13 [main] INFO : Navigated to /departments
+2025-08-20 18:14:13 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-20 18:14:15 [main] INFO : Navigated to /help-center
+2025-08-20 18:14:15 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/help-center
+2025-08-20 18:14:16 [main] INFO : Navigated to /feedback
+2025-08-20 18:14:16 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/feedback
+2025-08-20 18:14:17 [main] INFO : Navigated to /certificates
+2025-08-20 18:14:17 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-20 18:14:18 [main] INFO : Navigated to /profile
+2025-08-20 18:14:18 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/profile
+2025-08-20 18:14:20 [main] INFO : Social Media Links
+2025-08-20 18:14:20 [main] INFO : Navigated to Facebook
+2025-08-20 18:14:21 [main] INFO :  Url is Valid :https://www.facebook.com/criticalriver/
+2025-08-20 18:14:23 [main] INFO : Navigated to LinkedIn
+2025-08-20 18:14:25 [main] INFO :  Url is Valid :https://in.linkedin.com/company/criticalriver
+2025-08-20 18:14:28 [main] INFO : Navigated to Instagram
+2025-08-20 18:14:29 [main] INFO :  Url is Valid :https://www.instagram.com/criticalriver/?hl=en
+2025-08-20 18:14:31 [main] INFO : Navigated to Twitter
+2025-08-20 18:14:33 [main] INFO :  Url is Valid :https://x.com/CriticalRiver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+2025-08-20 18:14:36 [main] INFO : Navigated to /Home
+2025-08-20 18:14:36 [main] INFO : Navigated to /admin
+2025-08-20 18:14:37 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-20 18:14:40 [main] INFO : Certificates card Value: 3
+2025-08-20 18:14:40 [main] INFO : Departments card Value: 15
+2025-08-20 18:14:40 [main] INFO : Active Courses card Value: 462
+2025-08-20 18:14:40 [main] INFO : Users card Value: 22
+2025-08-20 18:14:42 [main] ERROR: Test Failed :element click intercepted: Element <div class="card" style="cursor: pointer;">...</div> is not clickable at point (786, 52). Other element would receive the click: <header class="header">...</header>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07ac7463ba9001d46093c7008d9c5b66, clickElement {id=f.3AE044951A00BC9F3E886A9698FA4575.d.60E0CB8321F073BEB95B2C2707C6835C.e.732}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51984/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (07ac7463ba9001d46093c7008d9c5b66)] -> xpath: //h3[text()='Certificates']/parent::div]
+Session ID: 07ac7463ba9001d46093c7008d9c5b66
+2025-08-20 18:14:42 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-20 18:14:42 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Advanced N/A N/A
+2025-08-20 18:14:42 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Intermediate N/A N/A
+2025-08-20 18:14:42 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com ABAP Beginner N/A N/A
+2025-08-20 18:14:42 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com AWS Beginner N/A N/A
+2025-08-20 18:14:42 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com DBT Beginner N/A N/A
+2025-08-20 18:14:42 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Matplotlib Advanced N/A N/A
+2025-08-20 18:14:42 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Numpy Advanced N/A N/A
+2025-08-20 18:14:42 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Statistics Beginner N/A N/A
+2025-08-20 18:14:42 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com GCP Beginner N/A N/A
+2025-08-20 18:14:43 [main] INFO : View Certificates
+2025-08-20 18:14:48 [main] INFO : Close Certificate
+2025-08-20 18:14:50 [main] ERROR: Test Failed :element click intercepted: Element <div class="card" style="cursor: pointer;">...</div> is not clickable at point (786, 51). Other element would receive the click: <header class="header">...</header>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07ac7463ba9001d46093c7008d9c5b66, clickElement {id=f.3AE044951A00BC9F3E886A9698FA4575.d.60E0CB8321F073BEB95B2C2707C6835C.e.732}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51984/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (07ac7463ba9001d46093c7008d9c5b66)] -> xpath: //h3[text()='Certificates']/parent::div]
+Session ID: 07ac7463ba9001d46093c7008d9c5b66
+2025-08-20 18:14:52 [main] ERROR: Test Failed :element click intercepted: Element <a class="" href="/admin/tests" style="flex: 1 1 0%; padding: 12px 0px; background: transparent; border: none; outline: none; font-weight: bold; color: rgb(34, 34, 34); cursor: pointer; font-size: 1rem; transition: background 0.2s; text-decoration: none; text-align: center;">...</a> is not clickable at point (1549, 22). Other element would receive the click: <header class="header">...</header>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07ac7463ba9001d46093c7008d9c5b66, clickElement {id=f.3AE044951A00BC9F3E886A9698FA4575.d.60E0CB8321F073BEB95B2C2707C6835C.e.759}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51984/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (07ac7463ba9001d46093c7008d9c5b66)] -> xpath: //a[@href='/admin/tests']]
+Session ID: 07ac7463ba9001d46093c7008d9c5b66
+2025-08-20 18:14:57 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-20 18:15:57 [main] ERROR: Table is not available in dashboard tab
+2025-08-20 18:23:00 [main] INFO : Launching Chrome Browser
+2025-08-20 18:23:00 [main] INFO : Report Name :LandDPage_Report.html
+2025-08-20 18:23:30 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-20 18:23:30 [main] INFO : Inside Login Page: Learning and Development
+2025-08-20 18:24:16 [main] INFO : Logged in to Learning and Development Application
+2025-08-20 18:24:20 [main] INFO : Learning and Development Page navigation Test
+2025-08-20 18:24:21 [main] INFO : Navigated to /my-courses
+2025-08-20 18:24:26 [main] INFO : Inside /my-courses Page 
+2025-08-20 18:24:26 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-20 18:24:28 [main] INFO : Navigated to /departments
+2025-08-20 18:24:33 [main] INFO : Inside /departments Page 
+2025-08-20 18:24:33 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-20 18:24:36 [main] INFO : Navigated to /certificates
+2025-08-20 18:24:41 [main] INFO : Inside /certificates Page 
+2025-08-20 18:24:41 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-20 18:24:43 [main] INFO : Navigated to /admin
+2025-08-20 18:24:43 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-20 18:24:44 [main] INFO : Navigated to /admin/courses
+2025-08-20 18:24:49 [main] INFO : Inside /admin/courses Tab in Admin Page 
+2025-08-20 18:24:49 [main] INFO : /admin/courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/courses
+2025-08-20 18:24:52 [main] INFO : Navigated to /admin/tests
+2025-08-20 18:24:57 [main] INFO : Inside /admin/tests Tab in Admin Page 
+2025-08-20 18:24:57 [main] INFO : /admin/tests Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/tests
+2025-08-20 18:25:00 [main] ERROR: Test Failed :element click intercepted: Element <a class="" href="/admin/roles" style="flex: 1 1 0%; padding: 12px 0px; background: transparent; border: none; outline: none; font-weight: bold; color: rgb(34, 34, 34); cursor: pointer; font-size: 1rem; transition: background 0.2s; text-decoration: none; text-align: center;">...</a> is not clickable at point (2118, 30). Other element would receive the click: <nav class="header-center">...</nav>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ff4152ceaf97a76cf53b02914750a99, clickElement {id=f.EB2B42CE9A5E04E8846FF54C33631CA8.d.DC2B8571852B9A6EA9B158FF24CE8F53.e.297}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54752}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54752/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3ff4152ceaf97a76cf53b02914750a99)] -> xpath: //a[@href='/admin/roles']]
+Session ID: 3ff4152ceaf97a76cf53b02914750a99
+2025-08-20 18:25:05 [main] INFO : Inside /admin/roles Tab in Admin Page 
+2025-08-20 18:25:05 [main] ERROR: /admin/roles Url is InValid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/tests
+2025-08-20 18:25:08 [main] ERROR: Test Failed :element click intercepted: Element <a class="" href="/admin/dashboard" style="flex: 1 1 0%; padding: 12px 0px; background: transparent; border: none; outline: none; font-weight: bold; color: rgb(34, 34, 34); cursor: pointer; font-size: 1rem; transition: background 0.2s; text-decoration: none; text-align: center;">...</a> is not clickable at point (411, 30). Other element would receive the click: <nav class="header-center">...</nav>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ff4152ceaf97a76cf53b02914750a99, clickElement {id=f.EB2B42CE9A5E04E8846FF54C33631CA8.d.DC2B8571852B9A6EA9B158FF24CE8F53.e.298}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54752}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54752/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3ff4152ceaf97a76cf53b02914750a99)] -> xpath: //a[@href='/admin/dashboard']]
+Session ID: 3ff4152ceaf97a76cf53b02914750a99
+2025-08-20 18:25:13 [main] INFO : Inside /admin/dashboard Tab in Admin Page 
+2025-08-20 18:25:13 [main] ERROR: /admin/dashboard Url is InValid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/tests
+2025-08-20 18:25:16 [main] INFO : Navigated to /Home
+2025-08-20 18:25:21 [main] INFO : Inside /Home Page 
+2025-08-20 18:25:21 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-20 18:25:23 [main] INFO : Home Page Ui test
+2025-08-20 18:25:23 [main] INFO : Home Page Header Content: Grow your skills, advance your career
+2025-08-20 18:25:23 [main] INFO : Home Page Description Content: Access all the learning resources you need to excel at CriticalRiver
+2025-08-20 18:25:24 [main] INFO : Start Learning Button Available
+2025-08-20 18:25:24 [main] INFO : Header: Browse Courses by Department
+2025-08-20 18:25:24 [main] INFO : Total Courses Card Count: 462
+2025-08-20 18:25:24 [main] INFO : Departments Card Count: 15
+2025-08-20 18:25:24 [main] INFO : Popular Courses Card Count: 5
+2025-08-20 18:25:24 [main] INFO : My Certificates Card Count: 0
+2025-08-20 18:25:24 [main] INFO : My Courses Card Count: 9
+2025-08-20 18:25:25 [main] INFO : Home Page Continue Learning test
+2025-08-20 18:25:26 [main] INFO : Continue Learning Header is correct: Continue Learning
+2025-08-20 18:25:27 [main] INFO : Continue Learning Course NameAirflow Beginner
+2025-08-20 18:25:27 [main] INFO : Continue Learning Progress Percentage: 100% complete
+2025-08-20 18:25:27 [main] INFO : Continue Learning Course Category: Data Engineering Tools
+2025-08-20 18:25:27 [main] INFO : Continue Learning Course Last Accessed: Last accessed: Recently
+2025-08-20 18:25:28 [main] INFO : Navigated to Course Video Page
+2025-08-20 18:25:29 [main] INFO : /course-videos Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-20 18:25:30 [main] INFO : Navigated to /Home
+2025-08-20 18:25:32 [main] INFO : Home Page Feature Courses test
+2025-08-20 18:25:33 [main] INFO : Feature Course List Contains : Airflow Beginner course
+2025-08-20 18:25:34 [main] INFO : Feature Course List Contains : Airflow Advanced course
+2025-08-20 18:25:35 [main] INFO : Feature Course List Contains : ABAP Beginner course
+2025-08-20 18:25:35 [main] INFO : Feature Course List Contains : Statistics Beginner course
+2025-08-20 18:25:36 [main] INFO : Feature Course List Contains : Automation Testing (Selenium) Beginner course
+2025-08-20 18:25:37 [main] INFO : Feature Courses contains Department Name: Data Science and AI
+2025-08-20 18:25:37 [main] INFO : Feature Courses contains Course Level: Beginner
+2025-08-20 18:25:37 [main] INFO : Feature Courses contains Name: Airflow Beginner
+2025-08-20 18:25:37 [main] INFO : Feature Courses contains Video Count: 🎥 1 Videos
+2025-08-20 18:25:37 [main] INFO : Feature Courses contains Duration: ⏱ 1 hrs 37 mins
+2025-08-20 18:25:40 [main] INFO : Course Enrollment message: Already enrolled in the course
+2025-08-20 18:25:40 [main] INFO : Home Page Browse Course By Department test
+2025-08-20 18:25:41 [main] INFO : Data Science and AI department is available
+2025-08-20 18:25:42 [main] INFO : Total Courses count for Data Science and AI: 43 courses
+2025-08-20 18:25:42 [main] INFO : ERP Application department is available
+2025-08-20 18:25:43 [main] INFO : Total Courses count for ERP Application: 35 courses
+2025-08-20 18:25:43 [main] INFO : Product Engineering Services department is available
+2025-08-20 18:25:44 [main] INFO : Total Courses count for Product Engineering Services: 29 courses
+2025-08-20 18:25:45 [main] INFO : Hardware and Validation department is available
+2025-08-20 18:25:45 [main] INFO : Total Courses count for Hardware and Validation: 21 courses
+2025-08-20 18:25:46 [main] INFO : H1B Staffing department is available
+2025-08-20 18:25:46 [main] INFO : Total Courses count for H1B Staffing: 21 courses
+2025-08-20 18:25:47 [main] INFO : Salesforce department is available
+2025-08-20 18:25:47 [main] INFO : Total Courses count for Salesforce: 28 courses
+2025-08-20 18:25:48 [main] INFO : DSIL department is available
+2025-08-20 18:25:48 [main] INFO : Total Courses count for DSIL: 49 courses
+2025-08-20 18:25:49 [main] INFO : Enterprise Architecture department is available
+2025-08-20 18:25:49 [main] INFO : Total Courses count for Enterprise Architecture: 34 courses
+2025-08-20 18:25:50 [main] INFO : Global Engineering Org department is available
+2025-08-20 18:25:50 [main] INFO : Total Courses count for Global Engineering Org: 69 courses
+2025-08-20 18:25:51 [main] INFO : Enterprise Integration department is available
+2025-08-20 18:25:52 [main] INFO : Total Courses count for Enterprise Integration: 27 courses
+2025-08-20 18:25:52 [main] INFO : India Public Sector department is available
+2025-08-20 18:25:53 [main] INFO : Total Courses count for India Public Sector: 36 courses
+2025-08-20 18:25:53 [main] INFO : Energy & Water department is available
+2025-08-20 18:25:54 [main] INFO : Total Courses count for Energy & Water: 18 courses
+2025-08-20 18:25:54 [main] INFO : Business Process Services department is available
+2025-08-20 18:25:55 [main] INFO : Total Courses count for Business Process Services: 23 courses
+2025-08-20 18:25:55 [main] INFO : Enabling Team department is available
+2025-08-20 18:25:56 [main] INFO : Total Courses count for Enabling Team: 29 courses
+2025-08-20 18:25:56 [main] INFO : Others department is available
+2025-08-20 18:25:57 [main] INFO : Total Courses count for Others: 0 courses
+2025-08-20 18:25:58 [main] INFO : Click View All Department Link
+2025-08-20 18:25:59 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-20 18:26:01 [main] INFO : Navigated to /Home
+2025-08-20 18:26:07 [main] INFO : Verify clicking on department card
+2025-08-20 18:26:12 [main] INFO : Navigated to Data Science and AI Department
+2025-08-20 18:26:18 [main] INFO : Navigated to /Home
+2025-08-20 18:26:21 [main] INFO : Navigated to Salesforce Department
+2025-08-20 18:26:27 [main] INFO : Navigated to /Home
+2025-08-20 18:26:28 [main] INFO : Verify Why Criticalriver Academy Info
+2025-08-20 18:26:28 [main] INFO : Academy Header :Why CriticalRiver Academy?
+2025-08-20 18:26:28 [main] INFO : Academy Reason youtube :▶️
+Learn from YouTube
+Access curated YouTube content organized by departments and skills, making it easy to find relevant learning materials.
+2025-08-20 18:26:28 [main] INFO : Academy Reason Certificates :📜
+Earn Certificates
+Complete courses and assessments to earn certificates that demonstrate your skills and expertise.
+2025-08-20 18:26:28 [main] INFO : Academy Reason Learning paths :🗺️
+Structured Learning Paths
+Follow department-specific learning paths designed to help you grow in your role and advance your career.
+2025-08-20 18:26:29 [main] INFO : Ready To StartReady to start learning?
+Take the first step in your learning journey with CriticalRiver Academy
+Explore All Courses
+2025-08-20 18:26:29 [main] INFO : Explore all courses
+2025-08-20 18:26:31 [main] INFO : Navigate to Profile Page
+2025-08-20 18:26:35 [main] INFO : Profile Page Information: Personal Information
+2025-08-20 18:26:35 [main] INFO : Profile Page Information: Full Name:
+Phani Kumar Maddi
+2025-08-20 18:26:35 [main] INFO : Profile Page Information: Email:
+phani.maddi@criticalriver.com
+2025-08-20 18:26:35 [main] INFO : Profile Page Information: Department:
+DSIL
+2025-08-20 18:26:35 [main] INFO : Profile Page Information: Job Title:
+Software Engineer
+2025-08-20 18:26:35 [main] INFO : Profile Page Information: Certifications
+2025-08-20 18:26:35 [main] INFO : Profile Page Information: No certifications
+2025-08-20 18:26:35 [main] INFO : Reserve Rigths: © 2025 CriticalRiver. All rights reserved.
+2025-08-20 18:26:37 [main] INFO : Navigated to /my-courses
+2025-08-20 18:26:37 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-20 18:26:38 [main] INFO : Navigated to /departments
+2025-08-20 18:26:38 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-20 18:26:40 [main] INFO : Navigated to /help-center
+2025-08-20 18:26:40 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/help-center
+2025-08-20 18:26:41 [main] INFO : Navigated to /feedback
+2025-08-20 18:26:41 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/feedback
+2025-08-20 18:26:43 [main] INFO : Navigated to /certificates
+2025-08-20 18:26:43 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-20 18:26:44 [main] INFO : Navigated to /profile
+2025-08-20 18:26:44 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/profile
+2025-08-20 18:26:45 [main] INFO : Social Media Links
+2025-08-20 18:26:45 [main] INFO : Navigated to Facebook
+2025-08-20 18:26:47 [main] INFO :  Url is Valid :https://www.facebook.com/criticalriver/
+2025-08-20 18:26:49 [main] INFO : Navigated to LinkedIn
+2025-08-20 18:26:51 [main] INFO :  Url is Valid :https://in.linkedin.com/company/criticalriver
+2025-08-20 18:26:55 [main] INFO : Navigated to Instagram
+2025-08-20 18:26:56 [main] INFO :  Url is Valid :https://www.instagram.com/criticalriver/?hl=en
+2025-08-20 18:26:58 [main] INFO : Navigated to Twitter
+2025-08-20 18:27:00 [main] INFO :  Url is Valid :https://x.com/CriticalRiver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+2025-08-20 18:27:04 [main] INFO : Navigated to /Home
+2025-08-20 18:27:04 [main] INFO : Navigated to /admin
+2025-08-20 18:27:04 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-20 18:27:07 [main] INFO : Certificates card Value: 3
+2025-08-20 18:27:07 [main] INFO : Departments card Value: 15
+2025-08-20 18:27:07 [main] INFO : Active Courses card Value: 462
+2025-08-20 18:27:07 [main] INFO : Users card Value: 22
+2025-08-20 18:27:09 [main] ERROR: Test Failed :element click intercepted: Element <div class="card" style="cursor: pointer;">...</div> is not clickable at point (786, 52). Other element would receive the click: <header class="header">...</header>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ff4152ceaf97a76cf53b02914750a99, clickElement {id=f.EB2B42CE9A5E04E8846FF54C33631CA8.d.5A97E2B24D8B752ECAC4A73D0E8BCB9D.e.682}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54752}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54752/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3ff4152ceaf97a76cf53b02914750a99)] -> xpath: //h3[text()='Certificates']/parent::div]
+Session ID: 3ff4152ceaf97a76cf53b02914750a99
+2025-08-20 18:27:09 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01
+2025-08-20 18:27:09 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Advanced N/A N/A
+2025-08-20 18:27:09 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Intermediate N/A N/A
+2025-08-20 18:27:09 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com ABAP Beginner N/A N/A
+2025-08-20 18:27:09 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com AWS Beginner N/A N/A
+2025-08-20 18:27:09 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com DBT Beginner N/A N/A
+2025-08-20 18:27:09 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Matplotlib Advanced N/A N/A
+2025-08-20 18:27:09 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Numpy Advanced N/A N/A
+2025-08-20 18:27:09 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Statistics Beginner N/A N/A
+2025-08-20 18:27:09 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com GCP Beginner N/A N/A
+2025-08-20 18:27:10 [main] INFO : View Certificates
+2025-08-20 18:27:16 [main] INFO : Close Certificate
+2025-08-20 18:27:18 [main] ERROR: Test Failed :element click intercepted: Element <div class="card" style="cursor: pointer;">...</div> is not clickable at point (786, 51). Other element would receive the click: <header class="header">...</header>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ff4152ceaf97a76cf53b02914750a99, clickElement {id=f.EB2B42CE9A5E04E8846FF54C33631CA8.d.5A97E2B24D8B752ECAC4A73D0E8BCB9D.e.682}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54752}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54752/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3ff4152ceaf97a76cf53b02914750a99)] -> xpath: //h3[text()='Certificates']/parent::div]
+Session ID: 3ff4152ceaf97a76cf53b02914750a99
+2025-08-20 18:27:19 [main] INFO : Search Functionality for User Management table
+2025-08-20 18:27:20 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-20 18:27:20 [main] INFO : Search Functionality for Course Statistics table
+2025-08-20 18:27:20 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-20 18:27:22 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-20 18:27:23 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-20 18:27:26 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-20 18:27:26 [main] INFO : Click Total Users
+2025-08-20 18:27:28 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-20 18:28:31 [main] ERROR: Clear filter not Available
+2025-08-20 18:28:33 [main] ERROR: Test Failed :element click intercepted: Element <a class="" href="/admin/tests" style="flex: 1 1 0%; padding: 12px 0px; background: transparent; border: none; outline: none; font-weight: bold; color: rgb(34, 34, 34); cursor: pointer; font-size: 1rem; transition: background 0.2s; text-decoration: none; text-align: center;">...</a> is not clickable at point (1549, 22). Other element would receive the click: <header class="header">...</header>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ff4152ceaf97a76cf53b02914750a99, clickElement {id=f.EB2B42CE9A5E04E8846FF54C33631CA8.d.5A97E2B24D8B752ECAC4A73D0E8BCB9D.e.882}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54752}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54752/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3ff4152ceaf97a76cf53b02914750a99)] -> xpath: //a[@href='/admin/tests']]
+Session ID: 3ff4152ceaf97a76cf53b02914750a99
+2025-08-20 18:28:38 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-20 18:28:43 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-20 18:28:43 [main] INFO : Search Functionality for Course Assessments table
+2025-08-20 18:28:44 [main] INFO : ✅ Search validation passed. All Values match: Meter Data Management Beginner
+2025-08-20 18:28:51 [main] INFO : Navigated to /admin/roles
+2025-08-20 18:28:51 [main] INFO : Search Functionality for User Management table
+2025-08-20 18:28:52 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-20 18:28:52 [main] INFO : Navigated to /admin/tests
+2025-08-20 18:28:57 [main] INFO : Selecting Course from dropdown: 210 - Airflow Beginner
+2025-08-20 18:28:58 [main] INFO : Selecting Assessment Number from dropdown: 1
+2025-08-20 18:28:59 [main] INFO : Enter Assessment or User Id: a6cb19b2-7acb-4ff3-9b4b-76572900d73e
+2025-08-20 18:29:00 [main] INFO : Click Generated button for: Create New Assessment
+2025-08-20 18:29:01 [main] INFO : Assessment Generated message: Self-assessment successfully created for course 210, test_id1
+2025-08-20 18:29:07 [main] INFO : Selecting Course from dropdown: 210 - Airflow Beginner
+2025-08-20 18:29:08 [main] INFO : Enter Assessment or User Id: 32
+2025-08-20 18:29:09 [main] INFO : Selecting Assessment Number from dropdown: Assessment 1
+2025-08-20 18:29:10 [main] INFO : Click Generated button for: Generate Assessment Link For User
+2025-08-20 18:29:12 [main] INFO : Assessment Generated message: Assessment link generated successfully: https://assess.wecreateproblems.com/tests/c2014a23-5a0a-4bf6-9ed0-ef73a1986867/instructions
+2025-08-20 18:29:13 [main] INFO : Navigated to /certificates
+2025-08-20 18:29:15 [main] INFO : Verify Certificate Header: My Certificates
+2025-08-20 18:29:15 [main] INFO : Verify Certificate List: No certificates have been completed
+2025-08-20 18:29:15 [main] INFO : Testing Ended
+2025-08-20 18:29:15 [main] INFO : ***********

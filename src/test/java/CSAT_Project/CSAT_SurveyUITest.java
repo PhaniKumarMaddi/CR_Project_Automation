@@ -29,7 +29,7 @@ public class CSAT_SurveyUITest extends CSAT_TestInitializer {
 		grep.testCreate("CSAT Page navigation Test", "CSAT Page navigation");
 		waitTime(driver);
 		csatPage.logoInHomePage();
-		csatPage.verifyProfileNameInHomePage(dataKeys.profileName);
+		csatPage.verifyProfileNameInHomePage(dataKeys.myProfileName);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Inside CSAT Page", "insideCSATPage");
 		waitTime(driver);
@@ -59,9 +59,9 @@ public class CSAT_SurveyUITest extends CSAT_TestInitializer {
 		waitTime(driver);
 		grep.infoTest("Navigating To Teams Page");
 		navigateToSettingsPagesTest(dataKeys.teams_Url);
-		
+
 		waitTime(driver);
-		
+
 		grep.infoTest("Navigating To Projects Page");
 		waitTime(driver);
 		refreshPage();
