@@ -59,10 +59,16 @@ public class L_And_D_Page extends WaitsManager {
 	// User Profile
 	By profileLogo = By.cssSelector("div.user-profile");
 	By profileBtn = By.xpath("//div[@class='user-profile']/div[2]/div[1]");
-	By profileInfo = By.cssSelector("div.profile-info-block");
+//	By profileInfo = By.cssSelector("div.profile-info-block");
+	By profileInfo = By.cssSelector("div.profile-info-block>div");
 
 	// Footer
 	By reserveRights = By.cssSelector("div.footer-bottom>p");
+
+//	By enrollMessage = By.xpath("//div[@id='monica-content-root']/following-sibling::div");
+	// body/div[3]
+	By enrollMessage = By
+			.xpath("//div[starts-with(@style,'position: fixed; top: 20px; left: 50%; transform: translateX(-50%); ')]");
 
 	// Navigate to Pages For Top
 	public void navigateToPage(String pageName) throws Exception {
@@ -197,12 +203,18 @@ public class L_And_D_Page extends WaitsManager {
 		try {
 			implWait(driver);
 
-			boolean elementExists = !driver.findElements(profileInfo).isEmpty();
-			if (elementExists) {
-				String info = driver.findElement(profileInfo).getText();
+//			boolean elementExists = !driver.findElements(profileInfo).isEmpty();			
+//			if (elementExists) {
+			List<WebElement> profile = driver.findElements(profileInfo);
+			if (profile.size() > 0) {
+				for (WebElement profileData : profile) {
+//					String info = driver.findElement(profileInfo).getText();
+					String info = profileData.getText();
 
-				grep.infoTest("Profile Page Information: " + info);
-				logger.info("Profile Page Information: " + info);
+					grep.infoTest("Profile Page Information: " + info);
+					logger.info("Profile Page Information: " + info);
+
+				}
 			} else {
 				grep.failTest("Profile Page Information Not available");
 				logger.error("Profile Page Information Not available");
@@ -620,6 +632,22 @@ public class L_And_D_Page extends WaitsManager {
 				grep.failTest(footerName + " Not Available");
 				logger.error(footerName + " Not Available");
 			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void courseEnrolledMessage() throws Exception {
+		try {
+			waitForElement(enrollMessage, 90);
+
+			String message = driver.findElement(enrollMessage).getText();
+			grep.passTest("Course Enrollment message: " + message);
+			logger.info("Course Enrollment message: " + message);
+
 		} catch (Exception e) {
 			e.printStackTrace();
 			grep.failTest("Test Failed :" + e.getMessage());

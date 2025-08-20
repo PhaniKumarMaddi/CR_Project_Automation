@@ -62,10 +62,12 @@ public class CSAT_SurveyPage extends WaitsManager {
 	By surveyTypeColInTable = By.xpath("//tr[@class='survey-table-row']/td[2]");
 	//
 	By closeSurveyDetailsPopup = By.cssSelector("img.close-img");
-	
+
 	// Add new Survey Type Test
-	By typeField = By.xpath("//input[@placeholder='Survey Type']");
-	By descField = By.xpath("//textarea[@name='description']");
+//	By typeField = By.xpath("//input[@placeholder='Survey Type']");
+//	By descField = By.xpath("//textarea[@name='description']");
+	By typeField = By.xpath("//div[@class='survey-form-form-group']/input");
+	By descField = By.xpath("//div[@class='survey-form-form-group']/textarea");
 	By surveyTypeError = By.xpath("//div[@class='MuiBox-root css-19kzrtu']/div[3]");
 
 	// Add New Survey Popup
@@ -78,19 +80,23 @@ public class CSAT_SurveyPage extends WaitsManager {
 
 	// section
 	By addNewSection = By.xpath("//button[text()=' Add New Section']");
-	By selectSectionName = By.xpath("//label[text()='Section Name']/following-sibling::select");
-	By customSectionName = By.xpath("//input[@placeholder='Custom Section Name']");
+//	By selectSectionName = By.xpath("//label[text()='Section Name']/following-sibling::select");
+	By selectSectionName = By.xpath("//label[starts-with(text(),'Section Name')]/following-sibling::select");
+//	By customSectionName = By.xpath("//input[@placeholder='Custom Section Name']");
+	By customSectionName = By.xpath("//label[starts-with(text(),'Section Name')]/following-sibling::input");
 	By sectionWeightage = By.cssSelector("input.survey-form-section-weightage");
 
 	// measure
 	By addMeasure = By.xpath("//button[text()=' Add Measure']");
-	By selectMeasureName = By.xpath("//label[text()='Measure Name']/following-sibling::select");
-	By customMeasureName = By.xpath("//input[@placeholder='Custom Measure Name']");
-
+//	By selectMeasureName = By.xpath("//label[text()='Measure Name']/following-sibling::select");
+//	By customMeasureName = By.xpath("//input[@placeholder='Custom Measure Name']");
+	By selectMeasureName = By.xpath("//label[starts-with(text(),'Measure Name ')]/following-sibling::select");
+	By customMeasureName = By.xpath("//label[starts-with(text(),'Measure Name ')]/following-sibling::input");
+	
 	// question
 	By addQuestion = By.xpath("//button[text()=' Add Question']");
-	By questionName = By.xpath("//label[text()='Question Name']/following-sibling::input");
-	By questionType = By.xpath("//label[text()='Question Type']/following-sibling::select");
+	By questionName = By.xpath("//label[starts-with(text(),'Question Name ')]/following-sibling::input");
+	By questionType = By.xpath("//label[starts-with(text(),'Question Type')]/following-sibling::select");
 	By questionOption = By.cssSelector("input.survey-form-option-input-reduced");
 	By optionWeightage = By.cssSelector("input.survey-form-option-input-weightage"); // 1 to 10
 	By addOptionBtn = By.xpath("//span[text()='Add option']");
@@ -106,7 +112,9 @@ public class CSAT_SurveyPage extends WaitsManager {
 	// Add Section in Edit
 	By editNewSection = By.xpath("//button[text()=' Add Section']");
 	By editSectionName = By.xpath("//input[@placeholder='Type section name...']");
-	By editSectionWeightage = By.xpath("//input[@placeholder='Enter weightage']");
+	By editSectionWeightage = By.xpath("//label[starts-with(text(),'Section Weight')]/following-sibling::input");
+			//input[@placeholder='Enter weightage']");
+	
 
 	// Add Measure in Edit
 	By editNewMeasure = By.xpath("//button[text()='Add Measure']");
@@ -483,7 +491,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 		}
 
 	}
-	
+
 	// close survey Details popups
 	public void clickCloseSurveyDetailsPopup() throws Exception {
 		try {
@@ -1343,6 +1351,27 @@ public class CSAT_SurveyPage extends WaitsManager {
 		}
 	}
 
+//	public void clickCloseSurvey() throws Exception {
+//		try {
+//			By button = By.cssSelector("button.survey-form-close-btn");
+//			implWait(driver);
+//
+//			boolean elementexists = !driver.findElements(button).isEmpty();
+//			if (elementexists) {
+//				waitForElementToBeClickable(button, 60);
+//				driver.findElement(button).click();
+//
+//			} else {
+//				grep.failTest("Survey Close Button Not Available");
+//				logger.error("utton Not Available");
+//			}
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//			grep.failTest("Test Failed :" + e.getMessage());
+//			logger.error("Test Failed :" + e.getMessage());
+//		}
+//	}
+
 	public void verifySurveyCreatedShownInTable(String surveyNameVal) throws Exception {
 		try {
 
@@ -1462,7 +1491,8 @@ public class CSAT_SurveyPage extends WaitsManager {
 	public void addSectionName_InEdit(String sectionName) throws Exception {
 		try {
 			implWait(driver);
-			List<WebElement> section = driver.findElements(editSectionName);
+//			List<WebElement> section = driver.findElements(editSectionName);
+			List<WebElement> section = driver.findElements(customSectionName);
 			if (section.size() > 0) {
 				section.getLast().click();
 				section.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
@@ -1525,7 +1555,8 @@ public class CSAT_SurveyPage extends WaitsManager {
 	public void addMeasureName_InEdit(String measureName) throws Exception {
 		try {
 			implWait(driver);
-			List<WebElement> element = driver.findElements(editMeasureName);
+//			List<WebElement> element = driver.findElements(editMeasureName);
+			List<WebElement> element = driver.findElements(customMeasureName);
 			if (element.size() > 0) {
 				element.getLast().click();
 				element.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);

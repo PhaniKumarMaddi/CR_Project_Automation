@@ -30,7 +30,8 @@ public class CSAT_Settings_OrgMember_Page extends WaitsManager {
 	By paginationEntries = By.cssSelector("select.items-per-page-select");
 
 	// Org members fields
-	By insertMailId = By.xpath("//input[@placeholder='Type email ID']");
+//	By insertMailId = By.xpath("//input[@placeholder='Type email ID']");
+	By insertMailId = By.cssSelector("div.email-input-wrapper>input");
 	By selectSuggestion = By.xpath("//li[@class='suggestion-item even'][1]/div[2]/span[2]");
 	By selectRoleDropdowm = By.xpath("//div[@title='Select Role']");
 

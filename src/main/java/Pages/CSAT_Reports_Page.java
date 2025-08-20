@@ -49,7 +49,7 @@ public class CSAT_Reports_Page extends WaitsManager {
 	By sendPDF = By.cssSelector("div.dashboard-export-option");
 	By downloadAT_ProjectWise = By.xpath("//button/img[@alt='Download']");
 
-	By selectSurveyMail = By.xpath("//span[text()='skill sync']");
+	By selectSurveyMail = By.xpath("//span[text()='CriticalRiver Feedback']");
 	By getEmailheader = By.xpath("//div[@class='x_email-container']/div[1]/h2");
 	By getEmailBody = By.xpath("//div[@class='x_email-container']/div[2]");
 	By getPDF = By.xpath("//div[@class='vkChN PQeLQ QEiYT']");

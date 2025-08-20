@@ -40,7 +40,9 @@ public class CSAT_Settings_Teams_Page extends WaitsManager {
 	By backToTeams = By.xpath("//button[text()='Teams']");
 
 	// Team Details fields
-	By insertMailId = By.xpath("//input[@placeholder='Type email ID']");
+//	By insertMailId = By.xpath("//input[@placeholder='Type email ID']");
+	By insertMailId = By.cssSelector("div.email-input-wrapper>input");
+
 	By selectSuggestion = By.xpath("//li[@class='suggestion-item even'][1]/div[2]/span[2]");
 	By selectRoleDropdowm = By.xpath("//div[@title='Select Role']");
 
@@ -369,26 +371,27 @@ public class CSAT_Settings_Teams_Page extends WaitsManager {
 
 		}
 	}
-		public void clearSearchUser() throws Exception {
-			try {
-				implWait(driver);
-				boolean elementExist = !driver.findElements(searchOrgMember).isEmpty();
-				if (elementExist) {
-					WebElement searchField = driver.findElement(searchOrgMember);
-					waitTime(driver);
-					searchField.sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
-					waitTime(driver);
-				} else {
-					grep.failTest("Search Field not Available");
-					logger.error("Search Field not Available");
-				}
-			} catch (Exception e) {
-				e.printStackTrace();
-				grep.failTest("Test Failed :" + e.getMessage());
-				logger.error("Test Failed :" + e.getMessage());
 
+	public void clearSearchUser() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(searchOrgMember).isEmpty();
+			if (elementExist) {
+				WebElement searchField = driver.findElement(searchOrgMember);
+				waitTime(driver);
+				searchField.sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				waitTime(driver);
+			} else {
+				grep.failTest("Search Field not Available");
+				logger.error("Search Field not Available");
 			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
 		}
+	}
 
 	public void verifySearchRelatedMember(String searchVal) throws Exception {
 		try {

@@ -121,6 +121,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 	public void enrollCourseInDepartment(String courseName) throws Exception {
 		try {
 			implWait(driver);
+			implWait(driver);
 			By enrollCourse = By.xpath("//h3[text()='" + courseName + "']/following-sibling::div[2]/button");
 
 			boolean elementExist = !driver.findElements(enrollCourse).isEmpty();
@@ -144,6 +145,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 	// Verify Cards in Admin Page DASHBOARD TAB
 	public void adminCardsText(String cardName) throws Exception {
 		try {
+			implWait(driver);
 			By adminCards = By.xpath("//h3[text()='" + cardName + "']/following-sibling::p");
 			boolean elementExist = !driver.findElements(adminCards).isEmpty();
 			if (elementExist) {
@@ -166,6 +168,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 	public void clickCertificateAdminCards() throws Exception {
 		try {
+			implWait(driver);
 			By adminCardsClick = By.xpath("//h3[text()='Certificates']/parent::div");
 
 			boolean elementExist = !driver.findElements(adminCardsClick).isEmpty();
@@ -188,6 +191,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 	public void getCertificateDetails(String tableName) throws Exception {
 		try {
+			implWait(driver);
 			By getTableData = By
 					.xpath("//h2[text()='" + tableName + "']/following-sibling::table[@class='course-table']/tbody/tr");
 			List<WebElement> table = driver.findElements(getTableData);
@@ -213,6 +217,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 // open certificate
 	public void openCertificate(String tableName) throws Exception {
 		try {
+			implWait(driver);
 			By getTableData = By.xpath(
 					"//h2[text()='" + tableName + "']/following-sibling::table[@class='course-table']/tbody/tr/td[4]");
 			List<WebElement> table = driver.findElements(getTableData);
@@ -235,6 +240,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 	public void clickCloseCertificate() throws Exception {
 		try {
+			implWait(driver);
 			By closeBtn = By.cssSelector("button.certificate-modal-close");
 
 			boolean elementExist = !driver.findElements(closeBtn).isEmpty();
@@ -259,6 +265,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 	// Search filter in table
 	public void searchDashboardTable(String tableName, String searchFieldName, String searchValue) throws Exception {
 		try {
+			implWait(driver);
 			By searchBy = By.xpath(
 					"//h2[text()='" + tableName + "']/following-sibling::div/input[@name='" + searchFieldName + "']");
 
@@ -284,6 +291,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 	public void clearDashboardTable(String tableName, String searchFieldName) throws Exception {
 		try {
+			implWait(driver);
 			By searchBy = By.xpath(
 					"//h2[text()='" + tableName + "']/following-sibling::div/input[@name='" + searchFieldName + "']");
 
@@ -307,6 +315,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 	public void verifyDataInTable(String tableName, String verifyValue) throws Exception {
 		try {
+			implWait(driver);
 			By searchBy = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table/tbody/tr");
 
 			List<WebElement> table = driver.findElements(searchBy);
@@ -345,6 +354,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 	// click total users and get user details
 	public void clickTotalUsersInDashboard(String tableName) throws Exception {
 		try {
+			implWait(driver);
 			By getTableData = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table/tbody/tr/td[3]");
 			List<WebElement> table = driver.findElements(getTableData);
 			if (table.size() > 0) {
@@ -364,8 +374,31 @@ public class L_And_D_OtherPages extends WaitsManager {
 		}
 	}
 
+//	public void getUserDetails(String tableName) throws Exception {
+//		try {
+//			By getTableData = By.xpath(
+//					"//h2[text()='" + tableName + "']/following-sibling::table[@class='course-table']/tbody/tr/td[3]");
+//			List<WebElement> table = driver.findElements(getTableData);
+//			if (table.size() > 0) {
+//				table.getFirst().click();
+//				grep.passTest("Click Total Users");
+//				logger.info("Click Total Users");
+//			} else {
+//				grep.failTest("No Users Enrolled");
+//				logger.error("No Users Enrolled");
+//			}
+//
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//			grep.failTest("Test Failed :" + e.getMessage());
+//			logger.error("Test Failed :" + e.getMessage());
+//
+//		}
+//	}
+
 	public void clearFilterButton() throws Exception {
 		try {
+			implWait(driver);
 			By clearFilter = By.xpath("//button[text()='Clear Course Filter (Show All Users)']");
 
 			boolean elementExist = !driver.findElements(clearFilter).isEmpty();
@@ -392,6 +425,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 	// Search filter in table
 	public void searchTestsTable(String tableName, String searchFieldName, String searchValue) throws Exception {
 		try {
+			implWait(driver);
 			By searchBy = By.xpath("//h3[text()='" + tableName + "']/following-sibling::div/input[@placeholder='"
 					+ searchFieldName + "']");
 
@@ -414,10 +448,12 @@ public class L_And_D_OtherPages extends WaitsManager {
 		}
 	}
 
-	public void clearTestsTable(String tableName, String searchFieldName) throws Exception {
+	public void clearTestsTable(String tableName) throws Exception {
 		try {
-			By searchBy = By.xpath("//h3[text()='" + tableName + "']/following-sibling::div/input[@placeholder='"
-					+ searchFieldName + "']");
+			implWait(driver);
+//			By searchBy = By.xpath("//h3[text()='" + tableName + "']/following-sibling::div/input[@placeholder='"
+//					+ searchFieldName + "']");
+			By searchBy = By.xpath("//h3[text()='" + tableName + "']/following-sibling::div[1]/button");
 			boolean elementExist = !driver.findElements(searchBy).isEmpty();
 			if (elementExist) {
 
@@ -439,6 +475,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 	public void verifyDataInTestTable(String tableName, String verifyValue) throws Exception {
 		try {
+			implWait(driver);
 			By searchBy = By.xpath("//h3[text()='" + tableName + "']/following-sibling::table/tbody/tr");
 
 			List<WebElement> table = driver.findElements(searchBy);
@@ -478,6 +515,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 	// Search filter in table
 	public void searchRolesTable(String tableName, String searchFieldName, String searchValue) throws Exception {
 		try {
+			implWait(driver);
 			By searchBy = By.xpath("//h1[text()='" + tableName + "']/following-sibling::div/input[@placeholder='"
 					+ searchFieldName + "']");
 
@@ -500,10 +538,12 @@ public class L_And_D_OtherPages extends WaitsManager {
 		}
 	}
 
-	public void clearRolesTable(String tableName, String searchFieldName) throws Exception {
+	public void clearRolesTable(String tableName) throws Exception {
 		try {
-			By searchBy = By.xpath("//h1[text()='" + tableName + "']/following-sibling::div/input[@placeholder='"
-					+ searchFieldName + "']");
+			implWait(driver);
+//			By searchBy = By.xpath("//h1[text()='" + tableName + "']/following-sibling::div/input[@placeholder='"
+//					+ searchFieldName + "']");
+			By searchBy = By.xpath("//h1[text()='" + tableName + "']/following-sibling::div[1]/button");
 			boolean elementExist = !driver.findElements(searchBy).isEmpty();
 			if (elementExist) {
 
@@ -524,6 +564,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 	public void verifyDataInRolesTable(String tableName, String verifyValue) throws Exception {
 		try {
+			implWait(driver);
 			By searchBy = By.xpath("//h1[text()='" + tableName + "']/following-sibling::table/tbody/tr");
 
 			List<WebElement> table = driver.findElements(searchBy);
@@ -563,6 +604,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 	public void selectCourseInAssessment(String content, String courseValues) throws Exception {
 		try {
+			implWait(driver);
 			By select_course = By.xpath("//h3[text()='" + content + "']/following-sibling::form/select[1]");
 			boolean elementExist = !driver.findElements(select_course).isEmpty();
 			if (elementExist) {
@@ -588,6 +630,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 	public void selectAssessment_number(String content, String assmtValues) throws Exception {
 		try {
+			implWait(driver);
 			By select_assmntNumber = By.xpath("//h3[text()='" + content + "']/following-sibling::form/select[2]");
 			boolean elementExist = !driver.findElements(select_assmntNumber).isEmpty();
 			if (elementExist) {
@@ -615,6 +658,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 	public void enter_Assmt_or_UserId(String content, String userId) throws Exception {
 		try {
+			implWait(driver);
 			By createAssmt_assmntId = By.xpath("//h3[text()='" + content + "']/following-sibling::form/input");
 			boolean elementExist = !driver.findElements(createAssmt_assmntId).isEmpty();
 			if (elementExist) {
@@ -638,6 +682,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 	public void clickCreateOrGenerate_Assessment(String content) throws Exception {
 		try {
+			implWait(driver);
 			By createAssmt_btn = By.xpath("//h3[text()='" + content + "']/following-sibling::form/button");
 			boolean elementExist = !driver.findElements(createAssmt_btn).isEmpty();
 			if (elementExist) {
@@ -660,6 +705,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 	public void generatedSuccessMessage(String content) throws Exception {
 		try {
+			implWait(driver);
 			By createAssmt_SuccessMsg = By.xpath("//h3[text()='" + content + "']/following-sibling::p");
 
 			waitForElement(createAssmt_SuccessMsg, 90);
@@ -678,6 +724,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 	public void certificatesPageTest() throws Exception {
 		try {
+			implWait(driver);
 			By certificateHeader = By.xpath("//section[@class='my-certificates-section']/div[1]");
 			By certificateList = By.xpath("//section[@class='my-certificates-section']/div[2]");
 

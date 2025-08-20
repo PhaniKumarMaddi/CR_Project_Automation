@@ -1,5 +1,6 @@
 package L_And_D_Pages;
 
+import java.awt.Scrollbar;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
@@ -9,6 +10,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 
 import Utility.DriverManager;
 import Utility.GenerateReports;
@@ -34,12 +36,17 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 
 	By completeTestMsg = By.xpath("//div[@class='coursevideos-player-meta']/span[3]");
 
+	By videoListCount = By.cssSelector("aside.coursevideos-sidebar>h2");
+	By pagination = By.cssSelector("div.pagination>select");
+
 	public void myCoursesHeader() throws Exception {
 		try {
 			implWait(driver);
 			boolean elementExist = !driver.findElements(coursesHeader).isEmpty();
 
 			if (elementExist) {
+				scrollView(coursesHeader);
+				waitTime(driver);
 				String header = driver.findElement(coursesHeader).getText();
 				String desc = driver.findElement(coursesDesc).getText();
 
@@ -316,4 +323,59 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 		}
 	}
 
+	public void getVideoListCount() throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExist = !driver.findElements(videoListCount).isEmpty();
+
+			if (elementExist) {
+				String videoCount = driver.findElement(videoListCount).getText();
+				String count = driver.findElement(By.xpath("//aside[@class='coursevideos-sidebar']/div[1]")).getText();
+				grep.infoTest("Video List Count :" + videoCount + " - " + count);
+				logger.info("Video List Count :" + videoCount + " - " + count);
+
+			} else {
+				grep.failTest("Course Not Found for percent");
+				logger.error("Course Not Found for percent");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void myCoursePagination(String paginationValue) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(pagination).isEmpty();
+			if (elementExist) {
+				scrollView(pagination);
+				waitTime(driver);
+				WebElement selectpaginate = driver.findElement(pagination);
+				Select selectValue = new Select(selectpaginate);
+				selectValue.selectByValue(paginationValue);
+				waitTime(driver);
+
+				grep.passTest("Selecting Pagination: " + selectValue.getFirstSelectedOption().getText());
+				logger.info("Selecting Pagination: " + selectValue.getFirstSelectedOption().getText());
+			} else {
+				grep.failTest("Selecting Pagination from dropdown Failed");
+				logger.error("Selecting Pagination from dropdown Failed");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// for scroll to view
+	public void scrollView(By locator) {
+		WebElement element = driver.findElement(locator);
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+	}
 }

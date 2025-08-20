@@ -22,6 +22,7 @@ public class L_And_D_TestDataKeys {
 	public String totCours_StatCard = "Total Courses";
 	public String mycertificate_StatCard = "My Certificates";
 	public String popCourse_StatCard = "Popular Courses";
+	public String myCourse_StatCard = "My Courses";
 
 	// Department Card Name
 	public String deptCard_DsAndAiLink = "/departments/Data Science and AI";
@@ -54,6 +55,7 @@ public class L_And_D_TestDataKeys {
 	public String airflowBeginnerCourse = "Airflow Beginner";
 	public String mdmBeginnerCourse = "Meter Data Management Beginner";
 	public String airflowAdvanceCourse = "Airflow Advanced";
+	public String azureBeginnerCourse = "Azure Beginner";
 
 	// admin dashboard cards
 	public String certificate_adminCard = "Certificates";

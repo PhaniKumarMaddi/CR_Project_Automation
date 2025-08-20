@@ -69,7 +69,8 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Enter Only spaces in Survey name field", "OnlySpaces_SurveyName_Field");
 		waitTime2(driver);
-		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
+//		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
+		csat_Survey.clickCloseSurveyPopups();
 		waitTime(driver);
 
 		// Entering Existing name in Survey name field for add New Survey Test
@@ -110,7 +111,8 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 
 		grep.captureScreenshot("pass", "Entering End date Previous than Start Date", "EndDate_Error_AddSurvey");
 		waitTime2(driver);
-		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
+//		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
+		csat_Survey.clickCloseSurveyPopups();
 		waitTime(driver);
 
 		// Saving without adding weightage or section
@@ -142,7 +144,8 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "Saving without adding section or weightage",
 				"withOut_SectionOrWeigth_Error_AddSurvey");
 		waitTime2(driver);
-		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
+//		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
+		csat_Survey.clickCloseSurveyPopups();
 		waitTime(driver);
 
 		// Saving with adding invalid characters in section name
@@ -304,7 +307,8 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		csat_Survey.verifySurveyTypeErrorMessage();
 		grep.captureScreenshot("pass", "Keeping Options Weightage as Blank ", "blankOption_Weightage_AddSurvey");
 		waitTime2(driver);
-		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
+//		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
+		csat_Survey.clickCloseSurveyPopups();
 		waitTime(driver);
 
 		// Adding only section without measure and question
@@ -790,8 +794,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		waitTime2(driver);
 		csat_Survey.clickButton(dataKeys.cancelBtn);
 		waitTime5(driver);
-		
-		
+
 		// Adding only section without measure and question and click save in edit popup
 		grep.testCreate("Adding only Section without adding Measure and Question in edit Survey",
 				"Adding only Section without adding Measure and Question");
@@ -810,10 +813,12 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		csat_Survey.clickAddSection_InEdit();
 		waitTime2(driver);
 		csat_Survey.addSectionName_InEdit(dataKeys.ownershipSectionName);
+//		csat_Survey.addCustomSectionName(dataKeys.ownershipSectionName);
 
 		grep.infoTest("Entered Section Name: " + dataKeys.ownershipSectionName);
 		logger.info("Entered Section Name: " + dataKeys.ownershipSectionName);
 
+		waitTime2(driver);
 		csat_Survey.addSectionWeightage_InEdit(dataKeys.weightage_50);
 		waitTime(driver);
 		grep.infoTest("Entered Section Weightage: " + dataKeys.weightage_50);
@@ -823,9 +828,10 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		csat_Survey.clickButton(dataKeys.saveBtn);
 		csat_Survey.verifySurveyTypeErrorMessage();
 		waitTime(driver);
-		grep.captureScreenshot("pass", "Adding Only Section without Measure,Question ", "create_OnlySection_EditSurvey");
+		grep.captureScreenshot("pass", "Adding Only Section without Measure,Question ",
+				"create_OnlySection_EditSurvey");
 		waitTime5(driver);
-		
+
 		// Adding section and measure without question and click save in edit popup
 
 		grep.testCreate("Adding Section and Measure without adding Question in edit Survey",
@@ -847,8 +853,8 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "Adding Section and Measure without Question ",
 				"create_WithoutQuestion_EditSurvey");
 		waitTime2(driver);
-		
-		// Keeping Weightage for Options  as blank and click save
+
+		// Keeping Weightage for Options as blank and click save
 		grep.testCreate("Keeping Options Weightage as Blank in edit Survey", "Keeping Options Weightage as Blank");
 		waitTime(driver);
 		logger.info("Keeping Options Weightage as Blank in edit Survey");
@@ -871,8 +877,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		waitTime2(driver);
 		csat_Survey.clickButton(dataKeys.cancelBtn);
 		waitTime(driver);
-		
-		
+
 		// Adding New Section,Measure,Question for existing survey Test
 		grep.testCreate("Adding New Section,Measure,Question for existing survey Test",
 				"Adding New Section,Measure,Question for existing survey");
@@ -959,18 +964,19 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "Added another Section, Measure, Question in edit popup",
 				"added_Another_Section_EditSurvey");
 		waitTime1(driver);
-		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
+//		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
+		csat_Survey.clickCloseEditSurveyPopups();
 		waitTime(driver);
-		
-		
-		// Adding one measure and question for existing section in edit Survey's details popup
+
+		// Adding one measure and question for existing section in edit Survey's details
+		// popup
 		grep.testCreate("Adding New Measure and Question for existing section Test",
 				"Adding New Measure and Question for existing section");
 		waitTime(driver);
 		logger.info("Adding New Measure and Question for existing section Test");
 		grep.infoTest("Adding New Measure and Question for existing section Test");
 		waitTime5(driver);
-		
+
 		csat_Survey.selectActionFromSurveyTable(dataKeys.surveyName, dataKeys.editProjectBtn);
 		waitTime2(driver);
 		csat_Survey.clickButton(dataKeys.questionButton);
@@ -1012,18 +1018,17 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		csat_Survey.scrollToButton(dataKeys.saveBtn);
 		waitTime(driver);
 		csat_Survey.clickButton(dataKeys.saveBtn);
-	
+
 		waitTime10(driver);
-		
+
 		// Adding one question for existing section in edit Survey's details popup
-	
-		grep.testCreate("Adding New Question for existing measure Test",
-				"Adding New Question for existing measure");
+
+		grep.testCreate("Adding New Question for existing measure Test", "Adding New Question for existing measure");
 		waitTime(driver);
 		logger.info("Adding New Question for existing measure Test");
 		grep.infoTest("Adding New Question for existing measure Test");
 		waitTime15(driver);
-		
+
 		csat_Survey.selectActionFromSurveyTable(dataKeys.surveyName, dataKeys.editProjectBtn);
 		waitTime2(driver);
 		csat_Survey.clickButton(dataKeys.questionButton);
@@ -1051,15 +1056,14 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		csat_Survey.clickButton(dataKeys.saveBtn);
 		waitTime10(driver);
-		
+
 		// Adding one option for existing question in edit Survey's details popup
-		grep.testCreate("Adding New option for existing Question Test",
-				"Adding New option for existing Question");
+		grep.testCreate("Adding New option for existing Question Test", "Adding New option for existing Question");
 		waitTime(driver);
 		logger.info("Adding New option for existing Question Test");
 		grep.infoTest("Adding New option for existing Question Test");
 		waitTime15(driver);
-		
+
 		csat_Survey.selectActionFromSurveyTable(dataKeys.surveyName, dataKeys.editProjectBtn);
 		waitTime2(driver);
 		csat_Survey.clickButton(dataKeys.questionButton);
@@ -1079,8 +1083,8 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		csat_Survey.scrollToButton(dataKeys.saveBtn);
 		waitTime(driver);
 		csat_Survey.clickButton(dataKeys.saveBtn);
-		waitTime15(driver);		
-	
+		waitTime15(driver);
+
 		// Deleting existing Section in edit Survey's details popup without saving
 		grep.testCreate("Deleting existing Section in edit Survey's details popup without saving",
 				"Deleting Existing section in edit survey detail popup without saving");
@@ -1088,7 +1092,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		logger.info("Deleting Existing section in edit survey detail popup without saving");
 		grep.infoTest("Deleting Existing section in edit survey detail popup without saving");
 		waitTime15(driver);
-		
+
 		csat_Survey.selectActionFromSurveyTable(dataKeys.surveyName, dataKeys.editProjectBtn);
 		waitTime2(driver);
 		csat_Survey.clickButton(dataKeys.questionButton);
@@ -1103,7 +1107,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		csat_Survey.clickButton(dataKeys.cancelBtn);
 
 		waitTime15(driver);
-		
+
 		grep.infoTest("Clicking Survey from Table");
 		logger.info("Clicking Survey from Table");
 		waitTime5(driver);
@@ -1117,9 +1121,10 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "After Deleting the section in edit popup",
 				"DeletingSection_WithoutSave_EditSurvey");
 		waitTime1(driver);
-		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
+//		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
+		csat_Survey.clickCloseEditSurveyPopups();
 		waitTime5(driver);
-		
+
 		// Deleting existing Section,Measure,Question in edit Survey's details popup
 		grep.testCreate("Deleting Existing section in edit survey detail popup Test",
 				"Deleting Existing section in edit survey detail popup");
@@ -1127,7 +1132,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		logger.info("Deleting Existing section in edit survey detail popup");
 		grep.infoTest("Deleting Existing section in edit survey detail popup");
 		waitTime15(driver);
-		
+
 		csat_Survey.selectActionFromSurveyTable(dataKeys.surveyName, dataKeys.editProjectBtn);
 		waitTime2(driver);
 		csat_Survey.clickButton(dataKeys.questionButton);
@@ -1136,8 +1141,7 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		waitTime5(driver);
 		csat_Survey.weightageInEditPopup(dataKeys.weightage_100);
 		waitTime2(driver);
-		grep.captureScreenshot("pass", "Deleting Existing Section In Edit",
-				"DeleteSection_EditSurvey");
+		grep.captureScreenshot("pass", "Deleting Existing Section In Edit", "DeleteSection_EditSurvey");
 		waitTime2(driver);
 		csat_Survey.scrollToButton(dataKeys.saveBtn);
 		waitTime(driver);
@@ -1153,10 +1157,10 @@ public class CSAT_AddNewSurveyTest extends CSAT_TestInitializer {
 		csat_Survey.surveyDetailHeaderValidation(dataKeys.surveyName);
 		waitTime(driver);
 		csat_Survey.verifyToggleArrow_InSurveyDetail();
-		grep.captureScreenshot("pass", "After Deleting the section in edit popup",
-				"After_Deleting_Section_EditSurvey");
+		grep.captureScreenshot("pass", "After Deleting the section in edit popup", "After_Deleting_Section_EditSurvey");
 		waitTime1(driver);
-		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
+//		csat_Survey.clickButtonsInSurveyPopup(dataKeys.buttonClose);
+		csat_Survey.clickCloseEditSurveyPopups();
 		waitTime5(driver);
 	}
 

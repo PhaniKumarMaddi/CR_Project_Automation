@@ -40,8 +40,8 @@ public class CSAT_SurveyUITest extends CSAT_TestInitializer {
 		grep.infoTest("Navigating To Survey Page");
 		navigateToAllPagesTest(dataKeys.survey_Url);
 
-		grep.infoTest("Navigating To Roles Page");
-		navigateToAllPagesTest(dataKeys.roles_Url);
+//		grep.infoTest("Navigating To Roles Page");
+//		navigateToAllPagesTest(dataKeys.roles_Url);
 
 		grep.infoTest("Navigating To Reports Page");
 		navigateToAllPagesTest(dataKeys.reports_Url);
@@ -57,6 +57,11 @@ public class CSAT_SurveyUITest extends CSAT_TestInitializer {
 		grep.infoTest("Navigating To Teams Page");
 		navigateToSettingsPagesTest(dataKeys.teams_Url);
 		waitTime(driver);
+		grep.infoTest("Navigating To Roles Page");
+		navigateToSettingsPagesTest(dataKeys.roles_Url);
+
+		waitTime(driver);
+		
 		grep.infoTest("Navigating To Projects Page");
 		waitTime(driver);
 		refreshPage();
@@ -64,7 +69,7 @@ public class CSAT_SurveyUITest extends CSAT_TestInitializer {
 		navigateToAllPagesTest(dataKeys.project_Url);
 
 		waitTime(driver);
-		
+
 		grep.captureScreenshot("pass", "Menu Expanded", "expandMenu");
 
 		validAssert.assertAllFunction();

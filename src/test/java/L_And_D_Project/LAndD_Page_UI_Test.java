@@ -72,10 +72,11 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 		logger.info("Home Page Ui test");
 		lndPage.validateHomePageHeader();
 		lndPage.clickStartLearning();
-		lndPage.homePageStatCards(dataKeys.dept_StatCard);
 		lndPage.homePageStatCards(dataKeys.totCours_StatCard);
-		lndPage.homePageStatCards(dataKeys.mycertificate_StatCard);
+		lndPage.homePageStatCards(dataKeys.dept_StatCard);
 		lndPage.homePageStatCards(dataKeys.popCourse_StatCard);
+		lndPage.homePageStatCards(dataKeys.mycertificate_StatCard);
+		lndPage.homePageStatCards(dataKeys.myCourse_StatCard);
 
 		grep.captureScreenshot("pass", "Home page ui test", "homePageHeader_lnd");
 		waitTime(driver);
@@ -103,12 +104,9 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 		grep.captureScreenshot("pass", "Home Page Feature Course test", "FeatureCoursesTest");
 		waitTime(driver);
 		lndPage.clickFeatureCourseEnrollButton();
+		lndPage.courseEnrolledMessage();
 		waitTime(driver);
-		isAlertPresent();
-		waitTime(driver);
-		acceptalert();
-		waitTime(driver);
-
+		
 		grep.testCreate("Home Page Browse Course By Department Test", "Browse Course By Department");
 		grep.infoTest("Home Page Browse Course By Department test");
 		logger.info("Home Page Browse Course By Department test");

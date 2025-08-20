@@ -60,7 +60,7 @@ public class CSAT_Popup_Page extends WaitsManager {
 	// All are same as per survey sent
 
 	// Fill Form in Outlook
-	By selectSurveyMail = By.xpath("//span[text()='skill sync']");
+	By selectSurveyMail = By.xpath("//span[text()='CriticalRiver Feedback']");
 	By takeSurvey = By.xpath("//a[@class='x_survey-button'and text()='Take the Survey']");
 
 	// Feedback Form

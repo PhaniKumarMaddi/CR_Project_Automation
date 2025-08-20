@@ -27,7 +27,8 @@ public class CSAT_RolesTest extends CSAT_TestInitializer {
 		csatPage = new CSAT_Survey_AllPages();
 		csatRole = new CSAT_Roles_Page();
 
-		csatPage.navigateToPage(dataKeys.roles_Url);
+//		csatPage.navigateToPage(dataKeys.roles_Url);
+		csatPage.navigateToSettingsPage(dataKeys.roles_Url);
 		waitTime3(driver);
 		csatPage.expandSideMenu();
 		waitTime(driver);
