@@ -40,8 +40,8 @@ public class CSAT_SurveyUITest extends CSAT_TestInitializer {
 		grep.infoTest("Navigating To Survey Page");
 		navigateToAllPagesTest(dataKeys.survey_Url);
 
-//		grep.infoTest("Navigating To Roles Page");
-//		navigateToAllPagesTest(dataKeys.roles_Url);
+		grep.infoTest("Navigating To Clients Page");
+		navigateToAllPagesTest(dataKeys.clientsUrl);
 		waitTime(driver);
 		grep.infoTest("Navigating To Roles Page");
 		navigateToSettingsPagesTest(dataKeys.roles_Url);

@@ -45,12 +45,12 @@ public class TestDataKeys {
 	public String ssoUserNameContributor = "pavan_kumar@skillsynccr.onmicrosoft.com";
 	public String ssoPasswordContributor = "Nuxo857581#";
 
-	
 	// pages url
 	public String project_Url = "/projects";
 	public String survey_Url = "/surveys";
 	public String roles_Url = "/roles";
 	public String reports_Url = "/reports";
+	public String clientsUrl = "/clients";
 	public String orgMembers_Url = "/settings/org-members";
 	public String teams_Url = "/settings/teams";
 	public String profile_Url = "/profile";
@@ -70,7 +70,7 @@ public class TestDataKeys {
 	public String teamsPage = "Teams";
 	public String profilePage = "Profile";
 	public String clientsPage = "Clients";
-	public String orgMemberHeader= "Organization Members";
+	public String orgMemberHeader = "Organization Members";
 
 	// PROJECT PAGE UI
 	public String sentSurveyHeader = "Surveys Sent";
@@ -93,7 +93,7 @@ public class TestDataKeys {
 	public String updateBtn = "Update";
 	public String closeBtn = "Close";
 	public String questionButton = "Questions";
-	
+
 	// COLUMN OPTIONS
 	public String colOptions = "Column Options";
 	public String projectName_ColOption = "Project Name";
@@ -289,7 +289,7 @@ public class TestDataKeys {
 	public String surveyName = "CSAT Test Automation";
 	public String surveyNameMultiple = "Test Automation Survey";
 	public String existingSurveyName = "Review";
-	
+
 	public String deliverySectionOption = "Delivery";
 	public String serviceLevelSectionName = "Service Level Management";
 	public String ownershipSectionName = "Ownership";
@@ -298,7 +298,7 @@ public class TestDataKeys {
 	public String accountabilitySectionName = "Accountability";
 	public String testingSectionName = "Testing Section";
 	public String customSectionName = "➕ Add Custom Section";
-	
+
 	public String slaMeasureName = "SLA";
 	public String capabilityMeasureName = "Capabilities";
 	public String qualityMeasureName = "Quality";
@@ -306,7 +306,7 @@ public class TestDataKeys {
 	public String commitmentMeasureName = "Commitment";
 	public String testingMeasureName = "Testing Measure";
 	public String customMeasureName = "➕ Add Custom Measure";
-	
+
 	public String multipleChoiceQuestionType = "Multiple Choice";
 	public String checkBoxQuestionType = "Checkboxes";
 	public String dropdownQuestionType = "Dropdown";
@@ -330,21 +330,32 @@ public class TestDataKeys {
 	public String weightage_100 = "100";
 	public String weightage_Less_100 = "10";
 	public String weightage_great_100 = "200";
-	
-	
-	
+
 	// ROLES PAGE
-	public String adminRole= "Administrator";
+	public String adminRole = "Administrator";
 	public String ownerRole = "Owner";
-	public String contributorRole= "Contributor";
-	public String ReaderRole= "Reader";
-	
-	public String roleColHeader= "Role";
-	public String DescColHeader= "Description";
-	public String lastModifiedBy_ColHeader= "Last Modified By";
-	public String lastModifiedOn_ColHeader= "Last Modified On";
+	public String contributorRole = "Contributor";
+	public String ReaderRole = "Reader";
+
+	public String roleColHeader = "Role";
+	public String DescColHeader = "Description";
+	public String lastModifiedBy_ColHeader = "Last Modified By";
+	public String lastModifiedOn_ColHeader = "Last Modified On";
 
 	public String userNameSearch = "Jhansi Raj";
 	public String userNameSearch_InTeam = "Jhansi Raj Todiganji";
-}
 
+	// CLIENTS PAGE
+	public String aaa_Client = "AAA";
+	public String accenture_Client = "Accenture";
+	public String addOwner_btn = "Add Owner";
+	public String editOwner_btn = "Edit Owners";
+
+	public String addOwnerContactName = "Phani Maddi";
+	public String ownerContactEmail = "phani.maddi@criticalriver.com";
+
+	public String updateOwnerContactName = "Phani Maddi";
+
+	public String duplicateQwnerContactName = "Christopher Vialva";
+	public String duplicateOwnerContactEmail = "chris.vialva@criticalriver.com";
+}
