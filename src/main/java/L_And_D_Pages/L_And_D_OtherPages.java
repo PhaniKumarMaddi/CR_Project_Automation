@@ -29,9 +29,13 @@ public class L_And_D_OtherPages extends WaitsManager {
 	}
 
 	By searchDept = By.xpath("//input[@placeholder='Search departments...']");
+	By noDeptMsg = By.cssSelector("div.no-results>p");
+	By clearDeptBtn = By.cssSelector("button.clear-filter-btn");
 
 	By deptpageInfo = By.cssSelector("div.department-info>h1");
 	By searchCourse = By.xpath("//input[@class='search-input']");
+	By noCourseMsg = By.cssSelector("div.no-courses-message>p");
+
 	By adminHeader = By.xpath("//span[text()='Admin - CriticalRiver Learning & Development']");
 
 	// search department
@@ -92,6 +96,52 @@ public class L_And_D_OtherPages extends WaitsManager {
 		}
 	}
 
+	public void getNonExistingDeptMsg() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(noDeptMsg).isEmpty();
+
+			if (elementExist) {
+
+				String msg = driver.findElement(noDeptMsg).getText();
+				grep.passTest("No Department Found Message: " + msg);
+				logger.info("No Department Found Message: " + msg);
+				waitTime(driver);
+//				driver.findElement(By.cssSelector("button.clear-filter-btn")).click();
+			} else {
+
+				grep.failTest("Seach non existing department failed");
+				logger.error("Seach non existing department failed");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void clearSearch() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(clearDeptBtn).isEmpty();
+
+			if (elementExist) {
+
+				driver.findElement(clearDeptBtn).click();
+			} else {
+
+				grep.failTest("Seach non existing department failed");
+				logger.error("Seach non existing department failed");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
 	// search courses
 	public void searchCoursesInDept(String coursename) throws Exception {
 		try {
@@ -133,6 +183,31 @@ public class L_And_D_OtherPages extends WaitsManager {
 			} else {
 				grep.failTest("Seach department Element Not Found");
 				logger.error("Seach department Element Not Found");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void getNonExistingCourseMsg() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(noCourseMsg).isEmpty();
+
+			if (elementExist) {
+
+				String msg = driver.findElement(noCourseMsg).getText();
+				grep.passTest("No Course Found Message: " + msg);
+				logger.info("No Course Found Message: " + msg);
+				waitTime(driver);
+//				driver.findElement(By.cssSelector("button.clear-filter-btn")).click();
+			} else {
+
+				grep.failTest("Seach non existing department failed");
+				logger.error("Seach non existing department failed");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

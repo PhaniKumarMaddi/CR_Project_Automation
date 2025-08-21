@@ -38577,3 +38577,116 @@ Software Engineer
 2025-08-21 12:34:53 [main] INFO : Navigated to /Home
 2025-08-21 12:34:54 [main] INFO : Testing Ended
 2025-08-21 12:34:54 [main] INFO : ***********
+2025-08-21 13:16:12 [main] INFO : Launching Chrome Browser
+2025-08-21 13:16:13 [main] INFO : Report Name :LandD_Page.html
+2025-08-21 13:16:14 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-21 13:16:14 [main] INFO : Inside Login Page: Learning and Development
+2025-08-21 13:17:07 [main] INFO : Logged in to Learning and Development Application
+2025-08-21 13:17:07 [main] INFO : Navigated to /admin
+2025-08-21 13:17:08 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-21 13:17:11 [main] INFO : Certificates card Value: 3
+2025-08-21 13:17:11 [main] INFO : Departments card Value: 15
+2025-08-21 13:17:11 [main] INFO : Active Courses card Value: 462
+2025-08-21 13:17:11 [main] INFO : Users card Value: 22
+2025-08-21 13:17:12 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01T14:42:26
+2025-08-21 13:17:12 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19T09:30:30
+2025-08-21 13:17:12 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19T11:11:46
+2025-08-21 13:17:13 [main] INFO : View Certificates
+2025-08-21 13:17:18 [main] INFO : Close Certificate
+2025-08-21 13:17:20 [main] INFO : Search Functionality for User Management table
+2025-08-21 13:17:21 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-21 13:17:21 [main] INFO : Search Functionality for Course Statistics table
+2025-08-21 13:17:21 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-21 13:17:24 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-21 13:17:24 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-21 13:17:27 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-21 13:17:28 [main] INFO : Click Total Users
+2025-08-21 13:17:29 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-21 13:18:32 [main] ERROR: Clear filter not Available
+2025-08-21 13:18:34 [main] ERROR: Test Failed :element click intercepted: Element <a class="" href="/admin/tests" style="flex: 1 1 0%; padding: 12px 0px; background: transparent; border: none; outline: none; font-weight: bold; color: rgb(34, 34, 34); cursor: pointer; font-size: 1rem; transition: background 0.2s; text-decoration: none; text-align: center;">...</a> is not clickable at point (1549, 22). Other element would receive the click: <header class="header">...</header>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6fc29cc29e535fd9b68713366733615, clickElement {id=f.7DEEF44BA827C9B729AB4ADE93C653A2.d.CBEB5318D7B01E6B7B6EFE2A3606EE87.e.446}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52631}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52631/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e6fc29cc29e535fd9b68713366733615)] -> xpath: //a[@href='/admin/tests']]
+Session ID: e6fc29cc29e535fd9b68713366733615
+2025-08-21 13:18:39 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-21 13:18:46 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-21 13:18:47 [main] INFO : Search Functionality for Course Assessments table
+2025-08-21 13:18:47 [main] INFO : ✅ Search validation passed. All Values match: Meter Data Management Beginner
+2025-08-21 13:19:23 [main] INFO : Launching Chrome Browser
+2025-08-21 13:19:23 [main] INFO : Report Name :LandD_Page.html
+2025-08-21 13:19:24 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-21 13:19:24 [main] INFO : Inside Login Page: Learning and Development
+2025-08-21 13:19:50 [main] INFO : Logged in to Learning and Development Application
+2025-08-21 13:19:54 [main] INFO : Searching the non existing department test
+2025-08-21 13:19:54 [main] INFO : Navigated to /departments
+2025-08-21 13:19:55 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-21 13:20:00 [main] INFO : Searching the non existing course test
+2025-08-21 13:20:00 [main] INFO : Navigated to /departments
+2025-08-21 13:20:01 [main] INFO : Searching Data Science and AI Name
+2025-08-21 13:20:03 [main] INFO : Exploring Data Science and AI Name
+2025-08-21 13:20:04 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-21 13:20:10 [main] INFO : Explore Department and Enroll Course test
+2025-08-21 13:20:13 [main] INFO : Navigated to /departments
+2025-08-21 13:20:15 [main] INFO : Searching Data Science and AI Name
+2025-08-21 13:20:18 [main] INFO : Exploring Data Science and AI Name
+2025-08-21 13:20:19 [main] INFO : Searching Azure Beginner Name
+2025-08-21 13:20:20 [main] INFO : Enrolling Azure Beginner Course
+2025-08-21 13:20:21 [main] INFO : Course Enrollment message: Already enrolled in the course
+2025-08-21 13:20:26 [main] INFO : Navigated to /my-courses
+2025-08-21 13:20:30 [main] INFO : Selecting Pagination: 30
+2025-08-21 13:20:32 [main] INFO : Enrolled Course Card Details test
+2025-08-21 13:20:32 [main] INFO : Course Category for Azure Beginner: Cloud
+2025-08-21 13:20:32 [main] INFO : Course Level for Azure Beginner: Beginner
+2025-08-21 13:20:32 [main] INFO : Course Video Count for Azure Beginner: 🎥 Videos : 40
+2025-08-21 13:20:32 [main] INFO : Course Duration for Azure Beginner: ⏱ Duration : 7 hrs 15 mins
+2025-08-21 13:20:32 [main] INFO : Course Progress percent for Azure Beginner: Progress: 0%
+2025-08-21 13:20:32 [main] INFO : Course Enrolled Successful:Azure Beginner
+2025-08-21 13:20:37 [main] INFO : Header : My Courses
+2025-08-21 13:20:37 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-21 13:20:37 [main] INFO : Inside In progress Tab
+2025-08-21 13:20:38 [main] INFO : Inside Completed Tab
+2025-08-21 13:20:39 [main] INFO : Inside All courses Tab
+2025-08-21 13:20:47 [main] INFO : Continue and update progress for Course test
+2025-08-21 13:20:48 [main] INFO : Progress Percent :Progress: 28%
+2025-08-21 13:22:05 [main] INFO : Launching Chrome Browser
+2025-08-21 13:22:06 [main] INFO : Report Name :LandD_Page.html
+2025-08-21 13:22:08 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-21 13:22:08 [main] INFO : Inside Login Page: Learning and Development
+2025-08-21 13:22:33 [main] INFO : Logged in to Learning and Development Application
+2025-08-21 13:22:41 [main] INFO : Searching the non existing department test
+2025-08-21 13:22:41 [main] INFO : Navigated to /departments
+2025-08-21 13:22:42 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-21 13:22:43 [main] INFO : No Department Found Message: No departments found matching "@#$%^&*(#$%^"
+2025-08-21 13:22:48 [main] INFO : Searching the non existing course test
+2025-08-21 13:22:48 [main] INFO : Navigated to /departments
+2025-08-21 13:22:49 [main] INFO : Searching Data Science and AI Name
+2025-08-21 13:22:51 [main] INFO : Exploring Data Science and AI Name
+2025-08-21 13:22:52 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-21 13:22:52 [main] INFO : No Course Found Message: No courses found
+2025-08-21 13:23:00 [main] INFO : Explore Department and Enroll Course test
+2025-08-21 13:23:02 [main] INFO : Navigated to /departments
+2025-08-21 13:23:05 [main] INFO : Searching Data Science and AI Name
+2025-08-21 13:23:08 [main] INFO : Exploring Data Science and AI Name
+2025-08-21 13:23:09 [main] INFO : Searching Azure Beginner Name
+2025-08-21 13:23:10 [main] INFO : Enrolling Azure Beginner Course
+2025-08-21 13:23:11 [main] INFO : Course Enrollment message: Already enrolled in the course
+2025-08-21 13:23:16 [main] INFO : Navigated to /my-courses
+2025-08-21 13:23:20 [main] INFO : Selecting Pagination: 30
+2025-08-21 13:23:21 [main] INFO : Enrolled Course Card Details test
+2025-08-21 13:23:22 [main] INFO : Course Category for Azure Beginner: Cloud
+2025-08-21 13:23:22 [main] INFO : Course Level for Azure Beginner: Beginner
+2025-08-21 13:23:22 [main] INFO : Course Video Count for Azure Beginner: 🎥 Videos : 40
+2025-08-21 13:23:22 [main] INFO : Course Duration for Azure Beginner: ⏱ Duration : 7 hrs 15 mins
+2025-08-21 13:23:22 [main] INFO : Course Progress percent for Azure Beginner: Progress: 0%
+2025-08-21 13:23:22 [main] INFO : Course Enrolled Successful:Azure Beginner
+2025-08-21 13:23:26 [main] INFO : Header : My Courses
+2025-08-21 13:23:26 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-21 13:23:27 [main] INFO : Inside In progress Tab
+2025-08-21 13:23:27 [main] INFO : Inside Completed Tab
+2025-08-21 13:23:28 [main] INFO : Inside All courses Tab
+2025-08-21 13:23:36 [main] INFO : Continue and update progress for Course test
+2025-08-21 13:23:38 [main] INFO : Progress Percent :Progress: 28%

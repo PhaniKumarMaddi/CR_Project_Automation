@@ -25,6 +25,7 @@ public class L_And_D_TestDataKeys {
 	public String myCourse_StatCard = "My Courses";
 
 	// Department Card Name
+	public String invalid_Search = "@#$%^&*(#$%^";
 	public String deptCard_DsAndAiLink = "/departments/Data Science and AI";
 	public String deptCard_SfdcLink = "/departments/Salesforce";
 	public String dept_DsAndAi = "Data Science and AI";

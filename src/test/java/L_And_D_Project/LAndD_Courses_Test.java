@@ -19,7 +19,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 	L_And_D_OtherPages lndOther;
 	L_And_D_TestDataKeys dataKeys = new L_And_D_TestDataKeys();
 
-	@Test(priority = 1 ,enabled = false)
+	@Test(priority = 1)
 	public void l_and_d_MyCourses() throws Exception {
 		lndPage = new L_And_D_Page();
 		lndCoursePage = new L_And_D_MyCoursesPage();
@@ -27,6 +27,48 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 
 		refreshPage();
 		waitTime2(driver);
+
+		grep.testCreate("Searching the non existing department test", "Searching the non existing department");
+
+		waitTime(driver);
+		grep.infoTest("Searching the non existing department test");
+		logger.info("Searching the non existing department test");
+
+		lndPage.navigateToPage(dataKeys.depatmentsPageUrl);
+		waitTime(driver);
+		lndOther.searchDepartment(dataKeys.invalid_Search);
+		waitTime(driver);
+		lndOther.getNonExistingDeptMsg();
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Search Non Existing Department", "searchNonExisting_Department_inDept");
+
+		waitTime2(driver);
+		lndOther.clearSearch();
+		waitTime(driver);
+
+		grep.testCreate("Searching the non existing course test", "Searching the non existing course");
+
+		waitTime(driver);
+		waitTime(driver);
+		grep.infoTest("Searching the non existing course test");
+		logger.info("Searching the non existing course test");
+
+		lndPage.navigateToPage(dataKeys.depatmentsPageUrl);
+		waitTime(driver);
+		lndOther.searchDepartment(dataKeys.dept_DsAndAi);
+		waitTime(driver);
+		lndOther.selectAndExploreDepartment(dataKeys.dept_DsAndAi);
+		waitTime(driver);
+		lndOther.searchCoursesInDept(dataKeys.invalid_Search);
+		waitTime(driver);
+		lndOther.getNonExistingCourseMsg();
+		waitTime(driver);
+
+		grep.captureScreenshot("pass", "Search Non Existing Course", "searchNonExisting_Course_inDept");
+
+		waitTime(driver);
+		lndOther.clearSearch();
+		waitTime3(driver);
 
 		// exploring the department and enrolling the course
 		exploreAndEnrollCourse(dataKeys.dept_DsAndAi, dataKeys.azureBeginnerCourse);
@@ -150,7 +192,6 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		lndOther.clearDashboardTable(dataKeys.courseStctTable_dashboard, dataKeys.courseName_column_Dashboard);
 		waitTime2(driver);
 		lndOther.clearFilterButton();
-		
 
 		// Test Tab in admin
 		grep.testCreate("Search Functionality for tables in Tests Tab test", "Search filter Tables in tests");
@@ -180,7 +221,6 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 
 		lndOther.verifyDataInTestTable(dataKeys.course_Ass_table_Test, dataKeys.mdmBeginnerCourse);
 		lndOther.clearTestsTable(dataKeys.course_Ass_table_Test);
-		
 
 		waitTime2(driver);
 
@@ -300,13 +340,14 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 	}
 
 	public void exploreAndEnrollCourse(String deptName, String courseName) throws Exception {
+		waitTime2(driver);
 		grep.testCreate("Explore Department and Enroll Course test", "Explore Department and Enroll Course");
 		waitTime(driver);
 		grep.infoTest("Explore Department and Enroll Course test");
 		logger.info("Explore Department and Enroll Course test");
-
+		waitTime2(driver);
 		lndPage.navigateToPage(dataKeys.depatmentsPageUrl);
-		waitTime(driver);
+		waitTime2(driver);
 		lndOther.searchDepartment(deptName);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Search Department", "searchDepartment_inDept");
