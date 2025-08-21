@@ -172,22 +172,35 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 			implWait(driver);
 			By unenroll = By
 					.xpath("//h3[text()='" + courseName + "']/parent::div/div[2]/button[@class='unenroll-btn']");
-			By unEnrollMessage = By.xpath("//div[@class='my-courses']/section/div/div");
 
 			boolean elementExist = !driver.findElements(unenroll).isEmpty();
 			if (elementExist) {
 
 				driver.findElement(unenroll).click();
-				waitForElement(unEnrollMessage, 30);
-
-				String message = driver.findElement(unEnrollMessage).getText();
-				grep.passTest("Course Enrollment message: " + message);
-				logger.info("Course Enrollment message: " + message);
-
+				grep.passTest("Un Enrolling " + courseName + " Course");
+				logger.info("Un Enrolling " + courseName + " Course");
 			} else {
-				grep.failTest("Course Not Found");
-				logger.error("Course Not Found");
+				grep.failTest("UnEnroll Course Not Found");
+				logger.error("UnEnroll Course Not Found");
 			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void getUnEnrollMessage() throws Exception {
+		try {
+			By unEnrollMessage = By
+					.xpath("//div[@class='Toastify__toast Toastify__toast-theme--light Toastify__toast--success']");
+			waitForElement(unEnrollMessage, 90);
+
+			String message = driver.findElement(unEnrollMessage).getText();
+			grep.passTest("Course Enrollment message: " + message);
+			logger.info("Course Enrollment message: " + message);
+
 		} catch (Exception e) {
 			e.printStackTrace();
 			grep.failTest("Test Failed :" + e.getMessage());

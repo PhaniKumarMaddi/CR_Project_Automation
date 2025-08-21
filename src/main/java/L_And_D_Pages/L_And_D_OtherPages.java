@@ -171,7 +171,6 @@ public class L_And_D_OtherPages extends WaitsManager {
 	public void enrollCourseInDepartment(String courseName) throws Exception {
 		try {
 			implWait(driver);
-			implWait(driver);
 			By enrollCourse = By.xpath("//h3[text()='" + courseName + "']/following-sibling::div[2]/button");
 
 			boolean elementExist = !driver.findElements(enrollCourse).isEmpty();
@@ -181,8 +180,8 @@ public class L_And_D_OtherPages extends WaitsManager {
 				grep.passTest("Enrolling " + courseName + " Course");
 				logger.info("Enrolling " + courseName + " Course");
 			} else {
-				grep.failTest("Seach department Element Not Found");
-				logger.error("Seach department Element Not Found");
+				grep.failTest("Enroll Course Not Found");
+				logger.error("Enroll Course Not Found");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -844,6 +843,35 @@ public class L_And_D_OtherPages extends WaitsManager {
 			} else {
 				grep.failTest("Certificate page fail");
 				logger.error("Certificate page fail");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// Fill and submit feedback form
+	public void fillFeedbackForm(String feedbackMsg,String category) throws Exception {
+		try {
+
+			implWait(driver);
+
+			boolean elementExist = !driver.findElements(By.id("feedback")).isEmpty();
+			if (elementExist) {
+
+				driver.findElement(By.id("feedback")).sendKeys(feedbackMsg);
+				waitTime(driver);
+				WebElement categoryElement = driver
+						.findElement(By.xpath("//label[text()='Category:']/following-sibling::select"));
+				Select selectCtg=new Select(categoryElement);
+				selectCtg.selectByVisibleText(category);
+				waitTime(driver);
+				driver.findElement(By.cssSelector("button.submitbutton")).click();
+				String getsuccessMessage = driver.findElement(By.cssSelector("div.message")).getText();
+
+				grep.passTest("Feedback Submitted successfully: " + getsuccessMessage);
+				logger.info("Feedback Submitted successfully: " + getsuccessMessage);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

@@ -94,6 +94,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		grep.captureScreenshot("pass", "Before Unenroll", "beforeUnenroll_Course");
 		waitTime(driver);
 		lndCoursePage.clickUnEnrollButton(dataKeys.azureBeginnerCourse);
+		lndCoursePage.getUnEnrollMessage();
 		waitTime(driver);
 		grep.captureScreenshot("pass", "After Unenroll", "afterUnenroll_Course");
 
@@ -304,6 +305,32 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		waitTime(driver);
 		lndOther.certificatesPageTest();
 		grep.captureScreenshot("pass", "Certificates Page Test", "certificate_Page_Test");
+		waitTime(driver);
+
+		grep.testCreate("Fill Feedback Form Test", "Fill Feedback Form");
+		waitTime(driver);
+		lndPage.footerURLs(dataKeys.feedbackFooter);
+		waitTime(driver);
+		lndOther.fillFeedbackForm(dataKeys.feedbackMsg, dataKeys.feedbackCtg);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Feed back Form Submitted", "feedback_Submitted");
+
+		waitTime(driver);
+		lndPage.navigateToPage(dataKeys.adminPageUrl);
+		waitTime5(driver);
+		grep.infoTest("Search Functionality for " + dataKeys.feedbackTable_dashboard + " table");
+		logger.info("Search Functionality for " + dataKeys.feedbackTable_dashboard + " table");
+		lndOther.searchDashboardTable(dataKeys.feedbackTable_dashboard, dataKeys.userId_column_Dashboard,
+				dataKeys.userId_col_Value);
+		waitTime3(driver);
+
+		grep.captureScreenshot("pass", "Search in Feedback Overview table",
+				"searchAfterSubmit_feedbackTable_dashboard");
+
+		lndOther.verifyDataInTable(dataKeys.feedbackTable_dashboard, dataKeys.userId_col_Value);
+//		lndOther.clearDashboardTable(dataKeys.feedbackTable_dashboard, dataKeys.userId_column_Dashboard);
+		lndOther.clearDashboardTable(dataKeys.feedbackTable_dashboard);
+		waitTime3(driver);
 	}
 
 	public void completeAndUpdateVideo(String courseName) throws Exception {
@@ -398,6 +425,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		grep.captureScreenshot("pass", "Course Details Page", "courseDetails");
 
 		waitTime(driver);
+
 	}
 
 	public void verifyUrl() throws Exception {

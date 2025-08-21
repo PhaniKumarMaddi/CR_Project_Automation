@@ -67,7 +67,7 @@ public class L_And_D_TestDataKeys {
 	// Dashboard tab table names
 	public String userMgmtTable_dashboard = "User Management";
 	public String userCertiTable_dashboard = "Certificates";
-	
+
 	public String courseStctTable_dashboard = "Course Statistics";
 	public String feedbackTable_dashboard = "Feedback Overview";
 
@@ -95,5 +95,8 @@ public class L_And_D_TestDataKeys {
 	public String user_id = "32";
 	public String assmt_Number = "1";
 	public String course_id = "210";
+
+	public String feedbackMsg = "Testing the submit your feedback form testing the submit your feedback form";
+	public String feedbackCtg = "Support";
 
 }
