@@ -571,6 +571,9 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		waitTime(driver);
 		grep.captureScreenshot("pass", "FeedBack Form Opened", "FeedBack Form");
 		waitTime(driver);
+
+		csatPopup.select_4_Rating(dataKeys.prjDeliveryRate);
+		csatPopup.select_3_Rating(dataKeys.knowlAndExprtRate);
 		csatPopup.select_5_Rating(dataKeys.accountabilityRate);
 		csatPopup.clickSection(dataKeys.deliverySectionInForm);
 		waitTime(driver);

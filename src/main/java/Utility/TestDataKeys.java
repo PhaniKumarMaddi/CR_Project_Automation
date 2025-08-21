@@ -253,7 +253,9 @@ public class TestDataKeys {
 	public String overAllFeedbackSectionInForm = "Overall Feedback";
 
 	// Forms
+	public String prjDeliveryRate = "Project Delivery";
 	public String accountabilityRate = "Accountability";
+	public String knowlAndExprtRate = "Knowledge  and  Expertise";
 	public String feedbackAndSuggestionRate = "Feedback & Suggestions";
 	public String actionPlanRate = "Action Plan";
 	public String clientRelationRate = "Client Relationship";

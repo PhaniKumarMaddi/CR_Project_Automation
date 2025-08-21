@@ -69,7 +69,7 @@ public class CSAT_Popup_Page extends WaitsManager {
 	By previewBtn = By.xpath("//button[text()='Preview']");
 	By averageRating = By.xpath("//div[@class='css-g6ldlt MuiBox-root css-19pj5st']/p");
 	By sendBtn = By.xpath("//button[text()='Send']");
-	By feedbackSuccesMsg = By.xpath("//div[@class='MuiBox-root css-1arpkmm']/p");
+	By feedbackSuccesMsg = By.xpath("//div[@class='MuiBox-root css-0']/p[1]");
 
 	public void verifyProjectBtnsAfterSurvey(String projectName) throws Exception {
 		try {
@@ -861,7 +861,7 @@ public class CSAT_Popup_Page extends WaitsManager {
 
 	public void select_5_Rating(String questionHead) throws Exception {
 		try {
-			By select5_Rating = By.xpath("//h6[text()='" + questionHead + "']/parent::div/div/div[2]/div/div/div[5]");
+			By select5_Rating = By.xpath("//h6[text()='" + questionHead + "']/parent::div/div/div[2]/div/div/div[1]");
 			implWait(driver);
 			boolean elementExists = !driver.findElements(select5_Rating).isEmpty();
 			if (elementExists) {
@@ -882,7 +882,7 @@ public class CSAT_Popup_Page extends WaitsManager {
 
 	public void select_4_Rating(String questionHead) throws Exception {
 		try {
-			By select4_Rating = By.xpath("//h6[text()='" + questionHead + "']/parent::div/div/div[2]/div/div/div[4]");
+			By select4_Rating = By.xpath("//h6[text()='" + questionHead + "']/parent::div/div/div[2]/div/div/div[2]");
 			implWait(driver);
 			boolean elementExists = !driver.findElements(select4_Rating).isEmpty();
 			if (elementExists) {
@@ -924,7 +924,7 @@ public class CSAT_Popup_Page extends WaitsManager {
 
 	public void select_2_Rating(String questionHead) throws Exception {
 		try {
-			By select2_Rating = By.xpath("//h6[text()='" + questionHead + "']/parent::div/div/div[2]/div/div/div[2]");
+			By select2_Rating = By.xpath("//h6[text()='" + questionHead + "']/parent::div/div/div[2]/div/div/div[4]");
 			implWait(driver);
 			boolean elementExists = !driver.findElements(select2_Rating).isEmpty();
 			if (elementExists) {
@@ -945,7 +945,7 @@ public class CSAT_Popup_Page extends WaitsManager {
 
 	public void select_1_Rating(String questionHead) throws Exception {
 		try {
-			By select1_Rating = By.xpath("//h6[text()='" + questionHead + "']/parent::div/div/div[2]/div/div/div[1]");
+			By select1_Rating = By.xpath("//h6[text()='" + questionHead + "']/parent::div/div/div[2]/div/div/div[5]");
 			implWait(driver);
 			boolean elementExists = !driver.findElements(select1_Rating).isEmpty();
 			if (elementExists) {
@@ -1003,5 +1003,4 @@ public class CSAT_Popup_Page extends WaitsManager {
 		}
 	}
 
-	
 }
