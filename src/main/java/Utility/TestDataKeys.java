@@ -351,7 +351,7 @@ public class TestDataKeys {
 	public String addOwner_btn = "Add Owner";
 	public String editOwner_btn = "Edit Owners";
 
-	public String addOwnerContactName = "Phani Maddi";
+	public String addOwnerContactName = "Phani Kumar Maddi";
 	public String ownerContactEmail = "phani.maddi@criticalriver.com";
 
 	public String updateOwnerContactName = "Phani Maddi";

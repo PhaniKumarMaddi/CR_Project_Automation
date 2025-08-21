@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Test;
 
 import Pages.CSAT_Clients_Page;
+import Pages.CSAT_SurveyPage;
 import Pages.CSAT_Survey_AllPages;
 import Utility.CSAT_TestInitializer;
 import Utility.GenerateReports;
@@ -16,12 +17,12 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 	private static final Logger logger = LogManager.getLogger(CSAT_ClientModuleTest.class);
 	GenerateReports grep = new GenerateReports();
 	CSAT_Survey_AllPages csatPage;
-//	CSAT_SurveyPage csat_Survey;
+	CSAT_SurveyPage csat_Survey;
 	CSAT_Clients_Page csat_Clients;
 	TestDataKeys dataKeys = new TestDataKeys();
 	ValidatingAssertions validAssert = new ValidatingAssertions();
 
-	@Test
+	@Test(priority = 1)
 	public void clients_module() throws Exception {
 
 		csatPage = new CSAT_Survey_AllPages();
@@ -218,7 +219,7 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 		csat_Clients.clearOwnerName();
 		csat_Clients.clearOwnerEmail();
 		waitTime(driver);
-		
+
 		csat_Clients.insertOwnerName(dataKeys.spacesInName);
 		csat_Clients.insertOwnerEmail(dataKeys.spacesInName);
 		waitTime1(driver);
@@ -243,7 +244,8 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 		waitTime1(driver);
 		csat_Clients.verifyPopupBtnDisable(dataKeys.saveBtn);
 //		csat_Clients.getCustomerEmailError();
-		grep.captureScreenshot("pass", "Enter Invalid Characters in Owner name field", "invalid_in_OwnerName_EditOwner");
+		grep.captureScreenshot("pass", "Enter Invalid Characters in Owner name field",
+				"invalid_in_OwnerName_EditOwner");
 		waitTime2(driver);
 
 		// Entering invalid owner Email in add owner
@@ -265,8 +267,8 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 				"invalid_in_OwnerEmail_EditOwner");
 		waitTime2(driver);
 
-		// Entering Duplicate owner contact in add owner
-		grep.testCreate("Entering Duplicate owner contact in add Owner Test", "Entering Duplicate owner contact ");
+		// Entering Duplicate owner contact in edit owner
+		grep.testCreate("Entering Duplicate owner contact in edit Owner Test", "Entering Duplicate owner contact ");
 		waitTime(driver);
 		grep.infoTest("Entering Duplicate owner contacts");
 		logger.info("Entering Duplicate owner contacts");
@@ -276,46 +278,106 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		csat_Clients.insertOwnerName(dataKeys.duplicateQwnerContactName);
 		csat_Clients.insertOwnerEmail(dataKeys.duplicateOwnerContactEmail);
-		waitTime1(driver);
-		csat_Clients.clickAddOwnerBtn();
-		waitTime2(driver);
-		csat_Clients.insertOwnerName(dataKeys.addOwnerContactName);
-		csat_Clients.insertOwnerEmail(dataKeys.ownerContactEmail);
-
+		waitTime(driver);
 		csat_Clients.verifyPopupBtnDisable(dataKeys.saveBtn);
 //		csat_Clients.getCustomerEmailError();
-		grep.captureScreenshot("pass", "Enter Duplicate Owner details in add popup", "duplicate_OwnenDetails_AddOwner");
+		grep.captureScreenshot("pass", "Enter Duplicate Owner details in add popup",
+				"duplicate_OwnenDetails_EditOwner");
 		waitTime2(driver);
 		csat_Clients.clickPopupBtns(dataKeys.cancelBtn);
 
-		// Add owner contact in add owner
-		grep.testCreate("Adding owner contact using add Owner Test", "Adding owner contact using add Owner");
+		// Update owner contact in add owner
+		grep.testCreate("Update owner contact using edit Owner Test", "Update owner contact using edit Owner");
 		waitTime(driver);
-		grep.infoTest("Before Adding owner contact using add Owner popup");
-		logger.info("Before Adding owner contact using add Owner popup");
+		grep.infoTest("Before Updating owner contact using Edit Owner popup");
+		logger.info("Before Updating owner contact using Edit Owner popup");
 		waitTime(driver);
 		csat_Clients.getAccountDetails(dataKeys.aaa_Client);
 		waitTime(driver);
-		csat_Clients.clickClientActionBtn(dataKeys.aaa_Client, dataKeys.addOwner_btn);
-		waitTime(driver);
-		csat_Clients.insertOwnerName(dataKeys.addOwnerContactName);
+		csat_Clients.clickClientActionBtn(dataKeys.aaa_Client, dataKeys.editOwner_btn);
+		waitTime2(driver);
+		grep.captureScreenshot("pass", "Before Updating owner contact using edit Owner popup",
+				"Before_update_OwnerDetails_EditOwner_popup");
+		csat_Clients.insertOwnerName(dataKeys.updateOwnerContactName);
 		csat_Clients.insertOwnerEmail(dataKeys.ownerContactEmail);
 		waitTime1(driver);
 
-		grep.captureScreenshot("pass", "Adding owner contact using add Owner popup", "addNew_OwnenDetails_AddOwner");
+		grep.captureScreenshot("pass", "After Updating owner contact using edit Owner popup",
+				"after_update_OwnenDetails_EditOwner_Popup");
 		waitTime2(driver);
 		csat_Clients.clickPopupBtns(dataKeys.saveBtn);
 		waitTime5(driver);
-		grep.captureScreenshot("pass", "After Adding owner contact using add Owner popup",
-				"after_addNew_OwnenDetails_AddOwner");
-		grep.infoTest("After Adding owner contact using add Owner popup");
-		logger.info("After Adding owner contact using add Owner popup");
+		grep.captureScreenshot("pass", "After Updating owner contact using Edit Owner popup",
+				"after_Updating_OwnerDetails_EditOwner");
+		grep.infoTest("After Updating owner contact using Edit Owner popup");
+		logger.info("After Updating owner contact using Edit Owner popup");
 		waitTime(driver);
 
 		csat_Clients.getAccountDetails(dataKeys.aaa_Client);
 		waitTime2(driver);
-	
 	}
-	
+
+	@Test(priority = 2)
+	public void sendSurveyTo_Client() throws Exception {
+
+		csatPage = new CSAT_Survey_AllPages();
+		csat_Survey = new CSAT_SurveyPage();
+
+		waitTime(driver);
+		csatPage.navigateToPage(dataKeys.survey_Url);
+		waitTime(driver);
+		// send survey to customer
+		grep.testCreate("Send Survey to client using send survey Send Test", "Send Survey to client using send survey");
+		waitTime(driver);
+		grep.infoTest("Send Survey to client using send survey Send");
+		logger.info("Send Survey to client using send survey Send");
+		waitTime(driver);
+
+		csat_Survey.selectActionFromSurveyTable(dataKeys.selectEngageSurvey, dataKeys.sendProjectBtn);
+		waitTime(driver);
+		csat_Clients.selectClientToSendSurvey(dataKeys.aaa_Client);
+		csat_Clients.selectClientOwnerContact(dataKeys.updateOwnerContactName);
+		waitTime(driver);
+		csat_Clients.retrieveSubjectBasedOnSurvey();
+		csat_Clients.retrieveBodyBasedOnSurvey();
+		waitTime(driver);
+
+		csat_Clients.clickPopupBtns(dataKeys.sendProjectBtn);
+		waitTime15(driver);
+
+		waitTime(driver);
+		csatPage.navigateToPage(dataKeys.clientsUrl);
+		waitTime(driver);
+		// delete customer contact
+		grep.testCreate("Delete owner contact in edit Owner Test", "Delete owner contact in edit Owner");
+		waitTime(driver);
+		grep.infoTest("Before Deleting owner contact using Edit Owner popup");
+		logger.info("Before Deleting owner contact using Edit Owner popup");
+		waitTime(driver);
+		csat_Clients.getAccountDetails(dataKeys.aaa_Client);
+		waitTime(driver);
+		csat_Clients.clickClientActionBtn(dataKeys.aaa_Client, dataKeys.editOwner_btn);
+		waitTime2(driver);
+		grep.captureScreenshot("pass", "Before Deleting owner contact using edit Owner popup",
+				"Before_delete_OwnerDetails_EditOwner_popup");
+		csat_Clients.deleteOwnerContactBtn();
+		waitTime1(driver);
+
+		grep.captureScreenshot("pass", "After Deleting owner contact using edit Owner popup",
+				"after_delete_OwnenDetails_EditOwner_Popup");
+		waitTime2(driver);
+		csat_Clients.clickPopupBtns(dataKeys.saveBtn);
+		csat_Clients.getSuccessMsg();
+		waitTime5(driver);
+		grep.captureScreenshot("pass", "After Deleting owner contact using Edit Owner popup",
+				"after_Deleting_OwnerDetails_EditOwner");
+		grep.infoTest("After Deleting owner contact using Edit Owner popup");
+		logger.info("After Deleting owner contact using Edit Owner popup");
+		waitTime(driver);
+
+		csat_Clients.getAccountDetails(dataKeys.aaa_Client);
+		waitTime2(driver);
+
+	}
 
 }

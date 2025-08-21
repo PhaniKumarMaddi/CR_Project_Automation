@@ -37,6 +37,13 @@ public class CSAT_Clients_Page extends WaitsManager {
 	By paginationEntries = By.cssSelector("select.survey-items-per-page-select");
 	By deleteOwnerContact = By.xpath("//img[@alt='Delete Owner']");
 
+	// Send survey to client
+	By selectClient = By.xpath("//label[text()='Client']/following-sibling::select");
+	By selectOwner = By.cssSelector("div.custom-dropdown-toggle");
+	By getSubject = By.xpath("//label[text()='Subject']/parent::div/input");
+	By getBody = By.xpath("//label[text()='Body']/parent::div/textarea");
+	
+
 	public void clientHeaderValidation() throws Exception {
 		try {
 			implWait(driver);
@@ -250,6 +257,27 @@ public class CSAT_Clients_Page extends WaitsManager {
 		}
 	}
 
+	public void getSuccessMsg() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(ownerError).isEmpty();
+			if (elementExists) {
+				waitForElement(ownerError, 60);
+
+				String error = driver.findElement(ownerError).getText();
+				grep.passTest("Owner Update Message :" + error);
+				logger.info("Owner Update Message :" + error);
+			} else {
+				grep.failTest("Owner details not updated");
+				logger.error("Owner details not updated");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
 	public void clickAddOwnerBtn() throws Exception {
 		try {
 			implWait(driver);
@@ -418,6 +446,111 @@ public class CSAT_Clients_Page extends WaitsManager {
 				logger.info("Delete Button is Disabled");
 				grep.passTest("Delete Button is Disabled");
 			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// Select Client
+	public void selectClientToSendSurvey(String clientName) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(selectClient).isEmpty();
+			if (elementExist) {
+
+				WebElement selectCrs = driver.findElement(selectClient);
+				Select selectValue = new Select(selectCrs);
+				selectValue.selectByValue(clientName);
+				waitTime(driver);
+
+				grep.passTest("Selecting Client from dropdown: " + selectValue.getFirstSelectedOption().getText());
+				logger.info("Selecting Client from dropdown: " + selectValue.getFirstSelectedOption().getText());
+			} else {
+				grep.failTest("Selecting Client from dropdown Failed");
+				logger.error("Selecting Client from dropdown Failed");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void selectClientOwnerContact(String clientName) throws Exception {
+		try {
+			implWait(driver);
+			By selectOwnerName = By
+					.xpath("//div[@class='custom-dropdown-item' and contains(text(),'" + clientName + "')]");
+
+			boolean elementExist = !driver.findElements(selectOwner).isEmpty();
+			if (elementExist) {
+
+				driver.findElement(selectOwner).click();
+				waitTime(driver);
+				driver.findElement(selectOwnerName).click();
+				waitTime(driver);
+
+				grep.passTest("Selecting Client Name from Owners: " + clientName);
+				logger.info("Selecting Client Name from Owners: " + clientName);
+			} else {
+				grep.failTest("Selecting Client from dropdown Failed");
+				logger.error("Selecting Client from dropdown Failed");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+	
+	// Retrieve subject and body
+	public void retrieveSubjectBasedOnSurvey() throws Exception {
+		try {
+
+			implWait(driver);
+			boolean elementExists = !driver.findElements(getSubject).isEmpty();
+			if (elementExists) {
+
+				waitForElement(getSubject, 60);
+				String subject = driver.findElement(getSubject).getAttribute("value");
+				grep.infoTest("Subject Retrieved Based on Survey Type");
+				logger.info("Subject Retrieved Based on Survey Type");
+				grep.passTest(subject);
+				logger.info(subject);
+			} else {
+				grep.failTest("Failed to retrieve Subject Field Text");
+				logger.error("Failed to retrieve Subject Field Text");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void retrieveBodyBasedOnSurvey() throws Exception {
+		try {
+
+			implWait(driver);
+			boolean elementExists = !driver.findElements(getBody).isEmpty();
+			if (elementExists) {
+
+				waitForElement(getBody, 60);
+				String body = driver.findElement(getBody).getText();
+				grep.infoTest("Body Retrieved Based on Survey Type");
+				logger.info("Body Retrieved Based on Survey Type");
+				grep.passTest(body);
+				logger.info(body);
+			} else {
+				grep.failTest("Failed to retrieve body Field Text");
+				logger.error("Failed to retrieve body Field Text");
+			}
+
 		} catch (Exception e) {
 			e.printStackTrace();
 			grep.failTest("Test Failed :" + e.getMessage());
