@@ -78,6 +78,19 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 		lndPage.homePageStatCards(dataKeys.mycertificate_StatCard);
 		lndPage.homePageStatCards(dataKeys.myCourse_StatCard);
 
+		waitTime(driver);
+		grep.testCreate("Verifying navigation from Stat Cards in Home Page Test",
+				"Navigation from Stat Cards in Home Page");
+		waitTime(driver);
+		grep.infoTest("Verifying navigation from Stat Cards in Home Page");
+		logger.info("Verifying navigation from Stat Cards in Home Page");
+		waitTime(driver);
+		verifyStatCards(dataKeys.totCours_StatCard, dataKeys.depatmentsPageUrl);
+		verifyStatCards(dataKeys.dept_StatCard, dataKeys.depatmentsPageUrl);
+		verifyStatCards(dataKeys.popCourse_StatCard, dataKeys.homePageUrl);
+		verifyStatCards(dataKeys.mycertificate_StatCard, dataKeys.certificatesPageUrl);
+		verifyStatCards(dataKeys.myCourse_StatCard, dataKeys.myCoursesPageUrl);
+
 		grep.captureScreenshot("pass", "Home page ui test", "homePageHeader_lnd");
 		waitTime(driver);
 
@@ -106,7 +119,7 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 		lndPage.clickFeatureCourseEnrollButton();
 		lndPage.courseEnrolledMessage();
 		waitTime(driver);
-		
+
 		grep.testCreate("Home Page Browse Course By Department Test", "Browse Course By Department");
 		grep.infoTest("Home Page Browse Course By Department test");
 		logger.info("Home Page Browse Course By Department test");
@@ -318,5 +331,18 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 			logger.error("Url is not Valid :" + getUrl);
 		}
 
+	}
+
+	public void verifyStatCards(String cardName, String urlName) throws Exception {
+		waitTime(driver);
+		grep.infoTest("Clicking on " + cardName + " card");
+		logger.info("Clicking on " + cardName + " card");
+
+		waitTime(driver);
+		lndPage.clickHomePageStatCards(cardName);
+		validateUrl(urlName);
+		waitTime2(driver);
+		lndPage.navigateToPage(dataKeys.homePageUrl);
+		waitTime5(driver);
 	}
 }

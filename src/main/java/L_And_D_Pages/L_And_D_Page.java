@@ -253,6 +253,33 @@ public class L_And_D_Page extends WaitsManager {
 		}
 	}
 
+	public void clickHomePageStatCards(String cardName) throws Exception {
+		try {
+			implWait(driver);
+
+			By statCard = By.xpath("//p[text()='" + cardName + "']/parent::div/h2");
+
+			boolean elementExists = !driver.findElements(statCard).isEmpty();
+			if (elementExists) {
+				scrollView(startLearning);
+				waitTime(driver);
+
+				driver.findElement(statCard).click();
+				grep.infoTest("Clicking on " + cardName + " Card");
+				logger.info("Clicking on " + cardName + " Card");
+
+			} else {
+				grep.failTest(cardName + " Stat Card not available");
+				logger.error(cardName + " Stat Card not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
 	// Continue Learning
 	public void continueLearningDetails() throws Exception {
 		try {
