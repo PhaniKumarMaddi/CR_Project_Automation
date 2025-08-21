@@ -32,6 +32,8 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 	By coursesDesc = By.cssSelector("div.my-courses>p");
 
 	By playIn_VideoList = By.xpath("//div[@class='coursevideos-video-item  ']");
+	By recentlyCompleted = By.xpath("//div[@class='coursevideos-video-item  completed']");
+
 	By playBtn = By.xpath("//button[@title='Play']");
 
 	By completeTestMsg = By.xpath("//div[@class='coursevideos-player-meta']/span[3]");
@@ -164,6 +166,36 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 		}
 	}
 
+	// unenroll
+	public void clickUnEnrollButton(String courseName) throws Exception {
+		try {
+			implWait(driver);
+			By unenroll = By
+					.xpath("//h3[text()='" + courseName + "']/parent::div/div[2]/button[@class='unenroll-btn']");
+			By unEnrollMessage = By.xpath("//div[@class='my-courses']/section/div/div");
+
+			boolean elementExist = !driver.findElements(unenroll).isEmpty();
+			if (elementExist) {
+
+				driver.findElement(unenroll).click();
+				waitForElement(unEnrollMessage, 30);
+
+				String message = driver.findElement(unEnrollMessage).getText();
+				grep.passTest("Course Enrollment message: " + message);
+				logger.info("Course Enrollment message: " + message);
+
+			} else {
+				grep.failTest("Course Not Found");
+				logger.error("Course Not Found");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
 	public void getPlayVideoListDetails() throws Exception {
 		try {
 			implWait(driver);
@@ -176,6 +208,31 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 				String playText = parts[0];
 				grep.infoTest("Video Available in the list:" + playText);
 				logger.info("Video Available in the list:" + playText);
+
+			} else {
+				grep.failTest("Course Not Found");
+				logger.error("Course Not Found");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void selectCompletedVideo_fromList() throws Exception {
+		try {
+			implWait(driver);
+
+			implWait(driver);
+
+			List<WebElement> play = driver.findElements(recentlyCompleted);
+			if (play.size() > 0) {
+
+				play.getLast().click();
+				grep.infoTest("Select Video from video list");
+				logger.info("Select Video from video list");
 
 			} else {
 				grep.failTest("Course Not Found");
@@ -331,7 +388,7 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 
 			if (elementExist) {
 				String videoCount = driver.findElement(videoListCount).getText();
-				String count = driver.findElement(By.xpath("//aside[@class='coursevideos-sidebar']/div[1]")).getText();
+				String count = driver.findElement(By.xpath("//aside[@class='coursevideos-sidebar']/h2")).getText();
 				grep.infoTest("Video List Count :" + videoCount + " - " + count);
 				logger.info("Video List Count :" + videoCount + " - " + count);
 

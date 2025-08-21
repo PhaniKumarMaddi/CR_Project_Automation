@@ -66,6 +66,8 @@ public class L_And_D_TestDataKeys {
 
 	// Dashboard tab table names
 	public String userMgmtTable_dashboard = "User Management";
+	public String userCertiTable_dashboard = "Certificates";
+	
 	public String courseStctTable_dashboard = "Course Statistics";
 	public String feedbackTable_dashboard = "Feedback Overview";
 

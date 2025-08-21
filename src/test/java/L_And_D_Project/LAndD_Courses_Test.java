@@ -10,6 +10,7 @@ import L_And_D_Pages.L_And_D_MyCoursesPage;
 import L_And_D_Pages.L_And_D_OtherPages;
 import L_And_D_Pages.L_And_D_Page;
 import Utility.GenerateReports;
+import net.bytebuddy.agent.builder.AgentBuilder.FallbackStrategy;
 
 public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 	private static final Logger logger = LogManager.getLogger(LAndD_Page_UI_Test.class);
@@ -48,8 +49,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 
 		grep.testCreate("Searching the non existing course test", "Searching the non existing course");
 
-		waitTime(driver);
-		waitTime(driver);
+		waitTime2(driver);
 		grep.infoTest("Searching the non existing course test");
 		logger.info("Searching the non existing course test");
 
@@ -89,8 +89,15 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		grep.captureScreenshot("pass", "My Courses All Courses tab", "myCourses_AllCoursesTab");
 		waitTime5(driver);
 
-		// Continue and update progress for Course test
+		grep.testCreate("Un Enroll the Course Test", "Un Enroll the Course");
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Before Unenroll", "beforeUnenroll_Course");
+		waitTime(driver);
+		lndCoursePage.clickUnEnrollButton(dataKeys.azureBeginnerCourse);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "After Unenroll", "afterUnenroll_Course");
 
+		// Continue and update progress for Course test
 		completeAndUpdateVideo(dataKeys.pythonBeginnerCourse);
 
 	}
@@ -117,11 +124,13 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		// verify certificate details
 		grep.testCreate("Verify Admin page certificates details in dashboard tab", "Admin page certificates details");
 		lndOther.clickCertificateAdminCards();
-		lndOther.getCertificateDetails(dataKeys.userMgmtTable_dashboard);
+//		lndOther.getCertificateDetails(dataKeys.userMgmtTable_dashboard);
+		lndOther.getCertificateDetails(dataKeys.userCertiTable_dashboard);
 		grep.captureScreenshot("pass", "Admin Card Certificates Details", "certificateCardDeatils_Dashboad");
 		waitTime(driver);
-		lndOther.openCertificate(dataKeys.userMgmtTable_dashboard);
-		waitTime5(driver);
+//		lndOther.openCertificate(dataKeys.userMgmtTable_dashboard);
+		lndOther.openCertificate(dataKeys.userCertiTable_dashboard);
+		waitTime10(driver);
 		grep.captureScreenshot("pass", "Open Certificate", "viewCertificate");
 		waitTime(driver);
 		lndOther.clickCloseCertificate();
@@ -138,13 +147,17 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		// user management table
 		grep.infoTest("Search Functionality for " + dataKeys.userMgmtTable_dashboard + " table");
 		logger.info("Search Functionality for " + dataKeys.userMgmtTable_dashboard + " table");
-		lndOther.searchDashboardTable(dataKeys.userMgmtTable_dashboard, dataKeys.email_column_Dashboard,
-				dataKeys.ssoUserName);
+//		lndOther.searchDashboardTable(dataKeys.userMgmtTable_dashboard, dataKeys.email_column_Dashboard,
+//				dataKeys.ssoUserName);
 
+		lndOther.searchDashboardTable(dataKeys.userCertiTable_dashboard, dataKeys.email_column_Dashboard,
+				dataKeys.ssoUserName);
 		grep.captureScreenshot("pass", "Search in user management table", "searchIn_userMgmtTable_dashboard");
 
-		lndOther.verifyDataInTable(dataKeys.userMgmtTable_dashboard, dataKeys.ssoUserName);
-		lndOther.clearDashboardTable(dataKeys.userMgmtTable_dashboard, dataKeys.email_column_Dashboard);
+//		lndOther.verifyDataInTable(dataKeys.userMgmtTable_dashboard, dataKeys.ssoUserName);
+//		lndOther.clearDashboardTable(dataKeys.userMgmtTable_dashboard, dataKeys.email_column_Dashboard);
+		lndOther.verifyDataInTable(dataKeys.userCertiTable_dashboard, dataKeys.ssoUserName);
+		lndOther.clearDashboardTable(dataKeys.userCertiTable_dashboard);
 
 		// course statistic table
 		grep.infoTest("Search Functionality for " + dataKeys.courseStctTable_dashboard + " table");
@@ -155,7 +168,8 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		grep.captureScreenshot("pass", "Search in Course Statistics table", "searchIn_courseStctsTable_dashboard");
 
 		lndOther.verifyDataInTable(dataKeys.courseStctTable_dashboard, dataKeys.dept_EnergyWater);
-		lndOther.clearDashboardTable(dataKeys.courseStctTable_dashboard, dataKeys.dept_column_Dashboard);
+//		lndOther.clearDashboardTable(dataKeys.courseStctTable_dashboard, dataKeys.dept_column_Dashboard);
+		lndOther.clearDashboardTable(dataKeys.courseStctTable_dashboard);
 
 		waitTime2(driver);
 
@@ -168,8 +182,8 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		grep.captureScreenshot("pass", "Search in Feedback Overview table", "searchIn_feedbackTable_dashboard");
 
 		lndOther.verifyDataInTable(dataKeys.feedbackTable_dashboard, dataKeys.userId_col_Value);
-		lndOther.clearDashboardTable(dataKeys.feedbackTable_dashboard, dataKeys.userId_column_Dashboard);
-
+//		lndOther.clearDashboardTable(dataKeys.feedbackTable_dashboard, dataKeys.userId_column_Dashboard);
+		lndOther.clearDashboardTable(dataKeys.feedbackTable_dashboard);
 		waitTime3(driver);
 
 		// get users for course by using course statistics
@@ -185,13 +199,17 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		grep.captureScreenshot("pass", "Verify Total Users in course statistics table ",
 				"totalUsers_CourseStst_Dashboad");
 		waitTime(driver);
-		lndOther.verifyDataInTable(dataKeys.userMgmtTable_dashboard, dataKeys.airflowBeginnerCourse);
+//		lndOther.verifyDataInTable(dataKeys.userMgmtTable_dashboard, dataKeys.airflowBeginnerCourse);
+		lndOther.verifyDataInTable(dataKeys.userCertiTable_dashboard, dataKeys.airflowBeginnerCourse);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Verify Users for course table", "usersForCourseTable");
 		waitTime(driver);
-		lndOther.clearDashboardTable(dataKeys.courseStctTable_dashboard, dataKeys.courseName_column_Dashboard);
+//		lndOther.clearDashboardTable(dataKeys.courseStctTable_dashboard, dataKeys.courseName_column_Dashboard);
+		lndOther.clearDashboardTable(dataKeys.courseStctTable_dashboard);
 		waitTime2(driver);
-		lndOther.clearFilterButton();
+//		lndOther.clearFilterButton();
+//		lndOther.clearDashboardTable(dataKeys.userMgmtTable_dashboard);
+		lndOther.clearDashboardTable(dataKeys.userCertiTable_dashboard);
 
 		// Test Tab in admin
 		grep.testCreate("Search Functionality for tables in Tests Tab test", "Search filter Tables in tests");
@@ -325,6 +343,9 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		switchToMainFrame();
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Complete Course video", "completeVideo_ForCourse");
+		lndCoursePage.selectCompletedVideo_fromList();
+		waitTime5(driver);
+
 		lndCoursePage.verifyCompleteVideoMessage();
 		waitTime3(driver);
 		refreshPage();

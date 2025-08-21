@@ -363,22 +363,46 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 		}
 	}
+//
+//	public void clearDashboardTable(String tableName, String searchFieldName) throws Exception {
+//		try {
+//			implWait(driver);
+//			By searchBy = By.xpath(
+//					"//h2[text()='" + tableName + "']/following-sibling::div/input[@name='" + searchFieldName + "']");
+//
+//			boolean elementExist = !driver.findElements(searchBy).isEmpty();
+//			if (elementExist) {
+//
+//				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+//
+//			} else {
+//				grep.failTest("Table is not available in dashboard tab");
+//				logger.error("Table is not available in dashboard tab");
+//			}
+//
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//			grep.failTest("Test Failed :" + e.getMessage());
+//			logger.error("Test Failed :" + e.getMessage());
+//
+//		}
+//	}
 
-	public void clearDashboardTable(String tableName, String searchFieldName) throws Exception {
+	public void clearDashboardTable(String tableName) throws Exception {
 		try {
 			implWait(driver);
-			By searchBy = By.xpath(
-					"//h2[text()='" + tableName + "']/following-sibling::div/input[@name='" + searchFieldName + "']");
-
+			By searchBy = By.xpath("//h2[text()='" + tableName + "']/following-sibling::div[1]/button");
 			boolean elementExist = !driver.findElements(searchBy).isEmpty();
 			if (elementExist) {
 
-				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+//				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				driver.findElement(searchBy).click();
 
 			} else {
 				grep.failTest("Table is not available in dashboard tab");
 				logger.error("Table is not available in dashboard tab");
 			}
+			scrollView(adminHeader);
 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -471,30 +495,30 @@ public class L_And_D_OtherPages extends WaitsManager {
 //		}
 //	}
 
-	public void clearFilterButton() throws Exception {
-		try {
-			implWait(driver);
-			By clearFilter = By.xpath("//button[text()='Clear Course Filter (Show All Users)']");
-
-			boolean elementExist = !driver.findElements(clearFilter).isEmpty();
-			if (elementExist) {
-				scrollView(adminHeader);
-				waitTime(driver);
-				driver.findElement(clearFilter).click();
-				grep.infoTest("Clear Filter");
-				logger.info("Clear Filter");
-			} else {
-				grep.failTest("Clear filter not Available");
-				logger.error("Clear filter not Available");
-			}
-
-		} catch (Exception e) {
-			e.printStackTrace();
-			grep.failTest("Test Failed :" + e.getMessage());
-			logger.error("Test Failed :" + e.getMessage());
-
-		}
-	}
+//	public void clearFilterButton() throws Exception {
+//		try {
+//			implWait(driver);
+//			By clearFilter = By.xpath("//button[text()='Clear Course Filter (Show All Users)']");
+//
+//			boolean elementExist = !driver.findElements(clearFilter).isEmpty();
+//			if (elementExist) {
+//				scrollView(adminHeader);
+//				waitTime(driver);
+//				driver.findElement(clearFilter).click();
+//				grep.infoTest("Clear Filter");
+//				logger.info("Clear Filter");
+//			} else {
+//				grep.failTest("Clear filter not Available");
+//				logger.error("Clear filter not Available");
+//			}
+//
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//			grep.failTest("Test Failed :" + e.getMessage());
+//			logger.error("Test Failed :" + e.getMessage());
+//
+//		}
+//	}
 
 // TEST TAB
 	// Search filter in table
@@ -506,7 +530,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 			boolean elementExist = !driver.findElements(searchBy).isEmpty();
 			if (elementExist) {
-
+				driver.findElement(searchBy).click();
 				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
 				driver.findElement(searchBy).sendKeys(searchValue);
 
@@ -532,7 +556,8 @@ public class L_And_D_OtherPages extends WaitsManager {
 			boolean elementExist = !driver.findElements(searchBy).isEmpty();
 			if (elementExist) {
 
-				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+//				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				driver.findElement(searchBy).click();
 
 			} else {
 				grep.failTest("Table is not available in dashboard tab");
@@ -597,6 +622,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 			boolean elementExist = !driver.findElements(searchBy).isEmpty();
 			if (elementExist) {
 
+				driver.findElement(searchBy).click();
 				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
 				driver.findElement(searchBy).sendKeys(searchValue);
 
@@ -622,7 +648,8 @@ public class L_And_D_OtherPages extends WaitsManager {
 			boolean elementExist = !driver.findElements(searchBy).isEmpty();
 			if (elementExist) {
 
-				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+//				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
+				driver.findElement(searchBy).click();
 
 			} else {
 				grep.failTest("Table is not available in dashboard tab");
