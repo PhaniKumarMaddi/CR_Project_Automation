@@ -411,6 +411,32 @@ public class L_And_D_OtherPages extends WaitsManager {
 		}
 	}
 
+	public void exportDashboardTable(String tableName, String fileFormat) throws Exception {
+		try {
+			implWait(driver);
+			By export = By.xpath("//h2[text()='" + tableName + "']/following-sibling::div[1]/div[2]/button");
+			boolean elementExist = !driver.findElements(export).isEmpty();
+			if (elementExist) {
+
+				driver.findElement(export).click();
+				waitTime(driver);
+				driver.findElement(By
+						.xpath("//div[@class='export-table-dropdown']/button[contains(text(),'" + fileFormat + "')]"));
+
+			} else {
+				grep.failTest("Table is not available in dashboard tab");
+				logger.error("Table is not available in dashboard tab");
+			}
+			scrollView(adminHeader);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
 	public void verifyDataInTable(String tableName, String verifyValue) throws Exception {
 		try {
 			implWait(driver);
@@ -852,7 +878,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 	}
 
 	// Fill and submit feedback form
-	public void fillFeedbackForm(String feedbackMsg,String category) throws Exception {
+	public void fillFeedbackForm(String feedbackMsg, String category) throws Exception {
 		try {
 
 			implWait(driver);
@@ -864,7 +890,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 				waitTime(driver);
 				WebElement categoryElement = driver
 						.findElement(By.xpath("//label[text()='Category:']/following-sibling::select"));
-				Select selectCtg=new Select(categoryElement);
+				Select selectCtg = new Select(categoryElement);
 				selectCtg.selectByVisibleText(category);
 				waitTime(driver);
 				driver.findElement(By.cssSelector("button.submitbutton")).click();
