@@ -1,36 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-22T13:26:31 IST" name="Default suite" finished-at="2025-08-22T13:29:30 IST" duration-ms="178420">
+  <suite started-at="2025-08-22T13:31:21 IST" name="LandD_Suite" finished-at="2025-08-22T13:40:05 IST" duration-ms="524635">
     <groups>
     </groups>
-    <test started-at="2025-08-22T13:26:31 IST" name="Default test" finished-at="2025-08-22T13:29:30 IST" duration-ms="178420">
-      <class name="L_And_D_Project.LAndD_Courses_Test">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:L_And_D_Project.LAndD_Courses_Test@31d0e481]" started-at="2025-08-22T13:26:31 IST" name="setup" description="Setup and Login To Browser" finished-at="2025-08-22T13:27:35 IST" duration-ms="63584" status="PASS">
+    <test started-at="2025-08-22T13:31:21 IST" name="LandDPage_Test" finished-at="2025-08-22T13:40:05 IST" duration-ms="524635">
+      <class name="L_And_D_Project.LAndD_Page_UI_Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-22T13:31:21 IST" name="setup" description="Setup and Login To Browser" finished-at="2025-08-22T13:31:50 IST" duration-ms="28783" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[LandD_Page.html]]>
+                <![CDATA[LandDPage_Report.html]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="l_and_d_AdminPageTest()[pri:2, instance:L_And_D_Project.LAndD_Courses_Test@31d0e481]" started-at="2025-08-22T13:27:35 IST" name="l_and_d_AdminPageTest" finished-at="2025-08-22T13:28:49 IST" duration-ms="73639" status="PASS">
+        <test-method signature="l_and_d_PageNavigation_Test()[pri:1, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-22T13:31:50 IST" name="l_and_d_PageNavigation_Test" finished-at="2025-08-22T13:32:56 IST" duration-ms="66782" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- l_and_d_AdminPageTest -->
-        <test-method signature="l_and_d_CreateAssessment_Test()[pri:3, instance:L_And_D_Project.LAndD_Courses_Test@31d0e481]" started-at="2025-08-22T13:28:49 IST" name="l_and_d_CreateAssessment_Test" finished-at="2025-08-22T13:29:29 IST" duration-ms="40695" status="PASS">
+        </test-method> <!-- l_and_d_PageNavigation_Test -->
+        <test-method signature="homePageTest()[pri:2, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-22T13:32:56 IST" name="homePageTest" finished-at="2025-08-22T13:34:58 IST" duration-ms="121469" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- l_and_d_CreateAssessment_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:L_And_D_Project.LAndD_Courses_Test@31d0e481]" started-at="2025-08-22T13:29:29 IST" name="tearDown" description="Quit Browser" finished-at="2025-08-22T13:29:30 IST" duration-ms="455" status="PASS">
+        </test-method> <!-- homePageTest -->
+        <test-method signature="l_and_d_Footer()[pri:3, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-22T13:34:58 IST" name="l_and_d_Footer" finished-at="2025-08-22T13:35:24 IST" duration-ms="26379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- l_and_d_Footer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-22T13:40:05 IST" name="tearDown" description="Quit Browser" finished-at="2025-08-22T13:40:05 IST" duration-ms="456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+      </class> <!-- L_And_D_Project.LAndD_Page_UI_Test -->
+      <class name="L_And_D_Project.LAndD_Courses_Test">
+        <test-method signature="l_and_d_MyCourses()[pri:1, instance:L_And_D_Project.LAndD_Courses_Test@67c2e933]" started-at="2025-08-22T13:35:24 IST" name="l_and_d_MyCourses" finished-at="2025-08-22T13:38:11 IST" duration-ms="166508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- l_and_d_MyCourses -->
+        <test-method signature="l_and_d_AdminPageTest()[pri:2, instance:L_And_D_Project.LAndD_Courses_Test@67c2e933]" started-at="2025-08-22T13:38:11 IST" name="l_and_d_AdminPageTest" finished-at="2025-08-22T13:39:24 IST" duration-ms="73581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- l_and_d_AdminPageTest -->
+        <test-method signature="l_and_d_CreateAssessment_Test()[pri:3, instance:L_And_D_Project.LAndD_Courses_Test@67c2e933]" started-at="2025-08-22T13:39:24 IST" name="l_and_d_CreateAssessment_Test" finished-at="2025-08-22T13:40:05 IST" duration-ms="40622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- l_and_d_CreateAssessment_Test -->
       </class> <!-- L_And_D_Project.LAndD_Courses_Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- LandDPage_Test -->
+  </suite> <!-- LandD_Suite -->
 </testng-results>
