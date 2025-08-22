@@ -11462,3 +11462,90 @@ Software Engineer
 2025-08-22 16:49:21 [main] INFO : ✅ Search validation passed. All Values match: 32
 2025-08-22 16:49:24 [main] INFO : Testing Ended
 2025-08-22 16:49:24 [main] INFO : ***********
+2025-08-22 16:50:53 [main] INFO : Launching Chrome Browser
+2025-08-22 16:50:54 [main] INFO : Report Name :CsatPage.html
+2025-08-22 16:51:00 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-22 16:51:00 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-22 16:51:00 [main] INFO : Inside Login Page: LOGIN
+2025-08-22 16:51:23 [main] INFO : Logged in to CSAT Application
+2025-08-22 16:51:25 [main] INFO : Validating the Header
+2025-08-22 16:51:25 [main] INFO : Header is Valid: Clients
+2025-08-22 16:51:26 [main] INFO : Selecting Pagination 5
+2025-08-22 16:51:26 [main] INFO : 5 pagination Option Selected
+2025-08-22 16:51:26 [main] INFO : Selecting Pagination 15
+2025-08-22 16:51:27 [main] INFO : 15 pagination Option Selected
+2025-08-22 16:51:27 [main] INFO : Selecting Pagination 10
+2025-08-22 16:51:27 [main] INFO : 10 pagination Option Selected
+2025-08-22 16:51:29 [main] INFO : Validating the Client
+2025-08-22 16:51:30 [main] INFO : Search for existing client
+2025-08-22 16:51:30 [main] INFO : AAA Client is Available
+2025-08-22 16:51:30 [main] INFO : Search for non existing client
+2025-08-22 16:51:31 [main] INFO : NO CLIENTS FOUND
+2025-08-22 16:51:32 [main] INFO : Entering Only Spaces characters in Owner name field
+2025-08-22 16:51:37 [main] INFO : Owner Email Error :Please provide both owner name and email for all owners.
+2025-08-22 16:51:40 [main] INFO : Entering Invalid Characters in Owner name field
+2025-08-22 16:51:44 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 16:51:44 [main] INFO : Owner Name Error:Name can only contain letters, numbers, and spaces (cannot be empty or only spaces)
+2025-08-22 16:51:47 [main] INFO : Entering Invalid Characters in Owner email field
+2025-08-22 16:51:52 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 16:51:52 [main] INFO : Owner Email Error:Please enter a valid email address (e.g., user@example.com)
+2025-08-22 16:51:55 [main] INFO : Entering Duplicate owner contacts
+2025-08-22 16:52:05 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 16:52:05 [main] INFO : Owner Email Error:This email is already used
+2025-08-22 16:52:08 [main] INFO : Before Adding owner contact using add Owner popup
+2025-08-22 16:52:08 [main] INFO : Client Name: Christopher Vialva
+2025-08-22 16:52:08 [main] INFO : Client Email: chris.vialva@criticalriver.com
+2025-08-22 16:52:26 [main] INFO : After Adding owner contact using add Owner popup
+2025-08-22 16:52:26 [main] INFO : Client Name: Christopher Vialva,Phani Kumar Maddi
+2025-08-22 16:52:26 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 16:52:28 [main] INFO : Validating Try to delete owner contact when only one contact is available in edit owner in clients
+2025-08-22 16:52:34 [main] INFO : Delete Button is Disabled
+2025-08-22 16:52:37 [main] INFO : Entering Only Spaces characters in Owner name field
+2025-08-22 16:52:43 [main] INFO : Owner Email Error :Please provide both owner name and email for all owners.
+2025-08-22 16:52:45 [main] INFO : Entering Invalid Characters in Owner name field
+2025-08-22 16:52:50 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 16:52:50 [main] INFO : Owner Name Error:Name can only contain letters, numbers, and spaces (cannot be empty or only spaces)
+2025-08-22 16:52:53 [main] INFO : Entering Invalid Characters in Owner email field
+2025-08-22 16:52:58 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 16:52:58 [main] INFO : Owner Email Error:Please enter a valid email address (e.g., user@example.com)
+2025-08-22 16:53:00 [main] INFO : Entering Duplicate owner contacts in edit
+2025-08-22 16:53:05 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 16:53:05 [main] INFO : Owner Email Error:This email is already used
+2025-08-22 16:53:07 [main] INFO : Entering Same Owner Details that are already existis for that client 
+2025-08-22 16:53:08 [main] INFO : Client Name: Christopher Vialva,Phani Kumar Maddi
+2025-08-22 16:53:08 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 16:53:18 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 16:53:18 [main] INFO : Before Updating owner contact using Edit Owner popup
+2025-08-22 16:53:19 [main] INFO : Client Name: Christopher Vialva,Phani Kumar Maddi
+2025-08-22 16:53:19 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 16:53:32 [main] INFO : After Updating owner contact using Edit Owner popup
+2025-08-22 16:53:33 [main] INFO : Client Name: Christopher Vialva,Phani Maddi
+2025-08-22 16:53:33 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 16:53:44 [main] INFO : Send Survey to client using send survey Send
+2025-08-22 16:53:46 [main] INFO : Selecting Client from dropdown: AAA
+2025-08-22 16:53:47 [main] INFO : Selecting Client Name from Owners: Phani Maddi
+2025-08-22 16:53:48 [main] INFO : Subject Retrieved Based on Survey Type
+2025-08-22 16:53:48 [main] INFO : We Value Your Feedback – CR CSAT - Engagement Level Survey
+2025-08-22 16:53:48 [main] INFO : Body Retrieved Based on Survey Type
+2025-08-22 16:53:48 [main] INFO : Client: AAA
+Contact: Phani Maddi
+Survey: CR CSAT - Engagement Level
+URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/c1cca87a453a4839939cc65f41dfe4e1
+2025-08-22 16:54:09 [main] INFO : Total Surveys Sent Card count:237
+2025-08-22 16:54:09 [main] INFO : Total Responses Received Card count:192
+2025-08-22 16:54:09 [main] INFO : Average Response Rate Card count:81.01%
+2025-08-22 16:54:09 [main] INFO : Highest Responded Survey Card count:CR CSAT - Engagement Level
+2025-08-22 16:55:04 [main] INFO : Inside Customer Mail
+2025-08-22 16:55:29 [main] INFO : Header is Valid: CR CSAT - Engagement Level
+2025-08-22 16:55:29 [main] INFO : Inside Feed back Form
+2025-08-22 16:55:39 [main] INFO : Average Rating: 3.67
+2025-08-22 16:55:54 [main] INFO : Thank You for Sharing Your Feedback!
+2025-08-22 16:56:04 [main] INFO : Before Deleting owner contact using Edit Owner popup
+2025-08-22 16:56:05 [main] INFO : Client Name: Christopher Vialva,Phani Maddi
+2025-08-22 16:56:05 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 16:56:13 [main] INFO : Owner Update Message :Owners updated successfully!
+2025-08-22 16:56:19 [main] INFO : After Deleting owner contact using Edit Owner popup
+2025-08-22 16:56:19 [main] INFO : Client Name: Christopher Vialva
+2025-08-22 16:56:19 [main] INFO : Client Email: chris.vialva@criticalriver.com
+2025-08-22 16:56:21 [main] INFO : Testing Ended
+2025-08-22 16:56:21 [main] INFO : ***********
