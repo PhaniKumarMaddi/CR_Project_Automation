@@ -391,6 +391,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 		try {
 			implWait(driver);
 			By searchBy = By.xpath("//h2[text()='" + tableName + "']/following-sibling::div[1]/button");
+
 			boolean elementExist = !driver.findElements(searchBy).isEmpty();
 			if (elementExist) {
 
@@ -414,23 +415,28 @@ public class L_And_D_OtherPages extends WaitsManager {
 	public void exportDashboardTable(String tableName, String fileFormat) throws Exception {
 		try {
 			implWait(driver);
-			By export = By.xpath("//h2[text()='" + tableName + "']/following-sibling::div[1]/div[2]/button");
+
+//			By export = By.xpath("//h2[text()='" + tableName + "']/following-sibling::div[1]/div[2]/button");
+			By export = By.xpath("//h2[text()='" + tableName
+					+ "']/following-sibling::div[1]/descendant::button[@class='export-table-download-button']");
 			boolean elementExist = !driver.findElements(export).isEmpty();
 			if (elementExist) {
+//				scrollView(export);
+				waitTime(driver);
 
 				driver.findElement(export).click();
 				waitTime(driver);
-				driver.findElement(By
-						.xpath("//div[@class='export-table-dropdown']/button[contains(text(),'" + fileFormat + "')]"));
+				driver.findElement(
+						By.xpath("//div[@class='export-table-dropdown']/button[contains(text(),'" + fileFormat + "')]"))
+						.click();
 
 				grep.infoTest("Exporting " + fileFormat + " for " + tableName + " Table");
 				logger.info("Exporting " + fileFormat + " for " + tableName + " Table");
 
 			} else {
-				grep.failTest("Table is not available in dashboard tab");
-				logger.error("Table is not available in dashboard tab");
+				grep.failTest("Table is not available in dashboard tab " + tableName);
+				logger.error("Table is not available in dashboard tab " + tableName);
 			}
-			scrollView(adminHeader);
 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -604,14 +610,17 @@ public class L_And_D_OtherPages extends WaitsManager {
 	public void exportTestsTable(String tableName, String fileFormat) throws Exception {
 		try {
 			implWait(driver);
-			By export = By.xpath("//h3[text()='" + tableName + "']/following-sibling::div[1]/div[1]/button");
+//			By export = By.xpath("//h3[text()='" + tableName + "']/following-sibling::div[1]/div[1]/button");
+			By export = By.xpath("//h3[text()='" + tableName
+					+ "']/following-sibling::div[1]/descendant::button[@class='export-table-download-button']");
 			boolean elementExist = !driver.findElements(export).isEmpty();
 			if (elementExist) {
 
 				driver.findElement(export).click();
 				waitTime(driver);
-				driver.findElement(By
-						.xpath("//div[@class='export-table-dropdown']/button[contains(text(),'" + fileFormat + "')]"));
+				driver.findElement(
+						By.xpath("//div[@class='export-table-dropdown']/button[contains(text(),'" + fileFormat + "')]"))
+						.click();
 
 				grep.infoTest("Exporting " + fileFormat + " for " + tableName + " Table");
 				logger.info("Exporting " + fileFormat + " for " + tableName + " Table");
@@ -620,7 +629,6 @@ public class L_And_D_OtherPages extends WaitsManager {
 				grep.failTest("Table is not available in Tests tab");
 				logger.error("Table is not available in Tests tab");
 			}
-			scrollView(adminHeader);
 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -768,17 +776,18 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 				driver.findElement(export).click();
 				waitTime(driver);
-				driver.findElement(By
-						.xpath("//div[@class='export-table-dropdown']/button[contains(text(),'" + fileFormat + "')]"));
+				driver.findElement(
+						By.xpath("//div[@class='export-table-dropdown']/button[contains(text(),'" + fileFormat + "')]"))
+						.click();
 
 				grep.infoTest("Exporting " + fileFormat + " for " + tableName + " Table");
 				logger.info("Exporting " + fileFormat + " for " + tableName + " Table");
+				
 
 			} else {
 				grep.failTest("Table is not available in Roles tab");
 				logger.error("Table is not available in Roles tab");
 			}
-			scrollView(adminHeader);
 
 		} catch (Exception e) {
 			e.printStackTrace();

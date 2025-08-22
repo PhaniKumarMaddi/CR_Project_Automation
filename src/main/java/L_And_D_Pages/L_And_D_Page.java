@@ -103,6 +103,9 @@ public class L_And_D_Page extends WaitsManager {
 
 			List<WebElement> element = driver.findElements(tabNav);
 			if (element.size() > 0) {
+				scrollView(By.xpath("//span[text()='Admin - CriticalRiver Learning & Development']"));
+				waitTime(driver);
+				
 				element.getFirst().click();
 
 				grep.passTest("Navigated to " + tabName);

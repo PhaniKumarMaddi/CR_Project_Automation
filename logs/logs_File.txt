@@ -7955,3 +7955,846 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [6597c050bafd98d6611212202f118628, findElement {value=//div[@class='export-table-dropdown']/button[contains(text(),'PDF')], using=xpath}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57413/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 6597c050bafd98d6611212202f118628
+2025-08-22 11:35:37 [main] ERROR: Table is not available in dashboard tab
+2025-08-22 11:43:31 [main] INFO : Launching Chrome Browser
+2025-08-22 11:43:31 [main] INFO : Report Name :LandD_Page.html
+2025-08-22 11:43:57 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-22 11:43:57 [main] INFO : Inside Login Page: Learning and Development
+2025-08-22 11:44:49 [main] INFO : Logged in to Learning and Development Application
+2025-08-22 11:44:50 [main] INFO : Navigated to /admin
+2025-08-22 11:44:50 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-22 11:44:53 [main] INFO : Certificates card Value: 4
+2025-08-22 11:44:53 [main] INFO : Departments card Value: 15
+2025-08-22 11:44:53 [main] INFO : Active Courses card Value: 462
+2025-08-22 11:44:53 [main] INFO : Users card Value: 22
+2025-08-22 11:44:54 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01T14:42:26
+2025-08-22 11:44:54 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19T09:30:30
+2025-08-22 11:44:54 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19T11:11:46
+2025-08-22 11:44:55 [main] INFO : View Certificates
+2025-08-22 11:45:06 [main] INFO : Close Certificate
+2025-08-22 11:45:07 [main] INFO : Search Functionality for User Management table
+2025-08-22 11:45:08 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-22 11:45:08 [main] INFO : Search Functionality for Course Statistics table
+2025-08-22 11:45:09 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-22 11:45:11 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-22 11:45:11 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 11:45:14 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-22 11:45:15 [main] INFO : Click Total Users
+2025-08-22 11:45:16 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-22 11:45:20 [main] INFO : Verify Export Functionality for Dashboard Tables
+2025-08-22 11:45:21 [main] INFO : Exporting CSV for Certificates Table
+2025-08-22 11:45:28 [main] INFO : Exporting PDF for Certificates Table
+2025-08-22 11:45:29 [main] INFO : Exporting CSV for Course Statistics Table
+2025-08-22 11:47:41 [main] INFO : Launching Chrome Browser
+2025-08-22 11:47:42 [main] INFO : Report Name :LandD_Page.html
+2025-08-22 11:47:44 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-22 11:47:44 [main] INFO : Inside Login Page: Learning and Development
+2025-08-22 11:48:22 [main] INFO : Logged in to Learning and Development Application
+2025-08-22 11:48:22 [main] INFO : Navigated to /admin
+2025-08-22 11:48:23 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-22 11:48:26 [main] INFO : Certificates card Value: 4
+2025-08-22 11:48:26 [main] INFO : Departments card Value: 15
+2025-08-22 11:48:26 [main] INFO : Active Courses card Value: 462
+2025-08-22 11:48:26 [main] INFO : Users card Value: 22
+2025-08-22 11:48:27 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01T14:42:26
+2025-08-22 11:48:27 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19T09:30:30
+2025-08-22 11:48:27 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19T11:11:46
+2025-08-22 11:48:28 [main] INFO : View Certificates
+2025-08-22 11:48:39 [main] INFO : Close Certificate
+2025-08-22 11:48:41 [main] INFO : Search Functionality for User Management table
+2025-08-22 11:48:42 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-22 11:48:42 [main] INFO : Search Functionality for Course Statistics table
+2025-08-22 11:48:43 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-22 11:48:45 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-22 11:48:46 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 11:48:49 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-22 11:48:49 [main] INFO : Click Total Users
+2025-08-22 11:48:51 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-22 11:48:56 [main] INFO : Verify Export Functionality for Dashboard Tables
+2025-08-22 11:48:58 [main] ERROR: Test Failed :element click intercepted: Element <button class="export-table-download-button" aria-label="Export options">...</button> is not clickable at point (1844, 19). Other element would receive the click: <header class="header">...</header>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5b1de7cb127cc666533d71f231574b70, clickElement {id=f.81A5C412C7CE79C8B576D0A0F3997D88.d.525C94EBADBC9175E6773548E5BDDCE0.e.389}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62188/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5b1de7cb127cc666533d71f231574b70)] -> xpath: //h2[text()='Certificates']/following-sibling::div[1]/div[2]/button]
+Session ID: 5b1de7cb127cc666533d71f231574b70
+2025-08-22 11:48:59 [main] ERROR: Test Failed :element click intercepted: Element <button class="export-table-download-button" aria-label="Export options">...</button> is not clickable at point (1844, 19). Other element would receive the click: <header class="header">...</header>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5b1de7cb127cc666533d71f231574b70, clickElement {id=f.81A5C412C7CE79C8B576D0A0F3997D88.d.525C94EBADBC9175E6773548E5BDDCE0.e.389}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62188/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5b1de7cb127cc666533d71f231574b70)] -> xpath: //h2[text()='Certificates']/following-sibling::div[1]/div[2]/button]
+Session ID: 5b1de7cb127cc666533d71f231574b70
+2025-08-22 11:50:00 [main] ERROR: Table is not available in dashboard tab
+2025-08-22 11:51:28 [main] INFO : Launching Chrome Browser
+2025-08-22 11:51:28 [main] INFO : Report Name :LandD_Page.html
+2025-08-22 11:51:30 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-22 11:51:30 [main] INFO : Inside Login Page: Learning and Development
+2025-08-22 11:52:10 [main] INFO : Logged in to Learning and Development Application
+2025-08-22 11:52:10 [main] INFO : Navigated to /admin
+2025-08-22 11:52:10 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-22 11:52:14 [main] INFO : Certificates card Value: 4
+2025-08-22 11:52:14 [main] INFO : Departments card Value: 15
+2025-08-22 11:52:14 [main] INFO : Active Courses card Value: 462
+2025-08-22 11:52:14 [main] INFO : Users card Value: 22
+2025-08-22 11:52:15 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01T14:42:26
+2025-08-22 11:52:15 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19T09:30:30
+2025-08-22 11:52:15 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19T11:11:46
+2025-08-22 11:52:15 [main] INFO : View Certificates
+2025-08-22 11:52:26 [main] INFO : Close Certificate
+2025-08-22 11:52:28 [main] INFO : Search Functionality for User Management table
+2025-08-22 11:52:29 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-22 11:52:29 [main] INFO : Search Functionality for Course Statistics table
+2025-08-22 11:52:29 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-22 11:52:31 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-22 11:52:32 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 11:52:35 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-22 11:52:36 [main] INFO : Click Total Users
+2025-08-22 11:52:37 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-22 11:52:41 [main] INFO : Verify Export Functionality for Dashboard Tables
+2025-08-22 11:52:43 [main] INFO : Exporting CSV for Certificates Table
+2025-08-22 11:52:44 [main] INFO : Exporting PDF for Certificates Table
+2025-08-22 11:53:44 [main] ERROR: Table is not available in dashboard tab
+2025-08-22 11:54:45 [main] ERROR: Table is not available in dashboard tab
+2025-08-22 11:54:46 [main] INFO : Exporting CSV for Feedback Overview Table
+2025-08-22 11:54:48 [main] INFO : Exporting PDF for Feedback Overview Table
+2025-08-22 11:54:49 [main] ERROR: Test Failed :element click intercepted: Element <a class="" href="/admin/tests" style="flex: 1 1 0%; padding: 12px 0px; background: transparent; border: none; outline: none; font-weight: bold; color: rgb(34, 34, 34); cursor: pointer; font-size: 1rem; transition: background 0.2s; text-decoration: none; text-align: center;">...</a> is not clickable at point (1549, 22). Other element would receive the click: <header class="header">...</header>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [618a6d8f8264ded0b5be6663bb31e8db, clickElement {id=f.ECFF9667B1DFC989B4DC2EF6AB0E9AE7.d.7F8216369E159EF83FD8FEFC360B6BEC.e.402}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58941}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58941/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (618a6d8f8264ded0b5be6663bb31e8db)] -> xpath: //a[@href='/admin/tests']]
+Session ID: 618a6d8f8264ded0b5be6663bb31e8db
+2025-08-22 11:54:54 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-22 11:54:56 [main] ERROR: Test Failed :invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [618a6d8f8264ded0b5be6663bb31e8db, findElements {value=//h3[text()='Assessment Request Notifications']/following-sibling::div/input[@placeholder='Search by User ID'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58941}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58941/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 618a6d8f8264ded0b5be6663bb31e8db
+2025-08-22 11:54:57 [main] ERROR: Test Failed :invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [618a6d8f8264ded0b5be6663bb31e8db, setTimeout {implicit=60000}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58941}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58941/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 618a6d8f8264ded0b5be6663bb31e8db
+2025-08-22 11:56:55 [main] INFO : Launching Chrome Browser
+2025-08-22 11:56:55 [main] INFO : Report Name :LandD_Page.html
+2025-08-22 11:56:57 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-22 11:56:57 [main] INFO : Inside Login Page: Learning and Development
+2025-08-22 11:57:35 [main] INFO : Logged in to Learning and Development Application
+2025-08-22 11:57:36 [main] INFO : Navigated to /admin
+2025-08-22 11:57:36 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-22 11:57:39 [main] INFO : Certificates card Value: 4
+2025-08-22 11:57:39 [main] INFO : Departments card Value: 15
+2025-08-22 11:57:39 [main] INFO : Active Courses card Value: 462
+2025-08-22 11:57:39 [main] INFO : Users card Value: 22
+2025-08-22 11:57:40 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01T14:42:26
+2025-08-22 11:57:40 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19T09:30:30
+2025-08-22 11:57:40 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19T11:11:46
+2025-08-22 11:57:41 [main] INFO : View Certificates
+2025-08-22 11:57:52 [main] INFO : Close Certificate
+2025-08-22 11:57:53 [main] INFO : Search Functionality for User Management table
+2025-08-22 11:57:54 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-22 11:57:54 [main] INFO : Search Functionality for Course Statistics table
+2025-08-22 11:57:55 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-22 11:57:57 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-22 11:57:57 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 11:58:01 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-22 11:58:01 [main] INFO : Click Total Users
+2025-08-22 11:58:02 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-22 11:58:07 [main] INFO : Verify Export Functionality for Dashboard Tables
+2025-08-22 11:58:08 [main] INFO : Exporting CSV for Certificates Table
+2025-08-22 11:58:09 [main] INFO : Exporting PDF for Certificates Table
+2025-08-22 11:58:11 [main] INFO : Exporting CSV for Course Statistics Table
+2025-08-22 11:58:13 [main] INFO : Exporting PDF for Course Statistics Table
+2025-08-22 11:58:15 [main] INFO : Exporting CSV for Feedback Overview Table
+2025-08-22 11:58:16 [main] INFO : Exporting PDF for Feedback Overview Table
+2025-08-22 11:58:17 [main] ERROR: Test Failed :element click intercepted: Element <a class="" href="/admin/tests" style="flex: 1 1 0%; padding: 12px 0px; background: transparent; border: none; outline: none; font-weight: bold; color: rgb(34, 34, 34); cursor: pointer; font-size: 1rem; transition: background 0.2s; text-decoration: none; text-align: center;">...</a> is not clickable at point (1549, 22). Other element would receive the click: <header class="header">...</header>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [23559a322176e3a20d5970bc63e7f4e8, clickElement {id=f.C617EC9A3461E0F2B8FE2D786E64315F.d.0CC0B30539870C3BFFA0D75B109FC003.e.404}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57986}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57986/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (23559a322176e3a20d5970bc63e7f4e8)] -> xpath: //a[@href='/admin/tests']]
+Session ID: 23559a322176e3a20d5970bc63e7f4e8
+2025-08-22 11:58:22 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-22 11:59:22 [main] ERROR: Table is not available in dashboard tab
+2025-08-22 12:00:26 [main] ERROR: No Data found
+2025-08-22 12:00:26 [main] INFO : Search Functionality for Course Assessments table
+2025-08-22 12:03:38 [main] INFO : Launching Chrome Browser
+2025-08-22 12:03:38 [main] INFO : Report Name :LandD_Page.html
+2025-08-22 12:04:11 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-22 12:04:13 [main] INFO : Inside Login Page: Learning and Development
+2025-08-22 12:05:05 [main] INFO : Logged in to Learning and Development Application
+2025-08-22 12:05:05 [main] INFO : Navigated to /admin
+2025-08-22 12:05:06 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-22 12:05:09 [main] INFO : Certificates card Value: 4
+2025-08-22 12:05:09 [main] INFO : Departments card Value: 15
+2025-08-22 12:05:09 [main] INFO : Active Courses card Value: 462
+2025-08-22 12:05:09 [main] INFO : Users card Value: 22
+2025-08-22 12:05:10 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01T14:42:26
+2025-08-22 12:05:10 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19T09:30:30
+2025-08-22 12:05:10 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19T11:11:46
+2025-08-22 12:05:11 [main] INFO : View Certificates
+2025-08-22 12:05:22 [main] INFO : Close Certificate
+2025-08-22 12:05:23 [main] INFO : Search Functionality for User Management table
+2025-08-22 12:05:24 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-22 12:05:24 [main] INFO : Search Functionality for Course Statistics table
+2025-08-22 12:05:25 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-22 12:05:27 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-22 12:05:28 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 12:05:31 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-22 12:05:31 [main] INFO : Click Total Users
+2025-08-22 12:05:32 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-22 12:05:37 [main] INFO : Verify Export Functionality for Dashboard Tables
+2025-08-22 12:05:38 [main] INFO : Exporting CSV for Certificates Table
+2025-08-22 12:05:39 [main] INFO : Exporting PDF for Certificates Table
+2025-08-22 12:05:41 [main] INFO : Exporting CSV for Course Statistics Table
+2025-08-22 12:05:43 [main] INFO : Exporting PDF for Course Statistics Table
+2025-08-22 12:05:44 [main] INFO : Exporting CSV for Feedback Overview Table
+2025-08-22 12:05:46 [main] INFO : Exporting PDF for Feedback Overview Table
+2025-08-22 12:05:47 [main] INFO : Navigated to /admin/tests
+2025-08-22 12:05:52 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-22 12:05:55 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 12:05:56 [main] INFO : Search Functionality for Course Assessments table
+2025-08-22 12:05:56 [main] INFO : ✅ Search validation passed. All Values match: Meter Data Management Beginner
+2025-08-22 12:05:59 [main] INFO : Verify Export Functionality for Tests Tables
+2025-08-22 12:06:00 [main] INFO : Exporting CSV for Assessment Request Notifications Table
+2025-08-22 12:09:17 [main] INFO : Launching Chrome Browser
+2025-08-22 12:09:17 [main] INFO : Report Name :LandD_Page.html
+2025-08-22 12:09:20 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-22 12:09:20 [main] INFO : Inside Login Page: Learning and Development
+2025-08-22 12:09:45 [main] INFO : Logged in to Learning and Development Application
+2025-08-22 12:09:46 [main] INFO : Navigated to /admin
+2025-08-22 12:09:46 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-22 12:09:49 [main] INFO : Certificates card Value: 4
+2025-08-22 12:09:49 [main] INFO : Departments card Value: 15
+2025-08-22 12:09:49 [main] INFO : Active Courses card Value: 462
+2025-08-22 12:09:49 [main] INFO : Users card Value: 22
+2025-08-22 12:09:50 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01T14:42:26
+2025-08-22 12:09:50 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19T09:30:30
+2025-08-22 12:09:50 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19T11:11:46
+2025-08-22 12:09:51 [main] INFO : View Certificates
+2025-08-22 12:10:02 [main] INFO : Close Certificate
+2025-08-22 12:10:04 [main] INFO : Search Functionality for User Management table
+2025-08-22 12:10:04 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-22 12:10:04 [main] INFO : Search Functionality for Course Statistics table
+2025-08-22 12:10:05 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-22 12:10:07 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-22 12:10:08 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 12:10:11 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-22 12:10:11 [main] INFO : Click Total Users
+2025-08-22 12:10:13 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-22 12:10:17 [main] INFO : Verify Export Functionality for Dashboard Tables
+2025-08-22 12:10:18 [main] INFO : Exporting CSV for Certificates Table
+2025-08-22 12:10:20 [main] INFO : Exporting PDF for Certificates Table
+2025-08-22 12:10:21 [main] INFO : Exporting CSV for Course Statistics Table
+2025-08-22 12:10:23 [main] INFO : Exporting PDF for Course Statistics Table
+2025-08-22 12:10:24 [main] INFO : Exporting CSV for Feedback Overview Table
+2025-08-22 12:10:26 [main] INFO : Exporting PDF for Feedback Overview Table
+2025-08-22 12:10:27 [main] INFO : Navigated to /admin/tests
+2025-08-22 12:10:32 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-22 12:10:35 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 12:10:36 [main] INFO : Search Functionality for Course Assessments table
+2025-08-22 12:10:36 [main] INFO : ✅ Search validation passed. All Values match: Meter Data Management Beginner
+2025-08-22 12:10:39 [main] INFO : Verify Export Functionality for Tests Tables
+2025-08-22 12:10:40 [main] INFO : Exporting CSV for Assessment Request Notifications Table
+2025-08-22 12:10:41 [main] INFO : Exporting PDF for Assessment Request Notifications Table
+2025-08-22 12:10:42 [main] INFO : Exporting CSV for Course Assessments Table
+2025-08-22 12:10:43 [main] INFO : Exporting PDF for Course Assessments Table
+2025-08-22 12:10:48 [main] INFO : Navigated to /admin/roles
+2025-08-22 12:10:49 [main] INFO : Search Functionality for User Management table
+2025-08-22 12:10:49 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-22 12:10:51 [main] INFO : Verify Export Functionality for Roles Tables
+2025-08-22 12:10:51 [main] INFO : Exporting CSV for User Management Table
+2025-08-22 12:10:52 [main] INFO : Exporting PDF for User Management Table
+2025-08-22 12:10:53 [main] INFO : Navigated to /admin/tests
+2025-08-22 12:10:58 [main] INFO : Selecting Course from dropdown: 210 - Airflow Beginner
+2025-08-22 12:10:59 [main] INFO : Selecting Assessment Number from dropdown: Assessment 1
+2025-08-22 12:11:00 [main] INFO : Enter Assessment or User Id: a6cb19b2-7acb-4ff3-9b4b-76572900d73e
+2025-08-22 12:11:01 [main] INFO : Click Generated button for: Create New Assessment
+2025-08-22 12:11:02 [main] INFO : Assessment Generated message: Self-assessment successfully created for course 210, test_id1
+2025-08-22 12:11:08 [main] INFO : Selecting Course from dropdown: 210 - Airflow Beginner
+2025-08-22 12:11:10 [main] INFO : Enter Assessment or User Id: 32
+2025-08-22 12:11:10 [main] INFO : Selecting Assessment Number from dropdown: Assessment 1
+2025-08-22 12:11:12 [main] INFO : Click Generated button for: Generate Assessment Link For User
+2025-08-22 12:11:14 [main] INFO : Assessment Generated message: Assessment link generated successfully: https://assess.wecreateproblems.com/tests/c2014a23-5a0a-4bf6-9ed0-ef73a1986867/instructions
+2025-08-22 12:11:15 [main] INFO : Navigated to /certificates
+2025-08-22 12:11:16 [main] INFO : Verify Certificate Header: My Certificates
+2025-08-22 12:11:16 [main] INFO : Verify Certificate List: No certificates have been completed
+2025-08-22 12:11:18 [main] INFO : Navigated to /feedback
+2025-08-22 12:11:20 [main] INFO : Feedback Submitted successfully: 
+2025-08-22 12:11:21 [main] INFO : Navigated to /admin
+2025-08-22 12:11:26 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-22 12:11:30 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 12:11:33 [main] INFO : Testing Ended
+2025-08-22 12:11:33 [main] INFO : ***********
+2025-08-22 12:20:47 [main] INFO : Launching Chrome Browser
+2025-08-22 12:20:47 [main] INFO : Report Name :LandDPage_Report.html
+2025-08-22 12:21:10 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-22 12:21:10 [main] INFO : Inside Login Page: Learning and Development
+2025-08-22 12:21:37 [main] INFO : Logged in to Learning and Development Application
+2025-08-22 12:21:45 [main] INFO : Learning and Development Page navigation Test
+2025-08-22 12:21:45 [main] INFO : Navigated to /my-courses
+2025-08-22 12:21:51 [main] INFO : Inside /my-courses Page 
+2025-08-22 12:21:51 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-22 12:21:53 [main] INFO : Navigated to /departments
+2025-08-22 12:21:58 [main] INFO : Inside /departments Page 
+2025-08-22 12:21:58 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-22 12:22:00 [main] INFO : Navigated to /certificates
+2025-08-22 12:22:05 [main] INFO : Inside /certificates Page 
+2025-08-22 12:22:05 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-22 12:22:07 [main] INFO : Navigated to /admin
+2025-08-22 12:22:07 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-22 12:22:10 [main] INFO : Navigated to /admin/courses
+2025-08-22 12:22:15 [main] INFO : Inside /admin/courses Tab in Admin Page 
+2025-08-22 12:22:15 [main] INFO : /admin/courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/courses
+2025-08-22 12:22:18 [main] INFO : Navigated to /admin/tests
+2025-08-22 12:22:23 [main] INFO : Inside /admin/tests Tab in Admin Page 
+2025-08-22 12:22:23 [main] INFO : /admin/tests Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/tests
+2025-08-22 12:22:26 [main] INFO : Navigated to /admin/roles
+2025-08-22 12:22:31 [main] INFO : Inside /admin/roles Tab in Admin Page 
+2025-08-22 12:22:31 [main] INFO : /admin/roles Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/roles
+2025-08-22 12:22:33 [main] INFO : Navigated to /admin/dashboard
+2025-08-22 12:22:38 [main] INFO : Inside /admin/dashboard Tab in Admin Page 
+2025-08-22 12:22:38 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-22 12:22:41 [main] INFO : Navigated to /Home
+2025-08-22 12:22:46 [main] INFO : Inside /Home Page 
+2025-08-22 12:22:46 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-22 12:22:48 [main] INFO : Home Page Ui test
+2025-08-22 12:22:49 [main] INFO : Home Page Header Content: Grow your skills, advance your career
+2025-08-22 12:22:49 [main] INFO : Home Page Description Content: Access all the learning resources you need to excel at CriticalRiver
+2025-08-22 12:22:49 [main] INFO : Start Learning Button Available
+2025-08-22 12:22:49 [main] INFO : Header: Browse Courses by Department
+2025-08-22 12:22:49 [main] INFO : Total Courses Card Count: 462
+2025-08-22 12:22:49 [main] INFO : Departments Card Count: 15
+2025-08-22 12:22:49 [main] INFO : Popular Courses Card Count: 5
+2025-08-22 12:22:49 [main] INFO : My Certificates Card Count: 0
+2025-08-22 12:22:50 [main] INFO : My Courses Card Count: 6
+2025-08-22 12:22:51 [main] INFO : Verifying navigation from Stat Cards in Home Page
+2025-08-22 12:22:52 [main] INFO : Clicking on Total Courses card
+2025-08-22 12:22:53 [main] INFO : Clicking on Total Courses Card
+2025-08-22 12:22:53 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-22 12:22:56 [main] INFO : Navigated to /Home
+2025-08-22 12:23:02 [main] INFO : Clicking on Departments card
+2025-08-22 12:23:03 [main] INFO : Clicking on Departments Card
+2025-08-22 12:23:03 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-22 12:23:06 [main] INFO : Navigated to /Home
+2025-08-22 12:23:12 [main] INFO : Clicking on Popular Courses card
+2025-08-22 12:23:13 [main] INFO : Clicking on Popular Courses Card
+2025-08-22 12:23:13 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-22 12:23:17 [main] INFO : Navigated to /Home
+2025-08-22 12:23:22 [main] INFO : Clicking on My Certificates card
+2025-08-22 12:23:23 [main] INFO : Clicking on My Certificates Card
+2025-08-22 12:23:23 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-22 12:23:26 [main] INFO : Navigated to /Home
+2025-08-22 12:23:32 [main] INFO : Clicking on My Courses card
+2025-08-22 12:23:33 [main] INFO : Clicking on My Courses Card
+2025-08-22 12:23:33 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-22 12:23:36 [main] INFO : Navigated to /Home
+2025-08-22 12:23:42 [main] INFO : Home Page Continue Learning test
+2025-08-22 12:23:43 [main] INFO : Continue Learning Header is correct: Continue Learning
+2025-08-22 12:23:44 [main] INFO : Continue Learning Course NameAirflow Beginner
+2025-08-22 12:23:44 [main] INFO : Continue Learning Progress Percentage: 100% complete
+2025-08-22 12:23:44 [main] INFO : Continue Learning Course Category: Data Engineering Tools
+2025-08-22 12:23:44 [main] INFO : Continue Learning Course Last Accessed: Last accessed: Recently
+2025-08-22 12:23:45 [main] INFO : Navigated to Course Video Page
+2025-08-22 12:23:46 [main] INFO : /course-videos Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-22 12:23:47 [main] INFO : Navigated to /Home
+2025-08-22 12:23:49 [main] INFO : Home Page Feature Courses test
+2025-08-22 12:23:51 [main] INFO : Feature Course List Contains : Airflow Beginner course
+2025-08-22 12:23:52 [main] INFO : Feature Course List Contains : Airflow Advanced course
+2025-08-22 12:23:52 [main] INFO : Feature Course List Contains : Statistics Beginner course
+2025-08-22 12:23:53 [main] INFO : Feature Course List Contains : ABAP Beginner course
+2025-08-22 12:23:53 [main] INFO : Feature Course List Contains : Automation Testing (Selenium) Beginner course
+2025-08-22 12:23:55 [main] INFO : Feature Courses contains Department Name: Data Science and AI
+2025-08-22 12:23:55 [main] INFO : Feature Courses contains Course Level: Beginner
+2025-08-22 12:23:55 [main] INFO : Feature Courses contains Name: Airflow Beginner
+2025-08-22 12:23:55 [main] INFO : Feature Courses contains Video Count: 🎥 1 Videos
+2025-08-22 12:23:55 [main] INFO : Feature Courses contains Duration: ⏱ 1 hrs 37 mins
+2025-08-22 12:23:57 [main] INFO : Course Enrollment message: Already enrolled in the course
+2025-08-22 12:23:58 [main] INFO : Home Page Browse Course By Department test
+2025-08-22 12:23:59 [main] INFO : Data Science and AI department is available
+2025-08-22 12:23:59 [main] INFO : Total Courses count for Data Science and AI: 43 courses
+2025-08-22 12:24:00 [main] INFO : ERP Application department is available
+2025-08-22 12:24:01 [main] INFO : Total Courses count for ERP Application: 35 courses
+2025-08-22 12:24:01 [main] INFO : Product Engineering Services department is available
+2025-08-22 12:24:02 [main] INFO : Total Courses count for Product Engineering Services: 29 courses
+2025-08-22 12:24:02 [main] INFO : Hardware and Validation department is available
+2025-08-22 12:24:03 [main] INFO : Total Courses count for Hardware and Validation: 21 courses
+2025-08-22 12:24:03 [main] INFO : H1B Staffing department is available
+2025-08-22 12:24:04 [main] INFO : Total Courses count for H1B Staffing: 21 courses
+2025-08-22 12:24:04 [main] INFO : Salesforce department is available
+2025-08-22 12:24:05 [main] INFO : Total Courses count for Salesforce: 28 courses
+2025-08-22 12:24:05 [main] INFO : DSIL department is available
+2025-08-22 12:24:06 [main] INFO : Total Courses count for DSIL: 49 courses
+2025-08-22 12:24:06 [main] INFO : Enterprise Architecture department is available
+2025-08-22 12:24:07 [main] INFO : Total Courses count for Enterprise Architecture: 34 courses
+2025-08-22 12:24:08 [main] INFO : Global Engineering Org department is available
+2025-08-22 12:24:08 [main] INFO : Total Courses count for Global Engineering Org: 69 courses
+2025-08-22 12:24:09 [main] INFO : Enterprise Integration department is available
+2025-08-22 12:24:09 [main] INFO : Total Courses count for Enterprise Integration: 27 courses
+2025-08-22 12:24:10 [main] INFO : India Public Sector department is available
+2025-08-22 12:24:10 [main] INFO : Total Courses count for India Public Sector: 36 courses
+2025-08-22 12:24:11 [main] INFO : Energy & Water department is available
+2025-08-22 12:24:11 [main] INFO : Total Courses count for Energy & Water: 18 courses
+2025-08-22 12:24:12 [main] INFO : Business Process Services department is available
+2025-08-22 12:24:12 [main] INFO : Total Courses count for Business Process Services: 23 courses
+2025-08-22 12:24:13 [main] INFO : Enabling Team department is available
+2025-08-22 12:24:13 [main] INFO : Total Courses count for Enabling Team: 29 courses
+2025-08-22 12:24:14 [main] INFO : Others department is available
+2025-08-22 12:24:15 [main] INFO : Total Courses count for Others: 0 courses
+2025-08-22 12:24:16 [main] INFO : Click View All Department Link
+2025-08-22 12:24:17 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-22 12:24:18 [main] INFO : Navigated to /Home
+2025-08-22 12:24:24 [main] INFO : Verify clicking on department card
+2025-08-22 12:24:30 [main] INFO : Navigated to Data Science and AI Department
+2025-08-22 12:24:35 [main] INFO : Navigated to /Home
+2025-08-22 12:24:38 [main] INFO : Navigated to Salesforce Department
+2025-08-22 12:24:43 [main] INFO : Navigated to /Home
+2025-08-22 12:24:44 [main] INFO : Verify Why Criticalriver Academy Info
+2025-08-22 12:24:44 [main] INFO : Academy Header :Why CriticalRiver Academy?
+2025-08-22 12:24:44 [main] INFO : Academy Reason youtube :▶️
+Learn from YouTube
+Access curated YouTube content organized by departments and skills, making it easy to find relevant learning materials.
+2025-08-22 12:24:44 [main] INFO : Academy Reason Certificates :📜
+Earn Certificates
+Complete courses and assessments to earn certificates that demonstrate your skills and expertise.
+2025-08-22 12:24:44 [main] INFO : Academy Reason Learning paths :🗺️
+Structured Learning Paths
+Follow department-specific learning paths designed to help you grow in your role and advance your career.
+2025-08-22 12:24:46 [main] INFO : Ready To StartReady to start learning?
+Take the first step in your learning journey with CriticalRiver Academy
+Explore All Courses
+2025-08-22 12:24:46 [main] INFO : Explore all courses
+2025-08-22 12:24:48 [main] INFO : Navigate to Profile Page
+2025-08-22 12:24:51 [main] INFO : Profile Page Information: Personal Information
+2025-08-22 12:24:51 [main] INFO : Profile Page Information: Full Name:
+Phani Kumar Maddi
+2025-08-22 12:24:51 [main] INFO : Profile Page Information: Email:
+phani.maddi@criticalriver.com
+2025-08-22 12:24:51 [main] INFO : Profile Page Information: Department:
+DSIL
+2025-08-22 12:24:51 [main] INFO : Profile Page Information: Job Title:
+Software Engineer
+2025-08-22 12:24:51 [main] INFO : Profile Page Information: Certifications
+2025-08-22 12:24:51 [main] INFO : Profile Page Information: No certifications
+2025-08-22 12:24:52 [main] INFO : Reserve Rigths: © 2025 CriticalRiver. All rights reserved.
+2025-08-22 12:24:53 [main] INFO : Navigated to /my-courses
+2025-08-22 12:24:53 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-22 12:24:55 [main] INFO : Navigated to /departments
+2025-08-22 12:24:55 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-22 12:24:56 [main] INFO : Navigated to /help-center
+2025-08-22 12:24:56 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/help-center
+2025-08-22 12:24:57 [main] INFO : Navigated to /feedback
+2025-08-22 12:24:57 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/feedback
+2025-08-22 12:24:59 [main] INFO : Navigated to /certificates
+2025-08-22 12:24:59 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-22 12:25:00 [main] INFO : Navigated to /profile
+2025-08-22 12:25:00 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/profile
+2025-08-22 12:25:01 [main] INFO : Social Media Links
+2025-08-22 12:25:01 [main] INFO : Navigated to Facebook
+2025-08-22 12:25:03 [main] INFO :  Url is Valid :https://www.facebook.com/criticalriver/
+2025-08-22 12:25:05 [main] INFO : Navigated to LinkedIn
+2025-08-22 12:25:07 [main] INFO :  Url is Valid :https://in.linkedin.com/company/criticalriver
+2025-08-22 12:25:10 [main] INFO : Navigated to Instagram
+2025-08-22 12:25:11 [main] INFO :  Url is Valid :https://www.instagram.com/criticalriver/?hl=en
+2025-08-22 12:25:14 [main] INFO : Navigated to Twitter
+2025-08-22 12:25:16 [main] INFO :  Url is Valid :https://x.com/CriticalRiver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+2025-08-22 12:25:19 [main] INFO : Navigated to /Home
+2025-08-22 12:25:22 [main] INFO : Searching the non existing department test
+2025-08-22 12:25:22 [main] INFO : Navigated to /departments
+2025-08-22 12:25:23 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-22 12:25:23 [main] INFO : No Department Found Message: No departments found matching "@#$%^&*(#$%^"
+2025-08-22 12:25:29 [main] INFO : Searching the non existing course test
+2025-08-22 12:25:29 [main] INFO : Navigated to /departments
+2025-08-22 12:25:31 [main] INFO : Searching Data Science and AI Name
+2025-08-22 12:25:33 [main] INFO : Exploring Data Science and AI Name
+2025-08-22 12:25:33 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-22 12:25:34 [main] INFO : No Course Found Message: No courses found
+2025-08-22 12:25:41 [main] INFO : Explore Department and Enroll Course test
+2025-08-22 12:25:43 [main] INFO : Navigated to /departments
+2025-08-22 12:25:46 [main] INFO : Searching Data Science and AI Name
+2025-08-22 12:25:49 [main] INFO : Exploring Data Science and AI Name
+2025-08-22 12:25:50 [main] INFO : Searching Azure Beginner Name
+2025-08-22 12:25:51 [main] INFO : Enrolling Azure Beginner Course
+2025-08-22 12:25:52 [main] INFO : Course Enrollment message: Successfully enrolled in the course
+2025-08-22 12:25:57 [main] INFO : Navigated to /my-courses
+2025-08-22 12:26:01 [main] INFO : Selecting Pagination: 30
+2025-08-22 12:26:02 [main] INFO : Enrolled Course Card Details test
+2025-08-22 12:26:03 [main] INFO : Course Category for Azure Beginner: Cloud
+2025-08-22 12:26:03 [main] INFO : Course Level for Azure Beginner: Beginner
+2025-08-22 12:26:03 [main] INFO : Course Video Count for Azure Beginner: 🎥 Videos: 40
+2025-08-22 12:26:03 [main] INFO : Course Duration for Azure Beginner: ⏱ Duration: 7 hrs 15 mins
+2025-08-22 12:26:03 [main] INFO : Course Progress percent for Azure Beginner: Progress: 0%
+2025-08-22 12:26:03 [main] INFO : Course Enrolled Successful:Azure Beginner
+2025-08-22 12:26:08 [main] INFO : Header : My Courses
+2025-08-22 12:26:08 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-22 12:26:08 [main] INFO : Inside In progress Tab
+2025-08-22 12:26:09 [main] INFO : Inside Completed Tab
+2025-08-22 12:26:10 [main] INFO : Inside All courses Tab
+2025-08-22 12:26:17 [main] INFO : Un Enrolling Azure Beginner Course
+2025-08-22 12:26:18 [main] INFO : Course Enrollment message: User unenrolled successfully
+2025-08-22 12:26:22 [main] INFO : Continue and update progress for Course test
+2025-08-22 12:26:23 [main] INFO : Progress Percent :Progress: 48%
+2025-08-22 12:26:31 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-22 12:26:36 [main] INFO : Video List Count :Video List (21/42) - Video List (21/42)
+2025-08-22 12:26:36 [main] INFO : Video Available in the list:22
+19.
+2025-08-22 12:26:37 [main] INFO : Select Video from video list
+2025-08-22 12:27:40 [main] INFO : Click Play Video
+2025-08-22 12:27:55 [main] INFO : Video playback moved to the end.
+2025-08-22 12:27:56 [main] INFO : Select Video from video list
+2025-08-22 12:28:01 [main] INFO : Video Completed: Completed
+2025-08-22 12:28:08 [main] INFO : Video List Count :Video List (22/42) - Video List (22/42)
+2025-08-22 12:28:08 [main] INFO : Navigated to /my-courses
+2025-08-22 12:28:10 [main] INFO : Progress Percent :Progress: 50%
+2025-08-22 12:28:11 [main] INFO : Navigated to /admin
+2025-08-22 12:28:11 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-22 12:28:14 [main] INFO : Certificates card Value: 4
+2025-08-22 12:28:14 [main] INFO : Departments card Value: 15
+2025-08-22 12:28:14 [main] INFO : Active Courses card Value: 462
+2025-08-22 12:28:15 [main] INFO : Users card Value: 22
+2025-08-22 12:28:15 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01T14:42:26
+2025-08-22 12:28:15 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19T09:30:30
+2025-08-22 12:28:15 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19T11:11:46
+2025-08-22 12:28:16 [main] INFO : View Certificates
+2025-08-22 12:28:27 [main] INFO : Close Certificate
+2025-08-22 12:28:29 [main] INFO : Search Functionality for User Management table
+2025-08-22 12:28:29 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-22 12:28:29 [main] INFO : Search Functionality for Course Statistics table
+2025-08-22 12:28:30 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-22 12:28:32 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-22 12:28:32 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 12:28:36 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-22 12:28:36 [main] INFO : Click Total Users
+2025-08-22 12:28:37 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-22 12:28:42 [main] INFO : Verify Export Functionality for Dashboard Tables
+2025-08-22 12:28:43 [main] INFO : Exporting CSV for Certificates Table
+2025-08-22 12:28:44 [main] INFO : Exporting PDF for Certificates Table
+2025-08-22 12:28:46 [main] INFO : Exporting CSV for Course Statistics Table
+2025-08-22 12:28:48 [main] INFO : Exporting PDF for Course Statistics Table
+2025-08-22 12:28:50 [main] INFO : Exporting CSV for Feedback Overview Table
+2025-08-22 12:28:51 [main] INFO : Exporting PDF for Feedback Overview Table
+2025-08-22 12:28:52 [main] INFO : Navigated to /admin/tests
+2025-08-22 12:28:57 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-22 12:29:00 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 12:29:01 [main] INFO : Search Functionality for Course Assessments table
+2025-08-22 12:29:02 [main] INFO : ✅ Search validation passed. All Values match: Meter Data Management Beginner
+2025-08-22 12:29:04 [main] INFO : Verify Export Functionality for Tests Tables
+2025-08-22 12:29:05 [main] INFO : Exporting CSV for Assessment Request Notifications Table
+2025-08-22 12:29:06 [main] INFO : Exporting PDF for Assessment Request Notifications Table
+2025-08-22 12:29:07 [main] INFO : Exporting CSV for Course Assessments Table
+2025-08-22 12:29:08 [main] INFO : Exporting PDF for Course Assessments Table
+2025-08-22 12:29:14 [main] INFO : Navigated to /admin/roles
+2025-08-22 12:29:14 [main] INFO : Search Functionality for User Management table
+2025-08-22 12:29:15 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-22 12:29:16 [main] INFO : Verify Export Functionality for Roles Tables
+2025-08-22 12:29:17 [main] INFO : Exporting CSV for User Management Table
+2025-08-22 12:29:17 [main] INFO : Exporting PDF for User Management Table
+2025-08-22 12:29:18 [main] INFO : Navigated to /admin/tests
+2025-08-22 12:29:23 [main] INFO : Selecting Course from dropdown: 210 - Airflow Beginner
+2025-08-22 12:29:24 [main] INFO : Selecting Assessment Number from dropdown: Assessment 1
+2025-08-22 12:29:25 [main] INFO : Enter Assessment or User Id: a6cb19b2-7acb-4ff3-9b4b-76572900d73e
+2025-08-22 12:29:26 [main] INFO : Click Generated button for: Create New Assessment
+2025-08-22 12:29:27 [main] INFO : Assessment Generated message: Self-assessment successfully created for course 210, test_id1
+2025-08-22 12:29:33 [main] INFO : Selecting Course from dropdown: 210 - Airflow Beginner
+2025-08-22 12:29:35 [main] INFO : Enter Assessment or User Id: 32
+2025-08-22 12:29:35 [main] INFO : Selecting Assessment Number from dropdown: Assessment 1
+2025-08-22 12:29:37 [main] INFO : Click Generated button for: Generate Assessment Link For User
+2025-08-22 12:29:39 [main] INFO : Assessment Generated message: Assessment link generated successfully: https://assess.wecreateproblems.com/tests/c2014a23-5a0a-4bf6-9ed0-ef73a1986867/instructions
+2025-08-22 12:29:40 [main] INFO : Navigated to /certificates
+2025-08-22 12:29:41 [main] INFO : Verify Certificate Header: My Certificates
+2025-08-22 12:29:41 [main] INFO : Verify Certificate List: No certificates have been completed
+2025-08-22 12:29:42 [main] INFO : Navigated to /feedback
+2025-08-22 12:29:44 [main] INFO : Feedback Submitted successfully: 
+2025-08-22 12:29:45 [main] INFO : Navigated to /admin
+2025-08-22 12:29:50 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-22 12:29:54 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 12:29:58 [main] INFO : Testing Ended
+2025-08-22 12:29:58 [main] INFO : ***********
+2025-08-22 12:31:54 [main] INFO : Launching Chrome Browser
+2025-08-22 12:31:55 [main] INFO : Report Name :CsatPage.html
+2025-08-22 12:32:01 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-22 12:32:01 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-22 12:32:01 [main] INFO : Inside Login Page: LOGIN
+2025-08-22 12:32:24 [main] INFO : Logged in to CSAT Application
+2025-08-22 12:32:26 [main] INFO : Validating the Header
+2025-08-22 12:32:26 [main] INFO : Header is Valid: Clients
+2025-08-22 12:32:27 [main] INFO : Selecting Pagination 5
+2025-08-22 12:32:27 [main] INFO : 5 pagination Option Selected
+2025-08-22 12:32:28 [main] INFO : Selecting Pagination 15
+2025-08-22 12:32:28 [main] INFO : 15 pagination Option Selected
+2025-08-22 12:32:29 [main] INFO : Selecting Pagination 10
+2025-08-22 12:32:29 [main] INFO : 10 pagination Option Selected
+2025-08-22 12:32:30 [main] INFO : Validating the Client
+2025-08-22 12:32:31 [main] INFO : Search for existing client
+2025-08-22 12:32:32 [main] INFO : AAA Client is Available
+2025-08-22 12:32:32 [main] INFO : Search for non existing client
+2025-08-22 12:32:33 [main] INFO : NO CLIENTS FOUND
+2025-08-22 12:32:33 [main] INFO : Entering Only Spaces characters in Owner name field
+2025-08-22 12:32:38 [main] INFO : Owner Email Error :Please provide both owner name and email for all owners.
+2025-08-22 12:32:41 [main] INFO : Entering Invalid Characters in Owner name field
+2025-08-22 12:32:46 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:32:46 [main] INFO : Owner Name Error:Name can only contain letters, numbers, and spaces (cannot be empty or only spaces)
+2025-08-22 12:32:49 [main] INFO : Entering Invalid Characters in Owner email field
+2025-08-22 12:32:54 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:32:54 [main] INFO : Owner Email Error:Please enter a valid email address (e.g., user@example.com)
+2025-08-22 12:32:57 [main] INFO : Entering Duplicate owner contacts
+2025-08-22 12:33:07 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:34:07 [main] ERROR: Owner Name not available
+2025-08-22 12:34:07 [main] INFO : Owner Email Error:This email is already used
+2025-08-22 12:34:10 [main] INFO : Before Adding owner contact using add Owner popup
+2025-08-22 12:34:11 [main] INFO : Client Name: Christopher Vialva,PhaniKumarMaddi
+2025-08-22 12:34:11 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 12:34:23 [main] INFO : After Adding owner contact using add Owner popup
+2025-08-22 12:34:23 [main] INFO : Client Name: Christopher Vialva,PhaniKumarMaddi
+2025-08-22 12:34:23 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 12:34:25 [main] INFO : Validating Try to delete owner contact when only one contact is available in edit owner in clients
+2025-08-22 12:34:31 [main] INFO : Delete Button is Disabled
+2025-08-22 12:34:34 [main] INFO : Entering Only Spaces characters in Owner name field
+2025-08-22 12:34:40 [main] INFO : Owner Email Error :Please provide both owner name and email for all owners.
+2025-08-22 12:34:42 [main] INFO : Entering Invalid Characters in Owner name field
+2025-08-22 12:34:47 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:34:47 [main] INFO : Owner Name Error:Name can only contain letters, numbers, and spaces (cannot be empty or only spaces)
+2025-08-22 12:34:50 [main] INFO : Entering Invalid Characters in Owner email field
+2025-08-22 12:34:55 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:34:55 [main] INFO : Owner Email Error:Please enter a valid email address (e.g., user@example.com)
+2025-08-22 12:34:57 [main] INFO : Entering Duplicate owner contacts
+2025-08-22 12:35:02 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:36:02 [main] ERROR: Owner Name not available
+2025-08-22 12:36:02 [main] INFO : Owner Email Error:This email is already used
+2025-08-22 12:36:05 [main] INFO : Entering Same Owner Details that are already existis for that client 
+2025-08-22 12:36:05 [main] INFO : Client Name: Christopher Vialva,PhaniKumarMaddi
+2025-08-22 12:36:05 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 12:36:15 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:36:16 [main] INFO : Before Updating owner contact using Edit Owner popup
+2025-08-22 12:36:17 [main] INFO : Client Name: Christopher Vialva,PhaniKumarMaddi
+2025-08-22 12:36:17 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 12:36:30 [main] INFO : After Updating owner contact using Edit Owner popup
+2025-08-22 12:36:31 [main] INFO : Client Name: Christopher Vialva,Phani Maddi
+2025-08-22 12:36:31 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 12:36:42 [main] INFO : Send Survey to client using send survey Send
+2025-08-22 12:36:44 [main] INFO : Selecting Client from dropdown: AAA
+2025-08-22 12:36:45 [main] INFO : Selecting Client Name from Owners: Phani Maddi
+2025-08-22 12:36:46 [main] INFO : Subject Retrieved Based on Survey Type
+2025-08-22 12:36:46 [main] INFO : We Value Your Feedback – CR CSAT - Engagement Level Survey
+2025-08-22 12:36:46 [main] INFO : Body Retrieved Based on Survey Type
+2025-08-22 12:36:46 [main] INFO : Client: AAA
+Contact: Phani Maddi
+Survey: CR CSAT - Engagement Level
+URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/68b6f3378b654644a54049e0af25987b
+2025-08-22 12:37:07 [main] INFO : Total Surveys Sent Card count:231
+2025-08-22 12:37:07 [main] INFO : Total Responses Received Card count:186
+2025-08-22 12:37:07 [main] INFO : Average Response Rate Card count:80.52%
+2025-08-22 12:37:07 [main] INFO : Highest Responded Survey Card count:CR CSAT - Engagement Level
+2025-08-22 12:38:03 [main] INFO : Inside Customer Mail
+2025-08-22 12:38:28 [main] INFO : Header is Valid: CR CSAT - Engagement Level
+2025-08-22 12:38:28 [main] INFO : Inside Feed back Form
+2025-08-22 12:39:31 [main] ERROR: Rating Button Not Available 
+2025-08-22 12:39:53 [main] INFO : Average Rating: 3.67
+2025-08-22 12:40:01 [main] INFO : Thank You for Sharing Your Feedback!
+2025-08-22 12:40:11 [main] INFO : Before Deleting owner contact using Edit Owner popup
+2025-08-22 12:40:12 [main] INFO : Client Name: Christopher Vialva,Phani Maddi
+2025-08-22 12:40:12 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 12:40:20 [main] INFO : Owner Update Message :Owners updated successfully!
+2025-08-22 12:40:25 [main] INFO : After Deleting owner contact using Edit Owner popup
+2025-08-22 12:40:26 [main] INFO : Client Name: Christopher Vialva
+2025-08-22 12:40:26 [main] INFO : Client Email: chris.vialva@criticalriver.com
+2025-08-22 12:40:28 [main] INFO : Testing Ended
+2025-08-22 12:40:28 [main] INFO : ***********
+2025-08-22 12:43:49 [main] INFO : Launching Chrome Browser
+2025-08-22 12:43:49 [main] INFO : Report Name :CsatPage.html
+2025-08-22 12:43:55 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-22 12:43:55 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-22 12:43:55 [main] INFO : Inside Login Page: LOGIN
+2025-08-22 12:44:21 [main] INFO : Logged in to CSAT Application
+2025-08-22 12:44:23 [main] INFO : Validating the Header
+2025-08-22 12:44:23 [main] INFO : Header is Valid: Clients
+2025-08-22 12:44:23 [main] INFO : Selecting Pagination 5
+2025-08-22 12:44:23 [main] INFO : 5 pagination Option Selected
+2025-08-22 12:44:24 [main] INFO : Selecting Pagination 15
+2025-08-22 12:44:24 [main] INFO : 15 pagination Option Selected
+2025-08-22 12:44:25 [main] INFO : Selecting Pagination 10
+2025-08-22 12:44:25 [main] INFO : 10 pagination Option Selected
+2025-08-22 12:44:26 [main] INFO : Validating the Client
+2025-08-22 12:44:28 [main] INFO : Search for existing client
+2025-08-22 12:44:28 [main] INFO : AAA Client is Available
+2025-08-22 12:44:28 [main] INFO : Search for non existing client
+2025-08-22 12:44:29 [main] INFO : NO CLIENTS FOUND
+2025-08-22 12:44:30 [main] INFO : Entering Only Spaces characters in Owner name field
+2025-08-22 12:44:35 [main] INFO : Owner Email Error :Please provide both owner name and email for all owners.
+2025-08-22 12:44:38 [main] INFO : Entering Invalid Characters in Owner name field
+2025-08-22 12:44:43 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:44:43 [main] INFO : Owner Name Error:Name can only contain letters, numbers, and spaces (cannot be empty or only spaces)
+2025-08-22 12:44:46 [main] INFO : Entering Invalid Characters in Owner email field
+2025-08-22 12:44:51 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:44:51 [main] INFO : Owner Email Error:Please enter a valid email address (e.g., user@example.com)
+2025-08-22 12:44:54 [main] INFO : Entering Duplicate owner contacts
+2025-08-22 12:45:04 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:45:04 [main] INFO : Owner Email Error:This email is already used
+2025-08-22 12:45:07 [main] INFO : Before Adding owner contact using add Owner popup
+2025-08-22 12:45:07 [main] INFO : Client Name: Christopher Vialva,Phani Maddi
+2025-08-22 12:45:07 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 12:45:20 [main] INFO : After Adding owner contact using add Owner popup
+2025-08-22 12:45:20 [main] INFO : Client Name: Christopher Vialva,Phani Maddi
+2025-08-22 12:45:20 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 12:45:22 [main] INFO : Validating Try to delete owner contact when only one contact is available in edit owner in clients
+2025-08-22 12:45:28 [main] ERROR: Test Failed :element click intercepted: Element <img alt="Edit Owners" class="action-icon" title="Edit Owners" src="https://crsurveyapp.blob.core.windows.net/media/assets/edit_12.svg"> is not clickable at point (2441, 356). Other element would receive the click: <div class="add-survey-modal-overlay">...</div>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5e8229b54fd04da74543a5a04faaa75, clickElement {id=f.23D065C5864EC3309E6FB760C04639C3.d.EAD6C84EF56138ABAAE678FAA89A7874.e.501}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65409/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b5e8229b54fd04da74543a5a04faaa75)] -> xpath: //td[text()='Accenture']/following-sibling::td[@class='clients-actions']/img[@title='Edit Owners']]
+Session ID: b5e8229b54fd04da74543a5a04faaa75
+2025-08-22 12:45:29 [main] ERROR: Delete Button is Enabled
+2025-08-22 12:45:32 [main] INFO : Entering Only Spaces characters in Owner name field
+2025-08-22 12:45:38 [main] INFO : Owner Email Error :Please provide both owner name and email for all owners.
+2025-08-22 12:45:40 [main] INFO : Entering Invalid Characters in Owner name field
+2025-08-22 12:45:45 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:45:46 [main] INFO : Owner Name Error:Name can only contain letters, numbers, and spaces (cannot be empty or only spaces)
+2025-08-22 12:45:48 [main] INFO : Entering Invalid Characters in Owner email field
+2025-08-22 12:45:53 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:45:53 [main] INFO : Owner Email Error:Please enter a valid email address (e.g., user@example.com)
+2025-08-22 12:45:56 [main] INFO : Entering Duplicate owner contacts in edit
+2025-08-22 12:46:01 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:46:01 [main] INFO : Owner Email Error:This email is already used
+2025-08-22 12:46:03 [main] INFO : Entering Same Owner Details that are already existis for that client 
+2025-08-22 12:46:04 [main] INFO : Client Name: Christopher Vialva,Phani Maddi
+2025-08-22 12:46:04 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 12:46:14 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:46:15 [main] INFO : Before Updating owner contact using Edit Owner popup
+2025-08-22 12:46:15 [main] INFO : Client Name: Christopher Vialva,Phani Maddi
+2025-08-22 12:46:15 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 12:46:29 [main] INFO : After Updating owner contact using Edit Owner popup
+2025-08-22 12:46:30 [main] INFO : Client Name: Christopher Vialva,Phani Maddi
+2025-08-22 12:46:30 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 12:46:41 [main] INFO : Send Survey to client using send survey Send
+2025-08-22 12:46:43 [main] INFO : Selecting Client from dropdown: AAA
+2025-08-22 12:46:44 [main] INFO : Selecting Client Name from Owners: Phani Maddi
+2025-08-22 12:46:45 [main] INFO : Subject Retrieved Based on Survey Type
+2025-08-22 12:46:45 [main] INFO : We Value Your Feedback – CR CSAT - Engagement Level Survey
+2025-08-22 12:46:45 [main] INFO : Body Retrieved Based on Survey Type
+2025-08-22 12:46:45 [main] INFO : Client: AAA
+Contact: Phani Maddi
+Survey: CR CSAT - Engagement Level
+URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/43d85f8d85214db49dd9a5d336618115
+2025-08-22 12:47:06 [main] INFO : Total Surveys Sent Card count:233
+2025-08-22 12:47:06 [main] INFO : Total Responses Received Card count:187
+2025-08-22 12:47:06 [main] INFO : Average Response Rate Card count:80.26%
+2025-08-22 12:47:06 [main] INFO : Highest Responded Survey Card count:CR CSAT - Engagement Level
+2025-08-22 12:48:12 [main] INFO : Inside Customer Mail
+2025-08-22 12:48:37 [main] INFO : Header is Valid: CR CSAT - Engagement Level
+2025-08-22 12:48:37 [main] INFO : Inside Feed back Form
+2025-08-22 12:48:47 [main] INFO : Average Rating: 3.67
+2025-08-22 12:48:56 [main] INFO : Thank You for Sharing Your Feedback!
+2025-08-22 12:49:06 [main] INFO : Before Deleting owner contact using Edit Owner popup
+2025-08-22 12:49:07 [main] INFO : Client Name: Christopher Vialva,Phani Maddi
+2025-08-22 12:49:07 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 12:49:16 [main] INFO : Owner Update Message :Owners updated successfully!
+2025-08-22 12:49:21 [main] INFO : After Deleting owner contact using Edit Owner popup
+2025-08-22 12:49:22 [main] INFO : Client Name: Christopher Vialva
+2025-08-22 12:49:22 [main] INFO : Client Email: chris.vialva@criticalriver.com
+2025-08-22 12:49:24 [main] INFO : Testing Ended
+2025-08-22 12:49:24 [main] INFO : ***********
+2025-08-22 12:51:18 [main] INFO : Launching Chrome Browser
+2025-08-22 12:51:19 [main] INFO : Report Name :CsatPage.html
+2025-08-22 12:51:25 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-22 12:51:25 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-22 12:51:25 [main] INFO : Inside Login Page: LOGIN
+2025-08-22 12:51:53 [main] INFO : Logged in to CSAT Application
+2025-08-22 12:51:55 [main] INFO : Validating the Header
+2025-08-22 12:51:55 [main] INFO : Header is Valid: Clients
+2025-08-22 12:51:56 [main] INFO : Selecting Pagination 5
+2025-08-22 12:51:56 [main] INFO : 5 pagination Option Selected
+2025-08-22 12:51:57 [main] INFO : Selecting Pagination 15
+2025-08-22 12:51:57 [main] INFO : 15 pagination Option Selected
+2025-08-22 12:51:58 [main] INFO : Selecting Pagination 10
+2025-08-22 12:51:58 [main] INFO : 10 pagination Option Selected
+2025-08-22 12:51:59 [main] INFO : Validating the Client
+2025-08-22 12:52:00 [main] INFO : Search for existing client
+2025-08-22 12:52:01 [main] INFO : AAA Client is Available
+2025-08-22 12:52:01 [main] INFO : Search for non existing client
+2025-08-22 12:52:02 [main] INFO : NO CLIENTS FOUND
+2025-08-22 12:52:03 [main] INFO : Entering Only Spaces characters in Owner name field
+2025-08-22 12:52:08 [main] INFO : Owner Email Error :Please provide both owner name and email for all owners.
+2025-08-22 12:52:10 [main] INFO : Entering Invalid Characters in Owner name field
+2025-08-22 12:52:15 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:52:16 [main] INFO : Owner Name Error:Name can only contain letters, numbers, and spaces (cannot be empty or only spaces)
+2025-08-22 12:52:18 [main] INFO : Entering Invalid Characters in Owner email field
+2025-08-22 12:52:23 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:52:23 [main] INFO : Owner Email Error:Please enter a valid email address (e.g., user@example.com)
+2025-08-22 12:52:27 [main] INFO : Entering Duplicate owner contacts
+2025-08-22 12:52:36 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:52:37 [main] INFO : Owner Email Error:This email is already used
+2025-08-22 12:52:39 [main] INFO : Before Adding owner contact using add Owner popup
+2025-08-22 12:52:40 [main] INFO : Client Name: Christopher Vialva
+2025-08-22 12:52:40 [main] INFO : Client Email: chris.vialva@criticalriver.com
+2025-08-22 12:52:58 [main] INFO : After Adding owner contact using add Owner popup
+2025-08-22 12:52:58 [main] INFO : Client Name: Christopher Vialva,Phani Kumar Maddi
+2025-08-22 12:52:58 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 12:53:00 [main] INFO : Validating Try to delete owner contact when only one contact is available in edit owner in clients
+2025-08-22 12:53:06 [main] INFO : Delete Button is Disabled
+2025-08-22 12:53:09 [main] INFO : Entering Only Spaces characters in Owner name field
+2025-08-22 12:53:15 [main] INFO : Owner Email Error :Please provide both owner name and email for all owners.
+2025-08-22 12:53:18 [main] INFO : Entering Invalid Characters in Owner name field
+2025-08-22 12:53:23 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:53:23 [main] INFO : Owner Name Error:Name can only contain letters, numbers, and spaces (cannot be empty or only spaces)
+2025-08-22 12:53:26 [main] INFO : Entering Invalid Characters in Owner email field
+2025-08-22 12:53:31 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:53:31 [main] INFO : Owner Email Error:Please enter a valid email address (e.g., user@example.com)
+2025-08-22 12:53:34 [main] INFO : Entering Duplicate owner contacts in edit
+2025-08-22 12:53:38 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:53:38 [main] INFO : Owner Email Error:This email is already used
+2025-08-22 12:53:41 [main] INFO : Entering Same Owner Details that are already existis for that client 
+2025-08-22 12:53:42 [main] INFO : Client Name: Christopher Vialva,Phani Kumar Maddi
+2025-08-22 12:53:42 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 12:53:52 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-22 12:53:52 [main] INFO : Before Updating owner contact using Edit Owner popup
+2025-08-22 12:53:53 [main] INFO : Client Name: Christopher Vialva,Phani Kumar Maddi
+2025-08-22 12:53:53 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 12:54:07 [main] INFO : After Updating owner contact using Edit Owner popup
+2025-08-22 12:54:07 [main] INFO : Client Name: Christopher Vialva,Phani Maddi
+2025-08-22 12:54:07 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 12:54:18 [main] INFO : Send Survey to client using send survey Send
+2025-08-22 12:54:20 [main] INFO : Selecting Client from dropdown: AAA
+2025-08-22 12:54:22 [main] INFO : Selecting Client Name from Owners: Phani Maddi
+2025-08-22 12:54:22 [main] INFO : Subject Retrieved Based on Survey Type
+2025-08-22 12:54:22 [main] INFO : We Value Your Feedback – CR CSAT - Engagement Level Survey
+2025-08-22 12:54:22 [main] INFO : Body Retrieved Based on Survey Type
+2025-08-22 12:54:22 [main] INFO : Client: AAA
+Contact: Phani Maddi
+Survey: CR CSAT - Engagement Level
+URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/b8f50ff01e4b4dadb25103d3a4590cc6
+2025-08-22 12:54:43 [main] INFO : Total Surveys Sent Card count:234
+2025-08-22 12:54:43 [main] INFO : Total Responses Received Card count:188
+2025-08-22 12:54:44 [main] INFO : Average Response Rate Card count:80.34%
+2025-08-22 12:54:44 [main] INFO : Highest Responded Survey Card count:CR CSAT - Engagement Level
+2025-08-22 12:55:41 [main] INFO : Inside Customer Mail
+2025-08-22 12:56:05 [main] INFO : Header is Valid: CR CSAT - Engagement Level
+2025-08-22 12:56:06 [main] INFO : Inside Feed back Form
+2025-08-22 12:56:16 [main] INFO : Average Rating: 3.67
+2025-08-22 12:56:24 [main] INFO : Thank You for Sharing Your Feedback!
+2025-08-22 12:56:35 [main] INFO : Before Deleting owner contact using Edit Owner popup
+2025-08-22 12:56:35 [main] INFO : Client Name: Christopher Vialva,Phani Maddi
+2025-08-22 12:56:35 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-22 12:56:44 [main] INFO : Owner Update Message :Owners updated successfully!
+2025-08-22 12:56:49 [main] INFO : After Deleting owner contact using Edit Owner popup
+2025-08-22 12:56:49 [main] INFO : Client Name: Christopher Vialva
+2025-08-22 12:56:49 [main] INFO : Client Email: chris.vialva@criticalriver.com
+2025-08-22 12:56:52 [main] INFO : Testing Ended
+2025-08-22 12:56:52 [main] INFO : ***********

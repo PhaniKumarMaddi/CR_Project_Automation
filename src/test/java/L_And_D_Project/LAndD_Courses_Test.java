@@ -10,7 +10,6 @@ import L_And_D_Pages.L_And_D_MyCoursesPage;
 import L_And_D_Pages.L_And_D_OtherPages;
 import L_And_D_Pages.L_And_D_Page;
 import Utility.GenerateReports;
-import net.bytebuddy.agent.builder.AgentBuilder.FallbackStrategy;
 
 public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 	private static final Logger logger = LogManager.getLogger(LAndD_Page_UI_Test.class);
@@ -20,7 +19,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 	L_And_D_OtherPages lndOther;
 	L_And_D_TestDataKeys dataKeys = new L_And_D_TestDataKeys();
 
-	@Test(priority = 1,enabled = false)
+	@Test(priority = 1)
 	public void l_and_d_MyCourses() throws Exception {
 		lndPage = new L_And_D_Page();
 		lndCoursePage = new L_And_D_MyCoursesPage();
@@ -221,14 +220,22 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		logger.info("Verify Export Functionality for Dashboard Tables");
 		lndOther.exportDashboardTable(dataKeys.userCertiTable_dashboard, dataKeys.csvDownload);
 		lndOther.exportDashboardTable(dataKeys.userCertiTable_dashboard, dataKeys.pdfDownload);
-
+		grep.captureScreenshot("pass",
+				"Exporting data for " + dataKeys.userCertiTable_dashboard + " table in dashboard tab",
+				"export_Certificates_dashBoardTables");
 		waitTime(driver);
 		lndOther.exportDashboardTable(dataKeys.courseStctTable_dashboard, dataKeys.csvDownload);
 		lndOther.exportDashboardTable(dataKeys.courseStctTable_dashboard, dataKeys.pdfDownload);
+		grep.captureScreenshot("pass",
+				"Exporting data for " + dataKeys.courseStctTable_dashboard + " table in dashboard tab",
+				"export_CourseStst_dashBoardTables");
 
 		waitTime(driver);
 		lndOther.exportDashboardTable(dataKeys.feedbackTable_dashboard, dataKeys.csvDownload);
 		lndOther.exportDashboardTable(dataKeys.feedbackTable_dashboard, dataKeys.pdfDownload);
+		grep.captureScreenshot("pass",
+				"Exporting data for " + dataKeys.feedbackTable_dashboard + " table in dashboard tab",
+				"export_Feedback_dashBoardTables");
 
 		// Test Tab in admin
 		grep.testCreate("Search Functionality for tables in Tests Tab test", "Search filter Tables in tests");
@@ -254,10 +261,11 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		lndOther.searchTestsTable(dataKeys.course_Ass_table_Test, dataKeys.courseName_column_Test,
 				dataKeys.mdmBeginnerCourse);
 
-		grep.captureScreenshot("pass", "Search in Assessment Request table", "searchIn_CourseAssmtTable_Test");
+		grep.captureScreenshot("pass", "Search in Course Assessment Request table", "searchIn_CourseAssmtTable_Test");
 
 		lndOther.verifyDataInTestTable(dataKeys.course_Ass_table_Test, dataKeys.mdmBeginnerCourse);
 		lndOther.clearTestsTable(dataKeys.course_Ass_table_Test);
+		lndOther.clearTestsTable(dataKeys.ass_request_notify_table_Test);
 
 		waitTime2(driver);
 
@@ -269,10 +277,15 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		logger.info("Verify Export Functionality for Tests Tables");
 		lndOther.exportTestsTable(dataKeys.ass_request_notify_table_Test, dataKeys.csvDownload);
 		lndOther.exportTestsTable(dataKeys.ass_request_notify_table_Test, dataKeys.pdfDownload);
+		grep.captureScreenshot("pass",
+				"Exporting data for " + dataKeys.ass_request_notify_table_Test + " table in Tests tab",
+				"export_AssmtNotify_TestsTables");
 
 		waitTime(driver);
 		lndOther.exportTestsTable(dataKeys.course_Ass_table_Test, dataKeys.csvDownload);
 		lndOther.exportTestsTable(dataKeys.course_Ass_table_Test, dataKeys.pdfDownload);
+		grep.captureScreenshot("pass", "Exporting data for " + dataKeys.course_Ass_table_Test + " table in Tests tab",
+				"export_CourseAssmt_TestsTables");
 
 		// Roles Tab in admin
 		grep.testCreate("Search Functionality for tables in Roles Tab test", "Search filter Tables in roles");
@@ -301,7 +314,8 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		logger.info("Verify Export Functionality for Roles Tables");
 		lndOther.exportRolesTable(dataKeys.userMgmtTable_dashboard, dataKeys.csvDownload);
 		lndOther.exportRolesTable(dataKeys.userMgmtTable_dashboard, dataKeys.pdfDownload);
-
+		grep.captureScreenshot("pass", "Exporting data for " + dataKeys.userMgmtTable_dashboard + " table in Roles tab",
+				"export_UserMgmt_RolesTables");
 	}
 
 	@Test(priority = 3)

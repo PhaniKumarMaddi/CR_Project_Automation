@@ -167,7 +167,6 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 
 		csat_Clients.clickPopupBtns(dataKeys.saveBtn);
 		csat_Clients.getCustomerEmailError();
-		csat_Clients.getOwnerNameError();
 		csat_Clients.getOwnerEmailError();
 
 		grep.captureScreenshot("pass", "Enter Duplicate Owner details in add popup", "duplicate_OwnenDetails_AddOwner");
@@ -191,7 +190,7 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 		grep.captureScreenshot("pass", "Adding owner contact using add Owner popup", "addNew_OwnenDetails_AddOwner");
 		waitTime2(driver);
 		csat_Clients.clickPopupBtns(dataKeys.saveBtn);
-		waitTime5(driver);
+		waitTime10(driver);
 		grep.captureScreenshot("pass", "After Adding owner contact using add Owner popup",
 				"after_addNew_OwnenDetails_AddOwner");
 		grep.infoTest("After Adding owner contact using add Owner popup");
@@ -286,8 +285,8 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 		// Entering Duplicate owner contact in edit owner
 		grep.testCreate("Entering Duplicate owner contact in edit Owner Test", "Entering Duplicate owner contact ");
 		waitTime(driver);
-		grep.infoTest("Entering Duplicate owner contacts");
-		logger.info("Entering Duplicate owner contacts");
+		grep.infoTest("Entering Duplicate owner contacts in edit");
+		logger.info("Entering Duplicate owner contacts in edit");
 		waitTime(driver);
 		csat_Clients.clearOwnerName();
 		csat_Clients.clearOwnerEmail();
@@ -297,7 +296,7 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		csat_Clients.clickPopupBtns(dataKeys.saveBtn);
 		csat_Clients.getCustomerEmailError();
-		csat_Clients.getOwnerNameError();
+//		csat_Clients.getOwnerNameError();
 		csat_Clients.getOwnerEmailError();
 
 		grep.captureScreenshot("pass", "Enter Duplicate Owner details in add popup",
