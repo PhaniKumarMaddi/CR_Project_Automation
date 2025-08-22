@@ -129,6 +129,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 	By sectionToggleArrow = By.xpath("//div[@class='survey-details-section-title']/img");
 
 	By deleteSection_InEdit = By.xpath("//div[@class='add-survey-section-actions']/img[@alt='delete']");
+	By editSectionToggleArrow = By.xpath("//div[@class='add-survey-section-header']/descendant::img[@alt='Toggle']");
 
 	// Header for survey
 	public void headerValidation() throws Exception {
@@ -457,7 +458,6 @@ public class CSAT_SurveyPage extends WaitsManager {
 			logger.error("Test Failed :" + e.getMessage());
 		}
 	}
-	
 
 	// VERIFY COLUMN IN TABLE
 	public void verifyTypeColInTable(String colvalues) throws Exception {
@@ -1289,12 +1289,34 @@ public class CSAT_SurveyPage extends WaitsManager {
 	}
 
 	// CLICK ADD OPTION BUTTON
-	public void clickAddOption() throws Exception {
+	public void clickAddOption_Edit() throws Exception {
 		try {
 			implWait(driver);
 			List<WebElement> option = driver.findElements(addOptionBtn);
 
 			if (option.size() > 0) {
+				scrollView(editNewSection);
+				waitTime3(driver);
+				option.getLast().click();
+			} else {
+				grep.failTest("Add Option button Not Available");
+				logger.error("Add Option button Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void clickAddNewOption() throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> option = driver.findElements(addOptionBtn);
+
+			if (option.size() > 0) {
+				scrollView(addNewSection);
+				waitTime3(driver);
 				option.getLast().click();
 			} else {
 				grep.failTest("Add Option button Not Available");
@@ -1613,7 +1635,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 			if (element.size() > 0) {
 				scrollView(editNewSection);
 				waitTime(driver);
-				
+
 				element.getLast().click();
 				element.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
 				element.getLast().sendKeys(questionOptionVal);
@@ -1637,7 +1659,7 @@ public class CSAT_SurveyPage extends WaitsManager {
 			List<WebElement> element = driver.findElements(editOptionWeightage);
 			if (element.size() > 0) {
 				scrollView(editNewSection);
-				
+
 				element.getLast().click();
 				element.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
 				element.getLast().sendKeys(optionWeightageVal);
@@ -1707,12 +1729,22 @@ public class CSAT_SurveyPage extends WaitsManager {
 	public void clickDeleteSection_InEdit() throws Exception {
 		try {
 			implWait(driver);
+			List<WebElement> toggleelement = driver.findElements(editSectionToggleArrow);
 			List<WebElement> element = driver.findElements(deleteSection_InEdit);
 			if (element.size() > 0) {
+				for (WebElement value : toggleelement) {
 
+					String getSrc = value.getAttribute("src");
+					if (getSrc.contains("Dropdown")) {
+						value.click();
+					}
+				}
+				waitTime(driver);
+				
 				element.getLast().click();
+
 			} else {
-				grep.failTest("Deleet Section not available");
+				grep.failTest("Delete Section not available");
 				logger.error("Delete Section not available");
 			}
 		} catch (Exception e) {
@@ -1722,12 +1754,34 @@ public class CSAT_SurveyPage extends WaitsManager {
 		}
 	}
 
+//	public void verifyToggleArrow_InEditSurveyPopup() throws Exception {
+//		try {
+//			implWait(driver);
+//			List<WebElement> element = driver.findElements(editSectionToggleArrow);
+//			if (element.size() > 0) {
+//				for (WebElement value : element) {
+//
+//					String getSrc = value.getAttribute("src");
+//					if (getSrc.contains("Dropdown")) {
+//						value.click();
+//					}
+//				}
+//			} else {
+//				grep.failTest("Section Toggle not available");
+//				logger.error("Section Toggle not available");
+//			}
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//			grep.failTest("Test Failed :" + e.getMessage());
+//			logger.error("Test Failed :" + e.getMessage());
+//		}
+//	}
 
 	// for scroll to view
-	public void scrollView(By locator) throws Exception{
-		waitTime3(driver); 
+	public void scrollView(By locator) throws Exception {
+		waitTime3(driver);
 		WebElement element = driver.findElement(locator);
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 
 	}
-	}
+}
