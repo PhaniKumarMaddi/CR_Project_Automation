@@ -256,7 +256,7 @@ public class TestDataKeys {
 	public String prjDeliveryRate = "Project Delivery";
 	public String accountabilityRate = "Accountability";
 	public String knowlAndExprtRate = "Knowledge  and  Expertise";
-	public String feedbackAndSuggestionRate = "Feedback & Suggestions";
+	public String feedbackAndSuggestionRate = "Feedback and Suggestions";
 	public String actionPlanRate = "Action Plan";
 	public String clientRelationRate = "Client Relationship";
 	public String pricingRate = "Pricing";
@@ -358,6 +358,11 @@ public class TestDataKeys {
 
 	public String updateOwnerContactName = "Phani Maddi";
 
-	public String duplicateQwnerContactName = "Christopher Vialva";
+	public String duplicateOwnerContactName = "Christopher Vialva";
 	public String duplicateOwnerContactEmail = "chris.vialva@criticalriver.com";
+
+	public String totSurvey_surveyCard= "Total Surveys Sent";
+	public String totResponse_surveyCard= "Total Responses Received";
+	public String avgRate_surveyCard= "Average Response Rate";
+	public String highestResponse_surveyCard= "Highest Responded Survey";
 }

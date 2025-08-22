@@ -1,12 +1,17 @@
 package CSAT_Survey_Module;
 
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Test;
 
 import Pages.CSAT_Clients_Page;
+import Pages.CSAT_Popup_Page;
 import Pages.CSAT_SurveyPage;
 import Pages.CSAT_Survey_AllPages;
+import Pages.LoginPage;
 import Utility.CSAT_TestInitializer;
 import Utility.GenerateReports;
 import Utility.TestDataKeys;
@@ -19,6 +24,7 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 	CSAT_Survey_AllPages csatPage;
 	CSAT_SurveyPage csat_Survey;
 	CSAT_Clients_Page csat_Clients;
+	CSAT_Popup_Page csatPopup;
 	TestDataKeys dataKeys = new TestDataKeys();
 	ValidatingAssertions validAssert = new ValidatingAssertions();
 
@@ -113,7 +119,10 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 		csat_Clients.insertOwnerName(dataKeys.invalidName);
 		csat_Clients.insertOwnerEmail(dataKeys.ownerContactEmail);
 		waitTime1(driver);
-		csat_Clients.verifyPopupBtnDisable(dataKeys.saveBtn);
+		csat_Clients.clickPopupBtns(dataKeys.saveBtn);
+		csat_Clients.getCustomerEmailError();
+		csat_Clients.getOwnerNameError();
+//		csat_Clients.verifyPopupBtnDisable(dataKeys.saveBtn);
 //		csat_Clients.getCustomerEmailError();
 		grep.captureScreenshot("pass", "Enter Invalid Characters in Owner name field", "invalid_in_OwnerName_AddOwner");
 		waitTime2(driver);
@@ -131,8 +140,10 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 		csat_Clients.insertOwnerName(dataKeys.addOwnerContactName);
 		csat_Clients.insertOwnerEmail(dataKeys.invalidName);
 		waitTime1(driver);
-		csat_Clients.verifyPopupBtnDisable(dataKeys.saveBtn);
-//		csat_Clients.getCustomerEmailError();
+		csat_Clients.clickPopupBtns(dataKeys.saveBtn);
+		csat_Clients.getCustomerEmailError();
+		csat_Clients.getOwnerEmailError();
+		waitTime(driver);
 		grep.captureScreenshot("pass", "Enter Invalid Characters in Owner email field",
 				"invalid_in_OwnerEmail_AddOwner");
 		waitTime2(driver);
@@ -154,8 +165,11 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 		csat_Clients.insertOwnerName(dataKeys.addOwnerContactName);
 		csat_Clients.insertOwnerEmail(dataKeys.ownerContactEmail);
 
-		csat_Clients.verifyPopupBtnDisable(dataKeys.saveBtn);
-//		csat_Clients.getCustomerEmailError();
+		csat_Clients.clickPopupBtns(dataKeys.saveBtn);
+		csat_Clients.getCustomerEmailError();
+		csat_Clients.getOwnerNameError();
+		csat_Clients.getOwnerEmailError();
+
 		grep.captureScreenshot("pass", "Enter Duplicate Owner details in add popup", "duplicate_OwnenDetails_AddOwner");
 		waitTime2(driver);
 		csat_Clients.clickPopupBtns(dataKeys.cancelBtn);
@@ -197,7 +211,7 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 		logger.info(
 				"Validating Try to delete owner contact when only one contact is available in edit owner in clients");
 
-		waitTime(driver);
+		waitTime5(driver);
 
 		csat_Clients.clickClientActionBtn(dataKeys.accenture_Client, dataKeys.editOwner_btn);
 		waitTime(driver);
@@ -242,8 +256,9 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 		csat_Clients.insertOwnerName(dataKeys.invalidName);
 		csat_Clients.insertOwnerEmail(dataKeys.ownerContactEmail);
 		waitTime1(driver);
-		csat_Clients.verifyPopupBtnDisable(dataKeys.saveBtn);
-//		csat_Clients.getCustomerEmailError();
+		csat_Clients.clickPopupBtns(dataKeys.saveBtn);
+		csat_Clients.getCustomerEmailError();
+		csat_Clients.getOwnerNameError();
 		grep.captureScreenshot("pass", "Enter Invalid Characters in Owner name field",
 				"invalid_in_OwnerName_EditOwner");
 		waitTime2(driver);
@@ -261,8 +276,9 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 		csat_Clients.insertOwnerName(dataKeys.updateOwnerContactName);
 		csat_Clients.insertOwnerEmail(dataKeys.invalidName);
 		waitTime1(driver);
-		csat_Clients.verifyPopupBtnDisable(dataKeys.saveBtn);
-//		csat_Clients.getCustomerEmailError();
+		csat_Clients.clickPopupBtns(dataKeys.saveBtn);
+		csat_Clients.getCustomerEmailError();
+		csat_Clients.getOwnerEmailError();
 		grep.captureScreenshot("pass", "Enter Invalid Characters in Owner email field",
 				"invalid_in_OwnerEmail_EditOwner");
 		waitTime2(driver);
@@ -276,14 +292,47 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 		csat_Clients.clearOwnerName();
 		csat_Clients.clearOwnerEmail();
 		waitTime(driver);
-		csat_Clients.insertOwnerName(dataKeys.duplicateQwnerContactName);
+		csat_Clients.insertOwnerName(dataKeys.duplicateOwnerContactName);
 		csat_Clients.insertOwnerEmail(dataKeys.duplicateOwnerContactEmail);
 		waitTime(driver);
-		csat_Clients.verifyPopupBtnDisable(dataKeys.saveBtn);
-//		csat_Clients.getCustomerEmailError();
+		csat_Clients.clickPopupBtns(dataKeys.saveBtn);
+		csat_Clients.getCustomerEmailError();
+		csat_Clients.getOwnerNameError();
+		csat_Clients.getOwnerEmailError();
+
 		grep.captureScreenshot("pass", "Enter Duplicate Owner details in add popup",
 				"duplicate_OwnenDetails_EditOwner");
 		waitTime2(driver);
+		csat_Clients.clickPopupBtns(dataKeys.cancelBtn);
+
+		// Entering Try to add same owner details that are already existing got that
+		// client
+		grep.testCreate("Entering Same Owner Details that are already exists for that client Test",
+				"Entering Same Owner Details that are already exists for that client ");
+		waitTime(driver);
+		grep.infoTest("Entering Same Owner Details that are already existis for that client ");
+		logger.info("Entering Same Owner Details that are already existis for that client ");
+		waitTime(driver);
+		csat_Clients.getAccountDetails(dataKeys.aaa_Client);
+		waitTime(driver);
+		csat_Clients.clickClientActionBtn(dataKeys.aaa_Client, dataKeys.editOwner_btn);
+		waitTime2(driver);
+		grep.captureScreenshot("pass", "Before Adding new owner contact using add Owner popup",
+				"Before_addingNew_OwnerDetails_addOwner_popup");
+		waitTime(driver);
+		csat_Clients.clickPopupBtns(dataKeys.cancelBtn);
+		waitTime(driver);
+		csat_Clients.clickClientActionBtn(dataKeys.aaa_Client, dataKeys.addOwner_btn);
+		waitTime1(driver);
+		csat_Clients.insertOwnerName(dataKeys.addOwnerContactName);
+		csat_Clients.insertOwnerEmail(dataKeys.ownerContactEmail);
+		waitTime1(driver);
+		grep.captureScreenshot("pass", "After Adding new owner contact using add Owner popup",
+				"After_addingNew_OwnerDetails_addOwner_popup");
+		waitTime(driver);
+		csat_Clients.clickPopupBtns(dataKeys.saveBtn);
+		waitTime(driver);
+		csat_Clients.getCustomerEmailError();
 		csat_Clients.clickPopupBtns(dataKeys.cancelBtn);
 
 		// Update owner contact in add owner
@@ -307,14 +356,16 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 		waitTime2(driver);
 		csat_Clients.clickPopupBtns(dataKeys.saveBtn);
 		waitTime5(driver);
-		grep.captureScreenshot("pass", "After Updating owner contact using Edit Owner popup",
-				"after_Updating_OwnerDetails_EditOwner");
 		grep.infoTest("After Updating owner contact using Edit Owner popup");
 		logger.info("After Updating owner contact using Edit Owner popup");
 		waitTime(driver);
 
 		csat_Clients.getAccountDetails(dataKeys.aaa_Client);
 		waitTime2(driver);
+
+		grep.captureScreenshot("pass", "After Updating owner contact using Edit Owner popup",
+				"after_Updating_OwnerDetails_EditOwner");
+		waitTime(driver);
 	}
 
 	@Test(priority = 2)
@@ -323,9 +374,9 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 		csatPage = new CSAT_Survey_AllPages();
 		csat_Survey = new CSAT_SurveyPage();
 
-		waitTime(driver);
+		waitTime3(driver);
 		csatPage.navigateToPage(dataKeys.survey_Url);
-		waitTime(driver);
+		waitTime5(driver);
 		// send survey to customer
 		grep.testCreate("Send Survey to client using send survey Send Test", "Send Survey to client using send survey");
 		waitTime(driver);
@@ -343,7 +394,15 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 		waitTime(driver);
 
 		csat_Clients.clickPopupBtns(dataKeys.sendProjectBtn);
-		waitTime15(driver);
+		waitTime10(driver);
+		refreshPage();
+		waitTime10(driver);
+		csat_Clients.getSurveyPageCardDetails(dataKeys.totSurvey_surveyCard);
+		csat_Clients.getSurveyPageCardDetails(dataKeys.totResponse_surveyCard);
+		csat_Clients.getSurveyPageCardDetails(dataKeys.avgRate_surveyCard);
+		csat_Clients.getSurveyPageCardDetails(dataKeys.highestResponse_surveyCard);
+		waitTime(driver);
+		csat_ShareReportToClient();
 
 		waitTime(driver);
 		csatPage.navigateToPage(dataKeys.clientsUrl);
@@ -380,4 +439,133 @@ public class CSAT_ClientModuleTest extends CSAT_TestInitializer {
 
 	}
 
+	public void csat_ShareReportToClient() throws Exception {
+		csatPopup = new CSAT_Popup_Page();
+		csat_Clients = new CSAT_Clients_Page();
+		LoginPage login = new LoginPage();
+
+		// Send Survey Report
+		waitTime2(driver);
+		switchToLastTab();
+		waitTime(driver);
+		String title = getTitleMethod();
+		System.out.println("Page Title: " + title);
+		waitTime5(driver);
+		if (title.startsWith("Mail")) {
+			switchToLastTab();
+		} else {
+
+			clickNewTab();
+			switchToLastTab();
+			waitTime2(driver);
+			enterURL(dataKeys.url);
+
+			login.clickUseAnotherAccount();
+			login.enterUserName(dataKeys.ssoUserName);
+			login.clickSignIn();
+			waitTime2(driver);
+			login.enterPassword(dataKeys.ssoPassword);
+			waitTime2(driver);
+			login.clickSignIn();
+			waitTime10(driver);
+
+			login.clickSignInOnTop();
+			waitTime2(driver);
+			login.SelectProfileToLogin(dataKeys.myProfileName);
+		}
+
+		waitTime5(driver);
+		grep.infoTest("Inside Customer Mail");
+		logger.info("Inside Customer Mail");
+		waitTime10(driver);
+
+		Robot robot = new Robot();
+		robot.keyPress(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_MINUS);
+		robot.keyRelease(KeyEvent.VK_MINUS);
+		robot.keyRelease(KeyEvent.VK_CONTROL);
+		waitTime(driver);
+		csat_Clients.clickSkillSyncMail();
+		waitTime3(driver);
+		csatPopup.clickTakeSurveyButton();
+		waitTime2(driver);
+		switchToLastTab();
+		waitTime(driver);
+		String title2 = getTitleMethod();
+		waitTime3(driver);
+		if (title2.endsWith("Checking link")) {
+			waitTime(driver);
+			closeCurrentTab();
+			waitTime2(driver);
+			switchToLastTab();
+			waitTime(driver);
+			csatPopup.clickSkillSyncMail();
+			waitTime2(driver);
+			csatPopup.clickTakeSurveyButton();
+			waitTime2(driver);
+			switchToLastTab();
+
+		}
+
+		waitTime5(driver);
+		csatPopup.formHeaderValidation();
+		waitTime(driver);
+		grep.infoTest("Inside Feed back Form");
+		logger.info("Inside Feed back Form");
+		waitTime(driver);
+		grep.captureScreenshot("pass", "FeedBack Form Opened", "FeedBack_Form_Client");
+		waitTime(driver);
+
+		csatPopup.select_4_Rating(dataKeys.prjDeliveryRate);
+		csatPopup.select_3_Rating(dataKeys.knowlAndExprtRate);
+		csatPopup.select_5_Rating(dataKeys.accountabilityRate);
+		csatPopup.clickSection(dataKeys.deliverySectionInForm);
+		waitTime(driver);
+
+		waitTime(driver);
+		csatPopup.select_3_Rating(dataKeys.feedbackAndSuggestionRate);
+		csatPopup.select_4_Rating(dataKeys.actionPlanRate);
+		csatPopup.select_3_Rating(dataKeys.clientRelationRate);
+		csatPopup.clickSection(dataKeys.responseSectionInForm);
+		waitTime(driver);
+
+		waitTime(driver);
+		csatPopup.select_1_Rating(dataKeys.pricingRate);
+		csatPopup.select_2_Rating(dataKeys.costOptimizeRate);
+		csatPopup.clickSection(dataKeys.financialSectionInForm);
+		waitTime(driver);
+
+		waitTime(driver);
+		csatPopup.select_2_Rating(dataKeys.leadershipRateRate);
+		csatPopup.getLast_Rating(dataKeys.leadershipRateRate);
+		csatPopup.clickSection(dataKeys.valueAddsSectionInForm);
+		waitTime(driver);
+
+		waitTime(driver);
+		csatPopup.insertFeedback(dataKeys.inputGeneralFeedback);
+		csatPopup.clickSection(dataKeys.overAllFeedbackSectionInForm);
+
+		waitTime2(driver);
+
+		csatPopup.clickPreviewButton();
+		waitTime(driver);
+		csatPopup.getAverageRating();
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Feedback Filled", "FeedBackFilled_Client");
+		waitTime2(driver);
+		csatPopup.clickSendButton();
+		waitTime5(driver);
+		csatPopup.getFeedbackMsgg();
+
+		waitTime3(driver);
+
+		grep.captureScreenshot("pass", "Feedback Submitted", "FeedBackSubmitted_Client");
+		waitTime(driver);
+
+		closeCurrentTab();
+		waitTime2(driver);
+
+		switchToFirstTab();
+		waitTime3(driver);
+	}
 }

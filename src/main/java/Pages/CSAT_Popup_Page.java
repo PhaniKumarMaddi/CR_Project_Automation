@@ -69,7 +69,9 @@ public class CSAT_Popup_Page extends WaitsManager {
 	By previewBtn = By.xpath("//button[text()='Preview']");
 	By averageRating = By.xpath("//div[@class='css-g6ldlt MuiBox-root css-19pj5st']/p");
 	By sendBtn = By.xpath("//button[text()='Send']");
-	By feedbackSuccesMsg = By.xpath("//div[@class='MuiBox-root css-0']/p[1]");
+//	By feedbackSuccesMsg = By.xpath("//div[@class='MuiBox-root css-0']/p[1]");
+	By feedbackSuccesMsg = By.xpath("//div[@class='MuiBox-root css-1nwj029']/p[1]");
+	
 
 	public void verifyProjectBtnsAfterSurvey(String projectName) throws Exception {
 		try {

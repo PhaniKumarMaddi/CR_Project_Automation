@@ -1,54 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-21T17:32:23 IST" name="LandD_Suite" finished-at="2025-08-21T17:40:59 IST" duration-ms="516057">
+  <suite started-at="2025-08-22T10:32:52 IST" name="Default suite" finished-at="2025-08-22T10:42:30 IST" duration-ms="578366">
     <groups>
     </groups>
-    <test started-at="2025-08-21T17:32:23 IST" name="LandDPage_Test" finished-at="2025-08-21T17:40:59 IST" duration-ms="516057">
-      <class name="L_And_D_Project.LAndD_Page_UI_Test">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-21T17:32:23 IST" name="setup" description="Setup and Login To Browser" finished-at="2025-08-21T17:33:06 IST" duration-ms="42671" status="PASS">
+    <test started-at="2025-08-22T10:32:52 IST" name="Default test" finished-at="2025-08-22T10:42:30 IST" duration-ms="578366">
+      <class name="CSAT_Survey_Module.CSAT_ClientModuleTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:CSAT_Survey_Module.CSAT_ClientModuleTest@47f4e407]" started-at="2025-08-22T10:32:52 IST" name="setup" description="Setup and Login To Browser" finished-at="2025-08-22T10:33:32 IST" duration-ms="40647" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[LandDPage_Report.html]]>
+                <![CDATA[CsatPage.html]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="l_and_d_PageNavigation_Test()[pri:1, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-21T17:33:06 IST" name="l_and_d_PageNavigation_Test" finished-at="2025-08-21T17:34:13 IST" duration-ms="67150" status="PASS">
+        <test-method signature="clients_module()[pri:1, instance:CSAT_Survey_Module.CSAT_ClientModuleTest@47f4e407]" started-at="2025-08-22T10:33:32 IST" name="clients_module" finished-at="2025-08-22T10:36:39 IST" duration-ms="187102" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- l_and_d_PageNavigation_Test -->
-        <test-method signature="homePageTest()[pri:2, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-21T17:34:13 IST" name="homePageTest" finished-at="2025-08-21T17:36:15 IST" duration-ms="122313" status="PASS">
+        </test-method> <!-- clients_module -->
+        <test-method signature="sendSurveyTo_Client()[pri:2, instance:CSAT_Survey_Module.CSAT_ClientModuleTest@47f4e407]" started-at="2025-08-22T10:36:39 IST" name="sendSurveyTo_Client" finished-at="2025-08-22T10:42:30 IST" duration-ms="350286" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePageTest -->
-        <test-method signature="l_and_d_Footer()[pri:3, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-21T17:36:15 IST" name="l_and_d_Footer" finished-at="2025-08-21T17:36:44 IST" duration-ms="28869" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- l_and_d_Footer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-21T17:40:59 IST" name="tearDown" description="Quit Browser" finished-at="2025-08-21T17:40:59 IST" duration-ms="515" status="PASS">
+        </test-method> <!-- sendSurveyTo_Client -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CSAT_Survey_Module.CSAT_ClientModuleTest@47f4e407]" started-at="2025-08-22T10:42:30 IST" name="tearDown" description="Quit Browser" finished-at="2025-08-22T10:42:30 IST" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- L_And_D_Project.LAndD_Page_UI_Test -->
-      <class name="L_And_D_Project.LAndD_Courses_Test">
-        <test-method signature="l_and_d_MyCourses()[pri:1, instance:L_And_D_Project.LAndD_Courses_Test@67c2e933]" started-at="2025-08-21T17:36:44 IST" name="l_and_d_MyCourses" finished-at="2025-08-21T17:39:33 IST" duration-ms="168650" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- l_and_d_MyCourses -->
-        <test-method signature="l_and_d_AdminPageTest()[pri:2, instance:L_And_D_Project.LAndD_Courses_Test@67c2e933]" started-at="2025-08-21T17:39:33 IST" name="l_and_d_AdminPageTest" finished-at="2025-08-21T17:40:21 IST" duration-ms="47745" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- l_and_d_AdminPageTest -->
-        <test-method signature="l_and_d_CreateAssessment_Test()[pri:3, instance:L_And_D_Project.LAndD_Courses_Test@67c2e933]" started-at="2025-08-21T17:40:21 IST" name="l_and_d_CreateAssessment_Test" finished-at="2025-08-21T17:40:59 IST" duration-ms="38094" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- l_and_d_CreateAssessment_Test -->
-      </class> <!-- L_And_D_Project.LAndD_Courses_Test -->
-    </test> <!-- LandDPage_Test -->
-  </suite> <!-- LandD_Suite -->
+      </class> <!-- CSAT_Survey_Module.CSAT_ClientModuleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

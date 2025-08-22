@@ -30,7 +30,10 @@ public class CSAT_Clients_Page extends WaitsManager {
 	By clientColumn = By.xpath("//table[@class='clients-table']/descendant ::tr/td[1]");
 
 	By ownerFullName = By.xpath("//label[text()='Owner Name:']/following-sibling::input");
+	By ownerNameError = By.xpath("//label[text()='Owner Name:']/following-sibling::span");
+
 	By ownerEmail = By.xpath("//label[text()='Owner Email:']/following-sibling::input");
+	By ownerEmailError = By.xpath("//label[text()='Owner Email:']/following-sibling::span");
 	By ownerError = By.xpath("//div[@class='MuiSnackbarContent-message css-1o19295']");
 
 	By addOwner = By.cssSelector("div.add-owner-button>button");
@@ -42,7 +45,11 @@ public class CSAT_Clients_Page extends WaitsManager {
 	By selectOwner = By.cssSelector("div.custom-dropdown-toggle");
 	By getSubject = By.xpath("//label[text()='Subject']/parent::div/input");
 	By getBody = By.xpath("//label[text()='Body']/parent::div/textarea");
-	
+
+	// email
+	By selectSurveyMail = By.xpath("//span[text()='CriticalRiver Feedback']");
+	By getEmailheader = By.xpath("//div[@class='x_email-container']/div[1]/h2");
+	By getEmailBody = By.xpath("//div[@class='x_email-container']/div[2]");
 
 	public void clientHeaderValidation() throws Exception {
 		try {
@@ -108,7 +115,7 @@ public class CSAT_Clients_Page extends WaitsManager {
 				if (colVal.contains(columnName)) {
 					logger.info(columnName + " Client is Available");
 					grep.passTest(columnName + " Client is Available");
-				} else if (colVal.contains("No Clients Found")) {
+				} else if (colVal.toLowerCase().contains("no clients found")) {
 					logger.info(colVal);
 					grep.infoTest(colVal);
 				} else {
@@ -158,8 +165,8 @@ public class CSAT_Clients_Page extends WaitsManager {
 					custName.getLast().sendKeys(ownerNameValue);
 				}
 			} else {
-				grep.failTest("Customer Name not available");
-				logger.error("Customer Name not available");
+				grep.failTest("Owner Name not available");
+				logger.error("Owner Name not available");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -180,8 +187,32 @@ public class CSAT_Clients_Page extends WaitsManager {
 					custName.getLast().sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
 				}
 			} else {
-				grep.failTest("Customer Name not available");
-				logger.error("Customer Name not available");
+				grep.failTest("Owner Name not available");
+				logger.error("Owner Name not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void getOwnerNameError() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(ownerNameError).isEmpty();
+			if (elementExists) {
+				List<WebElement> custName = driver.findElements(ownerNameError);
+				if (custName.size() > 0) {
+					waitForElement(ownerNameError, 60);
+
+					String error = custName.getLast().getText();
+					grep.passTest("Owner Name Error:" + error);
+					logger.info("Owner Name Error:" + error);
+				}
+			} else {
+				grep.failTest("Owner Name not available");
+				logger.error("Owner Name not available");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -228,6 +259,30 @@ public class CSAT_Clients_Page extends WaitsManager {
 			} else {
 				grep.failTest("Customer Name not available");
 				logger.error("Customer Name not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	public void getOwnerEmailError() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(ownerEmailError).isEmpty();
+			if (elementExists) {
+				List<WebElement> custEmail = driver.findElements(ownerEmailError);
+				if (custEmail.size() > 0) {
+					waitForElement(ownerEmailError, 60);
+
+					String error = custEmail.getLast().getText();
+					grep.passTest("Owner Email Error:" + error);
+					logger.info("Owner Email Error:" + error);
+				}
+			} else {
+				grep.failTest("Owner Email not available");
+				logger.error("Owner Email not available");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -439,12 +494,12 @@ public class CSAT_Clients_Page extends WaitsManager {
 		try {
 			implWait(driver);
 			WebElement delete = driver.findElement(deleteOwnerContact);
-			if (delete.isEnabled()) {
-				logger.error("Delete Button is Enabled");
-				grep.failTest("Delete Button is Enabled");
-			} else {
+			if (delete.getAttribute("class").contains("disabled")) {
 				logger.info("Delete Button is Disabled");
 				grep.passTest("Delete Button is Disabled");
+			} else {
+				logger.error("Delete Button is Enabled");
+				grep.failTest("Delete Button is Enabled");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -506,7 +561,7 @@ public class CSAT_Clients_Page extends WaitsManager {
 
 		}
 	}
-	
+
 	// Retrieve subject and body
 	public void retrieveSubjectBasedOnSurvey() throws Exception {
 		try {
@@ -558,4 +613,88 @@ public class CSAT_Clients_Page extends WaitsManager {
 		}
 	}
 
+	public void getSurveyPageCardDetails(String cardName) throws Exception {
+		try {
+			implWait(driver);
+			By survey_card = By.xpath("//h3[text()='" + cardName + "']/following-sibling::p");
+			boolean elementExists = !driver.findElements(survey_card).isEmpty();
+			if (elementExists) {
+				waitForElement(survey_card, 60);
+
+				String cardCount = driver.findElement(survey_card).getText();
+
+				grep.passTest(cardName + " Card count:" + cardCount);
+				logger.info(cardName + " Card count:" + cardCount);
+
+			} else {
+				grep.failTest(cardName + " Card Not Found");
+				logger.error(cardName + " Card Not found");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// Skill Sync Mail
+	public void clickSkillSyncMail() throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> selectMail = driver.findElements(selectSurveyMail);
+			if (selectMail.size() > 0) {
+				waitForElementToBeClickable(selectSurveyMail, 30);
+				selectMail.getFirst().click();
+			} else {
+				logger.error("Survey mail Not Available ");
+				grep.failTest("Survey mail button Not Available ");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// Get Header in Mail
+	public void getMailHeaderText() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(getEmailheader).isEmpty();
+			if (elementExists) {
+				waitForElement(getEmailheader, 30);
+				String getresponse = driver.findElement(getEmailheader).getText();
+				logger.info("Get Email Header: " + getresponse);
+				grep.passTest("Get Email Header: " + getresponse);
+			} else {
+				logger.error("Email Header Not Available");
+				grep.failTest("Email Header Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// Get Email Body
+	public void getMailBodyText() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(getEmailBody).isEmpty();
+			if (elementExists) {
+				waitForElement(getEmailBody, 30);
+				String getresponse = driver.findElement(getEmailBody).getText();
+				logger.info("Get Email Body: " + getresponse);
+				grep.passTest("Get Email Body: " + getresponse);
+			} else {
+				logger.error("Email Body Not Available");
+				grep.failTest("Email Body Not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
 }
