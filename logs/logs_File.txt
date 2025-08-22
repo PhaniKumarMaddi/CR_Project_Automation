@@ -10868,3 +10868,597 @@ Session ID: 5b0cb4ce5c7e0444c0b29031c18b8949
 2025-08-22 16:01:56 [main] INFO : CSAT Project Automation Project Deleted
 2025-08-22 16:01:56 [main] INFO : Testing Ended
 2025-08-22 16:01:56 [main] INFO : ***********
+2025-08-22 16:06:31 [main] INFO : Launching Chrome Browser
+2025-08-22 16:06:31 [main] INFO : Report Name :CsatPage.html
+2025-08-22 16:06:34 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-22 16:06:35 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-22 16:06:35 [main] INFO : Inside Login Page: LOGIN
+2025-08-22 16:07:00 [main] INFO : Logged in to CSAT Application
+2025-08-22 16:07:01 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-22 16:07:12 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 10%
+2025-08-22 16:07:15 [main] INFO : Verify Saving with adding weightage greater than 100 in edit survey
+2025-08-22 16:07:18 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 200%
+2025-08-22 16:07:26 [main] INFO : Adding only Section without adding Measure and Question in Edit Survey
+2025-08-22 16:07:34 [main] INFO : Entered Section Name: Ownership
+2025-08-22 16:07:40 [main] INFO : Entered Section Weightage: 50
+2025-08-22 16:07:42 [main] INFO : Error Message :Section "Ownership" must have at least one measure.
+2025-08-22 16:07:48 [main] INFO : Adding Section and Measure without adding Question in Edit Survey
+2025-08-22 16:07:54 [main] INFO : Entered Measure Name: Quality
+2025-08-22 16:07:56 [main] INFO : Error Message :Section "Ownership" must have at least one measure with at least one question.
+2025-08-22 16:07:59 [main] INFO : Keeping Options Weightage as Blank in edit Survey
+2025-08-22 16:08:04 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-22 16:08:07 [main] ERROR: Test Failed :element click intercepted: Element <input placeholder="Type here..." class="add-survey-option-input" type="text" value="Option 1" style="flex: 1 1 0%; margin-right: 8px; width: 300px; padding: 4px;"> is not clickable at point (1226, 959). Other element would receive the click: <div class="addsurvey1">...</div>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f61fca31b5dca2c557a3fd3484f8678d, clickElement {id=f.B4C1E1908CFF3C13ACC9BC6FC6620440.d.0839EE6DF3891365AD8FF7B643AEE098.e.581}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53368/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f61fca31b5dca2c557a3fd3484f8678d)] -> css selector: input.add-survey-option-input]
+Session ID: f61fca31b5dca2c557a3fd3484f8678d
+2025-08-22 16:08:08 [main] INFO : Error Message :Weightage is required for option 1 in question "This is to test question 2" in section "Ownership".
+2025-08-22 16:08:11 [main] INFO : Adding New Section,Measure,Question for existing survey Test
+2025-08-22 16:08:26 [main] INFO : Entered Section Name: Ownership
+2025-08-22 16:08:27 [main] INFO : Entered Section Weightage: 50
+2025-08-22 16:08:28 [main] ERROR: Test Failed :element click intercepted: Element <button type="button" class="add-question-btn" title="..." style="border: none; background: none; color: blue; font-size: 16px; padding-bottom: 5px;">Add Measure</button> is not clickable at point (819, 956). Other element would receive the click: <div class="addsurvey1">...</div>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f61fca31b5dca2c557a3fd3484f8678d, clickElement {id=f.B4C1E1908CFF3C13ACC9BC6FC6620440.d.0839EE6DF3891365AD8FF7B643AEE098.e.656}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53368/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f61fca31b5dca2c557a3fd3484f8678d)] -> xpath: //button[text()='Add Measure']]
+Session ID: f61fca31b5dca2c557a3fd3484f8678d
+2025-08-22 16:09:07 [main] INFO : Entered Measure Name: Quality
+2025-08-22 16:09:09 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-22 16:09:12 [main] ERROR: Test Failed :element click intercepted: Element <input placeholder="Type here..." class="add-survey-option-input" type="text" value="Option 1" style="flex: 1 1 0%; margin-right: 8px; width: 300px; padding: 4px;"> is not clickable at point (1226, 962). Other element would receive the click: <div class="addsurvey1">...</div>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f61fca31b5dca2c557a3fd3484f8678d, clickElement {id=f.B4C1E1908CFF3C13ACC9BC6FC6620440.d.0839EE6DF3891365AD8FF7B643AEE098.e.673}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53368/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f61fca31b5dca2c557a3fd3484f8678d)] -> css selector: input.add-survey-option-input]
+Session ID: f61fca31b5dca2c557a3fd3484f8678d
+2025-08-22 16:09:13 [main] ERROR: Test Failed :element click intercepted: Element <input placeholder="Weigh" class="add-survey-weightage-input" type="number" value="" style="width: 30px; padding: 8px; margin-right: 8px;"> is not clickable at point (1715, 957). Other element would receive the click: <div class="add-survey-modal-footer">...</div>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f61fca31b5dca2c557a3fd3484f8678d, clickElement {id=f.B4C1E1908CFF3C13ACC9BC6FC6620440.d.0839EE6DF3891365AD8FF7B643AEE098.e.674}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53368/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f61fca31b5dca2c557a3fd3484f8678d)] -> css selector: input.add-survey-weightage-input]
+Session ID: f61fca31b5dca2c557a3fd3484f8678d
+2025-08-22 16:09:14 [main] INFO : Entered Options 1
+2025-08-22 16:09:15 [main] ERROR: Test Failed :element click intercepted: Element <span class="survey-form-add-option-text" style="color: rgb(0, 0, 255); text-decoration: underline;">...</span> is not clickable at point (822, 994). Other element would receive the click: <div class="addsurvey1">...</div>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f61fca31b5dca2c557a3fd3484f8678d, clickElement {id=f.B4C1E1908CFF3C13ACC9BC6FC6620440.d.0839EE6DF3891365AD8FF7B643AEE098.e.684}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53368/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f61fca31b5dca2c557a3fd3484f8678d)] -> xpath: //span[text()='Add option']]
+Session ID: f61fca31b5dca2c557a3fd3484f8678d
+2025-08-22 16:09:17 [main] ERROR: Test Failed :element click intercepted: Element <input placeholder="Type here..." class="add-survey-option-input" type="text" value="Option 1" style="flex: 1 1 0%; margin-right: 8px; width: 300px; padding: 4px;"> is not clickable at point (1226, 934). Other element would receive the click: <div class="addsurvey1">...</div>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f61fca31b5dca2c557a3fd3484f8678d, clickElement {id=f.B4C1E1908CFF3C13ACC9BC6FC6620440.d.0839EE6DF3891365AD8FF7B643AEE098.e.673}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53368/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f61fca31b5dca2c557a3fd3484f8678d)] -> css selector: input.add-survey-option-input]
+Session ID: f61fca31b5dca2c557a3fd3484f8678d
+2025-08-22 16:09:17 [main] INFO : Entered Options 2
+2025-08-22 16:09:19 [main] ERROR: Test Failed :element click intercepted: Element <span class="survey-form-add-option-text" style="color: rgb(0, 0, 255); text-decoration: underline;">...</span> is not clickable at point (822, 957). Other element would receive the click: <div class="addsurvey1">...</div>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f61fca31b5dca2c557a3fd3484f8678d, clickElement {id=f.B4C1E1908CFF3C13ACC9BC6FC6620440.d.0839EE6DF3891365AD8FF7B643AEE098.e.684}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53368/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f61fca31b5dca2c557a3fd3484f8678d)] -> xpath: //span[text()='Add option']]
+Session ID: f61fca31b5dca2c557a3fd3484f8678d
+2025-08-22 16:09:20 [main] INFO : Entered Options 3
+2025-08-22 16:09:56 [main] INFO : Clicking Survey from Table
+2025-08-22 16:10:06 [main] INFO : Header is Valid: CSAT Test Automation
+2025-08-22 16:10:07 [main] INFO : Section is Updated: Ownership(50%)
+2025-08-22 16:10:09 [main] INFO : Adding New Measure and Question for existing section Test
+2025-08-22 16:10:21 [main] ERROR: Test Failed :element click intercepted: Element is not clickable at point (819, 2154)
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f61fca31b5dca2c557a3fd3484f8678d, clickElement {id=f.B4C1E1908CFF3C13ACC9BC6FC6620440.d.0839EE6DF3891365AD8FF7B643AEE098.e.784}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53368/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f61fca31b5dca2c557a3fd3484f8678d)] -> xpath: //button[text()='Add Measure']]
+Session ID: f61fca31b5dca2c557a3fd3484f8678d
+2025-08-22 16:10:23 [main] INFO : Entered Measure Name: Ownership
+2025-08-22 16:10:26 [main] INFO : Entered Question Name: This is to test question 3
+2025-08-22 16:10:29 [main] ERROR: Test Failed :element click intercepted: Element <input placeholder="Type here..." class="add-survey-option-input" type="text" value="Option 1" style="flex: 1 1 0%; margin-right: 8px; width: 300px; padding: 4px;"> is not clickable at point (1236, 962). Other element would receive the click: <div class="add-survey-modal-footer">...</div>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f61fca31b5dca2c557a3fd3484f8678d, clickElement {id=f.B4C1E1908CFF3C13ACC9BC6FC6620440.d.0839EE6DF3891365AD8FF7B643AEE098.e.798}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53368/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f61fca31b5dca2c557a3fd3484f8678d)] -> css selector: input.add-survey-option-input]
+Session ID: f61fca31b5dca2c557a3fd3484f8678d
+2025-08-22 16:10:30 [main] ERROR: Test Failed :element click intercepted: Element <input placeholder="Weigh" class="add-survey-weightage-input" type="number" value="" style="width: 30px; padding: 8px; margin-right: 8px;"> is not clickable at point (1734, 954). Other element would receive the click: <div class="add-survey-modal-footer">...</div>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f61fca31b5dca2c557a3fd3484f8678d, clickElement {id=f.B4C1E1908CFF3C13ACC9BC6FC6620440.d.0839EE6DF3891365AD8FF7B643AEE098.e.799}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53368/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f61fca31b5dca2c557a3fd3484f8678d)] -> css selector: input.add-survey-weightage-input]
+Session ID: f61fca31b5dca2c557a3fd3484f8678d
+2025-08-22 16:10:30 [main] INFO : Entered Options 2
+2025-08-22 16:10:32 [main] ERROR: Test Failed :element click intercepted: Element <span class="survey-form-add-option-text" style="color: rgb(0, 0, 255); text-decoration: underline;">...</span> is not clickable at point (822, 998). Other element would receive the click: <div class="addsurvey1">...</div>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f61fca31b5dca2c557a3fd3484f8678d, clickElement {id=f.B4C1E1908CFF3C13ACC9BC6FC6620440.d.0839EE6DF3891365AD8FF7B643AEE098.e.821}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53368/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f61fca31b5dca2c557a3fd3484f8678d)] -> xpath: //span[text()='Add option']]
+Session ID: f61fca31b5dca2c557a3fd3484f8678d
+2025-08-22 16:10:33 [main] ERROR: Test Failed :element click intercepted: Element <input placeholder="Type here..." class="add-survey-option-input" type="text" value="Option 1" style="flex: 1 1 0%; margin-right: 8px; width: 300px; padding: 4px;"> is not clickable at point (1236, 938). Other element would receive the click: <div class="add-survey-modal-footer">...</div>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f61fca31b5dca2c557a3fd3484f8678d, clickElement {id=f.B4C1E1908CFF3C13ACC9BC6FC6620440.d.0839EE6DF3891365AD8FF7B643AEE098.e.798}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53368/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f61fca31b5dca2c557a3fd3484f8678d)] -> css selector: input.add-survey-option-input]
+Session ID: f61fca31b5dca2c557a3fd3484f8678d
+2025-08-22 16:10:34 [main] INFO : Entered Options 3
+2025-08-22 16:10:50 [main] INFO : Adding New Question for existing measure Test
+2025-08-22 16:11:14 [main] INFO : Entered Question Name: This is to test question 5
+2025-08-22 16:11:16 [main] ERROR: Test Failed :element click intercepted: Element <input placeholder="Type here..." class="add-survey-option-input" type="text" value="Option 1" style="flex: 1 1 0%; margin-right: 8px; width: 300px; padding: 4px;"> is not clickable at point (1236, 961). Other element would receive the click: <div class="add-survey-modal-footer">...</div>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f61fca31b5dca2c557a3fd3484f8678d, clickElement {id=f.B4C1E1908CFF3C13ACC9BC6FC6620440.d.0839EE6DF3891365AD8FF7B643AEE098.e.898}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53368/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f61fca31b5dca2c557a3fd3484f8678d)] -> css selector: input.add-survey-option-input]
+Session ID: f61fca31b5dca2c557a3fd3484f8678d
+2025-08-22 16:11:17 [main] ERROR: Test Failed :element click intercepted: Element <input placeholder="Weigh" class="add-survey-weightage-input" type="number" value="" style="width: 30px; padding: 8px; margin-right: 8px;"> is not clickable at point (1734, 950). Other element would receive the click: <div class="add-survey-modal-footer">...</div>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f61fca31b5dca2c557a3fd3484f8678d, clickElement {id=f.B4C1E1908CFF3C13ACC9BC6FC6620440.d.0839EE6DF3891365AD8FF7B643AEE098.e.899}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53368/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f61fca31b5dca2c557a3fd3484f8678d)] -> css selector: input.add-survey-weightage-input]
+Session ID: f61fca31b5dca2c557a3fd3484f8678d
+2025-08-22 16:11:18 [main] INFO : Entered Options 4
+2025-08-22 16:11:34 [main] INFO : Adding New option for existing Question Test
+2025-08-22 16:11:51 [main] ERROR: Test Failed :element click intercepted: Element <button class="text-blue-600 hover:text-blue-800" id="table-5" title="Edit">...</button> is not clickable at point (2362, 587). Other element would receive the click: <div class="add-survey-modal-overlay">...</div>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f61fca31b5dca2c557a3fd3484f8678d, clickElement {id=f.B4C1E1908CFF3C13ACC9BC6FC6620440.d.0839EE6DF3891365AD8FF7B643AEE098.e.831}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53368/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f61fca31b5dca2c557a3fd3484f8678d)] -> xpath: //button[text()='CSAT Test Automation']/parent::td/following-sibling::td/div/button[@title='Edit']]
+Session ID: f61fca31b5dca2c557a3fd3484f8678d
+2025-08-22 16:11:57 [main] INFO : Entered Options 5
+2025-08-22 16:20:39 [main] INFO : Launching Chrome Browser
+2025-08-22 16:20:40 [main] INFO : Report Name :CsatPage.html
+2025-08-22 16:20:45 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-22 16:20:45 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-22 16:20:45 [main] INFO : Inside Login Page: LOGIN
+2025-08-22 16:21:17 [main] INFO : Logged in to CSAT Application
+2025-08-22 16:21:18 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-22 16:21:28 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 10%
+2025-08-22 16:21:31 [main] INFO : Verify Saving with adding weightage greater than 100 in edit survey
+2025-08-22 16:21:34 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 200%
+2025-08-22 16:21:42 [main] INFO : Adding only Section without adding Measure and Question in Edit Survey
+2025-08-22 16:21:51 [main] INFO : Entered Section Name: Ownership
+2025-08-22 16:21:57 [main] INFO : Entered Section Weightage: 50
+2025-08-22 16:21:59 [main] INFO : Error Message :Section "Ownership" must have at least one measure.
+2025-08-22 16:22:05 [main] INFO : Adding Section and Measure without adding Question in Edit Survey
+2025-08-22 16:22:08 [main] ERROR: Test Failed :element click intercepted: Element <button type="button" class="add-question-btn" title="..." style="border: none; background: none; color: blue; font-size: 16px; padding-bottom: 5px;">Add Measure</button> is not clickable at point (819, 941). Other element would receive the click: <div class="addsurvey1">...</div>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e2160ea17142f6f6cd3617c0e52edba9, clickElement {id=f.1477C5E368971BD94D66B10523F9F2C4.d.5066508FBDA25D825A06309A5EFA54AC.e.565}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60545}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60545/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e2160ea17142f6f6cd3617c0e52edba9)] -> xpath: //button[text()='Add Measure']]
+Session ID: e2160ea17142f6f6cd3617c0e52edba9
+2025-08-22 16:23:11 [main] ERROR: Measure Name Field not Available
+2025-08-22 16:23:12 [main] INFO : Entered Measure Name: Quality
+2025-08-22 16:23:59 [main] INFO : Launching Chrome Browser
+2025-08-22 16:23:59 [main] INFO : Report Name :CsatPage.html
+2025-08-22 16:24:05 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-22 16:24:06 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-22 16:24:06 [main] INFO : Inside Login Page: LOGIN
+2025-08-22 16:24:34 [main] INFO : Logged in to CSAT Application
+2025-08-22 16:24:35 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-22 16:24:46 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 10%
+2025-08-22 16:24:48 [main] INFO : Verify Saving with adding weightage greater than 100 in edit survey
+2025-08-22 16:24:52 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 200%
+2025-08-22 16:25:00 [main] INFO : Adding only Section without adding Measure and Question in Edit Survey
+2025-08-22 16:25:08 [main] INFO : Entered Section Name: Ownership
+2025-08-22 16:25:14 [main] INFO : Entered Section Weightage: 50
+2025-08-22 16:25:16 [main] INFO : Error Message :Section "Ownership" must have at least one measure.
+2025-08-22 16:25:22 [main] INFO : Adding Section and Measure without adding Question in Edit Survey
+2025-08-22 16:25:37 [main] INFO : Entered Measure Name: Quality
+2025-08-22 16:25:38 [main] INFO : Error Message :Section "Ownership" must have at least one measure with at least one question.
+2025-08-22 16:25:42 [main] INFO : Keeping Options Weightage as Blank in edit Survey
+2025-08-22 16:25:50 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-22 16:25:56 [main] INFO : Error Message :Weightage is required for option 1 in question "This is to test question 2" in section "Ownership".
+2025-08-22 16:25:59 [main] INFO : Adding New Section,Measure,Question for existing survey Test
+2025-08-22 16:26:14 [main] INFO : Entered Section Name: Ownership
+2025-08-22 16:26:14 [main] INFO : Entered Section Weightage: 50
+2025-08-22 16:26:24 [main] INFO : Entered Measure Name: Quality
+2025-08-22 16:26:30 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-22 16:26:39 [main] INFO : Entered Options 1
+2025-08-22 16:26:47 [main] INFO : Entered Options 2
+2025-08-22 16:26:55 [main] INFO : Entered Options 3
+2025-08-22 16:27:31 [main] INFO : Clicking Survey from Table
+2025-08-22 16:27:41 [main] INFO : Header is Valid: CSAT Test Automation
+2025-08-22 16:27:42 [main] INFO : Section is Updated: Ownership(50%)
+2025-08-22 16:27:44 [main] INFO : Adding New Measure and Question for existing section Test
+2025-08-22 16:28:05 [main] INFO : Entered Measure Name: Ownership
+2025-08-22 16:28:11 [main] INFO : Entered Question Name: This is to test question 3
+2025-08-22 16:28:20 [main] INFO : Entered Options 2
+2025-08-22 16:28:28 [main] INFO : Entered Options 3
+2025-08-22 16:28:45 [main] INFO : Adding New Question for existing measure Test
+2025-08-22 16:29:10 [main] ERROR: Test Failed :element click intercepted: Element <button type="button" class="add-question-btn" title="..." style="border: none; background: none; color: blue; font-size: 16px;">Add Question</button> is not clickable at point (820, 954). Other element would receive the click: <div class="addsurvey1">...</div>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [008cb2ee44864a575c752cabfc07032e, clickElement {id=f.571B603AE38ADFFDA9CEA5C06E5E66FC.d.0154156C030E92ACB46AA6E3C536E6A6.e.945}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58058}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58058/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (008cb2ee44864a575c752cabfc07032e)] -> xpath: //button[text()='Add Question']]
+Session ID: 008cb2ee44864a575c752cabfc07032e
+2025-08-22 16:29:12 [main] INFO : Entered Question Name: This is to test question 5
+2025-08-22 16:30:12 [main] ERROR:  Question Name Option not Available
+2025-08-22 16:30:20 [main] INFO : Entered Options 4
+2025-08-22 16:31:33 [main] INFO : Launching Chrome Browser
+2025-08-22 16:31:33 [main] INFO : Report Name :CsatPage.html
+2025-08-22 16:31:39 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-22 16:31:39 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-22 16:31:39 [main] INFO : Inside Login Page: LOGIN
+2025-08-22 16:32:08 [main] INFO : Logged in to CSAT Application
+2025-08-22 16:32:09 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-22 16:32:19 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 10%
+2025-08-22 16:32:22 [main] INFO : Verify Saving with adding weightage greater than 100 in edit survey
+2025-08-22 16:32:25 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 200%
+2025-08-22 16:32:33 [main] INFO : Adding only Section without adding Measure and Question in Edit Survey
+2025-08-22 16:32:42 [main] INFO : Entered Section Name: Ownership
+2025-08-22 16:32:47 [main] INFO : Entered Section Weightage: 50
+2025-08-22 16:32:50 [main] INFO : Error Message :Section "Ownership" must have at least one measure.
+2025-08-22 16:32:56 [main] INFO : Adding Section and Measure without adding Question in Edit Survey
+2025-08-22 16:33:11 [main] INFO : Entered Measure Name: Quality
+2025-08-22 16:33:12 [main] INFO : Error Message :Section "Ownership" must have at least one measure with at least one question.
+2025-08-22 16:33:15 [main] INFO : Keeping Options Weightage as Blank in edit Survey
+2025-08-22 16:33:24 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-22 16:33:30 [main] INFO : Error Message :Weightage is required for option 1 in question "This is to test question 2" in section "Ownership".
+2025-08-22 16:33:34 [main] INFO : Adding New Section,Measure,Question for existing survey Test
+2025-08-22 16:33:48 [main] INFO : Entered Section Name: Ownership
+2025-08-22 16:33:49 [main] INFO : Entered Section Weightage: 50
+2025-08-22 16:33:59 [main] INFO : Entered Measure Name: Quality
+2025-08-22 16:34:05 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-22 16:34:14 [main] INFO : Entered Options 1
+2025-08-22 16:34:22 [main] INFO : Entered Options 2
+2025-08-22 16:34:30 [main] INFO : Entered Options 3
+2025-08-22 16:35:06 [main] INFO : Clicking Survey from Table
+2025-08-22 16:35:16 [main] INFO : Header is Valid: CSAT Test Automation
+2025-08-22 16:35:17 [main] INFO : Section is Updated: Ownership(50%)
+2025-08-22 16:35:19 [main] INFO : Adding New Measure and Question for existing section Test
+2025-08-22 16:35:40 [main] INFO : Entered Measure Name: Ownership
+2025-08-22 16:35:46 [main] INFO : Entered Question Name: This is to test question 3
+2025-08-22 16:35:55 [main] INFO : Entered Options 2
+2025-08-22 16:36:03 [main] INFO : Entered Options 3
+2025-08-22 16:36:20 [main] INFO : Adding New Question for existing measure Test
+2025-08-22 16:36:51 [main] ERROR: Test Failed :element click intercepted: Element <input placeholder="Ex: Is Resource delivered tasks on-time?" type="text" value=""> is not clickable at point (1003, 1018). Other element would receive the click: <div class="add-survey-modal" id="addsurvey">...</div>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c7e8cb5866c5a8f3bb59f83c0749808d, clickElement {id=f.D6841BE931D62C94311BC1F56BBAD693.d.BB39B1413A756969ADC1CF54D2FF61DD.e.953}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62365}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62365/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c7e8cb5866c5a8f3bb59f83c0749808d)] -> xpath: //label[starts-with(text(),'Question Name ')]/following-sibling::input]
+Session ID: c7e8cb5866c5a8f3bb59f83c0749808d
+2025-08-22 16:36:51 [main] INFO : Entered Question Name: This is to test question 5
+2025-08-22 16:37:00 [main] INFO : Entered Options 4
+2025-08-22 16:39:00 [main] INFO : Launching Chrome Browser
+2025-08-22 16:39:00 [main] INFO : Report Name :CsatPage.html
+2025-08-22 16:39:26 [main] INFO : Launching Chrome Browser
+2025-08-22 16:39:26 [main] INFO : Report Name :LandDPage_Report.html
+2025-08-22 16:39:58 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-22 16:39:59 [main] INFO : Inside Login Page: Learning and Development
+2025-08-22 16:40:54 [main] INFO : Logged in to Learning and Development Application
+2025-08-22 16:40:58 [main] INFO : Learning and Development Page navigation Test
+2025-08-22 16:40:59 [main] INFO : Navigated to /my-courses
+2025-08-22 16:41:04 [main] INFO : Inside /my-courses Page 
+2025-08-22 16:41:04 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-22 16:41:06 [main] INFO : Navigated to /departments
+2025-08-22 16:41:11 [main] INFO : Inside /departments Page 
+2025-08-22 16:41:11 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-22 16:41:14 [main] INFO : Navigated to /certificates
+2025-08-22 16:41:19 [main] INFO : Inside /certificates Page 
+2025-08-22 16:41:19 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-22 16:41:21 [main] INFO : Navigated to /admin
+2025-08-22 16:41:21 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-22 16:41:23 [main] INFO : Navigated to /admin/courses
+2025-08-22 16:41:28 [main] INFO : Inside /admin/courses Tab in Admin Page 
+2025-08-22 16:41:28 [main] INFO : /admin/courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/courses
+2025-08-22 16:41:31 [main] INFO : Navigated to /admin/tests
+2025-08-22 16:41:36 [main] INFO : Inside /admin/tests Tab in Admin Page 
+2025-08-22 16:41:36 [main] INFO : /admin/tests Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/tests
+2025-08-22 16:41:39 [main] INFO : Navigated to /admin/roles
+2025-08-22 16:41:44 [main] INFO : Inside /admin/roles Tab in Admin Page 
+2025-08-22 16:41:44 [main] INFO : /admin/roles Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/roles
+2025-08-22 16:41:47 [main] INFO : Navigated to /admin/dashboard
+2025-08-22 16:41:52 [main] INFO : Inside /admin/dashboard Tab in Admin Page 
+2025-08-22 16:41:52 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-22 16:41:54 [main] INFO : Navigated to /Home
+2025-08-22 16:41:59 [main] INFO : Inside /Home Page 
+2025-08-22 16:41:59 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-22 16:42:02 [main] INFO : Home Page Ui test
+2025-08-22 16:42:02 [main] INFO : Home Page Header Content: Grow your skills, advance your career
+2025-08-22 16:42:02 [main] INFO : Home Page Description Content: Access all the learning resources you need to excel at CriticalRiver
+2025-08-22 16:42:02 [main] INFO : Start Learning Button Available
+2025-08-22 16:42:03 [main] INFO : Header: Browse Courses by Department
+2025-08-22 16:42:03 [main] INFO : Total Courses Card Count: 462
+2025-08-22 16:42:03 [main] INFO : Departments Card Count: 15
+2025-08-22 16:42:03 [main] INFO : Popular Courses Card Count: 5
+2025-08-22 16:42:03 [main] INFO : My Certificates Card Count: 0
+2025-08-22 16:42:03 [main] INFO : My Courses Card Count: 6
+2025-08-22 16:42:04 [main] INFO : Verifying navigation from Stat Cards in Home Page
+2025-08-22 16:42:05 [main] INFO : Clicking on Total Courses card
+2025-08-22 16:42:06 [main] INFO : Clicking on Total Courses Card
+2025-08-22 16:42:06 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-22 16:42:10 [main] INFO : Navigated to /Home
+2025-08-22 16:42:15 [main] INFO : Clicking on Departments card
+2025-08-22 16:42:16 [main] INFO : Clicking on Departments Card
+2025-08-22 16:42:16 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-22 16:42:20 [main] INFO : Navigated to /Home
+2025-08-22 16:42:25 [main] INFO : Clicking on Popular Courses card
+2025-08-22 16:42:26 [main] INFO : Clicking on Popular Courses Card
+2025-08-22 16:42:26 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-22 16:42:30 [main] INFO : Navigated to /Home
+2025-08-22 16:42:35 [main] INFO : Clicking on My Certificates card
+2025-08-22 16:42:37 [main] INFO : Clicking on My Certificates Card
+2025-08-22 16:42:37 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-22 16:42:40 [main] INFO : Navigated to /Home
+2025-08-22 16:42:45 [main] INFO : Clicking on My Courses card
+2025-08-22 16:42:46 [main] INFO : Clicking on My Courses Card
+2025-08-22 16:42:46 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-22 16:42:50 [main] INFO : Navigated to /Home
+2025-08-22 16:42:55 [main] INFO : Home Page Continue Learning test
+2025-08-22 16:42:57 [main] INFO : Continue Learning Header is correct: Continue Learning
+2025-08-22 16:42:58 [main] INFO : Continue Learning Course NameAirflow Beginner
+2025-08-22 16:42:58 [main] INFO : Continue Learning Progress Percentage: 100% complete
+2025-08-22 16:42:58 [main] INFO : Continue Learning Course Category: Data Engineering Tools
+2025-08-22 16:42:58 [main] INFO : Continue Learning Course Last Accessed: Last accessed: Recently
+2025-08-22 16:42:58 [main] INFO : Navigated to Course Video Page
+2025-08-22 16:42:59 [main] INFO : /course-videos Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-22 16:43:01 [main] INFO : Navigated to /Home
+2025-08-22 16:43:03 [main] INFO : Home Page Feature Courses test
+2025-08-22 16:43:04 [main] INFO : Feature Course List Contains : Airflow Beginner course
+2025-08-22 16:43:05 [main] INFO : Feature Course List Contains : Airflow Advanced course
+2025-08-22 16:43:05 [main] INFO : Feature Course List Contains : Statistics Beginner course
+2025-08-22 16:43:06 [main] INFO : Feature Course List Contains : ABAP Beginner course
+2025-08-22 16:43:06 [main] INFO : Feature Course List Contains : Automation Testing (Selenium) Beginner course
+2025-08-22 16:43:08 [main] INFO : Feature Courses contains Department Name: Data Science and AI
+2025-08-22 16:43:08 [main] INFO : Feature Courses contains Course Level: Beginner
+2025-08-22 16:43:08 [main] INFO : Feature Courses contains Name: Airflow Beginner
+2025-08-22 16:43:08 [main] INFO : Feature Courses contains Video Count: 🎥 1 Videos
+2025-08-22 16:43:08 [main] INFO : Feature Courses contains Duration: ⏱ 1 hrs 37 mins
+2025-08-22 16:43:10 [main] INFO : Course Enrollment message: Already enrolled in the course
+2025-08-22 16:43:11 [main] INFO : Home Page Browse Course By Department test
+2025-08-22 16:43:12 [main] INFO : Data Science and AI department is available
+2025-08-22 16:43:12 [main] INFO : Total Courses count for Data Science and AI: 43 courses
+2025-08-22 16:43:13 [main] INFO : ERP Application department is available
+2025-08-22 16:43:13 [main] INFO : Total Courses count for ERP Application: 35 courses
+2025-08-22 16:43:14 [main] INFO : Product Engineering Services department is available
+2025-08-22 16:43:15 [main] INFO : Total Courses count for Product Engineering Services: 29 courses
+2025-08-22 16:43:15 [main] INFO : Hardware and Validation department is available
+2025-08-22 16:43:16 [main] INFO : Total Courses count for Hardware and Validation: 21 courses
+2025-08-22 16:43:16 [main] INFO : H1B Staffing department is available
+2025-08-22 16:43:17 [main] INFO : Total Courses count for H1B Staffing: 21 courses
+2025-08-22 16:43:17 [main] INFO : Salesforce department is available
+2025-08-22 16:43:18 [main] INFO : Total Courses count for Salesforce: 28 courses
+2025-08-22 16:43:18 [main] INFO : DSIL department is available
+2025-08-22 16:43:19 [main] INFO : Total Courses count for DSIL: 49 courses
+2025-08-22 16:43:19 [main] INFO : Enterprise Architecture department is available
+2025-08-22 16:43:20 [main] INFO : Total Courses count for Enterprise Architecture: 34 courses
+2025-08-22 16:43:20 [main] INFO : Global Engineering Org department is available
+2025-08-22 16:43:21 [main] INFO : Total Courses count for Global Engineering Org: 69 courses
+2025-08-22 16:43:22 [main] INFO : Enterprise Integration department is available
+2025-08-22 16:43:22 [main] INFO : Total Courses count for Enterprise Integration: 27 courses
+2025-08-22 16:43:23 [main] INFO : India Public Sector department is available
+2025-08-22 16:43:23 [main] INFO : Total Courses count for India Public Sector: 36 courses
+2025-08-22 16:43:24 [main] INFO : Energy & Water department is available
+2025-08-22 16:43:24 [main] INFO : Total Courses count for Energy & Water: 18 courses
+2025-08-22 16:43:25 [main] INFO : Business Process Services department is available
+2025-08-22 16:43:25 [main] INFO : Total Courses count for Business Process Services: 23 courses
+2025-08-22 16:43:26 [main] INFO : Enabling Team department is available
+2025-08-22 16:43:26 [main] INFO : Total Courses count for Enabling Team: 29 courses
+2025-08-22 16:43:27 [main] INFO : Others department is available
+2025-08-22 16:43:27 [main] INFO : Total Courses count for Others: 0 courses
+2025-08-22 16:43:28 [main] INFO : Click View All Department Link
+2025-08-22 16:43:30 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-22 16:43:31 [main] INFO : Navigated to /Home
+2025-08-22 16:43:37 [main] INFO : Verify clicking on department card
+2025-08-22 16:43:43 [main] INFO : Navigated to Data Science and AI Department
+2025-08-22 16:43:48 [main] INFO : Navigated to /Home
+2025-08-22 16:43:53 [main] INFO : Navigated to Salesforce Department
+2025-08-22 16:43:58 [main] INFO : Navigated to /Home
+2025-08-22 16:43:59 [main] INFO : Verify Why Criticalriver Academy Info
+2025-08-22 16:43:59 [main] INFO : Academy Header :Why CriticalRiver Academy?
+2025-08-22 16:43:59 [main] INFO : Academy Reason youtube :▶️
+Learn from YouTube
+Access curated YouTube content organized by departments and skills, making it easy to find relevant learning materials.
+2025-08-22 16:43:59 [main] INFO : Academy Reason Certificates :📜
+Earn Certificates
+Complete courses and assessments to earn certificates that demonstrate your skills and expertise.
+2025-08-22 16:43:59 [main] INFO : Academy Reason Learning paths :🗺️
+Structured Learning Paths
+Follow department-specific learning paths designed to help you grow in your role and advance your career.
+2025-08-22 16:44:01 [main] INFO : Ready To StartReady to start learning?
+Take the first step in your learning journey with CriticalRiver Academy
+Explore All Courses
+2025-08-22 16:44:01 [main] INFO : Explore all courses
+2025-08-22 16:44:02 [main] INFO : Navigate to Profile Page
+2025-08-22 16:44:06 [main] INFO : Profile Page Information: Personal Information
+2025-08-22 16:44:06 [main] INFO : Profile Page Information: Full Name:
+Phani Kumar Maddi
+2025-08-22 16:44:06 [main] INFO : Profile Page Information: Email:
+phani.maddi@criticalriver.com
+2025-08-22 16:44:06 [main] INFO : Profile Page Information: Department:
+DSIL
+2025-08-22 16:44:06 [main] INFO : Profile Page Information: Job Title:
+Software Engineer
+2025-08-22 16:44:06 [main] INFO : Profile Page Information: Certifications
+2025-08-22 16:44:06 [main] INFO : Profile Page Information: No certifications
+2025-08-22 16:44:07 [main] INFO : Reserve Rigths: © 2025 CriticalRiver. All rights reserved.
+2025-08-22 16:44:08 [main] INFO : Navigated to /my-courses
+2025-08-22 16:44:08 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-22 16:44:09 [main] INFO : Navigated to /departments
+2025-08-22 16:44:09 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-22 16:44:11 [main] INFO : Navigated to /help-center
+2025-08-22 16:44:11 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/help-center
+2025-08-22 16:44:12 [main] INFO : Navigated to /feedback
+2025-08-22 16:44:12 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/feedback
+2025-08-22 16:44:14 [main] INFO : Navigated to /certificates
+2025-08-22 16:44:14 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-22 16:44:15 [main] INFO : Navigated to /profile
+2025-08-22 16:44:15 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/profile
+2025-08-22 16:44:16 [main] INFO : Social Media Links
+2025-08-22 16:44:16 [main] INFO : Navigated to Facebook
+2025-08-22 16:44:27 [main] INFO :  Url is Valid :https://www.facebook.com/criticalriver/
+2025-08-22 16:44:29 [main] INFO : Navigated to LinkedIn
+2025-08-22 16:44:31 [main] INFO :  Url is Valid :https://in.linkedin.com/company/criticalriver
+2025-08-22 16:44:34 [main] INFO : Navigated to Instagram
+2025-08-22 16:44:35 [main] INFO :  Url is Valid :https://www.instagram.com/criticalriver/?hl=en
+2025-08-22 16:44:38 [main] INFO : Navigated to Twitter
+2025-08-22 16:44:40 [main] INFO :  Url is Valid :https://x.com/CriticalRiver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+2025-08-22 16:44:43 [main] INFO : Navigated to /Home
+2025-08-22 16:44:47 [main] INFO : Searching the non existing department test
+2025-08-22 16:44:47 [main] INFO : Navigated to /departments
+2025-08-22 16:44:48 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-22 16:44:48 [main] INFO : No Department Found Message: No departments found matching "@#$%^&*(#$%^"
+2025-08-22 16:44:54 [main] INFO : Searching the non existing course test
+2025-08-22 16:44:54 [main] INFO : Navigated to /departments
+2025-08-22 16:44:56 [main] INFO : Searching Data Science and AI Name
+2025-08-22 16:44:58 [main] INFO : Exploring Data Science and AI Name
+2025-08-22 16:44:58 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-22 16:44:59 [main] INFO : No Course Found Message: No courses found
+2025-08-22 16:45:06 [main] INFO : Explore Department and Enroll Course test
+2025-08-22 16:45:08 [main] INFO : Navigated to /departments
+2025-08-22 16:45:11 [main] INFO : Searching Data Science and AI Name
+2025-08-22 16:45:14 [main] INFO : Exploring Data Science and AI Name
+2025-08-22 16:45:15 [main] INFO : Searching Azure Beginner Name
+2025-08-22 16:45:16 [main] INFO : Enrolling Azure Beginner Course
+2025-08-22 16:45:16 [main] INFO : Course Enrollment message: Successfully enrolled in the course
+2025-08-22 16:45:22 [main] INFO : Navigated to /my-courses
+2025-08-22 16:45:26 [main] INFO : Selecting Pagination: 30
+2025-08-22 16:45:27 [main] INFO : Enrolled Course Card Details test
+2025-08-22 16:45:27 [main] INFO : Course Category for Azure Beginner: Cloud
+2025-08-22 16:45:27 [main] INFO : Course Level for Azure Beginner: Beginner
+2025-08-22 16:45:27 [main] INFO : Course Video Count for Azure Beginner: 🎥 Videos: 40
+2025-08-22 16:45:27 [main] INFO : Course Duration for Azure Beginner: ⏱ Duration: 7 hrs 15 mins
+2025-08-22 16:45:27 [main] INFO : Course Progress percent for Azure Beginner: Progress: 0%
+2025-08-22 16:45:27 [main] INFO : Course Enrolled Successful:Azure Beginner
+2025-08-22 16:45:32 [main] INFO : Header : My Courses
+2025-08-22 16:45:32 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-22 16:45:32 [main] INFO : Inside In progress Tab
+2025-08-22 16:45:33 [main] INFO : Inside Completed Tab
+2025-08-22 16:45:34 [main] INFO : Inside All courses Tab
+2025-08-22 16:45:40 [main] INFO : Un Enrolling Azure Beginner Course
+2025-08-22 16:45:41 [main] INFO : Course Enrollment message: User unenrolled successfully
+2025-08-22 16:45:45 [main] INFO : Continue and update progress for Course test
+2025-08-22 16:45:46 [main] INFO : Progress Percent :Progress: 53%
+2025-08-22 16:45:54 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-22 16:45:58 [main] INFO : Video List Count :Video List (23/42) - Video List (23/42)
+2025-08-22 16:45:59 [main] INFO : Video Available in the list:24
+21.
+2025-08-22 16:46:00 [main] INFO : Select Video from video list
+2025-08-22 16:47:02 [main] INFO : Click Play Video
+2025-08-22 16:47:17 [main] INFO : Video playback moved to the end.
+2025-08-22 16:47:18 [main] INFO : Select Video from video list
+2025-08-22 16:47:23 [main] INFO : Video Completed: Completed
+2025-08-22 16:47:29 [main] INFO : Video List Count :Video List (24/42) - Video List (24/42)
+2025-08-22 16:47:30 [main] INFO : Navigated to /my-courses
+2025-08-22 16:47:31 [main] INFO : Progress Percent :Progress: 56%
+2025-08-22 16:47:31 [main] INFO : Navigated to /admin
+2025-08-22 16:47:32 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-22 16:47:35 [main] INFO : Certificates card Value: 4
+2025-08-22 16:47:35 [main] INFO : Departments card Value: 15
+2025-08-22 16:47:35 [main] INFO : Active Courses card Value: 462
+2025-08-22 16:47:35 [main] INFO : Users card Value: 22
+2025-08-22 16:47:36 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01T14:42:26
+2025-08-22 16:47:36 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19T09:30:30
+2025-08-22 16:47:36 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19T11:11:46
+2025-08-22 16:47:37 [main] INFO : View Certificates
+2025-08-22 16:47:47 [main] INFO : Close Certificate
+2025-08-22 16:47:49 [main] INFO : Search Functionality for User Management table
+2025-08-22 16:47:49 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-22 16:47:50 [main] INFO : Search Functionality for Course Statistics table
+2025-08-22 16:47:50 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-22 16:47:52 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-22 16:47:53 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 16:47:56 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-22 16:47:56 [main] INFO : Click Total Users
+2025-08-22 16:47:58 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-22 16:48:02 [main] INFO : Verify Export Functionality for Dashboard Tables
+2025-08-22 16:48:03 [main] INFO : Exporting CSV for Certificates Table
+2025-08-22 16:48:04 [main] INFO : Exporting PDF for Certificates Table
+2025-08-22 16:48:06 [main] INFO : Exporting CSV for Course Statistics Table
+2025-08-22 16:48:07 [main] INFO : Exporting PDF for Course Statistics Table
+2025-08-22 16:48:09 [main] INFO : Exporting CSV for Feedback Overview Table
+2025-08-22 16:48:10 [main] INFO : Exporting PDF for Feedback Overview Table
+2025-08-22 16:48:11 [main] INFO : Verify Searching Non existing data functionality for Dashboard Tables
+2025-08-22 16:48:12 [main] INFO : Non Existing Search: No records found
+2025-08-22 16:48:13 [main] INFO : Non Existing Search: No records found
+2025-08-22 16:48:14 [main] INFO : Non Existing Search: No records found
+2025-08-22 16:48:15 [main] INFO : Navigated to /admin/tests
+2025-08-22 16:48:20 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-22 16:48:23 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 16:48:24 [main] INFO : Search Functionality for Course Assessments table
+2025-08-22 16:48:24 [main] INFO : ✅ Search validation passed. All Values match: Meter Data Management Beginner
+2025-08-22 16:48:27 [main] INFO : Verify Export Functionality for Tests Tables
+2025-08-22 16:48:28 [main] INFO : Exporting CSV for Assessment Request Notifications Table
+2025-08-22 16:48:29 [main] INFO : Exporting PDF for Assessment Request Notifications Table
+2025-08-22 16:48:30 [main] INFO : Exporting CSV for Course Assessments Table
+2025-08-22 16:48:31 [main] INFO : Exporting PDF for Course Assessments Table
+2025-08-22 16:48:32 [main] INFO : Verify Searching Non existing data functionality for Tests Tables
+2025-08-22 16:48:33 [main] INFO : Non Existing Search: No records found
+2025-08-22 16:48:33 [main] INFO : Non Existing Search: No records found
+2025-08-22 16:48:40 [main] INFO : Navigated to /admin/roles
+2025-08-22 16:48:40 [main] INFO : Search Functionality for User Management table
+2025-08-22 16:48:41 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-22 16:48:42 [main] INFO : Verify Export Functionality for Roles Tables
+2025-08-22 16:48:43 [main] INFO : Exporting CSV for User Management Table
+2025-08-22 16:48:43 [main] INFO : Exporting PDF for User Management Table
+2025-08-22 16:48:44 [main] INFO : Verify Searching Non existing data functionality for Roles Tables
+2025-08-22 16:48:45 [main] INFO : Non Existing Search: No records found
+2025-08-22 16:48:46 [main] INFO : Navigated to /admin/tests
+2025-08-22 16:48:50 [main] INFO : Selecting Course from dropdown: 210 - Airflow Beginner
+2025-08-22 16:48:52 [main] INFO : Selecting Assessment Number from dropdown: Assessment 1
+2025-08-22 16:48:52 [main] INFO : Enter Assessment or User Id: a6cb19b2-7acb-4ff3-9b4b-76572900d73e
+2025-08-22 16:48:54 [main] INFO : Click Generated button for: Create New Assessment
+2025-08-22 16:48:54 [main] INFO : Assessment Generated message: Self-assessment successfully created for course 210, test_id1
+2025-08-22 16:49:01 [main] INFO : Selecting Course from dropdown: 210 - Airflow Beginner
+2025-08-22 16:49:02 [main] INFO : Enter Assessment or User Id: 32
+2025-08-22 16:49:02 [main] INFO : Selecting Assessment Number from dropdown: Assessment 1
+2025-08-22 16:49:04 [main] INFO : Click Generated button for: Generate Assessment Link For User
+2025-08-22 16:49:06 [main] INFO : Assessment Generated message: Assessment link generated successfully: https://assess.wecreateproblems.com/tests/c2014a23-5a0a-4bf6-9ed0-ef73a1986867/instructions
+2025-08-22 16:49:07 [main] INFO : Navigated to /certificates
+2025-08-22 16:49:08 [main] INFO : Verify Certificate Header: My Certificates
+2025-08-22 16:49:08 [main] INFO : Verify Certificate List: No certificates have been completed
+2025-08-22 16:49:09 [main] INFO : Navigated to /feedback
+2025-08-22 16:49:11 [main] INFO : Feedback Submitted successfully: 
+2025-08-22 16:49:12 [main] INFO : Navigated to /admin
+2025-08-22 16:49:17 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-22 16:49:21 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 16:49:24 [main] INFO : Testing Ended
+2025-08-22 16:49:24 [main] INFO : ***********
