@@ -129,6 +129,27 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		waitTime(driver);
 		csatProject.clickButton(dataKeys.cancelBtn);
 		waitTime(driver);
+		
+		// adding existing project name
+		grep.testCreate("Verify using existing project name for New Project Creation Test",
+				"Add existing project name for New Project Creation");
+		waitTime(driver);
+		logger.info("Verify Adding existing project name");
+		grep.infoTest("Verify Adding existing project name");
+		csatProject.clickNewProject();
+		waitTime(driver);
+		csatProject.insertProjectName(dataKeys.duplicateProjectName);
+		logger.info("Entering Project Name: " + dataKeys.duplicateProjectName);
+		grep.infoTest("Entering Project Name:" + dataKeys.duplicateProjectName);
+
+		logger.info("Verify the error message ");
+		grep.infoTest("Verify the error message ");
+		csatProject.projectNameError();
+
+		grep.captureScreenshot("pass", "Entering existing project name", "Existing_ProjectName");
+		waitTime(driver);
+		csatProject.clickButton(dataKeys.cancelBtn);
+		waitTime(driver);
 
 		// adding Invalid Characters in customer name
 		grep.testCreate("Verify adding invalid customer name in project Creation Test", "Adding invalid customer name");
@@ -207,26 +228,7 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		csatProject.clickButton(dataKeys.cancelBtn);
 		waitTime(driver);
 
-		// adding existing project name
-		grep.testCreate("Verify using existing project name for New Project Creation Test",
-				"Add existing project name for New Project Creation");
-		waitTime(driver);
-		logger.info("Verify Adding existing project name");
-		grep.infoTest("Verify Adding existing project name");
-		csatProject.clickNewProject();
-		waitTime(driver);
-		csatProject.insertProjectName(dataKeys.duplicateProjectName);
-		logger.info("Entering Project Name: " + dataKeys.duplicateProjectName);
-		grep.infoTest("Entering Project Name:" + dataKeys.duplicateProjectName);
-
-		logger.info("Verify the error message ");
-		grep.infoTest("Verify the error message ");
-		csatProject.projectNameError();
-
-		grep.captureScreenshot("pass", "Entering existing project name", "Existing_ProjectName");
-		waitTime(driver);
-		csatProject.clickButton(dataKeys.cancelBtn);
-		waitTime(driver);
+	
 
 //		waitTime15(driver);
 //		refreshPage();
@@ -359,7 +361,8 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		csatProject.insertCustomerName(dataKeys.customerContactName);
 		csatProject.insertCustomerEmail(dataKeys.customerContactEmail);
 		waitTime(driver);
-		csatProject.getCustomerEmailErrorInUpdate();
+//		csatProject.getCustomerEmailErrorInUpdate();
+		csatProject.verifyButtonDisable(dataKeys.saveBtn);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Updating the existing customer email", "ExistingEmail");
 		waitTime(driver);

@@ -71,7 +71,6 @@ public class CSAT_Popup_Page extends WaitsManager {
 	By sendBtn = By.xpath("//button[text()='Send']");
 //	By feedbackSuccesMsg = By.xpath("//div[@class='MuiBox-root css-0']/p[1]");
 	By feedbackSuccesMsg = By.xpath("//div[@class='MuiBox-root css-1nwj029']/p[1]");
-	
 
 	public void verifyProjectBtnsAfterSurvey(String projectName) throws Exception {
 		try {
@@ -589,6 +588,37 @@ public class CSAT_Popup_Page extends WaitsManager {
 			boolean elementExist = !driver.findElements(csatPagination).isEmpty();
 			if (elementExist) {
 				WebElement paginationOpt = driver.findElement(csatPagination);
+				Select opt = new Select(paginationOpt);
+				opt.selectByVisibleText(option);
+				waitTime(driver);
+				String getOption = opt.getFirstSelectedOption().getText();
+				if (getOption.equals(option)) {
+					grep.passTest(getOption + " pagination Option Selected");
+					logger.info(getOption + " pagination Option Selected");
+				} else {
+					grep.failTest(getOption + " pagination Option not Selected");
+					logger.error(getOption + " pagination Option not Selected");
+				}
+			} else {
+				grep.failTest(option + " Pagination Option not Available");
+				logger.error(option + " Pagination Option not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void selectPaginationInCSAT_SummaryPopup(String option) throws Exception {
+		try {
+			By csatSummaryPagination = By.xpath("//div[@class='Project-entries-box']/select");
+			implWait(driver);
+			boolean elementExist = !driver.findElements(csatSummaryPagination).isEmpty();
+			if (elementExist) {
+				WebElement paginationOpt = driver.findElement(csatSummaryPagination);
 				Select opt = new Select(paginationOpt);
 				opt.selectByVisibleText(option);
 				waitTime(driver);

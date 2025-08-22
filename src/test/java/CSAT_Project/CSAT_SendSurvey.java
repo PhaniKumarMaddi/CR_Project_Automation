@@ -158,7 +158,8 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		waitTime(driver);
 
 		waitTime(driver);
-		csatPopup.selectNotRespondedSurvey(dataKeys.selectDevelopSurvey);
+//		csatPopup.selectNotRespondedSurvey(dataKeys.selectDevelopSurvey);
+		csatPopup.selectNotRespondedSurvey(dataKeys.selectEngageSurvey);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "ReSend FeebBack request Popup", "ReSendSurveyPopup");
 		waitTime(driver);
@@ -467,12 +468,20 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 			grep.failTest("Csat Score is not correct");
 			logger.error("Csat Score is not correct");
 		}
-		waitTime(driver);
-		csatPopup.selectPaginationInCSAT_Popup("50");
+//		waitTime(driver);
+//		csatPopup.selectPaginationInCSAT_Popup("50");
+//		waitTime2(driver);
+//		csatPopup.selectPaginationInCSAT_Popup("25");
+//		waitTime2(driver);
+//		csatPopup.selectPaginationInCSAT_Popup("10");
+//		waitTime2(driver);
+
+
+		csatPopup.selectPaginationInCSAT_SummaryPopup("50");
 		waitTime2(driver);
-		csatPopup.selectPaginationInCSAT_Popup("25");
+		csatPopup.selectPaginationInCSAT_SummaryPopup("25");
 		waitTime2(driver);
-		csatPopup.selectPaginationInCSAT_Popup("10");
+		csatPopup.selectPaginationInCSAT_SummaryPopup("10");
 		waitTime2(driver);
 
 		grep.infoTest("Validating CSAT Filter Popup");
