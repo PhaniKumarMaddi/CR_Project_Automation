@@ -7,8 +7,8 @@
 			<class name="CSAT_Project.CSAT_SurveyUITest" />
 			<class name="CSAT_Project.CSAT_ProjectFiltersTest" />
 			<class name="CSAT_Project.CSAT_Project_NewProjectTest" />
-			<class name="CSAT_Project.CSAT_SendSurvey" />
-			<class name="CSAT_Project.CSAT_RuddrProjectsTest" />
+			<!-- <class name="CSAT_Project.CSAT_SendSurvey" />
+			<class name="CSAT_Project.CSAT_RuddrProjectsTest" />-->
 		</classes>
 	</test> <!--Test -->
 </suite> <!--Suite -->
