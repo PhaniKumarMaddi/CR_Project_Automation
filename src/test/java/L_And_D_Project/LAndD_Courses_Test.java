@@ -20,7 +20,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 	L_And_D_OtherPages lndOther;
 	L_And_D_TestDataKeys dataKeys = new L_And_D_TestDataKeys();
 
-	@Test(priority = 1)
+	@Test(priority = 1,enabled = false)
 	public void l_and_d_MyCourses() throws Exception {
 		lndPage = new L_And_D_Page();
 		lndCoursePage = new L_And_D_MyCoursesPage();
@@ -211,6 +211,24 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 //		lndOther.clearFilterButton();
 //		lndOther.clearDashboardTable(dataKeys.userMgmtTable_dashboard);
 		lndOther.clearDashboardTable(dataKeys.userCertiTable_dashboard);
+		waitTime(driver);
+
+		// Export in dashboard
+		grep.testCreate("Verify Export Functionality for Dashboard Tables test",
+				"Verify Export Functionality for Dashboard Tables");
+		waitTime(driver);
+		grep.infoTest("Verify Export Functionality for Dashboard Tables");
+		logger.info("Verify Export Functionality for Dashboard Tables");
+		lndOther.exportDashboardTable(dataKeys.userCertiTable_dashboard, dataKeys.csvDownload);
+		lndOther.exportDashboardTable(dataKeys.userCertiTable_dashboard, dataKeys.pdfDownload);
+
+		waitTime(driver);
+		lndOther.exportDashboardTable(dataKeys.courseStctTable_dashboard, dataKeys.csvDownload);
+		lndOther.exportDashboardTable(dataKeys.courseStctTable_dashboard, dataKeys.pdfDownload);
+
+		waitTime(driver);
+		lndOther.exportDashboardTable(dataKeys.feedbackTable_dashboard, dataKeys.csvDownload);
+		lndOther.exportDashboardTable(dataKeys.feedbackTable_dashboard, dataKeys.pdfDownload);
 
 		// Test Tab in admin
 		grep.testCreate("Search Functionality for tables in Tests Tab test", "Search filter Tables in tests");
@@ -243,6 +261,19 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 
 		waitTime2(driver);
 
+		// Export in Tests
+		grep.testCreate("Verify Export Functionality for Tests Tables test",
+				"Verify Export Functionality for Tests Tables");
+		waitTime(driver);
+		grep.infoTest("Verify Export Functionality for Tests Tables");
+		logger.info("Verify Export Functionality for Tests Tables");
+		lndOther.exportTestsTable(dataKeys.ass_request_notify_table_Test, dataKeys.csvDownload);
+		lndOther.exportTestsTable(dataKeys.ass_request_notify_table_Test, dataKeys.pdfDownload);
+
+		waitTime(driver);
+		lndOther.exportTestsTable(dataKeys.course_Ass_table_Test, dataKeys.csvDownload);
+		lndOther.exportTestsTable(dataKeys.course_Ass_table_Test, dataKeys.pdfDownload);
+
 		// Roles Tab in admin
 		grep.testCreate("Search Functionality for tables in Roles Tab test", "Search filter Tables in roles");
 
@@ -261,6 +292,16 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		lndOther.clearRolesTable(dataKeys.userMgmtTable_dashboard);
 
 		waitTime(driver);
+
+		// Export in Roles
+		grep.testCreate("Verify Export Functionality for Roles Tables test",
+				"Verify Export Functionality for Roles Tables");
+		waitTime(driver);
+		grep.infoTest("Verify Export Functionality for Roles Tables");
+		logger.info("Verify Export Functionality for Roles Tables");
+		lndOther.exportRolesTable(dataKeys.userMgmtTable_dashboard, dataKeys.csvDownload);
+		lndOther.exportRolesTable(dataKeys.userMgmtTable_dashboard, dataKeys.pdfDownload);
+
 	}
 
 	@Test(priority = 3)

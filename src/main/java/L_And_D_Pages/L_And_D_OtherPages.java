@@ -423,6 +423,9 @@ public class L_And_D_OtherPages extends WaitsManager {
 				driver.findElement(By
 						.xpath("//div[@class='export-table-dropdown']/button[contains(text(),'" + fileFormat + "')]"));
 
+				grep.infoTest("Exporting " + fileFormat + " for " + tableName + " Table");
+				logger.info("Exporting " + fileFormat + " for " + tableName + " Table");
+
 			} else {
 				grep.failTest("Table is not available in dashboard tab");
 				logger.error("Table is not available in dashboard tab");
@@ -598,6 +601,35 @@ public class L_And_D_OtherPages extends WaitsManager {
 		}
 	}
 
+	public void exportTestsTable(String tableName, String fileFormat) throws Exception {
+		try {
+			implWait(driver);
+			By export = By.xpath("//h3[text()='" + tableName + "']/following-sibling::div[1]/div[1]/button");
+			boolean elementExist = !driver.findElements(export).isEmpty();
+			if (elementExist) {
+
+				driver.findElement(export).click();
+				waitTime(driver);
+				driver.findElement(By
+						.xpath("//div[@class='export-table-dropdown']/button[contains(text(),'" + fileFormat + "')]"));
+
+				grep.infoTest("Exporting " + fileFormat + " for " + tableName + " Table");
+				logger.info("Exporting " + fileFormat + " for " + tableName + " Table");
+
+			} else {
+				grep.failTest("Table is not available in Tests tab");
+				logger.error("Table is not available in Tests tab");
+			}
+			scrollView(adminHeader);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
 	public void verifyDataInTestTable(String tableName, String verifyValue) throws Exception {
 		try {
 			implWait(driver);
@@ -718,6 +750,35 @@ public class L_And_D_OtherPages extends WaitsManager {
 				grep.failTest("No Data found");
 				logger.error("No Data found");
 			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void exportRolesTable(String tableName, String fileFormat) throws Exception {
+		try {
+			implWait(driver);
+			By export = By.xpath("//h1[text()='" + tableName + "']/following-sibling::div[1]/div[1]/button");
+			boolean elementExist = !driver.findElements(export).isEmpty();
+			if (elementExist) {
+
+				driver.findElement(export).click();
+				waitTime(driver);
+				driver.findElement(By
+						.xpath("//div[@class='export-table-dropdown']/button[contains(text(),'" + fileFormat + "')]"));
+
+				grep.infoTest("Exporting " + fileFormat + " for " + tableName + " Table");
+				logger.info("Exporting " + fileFormat + " for " + tableName + " Table");
+
+			} else {
+				grep.failTest("Table is not available in Roles tab");
+				logger.error("Table is not available in Roles tab");
+			}
+			scrollView(adminHeader);
 
 		} catch (Exception e) {
 			e.printStackTrace();

@@ -7789,3 +7789,169 @@ URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerap
 2025-08-22 10:49:50 [main] INFO : Search for non existing client
 2025-08-22 10:49:51 [main] INFO : NO CLIENTS FOUND
 2025-08-22 10:49:52 [main] INFO : Entering Only Spaces characters in Owner name field
+2025-08-22 11:18:25 [main] INFO : Launching Chrome Browser
+2025-08-22 11:18:25 [main] INFO : Report Name :LandD_Page.html
+2025-08-22 11:18:47 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-22 11:18:49 [main] INFO : Inside Login Page: Learning and Development
+2025-08-22 11:19:26 [main] INFO : Logged in to Learning and Development Application
+2025-08-22 11:19:35 [main] INFO : Searching the non existing department test
+2025-08-22 11:19:35 [main] INFO : Navigated to /departments
+2025-08-22 11:19:37 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-22 11:19:38 [main] INFO : No Department Found Message: No departments found matching "@#$%^&*(#$%^"
+2025-08-22 11:19:44 [main] INFO : Searching the non existing course test
+2025-08-22 11:19:44 [main] INFO : Navigated to /departments
+2025-08-22 11:19:45 [main] INFO : Searching Data Science and AI Name
+2025-08-22 11:19:47 [main] INFO : Exploring Data Science and AI Name
+2025-08-22 11:19:48 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-22 11:19:49 [main] INFO : No Course Found Message: No courses found
+2025-08-22 11:19:56 [main] INFO : Explore Department and Enroll Course test
+2025-08-22 11:19:58 [main] INFO : Navigated to /departments
+2025-08-22 11:20:01 [main] INFO : Searching Data Science and AI Name
+2025-08-22 11:20:03 [main] INFO : Exploring Data Science and AI Name
+2025-08-22 11:20:04 [main] INFO : Searching Azure Beginner Name
+2025-08-22 11:20:05 [main] INFO : Enrolling Azure Beginner Course
+2025-08-22 11:20:06 [main] INFO : Course Enrollment message: Successfully enrolled in the course
+2025-08-22 11:20:12 [main] INFO : Navigated to /my-courses
+2025-08-22 11:20:16 [main] INFO : Selecting Pagination: 30
+2025-08-22 11:20:17 [main] INFO : Enrolled Course Card Details test
+2025-08-22 11:20:17 [main] INFO : Course Category for Azure Beginner: Cloud
+2025-08-22 11:20:17 [main] INFO : Course Level for Azure Beginner: Beginner
+2025-08-22 11:20:17 [main] INFO : Course Video Count for Azure Beginner: 🎥 Videos: 40
+2025-08-22 11:20:17 [main] INFO : Course Duration for Azure Beginner: ⏱ Duration: 7 hrs 15 mins
+2025-08-22 11:20:17 [main] INFO : Course Progress percent for Azure Beginner: Progress: 0%
+2025-08-22 11:20:17 [main] INFO : Course Enrolled Successful:Azure Beginner
+2025-08-22 11:20:22 [main] INFO : Header : My Courses
+2025-08-22 11:20:22 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-22 11:20:22 [main] INFO : Inside In progress Tab
+2025-08-22 11:20:23 [main] INFO : Inside Completed Tab
+2025-08-22 11:20:24 [main] INFO : Inside All courses Tab
+2025-08-22 11:20:30 [main] INFO : Un Enrolling Azure Beginner Course
+2025-08-22 11:20:31 [main] INFO : Course Enrollment message: User unenrolled successfully
+2025-08-22 11:20:35 [main] INFO : Continue and update progress for Course test
+2025-08-22 11:20:36 [main] INFO : Progress Percent :Progress: 44%
+2025-08-22 11:20:44 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-22 11:20:49 [main] INFO : Video List Count :Video List (19/42) - Video List (19/42)
+2025-08-22 11:20:49 [main] INFO : Video Available in the list:20
+17.
+2025-08-22 11:20:50 [main] INFO : Select Video from video list
+2025-08-22 11:21:52 [main] INFO : Click Play Video
+2025-08-22 11:22:07 [main] INFO : Video playback moved to the end.
+2025-08-22 11:22:08 [main] INFO : Select Video from video list
+2025-08-22 11:22:13 [main] INFO : Video Completed: Completed
+2025-08-22 11:22:20 [main] INFO : Video List Count :Video List (20/42) - Video List (20/42)
+2025-08-22 11:22:20 [main] INFO : Navigated to /my-courses
+2025-08-22 11:22:21 [main] INFO : Progress Percent :Progress: 47%
+2025-08-22 11:22:22 [main] INFO : Navigated to /admin
+2025-08-22 11:22:22 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-22 11:22:25 [main] INFO : Certificates card Value: 4
+2025-08-22 11:22:25 [main] INFO : Departments card Value: 15
+2025-08-22 11:22:25 [main] INFO : Active Courses card Value: 462
+2025-08-22 11:22:26 [main] INFO : Users card Value: 22
+2025-08-22 11:22:26 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01T14:42:26
+2025-08-22 11:22:26 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19T09:30:30
+2025-08-22 11:22:26 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19T11:11:46
+2025-08-22 11:22:27 [main] INFO : View Certificates
+2025-08-22 11:22:38 [main] INFO : Close Certificate
+2025-08-22 11:22:40 [main] INFO : Search Functionality for User Management table
+2025-08-22 11:22:40 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-22 11:22:40 [main] INFO : Search Functionality for Course Statistics table
+2025-08-22 11:22:41 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-22 11:22:43 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-22 11:22:43 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 11:22:47 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-22 11:22:47 [main] INFO : Click Total Users
+2025-08-22 11:22:48 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-22 11:22:53 [main] INFO : Verify Export Functionality for Dashboard Tables
+2025-08-22 11:22:53 [main] INFO : Exporting CSV for Certificates Table
+2025-08-22 11:23:54 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='export-table-dropdown']/button[contains(text(),'PDF')]"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e56d09f381543930777812afd9d9d88, findElement {using=xpath, value=//div[@class='export-table-dropdown']/button[contains(text(),'PDF')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57540}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57540/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e56d09f381543930777812afd9d9d88
+2025-08-22 11:28:38 [main] INFO : Launching Chrome Browser
+2025-08-22 11:28:38 [main] INFO : Report Name :LandD_Page.html
+2025-08-22 11:29:10 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-22 11:29:11 [main] INFO : Inside Login Page: Learning and Development
+2025-08-22 11:30:09 [main] INFO : Logged in to Learning and Development Application
+2025-08-22 11:30:14 [main] INFO : Searching the non existing department test
+2025-08-22 11:30:14 [main] INFO : Navigated to /departments
+2025-08-22 11:30:15 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-22 11:30:16 [main] INFO : No Department Found Message: No departments found matching "@#$%^&*(#$%^"
+2025-08-22 11:30:22 [main] INFO : Searching the non existing course test
+2025-08-22 11:30:22 [main] INFO : Navigated to /departments
+2025-08-22 11:30:23 [main] INFO : Searching Data Science and AI Name
+2025-08-22 11:30:25 [main] INFO : Exploring Data Science and AI Name
+2025-08-22 11:30:26 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-22 11:30:26 [main] INFO : No Course Found Message: No courses found
+2025-08-22 11:30:34 [main] INFO : Explore Department and Enroll Course test
+2025-08-22 11:30:36 [main] INFO : Navigated to /departments
+2025-08-22 11:30:39 [main] INFO : Searching Data Science and AI Name
+2025-08-22 11:30:41 [main] INFO : Exploring Data Science and AI Name
+2025-08-22 11:30:42 [main] INFO : Searching Azure Beginner Name
+2025-08-22 11:30:44 [main] INFO : Enrolling Azure Beginner Course
+2025-08-22 11:30:45 [main] INFO : Course Enrollment message: Successfully enrolled in the course
+2025-08-22 11:30:50 [main] INFO : Navigated to /my-courses
+2025-08-22 11:30:54 [main] INFO : Selecting Pagination: 30
+2025-08-22 11:30:55 [main] INFO : Enrolled Course Card Details test
+2025-08-22 11:30:55 [main] INFO : Course Category for Azure Beginner: Cloud
+2025-08-22 11:30:55 [main] INFO : Course Level for Azure Beginner: Beginner
+2025-08-22 11:30:55 [main] INFO : Course Video Count for Azure Beginner: 🎥 Videos: 40
+2025-08-22 11:30:55 [main] INFO : Course Duration for Azure Beginner: ⏱ Duration: 7 hrs 15 mins
+2025-08-22 11:30:55 [main] INFO : Course Progress percent for Azure Beginner: Progress: 0%
+2025-08-22 11:30:55 [main] INFO : Course Enrolled Successful:Azure Beginner
+2025-08-22 11:31:00 [main] INFO : Header : My Courses
+2025-08-22 11:31:00 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-22 11:31:00 [main] INFO : Inside In progress Tab
+2025-08-22 11:31:01 [main] INFO : Inside Completed Tab
+2025-08-22 11:31:02 [main] INFO : Inside All courses Tab
+2025-08-22 11:31:08 [main] INFO : Un Enrolling Azure Beginner Course
+2025-08-22 11:31:10 [main] INFO : Course Enrollment message: User unenrolled successfully
+2025-08-22 11:31:13 [main] INFO : Continue and update progress for Course test
+2025-08-22 11:31:14 [main] INFO : Progress Percent :Progress: 47%
+2025-08-22 11:31:23 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-22 11:31:27 [main] INFO : Video List Count :Video List (20/42) - Video List (20/42)
+2025-08-22 11:31:28 [main] INFO : Video Available in the list:21
+18.
+2025-08-22 11:31:28 [main] INFO : Select Video from video list
+2025-08-22 11:32:31 [main] INFO : Click Play Video
+2025-08-22 11:32:47 [main] INFO : Video playback moved to the end.
+2025-08-22 11:32:48 [main] INFO : Select Video from video list
+2025-08-22 11:32:53 [main] INFO : Video Completed: Completed
+2025-08-22 11:33:01 [main] INFO : Video List Count :Video List (21/42) - Video List (21/42)
+2025-08-22 11:33:01 [main] INFO : Navigated to /my-courses
+2025-08-22 11:33:02 [main] INFO : Progress Percent :Progress: 48%
+2025-08-22 11:33:03 [main] INFO : Navigated to /admin
+2025-08-22 11:33:03 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-22 11:33:06 [main] INFO : Certificates card Value: 4
+2025-08-22 11:33:06 [main] INFO : Departments card Value: 15
+2025-08-22 11:33:06 [main] INFO : Active Courses card Value: 462
+2025-08-22 11:33:06 [main] INFO : Users card Value: 22
+2025-08-22 11:33:07 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01T14:42:26
+2025-08-22 11:33:07 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19T09:30:30
+2025-08-22 11:33:07 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19T11:11:46
+2025-08-22 11:33:08 [main] INFO : View Certificates
+2025-08-22 11:33:19 [main] INFO : Close Certificate
+2025-08-22 11:33:21 [main] INFO : Search Functionality for User Management table
+2025-08-22 11:33:22 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-22 11:33:22 [main] INFO : Search Functionality for Course Statistics table
+2025-08-22 11:33:23 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-22 11:33:25 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-22 11:33:26 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 11:33:29 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-22 11:33:29 [main] INFO : Click Total Users
+2025-08-22 11:33:31 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-22 11:33:35 [main] INFO : Verify Export Functionality for Dashboard Tables
+2025-08-22 11:33:36 [main] INFO : Exporting CSV for Certificates Table
+2025-08-22 11:34:37 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='export-table-dropdown']/button[contains(text(),'PDF')]"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6597c050bafd98d6611212202f118628, findElement {value=//div[@class='export-table-dropdown']/button[contains(text(),'PDF')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57413/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6597c050bafd98d6611212202f118628

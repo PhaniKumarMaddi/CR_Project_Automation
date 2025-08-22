@@ -99,4 +99,7 @@ public class L_And_D_TestDataKeys {
 	public String feedbackMsg = "Testing the submit your feedback form testing the submit your feedback form";
 	public String feedbackCtg = "Support";
 
+	public String csvDownload = "CSV";
+	public String pdfDownload = "PDF";
+
 }
