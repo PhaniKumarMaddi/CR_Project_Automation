@@ -8798,3 +8798,153 @@ URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerap
 2025-08-22 12:56:49 [main] INFO : Client Email: chris.vialva@criticalriver.com
 2025-08-22 12:56:52 [main] INFO : Testing Ended
 2025-08-22 12:56:52 [main] INFO : ***********
+2025-08-22 13:12:52 [main] INFO : Launching Chrome Browser
+2025-08-22 13:12:52 [main] INFO : Report Name :LandD_Page.html
+2025-08-22 13:13:26 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-22 13:13:28 [main] INFO : Inside Login Page: Learning and Development
+2025-08-22 13:14:16 [main] INFO : Logged in to Learning and Development Application
+2025-08-22 13:14:16 [main] INFO : Navigated to /admin
+2025-08-22 13:14:17 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-22 13:14:20 [main] INFO : Certificates card Value: 4
+2025-08-22 13:14:20 [main] INFO : Departments card Value: 15
+2025-08-22 13:14:20 [main] INFO : Active Courses card Value: 462
+2025-08-22 13:14:20 [main] INFO : Users card Value: 22
+2025-08-22 13:14:21 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01T14:42:26
+2025-08-22 13:14:21 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19T09:30:30
+2025-08-22 13:14:21 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19T11:11:46
+2025-08-22 13:14:22 [main] INFO : View Certificates
+2025-08-22 13:14:33 [main] INFO : Close Certificate
+2025-08-22 13:14:34 [main] INFO : Search Functionality for User Management table
+2025-08-22 13:14:35 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-22 13:14:35 [main] INFO : Search Functionality for Course Statistics table
+2025-08-22 13:14:36 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-22 13:14:38 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-22 13:14:39 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 13:14:42 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-22 13:14:42 [main] INFO : Click Total Users
+2025-08-22 13:14:44 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-22 13:14:48 [main] INFO : Verify Export Functionality for Dashboard Tables
+2025-08-22 13:14:49 [main] INFO : Exporting CSV for Certificates Table
+2025-08-22 13:14:51 [main] INFO : Exporting PDF for Certificates Table
+2025-08-22 13:14:53 [main] INFO : Exporting CSV for Course Statistics Table
+2025-08-22 13:14:54 [main] INFO : Exporting PDF for Course Statistics Table
+2025-08-22 13:14:56 [main] INFO : Exporting CSV for Feedback Overview Table
+2025-08-22 13:14:57 [main] INFO : Exporting PDF for Feedback Overview Table
+2025-08-22 13:14:59 [main] INFO : Non Existing Search: No records found
+2025-08-22 13:14:59 [main] INFO : Non Existing Search: No records found
+2025-08-22 13:15:00 [main] INFO : Non Existing Search: No records found
+2025-08-22 13:15:01 [main] INFO : Navigated to /admin/tests
+2025-08-22 13:15:06 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-22 13:15:10 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 13:15:10 [main] INFO : Search Functionality for Course Assessments table
+2025-08-22 13:15:11 [main] INFO : ✅ Search validation passed. All Values match: Meter Data Management Beginner
+2025-08-22 13:15:14 [main] INFO : Verify Export Functionality for Tests Tables
+2025-08-22 13:15:15 [main] INFO : Exporting CSV for Assessment Request Notifications Table
+2025-08-22 13:15:15 [main] INFO : Exporting PDF for Assessment Request Notifications Table
+2025-08-22 13:15:17 [main] INFO : Exporting CSV for Course Assessments Table
+2025-08-22 13:15:18 [main] INFO : Exporting PDF for Course Assessments Table
+2025-08-22 13:15:23 [main] INFO : Navigated to /admin/roles
+2025-08-22 13:15:24 [main] INFO : Search Functionality for User Management table
+2025-08-22 13:15:24 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-22 13:15:26 [main] INFO : Verify Export Functionality for Roles Tables
+2025-08-22 13:15:26 [main] INFO : Exporting CSV for User Management Table
+2025-08-22 13:15:27 [main] INFO : Exporting PDF for User Management Table
+2025-08-22 13:15:28 [main] INFO : Navigated to /admin/tests
+2025-08-22 13:15:33 [main] INFO : Selecting Course from dropdown: 210 - Airflow Beginner
+2025-08-22 13:15:34 [main] INFO : Selecting Assessment Number from dropdown: Assessment 1
+2025-08-22 13:15:35 [main] INFO : Enter Assessment or User Id: a6cb19b2-7acb-4ff3-9b4b-76572900d73e
+2025-08-22 13:15:36 [main] INFO : Click Generated button for: Create New Assessment
+2025-08-22 13:15:37 [main] INFO : Assessment Generated message: Self-assessment successfully created for course 210, test_id1
+2025-08-22 13:15:43 [main] INFO : Selecting Course from dropdown: 210 - Airflow Beginner
+2025-08-22 13:15:45 [main] INFO : Enter Assessment or User Id: 32
+2025-08-22 13:15:45 [main] INFO : Selecting Assessment Number from dropdown: Assessment 1
+2025-08-22 13:15:47 [main] INFO : Click Generated button for: Generate Assessment Link For User
+2025-08-22 13:15:50 [main] INFO : Assessment Generated message: Assessment link generated successfully: https://assess.wecreateproblems.com/tests/c2014a23-5a0a-4bf6-9ed0-ef73a1986867/instructions
+2025-08-22 13:15:52 [main] INFO : Navigated to /certificates
+2025-08-22 13:15:54 [main] INFO : Verify Certificate Header: My Certificates
+2025-08-22 13:15:54 [main] INFO : Verify Certificate List: No certificates have been completed
+2025-08-22 13:15:55 [main] INFO : Navigated to /feedback
+2025-08-22 13:15:57 [main] INFO : Feedback Submitted successfully: 
+2025-08-22 13:15:58 [main] INFO : Navigated to /admin
+2025-08-22 13:16:03 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-22 13:16:07 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 13:16:11 [main] INFO : Testing Ended
+2025-08-22 13:16:11 [main] INFO : ***********
+2025-08-22 13:26:33 [main] INFO : Launching Chrome Browser
+2025-08-22 13:26:34 [main] INFO : Report Name :LandD_Page.html
+2025-08-22 13:27:10 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-22 13:27:10 [main] INFO : Inside Login Page: Learning and Development
+2025-08-22 13:27:35 [main] INFO : Logged in to Learning and Development Application
+2025-08-22 13:27:35 [main] INFO : Navigated to /admin
+2025-08-22 13:27:36 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-22 13:27:39 [main] INFO : Certificates card Value: 4
+2025-08-22 13:27:39 [main] INFO : Departments card Value: 15
+2025-08-22 13:27:39 [main] INFO : Active Courses card Value: 462
+2025-08-22 13:27:39 [main] INFO : Users card Value: 22
+2025-08-22 13:27:40 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01T14:42:26
+2025-08-22 13:27:40 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19T09:30:30
+2025-08-22 13:27:40 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner f9636c9d-4846-4eb9-abf9-322b363abed1 2025-08-19T11:11:46
+2025-08-22 13:27:41 [main] INFO : View Certificates
+2025-08-22 13:27:51 [main] INFO : Close Certificate
+2025-08-22 13:27:53 [main] INFO : Search Functionality for User Management table
+2025-08-22 13:27:54 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-22 13:27:54 [main] INFO : Search Functionality for Course Statistics table
+2025-08-22 13:27:54 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-22 13:27:56 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-22 13:27:57 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 13:28:00 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-22 13:28:00 [main] INFO : Click Total Users
+2025-08-22 13:28:01 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-22 13:28:06 [main] INFO : Verify Export Functionality for Dashboard Tables
+2025-08-22 13:28:07 [main] INFO : Exporting CSV for Certificates Table
+2025-08-22 13:28:08 [main] INFO : Exporting PDF for Certificates Table
+2025-08-22 13:28:10 [main] INFO : Exporting CSV for Course Statistics Table
+2025-08-22 13:28:11 [main] INFO : Exporting PDF for Course Statistics Table
+2025-08-22 13:28:13 [main] INFO : Exporting CSV for Feedback Overview Table
+2025-08-22 13:28:14 [main] INFO : Exporting PDF for Feedback Overview Table
+2025-08-22 13:28:15 [main] INFO : Verify Searching Non existing data functionality for Dashboard Tables
+2025-08-22 13:28:16 [main] INFO : Non Existing Search: No records found
+2025-08-22 13:28:17 [main] INFO : Non Existing Search: No records found
+2025-08-22 13:28:18 [main] INFO : Non Existing Search: No records found
+2025-08-22 13:28:19 [main] INFO : Navigated to /admin/tests
+2025-08-22 13:28:24 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-22 13:28:27 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 13:28:28 [main] INFO : Search Functionality for Course Assessments table
+2025-08-22 13:28:28 [main] INFO : ✅ Search validation passed. All Values match: Meter Data Management Beginner
+2025-08-22 13:28:31 [main] INFO : Verify Export Functionality for Tests Tables
+2025-08-22 13:28:32 [main] INFO : Exporting CSV for Assessment Request Notifications Table
+2025-08-22 13:28:32 [main] INFO : Exporting PDF for Assessment Request Notifications Table
+2025-08-22 13:28:34 [main] INFO : Exporting CSV for Course Assessments Table
+2025-08-22 13:28:34 [main] INFO : Exporting PDF for Course Assessments Table
+2025-08-22 13:28:36 [main] INFO : Verify Searching Non existing data functionality for Tests Tables
+2025-08-22 13:28:36 [main] INFO : Non Existing Search: No records found
+2025-08-22 13:28:37 [main] INFO : Non Existing Search: No records found
+2025-08-22 13:28:43 [main] INFO : Navigated to /admin/roles
+2025-08-22 13:28:44 [main] INFO : Search Functionality for User Management table
+2025-08-22 13:28:44 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-22 13:28:45 [main] INFO : Verify Export Functionality for Roles Tables
+2025-08-22 13:28:46 [main] INFO : Exporting CSV for User Management Table
+2025-08-22 13:28:47 [main] INFO : Exporting PDF for User Management Table
+2025-08-22 13:28:48 [main] INFO : Verify Searching Non existing data functionality for Roles Tables
+2025-08-22 13:28:49 [main] INFO : Non Existing Search: No records found
+2025-08-22 13:28:49 [main] INFO : Navigated to /admin/tests
+2025-08-22 13:28:54 [main] INFO : Selecting Course from dropdown: 210 - Airflow Beginner
+2025-08-22 13:28:55 [main] INFO : Selecting Assessment Number from dropdown: Assessment 1
+2025-08-22 13:28:56 [main] INFO : Enter Assessment or User Id: a6cb19b2-7acb-4ff3-9b4b-76572900d73e
+2025-08-22 13:28:57 [main] INFO : Click Generated button for: Create New Assessment
+2025-08-22 13:28:58 [main] INFO : Assessment Generated message: Self-assessment successfully created for course 210, test_id1
+2025-08-22 13:29:04 [main] INFO : Selecting Course from dropdown: 210 - Airflow Beginner
+2025-08-22 13:29:06 [main] INFO : Enter Assessment or User Id: 32
+2025-08-22 13:29:06 [main] INFO : Selecting Assessment Number from dropdown: Assessment 1
+2025-08-22 13:29:08 [main] INFO : Click Generated button for: Generate Assessment Link For User
+2025-08-22 13:29:11 [main] INFO : Assessment Generated message: Assessment link generated successfully: https://assess.wecreateproblems.com/tests/c2014a23-5a0a-4bf6-9ed0-ef73a1986867/instructions
+2025-08-22 13:29:12 [main] INFO : Navigated to /certificates
+2025-08-22 13:29:13 [main] INFO : Verify Certificate Header: My Certificates
+2025-08-22 13:29:13 [main] INFO : Verify Certificate List: No certificates have been completed
+2025-08-22 13:29:15 [main] INFO : Navigated to /feedback
+2025-08-22 13:29:17 [main] INFO : Feedback Submitted successfully: 
+2025-08-22 13:29:18 [main] INFO : Navigated to /admin
+2025-08-22 13:29:23 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-22 13:29:26 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-22 13:29:30 [main] INFO : Testing Ended
+2025-08-22 13:29:30 [main] INFO : ***********

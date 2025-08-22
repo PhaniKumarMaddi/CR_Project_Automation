@@ -446,6 +446,33 @@ public class L_And_D_OtherPages extends WaitsManager {
 		}
 	}
 
+	public void noRecordsDashboardTable(String tableName) throws Exception {
+		try {
+			implWait(driver);
+
+			By message = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table/descendant::td");
+			boolean elementExist = !driver.findElements(message).isEmpty();
+			if (elementExist) {
+				waitTime(driver);
+
+			String noDataMsg=driver.findElement(message).getText();
+			 
+				grep.passTest("Non Existing Search: "+ noDataMsg);
+				logger.info("Non Existing Search: "+ noDataMsg);
+
+			} else {
+				grep.failTest("Table is not available in dashboard tab " + tableName);
+				logger.error("Table is not available in dashboard tab " + tableName);
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
 	public void verifyDataInTable(String tableName, String verifyValue) throws Exception {
 		try {
 			implWait(driver);
@@ -638,6 +665,33 @@ public class L_And_D_OtherPages extends WaitsManager {
 		}
 	}
 
+	public void noRecordsTestsTable(String tableName) throws Exception {
+		try {
+			implWait(driver);
+
+			By message = By.xpath("//h3[text()='" + tableName + "']/following-sibling::table/descendant::td");
+			boolean elementExist = !driver.findElements(message).isEmpty();
+			if (elementExist) {
+				waitTime(driver);
+
+			String noDataMsg=driver.findElement(message).getText();
+			 
+				grep.passTest("Non Existing Search: "+ noDataMsg);
+				logger.info("Non Existing Search: "+ noDataMsg);
+
+			} else {
+				grep.failTest("Table is not available in tests tab " + tableName);
+				logger.error("Table is not available in tests tab " + tableName);
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+	
 	public void verifyDataInTestTable(String tableName, String verifyValue) throws Exception {
 		try {
 			implWait(driver);
@@ -782,11 +836,37 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 				grep.infoTest("Exporting " + fileFormat + " for " + tableName + " Table");
 				logger.info("Exporting " + fileFormat + " for " + tableName + " Table");
-				
 
 			} else {
 				grep.failTest("Table is not available in Roles tab");
 				logger.error("Table is not available in Roles tab");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+	
+	public void noRecordsRolesTable(String tableName) throws Exception {
+		try {
+			implWait(driver);
+
+			By message = By.xpath("//h1[text()='" + tableName + "']/following-sibling::table/descendant::td");
+			boolean elementExist = !driver.findElements(message).isEmpty();
+			if (elementExist) {
+				waitTime(driver);
+
+			String noDataMsg=driver.findElement(message).getText();
+			 
+				grep.passTest("Non Existing Search: "+ noDataMsg);
+				logger.info("Non Existing Search: "+ noDataMsg);
+
+			} else {
+				grep.failTest("Table is not available in tests tab " + tableName);
+				logger.error("Table is not available in tests tab " + tableName);
 			}
 
 		} catch (Exception e) {
