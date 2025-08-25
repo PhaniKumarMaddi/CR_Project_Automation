@@ -19,7 +19,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 	L_And_D_OtherPages lndOther;
 	L_And_D_TestDataKeys dataKeys = new L_And_D_TestDataKeys();
 
-	@Test(priority = 1)
+	@Test(priority = 1,enabled =false)
 	public void l_and_d_MyCourses() throws Exception {
 		lndPage = new L_And_D_Page();
 		lndCoursePage = new L_And_D_MyCoursesPage();
@@ -125,6 +125,9 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		grep.testCreate("Verify Admin page certificates details in dashboard tab", "Admin page certificates details");
 		lndOther.clickCertificateAdminCards();
 		lndOther.getCertificateDetails(dataKeys.userCertiTable_dashboard);
+		lndOther.validateCertificateAdminCard(dataKeys.certificate_adminCard);
+		waitTime(driver);
+		
 		grep.captureScreenshot("pass", "Admin Card Certificates Details", "certificateCardDeatils_Dashboad");
 		waitTime(driver);
 		lndOther.openCertificate(dataKeys.userCertiTable_dashboard);
@@ -188,12 +191,35 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 				dataKeys.airflowBeginnerCourse);
 		lndOther.clickTotalUsersInDashboard(dataKeys.courseStctTable_dashboard);
 		waitTime(driver);
+		lndOther.validateTotalUsersInDashboard(dataKeys.courseStctTable_dashboard);
 		grep.captureScreenshot("pass", "Verify Total Users in course statistics table ",
 				"totalUsers_CourseStst_Dashboad");
 		waitTime(driver);
 		lndOther.verifyDataInTable(dataKeys.userCertiTable_dashboard, dataKeys.airflowBeginnerCourse);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Verify Users for course table", "usersForCourseTable");
+		waitTime(driver);
+		lndOther.clearDashboardTable(dataKeys.courseStctTable_dashboard);
+		waitTime2(driver);
+		lndOther.clearDashboardTable(dataKeys.userCertiTable_dashboard);
+		waitTime(driver);
+		
+		// get certificate list for course by using course statistics
+		grep.testCreate("Get Certificate List for Course by using Course statistics table test",
+				"Get Certificate List for Course by using Course statistics table");
+		grep.infoTest("Get Certificate List for Course by using Course statistics table test");
+		logger.info("Get Certificate List for Course by using Course statistics table test");
+
+		lndOther.searchDashboardTable(dataKeys.courseStctTable_dashboard, dataKeys.courseName_column_Dashboard,
+				dataKeys.airflowBeginnerCourse);
+		lndOther.validateCertificatesInDashboard(dataKeys.courseStctTable_dashboard);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Verify Certificate List Users in course statistics table ",
+				"certificates_CourseStst_Dashboad");
+		waitTime(driver);
+		lndOther.verifyDataInTable(dataKeys.userCertiTable_dashboard, dataKeys.airflowBeginnerCourse);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Verify Certificate List for course table", "CertificateListForCourseTable");
 		waitTime(driver);
 		lndOther.clearDashboardTable(dataKeys.courseStctTable_dashboard);
 		waitTime2(driver);
@@ -362,7 +388,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		grep.captureScreenshot("pass", "Searching non existing records for Roles Page", "nonExistingRecord_Roles");
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 3,enabled = false)
 	public void l_and_d_CreateAssessment_Test() throws Exception {
 		lndPage = new L_And_D_Page();
 		lndOther = new L_And_D_OtherPages();

@@ -240,6 +240,40 @@ public class L_And_D_OtherPages extends WaitsManager {
 		}
 	}
 
+	public void validateCertificateAdminCard(String cardName) throws Exception {
+//		String textVal = null;
+		try {
+			implWait(driver);
+			By adminCards = By.xpath("//h3[text()='" + cardName + "']/following-sibling::p");
+			By table = By.xpath(
+					"//h2[text()='Certificates']/following-sibling::div/descendant::span[@class='pagination-info']");
+			boolean elementExist = !driver.findElements(adminCards).isEmpty();
+			if (elementExist) {
+
+				String textVal = driver.findElement(adminCards).getText();
+				String tableData = driver.findElement(table).getText();
+				if (tableData.contains(textVal)) {
+					grep.passTest(cardName + " Admin card Values Match "+ textVal);
+					logger.info(cardName + " Admin card Values Match "+ textVal);
+				} else {
+
+					grep.failTest(cardName + " Admin card values Not match " + textVal);
+					logger.error(cardName + " Admin card Values Not match " + textVal);
+				}
+
+			} else {
+				grep.failTest(cardName + " Admin card Not Found");
+				logger.error(cardName + " Admin card Not Found");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
 	public void clickCertificateAdminCards() throws Exception {
 		try {
 			implWait(driver);
@@ -362,30 +396,6 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 		}
 	}
-//
-//	public void clearDashboardTable(String tableName, String searchFieldName) throws Exception {
-//		try {
-//			implWait(driver);
-//			By searchBy = By.xpath(
-//					"//h2[text()='" + tableName + "']/following-sibling::div/input[@name='" + searchFieldName + "']");
-//
-//			boolean elementExist = !driver.findElements(searchBy).isEmpty();
-//			if (elementExist) {
-//
-//				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
-//
-//			} else {
-//				grep.failTest("Table is not available in dashboard tab");
-//				logger.error("Table is not available in dashboard tab");
-//			}
-//
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//			grep.failTest("Test Failed :" + e.getMessage());
-//			logger.error("Test Failed :" + e.getMessage());
-//
-//		}
-//	}
 
 	public void clearDashboardTable(String tableName) throws Exception {
 		try {
@@ -395,7 +405,6 @@ public class L_And_D_OtherPages extends WaitsManager {
 			boolean elementExist = !driver.findElements(searchBy).isEmpty();
 			if (elementExist) {
 
-//				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
 				driver.findElement(searchBy).click();
 
 			} else {
@@ -416,12 +425,10 @@ public class L_And_D_OtherPages extends WaitsManager {
 		try {
 			implWait(driver);
 
-//			By export = By.xpath("//h2[text()='" + tableName + "']/following-sibling::div[1]/div[2]/button");
 			By export = By.xpath("//h2[text()='" + tableName
 					+ "']/following-sibling::div[1]/descendant::button[@class='export-table-download-button']");
 			boolean elementExist = !driver.findElements(export).isEmpty();
 			if (elementExist) {
-//				scrollView(export);
 				waitTime(driver);
 
 				driver.findElement(export).click();
@@ -455,10 +462,10 @@ public class L_And_D_OtherPages extends WaitsManager {
 			if (elementExist) {
 				waitTime(driver);
 
-			String noDataMsg=driver.findElement(message).getText();
-			 
-				grep.passTest("Non Existing Search: "+ noDataMsg);
-				logger.info("Non Existing Search: "+ noDataMsg);
+				String noDataMsg = driver.findElement(message).getText();
+
+				grep.passTest("Non Existing Search: " + noDataMsg);
+				logger.info("Non Existing Search: " + noDataMsg);
 
 			} else {
 				grep.failTest("Table is not available in dashboard tab " + tableName);
@@ -534,54 +541,78 @@ public class L_And_D_OtherPages extends WaitsManager {
 		}
 	}
 
-//	public void getUserDetails(String tableName) throws Exception {
-//		try {
-//			By getTableData = By.xpath(
-//					"//h2[text()='" + tableName + "']/following-sibling::table[@class='course-table']/tbody/tr/td[3]");
-//			List<WebElement> table = driver.findElements(getTableData);
-//			if (table.size() > 0) {
+	public void validateTotalUsersInDashboard(String tableName) throws Exception {
+		try {
+			implWait(driver);
+			By getTableData = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table/tbody/tr/td[3]");
+			By certificateTableData = By.xpath(
+					"//h2[text()='Certificates']/following-sibling::div/descendant::span[@class='pagination-info']");
+			List<WebElement> table = driver.findElements(getTableData);
+			if (table.size() > 0) {
+
+				String textVal = table.getFirst().getText();
 //				table.getFirst().click();
-//				grep.passTest("Click Total Users");
-//				logger.info("Click Total Users");
-//			} else {
-//				grep.failTest("No Users Enrolled");
-//				logger.error("No Users Enrolled");
-//			}
-//
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//			grep.failTest("Test Failed :" + e.getMessage());
-//			logger.error("Test Failed :" + e.getMessage());
-//
-//		}
-//	}
 
-//	public void clearFilterButton() throws Exception {
-//		try {
-//			implWait(driver);
-//			By clearFilter = By.xpath("//button[text()='Clear Course Filter (Show All Users)']");
-//
-//			boolean elementExist = !driver.findElements(clearFilter).isEmpty();
-//			if (elementExist) {
-//				scrollView(adminHeader);
-//				waitTime(driver);
-//				driver.findElement(clearFilter).click();
-//				grep.infoTest("Clear Filter");
-//				logger.info("Clear Filter");
-//			} else {
-//				grep.failTest("Clear filter not Available");
-//				logger.error("Clear filter not Available");
-//			}
-//
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//			grep.failTest("Test Failed :" + e.getMessage());
-//			logger.error("Test Failed :" + e.getMessage());
-//
-//		}
-//	}
+				String tableData = driver.findElement(certificateTableData).getText();
+				if (tableData.contains(textVal)) {
+					grep.passTest(tableName + " Data Values Match "+ textVal);
+					logger.info(tableName + " Data Values Match "+ textVal);
+				} else {
 
-// TEST TAB
+					grep.failTest(tableName + " Data Values Not match " + textVal);
+					logger.error(tableName + " Data Values Not match " + textVal);
+
+				}
+			} else {
+				grep.failTest("No Users Enrolled");
+				logger.error("No Users Enrolled");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// for certificates from course table
+	public void validateCertificatesInDashboard(String tableName) throws Exception {
+		try {
+			implWait(driver);
+			By getTableData = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table/tbody/tr/td[5]");
+			By certificateTableData = By.xpath(
+					"//h2[text()='Certificates']/following-sibling::div/descendant::span[@class='pagination-info']");
+			List<WebElement> table = driver.findElements(getTableData);
+			if (table.size() > 0) {
+
+				String textVal = table.getFirst().getText();
+				table.getFirst().click();
+				waitTime2(driver);
+
+				String tableData = driver.findElement(certificateTableData).getText();
+				if (tableData.contains(textVal)) {
+					grep.passTest(tableName + " Data Values Match "+ textVal);
+					logger.info(tableName + " Data Values Match "+ textVal);
+				} else {
+
+					grep.failTest(tableName + " Data Values Not match " + textVal);
+					logger.error(tableName + " Data Values Not match " + textVal);
+
+				}
+			} else {
+				grep.failTest("No Users Enrolled");
+				logger.error("No Users Enrolled");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
 	// Search filter in table
 	public void searchTestsTable(String tableName, String searchFieldName, String searchValue) throws Exception {
 		try {
@@ -611,13 +642,10 @@ public class L_And_D_OtherPages extends WaitsManager {
 	public void clearTestsTable(String tableName) throws Exception {
 		try {
 			implWait(driver);
-//			By searchBy = By.xpath("//h3[text()='" + tableName + "']/following-sibling::div/input[@placeholder='"
-//					+ searchFieldName + "']");
 			By searchBy = By.xpath("//h3[text()='" + tableName + "']/following-sibling::div[1]/button");
 			boolean elementExist = !driver.findElements(searchBy).isEmpty();
 			if (elementExist) {
 
-//				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
 				driver.findElement(searchBy).click();
 
 			} else {
@@ -637,7 +665,6 @@ public class L_And_D_OtherPages extends WaitsManager {
 	public void exportTestsTable(String tableName, String fileFormat) throws Exception {
 		try {
 			implWait(driver);
-//			By export = By.xpath("//h3[text()='" + tableName + "']/following-sibling::div[1]/div[1]/button");
 			By export = By.xpath("//h3[text()='" + tableName
 					+ "']/following-sibling::div[1]/descendant::button[@class='export-table-download-button']");
 			boolean elementExist = !driver.findElements(export).isEmpty();
@@ -674,10 +701,10 @@ public class L_And_D_OtherPages extends WaitsManager {
 			if (elementExist) {
 				waitTime(driver);
 
-			String noDataMsg=driver.findElement(message).getText();
-			 
-				grep.passTest("Non Existing Search: "+ noDataMsg);
-				logger.info("Non Existing Search: "+ noDataMsg);
+				String noDataMsg = driver.findElement(message).getText();
+
+				grep.passTest("Non Existing Search: " + noDataMsg);
+				logger.info("Non Existing Search: " + noDataMsg);
 
 			} else {
 				grep.failTest("Table is not available in tests tab " + tableName);
@@ -691,7 +718,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 		}
 	}
-	
+
 	public void verifyDataInTestTable(String tableName, String verifyValue) throws Exception {
 		try {
 			implWait(driver);
@@ -761,13 +788,10 @@ public class L_And_D_OtherPages extends WaitsManager {
 	public void clearRolesTable(String tableName) throws Exception {
 		try {
 			implWait(driver);
-//			By searchBy = By.xpath("//h1[text()='" + tableName + "']/following-sibling::div/input[@placeholder='"
-//					+ searchFieldName + "']");
 			By searchBy = By.xpath("//h1[text()='" + tableName + "']/following-sibling::div[1]/button");
 			boolean elementExist = !driver.findElements(searchBy).isEmpty();
 			if (elementExist) {
 
-//				driver.findElement(searchBy).sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
 				driver.findElement(searchBy).click();
 
 			} else {
@@ -849,7 +873,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 		}
 	}
-	
+
 	public void noRecordsRolesTable(String tableName) throws Exception {
 		try {
 			implWait(driver);
@@ -859,10 +883,10 @@ public class L_And_D_OtherPages extends WaitsManager {
 			if (elementExist) {
 				waitTime(driver);
 
-			String noDataMsg=driver.findElement(message).getText();
-			 
-				grep.passTest("Non Existing Search: "+ noDataMsg);
-				logger.info("Non Existing Search: "+ noDataMsg);
+				String noDataMsg = driver.findElement(message).getText();
+
+				grep.passTest("Non Existing Search: " + noDataMsg);
+				logger.info("Non Existing Search: " + noDataMsg);
 
 			} else {
 				grep.failTest("Table is not available in tests tab " + tableName);
