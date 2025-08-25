@@ -98,7 +98,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		grep.captureScreenshot("pass", "After Unenroll", "afterUnenroll_Course");
 
 		// Continue and update progress for Course test
-		completeAndUpdateVideo(dataKeys.pythonBeginnerCourse);
+		completeAndUpdateVideo(dataKeys.abapBeginnerCourse);
 
 	}
 

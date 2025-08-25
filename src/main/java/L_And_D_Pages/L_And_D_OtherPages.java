@@ -253,8 +253,8 @@ public class L_And_D_OtherPages extends WaitsManager {
 				String textVal = driver.findElement(adminCards).getText();
 				String tableData = driver.findElement(table).getText();
 				if (tableData.contains(textVal)) {
-					grep.passTest(cardName + " Admin card Values Match "+ textVal);
-					logger.info(cardName + " Admin card Values Match "+ textVal);
+					grep.passTest(cardName + " Admin card Values Match " + textVal);
+					logger.info(cardName + " Admin card Values Match " + textVal);
 				} else {
 
 					grep.failTest(cardName + " Admin card values Not match " + textVal);
@@ -464,8 +464,8 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 				String noDataMsg = driver.findElement(message).getText();
 
-				grep.passTest("Non Existing Search: " + noDataMsg);
-				logger.info("Non Existing Search: " + noDataMsg);
+				grep.passTest("Non Existing Search for " + tableName + " : " + noDataMsg);
+				logger.info("Non Existing Search for " + tableName + " : " + noDataMsg);
 
 			} else {
 				grep.failTest("Table is not available in dashboard tab " + tableName);
@@ -555,8 +555,8 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 				String tableData = driver.findElement(certificateTableData).getText();
 				if (tableData.contains(textVal)) {
-					grep.passTest(tableName + " Data Values Match "+ textVal);
-					logger.info(tableName + " Data Values Match "+ textVal);
+					grep.passTest(tableName + " Data Values Match " + textVal);
+					logger.info(tableName + " Data Values Match " + textVal);
 				} else {
 
 					grep.failTest(tableName + " Data Values Not match " + textVal);
@@ -592,8 +592,8 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 				String tableData = driver.findElement(certificateTableData).getText();
 				if (tableData.contains(textVal)) {
-					grep.passTest(tableName + " Data Values Match "+ textVal);
-					logger.info(tableName + " Data Values Match "+ textVal);
+					grep.passTest(tableName + " Data Values Match " + textVal);
+					logger.info(tableName + " Data Values Match " + textVal);
 				} else {
 
 					grep.failTest(tableName + " Data Values Not match " + textVal);
@@ -703,8 +703,8 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 				String noDataMsg = driver.findElement(message).getText();
 
-				grep.passTest("Non Existing Search: " + noDataMsg);
-				logger.info("Non Existing Search: " + noDataMsg);
+				grep.passTest("Non Existing Search for " + tableName + " : " + noDataMsg);
+				logger.info("Non Existing Search for " + tableName + " : " + noDataMsg);
 
 			} else {
 				grep.failTest("Table is not available in tests tab " + tableName);
@@ -885,8 +885,8 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 				String noDataMsg = driver.findElement(message).getText();
 
-				grep.passTest("Non Existing Search: " + noDataMsg);
-				logger.info("Non Existing Search: " + noDataMsg);
+				grep.passTest("Non Existing Search for " + tableName + " : " + noDataMsg);
+				logger.info("Non Existing Search for " + tableName + " : " + noDataMsg);
 
 			} else {
 				grep.failTest("Table is not available in tests tab " + tableName);

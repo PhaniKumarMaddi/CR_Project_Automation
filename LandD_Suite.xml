@@ -6,7 +6,6 @@
 		<classes>
 			<class name="L_And_D_Project.LAndD_Page_UI_Test" />
 			<class name="L_And_D_Project.LAndD_Courses_Test" />
-			
 		</classes>
 	</test> <!--Test -->
 </suite> <!--Suite -->
