@@ -19,7 +19,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 	L_And_D_OtherPages lndOther;
 	L_And_D_TestDataKeys dataKeys = new L_And_D_TestDataKeys();
 
-	@Test(priority = 1,enabled =false)
+	@Test(priority = 1)
 	public void l_and_d_MyCourses() throws Exception {
 		lndPage = new L_And_D_Page();
 		lndCoursePage = new L_And_D_MyCoursesPage();
@@ -388,7 +388,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		grep.captureScreenshot("pass", "Searching non existing records for Roles Page", "nonExistingRecord_Roles");
 	}
 
-	@Test(priority = 3,enabled = false)
+	@Test(priority = 3)
 	public void l_and_d_CreateAssessment_Test() throws Exception {
 		lndPage = new L_And_D_Page();
 		lndOther = new L_And_D_OtherPages();
