@@ -17,6 +17,8 @@ public class L_And_D_TestDataKeys {
 	public String rolesTabUrl = "/admin/roles";
 	public String courseVideoUrl = "/course-videos";
 
+	public String login_Url = "/login";
+	
 	// Stat Card
 	public String dept_StatCard = "Departments";
 	public String totCours_StatCard = "Total Courses";

@@ -59,9 +59,9 @@ public class L_And_D_Page extends WaitsManager {
 	// User Profile
 	By profileLogo = By.cssSelector("div.user-profile");
 	By profileBtn = By.xpath("//div[@class='user-profile']/div[2]/div[1]");
-//	By profileInfo = By.cssSelector("div.profile-info-block");
 	By profileInfo = By.cssSelector("div.profile-info-block>div");
-
+	By logoutBtn =  By.xpath("//div[@class='user-profile']/div[2]/div[2]");
+	
 	// Footer
 	By reserveRights = By.cssSelector("div.footer-bottom>p");
 
@@ -190,8 +190,34 @@ public class L_And_D_Page extends WaitsManager {
 				logger.info("Navigate to Profile Page");
 
 			} else {
-				grep.failTest("Start Learning Button Not Available");
-				logger.error("Start Learning Button Not Available");
+				grep.failTest("Profile Button Not Available");
+				logger.error("Profile Button Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+	
+	public void clickLogoutBtn() throws Exception {
+		try {
+			implWait(driver);
+
+
+			boolean elementExists = !driver.findElements(profileLogo).isEmpty();
+			if (elementExists) {
+				driver.findElement(profileLogo).click();
+				waitTime(driver);
+				driver.findElement(logoutBtn).click();
+				grep.passTest("Logout From L and D");
+				logger.info("Logout From L and D");
+
+			} else {
+				grep.failTest("Logout Button Not Available");
+				logger.error("Logout Button Not Available");
 			}
 
 		} catch (Exception e) {

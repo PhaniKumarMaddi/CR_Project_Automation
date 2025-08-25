@@ -127,7 +127,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		lndOther.getCertificateDetails(dataKeys.userCertiTable_dashboard);
 		lndOther.validateCertificateAdminCard(dataKeys.certificate_adminCard);
 		waitTime(driver);
-		
+
 		grep.captureScreenshot("pass", "Admin Card Certificates Details", "certificateCardDeatils_Dashboad");
 		waitTime(driver);
 		lndOther.openCertificate(dataKeys.userCertiTable_dashboard);
@@ -203,7 +203,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		waitTime2(driver);
 		lndOther.clearDashboardTable(dataKeys.userCertiTable_dashboard);
 		waitTime(driver);
-		
+
 		// get certificate list for course by using course statistics
 		grep.testCreate("Get Certificate List for Course by using Course statistics table test",
 				"Get Certificate List for Course by using Course statistics table");
@@ -456,6 +456,21 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 //		lndOther.clearDashboardTable(dataKeys.feedbackTable_dashboard, dataKeys.userId_column_Dashboard);
 		lndOther.clearDashboardTable(dataKeys.feedbackTable_dashboard);
 		waitTime3(driver);
+
+		grep.testCreate("Logout from application Test", "Logout from application");
+		waitTime(driver);
+		lndPage.clickLogoutBtn();
+		String getUrlVal = getURL();
+		if (getUrlVal.endsWith(dataKeys.login_Url)) {
+			grep.passTest("Logged out Successfully");
+			logger.info("Logged out Successfully");
+		} else {
+			grep.failTest("Log out Functionality failed");
+			logger.info("Log out Functionality failed");
+		}
+		waitTime5(driver);
+		grep.captureScreenshot("pass", "Logged out From Application", "logout_LAndD_Test");
+
 	}
 
 	public void completeAndUpdateVideo(String courseName) throws Exception {
