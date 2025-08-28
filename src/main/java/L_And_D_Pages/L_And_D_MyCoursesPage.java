@@ -313,10 +313,8 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 	public void completeVideo() throws Exception {
 		try {
 			implWait(driver);
-//			By video = By.cssSelector("div.html5-video-container");
-			By video = By.xpath("//div[starts-with(@class,'html5-video-player')]");
-//			By complete = By.cssSelector(".ytp-progress-bar");
-			By complete = By.cssSelector(".ytp-progress-bar-container");
+			By video = By.cssSelector("div.html5-video-container");
+			By complete = By.cssSelector(".ytp-progress-bar");
 			boolean elementExist = !driver.findElements(complete).isEmpty();
 			if (elementExist) {
 
@@ -324,21 +322,22 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 				WebElement progressBar = driver.findElement(complete);
 				// Locate the scrubber button
 //				WebElement scrubber = driver.findElement(By.cssSelector(".ytp-scrubber-button"));
-				WebElement scrubber = driver
-						.findElement(By.cssSelector(".ytp-scrubber-button.ytp-swatch-background-color"));
-
+				WebElement scrubber = driver.findElement(By.cssSelector(".ytp-scrubber-container"));
+				
 				waitTime2(driver);
 				Actions actions = new Actions(driver);
 				actions.moveToElement(videoScreen).perform();
-				waitTime3(driver);
+				waitTime(driver);
 
 				// Get the width of the progress bar to calculate the end point
 				int progressBarWidth = progressBar.getSize().getWidth();
+				System.out.println(progressBarWidth);
 
 				// Perform the drag and drop action
 				// Drag from the scrubber's current position to the far right of the progress
 				// bar
 				actions.dragAndDropBy(scrubber, progressBarWidth, 0).build().perform();
+				waitTime2(driver);
 
 				grep.infoTest("Video playback moved to the end.");
 				logger.info("Video playback moved to the end.");
