@@ -77,7 +77,9 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 		lndPage.homePageStatCards(dataKeys.popCourse_StatCard);
 		lndPage.homePageStatCards(dataKeys.mycertificate_StatCard);
 		lndPage.homePageStatCards(dataKeys.myCourse_StatCard);
-
+		waitTime(driver);
+		grep.captureScreenshot("pass","Home page UI","homePage_LandD_");
+		waitTime(driver);
 		waitTime(driver);
 		grep.testCreate("Verifying navigation from Stat Cards in Home Page Test",
 				"Navigation from Stat Cards in Home Page");
