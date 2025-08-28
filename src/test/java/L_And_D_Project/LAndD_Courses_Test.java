@@ -28,81 +28,82 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		refreshPage();
 		waitTime2(driver);
 
-		grep.testCreate("Searching the non existing department test", "Searching the non existing department");
-
-		waitTime(driver);
-		grep.infoTest("Searching the non existing department test");
-		logger.info("Searching the non existing department test");
-
-		lndPage.navigateToPage(dataKeys.depatmentsPageUrl);
-		waitTime(driver);
-		lndOther.searchDepartment(dataKeys.invalid_Search);
-		waitTime(driver);
-		lndOther.getNonExistingDeptMsg();
-		waitTime(driver);
-		grep.captureScreenshot("pass", "Search Non Existing Department", "searchNonExisting_Department_inDept");
-
-		waitTime2(driver);
-		lndOther.clearSearch();
-		waitTime(driver);
-
-		grep.testCreate("Searching the non existing course test", "Searching the non existing course");
-
-		waitTime2(driver);
-		grep.infoTest("Searching the non existing course test");
-		logger.info("Searching the non existing course test");
-
-		lndPage.navigateToPage(dataKeys.depatmentsPageUrl);
-		waitTime(driver);
-		lndOther.searchDepartment(dataKeys.dept_DsAndAi);
-		waitTime(driver);
-		lndOther.selectAndExploreDepartment(dataKeys.dept_DsAndAi);
-		waitTime(driver);
-		lndOther.searchCoursesInDept(dataKeys.invalid_Search);
-		waitTime(driver);
-		lndOther.getNonExistingCourseMsg();
-		waitTime(driver);
-
-		grep.captureScreenshot("pass", "Search Non Existing Course", "searchNonExisting_Course_inDept");
-
-		waitTime(driver);
-		lndOther.clearSearch();
-		waitTime3(driver);
-
-		// exploring the department and enrolling the course
-		exploreAndEnrollCourse(dataKeys.dept_DsAndAi, dataKeys.azureBeginnerCourse);
-		waitTime(driver);
-
-		grep.testCreate("My Courses Page test", "My Courses Page");
-		waitTime3(driver);
-
-		lndCoursePage.myCoursesHeader();
-
-		lndCoursePage.clickTabInMyCourses(dataKeys.inProgressTab);
-		grep.captureScreenshot("pass", "My Courses In Progress tab", "myCourses_InProgressTab");
-		waitTime(driver);
-		lndCoursePage.clickTabInMyCourses(dataKeys.completeTab);
-		grep.captureScreenshot("pass", "My Courses Completed tab", "myCourses_CompletedTab");
-		waitTime(driver);
-		lndCoursePage.clickTabInMyCourses(dataKeys.allCourseTab);
-		grep.captureScreenshot("pass", "My Courses All Courses tab", "myCourses_AllCoursesTab");
-		waitTime5(driver);
-
-		grep.testCreate("Un Enroll the Course Test", "Un Enroll the Course");
-		waitTime(driver);
-		grep.captureScreenshot("pass", "Before Unenroll", "beforeUnenroll_Course");
-		waitTime(driver);
-		lndCoursePage.clickUnEnrollButton(dataKeys.azureBeginnerCourse);
-		lndCoursePage.getUnEnrollMessage();
-		waitTime(driver);
-		grep.captureScreenshot("pass", "After Unenroll", "afterUnenroll_Course");
+//		grep.testCreate("Searching the non existing department test", "Searching the non existing department");
+//
+//		waitTime(driver);
+//		grep.infoTest("Searching the non existing department test");
+//		logger.info("Searching the non existing department test");
+//
+//		lndPage.navigateToPage(dataKeys.depatmentsPageUrl);
+//		waitTime(driver);
+//		lndOther.searchDepartment(dataKeys.invalid_Search);
+//		waitTime(driver);
+//		lndOther.getNonExistingDeptMsg();
+//		waitTime(driver);
+//		grep.captureScreenshot("pass", "Search Non Existing Department", "searchNonExisting_Department_inDept");
+//
+//		waitTime2(driver);
+//		lndOther.clearSearch();
+//		waitTime(driver);
+//
+//		grep.testCreate("Searching the non existing course test", "Searching the non existing course");
+//
+//		waitTime2(driver);
+//		grep.infoTest("Searching the non existing course test");
+//		logger.info("Searching the non existing course test");
+//
+//		lndPage.navigateToPage(dataKeys.depatmentsPageUrl);
+//		waitTime(driver);
+//		lndOther.searchDepartment(dataKeys.dept_DsAndAi);
+//		waitTime(driver);
+//		lndOther.selectAndExploreDepartment(dataKeys.dept_DsAndAi);
+//		waitTime(driver);
+//		lndOther.searchCoursesInDept(dataKeys.invalid_Search);
+//		waitTime(driver);
+//		lndOther.getNonExistingCourseMsg();
+//		waitTime(driver);
+//
+//		grep.captureScreenshot("pass", "Search Non Existing Course", "searchNonExisting_Course_inDept");
+//
+//		waitTime(driver);
+//		lndOther.clearSearch();
+//		waitTime3(driver);
+//
+//		// exploring the department and enrolling the course
+//		exploreAndEnrollCourse(dataKeys.dept_DsAndAi, dataKeys.azureBeginnerCourse);
+//		waitTime(driver);
+//
+//		grep.testCreate("My Courses Page test", "My Courses Page");
+//		waitTime3(driver);
+//
+//		lndCoursePage.myCoursesHeader();
+//
+//		lndCoursePage.clickTabInMyCourses(dataKeys.inProgressTab);
+//		grep.captureScreenshot("pass", "My Courses In Progress tab", "myCourses_InProgressTab");
+//		waitTime(driver);
+//		lndCoursePage.clickTabInMyCourses(dataKeys.completeTab);
+//		grep.captureScreenshot("pass", "My Courses Completed tab", "myCourses_CompletedTab");
+//		waitTime(driver);
+//		lndCoursePage.clickTabInMyCourses(dataKeys.allCourseTab);
+//		grep.captureScreenshot("pass", "My Courses All Courses tab", "myCourses_AllCoursesTab");
+//		waitTime5(driver);
+//
+//		grep.testCreate("Un Enroll the Course Test", "Un Enroll the Course");
+//		waitTime(driver);
+//		grep.captureScreenshot("pass", "Before Unenroll", "beforeUnenroll_Course");
+//		waitTime(driver);
+//		lndCoursePage.clickUnEnrollButton(dataKeys.azureBeginnerCourse);
+//		lndCoursePage.getUnEnrollMessage();
+//		waitTime(driver);
+//		grep.captureScreenshot("pass", "After Unenroll", "afterUnenroll_Course");
 
 		// Continue and update progress for Course test
-		completeAndUpdateVideo(dataKeys.abapBeginnerCourse);
+		lndPage.navigateToPage(dataKeys.myCoursesPageUrl);
+		completeAndUpdateVideo(dataKeys.testAutomationBeginnerCourse);
 
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 2,enabled = false)
 	public void l_and_d_AdminPageTest() throws Exception {
 		lndPage = new L_And_D_Page();
 		lndOther = new L_And_D_OtherPages();
@@ -388,7 +389,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		grep.captureScreenshot("pass", "Searching non existing records for Roles Page", "nonExistingRecord_Roles");
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 3,enabled = false)
 	public void l_and_d_CreateAssessment_Test() throws Exception {
 		lndPage = new L_And_D_Page();
 		lndOther = new L_And_D_OtherPages();

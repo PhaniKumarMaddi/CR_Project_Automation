@@ -102,17 +102,20 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 			if (elementExist) {
 
 				String courseCategory = driver
-						.findElement(By.xpath("//h3[text()='" + courseName + "']/parent::div/div[1]/span[1]"))
+						.findElement(By.xpath(
+								"//h3[text()='" + courseName + "']/parent::div/div[@class='course-info']/span[1]"))
 						.getText();
 				String courseLevel = driver
-						.findElement(By.xpath("//h3[text()='" + courseName + "']/parent::div/div[1]/span[2]"))
+						.findElement(By.xpath(
+								"//h3[text()='" + courseName + "']/parent::div/div[@class='course-info']/span[2]"))
 						.getText();
 				String videoCount = driver.findElement(By.xpath("//h3[text()='" + courseName + "']/parent::div/p[1]"))
 						.getText();
 				String courseDuration = driver
 						.findElement(By.xpath("//h3[text()='" + courseName + "']/parent::div/p[2]")).getText();
-				String progressPercent = driver
-						.findElement(By.xpath("//h3[text()='" + courseName + "']/parent::div/div[2]/span")).getText();
+				String progressPercent = driver.findElement(By.xpath(
+						"//h3[text()='" + courseName + "']/parent::div/div[@class='course-enroll-section']/span"))
+						.getText();
 
 				grep.infoTest("Course Category for " + courseName + ": " + courseCategory);
 				logger.info("Course Category for " + courseName + ": " + courseCategory);
@@ -147,7 +150,8 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 	public void clickContinueLearning(String courseName) throws Exception {
 		try {
 			implWait(driver);
-			By continueLearning = By.xpath("//h3[text()='" + courseName + "']/parent::div/div[2]/a");
+			By continueLearning = By.xpath(
+					"//h3[text()='" + courseName + "']/parent::div/div[@class='course-enroll-section']/descendant::a");
 
 			boolean elementExist = !driver.findElements(continueLearning).isEmpty();
 			if (elementExist) {
@@ -171,7 +175,7 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 		try {
 			implWait(driver);
 			By unenroll = By
-					.xpath("//h3[text()='" + courseName + "']/parent::div/div[2]/button[@class='unenroll-btn']");
+					.xpath("//h3[text()='" + courseName + "']/parent::div/descendant::button[@class='unenroll-btn']");
 
 			boolean elementExist = !driver.findElements(unenroll).isEmpty();
 			if (elementExist) {
@@ -309,19 +313,24 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 	public void completeVideo() throws Exception {
 		try {
 			implWait(driver);
-			By video = By.cssSelector("div.html5-video-container");
-			By complete = By.cssSelector(".ytp-progress-bar");
+//			By video = By.cssSelector("div.html5-video-container");
+			By video = By.xpath("//div[starts-with(@class,'html5-video-player')]");
+//			By complete = By.cssSelector(".ytp-progress-bar");
+			By complete = By.cssSelector(".ytp-progress-bar-container");
 			boolean elementExist = !driver.findElements(complete).isEmpty();
 			if (elementExist) {
+
 				WebElement videoScreen = driver.findElement(video);
 				WebElement progressBar = driver.findElement(complete);
 				// Locate the scrubber button
-				WebElement scrubber = driver.findElement(By.cssSelector(".ytp-scrubber-button"));
+//				WebElement scrubber = driver.findElement(By.cssSelector(".ytp-scrubber-button"));
+				WebElement scrubber = driver
+						.findElement(By.cssSelector(".ytp-scrubber-button.ytp-swatch-background-color"));
 
-				waitTime(driver);
+				waitTime2(driver);
 				Actions actions = new Actions(driver);
 				actions.moveToElement(videoScreen).perform();
-				waitTime(driver);
+				waitTime3(driver);
 
 				// Get the width of the progress bar to calculate the end point
 				int progressBarWidth = progressBar.getSize().getWidth();

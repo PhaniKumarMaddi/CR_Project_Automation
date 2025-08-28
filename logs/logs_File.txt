@@ -13852,3 +13852,1486 @@ SAP
 2025-08-25 11:51:23 [main] INFO : Logged out Successfully
 2025-08-25 11:51:29 [main] INFO : Testing Ended
 2025-08-25 11:51:29 [main] INFO : ***********
+2025-08-28 08:48:18 [main] INFO : Launching Chrome Browser
+2025-08-28 08:48:18 [main] INFO : Report Name :LandDPage_Report.html
+2025-08-28 08:48:20 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-28 08:48:20 [main] INFO : Inside Login Page: Learning and Development
+2025-08-28 08:48:50 [main] INFO : Logged in to Learning and Development Application
+2025-08-28 08:48:54 [main] INFO : Learning and Development Page navigation Test
+2025-08-28 08:48:55 [main] INFO : Navigated to /my-courses
+2025-08-28 08:49:00 [main] INFO : Inside /my-courses Page 
+2025-08-28 08:49:00 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-28 08:49:02 [main] INFO : Navigated to /departments
+2025-08-28 08:49:07 [main] INFO : Inside /departments Page 
+2025-08-28 08:49:07 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 08:49:10 [main] INFO : Navigated to /certificates
+2025-08-28 08:49:15 [main] INFO : Inside /certificates Page 
+2025-08-28 08:49:15 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-28 08:49:17 [main] INFO : Navigated to /admin
+2025-08-28 08:49:17 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-28 08:49:20 [main] INFO : Navigated to /admin/courses
+2025-08-28 08:49:25 [main] INFO : Inside /admin/courses Tab in Admin Page 
+2025-08-28 08:49:25 [main] INFO : /admin/courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/courses
+2025-08-28 08:49:28 [main] INFO : Navigated to /admin/tests
+2025-08-28 08:49:33 [main] INFO : Inside /admin/tests Tab in Admin Page 
+2025-08-28 08:49:33 [main] INFO : /admin/tests Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/tests
+2025-08-28 08:49:35 [main] INFO : Navigated to /admin/roles
+2025-08-28 08:49:40 [main] INFO : Inside /admin/roles Tab in Admin Page 
+2025-08-28 08:49:40 [main] INFO : /admin/roles Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/roles
+2025-08-28 08:49:43 [main] INFO : Navigated to /admin/dashboard
+2025-08-28 08:49:48 [main] INFO : Inside /admin/dashboard Tab in Admin Page 
+2025-08-28 08:49:48 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-28 08:49:51 [main] INFO : Navigated to /Home
+2025-08-28 08:49:56 [main] INFO : Inside /Home Page 
+2025-08-28 08:49:56 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-28 08:49:58 [main] INFO : Home Page Ui test
+2025-08-28 08:49:59 [main] INFO : Home Page Header Content: Grow your skills, advance your career
+2025-08-28 08:49:59 [main] INFO : Home Page Description Content: Access all the learning resources you need to excel at CriticalRiver
+2025-08-28 08:49:59 [main] INFO : Start Learning Button Available
+2025-08-28 08:49:59 [main] INFO : Header: Browse Courses by Department
+2025-08-28 08:49:59 [main] INFO : Total Courses Card Count: 462
+2025-08-28 08:49:59 [main] INFO : Departments Card Count: 15
+2025-08-28 08:49:59 [main] INFO : Popular Courses Card Count: 5
+2025-08-28 08:50:00 [main] INFO : My Certificates Card Count: 0
+2025-08-28 08:50:00 [main] INFO : My Courses Card Count: 7
+2025-08-28 08:50:01 [main] INFO : Verifying navigation from Stat Cards in Home Page
+2025-08-28 08:50:02 [main] INFO : Clicking on Total Courses card
+2025-08-28 08:50:03 [main] INFO : Clicking on Total Courses Card
+2025-08-28 08:50:03 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 08:50:06 [main] INFO : Navigated to /Home
+2025-08-28 08:50:12 [main] INFO : Clicking on Departments card
+2025-08-28 08:50:13 [main] INFO : Clicking on Departments Card
+2025-08-28 08:50:13 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 08:50:16 [main] INFO : Navigated to /Home
+2025-08-28 08:50:22 [main] INFO : Clicking on Popular Courses card
+2025-08-28 08:50:23 [main] INFO : Clicking on Popular Courses Card
+2025-08-28 08:50:23 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-28 08:50:27 [main] INFO : Navigated to /Home
+2025-08-28 08:50:32 [main] INFO : Clicking on My Certificates card
+2025-08-28 08:50:33 [main] INFO : Clicking on My Certificates Card
+2025-08-28 08:50:33 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-28 08:50:37 [main] INFO : Navigated to /Home
+2025-08-28 08:50:42 [main] INFO : Clicking on My Courses card
+2025-08-28 08:50:43 [main] INFO : Clicking on My Courses Card
+2025-08-28 08:50:43 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-28 08:50:47 [main] INFO : Navigated to /Home
+2025-08-28 08:50:52 [main] INFO : Home Page Continue Learning test
+2025-08-28 08:50:53 [main] INFO : Continue Learning Header is correct: Continue Learning
+2025-08-28 08:50:55 [main] INFO : Continue Learning Course NamePython Beginner
+2025-08-28 08:50:55 [main] INFO : Continue Learning Progress Percentage: 63% complete
+2025-08-28 08:50:55 [main] INFO : Continue Learning Course Category: Programming
+2025-08-28 08:50:55 [main] INFO : Continue Learning Course Last Accessed: Last accessed: Recently
+2025-08-28 08:50:55 [main] INFO : Navigated to Course Video Page
+2025-08-28 08:50:56 [main] INFO : /course-videos Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-28 08:50:58 [main] INFO : Navigated to /Home
+2025-08-28 08:51:00 [main] INFO : Home Page Feature Courses test
+2025-08-28 08:51:01 [main] INFO : Feature Course List Contains : Airflow Beginner course
+2025-08-28 08:51:01 [main] INFO : Feature Course List Contains : Airflow Advanced course
+2025-08-28 08:51:02 [main] INFO : Feature Course List Contains : Statistics Beginner course
+2025-08-28 08:51:02 [main] INFO : Feature Course List Contains : ABAP Beginner course
+2025-08-28 08:51:03 [main] INFO : Feature Course List Contains : Automation Testing (Selenium) Beginner course
+2025-08-28 08:51:05 [main] INFO : Feature Courses contains Department Name: Data Science and AI
+2025-08-28 08:51:05 [main] INFO : Feature Courses contains Course Level: Beginner
+2025-08-28 08:51:05 [main] INFO : Feature Courses contains Name: Airflow Beginner
+2025-08-28 08:51:05 [main] INFO : Feature Courses contains Video Count: 🎥 1 Videos
+2025-08-28 08:51:05 [main] INFO : Feature Courses contains Duration: ⏱ 1 hrs 37 mins
+2025-08-28 08:51:07 [main] INFO : Course Enrollment message: Already enrolled in the course
+2025-08-28 08:51:07 [main] INFO : Home Page Browse Course By Department test
+2025-08-28 08:51:08 [main] INFO : Data Science and AI department is available
+2025-08-28 08:51:09 [main] INFO : Total Courses count for Data Science and AI: 43 courses
+2025-08-28 08:51:10 [main] INFO : ERP Application department is available
+2025-08-28 08:51:10 [main] INFO : Total Courses count for ERP Application: 35 courses
+2025-08-28 08:51:11 [main] INFO : Product Engineering Services department is available
+2025-08-28 08:51:11 [main] INFO : Total Courses count for Product Engineering Services: 29 courses
+2025-08-28 08:51:12 [main] INFO : Hardware and Validation department is available
+2025-08-28 08:51:12 [main] INFO : Total Courses count for Hardware and Validation: 21 courses
+2025-08-28 08:51:13 [main] INFO : H1B Staffing department is available
+2025-08-28 08:51:13 [main] INFO : Total Courses count for H1B Staffing: 21 courses
+2025-08-28 08:51:14 [main] INFO : Salesforce department is available
+2025-08-28 08:51:14 [main] INFO : Total Courses count for Salesforce: 28 courses
+2025-08-28 08:51:15 [main] INFO : DSIL department is available
+2025-08-28 08:51:15 [main] INFO : Total Courses count for DSIL: 49 courses
+2025-08-28 08:51:16 [main] INFO : Enterprise Architecture department is available
+2025-08-28 08:51:17 [main] INFO : Total Courses count for Enterprise Architecture: 34 courses
+2025-08-28 08:51:17 [main] INFO : Global Engineering Org department is available
+2025-08-28 08:51:18 [main] INFO : Total Courses count for Global Engineering Org: 69 courses
+2025-08-28 08:51:18 [main] INFO : Enterprise Integration department is available
+2025-08-28 08:51:19 [main] INFO : Total Courses count for Enterprise Integration: 27 courses
+2025-08-28 08:51:19 [main] INFO : India Public Sector department is available
+2025-08-28 08:51:20 [main] INFO : Total Courses count for India Public Sector: 36 courses
+2025-08-28 08:51:20 [main] INFO : Energy & Water department is available
+2025-08-28 08:51:21 [main] INFO : Total Courses count for Energy & Water: 18 courses
+2025-08-28 08:51:21 [main] INFO : Business Process Services department is available
+2025-08-28 08:51:22 [main] INFO : Total Courses count for Business Process Services: 23 courses
+2025-08-28 08:51:22 [main] INFO : Enabling Team department is available
+2025-08-28 08:51:23 [main] INFO : Total Courses count for Enabling Team: 29 courses
+2025-08-28 08:51:24 [main] INFO : Others department is available
+2025-08-28 08:51:24 [main] INFO : Total Courses count for Others: 0 courses
+2025-08-28 08:51:25 [main] INFO : Click View All Department Link
+2025-08-28 08:51:27 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 08:51:29 [main] INFO : Navigated to /Home
+2025-08-28 08:51:35 [main] INFO : Verify clicking on department card
+2025-08-28 08:51:40 [main] INFO : Navigated to Data Science and AI Department
+2025-08-28 08:51:45 [main] INFO : Navigated to /Home
+2025-08-28 08:51:48 [main] INFO : Navigated to Salesforce Department
+2025-08-28 08:51:53 [main] INFO : Navigated to /Home
+2025-08-28 08:51:54 [main] INFO : Verify Why Criticalriver Academy Info
+2025-08-28 08:51:54 [main] INFO : Academy Header :Why CriticalRiver Academy?
+2025-08-28 08:51:54 [main] INFO : Academy Reason youtube :▶️
+Learn from YouTube
+Access curated YouTube content organized by departments and skills, making it easy to find relevant learning materials.
+2025-08-28 08:51:54 [main] INFO : Academy Reason Certificates :📜
+Earn Certificates
+Complete courses and assessments to earn certificates that demonstrate your skills and expertise.
+2025-08-28 08:51:54 [main] INFO : Academy Reason Learning paths :🗺️
+Structured Learning Paths
+Follow department-specific learning paths designed to help you grow in your role and advance your career.
+2025-08-28 08:51:56 [main] INFO : Ready To StartReady to start learning?
+Take the first step in your learning journey with CriticalRiver Academy
+Explore All Courses
+2025-08-28 08:51:56 [main] INFO : Explore all courses
+2025-08-28 08:51:58 [main] INFO : Navigate to Profile Page
+2025-08-28 08:52:01 [main] INFO : Profile Page Information: Personal Information
+2025-08-28 08:52:01 [main] INFO : Profile Page Information: Full Name:
+Phani Kumar Maddi
+2025-08-28 08:52:01 [main] INFO : Profile Page Information: Email:
+phani.maddi@criticalriver.com
+2025-08-28 08:52:01 [main] INFO : Profile Page Information: Department:
+Data Science and AI
+2025-08-28 08:52:01 [main] INFO : Profile Page Information: Job Title:
+Software Engineer
+2025-08-28 08:52:01 [main] INFO : Profile Page Information: Certifications
+2025-08-28 08:52:01 [main] INFO : Profile Page Information: No certifications
+2025-08-28 08:52:02 [main] INFO : Reserve Rigths: © 2025 CriticalRiver. All rights reserved.
+2025-08-28 08:52:03 [main] INFO : Navigated to /my-courses
+2025-08-28 08:52:03 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-28 08:52:05 [main] INFO : Navigated to /departments
+2025-08-28 08:52:05 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 08:52:06 [main] INFO : Navigated to /help-center
+2025-08-28 08:52:06 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/help-center
+2025-08-28 08:52:08 [main] INFO : Navigated to /feedback
+2025-08-28 08:52:08 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/feedback
+2025-08-28 08:52:09 [main] INFO : Navigated to /certificates
+2025-08-28 08:52:09 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-28 08:52:10 [main] INFO : Navigated to /profile
+2025-08-28 08:52:10 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/profile
+2025-08-28 08:52:11 [main] INFO : Social Media Links
+2025-08-28 08:52:12 [main] INFO : Navigated to Facebook
+2025-08-28 08:52:14 [main] INFO :  Url is Valid :https://www.facebook.com/criticalriver/
+2025-08-28 08:52:17 [main] INFO : Navigated to LinkedIn
+2025-08-28 08:52:19 [main] INFO :  Url is Valid :https://in.linkedin.com/company/criticalriver
+2025-08-28 08:52:22 [main] INFO : Navigated to Instagram
+2025-08-28 08:52:23 [main] INFO :  Url is Valid :https://www.instagram.com/criticalriver/?hl=en
+2025-08-28 08:52:26 [main] INFO : Navigated to Twitter
+2025-08-28 08:52:28 [main] INFO :  Url is Valid :https://x.com/CriticalRiver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+2025-08-28 08:52:31 [main] INFO : Navigated to /Home
+2025-08-28 08:52:35 [main] INFO : Searching the non existing department test
+2025-08-28 08:52:35 [main] INFO : Navigated to /departments
+2025-08-28 08:52:36 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-28 08:52:37 [main] INFO : No Department Found Message: No departments found matching "@#$%^&*(#$%^"
+2025-08-28 08:52:43 [main] INFO : Searching the non existing course test
+2025-08-28 08:52:43 [main] INFO : Navigated to /departments
+2025-08-28 08:52:44 [main] INFO : Searching Data Science and AI Name
+2025-08-28 08:52:46 [main] INFO : Exploring Data Science and AI Name
+2025-08-28 08:52:47 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-28 08:52:47 [main] INFO : No Course Found Message: No courses found
+2025-08-28 08:52:55 [main] INFO : Explore Department and Enroll Course test
+2025-08-28 08:52:57 [main] INFO : Navigated to /departments
+2025-08-28 08:53:00 [main] INFO : Searching Data Science and AI Name
+2025-08-28 08:53:02 [main] INFO : Exploring Data Science and AI Name
+2025-08-28 08:53:03 [main] INFO : Searching Azure Beginner Name
+2025-08-28 08:53:05 [main] INFO : Enrolling Azure Beginner Course
+2025-08-28 08:53:05 [main] INFO : Course Enrollment message: Successfully enrolled in the course
+2025-08-28 08:53:10 [main] INFO : Navigated to /my-courses
+2025-08-28 08:53:15 [main] INFO : Selecting Pagination: 30
+2025-08-28 08:53:16 [main] INFO : Enrolled Course Card Details test
+2025-08-28 08:54:16 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//h3[text()='Azure Beginner']/parent::div/div[1]/span[1]"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c5c92c6f74797b2fad8601e04d03f5c4, findElement {using=xpath, value=//h3[text()='Azure Beginner']/parent::div/div[1]/span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64891}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64891/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c5c92c6f74797b2fad8601e04d03f5c4
+2025-08-28 08:54:21 [main] INFO : Header : My Courses
+2025-08-28 08:54:21 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-28 08:54:21 [main] INFO : Inside In progress Tab
+2025-08-28 08:54:22 [main] INFO : Inside Completed Tab
+2025-08-28 08:54:23 [main] INFO : Inside All courses Tab
+2025-08-28 08:59:14 [main] INFO : Launching Chrome Browser
+2025-08-28 08:59:14 [main] INFO : Report Name :LandDPage_Report.html
+2025-08-28 08:59:17 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-28 08:59:17 [main] INFO : Inside Login Page: Learning and Development
+2025-08-28 08:59:44 [main] INFO : Logged in to Learning and Development Application
+2025-08-28 08:59:48 [main] INFO : Learning and Development Page navigation Test
+2025-08-28 08:59:49 [main] INFO : Navigated to /my-courses
+2025-08-28 08:59:54 [main] INFO : Inside /my-courses Page 
+2025-08-28 08:59:54 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-28 08:59:56 [main] INFO : Navigated to /departments
+2025-08-28 09:00:01 [main] INFO : Inside /departments Page 
+2025-08-28 09:00:01 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 09:00:04 [main] INFO : Navigated to /certificates
+2025-08-28 09:00:09 [main] INFO : Inside /certificates Page 
+2025-08-28 09:00:09 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-28 09:00:11 [main] INFO : Navigated to /admin
+2025-08-28 09:00:11 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-28 09:00:13 [main] INFO : Navigated to /admin/courses
+2025-08-28 09:00:18 [main] INFO : Inside /admin/courses Tab in Admin Page 
+2025-08-28 09:00:18 [main] INFO : /admin/courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/courses
+2025-08-28 09:00:21 [main] INFO : Navigated to /admin/tests
+2025-08-28 09:00:26 [main] INFO : Inside /admin/tests Tab in Admin Page 
+2025-08-28 09:00:26 [main] INFO : /admin/tests Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/tests
+2025-08-28 09:00:29 [main] INFO : Navigated to /admin/roles
+2025-08-28 09:00:34 [main] INFO : Inside /admin/roles Tab in Admin Page 
+2025-08-28 09:00:34 [main] INFO : /admin/roles Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/roles
+2025-08-28 09:00:37 [main] INFO : Navigated to /admin/dashboard
+2025-08-28 09:00:42 [main] INFO : Inside /admin/dashboard Tab in Admin Page 
+2025-08-28 09:00:42 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-28 09:00:44 [main] INFO : Navigated to /Home
+2025-08-28 09:00:49 [main] INFO : Inside /Home Page 
+2025-08-28 09:00:49 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-28 09:00:52 [main] INFO : Home Page Ui test
+2025-08-28 09:00:52 [main] INFO : Home Page Header Content: Grow your skills, advance your career
+2025-08-28 09:00:52 [main] INFO : Home Page Description Content: Access all the learning resources you need to excel at CriticalRiver
+2025-08-28 09:00:52 [main] INFO : Start Learning Button Available
+2025-08-28 09:00:52 [main] INFO : Header: Browse Courses by Department
+2025-08-28 09:00:52 [main] INFO : Total Courses Card Count: 462
+2025-08-28 09:00:53 [main] INFO : Departments Card Count: 15
+2025-08-28 09:00:53 [main] INFO : Popular Courses Card Count: 5
+2025-08-28 09:00:53 [main] INFO : My Certificates Card Count: 0
+2025-08-28 09:00:53 [main] INFO : My Courses Card Count: 7
+2025-08-28 09:00:54 [main] INFO : Verifying navigation from Stat Cards in Home Page
+2025-08-28 09:00:55 [main] INFO : Clicking on Total Courses card
+2025-08-28 09:00:56 [main] INFO : Clicking on Total Courses Card
+2025-08-28 09:00:56 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 09:00:59 [main] INFO : Navigated to /Home
+2025-08-28 09:01:05 [main] INFO : Clicking on Departments card
+2025-08-28 09:01:06 [main] INFO : Clicking on Departments Card
+2025-08-28 09:01:06 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 09:01:10 [main] INFO : Navigated to /Home
+2025-08-28 09:01:15 [main] INFO : Clicking on Popular Courses card
+2025-08-28 09:01:16 [main] INFO : Clicking on Popular Courses Card
+2025-08-28 09:01:16 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-28 09:01:20 [main] INFO : Navigated to /Home
+2025-08-28 09:01:25 [main] INFO : Clicking on My Certificates card
+2025-08-28 09:01:27 [main] INFO : Clicking on My Certificates Card
+2025-08-28 09:01:27 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-28 09:01:30 [main] INFO : Navigated to /Home
+2025-08-28 09:01:36 [main] INFO : Clicking on My Courses card
+2025-08-28 09:01:37 [main] INFO : Clicking on My Courses Card
+2025-08-28 09:01:37 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-28 09:01:40 [main] INFO : Navigated to /Home
+2025-08-28 09:01:46 [main] INFO : Home Page Continue Learning test
+2025-08-28 09:01:47 [main] INFO : Continue Learning Header is correct: Continue Learning
+2025-08-28 09:01:48 [main] INFO : Continue Learning Course NamePython Beginner
+2025-08-28 09:01:48 [main] INFO : Continue Learning Progress Percentage: 63% complete
+2025-08-28 09:01:48 [main] INFO : Continue Learning Course Category: Programming
+2025-08-28 09:01:48 [main] INFO : Continue Learning Course Last Accessed: Last accessed: Recently
+2025-08-28 09:01:49 [main] INFO : Navigated to Course Video Page
+2025-08-28 09:01:49 [main] INFO : /course-videos Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-28 09:01:51 [main] INFO : Navigated to /Home
+2025-08-28 09:01:53 [main] INFO : Home Page Feature Courses test
+2025-08-28 09:01:54 [main] INFO : Feature Course List Contains : Airflow Beginner course
+2025-08-28 09:01:55 [main] INFO : Feature Course List Contains : Airflow Advanced course
+2025-08-28 09:01:55 [main] INFO : Feature Course List Contains : Statistics Beginner course
+2025-08-28 09:01:56 [main] INFO : Feature Course List Contains : ABAP Beginner course
+2025-08-28 09:01:56 [main] INFO : Feature Course List Contains : Automation Testing (Selenium) Beginner course
+2025-08-28 09:01:58 [main] INFO : Feature Courses contains Department Name: Data Science and AI
+2025-08-28 09:01:58 [main] INFO : Feature Courses contains Course Level: Beginner
+2025-08-28 09:01:58 [main] INFO : Feature Courses contains Name: Airflow Beginner
+2025-08-28 09:01:58 [main] INFO : Feature Courses contains Video Count: 🎥 1 Videos
+2025-08-28 09:01:58 [main] INFO : Feature Courses contains Duration: ⏱ 1 hrs 37 mins
+2025-08-28 09:02:00 [main] INFO : Course Enrollment message: Already enrolled in the course
+2025-08-28 09:02:00 [main] INFO : Home Page Browse Course By Department test
+2025-08-28 09:02:01 [main] INFO : Data Science and AI department is available
+2025-08-28 09:02:02 [main] INFO : Total Courses count for Data Science and AI: 43 courses
+2025-08-28 09:02:02 [main] INFO : ERP Application department is available
+2025-08-28 09:02:03 [main] INFO : Total Courses count for ERP Application: 35 courses
+2025-08-28 09:02:03 [main] INFO : Product Engineering Services department is available
+2025-08-28 09:02:04 [main] INFO : Total Courses count for Product Engineering Services: 29 courses
+2025-08-28 09:02:05 [main] INFO : Hardware and Validation department is available
+2025-08-28 09:02:05 [main] INFO : Total Courses count for Hardware and Validation: 21 courses
+2025-08-28 09:02:06 [main] INFO : H1B Staffing department is available
+2025-08-28 09:02:06 [main] INFO : Total Courses count for H1B Staffing: 21 courses
+2025-08-28 09:02:07 [main] INFO : Salesforce department is available
+2025-08-28 09:02:07 [main] INFO : Total Courses count for Salesforce: 28 courses
+2025-08-28 09:02:08 [main] INFO : DSIL department is available
+2025-08-28 09:02:08 [main] INFO : Total Courses count for DSIL: 49 courses
+2025-08-28 09:02:09 [main] INFO : Enterprise Architecture department is available
+2025-08-28 09:02:09 [main] INFO : Total Courses count for Enterprise Architecture: 34 courses
+2025-08-28 09:02:10 [main] INFO : Global Engineering Org department is available
+2025-08-28 09:02:10 [main] INFO : Total Courses count for Global Engineering Org: 69 courses
+2025-08-28 09:02:11 [main] INFO : Enterprise Integration department is available
+2025-08-28 09:02:11 [main] INFO : Total Courses count for Enterprise Integration: 27 courses
+2025-08-28 09:02:12 [main] INFO : India Public Sector department is available
+2025-08-28 09:02:12 [main] INFO : Total Courses count for India Public Sector: 36 courses
+2025-08-28 09:02:13 [main] INFO : Energy & Water department is available
+2025-08-28 09:02:13 [main] INFO : Total Courses count for Energy & Water: 18 courses
+2025-08-28 09:02:14 [main] INFO : Business Process Services department is available
+2025-08-28 09:02:14 [main] INFO : Total Courses count for Business Process Services: 23 courses
+2025-08-28 09:02:15 [main] INFO : Enabling Team department is available
+2025-08-28 09:02:15 [main] INFO : Total Courses count for Enabling Team: 29 courses
+2025-08-28 09:02:16 [main] INFO : Others department is available
+2025-08-28 09:02:17 [main] INFO : Total Courses count for Others: 0 courses
+2025-08-28 09:02:18 [main] INFO : Click View All Department Link
+2025-08-28 09:02:19 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 09:02:20 [main] INFO : Navigated to /Home
+2025-08-28 09:02:26 [main] INFO : Verify clicking on department card
+2025-08-28 09:02:32 [main] INFO : Navigated to Data Science and AI Department
+2025-08-28 09:02:37 [main] INFO : Navigated to /Home
+2025-08-28 09:02:40 [main] INFO : Navigated to Salesforce Department
+2025-08-28 09:02:46 [main] INFO : Navigated to /Home
+2025-08-28 09:02:47 [main] INFO : Verify Why Criticalriver Academy Info
+2025-08-28 09:02:47 [main] INFO : Academy Header :Why CriticalRiver Academy?
+2025-08-28 09:02:47 [main] INFO : Academy Reason youtube :▶️
+Learn from YouTube
+Access curated YouTube content organized by departments and skills, making it easy to find relevant learning materials.
+2025-08-28 09:02:47 [main] INFO : Academy Reason Certificates :📜
+Earn Certificates
+Complete courses and assessments to earn certificates that demonstrate your skills and expertise.
+2025-08-28 09:02:47 [main] INFO : Academy Reason Learning paths :🗺️
+Structured Learning Paths
+Follow department-specific learning paths designed to help you grow in your role and advance your career.
+2025-08-28 09:02:48 [main] INFO : Ready To StartReady to start learning?
+Take the first step in your learning journey with CriticalRiver Academy
+Explore All Courses
+2025-08-28 09:02:48 [main] INFO : Explore all courses
+2025-08-28 09:02:50 [main] INFO : Navigate to Profile Page
+2025-08-28 09:02:53 [main] INFO : Profile Page Information: Personal Information
+2025-08-28 09:02:53 [main] INFO : Profile Page Information: Full Name:
+Phani Kumar Maddi
+2025-08-28 09:02:53 [main] INFO : Profile Page Information: Email:
+phani.maddi@criticalriver.com
+2025-08-28 09:02:53 [main] INFO : Profile Page Information: Department:
+Data Science and AI
+2025-08-28 09:02:53 [main] INFO : Profile Page Information: Job Title:
+Software Engineer
+2025-08-28 09:02:53 [main] INFO : Profile Page Information: Certifications
+2025-08-28 09:02:53 [main] INFO : Profile Page Information: No certifications
+2025-08-28 09:02:54 [main] INFO : Reserve Rigths: © 2025 CriticalRiver. All rights reserved.
+2025-08-28 09:02:55 [main] INFO : Navigated to /my-courses
+2025-08-28 09:02:55 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-28 09:02:56 [main] INFO : Navigated to /departments
+2025-08-28 09:02:56 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 09:02:58 [main] INFO : Navigated to /help-center
+2025-08-28 09:02:58 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/help-center
+2025-08-28 09:02:59 [main] INFO : Navigated to /feedback
+2025-08-28 09:02:59 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/feedback
+2025-08-28 09:03:00 [main] INFO : Navigated to /certificates
+2025-08-28 09:03:00 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-28 09:03:02 [main] INFO : Navigated to /profile
+2025-08-28 09:03:02 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/profile
+2025-08-28 09:03:03 [main] INFO : Social Media Links
+2025-08-28 09:03:03 [main] INFO : Navigated to Facebook
+2025-08-28 09:03:06 [main] INFO :  Url is Valid :https://www.facebook.com/criticalriver/
+2025-08-28 09:03:08 [main] INFO : Navigated to LinkedIn
+2025-08-28 09:03:10 [main] INFO :  Url is Valid :https://in.linkedin.com/company/criticalriver
+2025-08-28 09:03:13 [main] INFO : Navigated to Instagram
+2025-08-28 09:03:14 [main] INFO :  Url is Valid :https://www.instagram.com/criticalriver/?hl=en
+2025-08-28 09:03:16 [main] INFO : Navigated to Twitter
+2025-08-28 09:03:19 [main] INFO :  Url is Valid :https://x.com/CriticalRiver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+2025-08-28 09:03:22 [main] INFO : Navigated to /Home
+2025-08-28 09:03:25 [main] INFO : Searching the non existing department test
+2025-08-28 09:03:25 [main] INFO : Navigated to /departments
+2025-08-28 09:03:26 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-28 09:03:27 [main] INFO : No Department Found Message: No departments found matching "@#$%^&*(#$%^"
+2025-08-28 09:03:33 [main] INFO : Searching the non existing course test
+2025-08-28 09:03:33 [main] INFO : Navigated to /departments
+2025-08-28 09:03:34 [main] INFO : Searching Data Science and AI Name
+2025-08-28 09:03:36 [main] INFO : Exploring Data Science and AI Name
+2025-08-28 09:03:36 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-28 09:03:37 [main] INFO : No Course Found Message: No courses found
+2025-08-28 09:03:44 [main] INFO : Explore Department and Enroll Course test
+2025-08-28 09:03:46 [main] INFO : Navigated to /departments
+2025-08-28 09:03:49 [main] INFO : Searching Data Science and AI Name
+2025-08-28 09:03:51 [main] INFO : Exploring Data Science and AI Name
+2025-08-28 09:03:52 [main] INFO : Searching Azure Beginner Name
+2025-08-28 09:03:53 [main] INFO : Enrolling Azure Beginner Course
+2025-08-28 09:03:54 [main] INFO : Course Enrollment message: Successfully enrolled in the course
+2025-08-28 09:03:59 [main] INFO : Navigated to /my-courses
+2025-08-28 09:04:03 [main] INFO : Selecting Pagination: 30
+2025-08-28 09:04:04 [main] INFO : Enrolled Course Card Details test
+2025-08-28 09:04:04 [main] INFO : Course Category for Azure Beginner: Cloud
+2025-08-28 09:04:04 [main] INFO : Course Level for Azure Beginner: Beginner
+2025-08-28 09:04:04 [main] INFO : Course Video Count for Azure Beginner: 🎥 Videos: 40
+2025-08-28 09:04:04 [main] INFO : Course Duration for Azure Beginner: ⏱ Duration: 7 hrs 15 mins
+2025-08-28 09:04:04 [main] INFO : Course Progress percent for Azure Beginner: Progress: 0%
+2025-08-28 09:04:04 [main] INFO : Course Enrolled Successful:Azure Beginner
+2025-08-28 09:04:09 [main] INFO : Header : My Courses
+2025-08-28 09:04:09 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-28 09:04:09 [main] INFO : Inside In progress Tab
+2025-08-28 09:04:10 [main] INFO : Inside Completed Tab
+2025-08-28 09:04:11 [main] INFO : Inside All courses Tab
+2025-08-28 09:05:17 [main] ERROR: UnEnroll Course Not Found
+2025-08-28 09:12:28 [main] INFO : Launching Chrome Browser
+2025-08-28 09:12:28 [main] INFO : Report Name :LandD_Page.html
+2025-08-28 09:12:30 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-28 09:12:30 [main] INFO : Inside Login Page: Learning and Development
+2025-08-28 09:13:46 [main] INFO : Launching Chrome Browser
+2025-08-28 09:13:46 [main] INFO : Report Name :LandD_Page.html
+2025-08-28 09:13:48 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-28 09:13:48 [main] INFO : Inside Login Page: Learning and Development
+2025-08-28 09:14:14 [main] INFO : Logged in to Learning and Development Application
+2025-08-28 09:14:17 [main] INFO : Searching the non existing department test
+2025-08-28 09:14:17 [main] INFO : Navigated to /departments
+2025-08-28 09:14:18 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-28 09:14:19 [main] INFO : No Department Found Message: No departments found matching "@#$%^&*(#$%^"
+2025-08-28 09:14:25 [main] INFO : Searching the non existing course test
+2025-08-28 09:14:25 [main] INFO : Navigated to /departments
+2025-08-28 09:14:26 [main] INFO : Searching Data Science and AI Name
+2025-08-28 09:14:28 [main] INFO : Exploring Data Science and AI Name
+2025-08-28 09:14:29 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-28 09:14:30 [main] INFO : No Course Found Message: No courses found
+2025-08-28 09:14:37 [main] INFO : Explore Department and Enroll Course test
+2025-08-28 09:14:39 [main] INFO : Navigated to /departments
+2025-08-28 09:14:42 [main] INFO : Searching Data Science and AI Name
+2025-08-28 09:14:44 [main] INFO : Exploring Data Science and AI Name
+2025-08-28 09:14:45 [main] INFO : Searching Azure Beginner Name
+2025-08-28 09:14:46 [main] INFO : Enrolling Azure Beginner Course
+2025-08-28 09:14:47 [main] INFO : Course Enrollment message: Successfully enrolled in the course
+2025-08-28 09:14:52 [main] INFO : Navigated to /my-courses
+2025-08-28 09:14:57 [main] INFO : Selecting Pagination: 30
+2025-08-28 09:14:58 [main] INFO : Enrolled Course Card Details test
+2025-08-28 09:14:58 [main] INFO : Course Category for Azure Beginner: Cloud
+2025-08-28 09:14:58 [main] INFO : Course Level for Azure Beginner: Beginner
+2025-08-28 09:14:58 [main] INFO : Course Video Count for Azure Beginner: 🎥 Videos: 40
+2025-08-28 09:14:58 [main] INFO : Course Duration for Azure Beginner: ⏱ Duration: 7 hrs 15 mins
+2025-08-28 09:14:58 [main] INFO : Course Progress percent for Azure Beginner: Progress: 0%
+2025-08-28 09:14:58 [main] INFO : Course Enrolled Successful:Azure Beginner
+2025-08-28 09:15:03 [main] INFO : Header : My Courses
+2025-08-28 09:15:03 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-28 09:15:03 [main] INFO : Inside In progress Tab
+2025-08-28 09:15:03 [main] INFO : Inside Completed Tab
+2025-08-28 09:15:04 [main] INFO : Inside All courses Tab
+2025-08-28 09:15:11 [main] INFO : Un Enrolling Azure Beginner Course
+2025-08-28 09:15:12 [main] INFO : Course Enrollment message: User unenrolled successfully
+2025-08-28 09:15:16 [main] INFO : Continue and update progress for Course test
+2025-08-28 09:15:17 [main] INFO : Progress Percent :Programming
+2025-08-28 09:15:25 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-28 09:15:29 [main] INFO : Video List Count :Video List (1/50) - Video List (1/50)
+2025-08-28 09:15:30 [main] INFO : Video Available in the list:2
+SAP
+2025-08-28 09:15:30 [main] INFO : Select Video from video list
+2025-08-28 09:16:33 [main] INFO : Click Play Video
+2025-08-28 09:16:49 [main] INFO : Video playback moved to the end.
+2025-08-28 09:16:49 [main] INFO : Select Video from video list
+2025-08-28 09:16:55 [main] INFO : Video Completed: Completed
+2025-08-28 09:17:01 [main] INFO : Video List Count :Video List (1/50) - Video List (1/50)
+2025-08-28 09:17:02 [main] INFO : Navigated to /my-courses
+2025-08-28 09:17:02 [main] INFO : Progress Percent :Programming
+2025-08-28 09:17:03 [main] INFO : Navigated to /admin
+2025-08-28 09:17:03 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-28 09:17:07 [main] INFO : Certificates card Value: 7
+2025-08-28 09:17:07 [main] INFO : Departments card Value: 15
+2025-08-28 09:17:07 [main] INFO : Active Courses card Value: 462
+2025-08-28 09:17:07 [main] INFO : Users card Value: 22
+2025-08-28 09:17:08 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01T14:42:26
+2025-08-28 09:17:08 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19T09:30:30
+2025-08-28 09:17:08 [main] INFO : Certificates Details: Anwar Hussain anwar.hussain@criticalriver.com Airflow Beginner 55ab3dc1-faa2-4a14-8279-394a7380e623 2025-08-26T15:45:33
+2025-08-28 09:17:08 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner dc89c4e5-0578-4629-9150-1f842475457a 2025-08-26T12:30:59
+2025-08-28 09:17:08 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Gen AI Beginner d7f5c9e5-c58c-4f57-be35-64bce41875f9 2025-08-26T15:28:25
+2025-08-28 09:17:08 [main] INFO : Certificates Details: chandan chandanlohith.pydi@criticalriver.com Airflow Beginner 923a82ca-31fe-431e-b807-a90c0960dcd8 2025-08-21T19:39:05
+2025-08-28 09:17:08 [main] INFO : Certificates Details: chandan chandanlohith.pydi@criticalriver.com Airflow Intermediate 0a922bcf-35eb-4bd6-a19c-0a46fe004870 2025-08-25T10:38:50
+2025-08-28 09:17:08 [main] INFO : Certificates Admin card Values Match 7
+2025-08-28 09:17:09 [main] INFO : View Certificates
+2025-08-28 09:17:20 [main] INFO : Close Certificate
+2025-08-28 09:17:22 [main] INFO : Search Functionality for User Management table
+2025-08-28 09:17:22 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-28 09:17:22 [main] INFO : Search Functionality for Course Statistics table
+2025-08-28 09:17:23 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-28 09:17:25 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-28 09:17:25 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-28 09:17:28 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-28 09:17:28 [main] INFO : Click Total Users
+2025-08-28 09:17:29 [main] INFO : Course Statistics Data Values Match 10
+2025-08-28 09:17:30 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-28 09:17:34 [main] INFO : Get Certificate List for Course by using Course statistics table test
+2025-08-28 09:17:36 [main] INFO : Course Statistics Data Values Match 5
+2025-08-28 09:17:37 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-28 09:17:42 [main] INFO : Verify Export Functionality for Dashboard Tables
+2025-08-28 09:17:43 [main] INFO : Exporting CSV for Certificates Table
+2025-08-28 09:17:44 [main] INFO : Exporting PDF for Certificates Table
+2025-08-28 09:17:46 [main] INFO : Exporting CSV for Course Statistics Table
+2025-08-28 09:17:47 [main] INFO : Exporting PDF for Course Statistics Table
+2025-08-28 09:17:49 [main] INFO : Exporting CSV for Feedback Overview Table
+2025-08-28 09:17:50 [main] INFO : Exporting PDF for Feedback Overview Table
+2025-08-28 09:17:51 [main] INFO : Verify Searching Non existing data functionality for Dashboard Tables
+2025-08-28 09:17:52 [main] INFO : Non Existing Search for Certificates : No records found
+2025-08-28 09:17:53 [main] INFO : Non Existing Search for Course Statistics : No records found
+2025-08-28 09:17:54 [main] INFO : Non Existing Search for Feedback Overview : No records found
+2025-08-28 09:17:55 [main] INFO : Navigated to /admin/tests
+2025-08-28 09:18:00 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-28 09:18:03 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-28 09:18:04 [main] INFO : Search Functionality for Course Assessments table
+2025-08-28 09:18:04 [main] INFO : ✅ Search validation passed. All Values match: Meter Data Management Beginner
+2025-08-28 09:18:07 [main] INFO : Verify Export Functionality for Tests Tables
+2025-08-28 09:18:08 [main] INFO : Exporting CSV for Assessment Request Notifications Table
+2025-08-28 09:18:08 [main] INFO : Exporting PDF for Assessment Request Notifications Table
+2025-08-28 09:18:10 [main] INFO : Exporting CSV for Course Assessments Table
+2025-08-28 09:18:11 [main] INFO : Exporting PDF for Course Assessments Table
+2025-08-28 09:18:12 [main] INFO : Verify Searching Non existing data functionality for Tests Tables
+2025-08-28 09:18:13 [main] INFO : Non Existing Search for Assessment Request Notifications : No records found
+2025-08-28 09:18:13 [main] INFO : Non Existing Search for Course Assessments : No records found
+2025-08-28 09:18:20 [main] INFO : Navigated to /admin/roles
+2025-08-28 09:18:20 [main] INFO : Search Functionality for User Management table
+2025-08-28 09:18:21 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-28 09:18:22 [main] INFO : Verify Export Functionality for Roles Tables
+2025-08-28 09:18:23 [main] INFO : Exporting CSV for User Management Table
+2025-08-28 09:18:23 [main] INFO : Exporting PDF for User Management Table
+2025-08-28 09:18:25 [main] INFO : Verify Searching Non existing data functionality for Roles Tables
+2025-08-28 09:18:25 [main] INFO : Non Existing Search for User Management : No records found
+2025-08-28 09:18:26 [main] INFO : Navigated to /admin/tests
+2025-08-28 09:18:31 [main] INFO : Selecting Course from dropdown: 210 - Airflow Beginner
+2025-08-28 09:18:32 [main] INFO : Selecting Assessment Number from dropdown: Assessment 1
+2025-08-28 09:18:32 [main] INFO : Enter Assessment or User Id: a6cb19b2-7acb-4ff3-9b4b-76572900d73e
+2025-08-28 09:18:34 [main] INFO : Click Generated button for: Create New Assessment
+2025-08-28 09:18:34 [main] INFO : Assessment Generated message: Self-assessment successfully created for course 210, test_id1
+2025-08-28 09:18:41 [main] INFO : Selecting Course from dropdown: 210 - Airflow Beginner
+2025-08-28 09:18:42 [main] INFO : Enter Assessment or User Id: 32
+2025-08-28 09:18:43 [main] INFO : Selecting Assessment Number from dropdown: Assessment 1
+2025-08-28 09:18:44 [main] INFO : Click Generated button for: Generate Assessment Link For User
+2025-08-28 09:18:45 [main] INFO : Assessment Generated message: Assessment link generated successfully: https://assess.wecreateproblems.com/tests/c2014a23-5a0a-4bf6-9ed0-ef73a1986867/instructions
+2025-08-28 09:18:47 [main] INFO : Navigated to /certificates
+2025-08-28 09:18:48 [main] INFO : Verify Certificate Header: My Certificates
+2025-08-28 09:18:48 [main] INFO : Verify Certificate List: No certificates have been completed
+2025-08-28 09:18:49 [main] INFO : Navigated to /feedback
+2025-08-28 09:18:51 [main] INFO : Feedback Submitted successfully: 
+2025-08-28 09:18:52 [main] INFO : Navigated to /admin
+2025-08-28 09:18:57 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-28 09:19:01 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-28 09:19:06 [main] INFO : Logout From L and D
+2025-08-28 09:19:06 [main] INFO : Logged out Successfully
+2025-08-28 09:19:13 [main] INFO : Testing Ended
+2025-08-28 09:19:13 [main] INFO : ***********
+2025-08-28 09:19:35 [main] INFO : Launching Chrome Browser
+2025-08-28 09:19:36 [main] INFO : Report Name :LandDPage_Report.html
+2025-08-28 09:19:38 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-28 09:19:38 [main] INFO : Inside Login Page: Learning and Development
+2025-08-28 09:20:07 [main] INFO : Logged in to Learning and Development Application
+2025-08-28 09:20:16 [main] INFO : Learning and Development Page navigation Test
+2025-08-28 09:20:16 [main] INFO : Navigated to /my-courses
+2025-08-28 09:20:21 [main] INFO : Inside /my-courses Page 
+2025-08-28 09:20:21 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-28 09:20:24 [main] INFO : Navigated to /departments
+2025-08-28 09:20:29 [main] INFO : Inside /departments Page 
+2025-08-28 09:20:29 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 09:20:31 [main] INFO : Navigated to /certificates
+2025-08-28 09:20:36 [main] INFO : Inside /certificates Page 
+2025-08-28 09:20:36 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-28 09:20:38 [main] INFO : Navigated to /admin
+2025-08-28 09:20:38 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-28 09:20:40 [main] INFO : Navigated to /admin/courses
+2025-08-28 09:20:45 [main] INFO : Inside /admin/courses Tab in Admin Page 
+2025-08-28 09:20:45 [main] INFO : /admin/courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/courses
+2025-08-28 09:20:48 [main] INFO : Navigated to /admin/tests
+2025-08-28 09:20:53 [main] INFO : Inside /admin/tests Tab in Admin Page 
+2025-08-28 09:20:53 [main] INFO : /admin/tests Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/tests
+2025-08-28 09:20:56 [main] INFO : Navigated to /admin/roles
+2025-08-28 09:21:01 [main] INFO : Inside /admin/roles Tab in Admin Page 
+2025-08-28 09:21:01 [main] INFO : /admin/roles Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/roles
+2025-08-28 09:21:04 [main] INFO : Navigated to /admin/dashboard
+2025-08-28 09:21:09 [main] INFO : Inside /admin/dashboard Tab in Admin Page 
+2025-08-28 09:21:09 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-28 09:21:11 [main] INFO : Navigated to /Home
+2025-08-28 09:21:16 [main] INFO : Inside /Home Page 
+2025-08-28 09:21:16 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-28 09:21:19 [main] INFO : Home Page Ui test
+2025-08-28 09:21:19 [main] INFO : Home Page Header Content: Grow your skills, advance your career
+2025-08-28 09:21:19 [main] INFO : Home Page Description Content: Access all the learning resources you need to excel at CriticalRiver
+2025-08-28 09:21:19 [main] INFO : Start Learning Button Available
+2025-08-28 09:21:20 [main] INFO : Header: Browse Courses by Department
+2025-08-28 09:21:20 [main] INFO : Total Courses Card Count: 462
+2025-08-28 09:21:20 [main] INFO : Departments Card Count: 15
+2025-08-28 09:21:20 [main] INFO : Popular Courses Card Count: 5
+2025-08-28 09:21:20 [main] INFO : My Certificates Card Count: 0
+2025-08-28 09:21:20 [main] INFO : My Courses Card Count: 6
+2025-08-28 09:21:21 [main] INFO : Verifying navigation from Stat Cards in Home Page
+2025-08-28 09:21:22 [main] INFO : Clicking on Total Courses card
+2025-08-28 09:21:23 [main] INFO : Clicking on Total Courses Card
+2025-08-28 09:21:23 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 09:21:26 [main] INFO : Navigated to /Home
+2025-08-28 09:21:32 [main] INFO : Clicking on Departments card
+2025-08-28 09:21:33 [main] INFO : Clicking on Departments Card
+2025-08-28 09:21:33 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 09:21:37 [main] INFO : Navigated to /Home
+2025-08-28 09:21:42 [main] INFO : Clicking on Popular Courses card
+2025-08-28 09:21:43 [main] INFO : Clicking on Popular Courses Card
+2025-08-28 09:21:43 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-28 09:21:47 [main] INFO : Navigated to /Home
+2025-08-28 09:21:52 [main] INFO : Clicking on My Certificates card
+2025-08-28 09:21:53 [main] INFO : Clicking on My Certificates Card
+2025-08-28 09:21:53 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-28 09:21:57 [main] INFO : Navigated to /Home
+2025-08-28 09:22:02 [main] INFO : Clicking on My Courses card
+2025-08-28 09:22:03 [main] INFO : Clicking on My Courses Card
+2025-08-28 09:22:03 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-28 09:22:06 [main] INFO : Navigated to /Home
+2025-08-28 09:22:12 [main] INFO : Home Page Continue Learning test
+2025-08-28 09:22:13 [main] INFO : Continue Learning Header is correct: Continue Learning
+2025-08-28 09:22:14 [main] INFO : Continue Learning Course NamePython Beginner
+2025-08-28 09:22:14 [main] INFO : Continue Learning Progress Percentage: 63% complete
+2025-08-28 09:22:14 [main] INFO : Continue Learning Course Category: Programming
+2025-08-28 09:22:14 [main] INFO : Continue Learning Course Last Accessed: Last accessed: Recently
+2025-08-28 09:22:15 [main] INFO : Navigated to Course Video Page
+2025-08-28 09:22:15 [main] INFO : /course-videos Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-28 09:22:17 [main] INFO : Navigated to /Home
+2025-08-28 09:22:19 [main] INFO : Home Page Feature Courses test
+2025-08-28 09:22:20 [main] INFO : Feature Course List Contains : Airflow Beginner course
+2025-08-28 09:22:21 [main] INFO : Feature Course List Contains : Airflow Advanced course
+2025-08-28 09:22:21 [main] INFO : Feature Course List Contains : Statistics Beginner course
+2025-08-28 09:22:22 [main] INFO : Feature Course List Contains : ABAP Beginner course
+2025-08-28 09:22:22 [main] INFO : Feature Course List Contains : Automation Testing (Selenium) Beginner course
+2025-08-28 09:22:24 [main] INFO : Feature Courses contains Department Name: Data Science and AI
+2025-08-28 09:22:24 [main] INFO : Feature Courses contains Course Level: Beginner
+2025-08-28 09:22:24 [main] INFO : Feature Courses contains Name: Airflow Beginner
+2025-08-28 09:22:24 [main] INFO : Feature Courses contains Video Count: 🎥 1 Videos
+2025-08-28 09:22:24 [main] INFO : Feature Courses contains Duration: ⏱ 1 hrs 37 mins
+2025-08-28 09:22:26 [main] INFO : Course Enrollment message: Already enrolled in the course
+2025-08-28 09:22:27 [main] INFO : Home Page Browse Course By Department test
+2025-08-28 09:22:28 [main] INFO : Data Science and AI department is available
+2025-08-28 09:22:28 [main] INFO : Total Courses count for Data Science and AI: 43 courses
+2025-08-28 09:22:29 [main] INFO : ERP Application department is available
+2025-08-28 09:22:29 [main] INFO : Total Courses count for ERP Application: 35 courses
+2025-08-28 09:22:30 [main] INFO : Product Engineering Services department is available
+2025-08-28 09:22:30 [main] INFO : Total Courses count for Product Engineering Services: 29 courses
+2025-08-28 09:22:31 [main] INFO : Hardware and Validation department is available
+2025-08-28 09:22:31 [main] INFO : Total Courses count for Hardware and Validation: 21 courses
+2025-08-28 09:22:32 [main] INFO : H1B Staffing department is available
+2025-08-28 09:22:33 [main] INFO : Total Courses count for H1B Staffing: 21 courses
+2025-08-28 09:22:33 [main] INFO : Salesforce department is available
+2025-08-28 09:22:34 [main] INFO : Total Courses count for Salesforce: 28 courses
+2025-08-28 09:22:34 [main] INFO : DSIL department is available
+2025-08-28 09:22:35 [main] INFO : Total Courses count for DSIL: 49 courses
+2025-08-28 09:22:35 [main] INFO : Enterprise Architecture department is available
+2025-08-28 09:22:36 [main] INFO : Total Courses count for Enterprise Architecture: 34 courses
+2025-08-28 09:22:36 [main] INFO : Global Engineering Org department is available
+2025-08-28 09:22:37 [main] INFO : Total Courses count for Global Engineering Org: 69 courses
+2025-08-28 09:22:37 [main] INFO : Enterprise Integration department is available
+2025-08-28 09:22:38 [main] INFO : Total Courses count for Enterprise Integration: 27 courses
+2025-08-28 09:22:38 [main] INFO : India Public Sector department is available
+2025-08-28 09:22:39 [main] INFO : Total Courses count for India Public Sector: 36 courses
+2025-08-28 09:22:39 [main] INFO : Energy & Water department is available
+2025-08-28 09:22:40 [main] INFO : Total Courses count for Energy & Water: 18 courses
+2025-08-28 09:22:40 [main] INFO : Business Process Services department is available
+2025-08-28 09:22:41 [main] INFO : Total Courses count for Business Process Services: 23 courses
+2025-08-28 09:22:41 [main] INFO : Enabling Team department is available
+2025-08-28 09:22:42 [main] INFO : Total Courses count for Enabling Team: 29 courses
+2025-08-28 09:22:43 [main] INFO : Others department is available
+2025-08-28 09:22:43 [main] INFO : Total Courses count for Others: 0 courses
+2025-08-28 09:22:44 [main] INFO : Click View All Department Link
+2025-08-28 09:22:45 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 09:22:47 [main] INFO : Navigated to /Home
+2025-08-28 09:22:53 [main] INFO : Verify clicking on department card
+2025-08-28 09:22:59 [main] INFO : Navigated to Data Science and AI Department
+2025-08-28 09:23:04 [main] INFO : Navigated to /Home
+2025-08-28 09:23:07 [main] INFO : Navigated to Salesforce Department
+2025-08-28 09:23:12 [main] INFO : Navigated to /Home
+2025-08-28 09:23:13 [main] INFO : Verify Why Criticalriver Academy Info
+2025-08-28 09:23:13 [main] INFO : Academy Header :Why CriticalRiver Academy?
+2025-08-28 09:23:13 [main] INFO : Academy Reason youtube :▶️
+Learn from YouTube
+Access curated YouTube content organized by departments and skills, making it easy to find relevant learning materials.
+2025-08-28 09:23:13 [main] INFO : Academy Reason Certificates :📜
+Earn Certificates
+Complete courses and assessments to earn certificates that demonstrate your skills and expertise.
+2025-08-28 09:23:13 [main] INFO : Academy Reason Learning paths :🗺️
+Structured Learning Paths
+Follow department-specific learning paths designed to help you grow in your role and advance your career.
+2025-08-28 09:23:15 [main] INFO : Ready To StartReady to start learning?
+Take the first step in your learning journey with CriticalRiver Academy
+Explore All Courses
+2025-08-28 09:23:15 [main] INFO : Explore all courses
+2025-08-28 09:23:16 [main] INFO : Navigate to Profile Page
+2025-08-28 09:23:20 [main] INFO : Profile Page Information: Personal Information
+2025-08-28 09:23:20 [main] INFO : Profile Page Information: Full Name:
+Phani Kumar Maddi
+2025-08-28 09:23:20 [main] INFO : Profile Page Information: Email:
+phani.maddi@criticalriver.com
+2025-08-28 09:23:20 [main] INFO : Profile Page Information: Department:
+Data Science and AI
+2025-08-28 09:23:20 [main] INFO : Profile Page Information: Job Title:
+Software Engineer
+2025-08-28 09:23:20 [main] INFO : Profile Page Information: Certifications
+2025-08-28 09:23:20 [main] INFO : Profile Page Information: No certifications
+2025-08-28 09:23:21 [main] INFO : Reserve Rigths: © 2025 CriticalRiver. All rights reserved.
+2025-08-28 09:23:22 [main] INFO : Navigated to /my-courses
+2025-08-28 09:23:22 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-28 09:23:23 [main] INFO : Navigated to /departments
+2025-08-28 09:23:23 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 09:23:25 [main] INFO : Navigated to /help-center
+2025-08-28 09:23:25 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/help-center
+2025-08-28 09:23:26 [main] INFO : Navigated to /feedback
+2025-08-28 09:23:26 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/feedback
+2025-08-28 09:23:27 [main] INFO : Navigated to /certificates
+2025-08-28 09:23:27 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-28 09:23:28 [main] INFO : Navigated to /profile
+2025-08-28 09:23:28 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/profile
+2025-08-28 09:23:29 [main] INFO : Social Media Links
+2025-08-28 09:23:30 [main] INFO : Navigated to Facebook
+2025-08-28 09:23:31 [main] INFO :  Url is Valid :https://www.facebook.com/criticalriver/
+2025-08-28 09:23:33 [main] INFO : Navigated to LinkedIn
+2025-08-28 09:23:35 [main] INFO :  Url is Valid :https://in.linkedin.com/company/criticalriver
+2025-08-28 09:23:38 [main] INFO : Navigated to Instagram
+2025-08-28 09:23:39 [main] INFO :  Url is Valid :https://www.instagram.com/criticalriver/?hl=en
+2025-08-28 09:23:41 [main] INFO : Navigated to Twitter
+2025-08-28 09:23:44 [main] INFO :  Url is Valid :https://x.com/CriticalRiver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+2025-08-28 09:23:47 [main] INFO : Navigated to /Home
+2025-08-28 09:23:50 [main] INFO : Searching the non existing department test
+2025-08-28 09:23:50 [main] INFO : Navigated to /departments
+2025-08-28 09:23:51 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-28 09:23:52 [main] INFO : No Department Found Message: No departments found matching "@#$%^&*(#$%^"
+2025-08-28 09:23:57 [main] INFO : Searching the non existing course test
+2025-08-28 09:23:57 [main] INFO : Navigated to /departments
+2025-08-28 09:23:59 [main] INFO : Searching Data Science and AI Name
+2025-08-28 09:24:01 [main] INFO : Exploring Data Science and AI Name
+2025-08-28 09:24:01 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-28 09:24:02 [main] INFO : No Course Found Message: No courses found
+2025-08-28 09:24:09 [main] INFO : Explore Department and Enroll Course test
+2025-08-28 09:24:11 [main] INFO : Navigated to /departments
+2025-08-28 09:24:14 [main] INFO : Searching Data Science and AI Name
+2025-08-28 09:24:16 [main] INFO : Exploring Data Science and AI Name
+2025-08-28 09:24:17 [main] INFO : Searching Azure Beginner Name
+2025-08-28 09:24:18 [main] INFO : Enrolling Azure Beginner Course
+2025-08-28 09:24:19 [main] INFO : Course Enrollment message: Successfully enrolled in the course
+2025-08-28 09:24:24 [main] INFO : Navigated to /my-courses
+2025-08-28 09:24:28 [main] INFO : Selecting Pagination: 30
+2025-08-28 09:24:29 [main] INFO : Enrolled Course Card Details test
+2025-08-28 09:24:29 [main] INFO : Course Category for Azure Beginner: Cloud
+2025-08-28 09:24:29 [main] INFO : Course Level for Azure Beginner: Beginner
+2025-08-28 09:24:29 [main] INFO : Course Video Count for Azure Beginner: 🎥 Videos: 40
+2025-08-28 09:24:29 [main] INFO : Course Duration for Azure Beginner: ⏱ Duration: 7 hrs 15 mins
+2025-08-28 09:24:29 [main] INFO : Course Progress percent for Azure Beginner: Progress: 0%
+2025-08-28 09:24:29 [main] INFO : Course Enrolled Successful:Azure Beginner
+2025-08-28 09:24:34 [main] INFO : Header : My Courses
+2025-08-28 09:24:34 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-28 09:24:34 [main] INFO : Inside In progress Tab
+2025-08-28 09:24:35 [main] INFO : Inside Completed Tab
+2025-08-28 09:24:36 [main] INFO : Inside All courses Tab
+2025-08-28 09:24:42 [main] INFO : Un Enrolling Azure Beginner Course
+2025-08-28 09:24:43 [main] INFO : Course Enrollment message: User unenrolled successfully
+2025-08-28 09:24:47 [main] INFO : Continue and update progress for Course test
+2025-08-28 09:24:48 [main] INFO : Progress Percent :Programming
+2025-08-28 09:24:56 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-28 09:25:01 [main] INFO : Video List Count :Video List (1/50) - Video List (1/50)
+2025-08-28 09:25:01 [main] INFO : Video Available in the list:2
+SAP
+2025-08-28 09:25:02 [main] INFO : Select Video from video list
+2025-08-28 09:26:04 [main] INFO : Click Play Video
+2025-08-28 09:26:19 [main] INFO : Video playback moved to the end.
+2025-08-28 09:26:20 [main] INFO : Select Video from video list
+2025-08-28 09:26:25 [main] INFO : Video Completed: Completed
+2025-08-28 09:26:31 [main] INFO : Video List Count :Video List (1/50) - Video List (1/50)
+2025-08-28 09:26:32 [main] INFO : Navigated to /my-courses
+2025-08-28 09:26:32 [main] INFO : Progress Percent :Programming
+2025-08-28 09:26:33 [main] INFO : Navigated to /admin
+2025-08-28 09:26:34 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-28 09:26:37 [main] INFO : Certificates card Value: 7
+2025-08-28 09:26:37 [main] INFO : Departments card Value: 15
+2025-08-28 09:26:37 [main] INFO : Active Courses card Value: 462
+2025-08-28 09:26:37 [main] INFO : Users card Value: 22
+2025-08-28 09:26:38 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01T14:42:26
+2025-08-28 09:26:38 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19T09:30:30
+2025-08-28 09:26:38 [main] INFO : Certificates Details: Anwar Hussain anwar.hussain@criticalriver.com Airflow Beginner 55ab3dc1-faa2-4a14-8279-394a7380e623 2025-08-26T15:45:33
+2025-08-28 09:26:38 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner dc89c4e5-0578-4629-9150-1f842475457a 2025-08-26T12:30:59
+2025-08-28 09:26:38 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Gen AI Beginner d7f5c9e5-c58c-4f57-be35-64bce41875f9 2025-08-26T15:28:25
+2025-08-28 09:26:38 [main] INFO : Certificates Details: chandan chandanlohith.pydi@criticalriver.com Airflow Beginner 923a82ca-31fe-431e-b807-a90c0960dcd8 2025-08-21T19:39:05
+2025-08-28 09:26:38 [main] INFO : Certificates Details: chandan chandanlohith.pydi@criticalriver.com Airflow Intermediate 0a922bcf-35eb-4bd6-a19c-0a46fe004870 2025-08-25T10:38:50
+2025-08-28 09:26:38 [main] INFO : Certificates Admin card Values Match 7
+2025-08-28 09:26:40 [main] INFO : View Certificates
+2025-08-28 09:26:50 [main] INFO : Close Certificate
+2025-08-28 09:26:52 [main] INFO : Search Functionality for User Management table
+2025-08-28 09:26:53 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-28 09:26:53 [main] INFO : Search Functionality for Course Statistics table
+2025-08-28 09:26:53 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-28 09:26:56 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-28 09:26:56 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-28 09:27:00 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-28 09:27:00 [main] INFO : Click Total Users
+2025-08-28 09:29:38 [main] INFO : Launching Chrome Browser
+2025-08-28 09:29:38 [main] INFO : Report Name :CSATSurveyReport.html
+2025-08-28 09:29:49 [main] INFO : Web Page URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io
+2025-08-28 09:29:49 [main] INFO : Logo is Available CRSurvey Logo
+2025-08-28 09:29:49 [main] INFO : Inside Login Page: LOGIN
+2025-08-28 09:30:15 [main] INFO : Logged in to CSAT Application
+2025-08-28 09:30:17 [main] INFO : Validating the Header
+2025-08-28 09:30:17 [main] INFO : Header is Valid: Surveys
+2025-08-28 09:30:18 [main] INFO : Validating the Add New Survey Type Popup
+2025-08-28 09:30:21 [main] INFO : Header is Valid: Add Survey Type
+2025-08-28 09:30:22 [main] INFO : Cancel Button Available
+2025-08-28 09:30:22 [main] INFO : Save Button Available
+2025-08-28 09:30:23 [main] INFO : Validating the Add New Survey Popup
+2025-08-28 09:30:24 [main] INFO : Header is Valid: Add New Survey
+2025-08-28 09:30:25 [main] INFO : Cancel Button Available
+2025-08-28 09:30:25 [main] INFO : Save Button Available
+2025-08-28 09:30:26 [main] INFO : Validating the Survey Type Dropdown
+2025-08-28 09:30:26 [main] INFO : All Survey Types Dropdown is Available
+2025-08-28 09:30:27 [main] INFO : Selecting CR CSAT -  Engagement Level Survey Type
+2025-08-28 09:30:29 [main] INFO : Type Column in Valid: CR CSAT -  Engagement Level
+2025-08-28 09:30:32 [main] INFO : Selecting CR CSAT - Development Project Survey Type
+2025-08-28 09:30:34 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-08-28 09:30:36 [main] INFO : Selecting CR CSAT - AMS Project Survey Type
+2025-08-28 09:30:39 [main] INFO : Type Column in Valid: CR CSAT - AMS Project
+2025-08-28 09:30:42 [main] INFO : Survey Type Update Popup Test
+2025-08-28 09:30:43 [main] INFO : Header is Valid: Update Survey Type
+2025-08-28 09:30:43 [main] INFO : Cancel Button Available
+2025-08-28 09:30:43 [main] INFO : Update Button Available
+2025-08-28 09:30:46 [main] INFO : Column Options is valid Header value
+2025-08-28 09:30:46 [main] INFO : Cancel Button Available
+2025-08-28 09:30:46 [main] INFO : OK Button Available
+2025-08-28 09:30:46 [main] INFO : Verifying Start Date Column Option
+2025-08-28 09:30:46 [main] INFO : Column Option visibility is Hide 
+2025-08-28 09:30:48 [main] INFO : Column Option visibility is View 
+2025-08-28 09:30:50 [main] INFO : Verifying End Date Column Option
+2025-08-28 09:30:50 [main] INFO : Column Option visibility is Hide 
+2025-08-28 09:30:51 [main] INFO : Column Option visibility is View 
+2025-08-28 09:30:53 [main] INFO : Verifying Type Column Option
+2025-08-28 09:30:54 [main] INFO : Column Option visibility is Hide 
+2025-08-28 09:30:55 [main] INFO : Column Option visibility is View 
+2025-08-28 09:30:58 [main] INFO : Selecting Pagination 5
+2025-08-28 09:30:58 [main] INFO : 5 pagination Option Selected
+2025-08-28 09:30:59 [main] INFO : Selecting Pagination 15
+2025-08-28 09:30:59 [main] INFO : 15 pagination Option Selected
+2025-08-28 09:31:00 [main] INFO : Selecting Pagination 10
+2025-08-28 09:31:01 [main] INFO : 10 pagination Option Selected
+2025-08-28 09:31:02 [main] INFO : Download CSV File Format 
+2025-08-28 09:31:08 [main] INFO : Download PDF File Format 
+2025-08-28 09:31:14 [main] INFO : Search Survey
+2025-08-28 09:31:15 [main] INFO : Type Column in Valid: CR CSAT - Development Project
+2025-08-28 09:31:17 [main] INFO : Clicking Survey from Table
+2025-08-28 09:31:23 [main] INFO : Header is Valid: CR CSAT - Development Project
+2025-08-28 09:31:25 [main] INFO : Validating Edit Survey from Table
+2025-08-28 09:31:26 [main] INFO : Header is Valid: Edit Survey Details
+2025-08-28 09:31:27 [main] INFO : Cancel Button Available
+2025-08-28 09:31:27 [main] INFO : Save Button Available
+2025-08-28 09:31:30 [main] INFO : Entering invalid characters in type field
+2025-08-28 09:31:34 [main] INFO : Error Message :Survey type name cannot contain special characters.
+2025-08-28 09:31:39 [main] INFO : Entering spaces in type field
+2025-08-28 09:31:41 [main] INFO : Error Message :Survey type name is required
+2025-08-28 09:31:45 [main] INFO : Keeping description field blank
+2025-08-28 09:31:48 [main] INFO : Error Message :Failed to add survey type: Missing name or description
+2025-08-28 09:31:52 [main] INFO : Entering spaces in description field
+2025-08-28 09:31:55 [main] INFO : Error Message :Failed to add survey type: Missing name or description
+2025-08-28 09:31:59 [main] INFO : Creating New Survey Type Test
+2025-08-28 09:32:14 [main] INFO : Creating New Survey with Existing Survey Type Name Test
+2025-08-28 09:32:21 [main] INFO : Error Message :This survey type already exists.
+2025-08-28 09:32:28 [main] INFO : Editing invalid characters in type field for Edit Survey Type Test
+2025-08-28 09:32:30 [main] INFO : Error Message :Survey type name cannot contain special characters.
+2025-08-28 09:32:38 [main] INFO : Editing entering spaces in type field for Edit Survey Type Test
+2025-08-28 09:32:39 [main] INFO : Error Message :Survey type name is required
+2025-08-28 09:32:46 [main] INFO : Entering spaces in description field in Edit Survey Type Test
+2025-08-28 09:32:48 [main] INFO : Error Message :Description cannot be just spaces.
+2025-08-28 09:32:56 [main] INFO : Updating the type and description in Edit Survey type Test
+2025-08-28 09:32:57 [main] INFO : Updating Type: Test Automation
+2025-08-28 09:32:57 [main] INFO : Updating Description: For Automating The CSAT Survey Module
+2025-08-28 09:33:06 [main] INFO : Deleting Existing Survey Type Test
+2025-08-28 09:33:10 [main] INFO : Entering invalid characters in Survey name field
+2025-08-28 09:33:17 [main] INFO : Entering invalid characters in Survey name field: #$%^&*
+2025-08-28 09:33:17 [main] INFO :  Survey Name Error Messgae :No special characters are allowed.
+2025-08-28 09:33:21 [main] INFO : Entering Only Spaces in Survey field
+2025-08-28 09:33:39 [main] INFO : Error Message :Survey Name cannot be empty or just spaces.
+2025-08-28 09:33:42 [main] INFO : Entering Existing name in Survey field
+2025-08-28 09:33:48 [main] INFO : Entering Existing Survey Name : CR CSAT - Development Project
+2025-08-28 09:33:48 [main] INFO :  Survey Name Error Messgae :Survey name already exists
+2025-08-28 09:33:51 [main] INFO : Verify Entering End Date previous than Start date in add survey
+2025-08-28 09:34:09 [main] INFO : Error Message :End Date cannot be earlier than Start Date.
+2025-08-28 09:34:13 [main] INFO : Verify Saving without adding weightage or Section in add survey
+2025-08-28 09:34:31 [main] INFO : Entered Project Start Date: 2025-08-23
+2025-08-28 09:34:32 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-28 09:34:33 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 0%
+2025-08-28 09:34:36 [main] INFO : Verify Saving with Section Name Invalid characters in add survey
+2025-08-28 09:34:57 [main] INFO : Error Message :Section name "#$%^&*" contains invalid characters.
+2025-08-28 09:35:00 [main] INFO : Verify Saving with Section Name only spaces in add survey
+2025-08-28 09:35:04 [main] INFO : Error Message :Section name cannot be empty or just spaces.
+2025-08-28 09:35:06 [main] INFO : Verify Saving with adding weightage less than 100 in add survey
+2025-08-28 09:35:12 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 10%
+2025-08-28 09:35:15 [main] INFO : Verify Saving with adding weightage greater than 100 in add survey
+2025-08-28 09:35:19 [main] INFO : Error Message :Total section weightage must equal 100%. Currently: 200%
+2025-08-28 09:35:21 [main] INFO : Verify Saving with Measure Name Invalid characters in add survey
+2025-08-28 09:35:27 [main] INFO : Error Message :Measure name "#$%^&*" contains invalid characters.
+2025-08-28 09:35:30 [main] INFO : Verify Saving with Measure Name only spaces in add survey
+2025-08-28 09:35:34 [main] INFO : Error Message :Measure name cannot be empty or just spaces.
+2025-08-28 09:35:36 [main] INFO : Verify Saving with Question Name only spaces in add survey
+2025-08-28 09:35:42 [main] INFO : Error Message :Question name cannot be empty or just spaces.
+2025-08-28 09:35:46 [main] INFO : Keeping Options as Blank in Add Survey
+2025-08-28 09:35:49 [main] INFO : Error Message :All options must have values filled in.
+2025-08-28 09:35:52 [main] INFO : Keeping Options Weightage as Blank in Add Survey
+2025-08-28 09:35:54 [main] INFO : Error Message :Checkbox option weightage must be a positive number.
+2025-08-28 09:35:57 [main] INFO : Adding only Section without adding Measure and Question in Add Survey
+2025-08-28 09:36:00 [main] INFO : Entered Survey name: CSAT Test Automation
+2025-08-28 09:36:03 [main] INFO : Entered Survey Type: CR CSAT - Resource (TOD)
+2025-08-28 09:36:18 [main] INFO : Entered Section Name: Delivery
+2025-08-28 09:36:19 [main] INFO : Entered Section Weightage: 100
+2025-08-28 09:36:22 [main] INFO : Error Message :At least one section must have one measure with one question.
+2025-08-28 09:36:28 [main] INFO : Adding Section and Measure without adding Question in Add Survey
+2025-08-28 09:36:33 [main] INFO : Entered Measure Name: Capabilities
+2025-08-28 09:36:37 [main] INFO : Error Message :At least one section must have one measure with one question.
+2025-08-28 09:36:43 [main] INFO : Creating Single Section, Measure,Question in Add Survey
+2025-08-28 09:36:45 [main] INFO : Entered Survey name: CSAT Test Automation
+2025-08-28 09:36:48 [main] INFO : Entered Survey Type: CR CSAT - Resource (TOD)
+2025-08-28 09:37:01 [main] INFO : Entered Project Start Date: 2025-08-23
+2025-08-28 09:37:02 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-28 09:37:05 [main] INFO : Entered Section Name: Delivery
+2025-08-28 09:37:06 [main] INFO : Entered Section Weightage: 100
+2025-08-28 09:37:08 [main] INFO : Entered Measure Name: Capabilities
+2025-08-28 09:37:10 [main] INFO : Entered Question Name: This is to test question 1
+2025-08-28 09:37:11 [main] INFO : Entered Options 1
+2025-08-28 09:37:19 [main] INFO : Entered Options 2
+2025-08-28 09:37:27 [main] INFO : Entered Options 3
+2025-08-28 09:37:38 [main] INFO : Created Survey is shown in table: CSAT Test Automation
+2025-08-28 09:37:39 [main] INFO : Creating Multiple Section, Measure,Question in Add Survey
+2025-08-28 09:37:43 [main] INFO : Entered Survey name: Test Automation Survey
+2025-08-28 09:37:45 [main] INFO : Entered Survey Type: CR CSAT - Development Project
+2025-08-28 09:37:58 [main] INFO : Entered Project Start Date: 2025-08-23
+2025-08-28 09:37:59 [main] INFO : Entered Project End Date: 2025-08-31
+2025-08-28 09:37:59 [main] INFO : ___Creating First Section___
+2025-08-28 09:38:02 [main] INFO : Entered Section Name: Delivery
+2025-08-28 09:38:03 [main] INFO : Entered Section Weightage: 50
+2025-08-28 09:38:05 [main] INFO : Entered Measure Name: Quality
+2025-08-28 09:38:07 [main] INFO : Entered Question Name: This is to test question 1
+2025-08-28 09:38:08 [main] INFO : Entered Options 1
+2025-08-28 09:38:16 [main] INFO : Entered Options 2
+2025-08-28 09:38:23 [main] INFO : Entered Options 3
+2025-08-28 09:38:26 [main] INFO : ___Creating Second Section___
+2025-08-28 09:38:29 [main] INFO : Entered Section Name: Accountability
+2025-08-28 09:38:30 [main] INFO : Entered Section Weightage: 20
+2025-08-28 09:38:32 [main] INFO : Entered Measure Name: Ownership
+2025-08-28 09:38:34 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-28 09:38:36 [main] INFO : Entered Options 1
+2025-08-28 09:38:44 [main] INFO : Entered Options 2
+2025-08-28 09:38:52 [main] INFO : Entered Options 3
+2025-08-28 09:38:57 [main] INFO : Entered Question Name: This is to test question 3
+2025-08-28 09:39:00 [main] INFO : Entered Options 1
+2025-08-28 09:39:07 [main] INFO : Entered Options 2
+2025-08-28 09:39:15 [main] INFO : Entered Options 3
+2025-08-28 09:39:18 [main] INFO : ___Creating Custom Section___
+2025-08-28 09:39:21 [main] INFO : Entered Section Name: Testing Section
+2025-08-28 09:39:22 [main] INFO : Entered Section Weightage: 30
+2025-08-28 09:39:25 [main] INFO : Entered Measure Name: Testing Measure
+2025-08-28 09:39:27 [main] INFO : Entered Question Name: This is to test question 4
+2025-08-28 09:39:28 [main] INFO : Entered Options 1
+2025-08-28 09:39:36 [main] INFO : Entered Options 2
+2025-08-28 09:39:44 [main] INFO : Entered Options 3
+2025-08-28 09:39:45 [main] INFO : Multiple Measure for Same Section
+2025-08-28 09:39:48 [main] INFO : Entered Measure Name: SLA
+2025-08-28 09:39:50 [main] INFO : Entered Question Name: Provide Competative rating
+2025-08-28 09:40:06 [main] INFO : Created Survey is shown in table: Test Automation Survey
+2025-08-28 09:40:07 [main] INFO : Verify Saving with adding weightage less than 100 in edit survey
+2025-08-28 09:40:17 [main] INFO : Error Message :
+2025-08-28 09:40:19 [main] INFO : Verify Saving with adding weightage greater than 100 in edit survey
+2025-08-28 09:40:22 [main] INFO : Error Message :Total weightage for sections must be exactly 100%. Currently: 200%
+2025-08-28 09:40:30 [main] INFO : Adding only Section without adding Measure and Question in Edit Survey
+2025-08-28 09:40:37 [main] INFO : Entered Section Name: Ownership
+2025-08-28 09:40:43 [main] INFO : Entered Section Weightage: 50
+2025-08-28 09:40:45 [main] INFO : Error Message :Section "Ownership" must have at least one measure.
+2025-08-28 09:40:52 [main] INFO : Adding Section and Measure without adding Question in Edit Survey
+2025-08-28 09:41:07 [main] INFO : Entered Measure Name: Quality
+2025-08-28 09:41:08 [main] INFO : Error Message :Section "Ownership" must have at least one measure with at least one question.
+2025-08-28 09:41:12 [main] INFO : Keeping Options Weightage as Blank in edit Survey
+2025-08-28 09:41:22 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-28 09:41:28 [main] INFO : Error Message :Weightage is required for option 1 in question "This is to test question 2" in section "Ownership".
+2025-08-28 09:41:32 [main] INFO : Adding New Section,Measure,Question for existing survey Test
+2025-08-28 09:41:45 [main] INFO : Entered Section Name: Ownership
+2025-08-28 09:41:46 [main] INFO : Entered Section Weightage: 50
+2025-08-28 09:41:55 [main] INFO : Entered Measure Name: Quality
+2025-08-28 09:42:04 [main] INFO : Entered Question Name: This is to test question 2
+2025-08-28 09:42:13 [main] INFO : Entered Options 1
+2025-08-28 09:42:27 [main] INFO : Entered Options 2
+2025-08-28 09:42:41 [main] INFO : Entered Options 3
+2025-08-28 09:43:17 [main] INFO : Clicking Survey from Table
+2025-08-28 09:43:27 [main] INFO : Header is Valid: CSAT Test Automation
+2025-08-28 09:43:28 [main] INFO : Section is Updated: Ownership(50%)
+2025-08-28 09:43:31 [main] INFO : Adding New Measure and Question for existing section Test
+2025-08-28 09:43:50 [main] INFO : Entered Measure Name: Ownership
+2025-08-28 09:43:59 [main] INFO : Entered Question Name: This is to test question 3
+2025-08-28 09:44:08 [main] INFO : Entered Options 2
+2025-08-28 09:44:23 [main] INFO : Entered Options 3
+2025-08-28 09:44:39 [main] INFO : Adding New Question for existing measure Test
+2025-08-28 09:45:13 [main] INFO : Entered Question Name: This is to test question 5
+2025-08-28 09:45:22 [main] INFO : Entered Options 4
+2025-08-28 09:45:38 [main] INFO : Adding New option for existing Question Test
+2025-08-28 09:46:16 [main] INFO : Entered Options 5
+2025-08-28 09:46:37 [main] INFO : Deleting Existing section in edit survey detail popup without saving
+2025-08-28 09:47:23 [main] INFO : Clicking Survey from Table
+2025-08-28 09:47:33 [main] INFO : Header is Valid: CSAT Test Automation
+2025-08-28 09:47:35 [main] INFO : Section is Updated: Ownership(50%)
+2025-08-28 09:47:42 [main] INFO : Deleting Existing section in edit survey detail popup
+2025-08-28 09:48:45 [main] INFO : Clicking Survey from Table
+2025-08-28 09:48:55 [main] INFO : Header is Valid: CSAT Test Automation
+2025-08-28 09:49:02 [main] INFO : Deleting existing Survey
+2025-08-28 09:49:22 [main] INFO : Survey Deleted: CSAT Test Automation
+2025-08-28 09:49:25 [main] INFO : Validating the Header
+2025-08-28 09:49:25 [main] INFO : Header is Valid: Clients
+2025-08-28 09:49:25 [main] INFO : Selecting Pagination 5
+2025-08-28 09:49:26 [main] INFO : 5 pagination Option Selected
+2025-08-28 09:49:26 [main] INFO : Selecting Pagination 15
+2025-08-28 09:49:26 [main] INFO : 15 pagination Option Selected
+2025-08-28 09:49:27 [main] INFO : Selecting Pagination 10
+2025-08-28 09:49:27 [main] INFO : 10 pagination Option Selected
+2025-08-28 09:49:28 [main] INFO : Validating the Client
+2025-08-28 09:49:29 [main] INFO : Search for existing client
+2025-08-28 09:49:30 [main] INFO : AAA Client is Available
+2025-08-28 09:49:30 [main] INFO : Search for non existing client
+2025-08-28 09:49:31 [main] INFO : NO CLIENTS FOUND
+2025-08-28 09:49:31 [main] INFO : Entering Only Spaces characters in Owner name field
+2025-08-28 09:49:36 [main] INFO : Owner Email Error :Please provide both owner name and email for all owners.
+2025-08-28 09:49:39 [main] INFO : Entering Invalid Characters in Owner name field
+2025-08-28 09:49:44 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-28 09:49:44 [main] INFO : Owner Name Error:Name can only contain letters, numbers, and spaces (cannot be empty or only spaces)
+2025-08-28 09:49:46 [main] INFO : Entering Invalid Characters in Owner email field
+2025-08-28 09:49:51 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-28 09:49:51 [main] INFO : Owner Email Error:Please enter a valid email address (e.g., user@example.com)
+2025-08-28 09:49:54 [main] INFO : Entering Duplicate owner contacts
+2025-08-28 09:50:03 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-28 09:50:04 [main] INFO : Owner Email Error:This email is already used
+2025-08-28 09:50:06 [main] INFO : Before Adding owner contact using add Owner popup
+2025-08-28 09:50:07 [main] INFO : Client Name: Christopher Vialva
+2025-08-28 09:50:07 [main] INFO : Client Email: chris.vialva@criticalriver.com
+2025-08-28 09:50:24 [main] INFO : After Adding owner contact using add Owner popup
+2025-08-28 09:50:24 [main] INFO : Client Name: Christopher Vialva,Phani Kumar Maddi
+2025-08-28 09:50:24 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-28 09:50:26 [main] INFO : Validating Try to delete owner contact when only one contact is available in edit owner in clients
+2025-08-28 09:50:32 [main] INFO : Delete Button is Disabled
+2025-08-28 09:50:35 [main] INFO : Entering Only Spaces characters in Owner name field
+2025-08-28 09:50:41 [main] INFO : Owner Email Error :
+2025-08-28 09:50:43 [main] INFO : Entering Invalid Characters in Owner name field
+2025-08-28 09:50:48 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-28 09:50:48 [main] INFO : Owner Name Error:Name can only contain letters, numbers, and spaces (cannot be empty or only spaces)
+2025-08-28 09:50:51 [main] INFO : Entering Invalid Characters in Owner email field
+2025-08-28 09:50:55 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-28 09:50:56 [main] INFO : Owner Email Error:Please enter a valid email address (e.g., user@example.com)
+2025-08-28 09:50:58 [main] INFO : Entering Duplicate owner contacts in edit
+2025-08-28 09:51:03 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-28 09:51:03 [main] INFO : Owner Email Error:This email is already used
+2025-08-28 09:51:05 [main] INFO : Entering Same Owner Details that are already existis for that client 
+2025-08-28 09:51:06 [main] INFO : Client Name: Christopher Vialva,Phani Kumar Maddi
+2025-08-28 09:51:06 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-28 09:51:16 [main] INFO : Owner Email Error :Please correct invalid fields.
+2025-08-28 09:51:16 [main] INFO : Before Updating owner contact using Edit Owner popup
+2025-08-28 09:51:17 [main] INFO : Client Name: Christopher Vialva,Phani Kumar Maddi
+2025-08-28 09:51:17 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-28 09:51:31 [main] INFO : After Updating owner contact using Edit Owner popup
+2025-08-28 09:51:32 [main] INFO : Client Name: Christopher Vialva,Phani Maddi
+2025-08-28 09:51:32 [main] INFO : Client Email: chris.vialva@criticalriver.com,phani.maddi@criticalriver.com
+2025-08-28 09:51:43 [main] INFO : Send Survey to client using send survey Send
+2025-08-28 09:51:45 [main] INFO : Selecting Client from dropdown: AAA
+2025-08-28 09:51:46 [main] INFO : Selecting Client Name from Owners: Phani Maddi
+2025-08-28 09:51:47 [main] INFO : Subject Retrieved Based on Survey Type
+2025-08-28 09:51:47 [main] INFO : We Value Your Feedback – CR CSAT - Engagement Level Survey
+2025-08-28 09:51:47 [main] INFO : Body Retrieved Based on Survey Type
+2025-08-28 09:51:47 [main] INFO : Client: AAA
+Contact: Phani Maddi
+Survey: CR CSAT - Engagement Level
+URL: https://crsurveyapp5-frontend-dev.ashyhill-3eede200.eastus.azurecontainerapps.io/surveypage/d4c6178fdc5841758e5273a3ec311e12
+2025-08-28 09:52:08 [main] INFO : Total Surveys Sent Card count:237
+2025-08-28 09:52:08 [main] INFO : Total Responses Received Card count:193
+2025-08-28 09:52:08 [main] INFO : Average Response Rate Card count:81.43%
+2025-08-28 09:52:08 [main] INFO : Highest Responded Survey Card count:CR CSAT - Engagement Level
+2025-08-28 09:52:48 [main] INFO : Inside Customer Mail
+2025-08-28 09:53:58 [main] ERROR: Survey mail Not Available 
+2025-08-28 09:55:01 [main] ERROR: Take Survey button Not Available 
+2025-08-28 09:56:12 [main] ERROR: Header is not Available
+2025-08-28 09:56:12 [main] INFO : Inside Feed back Form
+2025-08-28 09:57:14 [main] ERROR: Rating Button Not Available 
+2025-08-28 09:57:51 [main] INFO : Launching Chrome Browser
+2025-08-28 09:57:51 [main] INFO : Report Name :LandDPage_Report.html
+2025-08-28 09:57:53 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-28 09:57:53 [main] INFO : Inside Login Page: Learning and Development
+2025-08-28 09:58:17 [main] INFO : Logged in to Learning and Development Application
+2025-08-28 09:58:21 [main] INFO : Learning and Development Page navigation Test
+2025-08-28 09:58:22 [main] INFO : Navigated to /my-courses
+2025-08-28 09:58:27 [main] INFO : Inside /my-courses Page 
+2025-08-28 09:58:27 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-28 09:58:30 [main] INFO : Navigated to /departments
+2025-08-28 09:58:35 [main] INFO : Inside /departments Page 
+2025-08-28 09:58:35 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 09:58:37 [main] INFO : Navigated to /certificates
+2025-08-28 09:58:42 [main] INFO : Inside /certificates Page 
+2025-08-28 09:58:42 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-28 09:58:44 [main] INFO : Navigated to /admin
+2025-08-28 09:58:44 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-28 09:58:47 [main] INFO : Navigated to /admin/courses
+2025-08-28 09:58:52 [main] INFO : Inside /admin/courses Tab in Admin Page 
+2025-08-28 09:58:52 [main] INFO : /admin/courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/courses
+2025-08-28 09:58:55 [main] INFO : Navigated to /admin/tests
+2025-08-28 09:59:00 [main] INFO : Inside /admin/tests Tab in Admin Page 
+2025-08-28 09:59:00 [main] INFO : /admin/tests Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/tests
+2025-08-28 09:59:03 [main] INFO : Navigated to /admin/roles
+2025-08-28 09:59:08 [main] INFO : Inside /admin/roles Tab in Admin Page 
+2025-08-28 09:59:08 [main] INFO : /admin/roles Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/roles
+2025-08-28 09:59:11 [main] INFO : Navigated to /admin/dashboard
+2025-08-28 09:59:16 [main] INFO : Inside /admin/dashboard Tab in Admin Page 
+2025-08-28 09:59:16 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-08-28 09:59:18 [main] INFO : Navigated to /Home
+2025-08-28 09:59:23 [main] INFO : Inside /Home Page 
+2025-08-28 09:59:23 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-28 09:59:26 [main] INFO : Home Page Ui test
+2025-08-28 09:59:26 [main] INFO : Home Page Header Content: Grow your skills, advance your career
+2025-08-28 09:59:26 [main] INFO : Home Page Description Content: Access all the learning resources you need to excel at CriticalRiver
+2025-08-28 09:59:26 [main] INFO : Start Learning Button Available
+2025-08-28 09:59:27 [main] INFO : Header: Browse Courses by Department
+2025-08-28 09:59:27 [main] INFO : Total Courses Card Count: 462
+2025-08-28 09:59:27 [main] INFO : Departments Card Count: 15
+2025-08-28 09:59:27 [main] INFO : Popular Courses Card Count: 5
+2025-08-28 09:59:27 [main] INFO : My Certificates Card Count: 0
+2025-08-28 09:59:27 [main] INFO : My Courses Card Count: 6
+2025-08-28 09:59:28 [main] INFO : Verifying navigation from Stat Cards in Home Page
+2025-08-28 09:59:29 [main] INFO : Clicking on Total Courses card
+2025-08-28 09:59:31 [main] INFO : Clicking on Total Courses Card
+2025-08-28 09:59:31 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 09:59:34 [main] INFO : Navigated to /Home
+2025-08-28 09:59:40 [main] INFO : Clicking on Departments card
+2025-08-28 09:59:41 [main] INFO : Clicking on Departments Card
+2025-08-28 09:59:41 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 09:59:45 [main] INFO : Navigated to /Home
+2025-08-28 09:59:50 [main] INFO : Clicking on Popular Courses card
+2025-08-28 09:59:51 [main] INFO : Clicking on Popular Courses Card
+2025-08-28 09:59:51 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-08-28 09:59:55 [main] INFO : Navigated to /Home
+2025-08-28 10:00:01 [main] INFO : Clicking on My Certificates card
+2025-08-28 10:00:02 [main] INFO : Clicking on My Certificates Card
+2025-08-28 10:00:02 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-28 10:00:05 [main] INFO : Navigated to /Home
+2025-08-28 10:00:11 [main] INFO : Clicking on My Courses card
+2025-08-28 10:00:12 [main] INFO : Clicking on My Courses Card
+2025-08-28 10:00:12 [main] INFO : /my-courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-28 10:00:15 [main] INFO : Navigated to /Home
+2025-08-28 10:00:21 [main] INFO : Home Page Continue Learning test
+2025-08-28 10:00:22 [main] INFO : Continue Learning Header is correct: Continue Learning
+2025-08-28 10:00:24 [main] INFO : Continue Learning Course NamePython Beginner
+2025-08-28 10:00:24 [main] INFO : Continue Learning Progress Percentage: 63% complete
+2025-08-28 10:00:24 [main] INFO : Continue Learning Course Category: Programming
+2025-08-28 10:00:24 [main] INFO : Continue Learning Course Last Accessed: Last accessed: Recently
+2025-08-28 10:00:24 [main] INFO : Navigated to Course Video Page
+2025-08-28 10:00:25 [main] INFO : /course-videos Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-28 10:00:27 [main] INFO : Navigated to /Home
+2025-08-28 10:00:29 [main] INFO : Home Page Feature Courses test
+2025-08-28 10:00:30 [main] INFO : Feature Course List Contains : Airflow Beginner course
+2025-08-28 10:00:30 [main] INFO : Feature Course List Contains : Airflow Advanced course
+2025-08-28 10:00:31 [main] INFO : Feature Course List Contains : Statistics Beginner course
+2025-08-28 10:00:31 [main] INFO : Feature Course List Contains : ABAP Beginner course
+2025-08-28 10:00:32 [main] INFO : Feature Course List Contains : Automation Testing (Selenium) Beginner course
+2025-08-28 10:00:34 [main] INFO : Feature Courses contains Department Name: Data Science and AI
+2025-08-28 10:00:34 [main] INFO : Feature Courses contains Course Level: Beginner
+2025-08-28 10:00:34 [main] INFO : Feature Courses contains Name: Airflow Beginner
+2025-08-28 10:00:34 [main] INFO : Feature Courses contains Video Count: 🎥 1 Videos
+2025-08-28 10:00:34 [main] INFO : Feature Courses contains Duration: ⏱ 1 hrs 37 mins
+2025-08-28 10:00:36 [main] INFO : Course Enrollment message: Already enrolled in the course
+2025-08-28 10:00:36 [main] INFO : Home Page Browse Course By Department test
+2025-08-28 10:00:38 [main] INFO : Data Science and AI department is available
+2025-08-28 10:00:38 [main] INFO : Total Courses count for Data Science and AI: 43 courses
+2025-08-28 10:00:39 [main] INFO : ERP Application department is available
+2025-08-28 10:00:39 [main] INFO : Total Courses count for ERP Application: 35 courses
+2025-08-28 10:00:40 [main] INFO : Product Engineering Services department is available
+2025-08-28 10:00:40 [main] INFO : Total Courses count for Product Engineering Services: 29 courses
+2025-08-28 10:00:41 [main] INFO : Hardware and Validation department is available
+2025-08-28 10:00:41 [main] INFO : Total Courses count for Hardware and Validation: 21 courses
+2025-08-28 10:00:42 [main] INFO : H1B Staffing department is available
+2025-08-28 10:00:42 [main] INFO : Total Courses count for H1B Staffing: 21 courses
+2025-08-28 10:00:43 [main] INFO : Salesforce department is available
+2025-08-28 10:00:43 [main] INFO : Total Courses count for Salesforce: 28 courses
+2025-08-28 10:00:44 [main] INFO : DSIL department is available
+2025-08-28 10:00:45 [main] INFO : Total Courses count for DSIL: 49 courses
+2025-08-28 10:00:45 [main] INFO : Enterprise Architecture department is available
+2025-08-28 10:00:46 [main] INFO : Total Courses count for Enterprise Architecture: 34 courses
+2025-08-28 10:00:46 [main] INFO : Global Engineering Org department is available
+2025-08-28 10:00:47 [main] INFO : Total Courses count for Global Engineering Org: 69 courses
+2025-08-28 10:00:47 [main] INFO : Enterprise Integration department is available
+2025-08-28 10:00:48 [main] INFO : Total Courses count for Enterprise Integration: 27 courses
+2025-08-28 10:00:48 [main] INFO : India Public Sector department is available
+2025-08-28 10:00:49 [main] INFO : Total Courses count for India Public Sector: 36 courses
+2025-08-28 10:00:49 [main] INFO : Energy & Water department is available
+2025-08-28 10:00:50 [main] INFO : Total Courses count for Energy & Water: 18 courses
+2025-08-28 10:00:50 [main] INFO : Business Process Services department is available
+2025-08-28 10:00:51 [main] INFO : Total Courses count for Business Process Services: 23 courses
+2025-08-28 10:00:52 [main] INFO : Enabling Team department is available
+2025-08-28 10:00:52 [main] INFO : Total Courses count for Enabling Team: 29 courses
+2025-08-28 10:00:53 [main] INFO : Others department is available
+2025-08-28 10:00:53 [main] INFO : Total Courses count for Others: 0 courses
+2025-08-28 10:00:54 [main] INFO : Click View All Department Link
+2025-08-28 10:00:55 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 10:00:57 [main] INFO : Navigated to /Home
+2025-08-28 10:01:03 [main] INFO : Verify clicking on department card
+2025-08-28 10:01:09 [main] INFO : Navigated to Data Science and AI Department
+2025-08-28 10:01:15 [main] INFO : Navigated to /Home
+2025-08-28 10:01:17 [main] INFO : Navigated to Salesforce Department
+2025-08-28 10:01:23 [main] INFO : Navigated to /Home
+2025-08-28 10:01:24 [main] INFO : Verify Why Criticalriver Academy Info
+2025-08-28 10:01:24 [main] INFO : Academy Header :Why CriticalRiver Academy?
+2025-08-28 10:01:24 [main] INFO : Academy Reason youtube :▶️
+Learn from YouTube
+Access curated YouTube content organized by departments and skills, making it easy to find relevant learning materials.
+2025-08-28 10:01:24 [main] INFO : Academy Reason Certificates :📜
+Earn Certificates
+Complete courses and assessments to earn certificates that demonstrate your skills and expertise.
+2025-08-28 10:01:24 [main] INFO : Academy Reason Learning paths :🗺️
+Structured Learning Paths
+Follow department-specific learning paths designed to help you grow in your role and advance your career.
+2025-08-28 10:01:26 [main] INFO : Ready To StartReady to start learning?
+Take the first step in your learning journey with CriticalRiver Academy
+Explore All Courses
+2025-08-28 10:01:26 [main] INFO : Explore all courses
+2025-08-28 10:01:28 [main] INFO : Navigate to Profile Page
+2025-08-28 10:01:31 [main] INFO : Profile Page Information: Personal Information
+2025-08-28 10:01:31 [main] INFO : Profile Page Information: Full Name:
+Phani Kumar Maddi
+2025-08-28 10:01:31 [main] INFO : Profile Page Information: Email:
+phani.maddi@criticalriver.com
+2025-08-28 10:01:31 [main] INFO : Profile Page Information: Department:
+Data Science and AI
+2025-08-28 10:01:31 [main] INFO : Profile Page Information: Job Title:
+Software Engineer
+2025-08-28 10:01:31 [main] INFO : Profile Page Information: Certifications
+2025-08-28 10:01:31 [main] INFO : Profile Page Information: No certifications
+2025-08-28 10:01:32 [main] INFO : Reserve Rigths: © 2025 CriticalRiver. All rights reserved.
+2025-08-28 10:01:33 [main] INFO : Navigated to /my-courses
+2025-08-28 10:01:33 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses
+2025-08-28 10:01:35 [main] INFO : Navigated to /departments
+2025-08-28 10:01:35 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-08-28 10:01:36 [main] INFO : Navigated to /help-center
+2025-08-28 10:01:36 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/help-center
+2025-08-28 10:01:38 [main] INFO : Navigated to /feedback
+2025-08-28 10:01:38 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/feedback
+2025-08-28 10:01:39 [main] INFO : Navigated to /certificates
+2025-08-28 10:01:39 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-08-28 10:01:40 [main] INFO : Navigated to /profile
+2025-08-28 10:01:40 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/profile
+2025-08-28 10:01:41 [main] INFO : Social Media Links
+2025-08-28 10:01:42 [main] INFO : Navigated to Facebook
+2025-08-28 10:01:43 [main] INFO :  Url is Valid :https://www.facebook.com/criticalriver/
+2025-08-28 10:01:45 [main] INFO : Navigated to LinkedIn
+2025-08-28 10:01:47 [main] INFO :  Url is Valid :https://in.linkedin.com/company/criticalriver
+2025-08-28 10:01:50 [main] INFO : Navigated to Instagram
+2025-08-28 10:01:51 [main] INFO :  Url is Valid :https://www.instagram.com/criticalriver/?hl=en
+2025-08-28 10:01:54 [main] INFO : Navigated to Twitter
+2025-08-28 10:01:58 [main] INFO :  Url is Valid :https://x.com/CriticalRiver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+2025-08-28 10:02:02 [main] INFO : Navigated to /Home
+2025-08-28 10:02:05 [main] INFO : Searching the non existing department test
+2025-08-28 10:02:06 [main] INFO : Navigated to /departments
+2025-08-28 10:02:07 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-28 10:02:07 [main] INFO : No Department Found Message: No departments found matching "@#$%^&*(#$%^"
+2025-08-28 10:02:14 [main] INFO : Searching the non existing course test
+2025-08-28 10:02:14 [main] INFO : Navigated to /departments
+2025-08-28 10:02:15 [main] INFO : Searching Data Science and AI Name
+2025-08-28 10:02:17 [main] INFO : Exploring Data Science and AI Name
+2025-08-28 10:02:17 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-28 10:02:18 [main] INFO : No Course Found Message: No courses found
+2025-08-28 10:02:25 [main] INFO : Explore Department and Enroll Course test
+2025-08-28 10:02:27 [main] INFO : Navigated to /departments
+2025-08-28 10:02:30 [main] INFO : Searching Data Science and AI Name
+2025-08-28 10:02:33 [main] INFO : Exploring Data Science and AI Name
+2025-08-28 10:02:34 [main] INFO : Searching Azure Beginner Name
+2025-08-28 10:02:35 [main] INFO : Enrolling Azure Beginner Course
+2025-08-28 10:02:36 [main] INFO : Course Enrollment message: Successfully enrolled in the course
+2025-08-28 10:02:41 [main] INFO : Navigated to /my-courses
+2025-08-28 10:02:45 [main] INFO : Selecting Pagination: 30
+2025-08-28 10:02:46 [main] INFO : Enrolled Course Card Details test
+2025-08-28 10:02:46 [main] INFO : Course Category for Azure Beginner: Cloud
+2025-08-28 10:02:46 [main] INFO : Course Level for Azure Beginner: Beginner
+2025-08-28 10:02:46 [main] INFO : Course Video Count for Azure Beginner: 🎥 Videos: 40
+2025-08-28 10:02:46 [main] INFO : Course Duration for Azure Beginner: ⏱ Duration: 7 hrs 15 mins
+2025-08-28 10:02:46 [main] INFO : Course Progress percent for Azure Beginner: Progress: 0%
+2025-08-28 10:02:46 [main] INFO : Course Enrolled Successful:Azure Beginner
+2025-08-28 10:02:51 [main] INFO : Header : My Courses
+2025-08-28 10:02:51 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-28 10:02:52 [main] INFO : Inside In progress Tab
+2025-08-28 10:02:53 [main] INFO : Inside Completed Tab
+2025-08-28 10:02:54 [main] INFO : Inside All courses Tab
+2025-08-28 10:03:00 [main] INFO : Un Enrolling Azure Beginner Course
+2025-08-28 10:03:02 [main] INFO : Course Enrollment message: User unenrolled successfully
+2025-08-28 10:03:06 [main] INFO : Continue and update progress for Course test
+2025-08-28 10:03:07 [main] INFO : Progress Percent :Testing
+2025-08-28 10:03:15 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-28 10:03:19 [main] INFO : Video List Count :Video List (16/50) - Video List (16/50)
+2025-08-28 10:03:20 [main] INFO : Video Available in the list:17
+Selenium
+2025-08-28 10:03:20 [main] INFO : Select Video from video list
+2025-08-28 10:04:23 [main] INFO : Click Play Video
+2025-08-28 10:04:42 [main] INFO : Video playback moved to the end.
+2025-08-28 10:04:43 [main] INFO : Select Video from video list
+2025-08-28 10:04:48 [main] INFO : Video Completed: Completed
+2025-08-28 10:04:54 [main] INFO : Video List Count :Video List (16/50) - Video List (16/50)
+2025-08-28 10:04:55 [main] INFO : Navigated to /my-courses
+2025-08-28 10:04:56 [main] INFO : Progress Percent :Testing
+2025-08-28 10:04:57 [main] INFO : Navigated to /admin
+2025-08-28 10:04:57 [main] INFO : Verify Admin page cards in dashboard tab
+2025-08-28 10:05:00 [main] INFO : Certificates card Value: 7
+2025-08-28 10:05:00 [main] INFO : Departments card Value: 15
+2025-08-28 10:05:00 [main] INFO : Active Courses card Value: 462
+2025-08-28 10:05:00 [main] INFO : Users card Value: 22
+2025-08-28 10:05:01 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 2025-08-01T14:42:26
+2025-08-28 10:05:01 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 2025-08-19T09:30:30
+2025-08-28 10:05:01 [main] INFO : Certificates Details: Anwar Hussain anwar.hussain@criticalriver.com Airflow Beginner 55ab3dc1-faa2-4a14-8279-394a7380e623 2025-08-26T15:45:33
+2025-08-28 10:05:01 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner dc89c4e5-0578-4629-9150-1f842475457a 2025-08-26T12:30:59
+2025-08-28 10:05:01 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Gen AI Beginner d7f5c9e5-c58c-4f57-be35-64bce41875f9 2025-08-26T15:28:25
+2025-08-28 10:05:01 [main] INFO : Certificates Details: chandan chandanlohith.pydi@criticalriver.com Airflow Beginner 923a82ca-31fe-431e-b807-a90c0960dcd8 2025-08-21T19:39:05
+2025-08-28 10:05:01 [main] INFO : Certificates Details: chandan chandanlohith.pydi@criticalriver.com Airflow Intermediate 0a922bcf-35eb-4bd6-a19c-0a46fe004870 2025-08-25T10:38:50
+2025-08-28 10:05:01 [main] INFO : Certificates Admin card Values Match 7
+2025-08-28 10:05:03 [main] INFO : View Certificates
+2025-08-28 10:05:13 [main] INFO : Close Certificate
+2025-08-28 10:05:15 [main] INFO : Search Functionality for User Management table
+2025-08-28 10:05:16 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-28 10:05:16 [main] INFO : Search Functionality for Course Statistics table
+2025-08-28 10:05:17 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-08-28 10:05:19 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-28 10:05:20 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-28 10:05:23 [main] INFO : Get Users for Course by using Course statistics table test
+2025-08-28 10:05:23 [main] INFO : Click Total Users
+2025-08-28 10:05:24 [main] INFO : Course Statistics Data Values Match 10
+2025-08-28 10:05:25 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-28 10:05:29 [main] INFO : Get Certificate List for Course by using Course statistics table test
+2025-08-28 10:05:31 [main] INFO : Course Statistics Data Values Match 5
+2025-08-28 10:05:33 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-08-28 10:05:37 [main] INFO : Verify Export Functionality for Dashboard Tables
+2025-08-28 10:05:38 [main] INFO : Exporting CSV for Certificates Table
+2025-08-28 10:05:40 [main] INFO : Exporting PDF for Certificates Table
+2025-08-28 10:05:42 [main] INFO : Exporting CSV for Course Statistics Table
+2025-08-28 10:05:43 [main] INFO : Exporting PDF for Course Statistics Table
+2025-08-28 10:05:45 [main] INFO : Exporting CSV for Feedback Overview Table
+2025-08-28 10:05:46 [main] INFO : Exporting PDF for Feedback Overview Table
+2025-08-28 10:05:47 [main] INFO : Verify Searching Non existing data functionality for Dashboard Tables
+2025-08-28 10:05:48 [main] INFO : Non Existing Search for Certificates : No records found
+2025-08-28 10:05:49 [main] INFO : Non Existing Search for Course Statistics : No records found
+2025-08-28 10:05:50 [main] INFO : Non Existing Search for Feedback Overview : No records found
+2025-08-28 10:05:51 [main] INFO : Navigated to /admin/tests
+2025-08-28 10:05:56 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-08-28 10:06:00 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-28 10:06:00 [main] INFO : Search Functionality for Course Assessments table
+2025-08-28 10:06:01 [main] INFO : ✅ Search validation passed. All Values match: Meter Data Management Beginner
+2025-08-28 10:06:04 [main] INFO : Verify Export Functionality for Tests Tables
+2025-08-28 10:06:04 [main] INFO : Exporting CSV for Assessment Request Notifications Table
+2025-08-28 10:06:05 [main] INFO : Exporting PDF for Assessment Request Notifications Table
+2025-08-28 10:06:06 [main] INFO : Exporting CSV for Course Assessments Table
+2025-08-28 10:06:07 [main] INFO : Exporting PDF for Course Assessments Table
+2025-08-28 10:06:08 [main] INFO : Verify Searching Non existing data functionality for Tests Tables
+2025-08-28 10:06:09 [main] INFO : Non Existing Search for Assessment Request Notifications : No records found
+2025-08-28 10:06:10 [main] INFO : Non Existing Search for Course Assessments : No records found
+2025-08-28 10:06:16 [main] INFO : Navigated to /admin/roles
+2025-08-28 10:06:17 [main] INFO : Search Functionality for User Management table
+2025-08-28 10:06:17 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-08-28 10:06:18 [main] INFO : Verify Export Functionality for Roles Tables
+2025-08-28 10:06:19 [main] INFO : Exporting CSV for User Management Table
+2025-08-28 10:06:20 [main] INFO : Exporting PDF for User Management Table
+2025-08-28 10:06:21 [main] INFO : Verify Searching Non existing data functionality for Roles Tables
+2025-08-28 10:06:22 [main] INFO : Non Existing Search for User Management : No records found
+2025-08-28 10:06:23 [main] INFO : Navigated to /admin/tests
+2025-08-28 10:06:28 [main] INFO : Selecting Course from dropdown: 210 - Airflow Beginner
+2025-08-28 10:06:29 [main] INFO : Selecting Assessment Number from dropdown: Assessment 1
+2025-08-28 10:06:29 [main] INFO : Enter Assessment or User Id: a6cb19b2-7acb-4ff3-9b4b-76572900d73e
+2025-08-28 10:06:31 [main] INFO : Click Generated button for: Create New Assessment
+2025-08-28 10:06:31 [main] INFO : Assessment Generated message: Self-assessment successfully created for course 210, test_id1
+2025-08-28 10:06:38 [main] INFO : Selecting Course from dropdown: 210 - Airflow Beginner
+2025-08-28 10:06:39 [main] INFO : Enter Assessment or User Id: 32
+2025-08-28 10:06:40 [main] INFO : Selecting Assessment Number from dropdown: Assessment 1
+2025-08-28 10:06:41 [main] INFO : Click Generated button for: Generate Assessment Link For User
+2025-08-28 10:06:43 [main] INFO : Assessment Generated message: Assessment link generated successfully: https://assess.wecreateproblems.com/tests/c2014a23-5a0a-4bf6-9ed0-ef73a1986867/instructions
+2025-08-28 10:06:44 [main] INFO : Navigated to /certificates
+2025-08-28 10:06:45 [main] INFO : Verify Certificate Header: My Certificates
+2025-08-28 10:06:45 [main] INFO : Verify Certificate List: No certificates have been completed
+2025-08-28 10:06:47 [main] INFO : Navigated to /feedback
+2025-08-28 10:06:49 [main] INFO : Feedback Submitted successfully: 
+2025-08-28 10:06:50 [main] INFO : Navigated to /admin
+2025-08-28 10:06:55 [main] INFO : Search Functionality for Feedback Overview table
+2025-08-28 10:06:59 [main] INFO : ✅ Search validation passed. All Values match: 32
+2025-08-28 10:07:04 [main] INFO : Logout From L and D
+2025-08-28 10:07:04 [main] INFO : Logged out Successfully
+2025-08-28 10:07:09 [main] INFO : Testing Ended
+2025-08-28 10:07:09 [main] INFO : ***********
+2025-08-28 10:12:41 [main] INFO : Launching Chrome Browser
+2025-08-28 10:12:41 [main] INFO : Report Name :LandD_Page.html
+2025-08-28 10:12:43 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-28 10:12:43 [main] INFO : Inside Login Page: Learning and Development
+2025-08-28 10:13:06 [main] INFO : Logged in to Learning and Development Application
+2025-08-28 10:13:09 [main] INFO : Searching the non existing department test
+2025-08-28 10:13:10 [main] INFO : Navigated to /departments
+2025-08-28 10:13:11 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-28 10:13:11 [main] INFO : No Department Found Message: No departments found matching "@#$%^&*(#$%^"
+2025-08-28 10:13:17 [main] INFO : Searching the non existing course test
+2025-08-28 10:13:17 [main] INFO : Navigated to /departments
+2025-08-28 10:13:18 [main] INFO : Searching Data Science and AI Name
+2025-08-28 10:13:20 [main] INFO : Exploring Data Science and AI Name
+2025-08-28 10:13:21 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-08-28 10:13:22 [main] INFO : No Course Found Message: No courses found
+2025-08-28 10:13:29 [main] INFO : Explore Department and Enroll Course test
+2025-08-28 10:13:31 [main] INFO : Navigated to /departments
+2025-08-28 10:13:34 [main] INFO : Searching Data Science and AI Name
+2025-08-28 10:13:36 [main] INFO : Exploring Data Science and AI Name
+2025-08-28 10:13:37 [main] INFO : Searching Azure Beginner Name
+2025-08-28 10:13:38 [main] INFO : Enrolling Azure Beginner Course
+2025-08-28 10:13:39 [main] INFO : Course Enrollment message: Successfully enrolled in the course
+2025-08-28 10:13:44 [main] INFO : Navigated to /my-courses
+2025-08-28 10:13:48 [main] INFO : Selecting Pagination: 30
+2025-08-28 10:13:49 [main] INFO : Enrolled Course Card Details test
+2025-08-28 10:13:50 [main] INFO : Course Category for Azure Beginner: Cloud
+2025-08-28 10:13:50 [main] INFO : Course Level for Azure Beginner: Beginner
+2025-08-28 10:13:50 [main] INFO : Course Video Count for Azure Beginner: 🎥 Videos: 40
+2025-08-28 10:13:50 [main] INFO : Course Duration for Azure Beginner: ⏱ Duration: 7 hrs 15 mins
+2025-08-28 10:13:50 [main] INFO : Course Progress percent for Azure Beginner: Progress: 0%
+2025-08-28 10:13:50 [main] INFO : Course Enrolled Successful:Azure Beginner
+2025-08-28 10:13:55 [main] INFO : Header : My Courses
+2025-08-28 10:13:55 [main] INFO : Description for My courses: Continue learning where you left off
+2025-08-28 10:13:55 [main] INFO : Inside In progress Tab
+2025-08-28 10:13:56 [main] INFO : Inside Completed Tab
+2025-08-28 10:13:57 [main] INFO : Inside All courses Tab
+2025-08-28 10:14:03 [main] INFO : Un Enrolling Azure Beginner Course
+2025-08-28 10:14:05 [main] INFO : Course Enrollment message: User unenrolled successfully
+2025-08-28 10:14:08 [main] INFO : Continue and update progress for Course test
+2025-08-28 10:14:09 [main] INFO : Progress Percent :Testing
+2025-08-28 10:14:18 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-28 10:14:22 [main] INFO : Video List Count :Video List (16/50) - Video List (16/50)
+2025-08-28 10:14:23 [main] INFO : Video Available in the list:17
+Selenium
+2025-08-28 10:14:23 [main] INFO : Select Video from video list
+2025-08-28 10:15:26 [main] INFO : Click Play Video
+2025-08-28 10:15:44 [main] INFO : Video playback moved to the end.
+2025-08-28 10:15:45 [main] INFO : Select Video from video list
+2025-08-28 10:15:50 [main] INFO : Video Completed: Completed
+2025-08-28 10:22:25 [main] INFO : Launching Chrome Browser
+2025-08-28 10:22:25 [main] INFO : Report Name :LandD_Page.html
+2025-08-28 10:22:28 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-28 10:22:28 [main] INFO : Inside Login Page: Learning and Development
+2025-08-28 10:23:08 [main] ERROR: Test Failed :Expected condition failed: waiting for element to be clickable: By.cssSelector: input#idSIButton9 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52472}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52472/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f86e2264c8eab97ac1bf7e1dfff33f94
+2025-08-28 10:23:20 [main] INFO : Launching Chrome Browser
+2025-08-28 10:23:20 [main] INFO : Report Name :LandD_Page.html
+2025-08-28 10:23:22 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-28 10:23:22 [main] INFO : Inside Login Page: Learning and Development
+2025-08-28 10:23:49 [main] INFO : Logged in to Learning and Development Application
+2025-08-28 10:23:51 [main] INFO : Navigated to /my-courses
+2025-08-28 10:23:54 [main] INFO : Continue and update progress for Course test
+2025-08-28 10:23:55 [main] INFO : Progress Percent :Testing
+2025-08-28 10:24:04 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-28 10:24:08 [main] INFO : Video List Count :Video List (16/50) - Video List (16/50)
+2025-08-28 10:24:08 [main] INFO : Video Available in the list:17
+Selenium
+2025-08-28 10:24:09 [main] INFO : Select Video from video list
+2025-08-28 10:25:11 [main] INFO : Click Play Video
+2025-08-28 10:25:30 [main] INFO : Video playback moved to the end.
+2025-08-28 10:25:31 [main] INFO : Select Video from video list
+2025-08-28 10:25:36 [main] INFO : Video Completed: Completed
+2025-08-28 10:25:43 [main] INFO : Video List Count :Video List (16/50) - Video List (16/50)
+2025-08-28 10:25:43 [main] INFO : Navigated to /my-courses
+2025-08-28 10:25:45 [main] INFO : Progress Percent :Testing
+2025-08-28 10:25:45 [main] INFO : Testing Ended
+2025-08-28 10:25:45 [main] INFO : ***********
+2025-08-28 10:29:59 [main] INFO : Launching Chrome Browser
+2025-08-28 10:29:59 [main] INFO : Report Name :LandD_Page.html
+2025-08-28 10:30:01 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-08-28 10:30:01 [main] INFO : Inside Login Page: Learning and Development
+2025-08-28 10:30:26 [main] INFO : Logged in to Learning and Development Application
+2025-08-28 10:30:29 [main] INFO : Navigated to /my-courses
+2025-08-28 10:30:32 [main] INFO : Continue and update progress for Course test
+2025-08-28 10:30:33 [main] INFO : Progress Percent :Testing
+2025-08-28 10:30:41 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-08-28 10:30:46 [main] INFO : Video List Count :Video List (16/50) - Video List (16/50)
+2025-08-28 10:30:46 [main] INFO : Video Available in the list:17
+Selenium
+2025-08-28 10:30:47 [main] INFO : Select Video from video list
+2025-08-28 10:31:49 [main] INFO : Click Play Video
+2025-08-28 10:32:08 [main] INFO : Video playback moved to the end.
+2025-08-28 10:32:09 [main] INFO : Select Video from video list
+2025-08-28 10:32:14 [main] INFO : Video Completed: Completed

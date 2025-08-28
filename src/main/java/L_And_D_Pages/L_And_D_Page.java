@@ -232,12 +232,9 @@ public class L_And_D_Page extends WaitsManager {
 		try {
 			implWait(driver);
 
-//			boolean elementExists = !driver.findElements(profileInfo).isEmpty();			
-//			if (elementExists) {
 			List<WebElement> profile = driver.findElements(profileInfo);
 			if (profile.size() > 0) {
 				for (WebElement profileData : profile) {
-//					String info = driver.findElement(profileInfo).getText();
 					String info = profileData.getText();
 
 					grep.infoTest("Profile Page Information: " + info);
