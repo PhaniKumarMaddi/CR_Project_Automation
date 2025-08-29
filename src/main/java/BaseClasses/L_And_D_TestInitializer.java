@@ -61,7 +61,8 @@ public class L_And_D_TestInitializer extends WaitsManager {
 		DriverManager.setDriver(driver);
 		driver.manage().window().maximize();
 
-		String url = configFile.getProperty("L_And_D_DevUrl"); // DEV
+//		String url = configFile.getProperty("L_And_D_DevUrl"); // DEV
+		String url = configFile.getProperty("L_And_D_UatUrl"); // UAT
 
 
 		grep.setupExtentReport(nameForReport);

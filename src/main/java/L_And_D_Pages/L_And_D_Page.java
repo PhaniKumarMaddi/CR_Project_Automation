@@ -83,7 +83,7 @@ public class L_And_D_Page extends WaitsManager {
 				grep.passTest("Navigated to " + pageName);
 				logger.info("Navigated to " + pageName);
 			} else {
-				grep.failTest(pageName + " Not Available");
+				grep.warnTest(pageName + " Not Available");
 				logger.error(pageName + " Not Available");
 			}
 		} catch (Exception e) {

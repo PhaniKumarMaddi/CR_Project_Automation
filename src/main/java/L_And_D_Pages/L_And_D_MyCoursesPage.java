@@ -381,7 +381,8 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 	public void getProgressPercent(String courseName) throws Exception {
 		try {
 			implWait(driver);
-			By progressPercent = By.xpath("//h3[text()='" + courseName + "']/parent::div/div[2]/span");
+//			By progressPercent = By.xpath("//h3[text()='" + courseName + "']/parent::div/div[2]/span");
+			By progressPercent = By.xpath("//h3[text()='" + courseName + "']/parent::div/div[@class='course-enroll-section']/span");
 
 			boolean elementExist = !driver.findElements(progressPercent).isEmpty();
 			if (elementExist) {
