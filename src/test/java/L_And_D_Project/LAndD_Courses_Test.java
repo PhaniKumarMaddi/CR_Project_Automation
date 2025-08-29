@@ -128,6 +128,10 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 			// verify certificate details
 			grep.testCreate("Verify Admin page certificates details in dashboard tab",
 					"Admin page certificates details");
+
+			grep.infoTest("Verify Admin page certificates details in dashboard tab");
+			logger.info("Verify Admin page certificates details in dashboard tab");
+			waitTime(driver);
 			lndOther.clickCertificateAdminCards();
 			lndOther.getCertificateDetails(dataKeys.userCertiTable_dashboard);
 			lndOther.validateCertificateAdminCard(dataKeys.certificate_adminCard);
@@ -177,12 +181,12 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 			// Feedback overview table
 			grep.infoTest("Search Functionality for " + dataKeys.feedbackTable_dashboard + " table");
 			logger.info("Search Functionality for " + dataKeys.feedbackTable_dashboard + " table");
-			lndOther.searchDashboardTable(dataKeys.feedbackTable_dashboard, dataKeys.userId_column_Dashboard,
-					dataKeys.userId_col_Value);
+			lndOther.searchDashboardTable(dataKeys.feedbackTable_dashboard, dataKeys.email_column_Dashboard,
+					dataKeys.ssoUserName);
 
 			grep.captureScreenshot("pass", "Search in Feedback Overview table", "searchIn_feedbackTable_dashboard");
 
-			lndOther.verifyDataInTable(dataKeys.feedbackTable_dashboard, dataKeys.userId_col_Value);
+			lndOther.verifyDataInTable(dataKeys.feedbackTable_dashboard, dataKeys.ssoUserName);
 			lndOther.clearDashboardTable(dataKeys.feedbackTable_dashboard);
 			waitTime3(driver);
 
@@ -288,13 +292,15 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 			// Assessment request Notification table
 			grep.infoTest("Search Functionality for " + dataKeys.ass_request_notify_table_Test + " table");
 			logger.info("Search Functionality for " + dataKeys.ass_request_notify_table_Test + " table");
-			lndOther.searchTestsTable(dataKeys.ass_request_notify_table_Test, dataKeys.userId_column_Test,
-					dataKeys.userId_col_Value);
-
+//			lndOther.searchTestsTable(dataKeys.ass_request_notify_table_Test, dataKeys.userId_column_Test,
+//					dataKeys.userId_col_Value);
+			lndOther.searchTestsTable(dataKeys.ass_request_notify_table_Test, dataKeys.user_Email_column_Test,
+					dataKeys.ssoUserName);
+			
 			grep.captureScreenshot("pass", "Search in Assessment Request table", "searchIn_AssmntRqstTable_Test");
 
 			waitTime3(driver);
-			lndOther.verifyDataInTestTable(dataKeys.ass_request_notify_table_Test, dataKeys.userId_col_Value);
+			lndOther.verifyDataInTestTable(dataKeys.ass_request_notify_table_Test, dataKeys.ssoUserName);
 
 			waitTime(driver);
 			grep.infoTest("Search Functionality for " + dataKeys.course_Ass_table_Test + " table");

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-LandD_Suite" class="navigator-link">
-              <span class="suite-name border-passed">LandD_Suite</span>
+              <span class="suite-name border-failed">LandD_Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-LandD_Suite" class="hide-methods failed suite-LandD_Suite"> (hide)</a> <!-- hide-methods failed suite-LandD_Suite -->
+                      <a href="#" panel-name="suite-LandD_Suite" class="show-methods failed suite-LandD_Suite"> (show)</a> <!-- show-methods failed suite-LandD_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-LandD_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LandD_Suite" title="L_And_D_Project.LAndD_Courses_Test" class="method navigator-link" hash-for-method="l_and_d_CreateAssessment_Test">l_and_d_CreateAssessment_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-LandD_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,11 +123,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-LandD_Suite" title="L_And_D_Project.LAndD_Courses_Test" class="method navigator-link" hash-for-method="l_and_d_AdminPageTest">l_and_d_AdminPageTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-LandD_Suite" title="L_And_D_Project.LAndD_Courses_Test" class="method navigator-link" hash-for-method="l_and_d_CreateAssessment_Test">l_and_d_CreateAssessment_Test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -143,6 +152,46 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-LandD_Suite" class="panel LandD_Suite">
+          <div class="suite-LandD_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">L_And_D_Project.LAndD_Courses_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="l_and_d_CreateAssessment_Test">
+                  </a> <!-- l_and_d_CreateAssessment_Test -->
+                  <span class="method-name">l_and_d_CreateAssessment_Test</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=139.0.7258.154)
+Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [556c067fc5f6ace9b2c8e1c478383955, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.154, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60486}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60486/devtoo..., se:cdpVersion: 139.0.7258.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 556c067fc5f6ace9b2c8e1c478383955
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:333)
+	at Utility.GenerateReports.takeScreenShot(GenerateReports.java:47)
+	at Utility.GenerateReports.captureScreenshot(GenerateReports.java:77)
+	at L_And_D_Project.LAndD_Courses_Test.l_and_d_CreateAssessment_Test(LAndD_Courses_Test.java:494)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LandD_Suite-class-failed -->
           <div class="suite-LandD_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -183,13 +232,6 @@
                   <a name="l_and_d_AdminPageTest">
                   </a> <!-- l_and_d_AdminPageTest -->
                   <span class="method-name">l_and_d_AdminPageTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="l_and_d_CreateAssessment_Test">
-                  </a> <!-- l_and_d_CreateAssessment_Test -->
-                  <span class="method-name">l_and_d_CreateAssessment_Test</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -257,34 +299,34 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'l_and_d_MyCourses')
+data.setCell(0, 1, 'l_and_d_AdminPageTest')
 data.setCell(0, 2, 'L_And_D_Project.LAndD_Courses_Test')
-data.setCell(0, 3, 179895);
+data.setCell(0, 3, 202585);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'homePageTest')
-data.setCell(1, 2, 'L_And_D_Project.LAndD_Page_UI_Test')
-data.setCell(1, 3, 131153);
+data.setCell(1, 1, 'l_and_d_MyCourses')
+data.setCell(1, 2, 'L_And_D_Project.LAndD_Courses_Test')
+data.setCell(1, 3, 177390);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'l_and_d_PageNavigation_Test')
+data.setCell(2, 1, 'homePageTest')
 data.setCell(2, 2, 'L_And_D_Project.LAndD_Page_UI_Test')
-data.setCell(2, 3, 96453);
+data.setCell(2, 3, 132188);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'l_and_d_AdminPageTest')
-data.setCell(3, 2, 'L_And_D_Project.LAndD_Courses_Test')
-data.setCell(3, 3, 60562);
+data.setCell(3, 1, 'l_and_d_PageNavigation_Test')
+data.setCell(3, 2, 'L_And_D_Project.LAndD_Page_UI_Test')
+data.setCell(3, 3, 67044);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'l_and_d_Footer')
 data.setCell(4, 2, 'L_And_D_Project.LAndD_Page_UI_Test')
-data.setCell(4, 3, 52658);
+data.setCell(4, 3, 52947);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'l_and_d_CreateAssessment_Test')
 data.setCell(5, 2, 'L_And_D_Project.LAndD_Courses_Test')
-data.setCell(5, 3, 18437);
+data.setCell(5, 3, 35869);
 window.suiteTableData['LandD_Suite']= { tableData: data, tableDiv: 'times-div-LandD_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 minutes</span>
+              <span class="suite-total-time">Total running time: 11 minutes</span>
               <div id="times-div-LandD_Suite">
               </div> <!-- times-div-LandD_Suite -->
             </div> <!-- times-div -->
@@ -326,37 +368,39 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">l_and_d_PageNavigation_Test</span>
-                <span class="method-start">50713 ms</span>
+                <span class="method-start">30183 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">homePageTest</span>
-                <span class="method-start">147178 ms</span>
+                <span class="method-start">97233 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">l_and_d_Footer</span>
-                <span class="method-start">278344 ms</span>
+                <span class="method-start">229433 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">L_And_D_Project.LAndD_Courses_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">l_and_d_MyCourses</span>
-                <span class="method-start">331011 ms</span>
+                <span class="method-start">282382 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">l_and_d_AdminPageTest</span>
-                <span class="method-start">510910 ms</span>
+                <span class="method-start">459772 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">l_and_d_CreateAssessment_Test</span>
-                <span class="method-start">571476 ms</span>
+                <span class="method-start">662359 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">L_And_D_Project.LAndD_Page_UI_Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">589914 ms</span>
+                <span class="method-start">698244 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

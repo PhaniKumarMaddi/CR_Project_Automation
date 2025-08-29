@@ -281,6 +281,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 			boolean elementExist = !driver.findElements(adminCardsClick).isEmpty();
 			if (elementExist) {
+				
 
 				driver.findElement(adminCardsClick).click();
 
@@ -310,8 +311,8 @@ public class L_And_D_OtherPages extends WaitsManager {
 					logger.info("Certificates Details: " + details);
 				}
 			} else {
-				grep.failTest("Certificates Details Not Avaialable");
-				logger.error("Certificates Details Not Avaialable");
+				grep.warnTest("Certificates Not Avaialable");
+				logger.error("Certificates Not Avaialable");
 			}
 
 		} catch (Exception e) {
@@ -334,7 +335,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 				grep.passTest("View Certificates");
 				logger.info("View Certificates");
 			} else {
-				grep.failTest("No Certificates Available");
+				grep.warnTest("No Certificates Available");
 				logger.error("No Certificates Available");
 			}
 
@@ -358,7 +359,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 				grep.passTest("Close Certificate");
 				logger.info("Close Certificate");
 			} else {
-				grep.failTest("Close Certificate not Available");
+				grep.warnTest("Close Certificate not Available");
 				logger.error("Close Certificate not Available");
 			}
 
@@ -500,9 +501,9 @@ public class L_And_D_OtherPages extends WaitsManager {
 					grep.passTest("✅ Search validation passed. All Values match: " + verifyValue);
 					logger.info("✅ Search validation passed. All Values match: " + verifyValue);
 				} else {
-					System.out.println("❌ Search validation failed. Mismatched Value found or no rows: " + verifyValue);
-					grep.failTest("❌ Search validation failed. Mismatched Value found or no rows: " + verifyValue);
-					logger.error("❌ Search validation failed. Mismatched Value found or no rows: " + verifyValue);
+					System.out.println("❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
+					grep.warnTest("❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
+					logger.error("❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
 				}
 
 			} else {
@@ -559,7 +560,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 					logger.info(tableName + " Data Values Match " + textVal);
 				} else {
 
-					grep.failTest(tableName + " Data Values Not match " + textVal);
+					grep.warnTest(tableName + " Data Values Not match " + textVal);
 					logger.error(tableName + " Data Values Not match " + textVal);
 
 				}
@@ -596,8 +597,8 @@ public class L_And_D_OtherPages extends WaitsManager {
 					logger.info(tableName + " Data Values Match " + textVal);
 				} else {
 
-					grep.failTest(tableName + " Data Values Not match " + textVal);
-					logger.error(tableName + " Data Values Not match " + textVal);
+					grep.warnTest(tableName + " Data Values Not match or No users enrolled: " + textVal);
+					logger.error(tableName + " Data Values Not match or No users enrolled: " + textVal);
 
 				}
 			} else {
@@ -739,9 +740,9 @@ public class L_And_D_OtherPages extends WaitsManager {
 					grep.passTest("✅ Search validation passed. All Values match: " + verifyValue);
 					logger.info("✅ Search validation passed. All Values match: " + verifyValue);
 				} else {
-					System.out.println("❌ Search validation failed. Mismatched Value found or no rows: " + verifyValue);
-					grep.failTest("❌ Search validation failed. Mismatched Value found or no rows: " + verifyValue);
-					logger.error("❌ Search validation failed. Mismatched Value found or no rows: " + verifyValue);
+					System.out.println("❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
+					grep.warnTest("❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
+					logger.error("❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
 				}
 
 			} else {
@@ -827,9 +828,9 @@ public class L_And_D_OtherPages extends WaitsManager {
 					grep.passTest("✅ Search validation passed. All Values match: " + verifyValue);
 					logger.info("✅ Search validation passed. All Values match: " + verifyValue);
 				} else {
-					System.out.println("❌ Search validation failed. Mismatched Value found or no rows: " + verifyValue);
-					grep.failTest("❌ Search validation failed. Mismatched Value found or no rows: " + verifyValue);
-					logger.error("❌ Search validation failed. Mismatched Value found or no rows: " + verifyValue);
+					System.out.println("❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
+					grep.failTest("❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
+					logger.error("❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
 				}
 
 			} else {

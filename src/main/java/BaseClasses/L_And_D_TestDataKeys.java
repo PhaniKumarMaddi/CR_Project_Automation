@@ -86,6 +86,7 @@ public class L_And_D_TestDataKeys {
 	public String course_Ass_table_Test = "Course Assessments";
 
 	public String userId_column_Test = "Search by User ID";
+	public String user_Email_column_Test = "Search by User Email";
 	public String courseName_column_Test = "Search by Course Name";
 	public String userName_column_Test = "Search by Username";
 	public String email_column_Test = "Search by Email";

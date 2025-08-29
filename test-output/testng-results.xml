@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-29T12:20:47 IST" name="LandD_Suite" finished-at="2025-08-29T12:30:37 IST" duration-ms="590223">
+  <suite started-at="2025-08-29T13:27:35 IST" name="LandD_Suite" finished-at="2025-08-29T13:39:14 IST" duration-ms="698772">
     <groups>
     </groups>
-    <test started-at="2025-08-29T12:20:47 IST" name="LandDPage_Test" finished-at="2025-08-29T12:30:37 IST" duration-ms="590223">
+    <test started-at="2025-08-29T13:27:35 IST" name="LandDPage_Test" finished-at="2025-08-29T13:39:14 IST" duration-ms="698772">
       <class name="L_And_D_Project.LAndD_Page_UI_Test">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-29T12:20:47 IST" name="setup" description="Setup and Login To Browser" finished-at="2025-08-29T12:21:37 IST" duration-ms="50666" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-29T13:27:35 IST" name="setup" description="Setup and Login To Browser" finished-at="2025-08-29T13:28:05 IST" duration-ms="30145" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,33 +18,100 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="l_and_d_PageNavigation_Test()[pri:1, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-29T12:21:37 IST" name="l_and_d_PageNavigation_Test" finished-at="2025-08-29T12:23:14 IST" duration-ms="96453" status="PASS">
+        <test-method signature="l_and_d_PageNavigation_Test()[pri:1, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-29T13:28:05 IST" name="l_and_d_PageNavigation_Test" finished-at="2025-08-29T13:29:12 IST" duration-ms="67044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- l_and_d_PageNavigation_Test -->
-        <test-method signature="homePageTest()[pri:2, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-29T12:23:14 IST" name="homePageTest" finished-at="2025-08-29T12:25:25 IST" duration-ms="131153" status="PASS">
+        <test-method signature="homePageTest()[pri:2, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-29T13:29:12 IST" name="homePageTest" finished-at="2025-08-29T13:31:24 IST" duration-ms="132188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTest -->
-        <test-method signature="l_and_d_Footer()[pri:3, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-29T12:25:25 IST" name="l_and_d_Footer" finished-at="2025-08-29T12:26:18 IST" duration-ms="52658" status="PASS">
+        <test-method signature="l_and_d_Footer()[pri:3, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-29T13:31:24 IST" name="l_and_d_Footer" finished-at="2025-08-29T13:32:17 IST" duration-ms="52947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- l_and_d_Footer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-29T12:30:37 IST" name="tearDown" description="Quit Browser" finished-at="2025-08-29T12:30:37 IST" duration-ms="302" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:L_And_D_Project.LAndD_Page_UI_Test@1338fb5]" started-at="2025-08-29T13:39:13 IST" name="tearDown" description="Quit Browser" finished-at="2025-08-29T13:39:14 IST" duration-ms="521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- L_And_D_Project.LAndD_Page_UI_Test -->
       <class name="L_And_D_Project.LAndD_Courses_Test">
-        <test-method signature="l_and_d_MyCourses()[pri:1, instance:L_And_D_Project.LAndD_Courses_Test@67c2e933]" started-at="2025-08-29T12:26:18 IST" name="l_and_d_MyCourses" finished-at="2025-08-29T12:29:18 IST" duration-ms="179895" status="PASS">
+        <test-method signature="l_and_d_MyCourses()[pri:1, instance:L_And_D_Project.LAndD_Courses_Test@67c2e933]" started-at="2025-08-29T13:32:17 IST" name="l_and_d_MyCourses" finished-at="2025-08-29T13:35:15 IST" duration-ms="177390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- l_and_d_MyCourses -->
-        <test-method signature="l_and_d_AdminPageTest()[pri:2, instance:L_And_D_Project.LAndD_Courses_Test@67c2e933]" started-at="2025-08-29T12:29:18 IST" name="l_and_d_AdminPageTest" finished-at="2025-08-29T12:30:18 IST" duration-ms="60562" status="PASS">
+        <test-method signature="l_and_d_AdminPageTest()[pri:2, instance:L_And_D_Project.LAndD_Courses_Test@67c2e933]" started-at="2025-08-29T13:35:15 IST" name="l_and_d_AdminPageTest" finished-at="2025-08-29T13:38:37 IST" duration-ms="202585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- l_and_d_AdminPageTest -->
-        <test-method signature="l_and_d_CreateAssessment_Test()[pri:3, instance:L_And_D_Project.LAndD_Courses_Test@67c2e933]" started-at="2025-08-29T12:30:18 IST" name="l_and_d_CreateAssessment_Test" finished-at="2025-08-29T12:30:37 IST" duration-ms="18437" status="PASS">
+        <test-method signature="l_and_d_CreateAssessment_Test()[pri:3, instance:L_And_D_Project.LAndD_Courses_Test@67c2e933]" started-at="2025-08-29T13:38:37 IST" name="l_and_d_CreateAssessment_Test" finished-at="2025-08-29T13:39:13 IST" duration-ms="35869" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=139.0.7258.154)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [556c067fc5f6ace9b2c8e1c478383955, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.154, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60486}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60486/devtoo..., se:cdpVersion: 139.0.7258.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 556c067fc5f6ace9b2c8e1c478383955]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=139.0.7258.154)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [556c067fc5f6ace9b2c8e1c478383955, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.154, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60486}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60486/devtoo..., se:cdpVersion: 139.0.7258.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 556c067fc5f6ace9b2c8e1c478383955
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:333)
+at Utility.GenerateReports.takeScreenShot(GenerateReports.java:47)
+at Utility.GenerateReports.captureScreenshot(GenerateReports.java:77)
+at L_And_D_Project.LAndD_Courses_Test.l_and_d_CreateAssessment_Test(LAndD_Courses_Test.java:494)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- l_and_d_CreateAssessment_Test -->
