@@ -56,8 +56,8 @@ public class CSAT_TestInitializer extends WaitsManager {
 		DriverManager.setDriver(driver);
 		driver.manage().window().maximize();
 
-//		String url = configFile.getProperty("CSAT_Url"); // UAT
-		String url = configFile.getProperty("CSAT_Dev_Url"); // DEV
+		String url = configFile.getProperty("CSAT_Uat_Url"); // UAT
+//		String url = configFile.getProperty("CSAT_Dev_Url"); // DEV
 
 
 		grep.setupExtentReport(nameForReport);
