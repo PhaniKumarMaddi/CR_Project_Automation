@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
-import L_And_D_Pages.L_And_D_LoginPage;
+import IntelliServe_Pages.Ticketing_LoginPage;
 import Utility.DriverManager;
 import Utility.GenerateReports;
 import Utility.PropertiesFile;
@@ -21,18 +21,17 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 
-public class L_And_D_TestInitializer extends WaitsManager {
+public class IntelliServe_TestInitializer extends WaitsManager {
 
-	private static final Logger logger = LogManager.getLogger(L_And_D_TestInitializer.class);
+	private static final Logger logger = LogManager.getLogger(IntelliServe_TestInitializer.class);
 	private PropertiesFile configFile;
 	public GenerateReports grep;
 	protected WebDriver driver;
-	L_And_D_TestDataKeys dataKeys= new L_And_D_TestDataKeys();
-			
+	IntelliServe_TestDataKeys dataKeys = new IntelliServe_TestDataKeys();
 
 	@BeforeTest(description = "Setup and Login To Browser")
 	@Parameters({ "FileName" })
-	public void setup(@Optional("LandD_Page.html") String nameForReport) throws Exception {
+	public void setup(@Optional("Ticketing_Page.html") String nameForReport) throws Exception {
 
 		grep = new GenerateReports(); // report class
 
@@ -61,14 +60,13 @@ public class L_And_D_TestInitializer extends WaitsManager {
 		DriverManager.setDriver(driver);
 		driver.manage().window().maximize();
 
-//		String url = configFile.getProperty("L_And_D_DevUrl"); // DEV
-		String url = configFile.getProperty("L_And_D_UatUrl"); // UAT
-
+		String url = configFile.getProperty("IntelliServe_DevUrl"); // DEV
+//		String url = configFile.getProperty("IntelliServe_UarUrl"); // UAT
 
 		grep.setupExtentReport(nameForReport);
 		grep.testCreate("Login Page", "Login test");
 
-		L_And_D_LoginPage login = new L_And_D_LoginPage();
+		Ticketing_LoginPage login = new Ticketing_LoginPage();
 
 		grep.infoTest("Report Name :" + nameForReport);
 		logger.info("Report Name :" + nameForReport);
@@ -78,18 +76,19 @@ public class L_And_D_TestInitializer extends WaitsManager {
 		System.out.println("Web Page URL: " + url);
 		grep.infoTest("Web Page URL: " + url);
 		logger.info("Web Page URL: " + url);
+		waitTime(driver);
 
 		login.verifyLoginHeader();
-		waitTime(driver);
-		grep.captureScreenshot("pass", "Inside Login Page ", "SSO_Loginpage_LandD");
-		waitTime(driver);
+		waitTime2(driver);
+		grep.captureScreenshot("pass", "Inside Login Page ", "SSO_Loginpage_Ticketing");
+		waitTime2(driver);
 		login.clickSSOLoginBtn();
 		waitTime(driver);
 		login.enterUserName(dataKeys.ssoUserName);
 		login.clickSignIn();
 		waitTime2(driver);
-		login.enterPassword(dataKeys.ssoPassword);
-		login.clickSignIn();
+//		login.enterPassword(dataKeys.ssoPassword);
+//		login.clickSignIn();
 		waitTime5(driver);
 		// yes or no
 		login.clickSignIn();
@@ -102,11 +101,11 @@ public class L_And_D_TestInitializer extends WaitsManager {
 			robot.keyPress(KeyEvent.VK_MINUS);
 			robot.keyRelease(KeyEvent.VK_MINUS);
 			robot.keyRelease(KeyEvent.VK_CONTROL);
-			
+
 		}
 
-		grep.infoTest("Logged in to Learning and Development Application");
-		logger.info("Logged in to Learning and Development Application");
+		grep.infoTest("Logged in to Intelli Serve Application");
+		logger.info("Logged in to Intelli Serve Application");
 	}
 
 	@AfterTest(description = "Quit Browser")

@@ -3357,3 +3357,87 @@ Session ID: f3948ec0ffd59636bfbb3ba0de57f01f
 Anwar Hussain: https://crsurveyapp5-frontend-uat.bluedune-79d990c1.centralus.azurecontainerapps.io/surveypage/f8b149f95dc14c2d968dbea55cd159d6
 2025-08-29 17:19:08 [main] INFO : Testing Ended
 2025-08-29 17:19:08 [main] INFO : ***********
+2025-09-15 11:47:17 [main] INFO : Launching Chrome Browser
+2025-09-15 11:47:17 [main] INFO : Report Name :Ticketing_Page.html
+2025-09-15 11:47:50 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-09-15 11:48:20 [main] ERROR: Test Failed :Expected condition failed: waiting for presence of element located by: By.xpath: //p[@class='text-sm text-gray-500 dark:text-gray-400 mb-2'] (tried for 30 second(s) with 500 milliseconds interval)
+2025-09-15 11:49:34 [main] ERROR: Password Not Available 
+2025-09-15 11:50:21 [main] INFO : Launching Chrome Browser
+2025-09-15 11:50:22 [main] INFO : Report Name :Ticketing_Page.html
+2025-09-15 11:50:28 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-09-15 11:50:31 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-09-15 11:51:23 [main] INFO : Launching Chrome Browser
+2025-09-15 11:51:23 [main] INFO : Report Name :Ticketing_Page.html
+2025-09-15 11:51:28 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-09-15 11:51:34 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-09-15 11:52:22 [main] INFO : Launching Chrome Browser
+2025-09-15 11:52:22 [main] INFO : Report Name :Ticketing_Page.html
+2025-09-15 11:52:28 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-09-15 11:52:31 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-09-15 11:52:56 [main] INFO : Logged in to Intelli Serve Application
+2025-09-15 11:52:57 [main] INFO : Testing Ended
+2025-09-15 11:52:57 [main] INFO : ***********
+2025-09-15 12:04:15 [main] INFO : Launching Chrome Browser
+2025-09-15 12:04:15 [main] INFO : Report Name :Ticketing_Page.html
+2025-09-15 12:04:45 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-09-15 12:05:15 [main] ERROR: Test Failed :Expected condition failed: waiting for presence of element located by: By.xpath: //p[@class='text-sm text-gray-500 dark:text-gray-400 mb-2'] (tried for 30 second(s) with 500 milliseconds interval)
+2025-09-15 12:06:03 [main] INFO : Launching Chrome Browser
+2025-09-15 12:06:03 [main] INFO : Report Name :Ticketing_Page.html
+2025-09-15 12:06:14 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-09-15 12:06:16 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-09-15 12:06:44 [main] INFO : Logged in to Intelli Serve Application
+2025-09-15 12:06:44 [main] INFO : Verify the Home and Profile Page test
+2025-09-15 12:06:46 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-09-15 12:06:46 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-09-15 12:06:49 [main] INFO : Navigate to Profile Page
+2025-09-15 12:06:50 [main] INFO : Header valid :Profile
+2025-09-15 12:06:50 [main] INFO : Profile NamePhani Kumar Maddi
+2025-09-15 12:06:51 [main] INFO : Department NameBusiness Technology Group
+2025-09-15 12:06:51 [main] INFO : User Roles: IT Approver
+Admin
+IT Member
+2025-09-15 12:06:52 [main] INFO : Profile Page Personal Information: First Name
+Phani
+Last Name
+Kumar Maddi
+Email address
+phani.maddi@criticalriver.com
+Department
+Business Technology Group
+2025-09-15 12:06:52 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-09-15 12:06:53 [main] INFO : Version :Version 1.0.0
+2025-09-15 12:06:53 [main] INFO : Verify the Signout
+2025-09-15 12:06:55 [main] INFO : SignOut From IntelliServe Page
+2025-09-15 12:06:56 [main] INFO : Signout Functionality failed
+2025-09-15 12:07:01 [main] INFO : Testing Ended
+2025-09-15 12:07:01 [main] INFO : ***********
+2025-09-15 12:12:44 [main] INFO : Launching Chrome Browser
+2025-09-15 12:12:44 [main] INFO : Report Name :Ticketing_Page.html
+2025-09-15 12:12:49 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-09-15 12:13:20 [main] ERROR: Test Failed :Expected condition failed: waiting for presence of element located by: By.xpath: //p[@class='text-sm text-gray-500 dark:text-gray-400 mb-2'] (tried for 30 second(s) with 500 milliseconds interval)
+2025-09-15 12:13:47 [main] INFO : Logged in to Intelli Serve Application
+2025-09-15 12:13:47 [main] INFO : Verify the Home and Profile Page test
+2025-09-15 12:13:49 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-09-15 12:13:49 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-09-15 12:13:52 [main] INFO : Navigated to Profile Page
+2025-09-15 12:13:53 [main] INFO : Header valid :Profile
+2025-09-15 12:13:54 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-09-15 12:13:54 [main] INFO : Department Name: Business Technology Group
+2025-09-15 12:13:55 [main] INFO : User Roles: IT Approver
+2025-09-15 12:13:55 [main] INFO : User Roles: Admin
+2025-09-15 12:13:55 [main] INFO : User Roles: IT Member
+2025-09-15 12:13:55 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-09-15 12:13:55 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-09-15 12:13:55 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-09-15 12:13:55 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-09-15 12:13:56 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-09-15 12:13:56 [main] INFO : Version :Version 1.0.0
+2025-09-15 12:13:57 [main] INFO : Verify the Signout
+2025-09-15 12:13:59 [main] INFO : SignOut From IntelliServe Page
+2025-09-15 12:14:09 [main] INFO : Logged out Successfully
+2025-09-15 12:14:15 [main] INFO : Testing Ended
+2025-09-15 12:14:15 [main] INFO : ***********
