@@ -211,7 +211,7 @@ public class IntelliServe_Page_UI_Test extends IntelliServe_TestInitializer {
 
 		} else {
 			grep.warnTest("BTG Member Role Not Available for logged User");
-			logger.info("BTG Approver Role Not Available for logged User");
+			logger.info("BTG Member Role Not Available for logged User");
 		}
 		waitTime5(driver);
 	}

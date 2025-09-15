@@ -1,5 +1,6 @@
 package IntelliServe_Pages;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
@@ -208,23 +209,28 @@ public class Ticketing_Page extends WaitsManager {
 				waitTime(driver);
 				WebElement role = driver.findElement(selectRole);
 				Select select = new Select(role);
-
-				List<WebElement> allOptions = select.getOptions();
-
-				for (WebElement option : allOptions) {
-					if (option.getText().equals(roleValue) || option.getAttribute("value").equals(roleValue)) {
-						select.selectByVisibleText(roleValue);
-						break; // Value found, no need to continue iterating
-					} else {
-						grep.failTest("Selected role not Available for user");
-						logger.error("Selected role not Available for user");
-					}
-				}
-
+				select.selectByVisibleText(roleValue);
 			} else {
-				grep.failTest("Selected role not Available");
-				logger.error("Selected role not Available");
+				grep.failTest("Selected role not Available for user");
+				logger.error("Selected role not Available for user");
 			}
+
+//				List<WebElement> allOptions = select.getOptions();
+//
+//				for (WebElement option : allOptions) {
+//					if (option.getText().equals(roleValue) || option.getAttribute("value").equals(roleValue)) {
+//				select.selectByVisibleText(roleValue);
+//						break; // Value found, no need to continue iterating
+//					} else {
+//						grep.failTest("Selected role not Available for user");
+//						logger.error("Selected role not Available for user");
+//					}
+//				}
+//
+//			} else {
+//				grep.failTest("Selected role not Available");
+//				logger.error("Selected role not Available");
+//			}
 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -248,12 +254,21 @@ public class Ticketing_Page extends WaitsManager {
 				Select select = new Select(role);
 
 				List<WebElement> allOptions = select.getOptions();
+				List<String> selectValuesList = new ArrayList<>();
 
 				for (WebElement option : allOptions) {
-					if (option.getText().equals(roleValue)) {
+					selectValuesList.add(option.getText()); // Or option.getAttribute("value") for the 'value' attribute
+				}
+				String[] selectValuesArray = selectValuesList.toArray(new String[0]);
+				for (String value : selectValuesArray) {
+					if (value.equals(roleValue)) {
 						optionFound = true;
+						grep.infoTest("Selected role Available");
+						logger.info("Selected role Available");
+						break;
 					}
 				}
+
 				driver.findElement(profileLogo).click();
 
 			} else {

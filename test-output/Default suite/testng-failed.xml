@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CSAT_Project.CSAT_Project_NewProjectTest">
+      <class name="IntelliServe_Project.IntelliServe_Page_UI_Test">
         <methods>
-          <include name="csat_NewProject_Test"/>
+          <include name="IntelliServe__Signout_Test"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- CSAT_Project.CSAT_Project_NewProjectTest -->
+      </class> <!-- IntelliServe_Project.IntelliServe_Page_UI_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
