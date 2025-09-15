@@ -1,4 +1,4 @@
-package L_And_D_BaseClasses;
+package BaseClasses;
 
 public class L_And_D_TestDataKeys {
 

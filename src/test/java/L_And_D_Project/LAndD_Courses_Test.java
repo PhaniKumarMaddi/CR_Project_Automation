@@ -4,8 +4,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Test;
 
-import L_And_D_BaseClasses.L_And_D_TestDataKeys;
-import L_And_D_BaseClasses.L_And_D_TestInitializer;
+import BaseClasses.L_And_D_TestDataKeys;
+import BaseClasses.L_And_D_TestInitializer;
 import L_And_D_Pages.L_And_D_MyCoursesPage;
 import L_And_D_Pages.L_And_D_OtherPages;
 import L_And_D_Pages.L_And_D_Page;

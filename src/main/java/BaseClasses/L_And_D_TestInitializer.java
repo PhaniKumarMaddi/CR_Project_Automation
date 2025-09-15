@@ -1,4 +1,4 @@
-package L_And_D_BaseClasses;
+package BaseClasses;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
