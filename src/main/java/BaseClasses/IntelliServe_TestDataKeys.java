@@ -28,4 +28,30 @@ public class IntelliServe_TestDataKeys {
 	public String fianance_Approver_Role = "Finance Approver";
 	public String operation_Approver_Role = "Operations Approver";
 
+	// Status
+	public String statusFilter = "Status";
+	public String pending_StatusFilter = "Pending";
+	public String approver_StatusFilter = "Approved";
+	public String rejected_StatusFilter = "Rejected";
+	public String resolved_StatusFilter = "Resolved";
+	public String forwarded_StatusFilter = "Forwarded";
+	public String implementSchedult_StatusFilter = "Implementation Scheduled";
+	public String workInProgress_StatusFilter = "Work Inprogress";
+	public String closed_StatusFilter = "Closed";
+
+	// Priority
+	public String priorityFilter = "Priority";
+	public String high_PriorityFilter = "High";
+	public String medium_PriorityFilter = "Medium";
+	public String low_PriorityFilter = "Low";
+	public String critical_PriorityFilter = "Critical";
+
+	// Department
+	public String btg_DepartmentFilter = "Business Technology Group";
+	public String dsil_DepartmentFilter = "DSIL";
+	public String dsa_DepartmentFilter = "Data Science and AI";
+	public String departmentFilter = "Department";
+	public String stageFilter = "Stages";
+	public String currentStage = "Current Stage";
+
 }

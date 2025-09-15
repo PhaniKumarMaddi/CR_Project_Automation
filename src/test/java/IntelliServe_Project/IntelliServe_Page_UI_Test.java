@@ -7,7 +7,6 @@ import org.testng.annotations.Test;
 import BaseClasses.IntelliServe_TestDataKeys;
 import BaseClasses.IntelliServe_TestInitializer;
 import IntelliServe_Pages.Ticketing_Page;
-import L_And_D_Pages.L_And_D_Page;
 import Utility.GenerateReports;
 
 public class IntelliServe_Page_UI_Test extends IntelliServe_TestInitializer {

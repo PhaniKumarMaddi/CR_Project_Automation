@@ -11,14 +11,12 @@ import org.openqa.selenium.WebElement;
 
 import Utility.DriverManager;
 import Utility.GenerateReports;
-import Utility.TestDataKeys;
 import Utility.WaitsManager;
 
 public class L_And_D_Page extends WaitsManager {
 	static WebDriver driver;
 	private static Logger logger = LogManager.getLogger(L_And_D_Page.class);
 	GenerateReports grep = new GenerateReports();
-	TestDataKeys dataKeys = new TestDataKeys();
 
 	public L_And_D_Page() {
 		this.driver = DriverManager.getDriver();

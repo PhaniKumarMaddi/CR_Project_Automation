@@ -1,6 +1,5 @@
 package L_And_D_Pages;
 
-import java.awt.Scrollbar;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
@@ -14,7 +13,6 @@ import org.openqa.selenium.support.ui.Select;
 
 import Utility.DriverManager;
 import Utility.GenerateReports;
-import Utility.TestDataKeys;
 import Utility.WaitsManager;
 
 public class L_And_D_MyCoursesPage extends WaitsManager {
@@ -22,7 +20,6 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 	static WebDriver driver;
 	private static Logger logger = LogManager.getLogger(L_And_D_MyCoursesPage.class);
 	GenerateReports grep = new GenerateReports();
-	TestDataKeys dataKeys = new TestDataKeys();
 
 	public L_And_D_MyCoursesPage() {
 		this.driver = DriverManager.getDriver();

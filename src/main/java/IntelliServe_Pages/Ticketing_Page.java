@@ -19,7 +19,6 @@ public class Ticketing_Page extends WaitsManager {
 	static WebDriver driver;
 	private static Logger logger = LogManager.getLogger(Ticketing_Page.class);
 	GenerateReports grep = new GenerateReports();
-	TestDataKeys dataKeys = new TestDataKeys();
 
 	public Ticketing_Page() {
 		this.driver = DriverManager.getDriver();
@@ -214,24 +213,6 @@ public class Ticketing_Page extends WaitsManager {
 				grep.failTest("Selected role not Available for user");
 				logger.error("Selected role not Available for user");
 			}
-
-//				List<WebElement> allOptions = select.getOptions();
-//
-//				for (WebElement option : allOptions) {
-//					if (option.getText().equals(roleValue) || option.getAttribute("value").equals(roleValue)) {
-//				select.selectByVisibleText(roleValue);
-//						break; // Value found, no need to continue iterating
-//					} else {
-//						grep.failTest("Selected role not Available for user");
-//						logger.error("Selected role not Available for user");
-//					}
-//				}
-//
-//			} else {
-//				grep.failTest("Selected role not Available");
-//				logger.error("Selected role not Available");
-//			}
-
 		} catch (Exception e) {
 			e.printStackTrace();
 			grep.failTest("Test Failed :" + e.getMessage());

@@ -3720,3 +3720,280 @@ Business Technology Group
 2025-09-15 13:55:30 [main] INFO : Logged out Successfully
 2025-09-15 13:55:35 [main] INFO : Testing Ended
 2025-09-15 13:55:35 [main] INFO : ***********
+2025-09-15 15:32:25 [main] INFO : Launching Chrome Browser
+2025-09-15 15:32:25 [main] INFO : Report Name :Ticketing_Page.html
+2025-09-15 15:32:53 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-09-15 15:33:22 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-09-15 15:33:51 [main] INFO : Logged in to Intelli Serve Application
+2025-09-15 15:33:52 [main] INFO : Selected role Available
+2025-09-15 15:33:52 [main] INFO : Approver Worklist Page Configure Columns Options Filters
+2025-09-15 15:33:52 [main] INFO : Navigated to /approver-tickets
+2025-09-15 15:33:53 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:33:53 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:33:53 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:33:53 [main] INFO : Verifying Ticket ID Column Option
+2025-09-15 15:33:53 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:33:53 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:33:55 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:33:55 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:33:56 [main] INFO : Verifying Status Column Option
+2025-09-15 15:33:56 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:33:56 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:33:57 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:33:57 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:33:58 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:33:59 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:33:59 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:33:59 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:33:59 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:34:00 [main] INFO : Approver Worklist Page Status Filter Test
+2025-09-15 15:34:01 [main] INFO : Approver Worklist Page Pending Status Filter Test
+2025-09-15 15:34:01 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:34:02 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:34:02 [main] INFO : Approver Worklist Page Rejected Status Filter Test
+2025-09-15 15:34:02 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:34:03 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:34:03 [main] INFO : Approver Worklist Page Resolved Status Filter Test
+2025-09-15 15:34:03 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:34:04 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:34:04 [main] INFO : Approver Worklist Page Closed Status Filter Test
+2025-09-15 15:34:05 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:34:05 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:34:06 [main] INFO : Testing Ended
+2025-09-15 15:34:06 [main] INFO : ***********
+2025-09-15 15:35:56 [main] INFO : Launching Chrome Browser
+2025-09-15 15:35:56 [main] INFO : Report Name :Ticketing_Page.html
+2025-09-15 15:35:59 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-09-15 15:36:01 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-09-15 15:36:29 [main] INFO : Logged in to Intelli Serve Application
+2025-09-15 15:36:29 [main] INFO : Selected role Available
+2025-09-15 15:36:29 [main] INFO : Approver Worklist Page Configure Columns Options Filters
+2025-09-15 15:36:30 [main] INFO : Navigated to /approver-tickets
+2025-09-15 15:36:30 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:31 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:31 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:31 [main] INFO : Verifying Ticket ID Column Option
+2025-09-15 15:36:31 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:31 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:32 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:32 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:33 [main] INFO : Verifying Status Column Option
+2025-09-15 15:36:33 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:33 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:35 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:35 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:36 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:36 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:36 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:36 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:37 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:38 [main] INFO : Approver Worklist Page Status Filter Test
+2025-09-15 15:36:38 [main] INFO : Approver Worklist Page Pending Status Filter Test
+2025-09-15 15:36:39 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:39 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:40 [main] INFO : Approver Worklist Page Rejected Status Filter Test
+2025-09-15 15:36:40 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:41 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:41 [main] INFO : Approver Worklist Page Resolved Status Filter Test
+2025-09-15 15:36:41 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:42 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:42 [main] INFO : Approver Worklist Page Closed Status Filter Test
+2025-09-15 15:36:42 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:43 [main] ERROR: Test Failed :Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+2025-09-15 15:36:43 [main] INFO : Testing Ended
+2025-09-15 15:36:43 [main] INFO : ***********
+2025-09-15 15:37:04 [main] INFO : Launching Chrome Browser
+2025-09-15 15:37:04 [main] INFO : Report Name :Ticketing_Page.html
+2025-09-15 15:37:08 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-09-15 15:37:10 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-09-15 15:37:42 [main] INFO : Logged in to Intelli Serve Application
+2025-09-15 15:37:43 [main] INFO : Selected role Available
+2025-09-15 15:37:43 [main] INFO : Approver Worklist Page Configure Columns Options Filters
+2025-09-15 15:37:43 [main] INFO : Navigated to /approver-tickets
+2025-09-15 15:37:44 [main] INFO : Header is valid: Approver Worklist
+2025-09-15 15:37:47 [main] INFO : Header is valid: Column Options
+2025-09-15 15:37:49 [main] INFO : Verifying Ticket ID Column Option
+2025-09-15 15:38:00 [main] INFO : Column Option visibility is Hidden 
+2025-09-15 15:38:02 [main] INFO : Column Option visibility is View 
+2025-09-15 15:38:03 [main] INFO : Verifying Status Column Option
+2025-09-15 15:38:04 [main] INFO : Column Option visibility is Hidden 
+2025-09-15 15:38:05 [main] INFO : Column Option visibility is View 
+2025-09-15 15:38:12 [main] INFO : Header is valid: Column Options
+2025-09-15 15:38:15 [main] INFO : Approver Worklist Page Status Filter Test
+2025-09-15 15:38:16 [main] INFO : Approver Worklist Page Pending Status Filter Test
+2025-09-15 15:38:18 [main] INFO : ✅ Search validation passed. All Values match: Pending
+2025-09-15 15:38:18 [main] INFO : Approver Worklist Page Rejected Status Filter Test
+2025-09-15 15:38:20 [main] INFO : ✅ Search validation passed. All Values match: Rejected
+2025-09-15 15:38:20 [main] INFO : Approver Worklist Page Resolved Status Filter Test
+2025-09-15 15:38:22 [main] INFO : ✅ Search validation passed. All Values match: Resolved
+2025-09-15 15:38:22 [main] INFO : Approver Worklist Page Closed Status Filter Test
+2025-09-15 15:38:24 [main] INFO : ✅ Search validation passed. All Values match: Closed
+2025-09-15 15:38:24 [main] INFO : Testing Ended
+2025-09-15 15:38:24 [main] INFO : ***********
+2025-09-15 15:53:55 [main] INFO : Launching Chrome Browser
+2025-09-15 15:53:56 [main] INFO : Report Name :Ticketing_Page.html
+2025-09-15 15:54:17 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-09-15 15:54:56 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-09-15 15:55:24 [main] INFO : Logged in to Intelli Serve Application
+2025-09-15 15:55:25 [main] INFO : Selected role Available
+2025-09-15 15:55:25 [main] INFO : Approver Worklist Page Configure Columns Options Filters
+2025-09-15 15:55:26 [main] INFO : Navigated to /approver-tickets
+2025-09-15 15:55:27 [main] INFO : Header is valid: Approver Worklist
+2025-09-15 15:55:34 [main] INFO : Header is valid: Column Options
+2025-09-15 15:55:34 [main] INFO : Verifying Ticket ID Column Option
+2025-09-15 15:55:34 [main] INFO : Column Option visibility is Hidden 
+2025-09-15 15:55:36 [main] INFO : Column Option visibility is View 
+2025-09-15 15:55:38 [main] INFO : Verifying Status Column Option
+2025-09-15 15:55:38 [main] INFO : Column Option visibility is Hidden 
+2025-09-15 15:55:40 [main] INFO : Column Option visibility is View 
+2025-09-15 15:55:46 [main] INFO : Header is valid: Column Options
+2025-09-15 15:55:50 [main] INFO : Approver Worklist Refresh Button Test
+2025-09-15 15:55:52 [main] INFO : Refresh Successful Messgae: Tickets refreshed successfully. Found 551 tickets.
+2025-09-15 15:55:54 [main] INFO : Approver Worklist Page Status Filter Test
+2025-09-15 15:55:54 [main] INFO : Approver Worklist Page Pending Status Filter Test
+2025-09-15 15:55:56 [main] INFO : ✅ Search validation passed. All Values match: Pending
+2025-09-15 15:55:56 [main] INFO : Approver Worklist Page Rejected Status Filter Test
+2025-09-15 15:55:58 [main] INFO : ✅ Search validation passed. All Values match: Rejected
+2025-09-15 15:55:58 [main] INFO : Approver Worklist Page Resolved Status Filter Test
+2025-09-15 15:56:00 [main] INFO : ✅ Search validation passed. All Values match: Resolved
+2025-09-15 15:56:00 [main] INFO : Approver Worklist Page Closed Status Filter Test
+2025-09-15 15:56:02 [main] INFO : ✅ Search validation passed. All Values match: Closed
+2025-09-15 15:56:04 [main] INFO : Approver Worklist Page Priority Filter Test
+2025-09-15 15:56:04 [main] INFO : Approver Worklist Page High Priority Filter Test
+2025-09-15 15:56:06 [main] INFO : ✅ Search validation passed. All Values match: High
+2025-09-15 15:56:06 [main] INFO : Approver Worklist Page Low Priority Filter Test
+2025-09-15 15:56:08 [main] INFO : ✅ Search validation passed. All Values match: Low
+2025-09-15 15:56:08 [main] INFO : Approver Worklist Page Medium Priority Filter Test
+2025-09-15 15:56:10 [main] INFO : ✅ Search validation passed. All Values match: Medium
+2025-09-15 15:56:12 [main] INFO : Approver Worklist Page Department Filter Test
+2025-09-15 15:56:13 [main] INFO : Approver Worklist Page Business Technology Group Department Filter Test
+2025-09-15 15:56:15 [main] INFO : ✅ Search validation passed. All Values match: Business Technology Group
+2025-09-15 15:56:15 [main] INFO : Approver Worklist Page DSIL Department Filter Test
+2025-09-15 15:56:17 [main] INFO : ✅ Search validation passed. All Values match: DSIL
+2025-09-15 15:56:17 [main] INFO : Approver Worklist Page Data Science and AI Department Filter Test
+2025-09-15 15:56:18 [main] INFO : ✅ Search validation passed. All Values match: Data Science and AI
+2025-09-15 15:56:21 [main] INFO : Approver Worklist Page Stages Filter Test
+2025-09-15 15:56:21 [main] INFO : Approver Worklist Page Department Approver Stages Filter Test
+2025-09-15 15:56:23 [main] INFO : ✅ Search validation passed. All Values match: Department Approver
+2025-09-15 15:56:23 [main] INFO : Approver Worklist Page BTG Approver Priority Filter Test
+2025-09-15 15:58:24 [main] ERROR: Test Failed :Cannot locate option with text: BTG Approver
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: driver.version: unknown
+2025-09-15 15:58:25 [main] INFO : ✅ Search validation passed. All Values match: BTG Approver
+2025-09-15 15:58:25 [main] INFO : Approver Worklist Page IT Approver Priority Filter Test
+2025-09-15 15:59:09 [main] INFO : Launching Chrome Browser
+2025-09-15 15:59:09 [main] INFO : Report Name :Ticketing_Page.html
+2025-09-15 15:59:12 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-09-15 15:59:14 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-09-15 15:59:41 [main] INFO : Logged in to Intelli Serve Application
+2025-09-15 15:59:42 [main] INFO : Selected role Available
+2025-09-15 15:59:42 [main] INFO : Approver Worklist Page Configure Columns Options Filters
+2025-09-15 15:59:43 [main] INFO : Navigated to /approver-tickets
+2025-09-15 15:59:44 [main] INFO : Header is valid: Approver Worklist
+2025-09-15 15:59:51 [main] INFO : Header is valid: Column Options
+2025-09-15 15:59:51 [main] INFO : Verifying Ticket ID Column Option
+2025-09-15 15:59:51 [main] INFO : Column Option visibility is Hidden 
+2025-09-15 15:59:53 [main] INFO : Column Option visibility is View 
+2025-09-15 15:59:54 [main] INFO : Verifying Status Column Option
+2025-09-15 15:59:55 [main] INFO : Column Option visibility is Hidden 
+2025-09-15 15:59:56 [main] INFO : Column Option visibility is View 
+2025-09-15 16:00:03 [main] INFO : Header is valid: Column Options
+2025-09-15 16:00:07 [main] INFO : Approver Worklist Refresh Button Test
+2025-09-15 16:00:09 [main] INFO : Refresh Successful Messgae: Tickets refreshed successfully. Found 551 tickets.
+2025-09-15 16:00:10 [main] INFO : Approver Worklist Page Status Filter Test
+2025-09-15 16:00:11 [main] INFO : Approver Worklist Page Pending Status Filter Test
+2025-09-15 16:00:13 [main] INFO : ✅ Search validation passed. All Values match: Pending
+2025-09-15 16:00:13 [main] INFO : Approver Worklist Page Rejected Status Filter Test
+2025-09-15 16:00:15 [main] INFO : ✅ Search validation passed. All Values match: Rejected
+2025-09-15 16:00:15 [main] INFO : Approver Worklist Page Resolved Status Filter Test
+2025-09-15 16:00:17 [main] INFO : ✅ Search validation passed. All Values match: Resolved
+2025-09-15 16:00:17 [main] INFO : Approver Worklist Page Closed Status Filter Test
+2025-09-15 16:00:19 [main] INFO : ✅ Search validation passed. All Values match: Closed
+2025-09-15 16:00:21 [main] INFO : Approver Worklist Page Priority Filter Test
+2025-09-15 16:00:22 [main] INFO : Approver Worklist Page High Priority Filter Test
+2025-09-15 16:00:23 [main] INFO : ✅ Search validation passed. All Values match: High
+2025-09-15 16:00:23 [main] INFO : Approver Worklist Page Low Priority Filter Test
+2025-09-15 16:00:25 [main] INFO : ✅ Search validation passed. All Values match: Low
+2025-09-15 16:00:25 [main] INFO : Approver Worklist Page Medium Priority Filter Test
+2025-09-15 16:00:27 [main] INFO : ✅ Search validation passed. All Values match: Medium
+2025-09-15 16:00:29 [main] INFO : Approver Worklist Page Department Filter Test
+2025-09-15 16:00:30 [main] INFO : Approver Worklist Page Business Technology Group Department Filter Test
+2025-09-15 16:00:32 [main] INFO : ✅ Search validation passed. All Values match: Business Technology Group
+2025-09-15 16:00:32 [main] INFO : Approver Worklist Page DSIL Department Filter Test
+2025-09-15 16:00:34 [main] INFO : ✅ Search validation passed. All Values match: DSIL
+2025-09-15 16:00:34 [main] INFO : Approver Worklist Page Data Science and AI Department Filter Test
+2025-09-15 16:00:36 [main] INFO : ✅ Search validation passed. All Values match: Data Science and AI
+2025-09-15 16:00:38 [main] INFO : Approver Worklist Page Stages Filter Test
+2025-09-15 16:00:39 [main] INFO : Approver Worklist Page Department Approver Stages Filter Test
+2025-09-15 16:00:40 [main] INFO : ✅ Search validation passed. All Values match: Department Approver
+2025-09-15 16:00:41 [main] INFO : Approver Worklist Page BTG Approver Stages Filter Test
+2025-09-15 16:00:42 [main] INFO : ✅ Search validation passed. All Values match: BTG Approver
+2025-09-15 16:00:43 [main] INFO : Approver Worklist Page IT Approver Stages Filter Test
+2025-09-15 16:00:44 [main] INFO : ✅ Search validation passed. All Values match: IT Approver
+2025-09-15 16:00:47 [main] INFO : Approver Worklist Search Functionality Test
+2025-09-15 16:00:48 [main] INFO : ✅ Search validation passed. All Values match: Phani Kumar Maddi
+2025-09-15 16:00:51 [main] INFO : Approver Worklist Search Non existing  Functionality Test
+2025-09-15 16:00:52 [main] INFO : No records Found :No Records Found
+2025-09-15 16:00:54 [main] INFO : Testing Ended
+2025-09-15 16:00:54 [main] INFO : ***********
+2025-09-15 16:23:14 [main] INFO : Launching Chrome Browser
+2025-09-15 16:23:15 [main] INFO : Report Name :Ticketing_Page.html
+2025-09-15 16:23:44 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-09-15 16:24:24 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-09-15 16:24:51 [main] INFO : Logged in to Intelli Serve Application
+2025-09-15 16:24:52 [main] INFO : Selected role Available
+2025-09-15 16:24:52 [main] INFO : Approver Worklist Page Configure Columns Options Filters
+2025-09-15 16:24:52 [main] INFO : Navigated to /approver-tickets
+2025-09-15 16:24:54 [main] INFO : Header is valid: Approver Worklist
+2025-09-15 16:25:01 [main] INFO : Header is valid: Column Options
+2025-09-15 16:25:01 [main] INFO : Verifying Ticket ID Column Option
+2025-09-15 16:25:01 [main] INFO : Column Option visibility is Hidden 
+2025-09-15 16:25:03 [main] INFO : Column Option visibility is View 
+2025-09-15 16:25:05 [main] INFO : Verifying Status Column Option
+2025-09-15 16:25:05 [main] INFO : Column Option visibility is Hidden 
+2025-09-15 16:25:07 [main] INFO : Column Option visibility is View 
+2025-09-15 16:25:13 [main] INFO : Header is valid: Column Options
+2025-09-15 16:25:17 [main] INFO : Approver Worklist Refresh Button Test
+2025-09-15 16:25:20 [main] INFO : Refresh Successful Messgae: Tickets refreshed successfully. Found 551 tickets.
+2025-09-15 16:25:21 [main] INFO : Approver Worklist Page Status Filter Test
+2025-09-15 16:25:22 [main] INFO : Approver Worklist Page Pending Status Filter Test
+2025-09-15 16:25:24 [main] INFO : ✅ Search validation passed. All Values match: Pending
+2025-09-15 16:25:24 [main] INFO : Approver Worklist Page Rejected Status Filter Test
+2025-09-15 16:25:26 [main] INFO : ✅ Search validation passed. All Values match: Rejected
+2025-09-15 16:25:26 [main] INFO : Approver Worklist Page Resolved Status Filter Test
+2025-09-15 16:25:28 [main] INFO : ✅ Search validation passed. All Values match: Resolved
+2025-09-15 16:25:28 [main] INFO : Approver Worklist Page Closed Status Filter Test
+2025-09-15 16:25:30 [main] INFO : ✅ Search validation passed. All Values match: Closed
+2025-09-15 16:25:32 [main] INFO : Approver Worklist Page Priority Filter Test
+2025-09-15 16:25:33 [main] INFO : Approver Worklist Page High Priority Filter Test
+2025-09-15 16:25:35 [main] INFO : ✅ Search validation passed. All Values match: High
+2025-09-15 16:25:35 [main] INFO : Approver Worklist Page Low Priority Filter Test
+2025-09-15 16:25:37 [main] INFO : ✅ Search validation passed. All Values match: Low
+2025-09-15 16:25:37 [main] INFO : Approver Worklist Page Medium Priority Filter Test
+2025-09-15 16:25:39 [main] INFO : ✅ Search validation passed. All Values match: Medium
+2025-09-15 16:25:41 [main] INFO : Approver Worklist Page Department Filter Test
+2025-09-15 16:25:42 [main] INFO : Approver Worklist Page Business Technology Group Department Filter Test
+2025-09-15 16:25:44 [main] INFO : ✅ Search validation passed. All Values match: Business Technology Group
+2025-09-15 16:25:44 [main] INFO : Approver Worklist Page DSIL Department Filter Test
+2025-09-15 16:25:46 [main] INFO : ✅ Search validation passed. All Values match: DSIL
+2025-09-15 16:25:46 [main] INFO : Approver Worklist Page Data Science and AI Department Filter Test
+2025-09-15 16:25:48 [main] INFO : ✅ Search validation passed. All Values match: Data Science and AI
+2025-09-15 16:25:50 [main] INFO : Approver Worklist Page Stages Filter Test
+2025-09-15 16:25:51 [main] INFO : Approver Worklist Page Department Approver Stages Filter Test
+2025-09-15 16:25:53 [main] INFO : ✅ Search validation passed. All Values match: Department Approver
+2025-09-15 16:25:53 [main] INFO : Approver Worklist Page BTG Approver Stages Filter Test
+2025-09-15 16:25:55 [main] INFO : ✅ Search validation passed. All Values match: BTG Approver
+2025-09-15 16:25:55 [main] INFO : Approver Worklist Page IT Approver Stages Filter Test
+2025-09-15 16:25:57 [main] INFO : ✅ Search validation passed. All Values match: IT Approver
+2025-09-15 16:25:59 [main] INFO : Approver Worklist Search Functionality Test
+2025-09-15 16:26:01 [main] INFO : ✅ Search validation passed. All Values match: Phani Kumar Maddi
+2025-09-15 16:26:03 [main] INFO : Approver Worklist Search Non existing  Functionality Test
+2025-09-15 16:26:05 [main] INFO : No records Found :No Records Found
+2025-09-15 16:26:08 [main] INFO : Navigated to /user/tickets
+2025-09-15 16:26:15 [main] INFO : Header is valid: Column Options
+2025-09-15 16:26:19 [main] INFO : My Tickets Page Priority Filter Test
+2025-09-15 16:26:19 [main] INFO : My Tickets Page High Priority Filter Test
+2025-09-15 16:27:21 [main] INFO : My Tickets Page Low Priority Filter Test
+2025-09-15 16:28:23 [main] INFO : My Tickets Page Medium Priority Filter Test
