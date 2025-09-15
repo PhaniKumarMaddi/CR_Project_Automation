@@ -85,9 +85,9 @@ public class CSAT_TestInitializer extends WaitsManager {
 //		login.enterUserName(dataKeys.ssoUserNameDev);
 		login.clickSignIn();
 		waitTime2(driver);
-		login.enterPassword(dataKeys.ssoPassword);
+//		login.enterPassword(dataKeys.ssoPassword);
 //		login.enterPassword(dataKeys.ssoPasswordDev);
-		login.clickSignIn();
+//		login.clickSignIn();
 		waitTime5(driver);
 		// yes or no
 		login.clickSignIn();

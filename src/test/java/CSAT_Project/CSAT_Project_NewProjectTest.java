@@ -391,41 +391,41 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 		waitTime15(driver);
 
 //		// delete customer contact
-//		grep.testCreate("Delete customer contact from existing project test",
-//				"Delete customer contact from existing project");
-//
-//		waitTime(driver);
-//		logger.info("Delete customer contact from existing project");
-//		grep.infoTest("Delete customer contact from existing project");
-//
-//		waitTime5(driver);
-////		csatProject.clickProjectBtn(dataKeys.duplicateProjectName, dataKeys.editProjectBtn);
-//		csatProject.clickProjectBtn(dataKeys.newProjectName, dataKeys.editProjectBtn);
-//		waitTime5(driver);
-//		csatProject.deleteCustomerContact();
-//		waitTime2(driver);
-//
-//		grep.captureScreenshot("pass", "Delete the existing customer contact", "deleteCustomerContact");
-//		waitTime5(driver);
-//		csatProject.clickButton(dataKeys.saveBtn);
-//		waitTime5(driver);
-//
-//		// delete existing project
-//		grep.testCreate("Delete existing project test", "Delete Existing project");
-//
-//		waitTime(driver);
-//		logger.info("Delete Existing Project");
-//		grep.infoTest("Delete existing project");
-//		waitTime5(driver);
-//		csatProject.clickProjectBtn(dataKeys.newProjectName, dataKeys.deleteProjectBtn);
-//		waitTime(driver);
-//		grep.captureScreenshot("pass", "Deleted the project", "DeletingProject");
-//		csatProject.clickButton(dataKeys.buttonYes);
-//		waitTime(driver);
-//		grep.captureScreenshot("pass", "Deleted Project not available", "afterDeletion");
-//
-//		waitTime(driver);
-//		csatProject.verifyDeletedFromProjectNameList(dataKeys.newProjectName);
+		grep.testCreate("Delete customer contact from existing project test",
+				"Delete customer contact from existing project");
+
+		waitTime(driver);
+		logger.info("Delete customer contact from existing project");
+		grep.infoTest("Delete customer contact from existing project");
+
+		waitTime5(driver);
+//		csatProject.clickProjectBtn(dataKeys.duplicateProjectName, dataKeys.editProjectBtn);
+		csatProject.clickProjectBtn(dataKeys.newProjectName, dataKeys.editProjectBtn);
+		waitTime5(driver);
+		csatProject.deleteCustomerContact();
+		waitTime2(driver);
+
+		grep.captureScreenshot("pass", "Delete the existing customer contact", "deleteCustomerContact");
+		waitTime5(driver);
+		csatProject.clickButton(dataKeys.saveBtn);
+		waitTime5(driver);
+
+		// delete existing project
+		grep.testCreate("Delete existing project test", "Delete Existing project");
+
+		waitTime(driver);
+		logger.info("Delete Existing Project");
+		grep.infoTest("Delete existing project");
+		waitTime5(driver);
+		csatProject.clickProjectBtn(dataKeys.newProjectName, dataKeys.deleteProjectBtn);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Deleted the project", "DeletingProject");
+		csatProject.clickButton(dataKeys.buttonYes);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Deleted Project not available", "afterDeletion");
+
+		waitTime(driver);
+		csatProject.verifyDeletedFromProjectNameList(dataKeys.newProjectName);
 
 		validAssert.assertAllFunction();
 	}

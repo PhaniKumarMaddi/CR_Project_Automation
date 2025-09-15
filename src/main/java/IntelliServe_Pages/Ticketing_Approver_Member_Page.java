@@ -402,7 +402,7 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 		try {
 			implWait(driver);
 			By tableSearch = By.xpath(
-					"//table[@class='w-full min-w-full divide-y divide-gray-200 dark:divide-gray-700']/tbody/tr");
+					"//table[@class='min-w-full divide-y divide-gray-200 dark:divide-gray-700']/tbody/tr");
 			implWait(driver);
 
 			List<WebElement> table = driver.findElements(tableSearch);

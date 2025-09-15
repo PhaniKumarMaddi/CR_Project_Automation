@@ -56,10 +56,11 @@ public class L_And_D_Page extends WaitsManager {
 
 	// User Profile
 	By profileLogo = By.cssSelector("div.user-profile");
-	By profileBtn = By.xpath("//div[@class='user-profile']/div[2]/div[1]");
+//	By profileBtn = By.xpath("//div[@class='user-profile']/div[2]/div[1]");
+	By profileBtn = By.xpath("//div[@class='user-profile']/div[@class='dropdown-menu']/div[1]");
 	By profileInfo = By.cssSelector("div.profile-info-block>div");
-	By logoutBtn =  By.xpath("//div[@class='user-profile']/div[2]/div[2]");
-	
+	By logoutBtn = By.xpath("//div[@class='user-profile']/div[2]/div[2]");
+
 	// Footer
 	By reserveRights = By.cssSelector("div.footer-bottom>p");
 
@@ -103,7 +104,7 @@ public class L_And_D_Page extends WaitsManager {
 			if (element.size() > 0) {
 				scrollView(By.xpath("//span[text()='Admin - CriticalRiver Learning & Development']"));
 				waitTime(driver);
-				
+
 				element.getFirst().click();
 
 				grep.passTest("Navigated to " + tabName);
@@ -183,7 +184,7 @@ public class L_And_D_Page extends WaitsManager {
 			if (elementExists) {
 				driver.findElement(profileLogo).click();
 				waitTime(driver);
-				driver.findElement(profileBtn).click();
+					driver.findElement(profileBtn).click();
 				grep.passTest("Navigate to Profile Page");
 				logger.info("Navigate to Profile Page");
 
@@ -199,11 +200,10 @@ public class L_And_D_Page extends WaitsManager {
 
 		}
 	}
-	
+
 	public void clickLogoutBtn() throws Exception {
 		try {
 			implWait(driver);
-
 
 			boolean elementExists = !driver.findElements(profileLogo).isEmpty();
 			if (elementExists) {
@@ -535,7 +535,8 @@ public class L_And_D_Page extends WaitsManager {
 			if (elementExists) {
 				driver.findElement(selectDeptCard).click();
 				waitTime(driver);
-				WebElement deptpageInfo = driver.findElement(By.cssSelector("div.department-info>h1"));
+//				WebElement deptpageInfo = driver.findElement(By.cssSelector("div.department-info>h1"));
+				WebElement deptpageInfo = driver.findElement(By.cssSelector("div.dc-department-info>h1"));
 				if (deptpageInfo.getText().equals(deptName)) {
 					grep.passTest("Navigated to " + deptName + " Department");
 					logger.info("Navigated to " + deptName + " Department");

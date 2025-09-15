@@ -31,6 +31,8 @@ public class IntelliServe_ApproverTest extends IntelliServe_TestInitializer {
 			grep.infoTest("Approver Worklist Page Configure Columns Options Filters");
 			logger.info("Approver Worklist Page Configure Columns Options Filters");
 			waitTime(driver);
+			ticketpage.selectUserRole(dataKeys.itApprover_Role);
+			waitTime(driver);
 
 			ticketpage.navigateToPage(dataKeys.approverWorklistPage);
 			waitTime(driver);

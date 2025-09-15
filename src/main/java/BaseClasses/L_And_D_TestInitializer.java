@@ -87,9 +87,9 @@ public class L_And_D_TestInitializer extends WaitsManager {
 		waitTime(driver);
 		login.enterUserName(dataKeys.ssoUserName);
 		login.clickSignIn();
-		waitTime2(driver);
-		login.enterPassword(dataKeys.ssoPassword);
-		login.clickSignIn();
+//		waitTime2(driver);
+//		login.enterPassword(dataKeys.ssoPassword);
+//		login.clickSignIn();
 		waitTime5(driver);
 		// yes or no
 		login.clickSignIn();
