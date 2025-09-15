@@ -76,7 +76,7 @@ public class IntelliServe_TestInitializer extends WaitsManager {
 		System.out.println("Web Page URL: " + url);
 		grep.infoTest("Web Page URL: " + url);
 		logger.info("Web Page URL: " + url);
-		waitTime(driver);
+		waitTime2(driver);
 
 		login.verifyLoginHeader();
 		waitTime2(driver);

@@ -3441,3 +3441,79 @@ Business Technology Group
 2025-09-15 12:14:09 [main] INFO : Logged out Successfully
 2025-09-15 12:14:15 [main] INFO : Testing Ended
 2025-09-15 12:14:15 [main] INFO : ***********
+2025-09-15 13:16:27 [main] INFO : Launching Chrome Browser
+2025-09-15 13:16:27 [main] INFO : Report Name :Ticketing_Page.html
+2025-09-15 13:16:52 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-09-15 13:17:39 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-09-15 13:18:04 [main] INFO : Logged in to Intelli Serve Application
+2025-09-15 13:18:04 [main] INFO : Verify the Home and Profile Page test
+2025-09-15 13:18:06 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-09-15 13:18:06 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-09-15 13:18:09 [main] INFO : Navigated to Profile Page
+2025-09-15 13:18:10 [main] INFO : Header valid :Profile
+2025-09-15 13:18:11 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-09-15 13:18:11 [main] INFO : Department Name: Business Technology Group
+2025-09-15 13:18:12 [main] INFO : User Roles: IT Approver
+2025-09-15 13:18:12 [main] INFO : User Roles: Admin
+2025-09-15 13:18:12 [main] INFO : User Roles: IT Member
+2025-09-15 13:18:12 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-09-15 13:18:12 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-09-15 13:18:12 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-09-15 13:18:12 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-09-15 13:18:13 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-09-15 13:18:13 [main] INFO : Version :Version 1.0.0
+2025-09-15 13:18:14 [main] INFO : Verify the Admin Role Pages
+2025-09-15 13:18:49 [main] ERROR: Selected role not Available for user
+2025-09-15 13:18:51 [main] INFO : Navigated to /admin
+2025-09-15 13:18:56 [main] INFO : Inside /admin Page 
+2025-09-15 13:18:56 [main] INFO : /admin Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/admin
+2025-09-15 13:19:05 [main] INFO : Navigated to /tickets
+2025-09-15 13:19:10 [main] INFO : Inside /tickets Page 
+2025-09-15 13:19:10 [main] INFO : /tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/tickets
+2025-09-15 13:19:18 [main] INFO : Navigated to /approver-management
+2025-09-15 13:19:23 [main] INFO : Inside /approver-management Page 
+2025-09-15 13:19:23 [main] INFO : /approver-management Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-management
+2025-09-15 13:19:32 [main] INFO : Navigated to /roles
+2025-09-15 13:19:37 [main] INFO : Inside /roles Page 
+2025-09-15 13:19:37 [main] INFO : /roles Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/roles
+2025-09-15 13:19:45 [main] INFO : Navigated to /user/tickets
+2025-09-15 13:19:50 [main] INFO : Inside /user/tickets Page 
+2025-09-15 13:19:50 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-09-15 13:20:04 [main] INFO : Verify the IT Approver Role Pages
+2025-09-15 13:20:45 [main] INFO : Launching Chrome Browser
+2025-09-15 13:20:45 [main] INFO : Report Name :Ticketing_Page.html
+2025-09-15 13:20:50 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-09-15 13:20:53 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-09-15 13:21:18 [main] INFO : Logged in to Intelli Serve Application
+2025-09-15 13:21:18 [main] INFO : Verify the Home and Profile Page test
+2025-09-15 13:21:20 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-09-15 13:21:20 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-09-15 13:21:24 [main] INFO : Navigated to Profile Page
+2025-09-15 13:21:24 [main] INFO : Header valid :Profile
+2025-09-15 13:21:25 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-09-15 13:21:25 [main] INFO : Department Name: Business Technology Group
+2025-09-15 13:21:26 [main] INFO : User Roles: IT Approver
+2025-09-15 13:21:26 [main] INFO : User Roles: Admin
+2025-09-15 13:21:26 [main] INFO : User Roles: IT Member
+2025-09-15 13:21:26 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-09-15 13:21:26 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-09-15 13:21:26 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-09-15 13:21:26 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-09-15 13:21:27 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-09-15 13:21:28 [main] INFO : Version :Version 1.0.0
+2025-09-15 13:21:33 [main] INFO : Verify the Admin Role Pages
+2025-09-15 13:21:43 [main] ERROR: Selected role not Available for user
+2025-09-15 13:21:45 [main] INFO : Navigated to /admin
+2025-09-15 13:21:50 [main] INFO : Inside /admin Page 
+2025-09-15 13:21:50 [main] INFO : /admin Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/admin
+2025-09-15 13:21:59 [main] INFO : Navigated to /tickets
+2025-09-15 13:22:04 [main] INFO : Inside /tickets Page 
+2025-09-15 13:22:04 [main] INFO : /tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/tickets

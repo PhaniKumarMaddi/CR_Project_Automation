@@ -233,11 +233,48 @@ public class Ticketing_Page extends WaitsManager {
 
 		}
 	}
+
+	public boolean verifyUserRole(String roleValue) throws Exception {
+
+		boolean optionFound = false;
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(profileLogo).isEmpty();
+			if (elementExists) {
+				driver.findElement(profileLogo).click();
+				waitTime(driver);
+				WebElement role = driver.findElement(selectRole);
+				Select select = new Select(role);
+
+				List<WebElement> allOptions = select.getOptions();
+
+				for (WebElement option : allOptions) {
+					if (option.getText().equals(roleValue)) {
+						optionFound = true;
+					}
+				}
+				driver.findElement(profileLogo).click();
+
+			} else {
+				grep.failTest("Selected role not Available");
+				logger.error("Selected role not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+		return optionFound;
+	}
+
 	// Navigate to Pages For Top
 	public void navigateToPage(String pageName) throws Exception {
 		try {
 			implWait(driver);
-			By pageNav = By.xpath("//ul[@class='flex flex-col gap-4']/li/a[@href='"+ pageName + "']");
+			By pageNav = By.xpath("//ul[@class='flex flex-col gap-4']/li/a[@href='" + pageName + "']");
 
 			List<WebElement> element = driver.findElements(pageNav);
 			if (element.size() > 0) {
@@ -256,5 +293,5 @@ public class Ticketing_Page extends WaitsManager {
 
 		}
 	}
-	
+
 }
