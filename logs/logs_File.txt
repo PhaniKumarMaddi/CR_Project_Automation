@@ -2674,3 +2674,181 @@ Session ID: 654f1f6df6b0891b094615f9afa52413
 Anwar Hussain: https://crsurveyapp5-frontend-uat.bluedune-79d990c1.centralus.azurecontainerapps.io/surveypage/6fd90b3a32f94bf7b79d9219617fcda7
 2025-09-16 12:46:51 [main] INFO : Testing Ended
 2025-09-16 12:46:51 [main] INFO : ***********
+2025-09-16 14:47:04 [main] INFO : Launching Chrome Browser
+2025-09-16 14:47:04 [main] INFO : Report Name :IntelliServePage_Report.html
+2025-09-16 14:47:09 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-09-16 14:47:12 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-09-16 14:47:42 [main] INFO : Logged in to Intelli Serve Application
+2025-09-16 14:47:42 [main] INFO : Verify the Home and Profile Page test
+2025-09-16 14:47:44 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-09-16 14:47:44 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-09-16 14:47:48 [main] INFO : Navigated to Profile Page
+2025-09-16 14:47:48 [main] INFO : Header valid :Profile
+2025-09-16 14:47:49 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-09-16 14:47:49 [main] INFO : Department Name: Business Technology Group
+2025-09-16 14:47:50 [main] INFO : User Roles: IT Approver
+2025-09-16 14:47:50 [main] INFO : User Roles: Admin
+2025-09-16 14:47:50 [main] INFO : User Roles: IT Member
+2025-09-16 14:47:50 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-09-16 14:47:50 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-09-16 14:47:51 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-09-16 14:47:51 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-09-16 14:47:51 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-09-16 14:47:52 [main] INFO : Version :Version 1.0.0
+2025-09-16 14:47:57 [main] INFO : Selected role Available
+2025-09-16 14:47:57 [main] INFO : Verify the Admin Role Pages
+2025-09-16 14:48:00 [main] INFO : Navigated to /admin
+2025-09-16 14:48:05 [main] INFO : Inside /admin Page 
+2025-09-16 14:48:05 [main] INFO : /admin Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/admin
+2025-09-16 14:48:13 [main] INFO : Navigated to /tickets
+2025-09-16 14:48:18 [main] INFO : Inside /tickets Page 
+2025-09-16 14:48:18 [main] INFO : /tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/tickets
+2025-09-16 14:48:27 [main] INFO : Navigated to /approver-management
+2025-09-16 14:48:32 [main] INFO : Inside /approver-management Page 
+2025-09-16 14:48:32 [main] INFO : /approver-management Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-management
+2025-09-16 14:48:40 [main] INFO : Navigated to /roles
+2025-09-16 14:48:45 [main] INFO : Inside /roles Page 
+2025-09-16 14:48:45 [main] INFO : /roles Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/roles
+2025-09-16 14:48:53 [main] INFO : Navigated to /user/tickets
+2025-09-16 14:48:58 [main] INFO : Inside /user/tickets Page 
+2025-09-16 14:48:59 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-09-16 14:49:12 [main] INFO : Selected role Available
+2025-09-16 14:49:12 [main] INFO : Verify the IT Approver Role Pages
+2025-09-16 14:49:15 [main] INFO : Navigated to /approver/dashboard
+2025-09-16 14:49:20 [main] INFO : Inside /approver/dashboard Page 
+2025-09-16 14:49:20 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-09-16 14:49:29 [main] INFO : Navigated to /approver-tickets
+2025-09-16 14:49:34 [main] INFO : Inside /approver-tickets Page 
+2025-09-16 14:49:34 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-09-16 14:49:42 [main] INFO : Navigated to /user/tickets
+2025-09-16 14:49:47 [main] INFO : Inside /user/tickets Page 
+2025-09-16 14:49:47 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-09-16 14:50:01 [main] INFO : Selected role Available
+2025-09-16 14:50:01 [main] INFO : Verify the IT Member Role Pages
+2025-09-16 14:50:04 [main] INFO : Navigated to /implementation-queue
+2025-09-16 14:50:09 [main] INFO : Inside /implementation-queue Page 
+2025-09-16 14:50:09 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-09-16 14:50:17 [main] INFO : Navigated to /user/tickets
+2025-09-16 14:50:22 [main] INFO : Inside /user/tickets Page 
+2025-09-16 14:50:22 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-09-16 14:50:36 [main] INFO : BTG Approver Role Not Available for logged User
+2025-09-16 14:50:42 [main] INFO : BTG Member Role Not Available for logged User
+2025-09-16 14:50:47 [main] INFO : Selected role Available
+2025-09-16 14:50:47 [main] INFO : Approver Worklist Page Configure Columns Options Filters
+2025-09-16 14:50:50 [main] INFO : Navigated to /approver-tickets
+2025-09-16 14:50:51 [main] INFO : Header is valid: IT Approver Worklist
+2025-09-16 14:50:59 [main] INFO : Header is valid: Column Options
+2025-09-16 14:50:59 [main] INFO : Verifying Ticket ID Column Option
+2025-09-16 14:50:59 [main] INFO : Column Option visibility is Hidden 
+2025-09-16 14:51:01 [main] INFO : Column Option visibility is View 
+2025-09-16 14:51:03 [main] INFO : Verifying Status Column Option
+2025-09-16 14:51:03 [main] INFO : Column Option visibility is Hidden 
+2025-09-16 14:51:05 [main] INFO : Column Option visibility is View 
+2025-09-16 14:51:12 [main] INFO : Header is valid: Column Options
+2025-09-16 14:51:16 [main] INFO : Approver Worklist Refresh Button Test
+2025-09-16 14:51:19 [main] INFO : Refresh Successful Messgae: Tickets refreshed successfully. Found 335 tickets.
+2025-09-16 14:51:20 [main] INFO : Approver Worklist Page Status Filter Test
+2025-09-16 14:51:21 [main] INFO : Approver Worklist Page Pending Status Filter Test
+2025-09-16 14:51:23 [main] INFO : ✅ Search validation passed. All Values match: Pending
+2025-09-16 14:51:23 [main] INFO : Approver Worklist Page Rejected Status Filter Test
+2025-09-16 14:51:25 [main] INFO : ✅ Search validation passed. All Values match: Rejected
+2025-09-16 14:51:25 [main] INFO : Approver Worklist Page Resolved Status Filter Test
+2025-09-16 14:51:27 [main] INFO : ✅ Search validation passed. All Values match: Resolved
+2025-09-16 14:51:27 [main] INFO : Approver Worklist Page Closed Status Filter Test
+2025-09-16 14:51:29 [main] INFO : ✅ Search validation passed. All Values match: Closed
+2025-09-16 14:51:32 [main] INFO : Approver Worklist Page Priority Filter Test
+2025-09-16 14:51:32 [main] INFO : Approver Worklist Page High Priority Filter Test
+2025-09-16 14:51:34 [main] INFO : ✅ Search validation passed. All Values match: High
+2025-09-16 14:51:34 [main] INFO : Approver Worklist Page Low Priority Filter Test
+2025-09-16 14:51:36 [main] INFO : ✅ Search validation passed. All Values match: Low
+2025-09-16 14:51:36 [main] INFO : Approver Worklist Page Medium Priority Filter Test
+2025-09-16 14:51:38 [main] INFO : ✅ Search validation passed. All Values match: Medium
+2025-09-16 14:51:41 [main] INFO : Approver Worklist Page Department Filter Test
+2025-09-16 14:51:41 [main] INFO : Approver Worklist Page Business Technology Group Department Filter Test
+2025-09-16 14:51:43 [main] INFO : ✅ Search validation passed. All Values match: Business Technology Group
+2025-09-16 14:51:43 [main] INFO : Approver Worklist Page DSIL Department Filter Test
+2025-09-16 14:51:45 [main] INFO : ✅ Search validation passed. All Values match: DSIL
+2025-09-16 14:51:46 [main] INFO : Approver Worklist Page Data Science and AI Department Filter Test
+2025-09-16 14:51:47 [main] INFO : ✅ Search validation passed. All Values match: Data Science and AI
+2025-09-16 14:51:50 [main] INFO : Approver Worklist Page Stages Filter Test
+2025-09-16 14:51:50 [main] INFO : Approver Worklist Page Department Approver Stages Filter Test
+2025-09-16 14:51:52 [main] INFO : ✅ Search validation passed. All Values match: Department Approver
+2025-09-16 14:51:53 [main] INFO : Approver Worklist Page BTG Approver Stages Filter Test
+2025-09-16 14:51:55 [main] INFO : ✅ Search validation passed. All Values match: BTG Approver
+2025-09-16 14:51:55 [main] INFO : Approver Worklist Page IT Approver Stages Filter Test
+2025-09-16 14:51:57 [main] INFO : ✅ Search validation passed. All Values match: IT Approver
+2025-09-16 14:51:59 [main] INFO : Approver Worklist Search Functionality Test
+2025-09-16 14:52:01 [main] INFO : ✅ Search validation passed. All Values match: Phani Kumar Maddi
+2025-09-16 14:52:04 [main] INFO : Approver Worklist Search Non existing  Functionality Test
+2025-09-16 14:52:05 [main] INFO : No records Found :No Records Found
+2025-09-16 14:52:08 [main] INFO : Navigated to /user/tickets
+2025-09-16 14:52:15 [main] INFO : Header is valid: Column Options
+2025-09-16 14:52:19 [main] INFO : My Tickets Page Priority Filter Test
+2025-09-16 14:52:22 [main] INFO : Header is valid: My Tickets
+2025-09-16 14:52:22 [main] INFO : My Tickets Page High Priority Filter Test
+2025-09-16 14:52:24 [main] INFO : ✅ Search validation passed. All Values match: High
+2025-09-16 14:52:25 [main] INFO : My Tickets Page Low Priority Filter Test
+2025-09-16 14:52:27 [main] INFO : ✅ Search validation passed. All Values match: Low
+2025-09-16 14:52:27 [main] INFO : My Tickets Page Medium Priority Filter Test
+2025-09-16 14:52:29 [main] INFO : ✅ Search validation passed. All Values match: Medium
+2025-09-16 14:52:33 [main] INFO : My Tickets Page Current Stages Filter Test
+2025-09-16 14:52:34 [main] INFO : My Tickets Page Department Approver Stages Filter Test
+2025-09-16 14:52:36 [main] INFO : ✅ Search validation passed. All Values match: Department Approver
+2025-09-16 14:52:36 [main] INFO : My Tickets Page BTG Approver Stages Filter Test
+2025-09-16 14:52:38 [main] INFO : ✅ Search validation passed. All Values match: BTG Approver
+2025-09-16 14:52:38 [main] INFO : My Tickets Page IT Approver Stages Filter Test
+2025-09-16 14:52:40 [main] INFO : ✅ Search validation passed. All Values match: IT Approver
+2025-09-16 14:52:44 [main] INFO : My Tickets Search Functionality Test
+2025-09-16 14:52:46 [main] INFO : ✅ Search validation passed. All Values match: Phani Kumar Maddi
+2025-09-16 14:52:47 [main] INFO : My Tickets Search Non existing  Functionality Test
+2025-09-16 14:52:49 [main] INFO : No records Found :No Records Found
+2025-09-16 14:52:52 [main] INFO : Testing Ended
+2025-09-16 14:52:52 [main] INFO : ***********
+2025-09-16 17:53:44 [main] INFO : Launching Chrome Browser
+2025-09-16 17:53:44 [main] INFO : Report Name :IntelliServePage_Report.html
+2025-09-16 17:54:17 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-09-16 17:54:41 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-09-16 17:55:06 [main] INFO : Logged in to Intelli Serve Application
+2025-09-16 17:55:06 [main] INFO : Verify the Home and Profile Page test
+2025-09-16 17:55:07 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-09-16 17:55:07 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-09-16 17:55:11 [main] INFO : Navigated to Profile Page
+2025-09-16 17:55:11 [main] INFO : Header valid :Profile
+2025-09-16 17:55:12 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-09-16 17:55:12 [main] INFO : Department Name: Business Technology Group
+2025-09-16 17:55:13 [main] INFO : User Roles: IT Approver
+2025-09-16 17:55:13 [main] INFO : User Roles: Admin
+2025-09-16 17:55:13 [main] INFO : User Roles: BTG Member
+2025-09-16 17:55:13 [main] INFO : User Roles: BTG Approver
+2025-09-16 17:55:13 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-09-16 17:55:13 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-09-16 17:55:13 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-09-16 17:55:13 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-09-16 17:55:14 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-09-16 17:55:15 [main] INFO : Version :Version 1.0.0
+2025-09-16 17:55:19 [main] INFO : Selected role Available
+2025-09-16 17:55:20 [main] INFO : Verify the Admin Role Pages
+2025-09-16 17:55:20 [main] ERROR: Test Failed :invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c45d9bc952f4b74c684b830f385f17ab, findElements {value=//button[@class='flex items-center text-gray-700 dropdown-toggle dark:text-gray-400'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55076}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55076/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c45d9bc952f4b74c684b830f385f17ab
+2025-09-16 17:55:21 [main] ERROR: Test Failed :invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c45d9bc952f4b74c684b830f385f17ab, setTimeout {implicit=60000}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55076}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55076/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c45d9bc952f4b74c684b830f385f17ab
