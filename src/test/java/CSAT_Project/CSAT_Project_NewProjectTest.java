@@ -379,7 +379,7 @@ public class CSAT_Project_NewProjectTest extends CSAT_TestInitializer {
 
 //		csatProject.clickProjectBtn(dataKeys.duplicateProjectName, dataKeys.editProjectBtn);
 		csatProject.clickProjectBtn(dataKeys.newProjectName, dataKeys.editProjectBtn);
-		waitTime2(driver);
+		waitTime5(driver);
 		csatProject.addNewCustomerContactBtn();
 		waitTime3(driver);
 		csatProject.insertCustomerName(dataKeys.updateCustomerName);

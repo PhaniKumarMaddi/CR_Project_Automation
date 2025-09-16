@@ -166,6 +166,7 @@ public class IntelliServe_ApproverTest extends IntelliServe_TestInitializer {
 	public void approveMyTickets_Filter_Test() throws Exception {
 		ticketpage.navigateToPage(dataKeys.myTicketPage);
 		waitTime5(driver);
+
 		appr_member_Page.clickConfigColumnBtn();
 		appr_member_Page.selectColumnOption("Department");
 		appr_member_Page.selectColumnOption("Manager");
@@ -178,8 +179,9 @@ public class IntelliServe_ApproverTest extends IntelliServe_TestInitializer {
 		waitTime(driver);
 		grep.infoTest("My Tickets Page Priority Filter Test");
 		logger.info("My Tickets Page Priority Filter Test");
+		waitTime2(driver);
+		appr_member_Page.verifyMyTicketHeader();
 		waitTime(driver);
-
 		verifyMyTicketsPriorityFilter(dataKeys.high_PriorityFilter);
 		verifyMyTicketsPriorityFilter(dataKeys.low_PriorityFilter);
 		verifyMyTicketsPriorityFilter(dataKeys.medium_PriorityFilter);

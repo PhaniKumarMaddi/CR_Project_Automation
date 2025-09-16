@@ -108,7 +108,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		lndOther = new L_And_D_OtherPages();
 
 		lndPage.navigateToPage(dataKeys.adminPageUrl);
-		waitTime(driver);
+		waitTime2(driver);
 		String url = getURL();
 		if (url.contains(dataKeys.dashboardTabUrl)) {
 			waitTime(driver);
@@ -447,7 +447,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 
 		waitTime(driver);
 		grep.testCreate("Certificates Page Test", "Certificates page");
-		waitTime(driver);
+		waitTime2(driver);
 		lndPage.navigateToPage(dataKeys.certificatesPageUrl);
 		waitTime(driver);
 		lndOther.certificatesPageTest();

@@ -530,7 +530,7 @@ public class CSAT_SendSurvey extends CSAT_TestInitializer {
 		login.enterUserName(dataKeys.ssoUserName);
 		login.clickSignIn();
 		waitTime2(driver);
-		login.enterPassword(dataKeys.ssoPassword);
+//		login.enterPassword(dataKeys.ssoPassword);
 		waitTime2(driver);
 		login.clickSignIn();
 		waitTime10(driver);

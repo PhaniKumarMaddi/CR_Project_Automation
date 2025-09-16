@@ -29,9 +29,12 @@ public class L_And_D_OtherPages extends WaitsManager {
 	By noDeptMsg = By.cssSelector("div.no-results>p");
 	By clearDeptBtn = By.cssSelector("button.clear-filter-btn");
 
-	By deptpageInfo = By.cssSelector("div.department-info>h1");
-	By searchCourse = By.xpath("//input[@class='search-input']");
-	By noCourseMsg = By.cssSelector("div.no-courses-message>p");
+//	By deptpageInfo = By.cssSelector("div.department-info>h1");
+	By deptpageInfo = By.cssSelector("div.dc-department-info>h1");
+//	By searchCourse = By.xpath("//input[@class='search-input']");
+	By searchCourse = By.xpath("//input[@class='dc-search-input']");
+//	By noCourseMsg = By.cssSelector("div.no-courses-message>p");
+	By noCourseMsg = By.cssSelector("div.dc-no-courses-message>p");
 
 	By adminHeader = By.xpath("//span[text()='Admin - CriticalRiver Learning & Development']");
 
@@ -128,8 +131,8 @@ public class L_And_D_OtherPages extends WaitsManager {
 				driver.findElement(clearDeptBtn).click();
 			} else {
 
-				grep.failTest("Seach non existing department failed");
-				logger.error("Seach non existing department failed");
+				grep.failTest("Clear filter failed");
+				logger.error("Clear filter failed");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -298,8 +301,8 @@ public class L_And_D_OtherPages extends WaitsManager {
 	public void getCertificateDetails(String tableName) throws Exception {
 		try {
 			implWait(driver);
-			By getTableData = By
-					.xpath("//h2[text()='" + tableName + "']/following-sibling::table[@class='course-table']/tbody/tr");
+//			By getTableData = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table[@class='course-table']/tbody/tr");
+			By getTableData = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table[@class='ad-course-table']/tbody/tr");
 			List<WebElement> table = driver.findElements(getTableData);
 			if (table.size() > 0) {
 				for (WebElement getDetails : table) {
@@ -308,8 +311,8 @@ public class L_And_D_OtherPages extends WaitsManager {
 					logger.info("Certificates Details: " + details);
 				}
 			} else {
-				grep.warnTest("Certificates Not Avaialable");
-				logger.error("Certificates Not Avaialable");
+				grep.warnTest("Certificates Not Available");
+				logger.error("Certificates Not Available");
 			}
 
 		} catch (Exception e) {
@@ -324,8 +327,9 @@ public class L_And_D_OtherPages extends WaitsManager {
 	public void openCertificate(String tableName) throws Exception {
 		try {
 			implWait(driver);
+//			By getTableData = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table[@class='course-table']/tbody/tr/td[4]");
 			By getTableData = By.xpath(
-					"//h2[text()='" + tableName + "']/following-sibling::table[@class='course-table']/tbody/tr/td[4]");
+					"//h2[text()='" + tableName + "']/following-sibling::table[@class='ad-course-table']/tbody/tr/td[4]");
 			List<WebElement> table = driver.findElements(getTableData);
 			if (table.size() > 0) {
 				table.getFirst().click();
@@ -347,7 +351,8 @@ public class L_And_D_OtherPages extends WaitsManager {
 	public void clickCloseCertificate() throws Exception {
 		try {
 			implWait(driver);
-			By closeBtn = By.cssSelector("button.certificate-modal-close");
+//			By closeBtn = By.cssSelector("button.certificate-modal-close");
+			By closeBtn = By.cssSelector("button.ad-certificate-modal-close");
 
 			boolean elementExist = !driver.findElements(closeBtn).isEmpty();
 			if (elementExist) {
@@ -1024,9 +1029,11 @@ public class L_And_D_OtherPages extends WaitsManager {
 	public void certificatesPageTest() throws Exception {
 		try {
 			implWait(driver);
-			By certificateHeader = By.xpath("//section[@class='my-certificates-section']/div[1]");
-			By certificateList = By.xpath("//section[@class='my-certificates-section']/div[2]");
-
+//			By certificateHeader = By.xpath("//section[@class='my-certificates-section']/div[1]");
+//			By certificateList = By.xpath("//section[@class='my-certificates-section']/div[2]");
+			By certificateHeader = By.xpath("//section[@class='cert-my-certificates-section']/div[1]");
+			By certificateList = By.xpath("//section[@class='cert-my-certificates-section']/div[2]");
+			
 			boolean elementExist = !driver.findElements(certificateHeader).isEmpty();
 			if (elementExist) {
 

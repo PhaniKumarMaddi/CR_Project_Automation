@@ -35,8 +35,14 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 			"//div[@class='bg-green-600 text-white px-6 py-4 rounded-lg shadow-lg max-w-md flex items-center space-x-3']/span");
 
 	// MY Tickets
+	By myTickets_header = By.xpath("//h1[@class='text-2xl font-bold text-gray-900 dark:text-white']");
 	By norRecords_MyTickets = By.xpath("//div[starts-with(@class,'overflow-x-auto max-w-full ')]/descendant::p[1]");
 
+	// Approver Dashboard 
+	By appDashboardHeader= By.xpath("//div[@class='space-y-6 sm:space-y-8 px-4 sm:px-6 lg:px-8']/descendant::h2[1]");
+	By dash_TktANalytHeader= By.xpath("//div[@class='space-y-6 sm:space-y-8 px-4 sm:px-6 lg:px-8']/descendant::h2[2]");
+	By appr_DashboardCards= By.xpath("//div[@class='flex items-center justify-center space-x-2']");
+	
 	// verify header
 	public void verifyApproverWorkListHeader() throws Exception {
 		try {
@@ -398,11 +404,40 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 		}
 	}
 
+	// verify header
+	public void verifyMyTicketHeader() throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(myTickets_header).isEmpty();
+			if (elementExists) {
+				String header = driver.findElement(myTickets_header).getText().trim();
+				if (header.contains("My Tickets")) {
+					waitTime(driver);
+					grep.passTest("Header is valid: " + header);
+					logger.info("Header is valid: " + header);
+				} else {
+					grep.failTest("Header is not valid: " + header);
+					logger.error("Header is not valid: " + header);
+				}
+			} else {
+				grep.failTest("Header Not Available");
+				logger.error("Header Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
 	public void verifyMyTickets_FilterInTable(String verifyValue) throws Exception {
 		try {
 			implWait(driver);
-			By tableSearch = By.xpath(
-					"//table[@class='min-w-full divide-y divide-gray-200 dark:divide-gray-700']/tbody/tr");
+			By tableSearch = By
+					.xpath("//table[@class='min-w-full divide-y divide-gray-200 dark:divide-gray-700']/tbody/tr");
 			implWait(driver);
 
 			List<WebElement> table = driver.findElements(tableSearch);

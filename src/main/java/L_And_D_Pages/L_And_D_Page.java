@@ -59,7 +59,8 @@ public class L_And_D_Page extends WaitsManager {
 //	By profileBtn = By.xpath("//div[@class='user-profile']/div[2]/div[1]");
 	By profileBtn = By.xpath("//div[@class='user-profile']/div[@class='dropdown-menu']/div[1]");
 	By profileInfo = By.cssSelector("div.profile-info-block>div");
-	By logoutBtn = By.xpath("//div[@class='user-profile']/div[2]/div[2]");
+//	By logoutBtn = By.xpath("//div[@class='user-profile']/div[2]/div[2]");
+	By logoutBtn = By.xpath("//div[@class='user-profile']/div[@class='dropdown-menu']/div[2]");
 
 	// Footer
 	By reserveRights = By.cssSelector("div.footer-bottom>p");

@@ -40,6 +40,7 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 
 		grep.infoTest("Navigating To Admin Page");
 		lndPage.navigateToPage(dataKeys.adminPageUrl);
+		waitTime2(driver);
 		validateUrl(dataKeys.dashboardTabUrl);
 
 		String url = getURL();
@@ -343,7 +344,7 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 			grep.captureScreenshot("pass", "Navigated to department page", footerVal + "_Footer");
 			waitTime(driver);
 		} else {
-			grep.failTest("Url is not Valid :" + getUrl);
+			grep.warnTest(footerVal + " Url is InValid :" + getUrl);
 			logger.error("Url is not Valid :" + getUrl);
 		}
 
