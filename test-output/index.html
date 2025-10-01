@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,7 +108,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-IntelliServe_Suite" title="IntelliServe_Project.IntelliServe_ApproverTest" class="method navigator-link" hash-for-method="approverWorkList_Test">approverWorkList_Test</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-IntelliServe_Suite" title="IntelliServe_Project.IntelliServe_Approver_MemeberTest" class="method navigator-link" hash-for-method="approver_Role_Test">approver_Role_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IntelliServe_Suite" title="IntelliServe_Project.IntelliServe_Approver_MemeberTest" class="method navigator-link" hash-for-method="member_Role_Test">member_Role_Test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -153,14 +158,21 @@
           <div class="suite-IntelliServe_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">IntelliServe_Project.IntelliServe_ApproverTest</span>
+              <span class="class-name">IntelliServe_Project.IntelliServe_Approver_MemeberTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="approverWorkList_Test">
-                  </a> <!-- approverWorkList_Test -->
-                  <span class="method-name">approverWorkList_Test</span>
+                  <a name="approver_Role_Test">
+                  </a> <!-- approver_Role_Test -->
+                  <span class="method-name">approver_Role_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="member_Role_Test">
+                  </a> <!-- member_Role_Test -->
+                  <span class="method-name">member_Role_Test</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -179,7 +191,7 @@
     &lt;parameter name=&quot;FileName&quot; value=&quot;IntelliServePage_Report.html&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;IntelliServe_Project.IntelliServe_Page_UI_Test&quot;/&gt;
-      &lt;class name=&quot;IntelliServe_Project.IntelliServe_ApproverTest&quot;/&gt;
+      &lt;class name=&quot;IntelliServe_Project.IntelliServe_Approver_MemeberTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- IntelliServe_Test --&gt;
 &lt;/suite&gt; &lt;!-- IntelliServe_Suite --&gt;
@@ -219,24 +231,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyRoleBasedPages')
 data.setCell(0, 2, 'IntelliServe_Project.IntelliServe_Page_UI_Test')
-data.setCell(0, 3, 172775);
+data.setCell(0, 3, 213575);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'approverWorkList_Test')
-data.setCell(1, 2, 'IntelliServe_Project.IntelliServe_ApproverTest')
-data.setCell(1, 3, 125305);
+data.setCell(1, 1, 'approver_Role_Test')
+data.setCell(1, 2, 'IntelliServe_Project.IntelliServe_Approver_MemeberTest')
+data.setCell(1, 3, 151625);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'IntelliServe__UI_Test')
-data.setCell(2, 2, 'IntelliServe_Project.IntelliServe_Page_UI_Test')
-data.setCell(2, 3, 11592);
+data.setCell(2, 1, 'member_Role_Test')
+data.setCell(2, 2, 'IntelliServe_Project.IntelliServe_Approver_MemeberTest')
+data.setCell(2, 3, 56145);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'IntelliServe__UI_Test')
+data.setCell(3, 2, 'IntelliServe_Project.IntelliServe_Page_UI_Test')
+data.setCell(3, 3, 11135);
 window.suiteTableData['IntelliServe_Suite']= { tableData: data, tableDiv: 'times-div-IntelliServe_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
               <div id="times-div-IntelliServe_Suite">
               </div> <!-- times-div-IntelliServe_Suite -->
             </div> <!-- times-div -->
@@ -262,7 +278,7 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">IntelliServe_Project.IntelliServe_ApproverTest</span>
+              <span class="ignored-class-name">IntelliServe_Project.IntelliServe_Approver_MemeberTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">tearDown</span>
                 <br/>
@@ -285,25 +301,29 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">IntelliServe__UI_Test</span>
-                <span class="method-start">41536 ms</span>
+                <span class="method-start">36269 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyRoleBasedPages</span>
-                <span class="method-start">53135 ms</span>
+                <span class="method-start">47410 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">IntelliServe_Project.IntelliServe_ApproverTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">IntelliServe_Project.IntelliServe_Approver_MemeberTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">approverWorkList_Test</span>
-                <span class="method-start">225923 ms</span>
+                <span class="method-name">approver_Role_Test</span>
+                <span class="method-start">260990 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">member_Role_Test</span>
+                <span class="method-start">412617 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">IntelliServe_Project.IntelliServe_Page_UI_Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">351231 ms</span>
+                <span class="method-start">468762 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

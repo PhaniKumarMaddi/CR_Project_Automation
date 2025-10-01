@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-16T14:47:01 IST" name="IntelliServe_Suite" finished-at="2025-09-16T14:52:52 IST" duration-ms="351523">
+  <suite started-at="2025-10-01T15:35:43 IST" name="IntelliServe_Suite" finished-at="2025-10-01T15:43:32 IST" duration-ms="469148">
     <groups>
     </groups>
-    <test started-at="2025-09-16T14:47:01 IST" name="IntelliServe_Test" finished-at="2025-09-16T14:52:52 IST" duration-ms="351523">
+    <test started-at="2025-10-01T15:35:43 IST" name="IntelliServe_Test" finished-at="2025-10-01T15:43:32 IST" duration-ms="469148">
       <class name="IntelliServe_Project.IntelliServe_Page_UI_Test">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:IntelliServe_Project.IntelliServe_Page_UI_Test@6b3e12b5]" started-at="2025-09-16T14:47:01 IST" name="setup" description="Setup and Login To Browser" finished-at="2025-09-16T14:47:42 IST" duration-ms="41482" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:IntelliServe_Project.IntelliServe_Page_UI_Test@7ca33c24]" started-at="2025-10-01T15:35:43 IST" name="setup" description="Setup and Login To Browser" finished-at="2025-10-01T15:36:19 IST" duration-ms="36232" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,25 +18,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="IntelliServe__UI_Test()[pri:1, instance:IntelliServe_Project.IntelliServe_Page_UI_Test@6b3e12b5]" started-at="2025-09-16T14:47:42 IST" name="IntelliServe__UI_Test" finished-at="2025-09-16T14:47:54 IST" duration-ms="11592" status="PASS">
+        <test-method signature="IntelliServe__UI_Test()[pri:1, instance:IntelliServe_Project.IntelliServe_Page_UI_Test@7ca33c24]" started-at="2025-10-01T15:36:19 IST" name="IntelliServe__UI_Test" finished-at="2025-10-01T15:36:30 IST" duration-ms="11135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IntelliServe__UI_Test -->
-        <test-method signature="verifyRoleBasedPages()[pri:2, instance:IntelliServe_Project.IntelliServe_Page_UI_Test@6b3e12b5]" started-at="2025-09-16T14:47:54 IST" name="verifyRoleBasedPages" finished-at="2025-09-16T14:50:47 IST" duration-ms="172775" status="PASS">
+        <test-method signature="verifyRoleBasedPages()[pri:2, instance:IntelliServe_Project.IntelliServe_Page_UI_Test@7ca33c24]" started-at="2025-10-01T15:36:30 IST" name="verifyRoleBasedPages" finished-at="2025-10-01T15:40:04 IST" duration-ms="213575" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRoleBasedPages -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:IntelliServe_Project.IntelliServe_Page_UI_Test@6b3e12b5]" started-at="2025-09-16T14:52:52 IST" name="tearDown" description="Quit Browser" finished-at="2025-09-16T14:52:52 IST" duration-ms="285" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:IntelliServe_Project.IntelliServe_Page_UI_Test@7ca33c24]" started-at="2025-10-01T15:43:31 IST" name="tearDown" description="Quit Browser" finished-at="2025-10-01T15:43:32 IST" duration-ms="380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- IntelliServe_Project.IntelliServe_Page_UI_Test -->
-      <class name="IntelliServe_Project.IntelliServe_ApproverTest">
-        <test-method signature="approverWorkList_Test()[pri:1, instance:IntelliServe_Project.IntelliServe_ApproverTest@7ca33c24]" started-at="2025-09-16T14:50:47 IST" name="approverWorkList_Test" finished-at="2025-09-16T14:52:52 IST" duration-ms="125305" status="PASS">
+      <class name="IntelliServe_Project.IntelliServe_Approver_MemeberTest">
+        <test-method signature="approver_Role_Test()[pri:1, instance:IntelliServe_Project.IntelliServe_Approver_MemeberTest@7103cb56]" started-at="2025-10-01T15:40:04 IST" name="approver_Role_Test" finished-at="2025-10-01T15:42:35 IST" duration-ms="151625" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- approverWorkList_Test -->
-      </class> <!-- IntelliServe_Project.IntelliServe_ApproverTest -->
+        </test-method> <!-- approver_Role_Test -->
+        <test-method signature="member_Role_Test()[pri:2, instance:IntelliServe_Project.IntelliServe_Approver_MemeberTest@7103cb56]" started-at="2025-10-01T15:42:35 IST" name="member_Role_Test" finished-at="2025-10-01T15:43:31 IST" duration-ms="56145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- member_Role_Test -->
+      </class> <!-- IntelliServe_Project.IntelliServe_Approver_MemeberTest -->
     </test> <!-- IntelliServe_Test -->
   </suite> <!-- IntelliServe_Suite -->
 </testng-results>

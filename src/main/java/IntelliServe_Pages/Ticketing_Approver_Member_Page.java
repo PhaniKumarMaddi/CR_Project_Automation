@@ -11,12 +11,14 @@ import org.openqa.selenium.support.ui.Select;
 
 import Utility.DriverManager;
 import Utility.GenerateReports;
+import Utility.ValidatingAssertions;
 import Utility.WaitsManager;
 
 public class Ticketing_Approver_Member_Page extends WaitsManager {
 	static WebDriver driver;
 	private static Logger logger = LogManager.getLogger(Ticketing_Page.class);
 	GenerateReports grep = new GenerateReports();
+	ValidatingAssertions validAssert = new ValidatingAssertions();
 
 	public Ticketing_Approver_Member_Page() {
 		this.driver = DriverManager.getDriver();
@@ -38,11 +40,20 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 	By myTickets_header = By.xpath("//h1[@class='text-2xl font-bold text-gray-900 dark:text-white']");
 	By norRecords_MyTickets = By.xpath("//div[starts-with(@class,'overflow-x-auto max-w-full ')]/descendant::p[1]");
 
-	// Approver Dashboard 
-	By appDashboardHeader= By.xpath("//div[@class='space-y-6 sm:space-y-8 px-4 sm:px-6 lg:px-8']/descendant::h2[1]");
-	By dash_TktANalytHeader= By.xpath("//div[@class='space-y-6 sm:space-y-8 px-4 sm:px-6 lg:px-8']/descendant::h2[2]");
-	By appr_DashboardCards= By.xpath("//div[@class='flex items-center justify-center space-x-2']");
-	
+	// Implementation Queue
+	By implementation_header = By.xpath("//h1[@class='text-2xl font-bold text-gray-900 dark:text-white']");
+	By norRecords_Implemnet_Queue = By.xpath("//div[starts-with(@class,'overflow-x-auto')]/descendant::p[1]");
+
+	// Approver Dashboard
+	By approverDashboardHeader = By
+			.xpath("//div[@class='space-y-6 sm:space-y-8 px-4 sm:px-6 lg:px-8']/descendant::h2[1]");
+	By dashboard_TktAnalytHeader = By
+			.xpath("//div[@class='space-y-6 sm:space-y-8 px-4 sm:px-6 lg:px-8']/descendant::h2[2]");
+	By appr_DashboardCards = By.xpath(
+			"//div[@class='bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700 transition-all duration-300 hover:shadow-xl hover:scale-105 flex flex-col items-center justify-between h-32']");
+	By appr_DashboardCharts = By.xpath(
+			"//div[@class='bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-100 dark:border-gray-700 transition-all duration-300 hover:shadow-xl']/descendant::h3");
+
 	// verify header
 	public void verifyApproverWorkListHeader() throws Exception {
 		try {
@@ -142,29 +153,6 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 			boolean elementExists = !driver.findElements(noRecords_Worklist).isEmpty();
 			if (elementExists) {
 				String msg = driver.findElement(noRecords_Worklist).getText();
-				grep.passTest("No records Found :" + msg);
-				logger.info("No records Found :" + msg);
-			} else {
-				grep.failTest("Records available");
-				logger.error("Records available");
-
-			}
-
-		} catch (Exception e) {
-			e.printStackTrace();
-			grep.failTest("Test Failed :" + e.getMessage());
-			logger.error("Test Failed :" + e.getMessage());
-
-		}
-	}
-
-	public void noRecordsMsg_MyTickets() throws Exception {
-		try {
-			implWait(driver);
-
-			boolean elementExists = !driver.findElements(norRecords_MyTickets).isEmpty();
-			if (elementExists) {
-				String msg = driver.findElement(norRecords_MyTickets).getText();
 				grep.passTest("No records Found :" + msg);
 				logger.info("No records Found :" + msg);
 			} else {
@@ -404,6 +392,8 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 		}
 	}
 
+	// MY TICKETS
+
 	// verify header
 	public void verifyMyTicketHeader() throws Exception {
 		try {
@@ -412,7 +402,7 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 			boolean elementExists = !driver.findElements(myTickets_header).isEmpty();
 			if (elementExists) {
 				String header = driver.findElement(myTickets_header).getText().trim();
-				if (header.contains("My Tickets")) {
+				if (header.equals("My Tickets")) {
 					waitTime(driver);
 					grep.passTest("Header is valid: " + header);
 					logger.info("Header is valid: " + header);
@@ -423,6 +413,29 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 			} else {
 				grep.failTest("Header Not Available");
 				logger.error("Header Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void noRecordsMsg_MyTickets() throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(norRecords_MyTickets).isEmpty();
+			if (elementExists) {
+				String msg = driver.findElement(norRecords_MyTickets).getText();
+				grep.passTest("No records Found :" + msg);
+				logger.info("No records Found :" + msg);
+			} else {
+				grep.failTest("Records available");
+				logger.error("Records available");
+
 			}
 
 		} catch (Exception e) {
@@ -471,6 +484,212 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 			grep.failTest("Test Failed :" + e.getMessage());
 			logger.error("Test Failed :" + e.getMessage());
 
+		}
+	}
+
+	// IMPLEMENTATION QUEUE
+	// verify header
+	public void verifyImplementationQueueHeader() throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(implementation_header).isEmpty();
+			if (elementExists) {
+				String header = driver.findElement(implementation_header).getText().trim();
+				if (header.equals("Implementation Queue")) {
+					waitTime(driver);
+					grep.passTest("Header is valid: " + header);
+					logger.info("Header is valid: " + header);
+				} else {
+					grep.failTest("Header is not valid: " + header);
+					logger.error("Header is not valid: " + header);
+				}
+			} else {
+				grep.failTest("Header Not Available");
+				logger.error("Header Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void noRecordsMsg_Implementation() throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(norRecords_Implemnet_Queue).isEmpty();
+			if (elementExists) {
+				String msg = driver.findElement(norRecords_Implemnet_Queue).getText();
+				grep.passTest("No records Found :" + msg);
+				logger.info("No records Found :" + msg);
+			} else {
+				grep.failTest("Records available");
+				logger.error("Records available");
+
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void verifyImplementationQueue_FilterInTable(String verifyValue) throws Exception {
+		try {
+			implWait(driver);
+			By tableSearch = By
+					.xpath("//table[@class='min-w-full divide-y divide-gray-200 dark:divide-gray-700']/tbody/tr");
+			implWait(driver);
+
+			List<WebElement> table = driver.findElements(tableSearch);
+			if (table.size() > 0) {
+				boolean isValid = true;
+				for (WebElement rows : table) {
+					String rowvalues = rows.getText();
+					if (!rowvalues.contains(verifyValue)) {
+						isValid = false;
+						break;
+					}
+				}
+				if (isValid && table.size() > 0) {
+					System.out.println("✅ Search validation passed. All Values match: " + verifyValue);
+					grep.passTest("✅ Search validation passed. All Values match: " + verifyValue);
+					logger.info("✅ Search validation passed. All Values match: " + verifyValue);
+				} else {
+					System.out.println("❌ Search validation failed. Mismatched Value found or no Records Available: "
+							+ verifyValue);
+					grep.warnTest("❌ Search validation failed. Mismatched Value found or no Records Available: "
+							+ verifyValue);
+					logger.error("❌ Search validation failed. Mismatched Value found or no Records Available: "
+							+ verifyValue);
+				}
+			} else {
+				grep.failTest("Table not exists");
+				logger.error("Table not exists");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void clickConfigColumnBtn_implementation() throws Exception {
+		try {
+			implWait(driver);
+
+			By config_implement = By.xpath("//button[text()='Configure Columns']/parent::div");
+			boolean elementExists = !driver.findElements(config_implement).isEmpty();
+			if (elementExists) {
+				driver.findElement(config_implement).click();
+				waitTime2(driver);
+				String header = driver.findElement(By.cssSelector("h2.text-lg.font-semibold.text-white")).getText();
+				if (header.equals("Column Options")) {
+					grep.passTest("Header is valid: " + header);
+					logger.info("Header is valid: " + header);
+				} else {
+					grep.failTest("Header is not valid: " + header);
+					logger.error("Header is not valid: " + header);
+				}
+
+			} else {
+				grep.failTest("Configure Column Button Not Available");
+				logger.error("Configure Column Button Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// APPROVER DASHBOARD
+	public void verifyApproverDashboardHeader() throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(approverDashboardHeader).isEmpty();
+			if (elementExists) {
+				String header = driver.findElement(approverDashboardHeader).getText().trim();
+				if (header.equals("Dashboard Overview")) {
+					waitTime(driver);
+					grep.passTest("Header is valid: " + header);
+					logger.info("Header is valid: " + header);
+					String headerAnalytics = driver.findElement(dashboard_TktAnalytHeader).getText().trim();
+					if (headerAnalytics.equals("Ticket Analytics")) {
+						waitTime(driver);
+						grep.passTest("Header is valid: " + headerAnalytics);
+						logger.info("Header is valid: " + headerAnalytics);
+					}
+
+				} else {
+					grep.failTest("Header is not valid: " + header);
+					logger.error("Header is not valid: " + header);
+				}
+			} else {
+				grep.failTest("Header Not Available");
+				logger.error("Header Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void approverDashboardCard_Details() throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> cards = driver.findElements(appr_DashboardCards);
+			if (cards.size() > 0) {
+				for (WebElement dashboard : cards) {
+					String cardDetails = dashboard.getText();
+
+					grep.passTest("Card Detail: " + cardDetails);
+					logger.info("Card Detail: " + cardDetails);
+				}
+			} else {
+				grep.failTest("Dashboard Cards Not Available");
+				logger.error("Dashboard Cards Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void approverDashboardCharts_Details() throws Exception {
+		try {
+			implWait(driver);
+			List<WebElement> charts = driver.findElements(appr_DashboardCharts);
+			if (charts.size() > 0) {
+				for (WebElement dashboardCharts : charts) {
+					String chartsDetails = dashboardCharts.getText();
+
+					grep.passTest("Chart Title in Dashboard: " + chartsDetails);
+					logger.info("Chart Title in Dashboard: " + chartsDetails);
+				}
+			} else {
+				grep.failTest("Dashboard Chaarts Not Available");
+				logger.error("Dashboard Charts Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
 		}
 	}
 

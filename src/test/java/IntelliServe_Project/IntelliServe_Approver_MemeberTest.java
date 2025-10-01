@@ -10,9 +10,9 @@ import IntelliServe_Pages.Ticketing_Approver_Member_Page;
 import IntelliServe_Pages.Ticketing_Page;
 import Utility.GenerateReports;
 
-public class IntelliServe_ApproverTest extends IntelliServe_TestInitializer {
+public class IntelliServe_Approver_MemeberTest extends IntelliServe_TestInitializer {
 
-	private static final Logger logger = LogManager.getLogger(IntelliServe_ApproverTest.class);
+	private static final Logger logger = LogManager.getLogger(IntelliServe_Approver_MemeberTest.class);
 	GenerateReports grep = new GenerateReports();
 	IntelliServe_TestDataKeys dataKeys = new IntelliServe_TestDataKeys();
 	Ticketing_Page ticketpage;
@@ -20,10 +20,11 @@ public class IntelliServe_ApproverTest extends IntelliServe_TestInitializer {
 	Ticketing_Approver_Member_Page appr_member_Page;
 
 	@Test(priority = 1)
-	public void approverWorkList_Test() throws Exception {
+	public void approver_Role_Test() throws Exception {
 		ticketpage = new Ticketing_Page();
 		appr_member_Page = new Ticketing_Approver_Member_Page();
 
+		waitTime5(driver);
 		grep.testCreate("Approver Worklist Page Configure Columns Options Filters Test",
 				"Approver Worklist Page Configure Columns Options Filters");
 		boolean it_approver = ticketpage.verifyUserRole(dataKeys.itApprover_Role);
@@ -71,10 +72,56 @@ public class IntelliServe_ApproverTest extends IntelliServe_TestInitializer {
 			approverWorklist_Filter_Test();
 			waitTime(driver);
 			approveMyTickets_Filter_Test();
+			waitTime(driver);
+			approverDashboard_Test();
 
 		} else {
 			grep.warnTest("Approver Role Not Available for logged User");
 			logger.info("Approver Role Not Available for logged User");
+		}
+
+	}
+
+	@Test(priority = 2)
+	public void member_Role_Test() throws Exception {
+
+		grep.testCreate("Implementation Queue Page Configure Columns Options Filters Test",
+				"Implementation Queue Page Configure Columns Options Filters");
+		boolean it_member = ticketpage.verifyUserRole(dataKeys.itMember_Role);
+		if (it_member) {
+			grep.infoTest("Implementation Queue Page Configure Columns Options Filters");
+			logger.info("Implementation Queue Configure Columns Options Filters");
+			waitTime(driver);
+			ticketpage.selectUserRole(dataKeys.itMember_Role);
+			waitTime(driver);
+
+			ticketpage.navigateToPage(dataKeys.implementationQueuePage);
+			waitTime(driver);
+			appr_member_Page.verifyImplementationQueueHeader();
+			waitTime5(driver);
+			appr_member_Page.clickConfigColumnBtn_implementation();
+
+			grep.infoTest("Verifying Ticket ID Column Option");
+			logger.info("Verifying Ticket ID Column Option");
+			verifyColumnOptionFunctionality("Ticket ID");
+			grep.infoTest("Verifying Status Column Option");
+			logger.info("Verifying Status Column Option");
+			verifyColumnOptionFunctionality("Status");
+			appr_member_Page.clickCloseConfigColumnBtn();
+			waitTime(driver);
+
+			appr_member_Page.clickConfigColumnBtn_implementation();
+			appr_member_Page.selectColumnOption("Type");
+			appr_member_Page.selectColumnOption("Assigned To");
+			waitTime(driver);
+			appr_member_Page.clickCloseConfigColumnBtn();
+			waitTime(driver);
+
+			implementation_Queue_Filter_Test();
+			waitTime(driver);
+		} else {
+			grep.warnTest("Member Role Not Available for logged User");
+			logger.info("Member Role Not Available for logged User");
 		}
 
 	}
@@ -200,6 +247,18 @@ public class IntelliServe_ApproverTest extends IntelliServe_TestInitializer {
 		appr_member_Page.selectFilter(dataKeys.currentStage, "All Stages");
 		waitTime2(driver);
 
+		grep.testCreate("My Tickets Page Status Filter Test", "My Tickets Page Status Filters");
+		waitTime(driver);
+		grep.infoTest("My Tickets Page Status Filter Test");
+		logger.info("My Tickets Page Stages Filter Test");
+		waitTime(driver);
+
+		verifyMyTicketsStatusFilter(dataKeys.pending_StatusFilter);
+		verifyMyTicketsStatusFilter(dataKeys.rejected_StatusFilter);
+		verifyMyTicketsStatusFilter(dataKeys.closed_StatusFilter);
+		appr_member_Page.selectFilter(dataKeys.statusFilter, "All Status");
+		waitTime2(driver);
+
 		grep.testCreate("My Tickets Search Functionality Test", "My Tickets Search Functionality");
 		waitTime(driver);
 		grep.infoTest("My Tickets Search Functionality Test");
@@ -217,11 +276,91 @@ public class IntelliServe_ApproverTest extends IntelliServe_TestInitializer {
 		grep.infoTest("My Tickets Search Non existing  Functionality Test");
 		logger.info("My Tickets Search Non existing  Functionality Test");
 		waitTime(driver);
-		appr_member_Page.insertSearchFilter("$%^&");
+		appr_member_Page.insertSearchFilter("$%^$%^&&");
 		waitTime(driver);
 		appr_member_Page.noRecordsMsg_MyTickets();
 		grep.captureScreenshot("pass", " My Tickets Search Non existing  Filter", "NonExisting_SearchFilter_MyTickets");
 		waitTime3(driver);
+
+	}
+
+	public void approverDashboard_Test() throws Exception {
+		ticketpage.navigateToPage(dataKeys.approverDashboardPage);
+		waitTime5(driver);
+		grep.testCreate("Approver Dashboard Page test", "Approver Dashboard Page");
+		waitTime(driver);
+		grep.infoTest("Approver Dashboard Page test");
+		logger.info("Approver Dashboard Page test");
+		waitTime2(driver);
+		appr_member_Page.verifyApproverDashboardHeader();
+		waitTime(driver);
+		grep.infoTest("Approver Dashboard Page Cards test");
+		logger.info("Approver Dashboard Page Cards test");
+		waitTime(driver);
+		appr_member_Page.approverDashboardCard_Details();
+		waitTime(driver);
+		grep.infoTest("Approver Dashboard Page Chart Title test");
+		logger.info("Approver Dashboard Page  Chart Title test");
+		waitTime(driver);
+		appr_member_Page.approverDashboardCharts_Details();
+		waitTime(driver);
+
+		grep.captureScreenshot("pass","Approver Dashboard Page","approverDashboardPage");
+		
+	}
+	public void implementation_Queue_Filter_Test() throws Exception {
+
+		grep.testCreate("Implementation Queue Page Status Filter Test", "Implementation Queue Page Status Filters");
+		waitTime(driver);
+		grep.infoTest("Implementation Queue Page Status Filter Test");
+		logger.info("Implementation Queue Page Status Filter Test");
+		waitTime(driver);
+
+		verifyImplementation_StatusFilter(dataKeys.resolved_StatusFilter);
+		verifyImplementation_StatusFilter(dataKeys.pending_StatusFilter);
+		verifyImplementation_StatusFilter(dataKeys.closed_StatusFilter);
+		waitTime(driver);
+		appr_member_Page.selectFilter(dataKeys.statusFilter, "All Statuses");
+		waitTime(driver);
+
+		grep.testCreate("Implementation Queue Page Priority Filter Test", "Implementation Queue Page Priority Filters");
+		waitTime(driver);
+		grep.infoTest("Implementation Queue Page Priority Filter Test");
+		logger.info("Implementation Queue Page Priority Filter Test");
+		waitTime(driver);
+
+		verifyImplementation_PriorityFilter(dataKeys.high_PriorityFilter);
+		verifyImplementation_PriorityFilter(dataKeys.low_PriorityFilter);
+		verifyImplementation_PriorityFilter(dataKeys.critical_PriorityFilter);
+		waitTime(driver);
+		appr_member_Page.selectFilter(dataKeys.priorityFilter, "All Priorities");
+		waitTime(driver);
+
+		grep.testCreate("Implementation Queue Search Functionality Test", "Implementation Queue Search Functionality");
+		waitTime(driver);
+		grep.infoTest("Implementation Queue Search Functionality Test");
+		logger.info("Implementation Queue Search Functionality Test");
+		waitTime(driver);
+		appr_member_Page.insertSearchFilter(dataKeys.userName);
+		waitTime(driver);
+		appr_member_Page.verifyImplementationQueue_FilterInTable(dataKeys.userName);
+		grep.captureScreenshot("pass", " Implementation Queue Search Filter", "SearchFilter_ImplementationQueue");
+		waitTime(driver);
+
+		grep.testCreate("Implementation Queue Search Non existing Functionality Test",
+				"Implementation Queue Search Non existing  Functionality");
+		waitTime(driver);
+		grep.infoTest("Implementation Queue Search Non existing  Functionality Test");
+		logger.info("Implementation Queue Search Non existing  Functionality Test");
+		waitTime(driver);
+		appr_member_Page.insertSearchFilter("$%^&*(");
+		waitTime(driver);
+		appr_member_Page.noRecordsMsg_Implementation();
+		grep.captureScreenshot("pass", " Implementation Queue Search Non existing  Filter",
+				"NonExisting_SearchFilter_ImplementationQueue");
+		waitTime(driver);
+		refreshPage();
+		waitTime(driver);
 
 	}
 
@@ -291,6 +430,39 @@ public class IntelliServe_ApproverTest extends IntelliServe_TestInitializer {
 
 	}
 
+	public void verifyMyTicketsStatusFilter(String option) throws Exception {
+		grep.infoTest("My Tickets Page " + option + " Status Filter Test");
+		logger.info("My Tickets Page " + option + " Status Filter Test");
+		waitTime(driver);
+		appr_member_Page.selectFilter(dataKeys.statusFilter, option);
+		waitTime(driver);
+		appr_member_Page.verifyMyTickets_FilterInTable(option);
+		grep.captureScreenshot("pass", option + " Status Filter", option + "StatusFilter_MyTickets");
+
+	}
+
+	public void verifyImplementation_StatusFilter(String option) throws Exception {
+		grep.infoTest("Implementation Queue Page " + option + " Status Filter Test");
+		logger.info("Implementation Queue Page " + option + " Status Filter Test");
+		waitTime(driver);
+		appr_member_Page.selectFilter(dataKeys.statusFilter, option);
+		waitTime(driver);
+		appr_member_Page.verifyImplementationQueue_FilterInTable(option);
+		grep.captureScreenshot("pass", option + " Status Filter", option + "StatusFilter_ImplementationQueue");
+
+	}
+
+	public void verifyImplementation_PriorityFilter(String option) throws Exception {
+		grep.infoTest("Implementation Queue Page " + option + " Priority Filter Test");
+		logger.info("Implementation Queue Page " + option + " Priority Filter Test");
+		waitTime(driver);
+		appr_member_Page.selectFilter(dataKeys.priorityFilter, option);
+		waitTime(driver);
+		appr_member_Page.verifyImplementationQueue_FilterInTable(option);
+		grep.captureScreenshot("pass", option + " Priority Filter", option + "PriorityFilter_ImplementationQueue");
+
+	}
+
 	public void verifyColumnOptionFunctionality(String option) throws Exception {
 
 		appr_member_Page.selectColumnOption(option);
@@ -304,4 +476,5 @@ public class IntelliServe_ApproverTest extends IntelliServe_TestInitializer {
 		grep.captureScreenshot("pass", option + " visibility is View ", option + "View");
 		waitTime(driver);
 	}
+
 }
