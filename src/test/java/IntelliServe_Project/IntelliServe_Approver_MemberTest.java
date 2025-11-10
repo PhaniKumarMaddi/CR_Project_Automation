@@ -10,9 +10,9 @@ import IntelliServe_Pages.Ticketing_Approver_Member_Page;
 import IntelliServe_Pages.Ticketing_Page;
 import Utility.GenerateReports;
 
-public class IntelliServe_Approver_MemeberTest extends IntelliServe_TestInitializer {
+public class IntelliServe_Approver_MemberTest extends IntelliServe_TestInitializer {
 
-	private static final Logger logger = LogManager.getLogger(IntelliServe_Approver_MemeberTest.class);
+	private static final Logger logger = LogManager.getLogger(IntelliServe_Approver_MemberTest.class);
 	GenerateReports grep = new GenerateReports();
 	IntelliServe_TestDataKeys dataKeys = new IntelliServe_TestDataKeys();
 	Ticketing_Page ticketpage;

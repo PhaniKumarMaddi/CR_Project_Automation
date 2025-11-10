@@ -244,8 +244,8 @@ public class Ticketing_Page extends WaitsManager {
 				for (String value : selectValuesArray) {
 					if (value.equals(roleValue)) {
 						optionFound = true;
-						grep.infoTest("Selected role Available");
-						logger.info("Selected role Available");
+						grep.infoTest(roleValue+" role Available");
+						logger.info(roleValue+" role Available");
 						break;
 					}
 				}

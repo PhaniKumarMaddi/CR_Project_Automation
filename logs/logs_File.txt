@@ -3720,3 +3720,79 @@ Business Technology Group
 2025-10-01 15:43:29 [main] INFO : No records Found :No Records Found
 2025-10-01 15:43:32 [main] INFO : Testing Ended
 2025-10-01 15:43:32 [main] INFO : ***********
+2025-11-10 09:38:37 [main] INFO : Launching Chrome Browser
+2025-11-10 09:38:37 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-10 09:38:44 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-10 09:38:47 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-10 09:39:21 [main] INFO : Logged in to Intelli Serve Application
+2025-11-10 09:39:21 [main] INFO : Verify the Home and Profile Page test
+2025-11-10 09:39:23 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-11-10 09:39:23 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-11-10 09:39:26 [main] INFO : Navigated to Profile Page
+2025-11-10 09:39:27 [main] INFO : Header valid :Profile
+2025-11-10 09:39:27 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-11-10 09:39:28 [main] INFO : Department Name: Business Technology Group
+2025-11-10 09:39:29 [main] INFO : User Roles: BTG Approver
+2025-11-10 09:39:29 [main] INFO : User Roles: Admin
+2025-11-10 09:39:29 [main] INFO : User Roles: IT Member
+2025-11-10 09:39:29 [main] INFO : User Roles: IT Approver
+2025-11-10 09:39:29 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-11-10 09:39:29 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-11-10 09:39:29 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-11-10 09:39:29 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-11-10 09:39:30 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-11-10 09:39:30 [main] INFO : Version :Version 1.0.14
+2025-11-10 09:39:35 [main] INFO : Selected role Available
+2025-11-10 09:39:36 [main] INFO : Verify the Admin Role Pages
+2025-11-10 09:39:39 [main] INFO : Navigated to /admin
+2025-11-10 09:39:44 [main] INFO : Inside /admin Page 
+2025-11-10 09:39:44 [main] INFO : /admin Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/admin
+2025-11-10 09:39:53 [main] INFO : Navigated to /tickets
+2025-11-10 09:39:58 [main] INFO : Inside /tickets Page 
+2025-11-10 09:39:58 [main] INFO : /tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/tickets
+2025-11-10 09:40:06 [main] INFO : Navigated to /approver-management
+2025-11-10 09:40:11 [main] INFO : Inside /approver-management Page 
+2025-11-10 09:40:11 [main] INFO : /approver-management Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-management
+2025-11-10 09:40:19 [main] INFO : Navigated to /roles
+2025-11-10 09:40:24 [main] INFO : Inside /roles Page 
+2025-11-10 09:40:24 [main] INFO : /roles Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/roles
+2025-11-10 09:40:33 [main] INFO : Navigated to /user/tickets
+2025-11-10 09:40:38 [main] INFO : Inside /user/tickets Page 
+2025-11-10 09:40:38 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-10 09:40:51 [main] INFO : Selected role Available
+2025-11-10 09:40:52 [main] INFO : Verify the IT Approver Role Pages
+2025-11-10 09:40:55 [main] INFO : Navigated to /approver/dashboard
+2025-11-10 09:41:00 [main] INFO : Inside /approver/dashboard Page 
+2025-11-10 09:41:00 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-10 09:41:08 [main] INFO : Navigated to /approver-tickets
+2025-11-10 09:41:13 [main] INFO : Inside /approver-tickets Page 
+2025-11-10 09:41:13 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-10 09:41:22 [main] INFO : Navigated to /user/tickets
+2025-11-10 09:41:27 [main] INFO : Inside /user/tickets Page 
+2025-11-10 09:41:27 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-10 09:41:40 [main] INFO : Selected role Available
+2025-11-10 09:41:40 [main] INFO : Verify the IT Member Role Pages
+2025-11-10 09:41:43 [main] INFO : Navigated to /implementation-queue
+2025-11-10 09:41:48 [main] INFO : Inside /implementation-queue Page 
+2025-11-10 09:41:48 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-11-10 09:41:57 [main] INFO : Navigated to /user/tickets
+2025-11-10 09:42:02 [main] INFO : Inside /user/tickets Page 
+2025-11-10 09:42:02 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-10 09:42:15 [main] INFO : Selected role Available
+2025-11-10 09:42:15 [main] INFO : Verify the BTG Approver Role Pages
+2025-11-10 09:42:19 [main] INFO : Navigated to /approver/dashboard
+2025-11-10 09:42:24 [main] INFO : Inside /approver/dashboard Page 
+2025-11-10 09:42:24 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-10 09:42:32 [main] INFO : Navigated to /approver-tickets
+2025-11-10 09:42:37 [main] INFO : Inside /approver-tickets Page 
+2025-11-10 09:42:37 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-10 09:42:46 [main] INFO : Navigated to /user/tickets
+2025-11-10 09:42:51 [main] INFO : Inside /user/tickets Page 
+2025-11-10 09:42:51 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-10 09:43:04 [main] INFO : BTG Member Role Not Available for logged User
+2025-11-10 09:43:10 [main] INFO : Testing Ended
+2025-11-10 09:43:10 [main] INFO : ***********

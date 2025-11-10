@@ -215,7 +215,7 @@ public class IntelliServe_Page_UI_Test extends IntelliServe_TestInitializer {
 		waitTime5(driver);
 	}
 
-	@Test(priority = 3,enabled = false)
+	@Test(priority = 3)
 	public void IntelliServe__Signout_Test() throws Exception {
 //		ticketpage = new Ticketing_Page();
 
