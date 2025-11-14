@@ -24,6 +24,8 @@ public class Ticketing_Page extends WaitsManager {
 		this.driver = DriverManager.getDriver();
 	}
 
+	By sideToggle = By.xpath("//button[@aria-label='Toggle Sidebar']");
+
 	By profileLogo = By.xpath("//button[@class='flex items-center text-gray-700 dropdown-toggle dark:text-gray-400']");
 	By profileBlockName = By.xpath("//span[@class='block font-medium text-gray-700 text-theme-sm dark:text-gray-400']");
 	By profileBlockEmail = By.xpath("//span[@class='mt-0.5 block text-theme-xs text-gray-500 dark:text-gray-400']");
@@ -43,7 +45,53 @@ public class Ticketing_Page extends WaitsManager {
 
 	By selectRole = By.xpath("//span[text()='Role']/following-sibling::select");
 
+	// Click sidebar
+	public void verifySidebarFunctionality() throws Exception {
+
+		try {
+			implWait(driver);
+
+			By sidebarProfile = By
+					.xpath("//div[@class='p-4 border-t border-gray-200 dark:border-gray-800 flex justify-center']");
+
+			logger.info("Verifying Side Bar Collapse Functionality");
+			grep.infoTest("Verifying Side Bar Collapse Functionality");
+
+			driver.findElement(sideToggle).click();
+			String sidebartext = driver.findElement(sidebarProfile).getText();
+			System.out.println(sidebartext);
+			if (sidebartext.equalsIgnoreCase("PK")) {
+				logger.info("Side Bar collapsed");
+				grep.passTest("Side Bar collapsed");
+			} else {
+				logger.error("Side Toggle not available");
+				grep.failTest("Side Toggle not available");
+			}
+			grep.captureScreenshot("pass", "Side toggle Collpased", "SideToggle_Collapsed");
+
+			waitTime(driver);
+			logger.info("Verifying Side Bar Expand Functionality");
+			grep.infoTest("Verifying Side Bar Expand Functionality");
+			driver.findElement(sideToggle).click();
+			String sidebartext2 = driver.findElement(sidebarProfile).getText();
+			System.out.println(sidebartext2);
+			if (sidebartext2.equalsIgnoreCase("Phani Kumar Maddi")) {
+				logger.info("Side Bar expanded");
+				grep.passTest("Side Bar expanded");
+			} else {
+				logger.error("Side Toggle not available");
+				grep.failTest("Side Toggle not available");
+			}
+			grep.captureScreenshot("pass", "Side toggle Expanded", "SideToggle_Expanded");
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
 	// Click Profile
+
 	public void clickProfilePage(String pname, String pemail) throws Exception {
 		try {
 			implWait(driver);
@@ -111,12 +159,25 @@ public class Ticketing_Page extends WaitsManager {
 
 				waitTime(driver);
 				List<WebElement> roles_inProfilePage = driver.findElements(userRoles);
+				List<String> userRolesList = new ArrayList<>();
 				if (roles_inProfilePage.size() > 0) {
-					for (WebElement profileRoles : roles_inProfilePage) {
-						String rolesData = profileRoles.getText();
 
-						grep.infoTest("User Roles: " + rolesData);
-						logger.info("User Roles: " + rolesData);
+//					for (WebElement profileRoles : roles_inProfilePage) {
+
+//					String rolesData = profileRoles.getText();
+//					grep.infoTest("User Roles: " + rolesData);
+//					logger.info("User Roles: " + rolesData);
+
+					for (int i = 0; i < roles_inProfilePage.size(); i++) {
+
+						// loading text of each element in to array all_elements_text
+						userRolesList.add(roles_inProfilePage.get(i).getText());
+
+						// to print directly
+						System.out.println(roles_inProfilePage.get(i).getText());
+
+						grep.infoTest("User Roles: " + roles_inProfilePage.get(i).getText());
+						logger.info("User Roles: " + roles_inProfilePage.get(i).getText());
 					}
 				}
 				waitTime(driver);
@@ -244,8 +305,8 @@ public class Ticketing_Page extends WaitsManager {
 				for (String value : selectValuesArray) {
 					if (value.equals(roleValue)) {
 						optionFound = true;
-						grep.infoTest(roleValue+" role Available");
-						logger.info(roleValue+" role Available");
+						grep.infoTest(roleValue + " role Available");
+						logger.info(roleValue + " role Available");
 						break;
 					}
 				}

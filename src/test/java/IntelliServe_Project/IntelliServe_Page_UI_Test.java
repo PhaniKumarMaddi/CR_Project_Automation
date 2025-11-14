@@ -25,12 +25,15 @@ public class IntelliServe_Page_UI_Test extends IntelliServe_TestInitializer {
 		logger.info("Verify the Home and Profile Page test");
 
 		waitTime(driver);
+		
+		ticketpage.verifySidebarFunctionality();
+		waitTime(driver);
 		ticketpage.clickProfilePage(dataKeys.userName, dataKeys.ssoUserName);
 		waitTime(driver);
 		ticketpage.getProfilePageInfo();
 		waitTime(driver);
 		ticketpage.getFooterInfo();
-		grep.captureScreenshot("pass", "Profile Page Test", "ticketing_ProfilePage");
+		grep.captureScreenshot("pass", "Profile Page Test", "Ticketing_ProfilePage");
 		waitTime2(driver);
 
 	}
@@ -49,33 +52,33 @@ public class IntelliServe_Page_UI_Test extends IntelliServe_TestInitializer {
 			waitTime(driver);
 
 			grep.infoTest("Navigating To Admin Dashboard Page");
-			navigateToAllPages(dataKeys.adminDashboardPage);
+			navigateToAllPages(dataKeys.adminDashboardPage, dataKeys.adminDashboardTitle);
 			waitTime3(driver);
-			grep.captureScreenshot("pass", "Inside Admin Dashboard Page for Admin role", "admin_dashboard_Page");
+			grep.captureScreenshot("pass", "Inside Admin Dashboard Page for Admin role", "Admin_dashboard_Page");
 			waitTime3(driver);
 
 			grep.infoTest("Navigating To All Tickets Page");
-			navigateToAllPages(dataKeys.allTicketsPage);
+			navigateToAllPages(dataKeys.allTicketsPage, dataKeys.allTicketsTitle);
 			waitTime3(driver);
-			grep.captureScreenshot("pass", "Inside All Tickets Page for Admin role", "admin_allTickets_Page");
+			grep.captureScreenshot("pass", "Inside All Tickets Page for Admin role", "Admin_allTickets_Page");
 			waitTime3(driver);
 
 			grep.infoTest("Navigating To Approver Management Page");
-			navigateToAllPages(dataKeys.approverMgmtPage);
+			navigateToAllPages(dataKeys.approverMgmtPage, dataKeys.approverMgmtTitle);
 			waitTime3(driver);
-			grep.captureScreenshot("pass", "Inside Approver Management Page for Admin role", "admin_approverMgmt_Page");
+			grep.captureScreenshot("pass", "Inside Approver Management Page for Admin role", "Admin_approverMgmt_Page");
 			waitTime3(driver);
 
 			grep.infoTest("Navigating To Roles Page");
-			navigateToAllPages(dataKeys.rolesPage);
+			navigateToAllPages(dataKeys.rolesPage, dataKeys.rolesTitle);
 			waitTime3(driver);
-			grep.captureScreenshot("pass", "Inside Roles Page for Admin role", "admin_roles_Page");
+			grep.captureScreenshot("pass", "Inside Roles Page for Admin role", "Admin_roles_Page");
 			waitTime3(driver);
 
 			grep.infoTest("Navigating To My Tickets Page");
-			navigateToAllPages(dataKeys.myTicketPage);
+			navigateToAllPages(dataKeys.myTicketPage, dataKeys.myTicketTitle);
 			waitTime3(driver);
-			grep.captureScreenshot("pass", "Inside My Tickets Page for Admin role", "admin_myTickets_Page");
+			grep.captureScreenshot("pass", "Inside My Tickets Page for Admin role", "Admin_myTickets_Page");
 			waitTime3(driver);
 
 		} else {
@@ -95,23 +98,23 @@ public class IntelliServe_Page_UI_Test extends IntelliServe_TestInitializer {
 			waitTime(driver);
 
 			grep.infoTest("Navigating To Approver Dashboard Page");
-			navigateToAllPages(dataKeys.approverDashboardPage);
+			navigateToAllPages(dataKeys.approverDashboardPage, dataKeys.approverDashboardTitle);
 			waitTime3(driver);
 			grep.captureScreenshot("pass", "Inside Approver Dashboard Page for Approver role",
-					"it_approver_DashboardPage");
+					"It_approver_DashboardPage");
 			waitTime3(driver);
 
 			grep.infoTest("Navigating To Approver Worklist Page");
-			navigateToAllPages(dataKeys.approverWorklistPage);
+			navigateToAllPages(dataKeys.approverWorklistPage, dataKeys.approverWorklistTitle);
 			waitTime3(driver);
 			grep.captureScreenshot("pass", "Inside Approver Worklist Page for Approver role",
-					"it_Approver_Worklist_Page");
+					"It_Approver_Worklist_Page");
 			waitTime3(driver);
 
 			grep.infoTest("Navigating To My Tickets Page");
-			navigateToAllPages(dataKeys.myTicketPage);
+			navigateToAllPages(dataKeys.myTicketPage, dataKeys.myTicketTitle);
 			waitTime3(driver);
-			grep.captureScreenshot("pass", "Inside My Tickets Page for Approver role", "it_Approver_myTickets_Page");
+			grep.captureScreenshot("pass", "Inside My Tickets Page for Approver role", "It_Approver_myTickets_Page");
 			waitTime3(driver);
 
 		} else {
@@ -131,16 +134,16 @@ public class IntelliServe_Page_UI_Test extends IntelliServe_TestInitializer {
 			waitTime(driver);
 
 			grep.infoTest("Navigating To Implementation Queue Page");
-			navigateToAllPages(dataKeys.implementationQueuePage);
+			navigateToAllPages(dataKeys.implementationQueuePage, dataKeys.implementationQueueTitle);
 			waitTime3(driver);
 			grep.captureScreenshot("pass", "Inside Implementation Queue Page for Member role",
-					"it_member_ImplementationQueue_Page");
+					"It_member_ImplementationQueue_Page");
 			waitTime3(driver);
 
 			grep.infoTest("Navigating To My Tickets Page");
-			navigateToAllPages(dataKeys.myTicketPage);
+			navigateToAllPages(dataKeys.myTicketPage, dataKeys.myTicketTitle);
 			waitTime3(driver);
-			grep.captureScreenshot("pass", "Inside My Tickets Page for Member role", "it_Member_myTickets_Page");
+			grep.captureScreenshot("pass", "Inside My Tickets Page for Member role", "It_Member_myTickets_Page");
 			waitTime3(driver);
 
 		} else {
@@ -160,23 +163,23 @@ public class IntelliServe_Page_UI_Test extends IntelliServe_TestInitializer {
 			waitTime(driver);
 
 			grep.infoTest("Navigating To Approver Dashboard Page");
-			navigateToAllPages(dataKeys.approverDashboardPage);
+			navigateToAllPages(dataKeys.approverDashboardPage, dataKeys.approverDashboardTitle);
 			waitTime3(driver);
 			grep.captureScreenshot("pass", "Inside Approver Dashboard Page for Approver role",
-					"btg_approver_DashboardPage");
+					"Btg_approver_DashboardPage");
 			waitTime3(driver);
 
 			grep.infoTest("Navigating To Approver Worklist Page");
-			navigateToAllPages(dataKeys.approverWorklistPage);
+			navigateToAllPages(dataKeys.approverWorklistPage, dataKeys.approverWorklistTitle);
 			waitTime3(driver);
 			grep.captureScreenshot("pass", "Inside Approver Worklist Page for Approver role",
-					"btg_Approver_Worklist_Page");
+					"Btg_Approver_Worklist_Page");
 			waitTime3(driver);
 
 			grep.infoTest("Navigating To My Tickets Page");
-			navigateToAllPages(dataKeys.myTicketPage);
+			navigateToAllPages(dataKeys.myTicketPage, dataKeys.myTicketTitle);
 			waitTime3(driver);
-			grep.captureScreenshot("pass", "Inside My Tickets Page for Approver role", "btg_Approver_myTickets_Page");
+			grep.captureScreenshot("pass", "Inside My Tickets Page for Approver role", "Btg_Approver_myTickets_Page");
 			waitTime3(driver);
 
 		} else {
@@ -196,16 +199,16 @@ public class IntelliServe_Page_UI_Test extends IntelliServe_TestInitializer {
 			waitTime(driver);
 
 			grep.infoTest("Navigating To Implementation Queue Page");
-			navigateToAllPages(dataKeys.implementationQueuePage);
+			navigateToAllPages(dataKeys.implementationQueuePage, dataKeys.implementationQueueTitle);
 			waitTime3(driver);
 			grep.captureScreenshot("pass", "Inside Implementation Queue Page for Member role",
-					"btg_member_ImplementationQueue_Page");
+					"Btg_member_ImplementationQueue_Page");
 			waitTime3(driver);
 
 			grep.infoTest("Navigating To My Tickets Page");
-			navigateToAllPages(dataKeys.myTicketPage);
+			navigateToAllPages(dataKeys.myTicketPage, dataKeys.myTicketTitle);
 			waitTime3(driver);
-			grep.captureScreenshot("pass", "Inside My Tickets Page for Member role", "btg_Member_myTickets_Page");
+			grep.captureScreenshot("pass", "Inside My Tickets Page for Member role", "Btg_Member_myTickets_Page");
 			waitTime3(driver);
 
 		} else {
@@ -235,11 +238,11 @@ public class IntelliServe_Page_UI_Test extends IntelliServe_TestInitializer {
 			logger.info("Signout Functionality failed");
 		}
 		waitTime5(driver);
-		grep.captureScreenshot("pass", "Signout from Application Test", "ticketing_signOut");
+		grep.captureScreenshot("pass", "Signout from Application Test", "Ticketing_signOut");
 
 	}
 
-	public void navigateToAllPages(String pageNameValue) throws Exception {
+	public void navigateToAllPages(String pageNameValue, String pageTitleValue) throws Exception {
 
 		waitTime(driver);
 		ticketpage.navigateToPage(pageNameValue);
@@ -249,6 +252,8 @@ public class IntelliServe_Page_UI_Test extends IntelliServe_TestInitializer {
 		validateUrl(pageNameValue);
 		waitTime(driver);
 
+		validatePageTitle(pageTitleValue);
+		waitTime(driver);
 	}
 
 	public void validateUrl(String urlValue) throws Exception {
@@ -261,6 +266,21 @@ public class IntelliServe_Page_UI_Test extends IntelliServe_TestInitializer {
 		} else {
 			grep.warnTest(urlValue + " Url is InValid :" + getUrl);
 			logger.error(urlValue + " Url is InValid :" + getUrl);
+			waitTime(driver);
+		}
+
+	}
+
+	public void validatePageTitle(String titleValue) throws Exception {
+		String getPageTitle = driver.getTitle();
+		if (getPageTitle.startsWith(titleValue)) {
+			grep.passTest(titleValue + " Page Title is Valid :" + getPageTitle);
+			logger.info(titleValue + " Page Title is Valid :" + getPageTitle);
+			waitTime(driver);
+			waitTime(driver);
+		} else {
+			grep.warnTest(titleValue + " Page Title is InValid :" + getPageTitle);
+			logger.error(titleValue + " Page Title is InValid :" + getPageTitle);
 			waitTime(driver);
 		}
 

@@ -26,7 +26,8 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 
 	// Approver Worklist
 	By worklist_header = By.xpath("//h1[@class='text-xl sm:text-2xl font-bold text-gray-900 dark:text-white']");
-	By refreshBtn = By.xpath("//button/span[text()='Refresh'][1]");
+//	By refreshBtn = By.xpath("//button/span[text()='Refresh'][1]");
+	By refreshBtn = By.xpath("//button[@title='Refresh ticket list']");
 	By clearFilters = By.xpath("//button[text()='Clear All Filters']");
 	By configColumn = By.xpath("//span[text()='Configure Columns']/parent::div");
 	By closeColumn = By.xpath("//button[@class='text-white hover:text-blue-200 p-1']");

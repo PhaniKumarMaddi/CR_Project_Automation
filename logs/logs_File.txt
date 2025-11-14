@@ -3796,3 +3796,902 @@ Business Technology Group
 2025-11-10 09:43:04 [main] INFO : BTG Member Role Not Available for logged User
 2025-11-10 09:43:10 [main] INFO : Testing Ended
 2025-11-10 09:43:10 [main] INFO : ***********
+2025-11-12 09:28:36 [main] INFO : Launching Chrome Browser
+2025-11-12 09:28:36 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-12 09:28:40 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-12 09:28:42 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-12 09:29:10 [main] INFO : Logged in to Intelli Serve Application
+2025-11-12 09:29:16 [main] INFO : IT Approver role Available
+2025-11-12 09:29:16 [main] INFO : Approver Worklist Page Configure Columns Options Filters
+2025-11-12 09:29:18 [main] INFO : Navigated to /approver-tickets
+2025-11-12 09:29:19 [main] INFO : Header is valid: IT Approver Worklist
+2025-11-12 09:29:26 [main] INFO : Header is valid: Column Options
+2025-11-12 09:29:26 [main] INFO : Verifying Ticket ID Column Option
+2025-11-12 09:29:26 [main] INFO : Column Option visibility is Hidden 
+2025-11-12 09:29:28 [main] INFO : Column Option visibility is View 
+2025-11-12 09:29:30 [main] INFO : Verifying Status Column Option
+2025-11-12 09:29:30 [main] INFO : Column Option visibility is Hidden 
+2025-11-12 09:29:32 [main] INFO : Column Option visibility is View 
+2025-11-12 09:29:39 [main] INFO : Header is valid: Column Options
+2025-11-12 09:29:42 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-12 09:30:43 [main] ERROR: Test Failed :element not interactable
+  (Session info: chrome=142.0.7444.134)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b9b5f4502cf52f26fa03af781ba6ae50, clickElement {id=f.86860965556B2A0315ED2B33D2711B1B.d.737E0CBAADA714783157AEFC3CF5BF77.e.454}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.134, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57371}, goog:processID: 22404, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57371/devtoo..., se:cdpVersion: 142.0.7444.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b9b5f4502cf52f26fa03af781ba6ae50)] -> xpath: //button/span[text()='Refresh'][1]]
+Session ID: b9b5f4502cf52f26fa03af781ba6ae50
+2025-11-12 09:31:44 [main] ERROR: Test Failed :Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='bg-green-600 text-white px-6 py-4 rounded-lg shadow-lg max-w-md flex items-center space-x-3']/span (tried for 60 second(s) with 500 milliseconds interval)
+2025-11-12 09:31:45 [main] INFO : Approver Worklist Page Status Filter Test
+2025-11-12 09:31:45 [main] INFO : Approver Worklist Page Pending Status Filter Test
+2025-11-12 09:32:46 [main] ERROR: Selected Filter not Available
+2025-11-12 09:32:47 [main] INFO : ✅ Search validation passed. All Values match: Pending
+2025-11-12 09:32:47 [main] INFO : Approver Worklist Page Rejected Status Filter Test
+2025-11-12 16:39:31 [main] INFO : Launching Chrome Browser
+2025-11-12 16:39:32 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-12 16:39:40 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-12 16:39:45 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-12 16:40:29 [main] INFO : Logged in to Intelli Serve Application
+2025-11-12 16:40:29 [main] INFO : Verify the Home and Profile Page test
+2025-11-12 16:40:30 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-11-12 16:40:30 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-11-12 16:40:34 [main] INFO : Navigated to Profile Page
+2025-11-12 16:40:34 [main] INFO : Header valid :Profile
+2025-11-12 16:40:35 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-11-12 16:40:35 [main] INFO : Department Name: Business Technology Group
+2025-11-12 16:40:36 [main] INFO : User Roles: BTG Approver
+2025-11-12 16:40:36 [main] INFO : User Roles: Admin
+2025-11-12 16:40:36 [main] INFO : User Roles: IT Member
+2025-11-12 16:40:36 [main] INFO : User Roles: IT Approver
+2025-11-12 16:40:37 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-11-12 16:40:37 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-11-12 16:40:37 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-11-12 16:40:37 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-11-12 16:40:37 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-11-12 16:40:38 [main] INFO : Version :Version 1.0.14
+2025-11-12 16:40:43 [main] INFO : Admin role Available
+2025-11-12 16:40:43 [main] INFO : Verify the Admin Role Pages
+2025-11-12 16:40:47 [main] INFO : Navigated to /admin
+2025-11-12 16:40:52 [main] INFO : Inside /admin Page 
+2025-11-12 16:40:52 [main] INFO : /admin Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/admin
+2025-11-12 16:41:01 [main] INFO : Navigated to /tickets
+2025-11-12 16:41:06 [main] INFO : Inside /tickets Page 
+2025-11-12 16:41:06 [main] INFO : /tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/tickets
+2025-11-12 16:41:14 [main] INFO : Navigated to /approver-management
+2025-11-12 16:41:19 [main] INFO : Inside /approver-management Page 
+2025-11-12 16:41:19 [main] INFO : /approver-management Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-management
+2025-11-12 16:41:27 [main] INFO : Navigated to /roles
+2025-11-12 16:41:32 [main] INFO : Inside /roles Page 
+2025-11-12 16:41:32 [main] INFO : /roles Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/roles
+2025-11-12 16:41:41 [main] INFO : Navigated to /user/tickets
+2025-11-12 16:41:46 [main] INFO : Inside /user/tickets Page 
+2025-11-12 16:41:46 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-12 16:41:59 [main] INFO : IT Approver role Available
+2025-11-12 16:41:59 [main] INFO : Verify the IT Approver Role Pages
+2025-11-12 16:42:03 [main] INFO : Navigated to /approver/dashboard
+2025-11-12 16:42:08 [main] INFO : Inside /approver/dashboard Page 
+2025-11-12 16:42:08 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-12 16:42:17 [main] INFO : Navigated to /approver-tickets
+2025-11-12 16:42:22 [main] INFO : Inside /approver-tickets Page 
+2025-11-12 16:42:22 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-12 16:42:30 [main] INFO : Navigated to /user/tickets
+2025-11-12 16:42:35 [main] INFO : Inside /user/tickets Page 
+2025-11-12 16:42:35 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-12 16:42:49 [main] INFO : IT Member role Available
+2025-11-12 16:42:49 [main] INFO : Verify the IT Member Role Pages
+2025-11-12 16:42:52 [main] INFO : Navigated to /implementation-queue
+2025-11-12 16:42:57 [main] INFO : Inside /implementation-queue Page 
+2025-11-12 16:42:57 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-11-12 16:43:05 [main] INFO : Navigated to /user/tickets
+2025-11-12 16:43:10 [main] INFO : Inside /user/tickets Page 
+2025-11-12 16:43:10 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-12 16:43:24 [main] INFO : BTG Approver role Available
+2025-11-12 16:43:24 [main] INFO : Verify the BTG Approver Role Pages
+2025-11-12 16:43:27 [main] INFO : Navigated to /approver/dashboard
+2025-11-12 16:43:32 [main] INFO : Inside /approver/dashboard Page 
+2025-11-12 16:43:32 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-12 16:43:40 [main] INFO : Navigated to /approver-tickets
+2025-11-12 16:43:45 [main] INFO : Inside /approver-tickets Page 
+2025-11-12 16:43:46 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-12 16:43:54 [main] INFO : Navigated to /user/tickets
+2025-11-12 16:43:59 [main] INFO : Inside /user/tickets Page 
+2025-11-12 16:43:59 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-12 16:44:13 [main] INFO : BTG Member Role Not Available for logged User
+2025-11-12 16:44:18 [main] INFO : Verify the Signout
+2025-11-12 16:44:20 [main] INFO : SignOut From IntelliServe Page
+2025-11-12 16:44:31 [main] INFO : Logged out Successfully
+2025-11-12 16:44:37 [main] INFO : Testing Ended
+2025-11-12 16:44:37 [main] INFO : ***********
+2025-11-14 14:46:09 [main] INFO : Launching Chrome Browser
+2025-11-14 14:46:09 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-14 14:46:13 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-14 14:46:17 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-14 14:46:51 [main] INFO : Logged in to Intelli Serve Application
+2025-11-14 14:46:57 [main] INFO : IT Approver role Available
+2025-11-14 14:46:57 [main] INFO : Approver Worklist Page Configure Columns Options Filters
+2025-11-14 14:47:00 [main] INFO : Navigated to /approver-tickets
+2025-11-14 14:47:01 [main] INFO : Header is valid: IT Approver Worklist
+2025-11-14 14:47:08 [main] INFO : Header is valid: Column Options
+2025-11-14 14:47:08 [main] INFO : Verifying Ticket ID Column Option
+2025-11-14 14:47:08 [main] INFO : Column Option visibility is Hidden 
+2025-11-14 14:47:10 [main] INFO : Column Option visibility is View 
+2025-11-14 14:47:12 [main] INFO : Verifying Status Column Option
+2025-11-14 14:47:12 [main] INFO : Column Option visibility is Hidden 
+2025-11-14 14:47:14 [main] INFO : Column Option visibility is View 
+2025-11-14 14:47:20 [main] INFO : Header is valid: Column Options
+2025-11-14 14:47:24 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-14 14:47:27 [main] INFO : Refresh Successful Messgae: Tickets refreshed successfully. Found 684 tickets.
+2025-11-14 14:47:28 [main] INFO : Approver Worklist Page Status Filter Test
+2025-11-14 14:47:29 [main] INFO : Approver Worklist Page Pending Status Filter Test
+2025-11-14 14:48:29 [main] ERROR: Selected Filter not Available
+2025-11-14 14:48:30 [main] INFO : ✅ Search validation passed. All Values match: Pending
+2025-11-14 14:48:30 [main] INFO : Approver Worklist Page Rejected Status Filter Test
+2025-11-14 14:49:31 [main] ERROR: Selected Filter not Available
+2025-11-14 14:49:31 [main] ERROR: ❌ Search validation failed. Mismatched Value found or no Records Available: Rejected
+2025-11-14 14:49:31 [main] INFO : Approver Worklist Page Resolved Status Filter Test
+2025-11-14 14:50:32 [main] ERROR: Selected Filter not Available
+2025-11-14 14:50:32 [main] ERROR: ❌ Search validation failed. Mismatched Value found or no Records Available: Resolved
+2025-11-14 14:50:33 [main] INFO : Approver Worklist Page Closed Status Filter Test
+2025-11-14 14:51:33 [main] ERROR: Selected Filter not Available
+2025-11-14 14:51:34 [main] ERROR: ❌ Search validation failed. Mismatched Value found or no Records Available: Closed
+2025-11-14 14:51:36 [main] INFO : Approver Worklist Page Priority Filter Test
+2025-11-14 14:51:37 [main] INFO : Approver Worklist Page High Priority Filter Test
+2025-11-14 14:51:38 [main] INFO : ✅ Search validation passed. All Values match: High
+2025-11-14 14:51:39 [main] INFO : Approver Worklist Page Low Priority Filter Test
+2025-11-14 14:51:41 [main] INFO : ✅ Search validation passed. All Values match: Low
+2025-11-14 14:51:41 [main] INFO : Approver Worklist Page Medium Priority Filter Test
+2025-11-14 14:51:43 [main] INFO : ✅ Search validation passed. All Values match: Medium
+2025-11-14 14:51:45 [main] INFO : Approver Worklist Page Department Filter Test
+2025-11-14 14:51:46 [main] INFO : Approver Worklist Page Business Technology Group Department Filter Test
+2025-11-14 14:51:48 [main] INFO : ✅ Search validation passed. All Values match: Business Technology Group
+2025-11-14 14:51:48 [main] INFO : Approver Worklist Page DSIL Department Filter Test
+2025-11-14 14:51:49 [main] INFO : ✅ Search validation passed. All Values match: DSIL
+2025-11-14 14:51:50 [main] INFO : Approver Worklist Page Data Science and AI Department Filter Test
+2025-11-14 14:51:52 [main] INFO : ✅ Search validation passed. All Values match: Data Science and AI
+2025-11-14 14:51:54 [main] INFO : Approver Worklist Page Stages Filter Test
+2025-11-14 14:51:55 [main] INFO : Approver Worklist Page Department Approver Stages Filter Test
+2025-11-14 14:51:56 [main] ERROR: ❌ Search validation failed. Mismatched Value found or no Records Available: Department Approver
+2025-11-14 14:51:56 [main] INFO : Approver Worklist Page BTG Approver Stages Filter Test
+2025-11-14 14:51:58 [main] ERROR: ❌ Search validation failed. Mismatched Value found or no Records Available: BTG Approver
+2025-11-14 14:51:58 [main] INFO : Approver Worklist Page IT Approver Stages Filter Test
+2025-11-14 14:52:00 [main] ERROR: ❌ Search validation failed. Mismatched Value found or no Records Available: IT Approver
+2025-11-14 14:52:02 [main] INFO : Approver Worklist Search Functionality Test
+2025-11-14 14:52:04 [main] INFO : ✅ Search validation passed. All Values match: Phani Kumar Maddi
+2025-11-14 14:52:07 [main] INFO : Approver Worklist Search Non existing  Functionality Test
+2025-11-14 14:53:08 [main] ERROR: Records available
+2025-11-14 14:53:10 [main] ERROR: Test Failed :element click intercepted: Element <button class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors duration-200 text-sm font-medium">...</button> is not clickable at point (2253, 294). Other element would receive the click: <div class="fixed inset-0 h-full w-full" style="background-color: rgba(43, 43, 43, 0.5); backdrop-filter: blur(10px);"></div>
+  (Session info: chrome=142.0.7444.135)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d119a5f454cb767b7633f2f578ded163, clickElement {id=f.F8D7E063666BEF4634318177EAF5B8D0.d.F7F8C51ECF4558DB2E5D75196C7B65B0.e.411}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.135, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54038}, goog:processID: 15560, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54038/devtoo..., se:cdpVersion: 142.0.7444.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d119a5f454cb767b7633f2f578ded163)] -> xpath: //button[text()='Clear All Filters']]
+Session ID: d119a5f454cb767b7633f2f578ded163
+2025-11-14 14:53:11 [main] INFO : Navigated to /user/tickets
+2025-11-14 14:53:19 [main] INFO : Header is valid: Column Options
+2025-11-14 14:53:23 [main] INFO : My Tickets Page Priority Filter Test
+2025-11-14 14:53:25 [main] INFO : Header is valid: My Tickets
+2025-11-14 14:53:26 [main] INFO : My Tickets Page High Priority Filter Test
+2025-11-14 14:53:28 [main] INFO : ✅ Search validation passed. All Values match: High
+2025-11-14 14:53:28 [main] INFO : My Tickets Page Low Priority Filter Test
+2025-11-14 14:53:30 [main] INFO : ✅ Search validation passed. All Values match: Low
+2025-11-14 14:53:30 [main] INFO : My Tickets Page Medium Priority Filter Test
+2025-11-14 14:53:32 [main] INFO : ✅ Search validation passed. All Values match: Medium
+2025-11-14 14:53:36 [main] INFO : My Tickets Page Current Stages Filter Test
+2025-11-14 14:53:37 [main] INFO : My Tickets Page Department Approver Stages Filter Test
+2025-11-14 14:53:39 [main] INFO : ✅ Search validation passed. All Values match: Department Approver
+2025-11-14 14:53:39 [main] INFO : My Tickets Page BTG Approver Stages Filter Test
+2025-11-14 14:53:41 [main] INFO : ✅ Search validation passed. All Values match: BTG Approver
+2025-11-14 14:53:41 [main] INFO : My Tickets Page IT Approver Stages Filter Test
+2025-11-14 14:53:43 [main] INFO : ✅ Search validation passed. All Values match: IT Approver
+2025-11-14 14:53:46 [main] INFO : My Tickets Page Stages Filter Test
+2025-11-14 14:53:46 [main] INFO : My Tickets Page Pending Status Filter Test
+2025-11-14 14:53:48 [main] INFO : ✅ Search validation passed. All Values match: Pending
+2025-11-14 14:53:49 [main] INFO : My Tickets Page Rejected Status Filter Test
+2025-11-14 14:53:50 [main] INFO : ✅ Search validation passed. All Values match: Rejected
+2025-11-14 14:53:51 [main] INFO : My Tickets Page Closed Status Filter Test
+2025-11-14 14:53:53 [main] INFO : ✅ Search validation passed. All Values match: Closed
+2025-11-14 14:53:56 [main] INFO : My Tickets Search Functionality Test
+2025-11-14 14:53:58 [main] INFO : ✅ Search validation passed. All Values match: Phani Kumar Maddi
+2025-11-14 14:53:59 [main] INFO : My Tickets Search Non existing  Functionality Test
+2025-11-14 14:54:01 [main] INFO : No records Found :No Records Found
+2025-11-14 14:54:05 [main] INFO : Navigated to /approver/dashboard
+2025-11-14 14:54:10 [main] INFO : Approver Dashboard Page test
+2025-11-14 14:54:13 [main] INFO : Header is valid: Dashboard Overview
+2025-11-14 14:54:13 [main] INFO : Header is valid: Ticket Analytics
+2025-11-14 14:54:14 [main] INFO : Approver Dashboard Page Cards test
+2025-11-14 14:55:14 [main] ERROR: Dashboard Cards Available
+2025-11-14 14:55:15 [main] INFO : Approver Dashboard Page  Chart Title test
+2025-11-14 14:55:15 [main] INFO : Chart Title in Dashboard: Ticket Type Distribution
+2025-11-14 14:55:15 [main] INFO : Chart Title in Dashboard: Tickets by Status
+2025-11-14 14:55:15 [main] INFO : Chart Title in Dashboard: Pending Tickets by Stage
+2025-11-14 14:55:16 [main] INFO : Chart Title in Dashboard: Tickets by Priority
+2025-11-14 14:55:16 [main] INFO : Chart Title in Dashboard: Monthly Ticket Trends
+2025-11-14 14:55:17 [main] INFO : IT Member role Available
+2025-11-14 14:55:17 [main] INFO : Implementation Queue Configure Columns Options Filters
+2025-11-14 14:55:20 [main] INFO : Navigated to /implementation-queue
+2025-11-14 14:55:23 [main] INFO : Header is valid: Implementation Queue
+2025-11-14 14:55:30 [main] INFO : Header is valid: Column Options
+2025-11-14 14:55:30 [main] INFO : Verifying Ticket ID Column Option
+2025-11-14 14:55:30 [main] INFO : Column Option visibility is Hidden 
+2025-11-14 14:55:32 [main] INFO : Column Option visibility is View 
+2025-11-14 14:55:34 [main] INFO : Verifying Status Column Option
+2025-11-14 14:55:34 [main] INFO : Column Option visibility is Hidden 
+2025-11-14 14:55:36 [main] INFO : Column Option visibility is View 
+2025-11-14 14:55:42 [main] INFO : Header is valid: Column Options
+2025-11-14 14:55:46 [main] INFO : Implementation Queue Page Status Filter Test
+2025-11-14 14:55:47 [main] INFO : Implementation Queue Page Resolved Status Filter Test
+2025-11-14 14:56:20 [main] INFO : Launching Chrome Browser
+2025-11-14 14:56:20 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-14 14:56:23 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-14 14:56:26 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-14 14:56:54 [main] INFO : Logged in to Intelli Serve Application
+2025-11-14 14:56:54 [main] INFO : Verify the Home and Profile Page test
+2025-11-14 14:56:56 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-11-14 14:56:56 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-11-14 14:57:00 [main] INFO : Navigated to Profile Page
+2025-11-14 14:57:00 [main] INFO : Header valid :Profile
+2025-11-14 14:57:01 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-11-14 14:57:01 [main] INFO : Department Name: Business Technology Group
+2025-11-14 14:57:02 [main] INFO : User Roles: BTG Approver
+2025-11-14 14:57:02 [main] INFO : User Roles: Admin
+2025-11-14 14:57:02 [main] INFO : User Roles: IT Member
+2025-11-14 14:57:02 [main] INFO : User Roles: IT Approver
+2025-11-14 14:57:02 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-11-14 14:57:02 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-11-14 14:57:02 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-11-14 14:57:02 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-11-14 14:57:03 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-11-14 14:57:04 [main] INFO : Version :Version 1.0.14
+2025-11-14 14:57:08 [main] INFO : Admin role Available
+2025-11-14 14:57:09 [main] INFO : Verify the Admin Role Pages
+2025-11-14 14:57:11 [main] INFO : Navigated to /admin
+2025-11-14 14:57:16 [main] INFO : Inside /admin Page 
+2025-11-14 14:57:16 [main] INFO : /admin Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/admin
+2025-11-14 14:57:25 [main] INFO : Navigated to /tickets
+2025-11-14 14:57:30 [main] INFO : Inside /tickets Page 
+2025-11-14 14:57:30 [main] INFO : /tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/tickets
+2025-11-14 14:57:38 [main] INFO : Navigated to /approver-management
+2025-11-14 14:57:43 [main] INFO : Inside /approver-management Page 
+2025-11-14 14:57:43 [main] INFO : /approver-management Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-management
+2025-11-14 14:57:52 [main] INFO : Navigated to /roles
+2025-11-14 14:57:57 [main] INFO : Inside /roles Page 
+2025-11-14 14:57:57 [main] INFO : /roles Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/roles
+2025-11-14 14:58:05 [main] INFO : Navigated to /user/tickets
+2025-11-14 14:58:10 [main] INFO : Inside /user/tickets Page 
+2025-11-14 14:58:10 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 14:58:24 [main] INFO : IT Approver role Available
+2025-11-14 14:58:24 [main] INFO : Verify the IT Approver Role Pages
+2025-11-14 14:58:27 [main] INFO : Navigated to /approver/dashboard
+2025-11-14 14:58:32 [main] INFO : Inside /approver/dashboard Page 
+2025-11-14 14:58:32 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-14 14:58:40 [main] INFO : Navigated to /approver-tickets
+2025-11-14 14:58:45 [main] INFO : Inside /approver-tickets Page 
+2025-11-14 14:58:45 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-14 14:58:54 [main] INFO : Navigated to /user/tickets
+2025-11-14 14:58:59 [main] INFO : Inside /user/tickets Page 
+2025-11-14 14:58:59 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 14:59:12 [main] INFO : IT Member role Available
+2025-11-14 14:59:12 [main] INFO : Verify the IT Member Role Pages
+2025-11-14 14:59:15 [main] INFO : Navigated to /implementation-queue
+2025-11-14 14:59:20 [main] INFO : Inside /implementation-queue Page 
+2025-11-14 14:59:20 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-11-14 14:59:28 [main] INFO : Navigated to /user/tickets
+2025-11-14 14:59:33 [main] INFO : Inside /user/tickets Page 
+2025-11-14 14:59:33 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 14:59:47 [main] INFO : BTG Approver role Available
+2025-11-14 14:59:47 [main] INFO : Verify the BTG Approver Role Pages
+2025-11-14 14:59:50 [main] INFO : Navigated to /approver/dashboard
+2025-11-14 14:59:55 [main] INFO : Inside /approver/dashboard Page 
+2025-11-14 14:59:55 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-14 15:00:03 [main] INFO : Navigated to /approver-tickets
+2025-11-14 15:00:08 [main] INFO : Inside /approver-tickets Page 
+2025-11-14 15:00:08 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-14 15:00:16 [main] INFO : Navigated to /user/tickets
+2025-11-14 15:00:21 [main] INFO : Inside /user/tickets Page 
+2025-11-14 15:00:21 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 15:00:35 [main] INFO : BTG Member Role Not Available for logged User
+2025-11-14 15:00:40 [main] INFO : Verify the Signout
+2025-11-14 15:00:42 [main] INFO : SignOut From IntelliServe Page
+2025-11-14 15:00:52 [main] INFO : Logged out Successfully
+2025-11-14 15:00:57 [main] INFO : Testing Ended
+2025-11-14 15:00:57 [main] INFO : ***********
+2025-11-14 15:02:30 [main] INFO : Launching Chrome Browser
+2025-11-14 15:02:31 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-14 15:02:34 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-14 15:02:38 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-14 15:03:07 [main] INFO : Logged in to Intelli Serve Application
+2025-11-14 15:03:07 [main] INFO : Verify the Home and Profile Page test
+2025-11-14 15:03:09 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-11-14 15:03:09 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-11-14 15:03:12 [main] INFO : Navigated to Profile Page
+2025-11-14 15:03:13 [main] INFO : Header valid :Profile
+2025-11-14 15:03:13 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-11-14 15:03:14 [main] INFO : Department Name: Business Technology Group
+2025-11-14 15:03:14 [main] INFO : User Roles: BTG Approver
+2025-11-14 15:03:14 [main] INFO : User Roles: Admin
+2025-11-14 15:03:14 [main] INFO : User Roles: IT Member
+2025-11-14 15:03:14 [main] INFO : User Roles: IT Approver
+2025-11-14 15:03:15 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-11-14 15:03:15 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-11-14 15:03:15 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-11-14 15:03:15 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-11-14 15:03:16 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-11-14 15:03:16 [main] INFO : Version :Version 1.0.14
+2025-11-14 15:03:21 [main] INFO : Admin role Available
+2025-11-14 15:03:21 [main] INFO : Verify the Admin Role Pages
+2025-11-14 15:03:24 [main] INFO : Navigated to /admin
+2025-11-14 15:03:29 [main] INFO : Inside /admin Page 
+2025-11-14 15:03:29 [main] INFO : /admin Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/admin
+2025-11-14 15:03:31 [main] ERROR: /admin Title is InValid :Ticketing Dashboard | CriticalRiver Ticketing System
+2025-11-14 15:03:39 [main] INFO : Navigated to /tickets
+2025-11-14 15:03:44 [main] INFO : Inside /tickets Page 
+2025-11-14 15:03:44 [main] INFO : /tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/tickets
+2025-11-14 15:03:45 [main] ERROR: /tickets Title is InValid :All Tickets | CriticalRiver Ticketing System
+2025-11-14 15:03:53 [main] INFO : Navigated to /approver-management
+2025-11-14 15:03:58 [main] INFO : Inside /approver-management Page 
+2025-11-14 15:03:58 [main] INFO : /approver-management Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-management
+2025-11-14 15:04:00 [main] ERROR: /approver-management Title is InValid :Approver Management | CriticalRiver Ticketing System
+2025-11-14 15:04:07 [main] INFO : Navigated to /roles
+2025-11-14 15:04:12 [main] INFO : Inside /roles Page 
+2025-11-14 15:04:13 [main] INFO : /roles Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/roles
+2025-11-14 15:04:14 [main] ERROR: /roles Title is InValid :Roles Management | CriticalRiver Ticketing System
+2025-11-14 15:04:22 [main] INFO : Navigated to /user/tickets
+2025-11-14 15:04:27 [main] INFO : Inside /user/tickets Page 
+2025-11-14 15:04:27 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 15:04:28 [main] ERROR: /user/tickets Title is InValid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 15:04:41 [main] INFO : IT Approver role Available
+2025-11-14 15:04:41 [main] INFO : Verify the IT Approver Role Pages
+2025-11-14 15:04:44 [main] INFO : Navigated to /approver/dashboard
+2025-11-14 15:04:49 [main] INFO : Inside /approver/dashboard Page 
+2025-11-14 15:04:49 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-14 15:04:51 [main] ERROR: /approver/dashboard Title is InValid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-14 15:04:59 [main] INFO : Navigated to /approver-tickets
+2025-11-14 15:05:04 [main] INFO : Inside /approver-tickets Page 
+2025-11-14 15:05:04 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-14 15:05:06 [main] ERROR: /approver-tickets Title is InValid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-14 15:05:13 [main] INFO : Navigated to /user/tickets
+2025-11-14 15:05:18 [main] INFO : Inside /user/tickets Page 
+2025-11-14 15:05:18 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 15:05:20 [main] ERROR: /user/tickets Title is InValid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 15:05:33 [main] INFO : IT Member role Available
+2025-11-14 15:05:33 [main] INFO : Verify the IT Member Role Pages
+2025-11-14 15:05:36 [main] INFO : Navigated to /implementation-queue
+2025-11-14 15:05:41 [main] INFO : Inside /implementation-queue Page 
+2025-11-14 15:05:41 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-11-14 15:05:42 [main] ERROR: /implementation-queue Title is InValid :Implementation Queue | CriticalRiver Ticketing System
+2025-11-14 15:06:01 [main] INFO : Launching Chrome Browser
+2025-11-14 15:06:01 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-14 15:06:10 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-14 15:06:12 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-14 15:06:44 [main] INFO : Logged in to Intelli Serve Application
+2025-11-14 15:06:44 [main] INFO : Verify the Home and Profile Page test
+2025-11-14 15:06:46 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-11-14 15:06:46 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-11-14 15:06:49 [main] INFO : Navigated to Profile Page
+2025-11-14 15:06:49 [main] INFO : Header valid :Profile
+2025-11-14 15:06:50 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-11-14 15:06:50 [main] INFO : Department Name: Business Technology Group
+2025-11-14 15:06:51 [main] INFO : User Roles: BTG Approver
+2025-11-14 15:06:51 [main] INFO : User Roles: Admin
+2025-11-14 15:06:51 [main] INFO : User Roles: IT Member
+2025-11-14 15:06:51 [main] INFO : User Roles: IT Approver
+2025-11-14 15:06:52 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-11-14 15:06:52 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-11-14 15:06:52 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-11-14 15:06:52 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-11-14 15:06:52 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-11-14 15:06:53 [main] INFO : Version :Version 1.0.14
+2025-11-14 15:06:58 [main] INFO : Admin role Available
+2025-11-14 15:06:58 [main] INFO : Verify the Admin Role Pages
+2025-11-14 15:07:01 [main] INFO : Navigated to /admin
+2025-11-14 15:07:06 [main] INFO : Inside /admin Page 
+2025-11-14 15:07:06 [main] INFO : /admin Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/admin
+2025-11-14 15:07:07 [main] ERROR: /admin Title is InValid :Ticketing Dashboard | CriticalRiver Ticketing System
+2025-11-14 15:07:15 [main] INFO : Navigated to /tickets
+2025-11-14 15:07:20 [main] INFO : Inside /tickets Page 
+2025-11-14 15:07:20 [main] INFO : /tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/tickets
+2025-11-14 15:07:22 [main] INFO : /tickets Title is Valid :All Tickets | CriticalRiver Ticketing System
+2025-11-14 15:07:30 [main] INFO : Navigated to /approver-management
+2025-11-14 15:07:35 [main] INFO : Inside /approver-management Page 
+2025-11-14 15:07:35 [main] INFO : /approver-management Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-management
+2025-11-14 15:07:37 [main] ERROR: /approver-management Title is InValid :Approver Management | CriticalRiver Ticketing System
+2025-11-14 15:07:45 [main] INFO : Navigated to /roles
+2025-11-14 15:07:50 [main] INFO : Inside /roles Page 
+2025-11-14 15:07:50 [main] INFO : /roles Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/roles
+2025-11-14 15:07:51 [main] INFO : /roles Title is Valid :Roles Management | CriticalRiver Ticketing System
+2025-11-14 15:08:00 [main] INFO : Navigated to /user/tickets
+2025-11-14 15:08:05 [main] INFO : Inside /user/tickets Page 
+2025-11-14 15:08:05 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 15:08:06 [main] ERROR: /user/tickets Title is InValid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 15:08:19 [main] INFO : IT Approver role Available
+2025-11-14 15:08:19 [main] INFO : Verify the IT Approver Role Pages
+2025-11-14 15:08:22 [main] INFO : Navigated to /approver/dashboard
+2025-11-14 15:08:27 [main] INFO : Inside /approver/dashboard Page 
+2025-11-14 15:08:27 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-14 15:08:29 [main] ERROR: /approver/dashboard Title is InValid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-14 15:08:37 [main] INFO : Navigated to /approver-tickets
+2025-11-14 15:08:42 [main] INFO : Inside /approver-tickets Page 
+2025-11-14 15:08:42 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-14 15:08:43 [main] ERROR: /approver-tickets Title is InValid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-14 15:08:51 [main] INFO : Navigated to /user/tickets
+2025-11-14 15:08:56 [main] INFO : Inside /user/tickets Page 
+2025-11-14 15:08:56 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 15:08:58 [main] ERROR: /user/tickets Title is InValid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 15:09:11 [main] INFO : IT Member role Available
+2025-11-14 15:09:11 [main] INFO : Verify the IT Member Role Pages
+2025-11-14 15:09:14 [main] INFO : Navigated to /implementation-queue
+2025-11-14 15:09:19 [main] INFO : Inside /implementation-queue Page 
+2025-11-14 15:09:19 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-11-14 15:09:20 [main] ERROR: /implementation-queue Title is InValid :Implementation Queue | CriticalRiver Ticketing System
+2025-11-14 15:09:28 [main] INFO : Navigated to /user/tickets
+2025-11-14 15:09:33 [main] INFO : Inside /user/tickets Page 
+2025-11-14 15:09:33 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 15:09:35 [main] ERROR: /user/tickets Title is InValid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 15:09:48 [main] INFO : BTG Approver role Available
+2025-11-14 15:09:48 [main] INFO : Verify the BTG Approver Role Pages
+2025-11-14 15:09:51 [main] INFO : Navigated to /approver/dashboard
+2025-11-14 15:09:56 [main] INFO : Inside /approver/dashboard Page 
+2025-11-14 15:09:56 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-14 15:09:57 [main] ERROR: /approver/dashboard Title is InValid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-14 15:10:05 [main] INFO : Navigated to /approver-tickets
+2025-11-14 15:10:10 [main] INFO : Inside /approver-tickets Page 
+2025-11-14 15:10:10 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-14 15:10:12 [main] ERROR: /approver-tickets Title is InValid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-14 15:10:20 [main] INFO : Navigated to /user/tickets
+2025-11-14 15:10:25 [main] INFO : Inside /user/tickets Page 
+2025-11-14 15:10:25 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 15:10:26 [main] ERROR: /user/tickets Title is InValid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 15:10:39 [main] INFO : BTG Member Role Not Available for logged User
+2025-11-14 15:10:44 [main] INFO : Verify the Signout
+2025-11-14 15:10:46 [main] INFO : SignOut From IntelliServe Page
+2025-11-14 15:10:56 [main] INFO : Logged out Successfully
+2025-11-14 15:11:02 [main] INFO : Testing Ended
+2025-11-14 15:11:02 [main] INFO : ***********
+2025-11-14 15:28:54 [main] INFO : Launching Chrome Browser
+2025-11-14 15:28:54 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-14 15:28:57 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-14 15:29:00 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-14 15:29:30 [main] INFO : Logged in to Intelli Serve Application
+2025-11-14 15:29:30 [main] INFO : Verify the Home and Profile Page test
+2025-11-14 15:29:32 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-11-14 15:29:32 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-11-14 15:29:35 [main] INFO : Navigated to Profile Page
+2025-11-14 15:29:36 [main] INFO : Header valid :Profile
+2025-11-14 15:29:36 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-11-14 15:29:37 [main] INFO : Department Name: Business Technology Group
+2025-11-14 15:29:37 [main] INFO : User Roles: BTG Approver
+2025-11-14 15:29:37 [main] INFO : User Roles: Admin
+2025-11-14 15:29:37 [main] INFO : User Roles: IT Member
+2025-11-14 15:29:37 [main] INFO : User Roles: IT Approver
+2025-11-14 15:29:38 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-11-14 15:29:38 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-11-14 15:29:38 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-11-14 15:29:38 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-11-14 15:29:39 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-11-14 15:29:39 [main] INFO : Version :Version 1.0.14
+2025-11-14 15:29:44 [main] INFO : Admin role Available
+2025-11-14 15:29:44 [main] INFO : Verify the Admin Role Pages
+2025-11-14 15:29:47 [main] INFO : Navigated to /admin
+2025-11-14 15:29:52 [main] INFO : Inside /admin Page 
+2025-11-14 15:29:52 [main] INFO : /admin Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/admin
+2025-11-14 15:29:54 [main] ERROR: Ticketing Dashboard Title is InValid :Ticketing Dashboard | CriticalRiver Ticketing System
+2025-11-14 15:30:02 [main] INFO : Navigated to /tickets
+2025-11-14 15:30:07 [main] INFO : Inside /tickets Page 
+2025-11-14 15:30:07 [main] INFO : /tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/tickets
+2025-11-14 15:30:08 [main] ERROR: All Tickets Title is InValid :All Tickets | CriticalRiver Ticketing System
+2025-11-14 15:30:16 [main] INFO : Navigated to /approver-management
+2025-11-14 15:30:21 [main] INFO : Inside /approver-management Page 
+2025-11-14 15:30:21 [main] INFO : /approver-management Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-management
+2025-11-14 15:30:23 [main] ERROR: Approver Management Title is InValid :Approver Management | CriticalRiver Ticketing System
+2025-11-14 15:30:30 [main] INFO : Navigated to /roles
+2025-11-14 15:30:35 [main] INFO : Inside /roles Page 
+2025-11-14 15:30:36 [main] INFO : /roles Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/roles
+2025-11-14 15:30:37 [main] ERROR: Roles Management Title is InValid :Roles Management | CriticalRiver Ticketing System
+2025-11-14 15:30:45 [main] INFO : Navigated to /user/tickets
+2025-11-14 15:30:50 [main] INFO : Inside /user/tickets Page 
+2025-11-14 15:30:50 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 15:30:51 [main] ERROR: My Tickets Title is InValid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 15:31:04 [main] INFO : IT Approver role Available
+2025-11-14 15:31:05 [main] INFO : Verify the IT Approver Role Pages
+2025-11-14 15:31:08 [main] INFO : Navigated to /approver/dashboard
+2025-11-14 15:31:13 [main] INFO : Inside /approver/dashboard Page 
+2025-11-14 15:31:13 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-14 15:31:14 [main] ERROR: Approver Dashboard Title is InValid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-14 15:31:22 [main] INFO : Navigated to /approver-tickets
+2025-11-14 15:31:27 [main] INFO : Inside /approver-tickets Page 
+2025-11-14 15:31:27 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-14 15:31:28 [main] ERROR: Approver Worklist Title is InValid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-14 15:31:36 [main] INFO : Navigated to /user/tickets
+2025-11-14 15:31:41 [main] INFO : Inside /user/tickets Page 
+2025-11-14 15:31:41 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 15:31:43 [main] ERROR: My Tickets Title is InValid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 15:31:56 [main] INFO : IT Member role Available
+2025-11-14 15:31:56 [main] INFO : Verify the IT Member Role Pages
+2025-11-14 15:31:59 [main] INFO : Navigated to /implementation-queue
+2025-11-14 15:32:04 [main] INFO : Inside /implementation-queue Page 
+2025-11-14 15:32:04 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-11-14 15:32:05 [main] ERROR: Implementation Queue Title is InValid :Implementation Queue | CriticalRiver Ticketing System
+2025-11-14 15:32:13 [main] INFO : Navigated to /user/tickets
+2025-11-14 15:32:18 [main] INFO : Inside /user/tickets Page 
+2025-11-14 15:32:18 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 15:32:20 [main] ERROR: My Tickets Title is InValid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 15:32:33 [main] INFO : BTG Approver role Available
+2025-11-14 15:32:33 [main] INFO : Verify the BTG Approver Role Pages
+2025-11-14 15:32:36 [main] INFO : Navigated to /approver/dashboard
+2025-11-14 15:32:41 [main] INFO : Inside /approver/dashboard Page 
+2025-11-14 15:32:41 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-14 15:32:43 [main] ERROR: Approver Dashboard Title is InValid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-14 15:32:51 [main] INFO : Navigated to /approver-tickets
+2025-11-14 15:32:56 [main] INFO : Inside /approver-tickets Page 
+2025-11-14 15:32:56 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-14 15:32:57 [main] ERROR: Approver Worklist Title is InValid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-14 15:33:05 [main] INFO : Navigated to /user/tickets
+2025-11-14 15:33:10 [main] INFO : Inside /user/tickets Page 
+2025-11-14 15:33:10 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 15:33:12 [main] ERROR: My Tickets Title is InValid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 15:33:25 [main] INFO : BTG Member Role Not Available for logged User
+2025-11-14 15:33:30 [main] INFO : Verify the Signout
+2025-11-14 15:33:32 [main] INFO : SignOut From IntelliServe Page
+2025-11-14 15:33:42 [main] INFO : Logged out Successfully
+2025-11-14 15:33:47 [main] INFO : Testing Ended
+2025-11-14 15:33:47 [main] INFO : ***********
+2025-11-14 15:51:28 [main] INFO : Launching Chrome Browser
+2025-11-14 15:51:28 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-14 15:51:32 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-14 15:51:34 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-14 15:51:58 [main] INFO : Logged in to Intelli Serve Application
+2025-11-14 15:51:58 [main] INFO : Verify the Home and Profile Page test
+2025-11-14 15:52:00 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-11-14 15:52:00 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-11-14 15:52:03 [main] INFO : Navigated to Profile Page
+2025-11-14 15:52:03 [main] INFO : Header valid :Profile
+2025-11-14 15:52:04 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-11-14 15:52:05 [main] INFO : Department Name: Business Technology Group
+2025-11-14 15:52:05 [main] INFO : User Roles: BTG Approver
+2025-11-14 15:52:05 [main] INFO : User Roles: Admin
+2025-11-14 15:52:05 [main] INFO : User Roles: IT Member
+2025-11-14 15:52:05 [main] INFO : User Roles: IT Approver
+2025-11-14 15:52:06 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-11-14 15:52:06 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-11-14 15:52:06 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-11-14 15:52:06 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-11-14 15:52:07 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-11-14 15:52:07 [main] INFO : Version :Version 1.0.14
+2025-11-14 15:52:12 [main] INFO : Admin role Available
+2025-11-14 15:52:12 [main] INFO : Verify the Admin Role Pages
+2025-11-14 15:52:15 [main] INFO : Navigated to /admin
+2025-11-14 15:52:20 [main] INFO : Inside /admin Page 
+2025-11-14 15:52:20 [main] INFO : /admin Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/admin
+2025-11-14 15:52:21 [main] INFO : Ticketing Dashboard Title is Valid :Ticketing Dashboard | CriticalRiver Ticketing System
+2025-11-14 15:52:30 [main] INFO : Navigated to /tickets
+2025-11-14 15:52:35 [main] INFO : Inside /tickets Page 
+2025-11-14 15:52:35 [main] INFO : /tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/tickets
+2025-11-14 15:52:37 [main] INFO : All Tickets Title is Valid :All Tickets | CriticalRiver Ticketing System
+2025-11-14 15:52:45 [main] INFO : Navigated to /approver-management
+2025-11-14 15:52:50 [main] INFO : Inside /approver-management Page 
+2025-11-14 15:52:50 [main] INFO : /approver-management Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-management
+2025-11-14 15:52:52 [main] INFO : Approver Management Title is Valid :Approver Management | CriticalRiver Ticketing System
+2025-11-14 15:53:00 [main] INFO : Navigated to /roles
+2025-11-14 15:53:05 [main] INFO : Inside /roles Page 
+2025-11-14 15:53:05 [main] INFO : /roles Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/roles
+2025-11-14 15:53:06 [main] INFO : Roles Management Title is Valid :Roles Management | CriticalRiver Ticketing System
+2025-11-14 15:53:15 [main] INFO : Navigated to /user/tickets
+2025-11-14 15:53:20 [main] INFO : Inside /user/tickets Page 
+2025-11-14 15:53:20 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 15:53:21 [main] INFO : My Tickets Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 15:53:35 [main] INFO : IT Approver role Available
+2025-11-14 15:53:35 [main] INFO : Verify the IT Approver Role Pages
+2025-11-14 15:53:38 [main] INFO : Navigated to /approver/dashboard
+2025-11-14 15:53:43 [main] INFO : Inside /approver/dashboard Page 
+2025-11-14 15:53:43 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-14 15:53:45 [main] INFO : Approver Dashboard Title is Valid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-14 15:53:54 [main] INFO : Navigated to /approver-tickets
+2025-11-14 15:53:59 [main] INFO : Inside /approver-tickets Page 
+2025-11-14 15:53:59 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-14 15:54:00 [main] INFO : Approver Worklist Title is Valid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-14 15:54:08 [main] INFO : Navigated to /user/tickets
+2025-11-14 15:54:13 [main] INFO : Inside /user/tickets Page 
+2025-11-14 15:54:13 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 15:54:15 [main] INFO : My Tickets Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 15:54:28 [main] INFO : IT Member role Available
+2025-11-14 15:54:28 [main] INFO : Verify the IT Member Role Pages
+2025-11-14 15:54:31 [main] INFO : Navigated to /implementation-queue
+2025-11-14 15:54:36 [main] INFO : Inside /implementation-queue Page 
+2025-11-14 15:54:36 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-11-14 15:54:38 [main] INFO : Implementation Queue Title is Valid :Implementation Queue | CriticalRiver Ticketing System
+2025-11-14 15:54:46 [main] INFO : Navigated to /user/tickets
+2025-11-14 15:54:51 [main] INFO : Inside /user/tickets Page 
+2025-11-14 15:54:51 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 15:54:53 [main] INFO : My Tickets Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 15:55:06 [main] INFO : BTG Approver role Available
+2025-11-14 15:55:06 [main] INFO : Verify the BTG Approver Role Pages
+2025-11-14 15:55:09 [main] INFO : Navigated to /approver/dashboard
+2025-11-14 15:55:14 [main] INFO : Inside /approver/dashboard Page 
+2025-11-14 15:55:14 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-14 15:55:16 [main] INFO : Approver Dashboard Title is Valid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-14 15:55:24 [main] INFO : Navigated to /approver-tickets
+2025-11-14 15:55:29 [main] INFO : Inside /approver-tickets Page 
+2025-11-14 15:55:29 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-14 15:55:31 [main] INFO : Approver Worklist Title is Valid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-14 15:55:39 [main] INFO : Navigated to /user/tickets
+2025-11-14 15:55:44 [main] INFO : Inside /user/tickets Page 
+2025-11-14 15:55:44 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 15:55:46 [main] INFO : My Tickets Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 15:55:59 [main] INFO : BTG Member Role Not Available for logged User
+2025-11-14 15:56:04 [main] INFO : Verify the Signout
+2025-11-14 15:56:06 [main] INFO : SignOut From IntelliServe Page
+2025-11-14 15:56:16 [main] INFO : Logged out Successfully
+2025-11-14 15:56:22 [main] INFO : Testing Ended
+2025-11-14 15:56:22 [main] INFO : ***********
+2025-11-14 16:26:02 [main] INFO : Launching Chrome Browser
+2025-11-14 16:26:02 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-14 16:26:05 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-14 16:26:07 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-14 16:26:36 [main] INFO : Logged in to Intelli Serve Application
+2025-11-14 16:26:36 [main] INFO : Verify the Home and Profile Page test
+2025-11-14 16:26:36 [main] INFO : Verifying Side Bar Collapse Functionality
+2025-11-14 16:26:36 [main] ERROR: Side Toggle not available
+2025-11-14 16:26:37 [main] INFO : Verifying Side Bar Expand Functionality
+2025-11-14 16:26:37 [main] INFO : Side Bar expanded
+2025-11-14 16:26:39 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-11-14 16:26:39 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-11-14 16:26:42 [main] INFO : Navigated to Profile Page
+2025-11-14 16:26:43 [main] INFO : Header valid :Profile
+2025-11-14 16:26:43 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-11-14 16:26:44 [main] INFO : Department Name: Business Technology Group
+2025-11-14 16:26:44 [main] INFO : User Roles: BTG Approver
+2025-11-14 16:26:45 [main] INFO : User Roles: Admin
+2025-11-14 16:26:45 [main] INFO : User Roles: IT Member
+2025-11-14 16:26:45 [main] INFO : User Roles: IT Approver
+2025-11-14 16:26:45 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-11-14 16:26:45 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-11-14 16:26:45 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-11-14 16:26:45 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-11-14 16:26:46 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-11-14 16:26:46 [main] INFO : Version :Version 1.0.14
+2025-11-14 16:26:51 [main] INFO : Admin role Available
+2025-11-14 16:26:51 [main] INFO : Verify the Admin Role Pages
+2025-11-14 16:26:54 [main] INFO : Navigated to /admin
+2025-11-14 16:26:59 [main] INFO : Inside /admin Page 
+2025-11-14 16:26:59 [main] INFO : /admin Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/admin
+2025-11-14 16:27:01 [main] INFO : Ticketing Dashboard Page Title is Valid :Ticketing Dashboard | CriticalRiver Ticketing System
+2025-11-14 16:27:09 [main] INFO : Navigated to /tickets
+2025-11-14 16:27:14 [main] INFO : Inside /tickets Page 
+2025-11-14 16:27:14 [main] INFO : /tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/tickets
+2025-11-14 16:27:16 [main] INFO : All Tickets Page Title is Valid :All Tickets | CriticalRiver Ticketing System
+2025-11-14 16:27:24 [main] INFO : Navigated to /approver-management
+2025-11-14 16:27:29 [main] INFO : Inside /approver-management Page 
+2025-11-14 16:27:29 [main] INFO : /approver-management Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-management
+2025-11-14 16:27:31 [main] INFO : Approver Management Page Title is Valid :Approver Management | CriticalRiver Ticketing System
+2025-11-14 16:27:39 [main] INFO : Navigated to /roles
+2025-11-14 16:27:44 [main] INFO : Inside /roles Page 
+2025-11-14 16:27:44 [main] INFO : /roles Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/roles
+2025-11-14 16:27:45 [main] INFO : Roles Management Page Title is Valid :Roles Management | CriticalRiver Ticketing System
+2025-11-14 16:27:54 [main] INFO : Navigated to /user/tickets
+2025-11-14 16:27:59 [main] INFO : Inside /user/tickets Page 
+2025-11-14 16:27:59 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 16:28:00 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 16:28:14 [main] INFO : IT Approver role Available
+2025-11-14 16:28:14 [main] INFO : Verify the IT Approver Role Pages
+2025-11-14 16:28:17 [main] INFO : Navigated to /approver/dashboard
+2025-11-14 16:28:22 [main] INFO : Inside /approver/dashboard Page 
+2025-11-14 16:28:22 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-14 16:28:23 [main] INFO : Approver Dashboard Page Title is Valid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-14 16:28:31 [main] INFO : Navigated to /approver-tickets
+2025-11-14 16:28:36 [main] INFO : Inside /approver-tickets Page 
+2025-11-14 16:28:36 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-14 16:28:38 [main] INFO : Approver Worklist Page Title is Valid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-14 16:28:46 [main] INFO : Navigated to /user/tickets
+2025-11-14 16:28:51 [main] INFO : Inside /user/tickets Page 
+2025-11-14 16:28:51 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 16:28:53 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 16:29:06 [main] INFO : IT Member role Available
+2025-11-14 16:29:06 [main] INFO : Verify the IT Member Role Pages
+2025-11-14 16:29:09 [main] INFO : Navigated to /implementation-queue
+2025-11-14 16:29:14 [main] INFO : Inside /implementation-queue Page 
+2025-11-14 16:29:14 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-11-14 16:29:16 [main] INFO : Implementation Queue Page Title is Valid :Implementation Queue | CriticalRiver Ticketing System
+2025-11-14 16:29:24 [main] INFO : Navigated to /user/tickets
+2025-11-14 16:29:29 [main] INFO : Inside /user/tickets Page 
+2025-11-14 16:29:29 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 16:29:31 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 16:29:44 [main] INFO : BTG Approver role Available
+2025-11-14 16:29:44 [main] INFO : Verify the BTG Approver Role Pages
+2025-11-14 16:29:47 [main] INFO : Navigated to /approver/dashboard
+2025-11-14 16:29:52 [main] INFO : Inside /approver/dashboard Page 
+2025-11-14 16:29:52 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-14 16:29:53 [main] INFO : Approver Dashboard Page Title is Valid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-14 16:30:02 [main] INFO : Navigated to /approver-tickets
+2025-11-14 16:30:07 [main] INFO : Inside /approver-tickets Page 
+2025-11-14 16:30:07 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-14 16:30:08 [main] INFO : Approver Worklist Page Title is Valid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-14 16:30:16 [main] INFO : Navigated to /user/tickets
+2025-11-14 16:30:21 [main] INFO : Inside /user/tickets Page 
+2025-11-14 16:30:21 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 16:30:23 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 16:30:37 [main] INFO : BTG Member Role Not Available for logged User
+2025-11-14 16:30:42 [main] INFO : Verify the Signout
+2025-11-14 16:30:43 [main] INFO : SignOut From IntelliServe Page
+2025-11-14 16:30:53 [main] INFO : Logged out Successfully
+2025-11-14 16:30:59 [main] INFO : Testing Ended
+2025-11-14 16:30:59 [main] INFO : ***********
+2025-11-14 16:32:32 [main] INFO : Launching Chrome Browser
+2025-11-14 16:32:32 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-14 16:32:35 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-14 16:32:39 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-14 16:33:09 [main] INFO : Logged in to Intelli Serve Application
+2025-11-14 16:33:09 [main] INFO : Verify the Home and Profile Page test
+2025-11-14 16:33:09 [main] INFO : Verifying Side Bar Collapse Functionality
+2025-11-14 16:33:09 [main] ERROR: Side Toggle not available
+2025-11-14 16:33:10 [main] INFO : Verifying Side Bar Expand Functionality
+2025-11-14 16:33:10 [main] INFO : Side Bar expanded
+2025-11-14 16:33:12 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-11-14 16:33:12 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-11-14 16:33:15 [main] INFO : Navigated to Profile Page
+2025-11-14 16:33:16 [main] INFO : Header valid :Profile
+2025-11-14 16:33:16 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-11-14 16:33:17 [main] INFO : Department Name: Business Technology Group
+2025-11-14 16:33:17 [main] INFO : User Roles: BTG Approver
+2025-11-14 16:33:18 [main] INFO : User Roles: Admin
+2025-11-14 16:33:18 [main] INFO : User Roles: IT Member
+2025-11-14 16:33:18 [main] INFO : User Roles: IT Approver
+2025-11-14 16:33:18 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-11-14 16:33:18 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-11-14 16:33:18 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-11-14 16:33:18 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-11-14 16:33:19 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-11-14 16:33:19 [main] INFO : Version :Version 1.0.14
+2025-11-14 16:33:24 [main] INFO : Admin role Available
+2025-11-14 16:33:24 [main] INFO : Verify the Admin Role Pages
+2025-11-14 16:33:28 [main] INFO : Navigated to /admin
+2025-11-14 16:33:33 [main] INFO : Inside /admin Page 
+2025-11-14 16:33:33 [main] INFO : /admin Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/admin
+2025-11-14 16:33:34 [main] INFO : Ticketing Dashboard Page Title is Valid :Ticketing Dashboard | CriticalRiver Ticketing System
+2025-11-14 16:33:43 [main] INFO : Navigated to /tickets
+2025-11-14 16:33:48 [main] INFO : Inside /tickets Page 
+2025-11-14 16:33:48 [main] INFO : /tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/tickets
+2025-11-14 16:33:49 [main] INFO : All Tickets Page Title is Valid :All Tickets | CriticalRiver Ticketing System
+2025-11-14 16:33:58 [main] INFO : Navigated to /approver-management
+2025-11-14 16:34:03 [main] INFO : Inside /approver-management Page 
+2025-11-14 16:34:03 [main] INFO : /approver-management Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-management
+2025-11-14 16:34:04 [main] INFO : Approver Management Page Title is Valid :Approver Management | CriticalRiver Ticketing System
+2025-11-14 16:34:13 [main] INFO : Navigated to /roles
+2025-11-14 16:34:18 [main] INFO : Inside /roles Page 
+2025-11-14 16:34:18 [main] INFO : /roles Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/roles
+2025-11-14 16:34:19 [main] INFO : Roles Management Page Title is Valid :Roles Management | CriticalRiver Ticketing System
+2025-11-14 16:34:28 [main] INFO : Navigated to /user/tickets
+2025-11-14 16:34:33 [main] INFO : Inside /user/tickets Page 
+2025-11-14 16:34:33 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 16:34:34 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 16:36:20 [main] INFO : Launching Chrome Browser
+2025-11-14 16:36:21 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-14 16:36:25 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-14 16:36:27 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-14 16:36:53 [main] INFO : Logged in to Intelli Serve Application
+2025-11-14 16:36:53 [main] INFO : Verify the Home and Profile Page test
+2025-11-14 16:36:54 [main] INFO : Verifying Side Bar Collapse Functionality
+2025-11-14 16:36:54 [main] INFO : Side Bar collapsed
+2025-11-14 16:36:54 [main] INFO : Verifying Side Bar Expand Functionality
+2025-11-14 16:36:55 [main] INFO : Side Bar expanded
+2025-11-14 16:36:56 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-11-14 16:36:56 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-11-14 16:37:00 [main] INFO : Navigated to Profile Page
+2025-11-14 16:37:00 [main] INFO : Header valid :Profile
+2025-11-14 16:37:01 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-11-14 16:37:01 [main] INFO : Department Name: Business Technology Group
+2025-11-14 16:37:02 [main] INFO : User Roles: BTG Approver
+2025-11-14 16:37:02 [main] INFO : User Roles: Admin
+2025-11-14 16:37:02 [main] INFO : User Roles: IT Member
+2025-11-14 16:37:02 [main] INFO : User Roles: IT Approver
+2025-11-14 16:37:03 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-11-14 16:37:03 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-11-14 16:37:03 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-11-14 16:37:03 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-11-14 16:37:03 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-11-14 16:37:04 [main] INFO : Version :Version 1.0.14
+2025-11-14 16:37:09 [main] INFO : Admin role Available
+2025-11-14 16:37:09 [main] INFO : Verify the Admin Role Pages
+2025-11-14 16:37:12 [main] INFO : Navigated to /admin
+2025-11-14 16:37:17 [main] INFO : Inside /admin Page 
+2025-11-14 16:37:17 [main] INFO : /admin Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/admin
+2025-11-14 16:37:18 [main] INFO : Ticketing Dashboard Page Title is Valid :Ticketing Dashboard | CriticalRiver Ticketing System
+2025-11-14 16:37:27 [main] INFO : Navigated to /tickets
+2025-11-14 16:37:32 [main] INFO : Inside /tickets Page 
+2025-11-14 16:37:32 [main] INFO : /tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/tickets
+2025-11-14 16:37:33 [main] INFO : All Tickets Page Title is Valid :All Tickets | CriticalRiver Ticketing System
+2025-11-14 16:37:42 [main] INFO : Navigated to /approver-management
+2025-11-14 16:37:47 [main] INFO : Inside /approver-management Page 
+2025-11-14 16:37:47 [main] INFO : /approver-management Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-management
+2025-11-14 16:37:48 [main] INFO : Approver Management Page Title is Valid :Approver Management | CriticalRiver Ticketing System
+2025-11-14 16:37:56 [main] INFO : Navigated to /roles
+2025-11-14 16:38:01 [main] INFO : Inside /roles Page 
+2025-11-14 16:38:01 [main] INFO : /roles Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/roles
+2025-11-14 16:38:03 [main] INFO : Roles Management Page Title is Valid :Roles Management | CriticalRiver Ticketing System
+2025-11-14 16:38:11 [main] INFO : Navigated to /user/tickets
+2025-11-14 16:38:16 [main] INFO : Inside /user/tickets Page 
+2025-11-14 16:38:16 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 16:38:18 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 16:38:31 [main] INFO : IT Approver role Available
+2025-11-14 16:38:32 [main] INFO : Verify the IT Approver Role Pages
+2025-11-14 16:38:34 [main] INFO : Navigated to /approver/dashboard
+2025-11-14 16:38:39 [main] INFO : Inside /approver/dashboard Page 
+2025-11-14 16:38:39 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-14 16:38:41 [main] INFO : Approver Dashboard Page Title is Valid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-14 16:38:49 [main] INFO : Navigated to /approver-tickets
+2025-11-14 16:38:54 [main] INFO : Inside /approver-tickets Page 
+2025-11-14 16:38:54 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-14 16:38:56 [main] INFO : Approver Worklist Page Title is Valid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-14 16:39:04 [main] INFO : Navigated to /user/tickets
+2025-11-14 16:39:09 [main] INFO : Inside /user/tickets Page 
+2025-11-14 16:39:09 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 16:39:11 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 16:39:24 [main] INFO : IT Member role Available
+2025-11-14 16:39:24 [main] INFO : Verify the IT Member Role Pages
+2025-11-14 16:39:27 [main] INFO : Navigated to /implementation-queue
+2025-11-14 16:39:32 [main] INFO : Inside /implementation-queue Page 
+2025-11-14 16:39:32 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-11-14 16:39:34 [main] INFO : Implementation Queue Page Title is Valid :Implementation Queue | CriticalRiver Ticketing System
+2025-11-14 16:39:42 [main] INFO : Navigated to /user/tickets
+2025-11-14 16:39:47 [main] INFO : Inside /user/tickets Page 
+2025-11-14 16:39:47 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 16:39:49 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 16:40:02 [main] INFO : BTG Approver role Available
+2025-11-14 16:40:02 [main] INFO : Verify the BTG Approver Role Pages
+2025-11-14 16:40:05 [main] INFO : Navigated to /approver/dashboard
+2025-11-14 16:40:10 [main] INFO : Inside /approver/dashboard Page 
+2025-11-14 16:40:10 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-14 16:40:12 [main] INFO : Approver Dashboard Page Title is Valid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-14 16:40:20 [main] INFO : Navigated to /approver-tickets
+2025-11-14 16:40:25 [main] INFO : Inside /approver-tickets Page 
+2025-11-14 16:40:25 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-14 16:40:27 [main] INFO : Approver Worklist Page Title is Valid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-14 16:40:35 [main] INFO : Navigated to /user/tickets
+2025-11-14 16:40:40 [main] INFO : Inside /user/tickets Page 
+2025-11-14 16:40:40 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-14 16:40:42 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-14 16:40:55 [main] INFO : BTG Member Role Not Available for logged User
+2025-11-14 16:41:00 [main] INFO : Verify the Signout
+2025-11-14 16:41:02 [main] INFO : SignOut From IntelliServe Page
+2025-11-14 16:41:12 [main] INFO : Logged out Successfully
+2025-11-14 16:41:18 [main] INFO : Testing Ended
+2025-11-14 16:41:18 [main] INFO : ***********

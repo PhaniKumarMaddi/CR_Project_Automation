@@ -18,6 +18,17 @@ public class IntelliServe_TestDataKeys {
 	public String rolesPage = "/roles";
 	public String implementationQueuePage = "/implementation-queue";
 
+	// Page title
+	public String myTicketTitle = "My Tickets";
+	public String approverDashboardTitle = "Approver Dashboard";
+	public String approverWorklistTitle = "Approver Worklist";
+	public String allTicketsTitle = "All Tickets";
+	public String adminDashboardTitle = "Ticketing Dashboard";
+	public String approverMgmtTitle = "Approver Management";
+	public String rolesTitle = "Roles Management";
+	public String implementationQueueTitle = "Implementation Queue";
+	
+	
 	// roles
 	public String admin_Role = "Admin";
 	public String itApprover_Role = "IT Approver";
