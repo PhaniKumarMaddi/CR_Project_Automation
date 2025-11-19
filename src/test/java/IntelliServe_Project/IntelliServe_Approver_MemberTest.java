@@ -146,19 +146,19 @@ public class IntelliServe_Approver_MemberTest extends IntelliServe_TestInitializ
 
 	public void approverWorklist_Filter_Test() throws Exception {
 
-//		grep.testCreate("Approver Worklist Page Status Filter Test", "Approver Worklist Page Status Filters");
-//		waitTime(driver);
-//		grep.infoTest("Approver Worklist Page Status Filter Test");
-//		logger.info("Approver Worklist Page Status Filter Test");
-//		waitTime(driver);
-//
-//		verifyWorklistSingleStatusFilter(dataKeys.pending_StatusFilter);
-//		verifyWorklistSingleStatusFilter(dataKeys.rejected_StatusFilter);
-//		verifyWorklistSingleStatusFilter(dataKeys.resolved_StatusFilter);
-//		verifyWorklistSingleStatusFilter(dataKeys.closed_StatusFilter);
-//		waitTime(driver);
-//		appr_member_Page.clickClearFilterBtn();
-//		waitTime(driver);
+		grep.testCreate("Approver Worklist Page Status Filter Test", "Approver Worklist Page Status Filters");
+		waitTime(driver);
+		grep.infoTest("Approver Worklist Page Status Filter Test");
+		logger.info("Approver Worklist Page Status Filter Test");
+		waitTime(driver);
+
+		verifyWorklistSingleStatusFilter(dataKeys.pending_StatusFilter);
+		verifyWorklistSingleStatusFilter(dataKeys.rejected_StatusFilter);
+		verifyWorklistSingleStatusFilter(dataKeys.resolved_StatusFilter);
+		verifyWorklistSingleStatusFilter(dataKeys.closed_StatusFilter);
+		waitTime(driver);
+		appr_member_Page.clickClearFilterBtn();
+		waitTime(driver);
 
 		grep.testCreate("Approver Worklist Page Priority Filter Test", "Approver Worklist Page Priority Filters");
 		waitTime(driver);
@@ -328,18 +328,18 @@ public class IntelliServe_Approver_MemberTest extends IntelliServe_TestInitializ
 
 	public void implementation_Queue_Filter_Test() throws Exception {
 
-//		grep.testCreate("Implementation Queue Page Status Filter Test", "Implementation Queue Page Status Filters");
-//		waitTime(driver);
-//		grep.infoTest("Implementation Queue Page Status Filter Test");
-//		logger.info("Implementation Queue Page Status Filter Test");
-//		waitTime(driver);
-//
-//		verifyImplementation_StatusFilter(dataKeys.resolved_StatusFilter);
-//		verifyImplementation_StatusFilter(dataKeys.pending_StatusFilter);
-//		verifyImplementation_StatusFilter(dataKeys.closed_StatusFilter);
-//		waitTime(driver);
-//		appr_member_Page.selectFilter(dataKeys.statusFilter, "All Statuses");
-//		waitTime(driver);
+		grep.testCreate("Implementation Queue Page Status Filter Test", "Implementation Queue Page Status Filters");
+		waitTime(driver);
+		grep.infoTest("Implementation Queue Page Status Filter Test");
+		logger.info("Implementation Queue Page Status Filter Test");
+		waitTime(driver);
+
+		verifyImplementation_StatusFilter(dataKeys.resolved_StatusFilter);
+		verifyImplementation_StatusFilter(dataKeys.pending_StatusFilter);
+		verifyImplementation_StatusFilter(dataKeys.closed_StatusFilter);
+		waitTime(driver);
+		appr_member_Page.selectFilter(dataKeys.statusFilter, "All Statuses");
+		waitTime(driver);
 
 		grep.testCreate("Implementation Queue Page Priority Filter Test", "Implementation Queue Page Priority Filters");
 		waitTime(driver);
