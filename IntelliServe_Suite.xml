@@ -5,7 +5,7 @@
 		<parameter name="FileName" value="IntelliServePage_Report.html" />
 		<classes>
 			<class name="IntelliServe_Project.IntelliServe_Page_UI_Test" />
-			<class name="IntelliServe_Project.IntelliServe_Approver_MemeberTest" />
+			<class name="IntelliServe_Project.IntelliServe_Approver_MemberTest" />
 		</classes>
 	</test> 
 </suite>

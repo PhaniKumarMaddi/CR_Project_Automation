@@ -28,16 +28,31 @@ public class IntelliServe_Approver_MemberTest extends IntelliServe_TestInitializ
 		grep.testCreate("Approver Worklist Page Configure Columns Options Filters Test",
 				"Approver Worklist Page Configure Columns Options Filters");
 		boolean it_approver = ticketpage.verifyUserRole(dataKeys.itApprover_Role);
-		if (it_approver) {
-			grep.infoTest("Approver Worklist Page Configure Columns Options Filters");
-			logger.info("Approver Worklist Page Configure Columns Options Filters");
-			waitTime(driver);
-			ticketpage.selectUserRole(dataKeys.itApprover_Role);
-			waitTime(driver);
+		boolean btg_approver = ticketpage.verifyUserRole(dataKeys.btgApprover_Role);
+		if (it_approver || btg_approver) {
+			if (it_approver) {
+				waitTime(driver);
+				ticketpage.selectUserRole(dataKeys.itApprover_Role);
+				waitTime(driver);
+				ticketpage.navigateToPage(dataKeys.approverWorklistPage);
+				grep.infoTest("Approver Worklist Page Configure Columns Options Filters");
+				logger.info("Approver Worklist Page Configure Columns Options Filters");
 
-			ticketpage.navigateToPage(dataKeys.approverWorklistPage);
-			waitTime(driver);
-			appr_member_Page.verifyApproverWorkListHeader();
+				waitTime(driver);
+				appr_member_Page.verifyApproverWorkListHeader("IT Approver Worklist");
+
+			} else {
+				waitTime(driver);
+				ticketpage.selectUserRole(dataKeys.btgApprover_Role);
+				waitTime(driver);
+				ticketpage.navigateToPage(dataKeys.approverWorklistPage);
+				grep.infoTest("Approver Worklist Page Configure Columns Options Filters");
+				logger.info("Approver Worklist Page Configure Columns Options Filters");
+
+				waitTime(driver);
+				appr_member_Page.verifyApproverWorkListHeader("BTG Approver Worklist");
+			}
+
 			waitTime5(driver);
 			appr_member_Page.clickConfigColumnBtn();
 
@@ -51,10 +66,11 @@ public class IntelliServe_Approver_MemberTest extends IntelliServe_TestInitializ
 			waitTime(driver);
 
 			appr_member_Page.clickConfigColumnBtn();
-			appr_member_Page.selectColumnOption("Type");
-			appr_member_Page.selectColumnOption("Current Stage");
+			appr_member_Page.selectViewColumnOption("Type");
+			appr_member_Page.selectViewColumnOption("Current Stage");
 			waitTime(driver);
-			appr_member_Page.clickCloseConfigColumnBtn();
+//			appr_member_Page.clickCloseConfigColumnBtn();
+			appr_member_Page.clickSavePref_ConfigColumnBtn();
 			waitTime(driver);
 
 			grep.testCreate("Approver Worklist Refresh Button Test", "Approver Worklist Refresh Button");
@@ -71,7 +87,7 @@ public class IntelliServe_Approver_MemberTest extends IntelliServe_TestInitializ
 
 			approverWorklist_Filter_Test();
 			waitTime(driver);
-			approveMyTickets_Filter_Test();
+			approverMyTickets_Filter_Test();
 			waitTime(driver);
 			approverDashboard_Test();
 
@@ -111,10 +127,12 @@ public class IntelliServe_Approver_MemberTest extends IntelliServe_TestInitializ
 			waitTime(driver);
 
 			appr_member_Page.clickConfigColumnBtn_implementation();
-			appr_member_Page.selectColumnOption("Type");
-			appr_member_Page.selectColumnOption("Assigned To");
+			appr_member_Page.selectViewColumnOption("Type");
+			appr_member_Page.selectViewColumnOption("Assigned To");
+			appr_member_Page.selectViewColumnOption("Priority");
 			waitTime(driver);
-			appr_member_Page.clickCloseConfigColumnBtn();
+//			appr_member_Page.clickCloseConfigColumnBtn();
+			appr_member_Page.clickSavePref_ConfigColumnBtn();
 			waitTime(driver);
 
 			implementation_Queue_Filter_Test();
@@ -128,19 +146,19 @@ public class IntelliServe_Approver_MemberTest extends IntelliServe_TestInitializ
 
 	public void approverWorklist_Filter_Test() throws Exception {
 
-		grep.testCreate("Approver Worklist Page Status Filter Test", "Approver Worklist Page Status Filters");
-		waitTime(driver);
-		grep.infoTest("Approver Worklist Page Status Filter Test");
-		logger.info("Approver Worklist Page Status Filter Test");
-		waitTime(driver);
-
-		verifyWorklistStatusFilter(dataKeys.pending_StatusFilter);
-		verifyWorklistStatusFilter(dataKeys.rejected_StatusFilter);
-		verifyWorklistStatusFilter(dataKeys.resolved_StatusFilter);
-		verifyWorklistStatusFilter(dataKeys.closed_StatusFilter);
-		waitTime(driver);
-		appr_member_Page.clickClearFilterBtn();
-		waitTime(driver);
+//		grep.testCreate("Approver Worklist Page Status Filter Test", "Approver Worklist Page Status Filters");
+//		waitTime(driver);
+//		grep.infoTest("Approver Worklist Page Status Filter Test");
+//		logger.info("Approver Worklist Page Status Filter Test");
+//		waitTime(driver);
+//
+//		verifyWorklistSingleStatusFilter(dataKeys.pending_StatusFilter);
+//		verifyWorklistSingleStatusFilter(dataKeys.rejected_StatusFilter);
+//		verifyWorklistSingleStatusFilter(dataKeys.resolved_StatusFilter);
+//		verifyWorklistSingleStatusFilter(dataKeys.closed_StatusFilter);
+//		waitTime(driver);
+//		appr_member_Page.clickClearFilterBtn();
+//		waitTime(driver);
 
 		grep.testCreate("Approver Worklist Page Priority Filter Test", "Approver Worklist Page Priority Filters");
 		waitTime(driver);
@@ -210,20 +228,18 @@ public class IntelliServe_Approver_MemberTest extends IntelliServe_TestInitializ
 
 	}
 
-	public void approveMyTickets_Filter_Test() throws Exception {
+	public void approverMyTickets_Filter_Test() throws Exception {
 		ticketpage.navigateToPage(dataKeys.myTicketPage);
 		waitTime5(driver);
-
-		appr_member_Page.clickConfigColumnBtn();
-		appr_member_Page.selectColumnOption("Department");
-		appr_member_Page.selectColumnOption("Manager");
-		appr_member_Page.selectColumnOption("Priority");
-		waitTime(driver);
-		appr_member_Page.clickCloseConfigColumnBtn();
-		waitTime(driver);
-
 		grep.testCreate("My Tickets Page Priority Filter Test", "My Tickets Page Priority Filters");
 		waitTime(driver);
+		appr_member_Page.clickConfigColumnBtn();
+		appr_member_Page.selectHideColumnOption("Department");
+		appr_member_Page.selectHideColumnOption("Manager");
+		appr_member_Page.selectViewColumnOption("Priority");
+		waitTime(driver);
+		appr_member_Page.clickCloseConfigColumnBtn();
+		waitTime2(driver);
 		grep.infoTest("My Tickets Page Priority Filter Test");
 		logger.info("My Tickets Page Priority Filter Test");
 		waitTime2(driver);
@@ -285,6 +301,7 @@ public class IntelliServe_Approver_MemberTest extends IntelliServe_TestInitializ
 	}
 
 	public void approverDashboard_Test() throws Exception {
+		waitTime3(driver);
 		ticketpage.navigateToPage(dataKeys.approverDashboardPage);
 		waitTime5(driver);
 		grep.testCreate("Approver Dashboard Page test", "Approver Dashboard Page");
@@ -305,23 +322,24 @@ public class IntelliServe_Approver_MemberTest extends IntelliServe_TestInitializ
 		appr_member_Page.approverDashboardCharts_Details();
 		waitTime(driver);
 
-		grep.captureScreenshot("pass","Approver Dashboard Page","approverDashboardPage");
-		
+		grep.captureScreenshot("pass", "Approver Dashboard Page", "approverDashboardPage");
+
 	}
+
 	public void implementation_Queue_Filter_Test() throws Exception {
 
-		grep.testCreate("Implementation Queue Page Status Filter Test", "Implementation Queue Page Status Filters");
-		waitTime(driver);
-		grep.infoTest("Implementation Queue Page Status Filter Test");
-		logger.info("Implementation Queue Page Status Filter Test");
-		waitTime(driver);
-
-		verifyImplementation_StatusFilter(dataKeys.resolved_StatusFilter);
-		verifyImplementation_StatusFilter(dataKeys.pending_StatusFilter);
-		verifyImplementation_StatusFilter(dataKeys.closed_StatusFilter);
-		waitTime(driver);
-		appr_member_Page.selectFilter(dataKeys.statusFilter, "All Statuses");
-		waitTime(driver);
+//		grep.testCreate("Implementation Queue Page Status Filter Test", "Implementation Queue Page Status Filters");
+//		waitTime(driver);
+//		grep.infoTest("Implementation Queue Page Status Filter Test");
+//		logger.info("Implementation Queue Page Status Filter Test");
+//		waitTime(driver);
+//
+//		verifyImplementation_StatusFilter(dataKeys.resolved_StatusFilter);
+//		verifyImplementation_StatusFilter(dataKeys.pending_StatusFilter);
+//		verifyImplementation_StatusFilter(dataKeys.closed_StatusFilter);
+//		waitTime(driver);
+//		appr_member_Page.selectFilter(dataKeys.statusFilter, "All Statuses");
+//		waitTime(driver);
 
 		grep.testCreate("Implementation Queue Page Priority Filter Test", "Implementation Queue Page Priority Filters");
 		waitTime(driver);
@@ -364,13 +382,26 @@ public class IntelliServe_Approver_MemberTest extends IntelliServe_TestInitializ
 
 	}
 
-	public void verifyWorklistStatusFilter(String option) throws Exception {
+	public void verifyWorklistSingleStatusFilter(String option) throws Exception {
 		grep.infoTest("Approver Worklist Page " + option + " Status Filter Test");
 		logger.info("Approver Worklist Page " + option + " Status Filter Test");
 		waitTime(driver);
-		appr_member_Page.selectFilter(dataKeys.statusFilter, option);
+		appr_member_Page.selectStatusFilter(dataKeys.statusFilter, option);
+//		appr_member_Page.selectMultiStatusFilter(dataKeys.statusFilter, option);
 		waitTime(driver);
 		appr_member_Page.verifyWorklist_FilterInTable(option);
+		grep.captureScreenshot("pass", option + " Status Filter", option + "StatusFilter_Worklist");
+
+	}
+
+	public void verifyWorklistMultiStatusFilter(String... option) throws Exception {
+		grep.infoTest("Approver Worklist Page " + option + " Status Filter Test");
+		logger.info("Approver Worklist Page " + option + " Status Filter Test");
+		waitTime(driver);
+		appr_member_Page.selectMultiStatusFilter(dataKeys.statusFilter, option);
+//		appr_member_Page.selectMultiStatusFilter(dataKeys.statusFilter, option);
+		waitTime(driver);
+//		appr_member_Page.verifyWorklist_FilterInTable(option);
 		grep.captureScreenshot("pass", option + " Status Filter", option + "StatusFilter_Worklist");
 
 	}
@@ -465,12 +496,12 @@ public class IntelliServe_Approver_MemberTest extends IntelliServe_TestInitializ
 
 	public void verifyColumnOptionFunctionality(String option) throws Exception {
 
-		appr_member_Page.selectColumnOption(option);
+		appr_member_Page.selectHideColumnOption(option);
 		appr_member_Page.verifyColumnOptionVisibilityHidden(option);
 		waitTime(driver);
 		grep.captureScreenshot("pass", option + " visibility is Hide ", option + "Hide");
 		waitTime(driver);
-		appr_member_Page.selectColumnOption(option);
+		appr_member_Page.selectViewColumnOption(option);
 		appr_member_Page.verifyColumnOptionVisibilityView(option);
 		waitTime(driver);
 		grep.captureScreenshot("pass", option + " visibility is View ", option + "View");

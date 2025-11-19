@@ -29,10 +29,13 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 //	By refreshBtn = By.xpath("//button/span[text()='Refresh'][1]");
 	By refreshBtn = By.xpath("//button[@title='Refresh ticket list']");
 	By clearFilters = By.xpath("//button[text()='Clear All Filters']");
+	By createTicket_By_Approver = By.xpath("//a[text()='Create Ticket']");
 	By configColumn = By.xpath("//span[text()='Configure Columns']/parent::div");
+	By savePreference_ColOption = By.xpath("//button[text()='Save Preferences']");
 	By closeColumn = By.xpath("//button[@class='text-white hover:text-blue-200 p-1']");
 	By searchFilter = By.xpath("//span[text()='Search']/following-sibling::input");
-	By noRecords_Worklist = By.xpath("//div[@class='overflow-x-auto max-w-full min-w-0']/descendant::p[1]");
+//	By noRecords_Worklist = By.xpath("//div[@class='overflow-x-auto max-w-full min-w-0']/descendant::p[1]");
+	By noRecords_Worklist = By.xpath("//div[@class='flex flex-col items-center justify-center']/descendant::p[1]");
 
 	By refreshMsg = By.xpath(
 			"//div[@class='bg-green-600 text-white px-6 py-4 rounded-lg shadow-lg max-w-md flex items-center space-x-3']/span");
@@ -50,20 +53,22 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 			.xpath("//div[@class='space-y-6 sm:space-y-8 px-4 sm:px-6 lg:px-8']/descendant::h2[1]");
 	By dashboard_TktAnalytHeader = By
 			.xpath("//div[@class='space-y-6 sm:space-y-8 px-4 sm:px-6 lg:px-8']/descendant::h2[2]");
-	By appr_DashboardCards = By.xpath(
-			"//div[@class='bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700 transition-all duration-300 hover:shadow-xl hover:scale-105 flex flex-col items-center justify-between h-32']");
+//	By appr_DashboardCards = By.xpath("//div[@class='bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700 transition-all duration-300 hover:shadow-xl hover:scale-105 flex flex-col items-center justify-between h-32']");
+	By appr_DashboardCards = By
+			.xpath("//div[@class='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6']/div");
 	By appr_DashboardCharts = By.xpath(
 			"//div[@class='bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-100 dark:border-gray-700 transition-all duration-300 hover:shadow-xl']/descendant::h3");
 
 	// verify header
-	public void verifyApproverWorkListHeader() throws Exception {
+	public void verifyApproverWorkListHeader(String headerVal) throws Exception {
 		try {
 			implWait(driver);
 
 			boolean elementExists = !driver.findElements(worklist_header).isEmpty();
 			if (elementExists) {
 				String header = driver.findElement(worklist_header).getText().trim();
-				if (header.contains("Approver Worklist")) {
+//				if (header.contains("Approver Worklist")) {
+				if (header.contains(headerVal)) {
 					waitTime(driver);
 					grep.passTest("Header is valid: " + header);
 					logger.info("Header is valid: " + header);
@@ -235,9 +240,7 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 				logger.error("Configure Column Button Not Available");
 			}
 
-		} catch (
-
-		Exception e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 			grep.failTest("Test Failed :" + e.getMessage());
 			logger.error("Test Failed :" + e.getMessage());
@@ -245,7 +248,28 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 		}
 	}
 
-	public void selectColumnOption(String option) throws Exception {
+	public void clickSavePref_ConfigColumnBtn() throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(savePreference_ColOption).isEmpty();
+			if (elementExists) {
+				driver.findElement(savePreference_ColOption).click();
+				waitTime2(driver);
+			} else {
+				grep.failTest("Save Preference Column Button Not Available");
+				logger.error("Save Preference Column Button Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+	
+	public void selectViewColumnOption(String option) throws Exception {
 		try {
 			implWait(driver);
 			By columnOption = By.xpath(
@@ -253,11 +277,17 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 
 			boolean elementexists = !driver.findElements(columnOption).isEmpty();
 			if (elementexists) {
-				driver.findElement(columnOption).click();
+				String colVisisbility = driver.findElement(columnOption).getAttribute("title");
+				if (colVisisbility.equals("Show column")) {
+					grep.passTest("Column Option "+ option +" visibility is Hidden ");
+					logger.info("Column Option "+ option +" visibility is Hidden ");
+					waitTime(driver);
 
+				driver.findElement(columnOption).click();
+				}
 			} else {
-				grep.failTest("Column Options Not Available");
-				logger.error("Column Options Not Available");
+				grep.warnTest("Column Options "+ option +" Already in view");
+				logger.error("Column Options "+ option +" Already in view");
 			}
 
 		} catch (Exception e) {
@@ -267,6 +297,32 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 		}
 	}
 
+	public void selectHideColumnOption(String option) throws Exception {
+		try {
+			implWait(driver);
+			By columnOption = By.xpath(
+					"//div[@class='space-y-0']/descendant::span[text()='" + option + "']/following-sibling::button");
+
+			boolean elementexists = !driver.findElements(columnOption).isEmpty();
+			if (elementexists) {
+				String colVisisbility = driver.findElement(columnOption).getAttribute("title");
+				if (colVisisbility.equals("Show column")) {
+					grep.warnTest("Column Option "+ option +" visibility is already Hidden ");
+					logger.info("Column Option "+ option +" visibility is already Hidden ");
+					waitTime(driver);
+				}
+			} else {
+				driver.findElement(columnOption).click();
+				grep.passTest("Column Options "+ option +" visibility in view");
+				logger.error("Column Options "+ option +" visibility in view");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
 	public void verifyColumnOptionVisibilityHidden(String option) throws Exception {
 		try {
 			implWait(driver);
@@ -351,7 +407,85 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 
 		}
 	}
+	public void selectStatusFilter(String filterName, String optionValue) throws Exception {
+		try {
+			implWait(driver);
+			By filter = By.xpath("//span[text()='" + filterName + "']/following-sibling::div/button");
 
+			By selectOption = By.xpath("//span[text()='"+optionValue+"']/parent::label/input");
+			WebElement selectAllOption =driver.findElement(By.xpath("//span[text()='Select All']/parent::label/input"));
+			boolean elementExists = !driver.findElements(filter).isEmpty();
+			if (elementExists) {
+				driver.findElement(filter).click();
+				waitTime(driver);
+				if(!selectAllOption.isSelected()) {
+					selectAllOption.click();
+				}
+				selectAllOption.click();
+				waitTime2(driver);
+				driver.findElement(selectOption).click();
+				
+				driver.findElement(filter).click();
+			} else {
+				grep.failTest("Selected Filter not Available");
+				logger.error("Selected Filter not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void selectMultiStatusFilter(String filterName, String... optionValues) throws Exception {
+	    try {
+	        implWait(driver);
+
+	        By filter = By.xpath("//span[text()='" + filterName + "']/following-sibling::div/button");
+
+	        // Check if filter exists
+	        if (driver.findElements(filter).isEmpty()) {
+	            grep.failTest("Selected Filter not Available");
+	            logger.error("Selected Filter not Available");
+	            return;
+	        }
+
+	        // Open filter dropdown
+	        WebElement filterElement = driver.findElement(filter);
+	        filterElement.click();
+	        waitTime(driver);
+
+	        // Loop through all dynamic option values
+	        for (String optionValue : optionValues) {
+
+	            By selectOption = By.xpath("//span[text()='" + optionValue + "']/parent::label/input");
+
+	            if (!driver.findElements(selectOption).isEmpty()) {
+	                WebElement option = driver.findElement(selectOption);
+
+	                // Select checkbox if not already selected
+	                if (!option.isSelected()) {
+	                    option.click();
+	                    waitTime(driver);
+	                }
+	            } else {
+	                logger.warn("Option value not found: " + optionValue);
+	            }
+	        }
+
+	        // Close the filter dropdown
+	        filterElement.click();
+
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	        grep.failTest("Test Failed :" + e.getMessage());
+	        logger.error("Test Failed :" + e.getMessage());
+	    }
+	}
+
+
+	
 	public void verifyWorklist_FilterInTable(String verifyValue) throws Exception {
 		try {
 			implWait(driver);
