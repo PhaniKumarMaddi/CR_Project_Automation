@@ -698,9 +698,13 @@ public class L_And_D_Page extends WaitsManager {
 			waitForElement(enrollMessage, 90);
 
 			String message = driver.findElement(enrollMessage).getText();
+			if(message.equals("Successfully enrolled in the course")|| message.equals("Already enrolled in the course")) {
 			grep.passTest("Course Enrollment message: " + message);
 			logger.info("Course Enrollment message: " + message);
-
+			}else {
+				grep.failTest("Course Enrollment Failed message: " + message);
+				logger.error("Course Enrollment Failed message: " + message);
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 			grep.failTest("Test Failed :" + e.getMessage());
