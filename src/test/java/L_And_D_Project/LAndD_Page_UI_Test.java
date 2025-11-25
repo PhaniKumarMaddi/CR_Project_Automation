@@ -30,8 +30,16 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 		logger.info("Learning and Development Page navigation Test");
 
 		grep.infoTest("Navigating To My Courses Page");
-		navigateToAllPages(dataKeys.myCoursesPageUrl);
-
+//		navigateToAllPages(dataKeys.myCoursesPageUrl);
+		waitTime(driver);
+		lndPage.navigateToPage(dataKeys.myCoursesPageLink);
+		waitTime5(driver);
+		logger.info("Inside " + dataKeys.myCoursesPageLink + " Page ");
+		grep.infoTest("Inside " + dataKeys.myCoursesPageLink + " Page ");
+		validateUrl(dataKeys.myCoursesPageUrl);
+		waitTime(driver);
+		
+		
 		grep.infoTest("Navigating To Departments Page");
 		navigateToAllPages(dataKeys.depatmentsPageUrl);
 
@@ -188,7 +196,7 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 
 		grep.captureScreenshot("pass", "Footer for L and D", "LnD_Footer");
 		waitTime(driver);
-		lndPage.footerURLs(dataKeys.myCoursesPageUrl);
+		lndPage.footerURLs(dataKeys.myCoursesPageLink);
 		verifyFooterUrl(dataKeys.myCoursesPageUrl);
 		waitTime3(driver);
 

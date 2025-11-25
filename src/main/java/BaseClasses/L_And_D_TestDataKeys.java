@@ -7,7 +7,9 @@ public class L_And_D_TestDataKeys {
 
 	// Url val
 	public String homePageUrl = "/Home";
-	public String myCoursesPageUrl = "/my-courses";
+	public String myCoursesPageLink = "/my-courses";
+	public String myCoursesPageUrl = "/my-courses/mycourses";
+	public String myLearningPathPageUrl = "/my-courses/mylearningpath";
 	public String depatmentsPageUrl = "/departments";
 	public String certificatesPageUrl = "/certificates";
 	public String adminPageUrl = "/admin";
