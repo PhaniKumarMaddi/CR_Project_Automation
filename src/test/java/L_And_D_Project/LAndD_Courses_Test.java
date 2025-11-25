@@ -78,13 +78,23 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 
 		lndCoursePage.myCoursesHeader();
 
-		lndCoursePage.clickTabInMyCourses(dataKeys.inProgressTab);
+		lndCoursePage.clickCourses_Learning_TabsInMyCourses(dataKeys.myLearningPathPageUrl);
+		waitTime2(driver);
+		lndCoursePage.myLearningPathHeader();
+		waitTime(driver);
+		grep.captureScreenshot("pass", "My Courses My Learning Path tab", "myCourses_MyLearningPathTab");
+		waitTime2(driver);
+		lndCoursePage.clickCourses_Learning_TabsInMyCourses(dataKeys.myCoursesPageUrl);
+		waitTime2(driver);
+		grep.captureScreenshot("pass", "My Courses In Progress tab", "myCoursesPage_CoursesTab");
+		waitTime2(driver);
+		lndCoursePage.clickTabsInMyCourses(dataKeys.inProgressTab);
 		grep.captureScreenshot("pass", "My Courses In Progress tab", "myCourses_InProgressTab");
 		waitTime(driver);
-		lndCoursePage.clickTabInMyCourses(dataKeys.completeTab);
+		lndCoursePage.clickTabsInMyCourses(dataKeys.completeTab);
 		grep.captureScreenshot("pass", "My Courses Completed tab", "myCourses_CompletedTab");
 		waitTime(driver);
-		lndCoursePage.clickTabInMyCourses(dataKeys.allCourseTab);
+		lndCoursePage.clickTabsInMyCourses(dataKeys.allCourseTab);
 		grep.captureScreenshot("pass", "My Courses All Courses tab", "myCourses_AllCoursesTab");
 		waitTime5(driver);
 
@@ -155,8 +165,8 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 			waitTime(driver);
 
 			// user management table
-			grep.infoTest("Search Functionality for " + dataKeys.userMgmtTable_dashboard + " table");
-			logger.info("Search Functionality for " + dataKeys.userMgmtTable_dashboard + " table");
+			grep.infoTest("Search Functionality for " + dataKeys.userCertiTable_dashboard + " table");
+			logger.info("Search Functionality for " + dataKeys.userCertiTable_dashboard + " table");
 
 			lndOther.searchDashboardTable(dataKeys.userCertiTable_dashboard, dataKeys.email_column_Dashboard,
 					dataKeys.ssoUserName);
@@ -204,7 +214,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 			grep.captureScreenshot("pass", "Verify Total Users in course statistics table ",
 					"totalUsers_CourseStst_Dashboad");
 			waitTime(driver);
-			lndOther.verifyDataInTable(dataKeys.userCertiTable_dashboard, dataKeys.airflowBeginnerCourse);
+			lndOther.verifyDataInTable(dataKeys.courseStctTable_dashboard, dataKeys.airflowBeginnerCourse);
 			waitTime(driver);
 			grep.captureScreenshot("pass", "Verify Users for course table", "usersForCourseTable");
 			waitTime(driver);
@@ -226,7 +236,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 			grep.captureScreenshot("pass", "Verify Certificate List Users in course statistics table ",
 					"certificates_CourseStst_Dashboad");
 			waitTime(driver);
-			lndOther.verifyDataInTable(dataKeys.userCertiTable_dashboard, dataKeys.airflowBeginnerCourse);
+			lndOther.verifyDataInTable(dataKeys.courseStctTable_dashboard, dataKeys.airflowBeginnerCourse);
 			waitTime(driver);
 			grep.captureScreenshot("pass", "Verify Certificate List for course table", "CertificateListForCourseTable");
 			waitTime(driver);
@@ -296,7 +306,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 //					dataKeys.userId_col_Value);
 			lndOther.searchTestsTable(dataKeys.ass_request_notify_table_Test, dataKeys.user_Email_column_Test,
 					dataKeys.ssoUserName);
-			
+
 			grep.captureScreenshot("pass", "Search in Assessment Request table", "searchIn_AssmntRqstTable_Test");
 
 			waitTime3(driver);
@@ -460,7 +470,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		waitTime(driver);
 		lndOther.fillFeedbackForm(dataKeys.feedbackMsg, dataKeys.feedbackCtg);
 		waitTime(driver);
-		grep.captureScreenshot("pass", "Feed back Form Submitted", "feedback_Submitted");
+		grep.captureScreenshot("pass", "Feedback Form Submitted", "feedback_Submitted");
 
 		waitTime(driver);
 //		lndPage.navigateToPage(dataKeys.adminPageUrl);
@@ -542,7 +552,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		lndCoursePage.getVideoListCount();
 		waitTime(driver);
 
-		lndPage.navigateToPage(dataKeys.myCoursesPageUrl);
+		lndPage.navigateToPage(dataKeys.myCoursesPageLink);
 		waitTime(driver);
 		lndCoursePage.getProgressPercent(courseName);
 		waitTime(driver);
@@ -574,7 +584,7 @@ public class LAndD_Courses_Test extends L_And_D_TestInitializer {
 		lndPage.courseEnrolledMessage();
 		waitTime5(driver);
 
-		lndPage.navigateToPage(dataKeys.myCoursesPageUrl);
+		lndPage.navigateToPage(dataKeys.myCoursesPageLink);
 		waitTime3(driver);
 		lndCoursePage.myCoursePagination("30");
 		waitTime(driver);

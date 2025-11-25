@@ -18,6 +18,7 @@ public class L_And_D_TestDataKeys {
 	public String testsTabUrl = "/admin/tests";
 	public String rolesTabUrl = "/admin/roles";
 	public String courseVideoUrl = "/course-videos";
+	public String manageLearningPathUrl= "/manage-learning-paths";
 
 	public String login_Url = "/login";
 	

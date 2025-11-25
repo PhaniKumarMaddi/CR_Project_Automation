@@ -281,7 +281,6 @@ public class L_And_D_OtherPages extends WaitsManager {
 
 			boolean elementExist = !driver.findElements(adminCardsClick).isEmpty();
 			if (elementExist) {
-				
 
 				driver.findElement(adminCardsClick).click();
 
@@ -302,7 +301,9 @@ public class L_And_D_OtherPages extends WaitsManager {
 		try {
 			implWait(driver);
 //			By getTableData = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table[@class='course-table']/tbody/tr");
-			By getTableData = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table[@class='ad-course-table']/tbody/tr");
+//			By getTableData = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table[@class='ad-course-table']/tbody/tr");
+			By getTableData = By.xpath(
+					"//h2[text()='" + tableName + "']/following-sibling::div[@class='ad-table-scroll']/table/tbody/tr");
 			List<WebElement> table = driver.findElements(getTableData);
 			if (table.size() > 0) {
 				for (WebElement getDetails : table) {
@@ -328,8 +329,9 @@ public class L_And_D_OtherPages extends WaitsManager {
 		try {
 			implWait(driver);
 //			By getTableData = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table[@class='course-table']/tbody/tr/td[4]");
-			By getTableData = By.xpath(
-					"//h2[text()='" + tableName + "']/following-sibling::table[@class='ad-course-table']/tbody/tr/td[4]");
+//			By getTableData = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table[@class='ad-course-table']/tbody/tr/td[4]");
+			By getTableData = By.xpath("//h2[text()='" + tableName
+					+ "']/following-sibling::div[@class='ad-table-scroll']/table/tbody/tr/td[4]");
 			List<WebElement> table = driver.findElements(getTableData);
 			if (table.size() > 0) {
 				table.getFirst().click();
@@ -460,7 +462,10 @@ public class L_And_D_OtherPages extends WaitsManager {
 		try {
 			implWait(driver);
 
-			By message = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table/descendant::td");
+//			By message = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table/descendant::td");
+			By message = By.xpath(
+					"//h2[text()='" + tableName + "']/following-sibling::div[@class='ad-table-scroll']/descendant::td");
+
 			boolean elementExist = !driver.findElements(message).isEmpty();
 			if (elementExist) {
 				waitTime(driver);
@@ -486,7 +491,9 @@ public class L_And_D_OtherPages extends WaitsManager {
 	public void verifyDataInTable(String tableName, String verifyValue) throws Exception {
 		try {
 			implWait(driver);
-			By searchBy = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table/tbody/tr");
+//			By searchBy = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table/tbody/tr");
+			By searchBy = By.xpath(
+					"//h2[text()='" + tableName + "']/following-sibling::div[@class='ad-table-scroll']/table/tbody/tr");
 
 			List<WebElement> table = driver.findElements(searchBy);
 			if (table.size() > 0) {
@@ -503,9 +510,12 @@ public class L_And_D_OtherPages extends WaitsManager {
 					grep.passTest("✅ Search validation passed. All Values match: " + verifyValue);
 					logger.info("✅ Search validation passed. All Values match: " + verifyValue);
 				} else {
-					System.out.println("❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
-					grep.warnTest("❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
-					logger.error("❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
+					System.out.println(
+							"❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
+					grep.warnTest(
+							"❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
+					logger.error(
+							"❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
 				}
 
 			} else {
@@ -525,7 +535,9 @@ public class L_And_D_OtherPages extends WaitsManager {
 	public void clickTotalUsersInDashboard(String tableName) throws Exception {
 		try {
 			implWait(driver);
-			By getTableData = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table/tbody/tr/td[3]");
+//			By getTableData = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table/tbody/tr/td[3]");
+			By getTableData = By.xpath("//h2[text()='" + tableName
+					+ "']/following-sibling::div[@class='ad-table-scroll']/descendant::td[3]");
 			List<WebElement> table = driver.findElements(getTableData);
 			if (table.size() > 0) {
 				table.getFirst().click();
@@ -547,7 +559,9 @@ public class L_And_D_OtherPages extends WaitsManager {
 	public void validateTotalUsersInDashboard(String tableName) throws Exception {
 		try {
 			implWait(driver);
-			By getTableData = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table/tbody/tr/td[3]");
+//			By getTableData = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table/tbody/tr/td[3]");
+			By getTableData = By.xpath("//h2[text()='" + tableName
+					+ "']/following-sibling::div[@class='ad-table-scroll']/descendant::td[3]");
 			By certificateTableData = By.xpath(
 					"//h2[text()='Certificates']/following-sibling::div/descendant::span[@class='pagination-info']");
 			List<WebElement> table = driver.findElements(getTableData);
@@ -583,7 +597,9 @@ public class L_And_D_OtherPages extends WaitsManager {
 	public void validateCertificatesInDashboard(String tableName) throws Exception {
 		try {
 			implWait(driver);
-			By getTableData = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table/tbody/tr/td[5]");
+//			By getTableData = By.xpath("//h2[text()='" + tableName + "']/following-sibling::table/tbody/tr/td[5]");
+			By getTableData = By.xpath("//h2[text()='" + tableName
+					+ "']/following-sibling::div[@class='ad-table-scroll']/descendant::td[5]");
 			By certificateTableData = By.xpath(
 					"//h2[text()='Certificates']/following-sibling::div/descendant::span[@class='pagination-info']");
 			List<WebElement> table = driver.findElements(getTableData);
@@ -742,9 +758,12 @@ public class L_And_D_OtherPages extends WaitsManager {
 					grep.passTest("✅ Search validation passed. All Values match: " + verifyValue);
 					logger.info("✅ Search validation passed. All Values match: " + verifyValue);
 				} else {
-					System.out.println("❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
-					grep.warnTest("❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
-					logger.error("❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
+					System.out.println(
+							"❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
+					grep.warnTest(
+							"❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
+					logger.error(
+							"❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
 				}
 
 			} else {
@@ -813,7 +832,9 @@ public class L_And_D_OtherPages extends WaitsManager {
 	public void verifyDataInRolesTable(String tableName, String verifyValue) throws Exception {
 		try {
 			implWait(driver);
-			By searchBy = By.xpath("//h1[text()='" + tableName + "']/following-sibling::table/tbody/tr");
+//			By searchBy = By.xpath("//h1[text()='" + tableName + "']/following-sibling::table/tbody/tr");
+			By searchBy = By.xpath("//h1[text()='" + tableName
+					+ "']/following-sibling::div[@class='user-table-scroll']/table/tbody/tr");
 
 			List<WebElement> table = driver.findElements(searchBy);
 			if (table.size() > 0) {
@@ -830,9 +851,12 @@ public class L_And_D_OtherPages extends WaitsManager {
 					grep.passTest("✅ Search validation passed. All Values match: " + verifyValue);
 					logger.info("✅ Search validation passed. All Values match: " + verifyValue);
 				} else {
-					System.out.println("❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
-					grep.failTest("❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
-					logger.error("❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
+					System.out.println(
+							"❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
+					grep.failTest(
+							"❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
+					logger.error(
+							"❌ Search validation failed. Mismatched Value found or no users enrolled: " + verifyValue);
 				}
 
 			} else {
@@ -881,7 +905,9 @@ public class L_And_D_OtherPages extends WaitsManager {
 		try {
 			implWait(driver);
 
-			By message = By.xpath("//h1[text()='" + tableName + "']/following-sibling::table/descendant::td");
+//			By message = By.xpath("//h1[text()='" + tableName + "']/following-sibling::table/descendant::td");
+			By message = By.xpath("//h1[text()='" + tableName
+					+ "']/following-sibling::div[@class='user-table-scroll']/descendant::td");
 			boolean elementExist = !driver.findElements(message).isEmpty();
 			if (elementExist) {
 				waitTime(driver);
@@ -1033,7 +1059,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 //			By certificateList = By.xpath("//section[@class='my-certificates-section']/div[2]");
 			By certificateHeader = By.xpath("//section[@class='cert-my-certificates-section']/div[1]");
 			By certificateList = By.xpath("//section[@class='cert-my-certificates-section']/div[2]");
-			
+
 			boolean elementExist = !driver.findElements(certificateHeader).isEmpty();
 			if (elementExist) {
 
@@ -1075,8 +1101,13 @@ public class L_And_D_OtherPages extends WaitsManager {
 				driver.findElement(By.cssSelector("button.submitbutton")).click();
 				String getsuccessMessage = driver.findElement(By.cssSelector("div.message")).getText();
 
-				grep.passTest("Feedback Submitted successfully: " + getsuccessMessage);
-				logger.info("Feedback Submitted successfully: " + getsuccessMessage);
+				if (getsuccessMessage.equals("Feedback submitted successfully")) {
+					grep.passTest("Feedback Submitted: " + getsuccessMessage);
+					logger.info("Feedback Submitted: " + getsuccessMessage);
+				} else {
+					grep.failTest("Feedback not Submitted / Submission  Failed: " + getsuccessMessage);
+					logger.info("Feedback not Submitted / Submission  Failed: " + getsuccessMessage);
+				}
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

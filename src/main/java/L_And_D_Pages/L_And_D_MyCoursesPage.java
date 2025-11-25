@@ -27,6 +27,8 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 
 	By coursesHeader = By.cssSelector("div.my-courses>h1");
 	By coursesDesc = By.cssSelector("div.my-courses>p");
+	By learnignPathHeader = By.cssSelector("div.umlp-learning-paths-container>h1");
+	By learnignPathDesc = By.cssSelector("div.umlp-learning-paths-container>p");
 
 	By playIn_VideoList = By.xpath("//div[@class='coursevideos-video-item  ']");
 	By recentlyCompleted = By.xpath("//div[@class='coursevideos-video-item  completed']");
@@ -49,13 +51,52 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 				String header = driver.findElement(coursesHeader).getText();
 				String desc = driver.findElement(coursesDesc).getText();
 
-				grep.infoTest("Header : " + header);
-				logger.info("Header : " + header);
-				grep.infoTest("Description for My courses: " + desc);
-				logger.info("Description for My courses: " + desc);
+				if (header.equals("My Learning Paths")) {
+					grep.passTest("Header : " + header);
+					logger.info("Header : " + header);
+
+					grep.infoTest("Description for My courses: " + desc);
+					logger.info("Description for My courses: " + desc);
+				} else {
+					grep.failTest("Header mismatch: " + header);
+					logger.info("Header mismatch: " + header);
+				}
+
 			} else {
-				grep.failTest("Element Not Found");
-				logger.error("Element Not Found");
+				grep.failTest("Header Not Found");
+				logger.error("Header Not Found");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void myLearningPathHeader() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(learnignPathHeader).isEmpty();
+
+			if (elementExist) {
+				scrollView(learnignPathHeader);
+				waitTime(driver);
+				String header = driver.findElement(learnignPathHeader).getText();
+				String desc = driver.findElement(learnignPathDesc).getText();
+
+				if (header.equals("My Learning Paths")) {
+					grep.passTest("Header : " + header);
+					logger.info("Header : " + header);
+					grep.infoTest("Description for My Learning Path: " + desc);
+					logger.info("Description for My Learning Path: " + desc);
+				} else {
+					grep.failTest("Header mismatch: " + header);
+					logger.info("Header mismatch: " + header);
+				}
+			} else {
+				grep.failTest("Header Not Found");
+				logger.error("Header Not Found");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -66,7 +107,30 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 	}
 
 	// My Courses Tabs
-	public void clickTabInMyCourses(String tabName) throws Exception {
+	public void clickCourses_Learning_TabsInMyCourses(String tabName) throws Exception {
+		try {
+			implWait(driver);
+			By coursestabs = By.xpath("//div[@class='mcn-nav-container']/descendant::li/a[@href='" + tabName + "']");
+
+			boolean elementExist = !driver.findElements(coursestabs).isEmpty();
+			if (elementExist) {
+
+				driver.findElement(coursestabs).click();
+				grep.passTest("Inside " + tabName + " Tab");
+				logger.info("Inside " + tabName + " Tab");
+			} else {
+				grep.failTest("Tab Not Found");
+				logger.error("Tab Not Found");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void clickTabsInMyCourses(String tabName) throws Exception {
 		try {
 			implWait(driver);
 			By coursestabs = By.xpath("//div[@class='tabs']/span[text()='" + tabName + "']");
@@ -320,7 +384,7 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 				// Locate the scrubber button
 //				WebElement scrubber = driver.findElement(By.cssSelector(".ytp-scrubber-button"));
 				WebElement scrubber = driver.findElement(By.cssSelector(".ytp-scrubber-container"));
-				
+
 				waitTime2(driver);
 				Actions actions = new Actions(driver);
 				actions.moveToElement(videoScreen).perform();
@@ -379,7 +443,8 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 		try {
 			implWait(driver);
 //			By progressPercent = By.xpath("//h3[text()='" + courseName + "']/parent::div/div[2]/span");
-			By progressPercent = By.xpath("//h3[text()='" + courseName + "']/parent::div/div[@class='course-enroll-section']/span");
+			By progressPercent = By
+					.xpath("//h3[text()='" + courseName + "']/parent::div/div[@class='course-enroll-section']/span");
 
 			boolean elementExist = !driver.findElements(progressPercent).isEmpty();
 			if (elementExist) {

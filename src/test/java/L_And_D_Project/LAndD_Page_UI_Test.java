@@ -46,6 +46,11 @@ public class LAndD_Page_UI_Test extends L_And_D_TestInitializer {
 		grep.infoTest("Navigating To Certificates Page");
 		navigateToAllPages(dataKeys.certificatesPageUrl);
 
+
+		grep.infoTest("Navigating To Manage Learning Path Page");
+		navigateToAllPages(dataKeys.manageLearningPathUrl);
+
+		
 		grep.infoTest("Navigating To Admin Page");
 		lndPage.navigateToPage(dataKeys.adminPageUrl);
 		waitTime2(driver);
