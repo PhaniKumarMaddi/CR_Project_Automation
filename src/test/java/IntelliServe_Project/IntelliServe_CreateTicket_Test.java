@@ -49,9 +49,18 @@ public class IntelliServe_CreateTicket_Test extends IntelliServe_TestInitializer
 		waitTime(driver);
 		createTict.insertIncidentTitle("Testing Intelliserve");
 		createTict.insertIncidentDetail("Testing Intelliserve Incident Detail");
-		
+
+		waitTime(driver);
+		createTict.selectAllIncidentDetail();
+		waitTime(driver);
+		createTict.fontStyles_NewTicket("Bold");
+		createTict.fontStyles_NewTicket("Italic");
+		createTict.fontStyles_NewTicket("Underline");
+		createTict.fontStyles_NewTicket("Strikethrough");
+
+		createTict.chooseFileIn_NewTicket("filepath");
 //		createTict.clickButton("Cancel");
-		
+
 		grep.captureScreenshot("pass", "Create Ticket popup Test", "CreateTicket_Popup");
 
 	}

@@ -3,6 +3,7 @@ package IntelliServe_Pages;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
 import Utility.DriverManager;
@@ -39,12 +40,11 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 	By choosefile = By.xpath("//label[normalize-space()='Choose files (Up to 30MB)']");
 	By inputFile = By.xpath("//input[@type='file']");
 
-	By boldText = By.cssSelector("button[title='Bold']");
-	By italicText = By.cssSelector("button[title='Italic']");
-	By underlineText = By.cssSelector("button[title='Underline']");
-	By strikeText = By.cssSelector("button[title='Strikethrough']");
+//	By boldText = By.cssSelector("button[title='Bold']");
+//	By italicText = By.cssSelector("button[title='Italic']");
+//	By underlineText = By.cssSelector("button[title='Underline']");
+//	By strikeText = By.cssSelector("button[title='Strikethrough']");
 
-	
 //	By cancelTicket = By.xpath("//button[text()='Cancel']");
 
 	// verify header
@@ -152,13 +152,13 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 			implWait(driver);
 			boolean elementExists = !driver.findElements(req_Name).isEmpty();
 			if (elementExists) {
-				String requestorName = driver.findElement(req_Name).getText();
-				String requestorEmail = driver.findElement(req_Email).getText();
-				String requestorDept = driver.findElement(req_Dept).getText();
-				String requestorMobile = driver.findElement(req_Mobile).getText();
-				String requestor_MgrName = driver.findElement(req_MgrName).getText();
-				String requestor_MgrEmail = driver.findElement(req_MgrEmail).getText();
-				String priority = driver.findElement(priorityLevel).getText();
+				String requestorName = driver.findElement(req_Name).getAttribute("value");
+				String requestorEmail = driver.findElement(req_Email).getAttribute("value");
+				String requestorDept = driver.findElement(req_Dept).getAttribute("value");
+				String requestorMobile = driver.findElement(req_Mobile).getAttribute("value");
+				String requestor_MgrName = driver.findElement(req_MgrName).getAttribute("value");
+				String requestor_MgrEmail = driver.findElement(req_MgrEmail).getAttribute("value");
+//				String priority = driver.findElement(priorityLevel).getText();
 
 				grep.infoTest("Requestor Name in Create ticket Popup: " + requestorName);
 				logger.info("Requestor Name in Create ticket Popup: " + requestorName);
@@ -214,7 +214,7 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 		}
 
 	}
-	
+
 	public void insertIncidentDetail(String incidentDescVal) throws Exception {
 		try {
 			implWait(driver);
@@ -234,18 +234,32 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 		}
 
 	}
-	
-	public void clickButton(String btnVal) throws Exception {
+
+	public void selectAllIncidentDetail() throws Exception {
 		try {
 			implWait(driver);
-			By createTicketPopupBtn = By.xpath("//button[text()='"+btnVal+"']");
-
-			boolean elementExists = !driver.findElements(createTicketPopupBtn).isEmpty();
+			boolean elementExists = !driver.findElements(incidentDetail).isEmpty();
 			if (elementExists) {
-				driver.findElement(createTicketPopupBtn).click();
-			} else {
-				grep.failTest(btnVal+" button Not Available");
-				logger.error(btnVal+" button Ticket Not Available");
+				driver.findElement(incidentDetail).sendKeys(Keys.CONTROL + "a");
+				waitTime(driver);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+
+	}
+
+	
+	public void chooseFileIn_NewTicket(String file) throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(choosefile).isEmpty();
+			if (elementExists) {
+				driver.findElement(choosefile).click();
 			}
 
 		} catch (Exception e) {
@@ -257,5 +271,44 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 
 	}
 
+	public void fontStyles_NewTicket(String fontType) throws Exception {
+		try {
+			implWait(driver);
+			By boldText = By.cssSelector("button[title='" + fontType + "']");
+			boolean elementExists = !driver.findElements(boldText).isEmpty();
+			if (elementExists) {
+				driver.findElement(boldText).click();
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+
+	}
+
+	public void clickButton(String btnVal) throws Exception {
+		try {
+			implWait(driver);
+			By createTicketPopupBtn = By.xpath("//button[text()='" + btnVal + "']");
+
+			boolean elementExists = !driver.findElements(createTicketPopupBtn).isEmpty();
+			if (elementExists) {
+				driver.findElement(createTicketPopupBtn).click();
+			} else {
+				grep.failTest(btnVal + " button Not Available");
+				logger.error(btnVal + " button Ticket Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+
+	}
 
 }
