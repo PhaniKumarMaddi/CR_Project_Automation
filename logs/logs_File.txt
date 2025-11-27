@@ -5869,3 +5869,339 @@ Business Technology Group
 2025-11-27 15:19:28 [main] INFO : No records Found :No Records Found
 2025-11-27 15:19:31 [main] INFO : Testing Ended
 2025-11-27 15:19:31 [main] INFO : ***********
+2025-11-27 17:11:07 [main] INFO : Launching Chrome Browser
+2025-11-27 17:11:08 [main] INFO : Report Name :IntelliServePage_Report.html
+2025-11-27 17:11:20 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-27 17:11:23 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-27 17:12:05 [main] INFO : Logged in to Intelli Serve Application
+2025-11-27 17:12:05 [main] INFO : Verify the Home and Profile Page test
+2025-11-27 17:12:06 [main] INFO : Verifying Side Bar Collapse Functionality
+2025-11-27 17:12:09 [main] INFO : Side Bar collapsed
+2025-11-27 17:12:10 [main] INFO : Verifying Side Bar Expand Functionality
+2025-11-27 17:12:10 [main] INFO : Side Bar expanded
+2025-11-27 17:12:12 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-11-27 17:12:12 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-11-27 17:12:16 [main] INFO : Navigated to Profile Page
+2025-11-27 17:12:16 [main] INFO : Header valid :Profile
+2025-11-27 17:12:17 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-11-27 17:12:17 [main] INFO : Department Name: Business Technology Group
+2025-11-27 17:12:18 [main] INFO : User Roles: BTG Approver
+2025-11-27 17:12:18 [main] INFO : User Roles: Admin
+2025-11-27 17:12:18 [main] INFO : User Roles: IT Member
+2025-11-27 17:12:18 [main] INFO : User Roles: IT Approver
+2025-11-27 17:12:18 [main] INFO : User Roles: BTG Member
+2025-11-27 17:12:19 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-11-27 17:12:19 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-11-27 17:12:19 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-11-27 17:12:19 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-11-27 17:12:19 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-11-27 17:12:20 [main] INFO : Version :Version 2.0.0
+2025-11-27 17:12:25 [main] INFO : Admin role Available
+2025-11-27 17:12:25 [main] INFO : Verify the Admin Role Pages
+2025-11-27 17:12:28 [main] INFO : Navigated to /admin
+2025-11-27 17:12:33 [main] INFO : Inside /admin Page 
+2025-11-27 17:12:33 [main] INFO : /admin Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/admin
+2025-11-27 17:12:34 [main] INFO : Ticketing Dashboard Page Title is Valid :Ticketing Dashboard | CriticalRiver Ticketing System
+2025-11-27 17:12:43 [main] INFO : Navigated to /tickets
+2025-11-27 17:12:48 [main] INFO : Inside /tickets Page 
+2025-11-27 17:12:48 [main] INFO : /tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/tickets
+2025-11-27 17:12:49 [main] INFO : All Tickets Page Title is Valid :All Tickets | CriticalRiver Ticketing System
+2025-11-27 17:12:58 [main] INFO : Navigated to /approver-management
+2025-11-27 17:13:03 [main] INFO : Inside /approver-management Page 
+2025-11-27 17:13:03 [main] INFO : /approver-management Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-management
+2025-11-27 17:13:04 [main] INFO : Approver Management Page Title is Valid :Approver Management | CriticalRiver Ticketing System
+2025-11-27 17:13:13 [main] INFO : Navigated to /roles
+2025-11-27 17:13:18 [main] INFO : Inside /roles Page 
+2025-11-27 17:13:18 [main] INFO : /roles Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/roles
+2025-11-27 17:13:19 [main] INFO : Roles Management Page Title is Valid :Roles Management | CriticalRiver Ticketing System
+2025-11-27 17:13:28 [main] INFO : Navigated to /user/tickets
+2025-11-27 17:13:33 [main] INFO : Inside /user/tickets Page 
+2025-11-27 17:13:33 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-27 17:13:34 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-27 17:13:48 [main] INFO : IT Approver role Available
+2025-11-27 17:13:48 [main] INFO : Verify the IT Approver Role Pages
+2025-11-27 17:13:52 [main] INFO : Navigated to /approver/dashboard
+2025-11-27 17:13:57 [main] INFO : Inside /approver/dashboard Page 
+2025-11-27 17:13:57 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-27 17:13:58 [main] INFO : Approver Dashboard Page Title is Valid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-27 17:14:07 [main] INFO : Navigated to /approver-tickets
+2025-11-27 17:14:12 [main] INFO : Inside /approver-tickets Page 
+2025-11-27 17:14:12 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-27 17:14:13 [main] INFO : Approver Worklist Page Title is Valid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-27 17:14:22 [main] INFO : Navigated to /user/tickets
+2025-11-27 17:14:27 [main] INFO : Inside /user/tickets Page 
+2025-11-27 17:14:27 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-27 17:14:28 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-27 17:14:42 [main] INFO : IT Member role Available
+2025-11-27 17:14:42 [main] INFO : Verify the IT Member Role Pages
+2025-11-27 17:14:46 [main] INFO : Navigated to /implementation-queue
+2025-11-27 17:14:51 [main] INFO : Inside /implementation-queue Page 
+2025-11-27 17:14:51 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-11-27 17:14:53 [main] ERROR: Implementation Queue Page Title is InValid :IntelliServe
+2025-11-27 17:15:01 [main] INFO : Navigated to /user/tickets
+2025-11-27 17:15:06 [main] INFO : Inside /user/tickets Page 
+2025-11-27 17:15:06 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-27 17:15:07 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-27 17:15:21 [main] INFO : BTG Approver role Available
+2025-11-27 17:15:21 [main] INFO : Verify the BTG Approver Role Pages
+2025-11-27 17:15:26 [main] INFO : Navigated to /approver/dashboard
+2025-11-27 17:15:31 [main] INFO : Inside /approver/dashboard Page 
+2025-11-27 17:15:31 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-27 17:15:33 [main] INFO : Approver Dashboard Page Title is Valid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-27 17:15:41 [main] INFO : Navigated to /approver-tickets
+2025-11-27 17:15:46 [main] INFO : Inside /approver-tickets Page 
+2025-11-27 17:15:46 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-27 17:15:48 [main] INFO : Approver Worklist Page Title is Valid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-27 17:15:56 [main] INFO : Navigated to /user/tickets
+2025-11-27 17:16:01 [main] INFO : Inside /user/tickets Page 
+2025-11-27 17:16:01 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-27 17:16:03 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-27 17:16:16 [main] INFO : BTG Member role Available
+2025-11-27 17:16:17 [main] INFO : Verify the BTG Member Role Pages
+2025-11-27 17:16:21 [main] INFO : Navigated to /implementation-queue
+2025-11-27 17:16:26 [main] INFO : Inside /implementation-queue Page 
+2025-11-27 17:16:26 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-11-27 17:16:28 [main] ERROR: Implementation Queue Page Title is InValid :IntelliServe
+2025-11-27 17:16:36 [main] INFO : Navigated to /user/tickets
+2025-11-27 17:16:41 [main] INFO : Inside /user/tickets Page 
+2025-11-27 17:16:41 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-27 17:16:42 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-27 17:17:01 [main] INFO : IT Approver role Available
+2025-11-27 17:17:02 [main] INFO : BTG Approver role Available
+2025-11-27 17:17:07 [main] INFO : Navigated to /approver-tickets
+2025-11-27 17:17:07 [main] INFO : Approver Worklist Page Configure Columns Options Filters
+2025-11-27 17:17:08 [main] INFO : Header is valid: IT Approver Worklist
+2025-11-27 17:17:16 [main] INFO : Header is valid: Column Options
+2025-11-27 17:17:16 [main] INFO : Verifying Ticket ID Column Option
+2025-11-27 17:17:16 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-27 17:17:18 [main] INFO : Column Option Ticket ID visibility is View 
+2025-11-27 17:17:20 [main] INFO : Verifying Status Column Option
+2025-11-27 17:17:20 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-27 17:17:22 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-27 17:17:23 [main] INFO : Column Option Status visibility is View 
+2025-11-27 17:17:30 [main] INFO : Header is valid: Column Options
+2025-11-27 17:17:34 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-27 17:17:47 [main] INFO : Refresh Successful Messgae: Tickets refreshed successfully. Found 711 tickets.
+2025-11-27 17:17:48 [main] INFO : Approver Worklist Page Status Filter Test
+2025-11-27 17:17:49 [main] INFO : Approver Worklist Page Pending Status Filter Test
+2025-11-27 17:17:52 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-11-27 17:17:53 [main] INFO : Approver Worklist Page Rejected Status Filter Test
+2025-11-27 17:17:56 [main] INFO : ✅ Filter validation passed. All Values match: Rejected
+2025-11-27 17:17:56 [main] INFO : Approver Worklist Page Resolved Status Filter Test
+2025-11-27 17:18:00 [main] INFO : ✅ Filter validation passed. All Values match: Resolved
+2025-11-27 17:18:00 [main] INFO : Approver Worklist Page Closed Status Filter Test
+2025-11-27 17:18:03 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-11-27 17:18:06 [main] INFO : Approver Worklist Page Priority Filter Test
+2025-11-27 17:18:07 [main] INFO : Approver Worklist Page High Priority Filter Test
+2025-11-27 17:18:09 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-11-27 17:18:09 [main] INFO : Approver Worklist Page Low Priority Filter Test
+2025-11-27 17:18:11 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-11-27 17:18:11 [main] INFO : Approver Worklist Page Medium Priority Filter Test
+2025-11-27 17:18:13 [main] INFO : ✅ Filter validation passed. All Values match: Medium
+2025-11-27 17:18:15 [main] INFO : Approver Worklist Page Department Filter Test
+2025-11-27 17:18:16 [main] INFO : Approver Worklist Page Business Technology Group Department Filter Test
+2025-11-27 17:18:18 [main] INFO : ✅ Filter validation passed. All Values match: Business Technology Group
+2025-11-27 17:18:18 [main] INFO : Approver Worklist Page DSIL Department Filter Test
+2025-11-27 17:18:20 [main] INFO : ✅ Filter validation passed. All Values match: DSIL
+2025-11-27 17:18:20 [main] INFO : Approver Worklist Page Data Science and AI Department Filter Test
+2025-11-27 17:18:22 [main] INFO : ✅ Filter validation passed. All Values match: Data Science and AI
+2025-11-27 17:18:25 [main] INFO : Approver Worklist Page Stages Filter Test
+2025-11-27 17:18:25 [main] INFO : Approver Worklist Page Department Approver Stages Filter Test
+2025-11-27 17:18:27 [main] INFO : ✅ Filter validation passed. All Values match: Department Approver
+2025-11-27 17:18:27 [main] INFO : Approver Worklist Page BTG Approver Stages Filter Test
+2025-11-27 17:18:29 [main] INFO : ✅ Filter validation passed. All Values match: BTG Approver
+2025-11-27 17:18:29 [main] INFO : Approver Worklist Page IT Approver Stages Filter Test
+2025-11-27 17:18:31 [main] INFO : ✅ Filter validation passed. All Values match: IT Approver
+2025-11-27 17:18:34 [main] INFO : Approver Worklist Search Functionality Test
+2025-11-27 17:18:36 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-11-27 17:18:39 [main] INFO : Approver Worklist Search Non existing  Functionality Test
+2025-11-27 17:18:41 [main] INFO : No records Found :No Records Found
+2025-11-27 17:18:43 [main] INFO : Navigated to /user/tickets
+2025-11-27 17:18:53 [main] INFO : Header is valid: Column Options
+2025-11-27 17:18:53 [main] ERROR: Column Option Department visibility is already Hidden 
+2025-11-27 17:18:54 [main] ERROR: Column Option Manager visibility is already Hidden 
+2025-11-27 17:18:54 [main] INFO : Column Option Priority visibility is Hidden 
+2025-11-27 17:19:00 [main] INFO : My Tickets Page Priority Filter Test
+2025-11-27 17:19:02 [main] INFO : Header is valid: My Tickets
+2025-11-27 17:19:03 [main] INFO : My Tickets Page High Priority Filter Test
+2025-11-27 17:19:05 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-11-27 17:19:05 [main] INFO : My Tickets Page Low Priority Filter Test
+2025-11-27 17:19:07 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-11-27 17:19:07 [main] INFO : My Tickets Page Medium Priority Filter Test
+2025-11-27 17:19:09 [main] INFO : ✅ Filter validation passed. All Values match: Medium
+2025-11-27 17:19:14 [main] INFO : My Tickets Page Current Stages Filter Test
+2025-11-27 17:19:14 [main] INFO : My Tickets Page Department Approver Stages Filter Test
+2025-11-27 17:19:16 [main] INFO : ✅ Filter validation passed. All Values match: Department Approver
+2025-11-27 17:19:16 [main] INFO : My Tickets Page BTG Approver Stages Filter Test
+2025-11-27 17:19:18 [main] INFO : ✅ Filter validation passed. All Values match: BTG Approver
+2025-11-27 17:19:19 [main] INFO : My Tickets Page IT Approver Stages Filter Test
+2025-11-27 17:19:20 [main] INFO : ✅ Filter validation passed. All Values match: IT Approver
+2025-11-27 17:19:24 [main] INFO : My Tickets Page Stages Filter Test
+2025-11-27 17:19:24 [main] INFO : My Tickets Page Pending Status Filter Test
+2025-11-27 17:19:26 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-11-27 17:19:27 [main] INFO : My Tickets Page Rejected Status Filter Test
+2025-11-27 17:19:29 [main] INFO : ✅ Filter validation passed. All Values match: Rejected
+2025-11-27 17:19:29 [main] INFO : My Tickets Page Closed Status Filter Test
+2025-11-27 17:19:31 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-11-27 17:19:34 [main] INFO : My Tickets Search Functionality Test
+2025-11-27 17:19:36 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-11-27 17:19:38 [main] INFO : My Tickets Search Non existing  Functionality Test
+2025-11-27 17:19:39 [main] INFO : No records Found :No Records Found
+2025-11-27 17:19:46 [main] INFO : Navigated to /approver/dashboard
+2025-11-27 17:19:52 [main] INFO : Approver Dashboard Page test
+2025-11-27 17:19:57 [main] INFO : Header is valid: Dashboard Overview
+2025-11-27 17:19:57 [main] INFO : Header is valid: Ticket Analytics
+2025-11-27 17:19:58 [main] INFO : Approver Dashboard Page Cards test
+2025-11-27 17:19:58 [main] INFO : Card Detail: TOTAL TICKETS
+683
+2025-11-27 17:19:58 [main] INFO : Card Detail: RESOLVED
+53
+2025-11-27 17:19:58 [main] INFO : Card Detail: APPROVED
+108
+2025-11-27 17:19:58 [main] INFO : Card Detail: PENDING
+455
+2025-11-27 17:19:58 [main] INFO : Card Detail: REJECTED
+67
+2025-11-27 17:19:59 [main] INFO : Approver Dashboard Page  Chart Title test
+2025-11-27 17:20:00 [main] INFO : Chart Title in Dashboard: Ticket Type Distribution
+2025-11-27 17:20:00 [main] INFO : Chart Title in Dashboard: Tickets by Status
+2025-11-27 17:20:00 [main] INFO : Chart Title in Dashboard: Pending Tickets by Stage
+2025-11-27 17:20:00 [main] INFO : Chart Title in Dashboard: Tickets by Priority
+2025-11-27 17:20:00 [main] INFO : Chart Title in Dashboard: Monthly Ticket Trends
+2025-11-27 17:20:01 [main] INFO : IT Member role Available
+2025-11-27 17:20:01 [main] INFO : Implementation Queue Configure Columns Options Filters
+2025-11-27 17:20:05 [main] INFO : Navigated to /implementation-queue
+2025-11-27 17:20:25 [main] INFO : Header is valid: Implementation Queue
+2025-11-27 17:20:32 [main] INFO : Header is valid: Column Options
+2025-11-27 17:20:32 [main] INFO : Verifying Ticket ID Column Option
+2025-11-27 17:20:33 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-27 17:20:35 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-27 17:20:35 [main] INFO : Column Option Ticket ID visibility is View 
+2025-11-27 17:20:37 [main] INFO : Verifying Status Column Option
+2025-11-27 17:20:37 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-27 17:20:39 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-27 17:20:40 [main] INFO : Column Option Status visibility is View 
+2025-11-27 17:20:47 [main] INFO : Header is valid: Column Options
+2025-11-27 17:20:51 [main] INFO : Implementation Queue Page Status Filter Test
+2025-11-27 17:20:51 [main] INFO : Implementation Queue Page Resolved Status Filter Test
+2025-11-27 17:20:55 [main] INFO : ✅ Filter validation passed. All Values match: Resolved
+2025-11-27 17:20:56 [main] INFO : Implementation Queue Page Pending Status Filter Test
+2025-11-27 17:21:00 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-11-27 17:21:00 [main] INFO : Implementation Queue Page Closed Status Filter Test
+2025-11-27 17:21:04 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-11-27 17:21:06 [main] INFO : Implementation Queue Page Priority Filter Test
+2025-11-27 17:21:06 [main] INFO : Implementation Queue Page High Priority Filter Test
+2025-11-27 17:21:08 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-11-27 17:21:08 [main] INFO : Implementation Queue Page Low Priority Filter Test
+2025-11-27 17:21:10 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-11-27 17:21:10 [main] INFO : Implementation Queue Page Critical Priority Filter Test
+2025-11-27 17:21:12 [main] INFO : ✅ Filter validation passed. All Values match: Critical
+2025-11-27 17:21:15 [main] INFO : Implementation Queue Search Functionality Test
+2025-11-27 17:21:17 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-11-27 17:21:18 [main] INFO : Implementation Queue Search Non existing  Functionality Test
+2025-11-27 17:21:20 [main] INFO : No records Found :No Records Found
+2025-11-27 17:21:23 [main] INFO : Testing Ended
+2025-11-27 17:21:23 [main] INFO : ***********
+2025-11-27 17:32:16 [main] INFO : Launching Chrome Browser
+2025-11-27 17:32:17 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-27 17:32:19 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-27 17:32:21 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-27 17:32:53 [main] INFO : Logged in to Intelli Serve Application
+2025-11-27 17:32:54 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-27 17:32:59 [main] INFO : Navigated to /user/tickets
+2025-11-27 17:33:05 [main] ERROR: Header is not valid: Create New Ticket
+2025-11-27 17:33:05 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-27 17:33:05 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-27 17:33:07 [main] INFO : Selected Software Ticket Type
+2025-11-27 17:33:07 [main] INFO : Requestor Name in Create ticket Popup: 
+2025-11-27 17:33:07 [main] INFO : Requestor Email in Create ticket Popup: 
+2025-11-27 17:33:07 [main] INFO : Requestor Department in Create ticket Popup: 
+2025-11-27 17:33:07 [main] INFO : Requestor Mobile in Create ticket Popup: 
+2025-11-27 17:33:07 [main] INFO : Requestor Manager Name in Create ticket Popup: 
+2025-11-27 17:33:07 [main] INFO : Requestor Manager Email in Create ticket Popup: 
+2025-11-27 17:33:07 [main] INFO : Seleted Priority in Create ticket Popup: Select priority
+High
+Medium
+Low
+2025-11-27 17:33:08 [main] INFO : Entering incident title: testing Intelliserve
+2025-11-27 17:33:09 [main] INFO : Testing Ended
+2025-11-27 17:33:09 [main] INFO : ***********
+2025-11-27 17:36:06 [main] INFO : Launching Chrome Browser
+2025-11-27 17:36:06 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-27 17:36:09 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-27 17:36:11 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-27 17:36:39 [main] INFO : Logged in to Intelli Serve Application
+2025-11-27 17:36:39 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-27 17:36:44 [main] INFO : Navigated to /user/tickets
+2025-11-27 17:36:50 [main] ERROR: Header is not valid: Create New Ticket
+2025-11-27 17:36:50 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-27 17:36:51 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-27 17:36:52 [main] INFO : Selected Software Ticket Type
+2025-11-27 17:36:52 [main] INFO : Requestor Name in Create ticket Popup: 
+2025-11-27 17:36:52 [main] INFO : Requestor Email in Create ticket Popup: 
+2025-11-27 17:36:52 [main] INFO : Requestor Department in Create ticket Popup: 
+2025-11-27 17:36:52 [main] INFO : Requestor Mobile in Create ticket Popup: 
+2025-11-27 17:36:52 [main] INFO : Requestor Manager Name in Create ticket Popup: 
+2025-11-27 17:36:52 [main] INFO : Requestor Manager Email in Create ticket Popup: 
+2025-11-27 17:36:52 [main] INFO : Seleted Priority in Create ticket Popup: Select priority
+High
+Medium
+Low
+2025-11-27 17:36:53 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-27 17:36:54 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-27 17:36:55 [main] INFO : Testing Ended
+2025-11-27 17:36:55 [main] INFO : ***********
+2025-11-27 17:37:37 [main] INFO : Launching Chrome Browser
+2025-11-27 17:37:37 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-27 17:37:40 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-27 17:37:42 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-27 17:38:13 [main] INFO : Logged in to Intelli Serve Application
+2025-11-27 17:38:14 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-27 17:38:19 [main] INFO : Navigated to /user/tickets
+2025-11-27 17:38:26 [main] INFO : Header is valid: Create New Ticket
+2025-11-27 17:38:26 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-27 17:38:26 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-27 17:38:27 [main] INFO : Selected Software Ticket Type
+2025-11-27 17:38:28 [main] INFO : Requestor Name in Create ticket Popup: 
+2025-11-27 17:38:28 [main] INFO : Requestor Email in Create ticket Popup: 
+2025-11-27 17:38:28 [main] INFO : Requestor Department in Create ticket Popup: 
+2025-11-27 17:38:28 [main] INFO : Requestor Mobile in Create ticket Popup: 
+2025-11-27 17:38:28 [main] INFO : Requestor Manager Name in Create ticket Popup: 
+2025-11-27 17:38:28 [main] INFO : Requestor Manager Email in Create ticket Popup: 
+2025-11-27 17:38:28 [main] INFO : Seleted Priority in Create ticket Popup: Select priority
+High
+Medium
+Low
+2025-11-27 17:38:29 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-27 17:38:29 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-27 17:38:31 [main] INFO : Testing Ended
+2025-11-27 17:38:31 [main] INFO : ***********
+2025-11-27 17:39:13 [main] INFO : Launching Chrome Browser
+2025-11-27 17:39:13 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-27 17:39:16 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-27 17:39:18 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-27 17:39:53 [main] INFO : Logged in to Intelli Serve Application
+2025-11-27 17:39:54 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-27 17:39:58 [main] INFO : Navigated to /user/tickets
+2025-11-27 17:40:04 [main] INFO : Header is valid: Create New Ticket
+2025-11-27 17:40:05 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-27 17:40:05 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-27 17:40:06 [main] INFO : Selected Software Ticket Type
+2025-11-27 17:40:07 [main] INFO : Requestor Name in Create ticket Popup: 
+2025-11-27 17:40:07 [main] INFO : Requestor Email in Create ticket Popup: 
+2025-11-27 17:40:07 [main] INFO : Requestor Department in Create ticket Popup: 
+2025-11-27 17:40:07 [main] INFO : Requestor Mobile in Create ticket Popup: 
+2025-11-27 17:40:07 [main] INFO : Requestor Manager Name in Create ticket Popup: 
+2025-11-27 17:40:07 [main] INFO : Requestor Manager Email in Create ticket Popup: 
+2025-11-27 17:40:07 [main] INFO : Seleted Priority in Create ticket Popup: Select priority
+High
+Medium
+Low
+2025-11-27 17:40:07 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-27 17:40:08 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-27 17:40:09 [main] INFO : Testing Ended
+2025-11-27 17:40:09 [main] INFO : ***********

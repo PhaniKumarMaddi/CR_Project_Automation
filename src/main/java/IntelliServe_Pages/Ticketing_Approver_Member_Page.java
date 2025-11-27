@@ -18,7 +18,7 @@ import Utility.WaitsManager;
 
 public class Ticketing_Approver_Member_Page extends WaitsManager {
 	static WebDriver driver;
-	private static Logger logger = LogManager.getLogger(Ticketing_Page.class);
+	private static Logger logger = LogManager.getLogger(Ticketing_Approver_Member_Page.class);
 	GenerateReports grep = new GenerateReports();
 	ValidatingAssertions validAssert = new ValidatingAssertions();
 
@@ -28,7 +28,6 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 
 	// Approver Worklist
 	By worklist_header = By.xpath("//h1[@class='text-xl sm:text-2xl font-bold text-gray-900 dark:text-white']");
-//	By refreshBtn = By.xpath("//button/span[text()='Refresh'][1]");
 	By refreshBtn = By.xpath("//button[@title='Refresh ticket list']");
 	By clearFilters = By.xpath("//button[text()='Clear All Filters']");
 	By createTicket_By_Approver = By.xpath("//a[text()='Create Ticket']");
@@ -61,6 +60,7 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 	By appr_DashboardCharts = By.xpath(
 			"//div[@class='bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-100 dark:border-gray-700 transition-all duration-300 hover:shadow-xl']/descendant::h3");
 
+	
 	// verify header
 	public void verifyApproverWorkListHeader(String headerVal) throws Exception {
 		try {

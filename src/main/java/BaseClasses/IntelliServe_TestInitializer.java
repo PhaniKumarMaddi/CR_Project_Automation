@@ -86,7 +86,7 @@ public class IntelliServe_TestInitializer extends WaitsManager {
 		waitTime(driver);
 		login.enterUserName(dataKeys.ssoUserName);
 		login.clickSignIn();
-		waitTime2(driver);
+		waitTime5(driver);
 //		login.enterPassword(dataKeys.ssoPassword);
 //		login.clickSignIn();
 		waitTime5(driver);
