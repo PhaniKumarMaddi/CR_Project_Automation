@@ -9,6 +9,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
+import com.aventstack.extentreports.reporter.configuration.StatusFilter;
+
 import Utility.DriverManager;
 import Utility.GenerateReports;
 import Utility.ValidatingAssertions;
@@ -268,7 +270,7 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 
 		}
 	}
-	
+
 	public void selectViewColumnOption(String option) throws Exception {
 		try {
 			implWait(driver);
@@ -279,15 +281,15 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 			if (elementexists) {
 				String colVisisbility = driver.findElement(columnOption).getAttribute("title");
 				if (colVisisbility.equals("Show column")) {
-					grep.passTest("Column Option "+ option +" visibility is Hidden ");
-					logger.info("Column Option "+ option +" visibility is Hidden ");
+					grep.passTest("Column Option " + option + " visibility is Hidden ");
+					logger.info("Column Option " + option + " visibility is Hidden ");
 					waitTime(driver);
 
-				driver.findElement(columnOption).click();
+					driver.findElement(columnOption).click();
 				}
 			} else {
-				grep.warnTest("Column Options "+ option +" Already in view");
-				logger.error("Column Options "+ option +" Already in view");
+				grep.warnTest("Column Options " + option + " Already in view");
+				logger.error("Column Options " + option + " Already in view");
 			}
 
 		} catch (Exception e) {
@@ -307,14 +309,14 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 			if (elementexists) {
 				String colVisisbility = driver.findElement(columnOption).getAttribute("title");
 				if (colVisisbility.equals("Show column")) {
-					grep.warnTest("Column Option "+ option +" visibility is already Hidden ");
-					logger.info("Column Option "+ option +" visibility is already Hidden ");
+					grep.warnTest("Column Option " + option + " visibility is already Hidden ");
+					logger.error("Column Option " + option + " visibility is already Hidden ");
 					waitTime(driver);
 				}
 			} else {
 				driver.findElement(columnOption).click();
-				grep.passTest("Column Options "+ option +" visibility in view");
-				logger.error("Column Options "+ option +" visibility in view");
+				grep.passTest("Column Options " + option + " visibility in view");
+				logger.info("Column Options " + option + " visibility in view");
 			}
 
 		} catch (Exception e) {
@@ -323,6 +325,7 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 			logger.error("Test Failed :" + e.getMessage());
 		}
 	}
+
 	public void verifyColumnOptionVisibilityHidden(String option) throws Exception {
 		try {
 			implWait(driver);
@@ -333,13 +336,17 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 			if (elementexists) {
 				String colVisisbility = driver.findElement(columnOptionVisibility).getAttribute("title");
 				if (colVisisbility.equals("Show column")) {
-					grep.passTest("Column Option visibility is Hidden ");
-					logger.info("Column Option visibility is Hidden ");
+					grep.passTest("Column Option " + option + " visibility is Hidden ");
+					logger.info("Column Option " + option + " visibility is Hidden ");
 					waitTime(driver);
 
 				} else {
-					grep.warnTest("Column Option visibility is View ");
-					logger.warn("Column Option visibility is View");
+					driver.findElement(columnOptionVisibility).click();
+					grep.passTest("Column Option " + option + " visibility is Hidden ");
+					logger.info("Column Option " + option + " visibility is Hidden ");
+					waitTime(driver);
+//					grep.warnTest("Column Option "+ option +" visibility is View ");
+//					logger.warn("Column Option "+ option +" visibility is View");
 				}
 
 			} else {
@@ -364,13 +371,17 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 			if (elementexists) {
 				String colVisisbility = driver.findElement(columnOptionVisibility).getAttribute("title");
 				if (colVisisbility.equals("Hide column")) {
-					grep.passTest("Column Option visibility is View ");
-					logger.info("Column Option visibility is View ");
+					grep.passTest("Column Option " + option + " visibility is View ");
+					logger.info("Column Option " + option + " visibility is View ");
 					waitTime(driver);
 
 				} else {
-					grep.warnTest("Column Option visibility is Hidden");
-					logger.warn("Column Option visibility is Hidden");
+					driver.findElement(columnOptionVisibility).click();
+					grep.passTest("Column Option " + option + " visibility is View ");
+					logger.info("Column Option " + option + " visibility is View ");
+					waitTime(driver);
+//					grep.warnTest("Column Option visibility is Hidden");
+//					logger.warn("Column Option visibility is Hidden");
 				}
 
 			} else {
@@ -407,25 +418,72 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 
 		}
 	}
-	public void selectStatusFilter(String filterName, String optionValue) throws Exception {
+ 
+	public void expandStatusFilter() throws Exception {
 		try {
 			implWait(driver);
-			By filter = By.xpath("//span[text()='" + filterName + "']/following-sibling::div/button");
+			By statusFilter = By.cssSelector(".relative > .border");
+			By verifyExpand = By.xpath("//div[@class='relative ']/button[@type='button']//*[name()='svg']");
 
-			By selectOption = By.xpath("//span[text()='"+optionValue+"']/parent::label/input");
-			WebElement selectAllOption =driver.findElement(By.xpath("//span[text()='Select All']/parent::label/input"));
-			boolean elementExists = !driver.findElements(filter).isEmpty();
+			boolean elementExists = !driver.findElements(statusFilter).isEmpty();
 			if (elementExists) {
-				driver.findElement(filter).click();
-				waitTime(driver);
-				if(!selectAllOption.isSelected()) {
-					selectAllOption.click();
+				String verifyBtn = driver.findElement(verifyExpand).getAttribute("class");
+				if (!verifyBtn.contains("transform rotate-180")) {
+					driver.findElement(statusFilter).click();
+				} else {
+					waitTime(driver);
+					logger.info("Already expanded");
 				}
-				selectAllOption.click();
-				waitTime2(driver);
+
+			} else {
+				grep.failTest("Status Filter not Available");
+				logger.error("Status Filter not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void collapseStatusFilter() throws Exception {
+		try {
+			implWait(driver);
+			By statusFilter = By.cssSelector(".relative > .border");
+			By verifyCollapse = By.xpath("//div[@class='relative ']/button[@type='button']//*[name()='svg']");
+
+			boolean elementExists = !driver.findElements(statusFilter).isEmpty();
+			if (elementExists) {
+				String verifyBtn = driver.findElement(verifyCollapse).getAttribute("class");
+				if (verifyBtn.contains("transform rotate-180")) {
+					driver.findElement(statusFilter).click();
+				} else {
+					waitTime(driver);
+					logger.info("Already Collapsed");
+				}
+
+			} else {
+				grep.failTest("Status Filter not Available");
+				logger.error("Status Filter not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void selectStatusFilter(String option) throws Exception {
+		try {
+			implWait(driver);
+			By selectOption = By.xpath("//span[text()='" + option + "']/preceding-sibling::input[@type='checkbox']");
+
+			boolean elementExists = !driver.findElements(selectOption).isEmpty();
+			if (elementExists) {
 				driver.findElement(selectOption).click();
-				
-				driver.findElement(filter).click();
+
 			} else {
 				grep.failTest("Selected Filter not Available");
 				logger.error("Selected Filter not Available");
@@ -438,53 +496,26 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 		}
 	}
 
-	public void selectMultiStatusFilter(String filterName, String... optionValues) throws Exception {
-	    try {
-	        implWait(driver);
-
-	        By filter = By.xpath("//span[text()='" + filterName + "']/following-sibling::div/button");
-
-	        // Check if filter exists
-	        if (driver.findElements(filter).isEmpty()) {
-	            grep.failTest("Selected Filter not Available");
-	            logger.error("Selected Filter not Available");
-	            return;
-	        }
-
-	        // Open filter dropdown
-	        WebElement filterElement = driver.findElement(filter);
-	        filterElement.click();
-	        waitTime(driver);
-
-	        // Loop through all dynamic option values
-	        for (String optionValue : optionValues) {
-
-	            By selectOption = By.xpath("//span[text()='" + optionValue + "']/parent::label/input");
-
-	            if (!driver.findElements(selectOption).isEmpty()) {
-	                WebElement option = driver.findElement(selectOption);
-
-	                // Select checkbox if not already selected
-	                if (!option.isSelected()) {
-	                    option.click();
-	                    waitTime(driver);
-	                }
-	            } else {
-	                logger.warn("Option value not found: " + optionValue);
-	            }
-	        }
-
-	        // Close the filter dropdown
-	        filterElement.click();
-
-	    } catch (Exception e) {
-	        e.printStackTrace();
-	        grep.failTest("Test Failed :" + e.getMessage());
-	        logger.error("Test Failed :" + e.getMessage());
-	    }
-	}
-
-
+//	public void selectMultiStatusFilter(String... option) throws Exception {
+//		try {
+//			implWait(driver);
+//			By selectOption = By.xpath("//span[text()='" + option + "']/preceding-sibling::input[@type='checkbox']");
+//
+//			boolean elementExists = !driver.findElements(selectOption).isEmpty();
+//			if (elementExists) {
+//				driver.findElement(selectOption).click();
+//
+//			} else {
+//				grep.failTest("Selected Filter not Available");
+//				logger.error("Selected Filter not Available");
+//			}
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//			grep.failTest("Test Failed :" + e.getMessage());
+//			logger.error("Test Failed :" + e.getMessage());
+//
+//		}
+//	}
 	
 	public void verifyWorklist_FilterInTable(String verifyValue) throws Exception {
 		try {
@@ -504,15 +535,15 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 					}
 				}
 				if (isValid && table.size() > 0) {
-					System.out.println("✅ Search validation passed. All Values match: " + verifyValue);
-					grep.passTest("✅ Search validation passed. All Values match: " + verifyValue);
-					logger.info("✅ Search validation passed. All Values match: " + verifyValue);
+					System.out.println("✅ Filter validation passed. All Values match: " + verifyValue);
+					grep.passTest("✅ Filter validation passed. All Values match: " + verifyValue);
+					logger.info("✅ Filter validation passed. All Values match: " + verifyValue);
 				} else {
-					System.out.println("❌ Search validation failed. Mismatched Value found or no Records Available: "
+					System.out.println("❌ Filter validation failed. Mismatched Value found or no Records Available: "
 							+ verifyValue);
-					grep.warnTest("❌ Search validation failed. Mismatched Value found or no Records Available: "
+					grep.warnTest("❌ Filter validation failed. Mismatched Value found or no Records Available: "
 							+ verifyValue);
-					logger.error("❌ Search validation failed. Mismatched Value found or no Records Available: "
+					logger.error("❌ Filter validation failed. Mismatched Value found or no Records Available: "
 							+ verifyValue);
 				}
 			} else {
@@ -527,6 +558,7 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 		}
 	}
 
+	
 	// MY TICKETS
 
 	// verify header
@@ -599,15 +631,15 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 					}
 				}
 				if (isValid && table.size() > 0) {
-					System.out.println("✅ Search validation passed. All Values match: " + verifyValue);
-					grep.passTest("✅ Search validation passed. All Values match: " + verifyValue);
-					logger.info("✅ Search validation passed. All Values match: " + verifyValue);
+					System.out.println("✅ Filter validation passed. All Values match: " + verifyValue);
+					grep.passTest("✅ Filter validation passed. All Values match: " + verifyValue);
+					logger.info("✅ Filter validation passed. All Values match: " + verifyValue);
 				} else {
-					System.out.println("❌ Search validation failed. Mismatched Value found or no Records Available: "
+					System.out.println("❌ Filter validation failed. Mismatched Value found or no Records Available: "
 							+ verifyValue);
-					grep.warnTest("❌ Search validation failed. Mismatched Value found or no Records Available: "
+					grep.warnTest("❌ Filter validation failed. Mismatched Value found or no Records Available: "
 							+ verifyValue);
-					logger.error("❌ Search validation failed. Mismatched Value found or no Records Available: "
+					logger.error("❌ Filter validation failed. Mismatched Value found or no Records Available: "
 							+ verifyValue);
 				}
 			} else {
@@ -693,15 +725,15 @@ public class Ticketing_Approver_Member_Page extends WaitsManager {
 					}
 				}
 				if (isValid && table.size() > 0) {
-					System.out.println("✅ Search validation passed. All Values match: " + verifyValue);
-					grep.passTest("✅ Search validation passed. All Values match: " + verifyValue);
-					logger.info("✅ Search validation passed. All Values match: " + verifyValue);
+					System.out.println("✅ Filter validation passed. All Values match: " + verifyValue);
+					grep.passTest("✅ Filter validation passed. All Values match: " + verifyValue);
+					logger.info("✅ Filter validation passed. All Values match: " + verifyValue);
 				} else {
-					System.out.println("❌ Search validation failed. Mismatched Value found or no Records Available: "
+					System.out.println("❌ Filter validation failed. Mismatched Value found or no Records Available: "
 							+ verifyValue);
-					grep.warnTest("❌ Search validation failed. Mismatched Value found or no Records Available: "
+					grep.warnTest("❌ Filter validation failed. Mismatched Value found or no Records Available: "
 							+ verifyValue);
-					logger.error("❌ Search validation failed. Mismatched Value found or no Records Available: "
+					logger.error("❌ Filter validation failed. Mismatched Value found or no Records Available: "
 							+ verifyValue);
 				}
 			} else {

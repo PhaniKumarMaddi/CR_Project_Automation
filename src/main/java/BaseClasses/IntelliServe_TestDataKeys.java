@@ -41,6 +41,7 @@ public class IntelliServe_TestDataKeys {
 
 	// Status
 	public String statusFilter = "Status";
+	public String selectAllSatusFilter = "Select All";
 	public String pending_StatusFilter = "Pending";
 	public String approver_StatusFilter = "Approved";
 	public String rejected_StatusFilter = "Rejected";

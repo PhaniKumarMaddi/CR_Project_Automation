@@ -4310,3 +4310,1562 @@ Selenium
 2025-11-25 17:54:41 [main] INFO : Logged out Successfully
 2025-11-25 17:54:47 [main] INFO : Testing Ended
 2025-11-25 17:54:47 [main] INFO : ***********
+2025-11-26 10:57:04 [main] INFO : Launching Chrome Browser
+2025-11-26 10:57:04 [main] INFO : Report Name :LandDPage_Report.html
+2025-11-26 10:57:06 [main] INFO : Web Page URL: https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/login
+2025-11-26 10:57:06 [main] INFO : Inside Login Page: Learning and Development
+2025-11-26 10:57:28 [main] INFO : Logged in to Learning and Development Application
+2025-11-26 10:57:34 [main] INFO : Learning and Development Page navigation Test
+2025-11-26 10:57:35 [main] INFO : Navigated to /my-courses
+2025-11-26 10:57:40 [main] INFO : Inside /my-courses Page 
+2025-11-26 10:57:40 [main] INFO : /my-courses/mycourses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses/mycourses
+2025-11-26 10:57:42 [main] INFO : Navigated to /departments
+2025-11-26 10:57:47 [main] INFO : Inside /departments Page 
+2025-11-26 10:57:47 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-11-26 10:57:50 [main] INFO : Navigated to /certificates
+2025-11-26 10:57:55 [main] INFO : Inside /certificates Page 
+2025-11-26 10:57:55 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-11-26 10:57:57 [main] INFO : Navigated to /manage-learning-paths
+2025-11-26 10:58:02 [main] INFO : Inside /manage-learning-paths Page 
+2025-11-26 10:58:02 [main] INFO : /manage-learning-paths Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/manage-learning-paths
+2025-11-26 10:58:04 [main] INFO : Navigated to /admin
+2025-11-26 10:58:06 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-11-26 10:58:08 [main] INFO : Navigated to /admin/courses
+2025-11-26 10:58:13 [main] INFO : Inside /admin/courses Tab in Admin Page 
+2025-11-26 10:58:13 [main] INFO : /admin/courses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/courses
+2025-11-26 10:58:16 [main] INFO : Navigated to /admin/tests
+2025-11-26 10:58:21 [main] INFO : Inside /admin/tests Tab in Admin Page 
+2025-11-26 10:58:21 [main] INFO : /admin/tests Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/tests
+2025-11-26 10:58:24 [main] INFO : Navigated to /admin/roles
+2025-11-26 10:58:29 [main] INFO : Inside /admin/roles Tab in Admin Page 
+2025-11-26 10:58:29 [main] INFO : /admin/roles Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/roles
+2025-11-26 10:58:32 [main] INFO : Navigated to /admin/dashboard
+2025-11-26 10:58:37 [main] INFO : Inside /admin/dashboard Tab in Admin Page 
+2025-11-26 10:58:37 [main] INFO : /admin/dashboard Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/admin/dashboard
+2025-11-26 10:58:39 [main] INFO : Navigated to /Home
+2025-11-26 10:58:44 [main] INFO : Inside /Home Page 
+2025-11-26 10:58:44 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-11-26 10:58:47 [main] INFO : Home Page Ui test
+2025-11-26 10:58:47 [main] INFO : Home Page Header Content: Grow your skills, advance your career
+2025-11-26 10:58:47 [main] INFO : Home Page Description Content: Access all the learning resources you need to excel at CriticalRiver
+2025-11-26 10:58:47 [main] INFO : Start Learning Button Available
+2025-11-26 10:58:48 [main] INFO : Header: Browse Courses by Department
+2025-11-26 10:58:48 [main] INFO : Total Courses Card Count: 470
+2025-11-26 10:58:48 [main] INFO : Departments Card Count: 16
+2025-11-26 10:58:48 [main] INFO : Popular Courses Card Count: 5
+2025-11-26 10:58:48 [main] INFO : My Certificates Card Count: 0
+2025-11-26 10:58:48 [main] INFO : My Courses Card Count: 8
+2025-11-26 10:58:51 [main] INFO : Verifying navigation from Stat Cards in Home Page
+2025-11-26 10:58:52 [main] INFO : Clicking on Total Courses card
+2025-11-26 10:58:53 [main] INFO : Clicking on Total Courses Card
+2025-11-26 10:58:53 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-11-26 10:58:56 [main] INFO : Navigated to /Home
+2025-11-26 10:59:02 [main] INFO : Clicking on Departments card
+2025-11-26 10:59:03 [main] INFO : Clicking on Departments Card
+2025-11-26 10:59:03 [main] INFO : /departments Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-11-26 10:59:06 [main] INFO : Navigated to /Home
+2025-11-26 10:59:12 [main] INFO : Clicking on Popular Courses card
+2025-11-26 10:59:13 [main] INFO : Clicking on Popular Courses Card
+2025-11-26 10:59:13 [main] INFO : /Home Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/Home
+2025-11-26 10:59:17 [main] INFO : Navigated to /Home
+2025-11-26 10:59:22 [main] INFO : Clicking on My Certificates card
+2025-11-26 10:59:23 [main] INFO : Clicking on My Certificates Card
+2025-11-26 10:59:23 [main] INFO : /certificates Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-11-26 10:59:27 [main] INFO : Navigated to /Home
+2025-11-26 10:59:32 [main] INFO : Clicking on My Courses card
+2025-11-26 10:59:33 [main] INFO : Clicking on My Courses Card
+2025-11-26 10:59:33 [main] INFO : /my-courses/mycourses Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses/mycourses
+2025-11-26 10:59:37 [main] INFO : Navigated to /Home
+2025-11-26 10:59:42 [main] INFO : Home Page Continue Learning test
+2025-11-26 10:59:44 [main] INFO : Continue Learning Header is correct: Continue Learning
+2025-11-26 10:59:45 [main] INFO : Continue Learning Course NamePython Beginner
+2025-11-26 10:59:45 [main] INFO : Continue Learning Progress Percentage: 63% complete
+2025-11-26 10:59:45 [main] INFO : Continue Learning Course Category: Programming
+2025-11-26 10:59:45 [main] INFO : Continue Learning Course Last Accessed: Last accessed: Recently
+2025-11-26 10:59:45 [main] INFO : Navigated to Course Video Page
+2025-11-26 10:59:46 [main] INFO : /course-videos Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-11-26 10:59:48 [main] INFO : Navigated to /Home
+2025-11-26 10:59:50 [main] INFO : Home Page Feature Courses test
+2025-11-26 10:59:51 [main] INFO : Feature Course List Contains : Airflow Beginner course
+2025-11-26 10:59:51 [main] INFO : Feature Course List Contains : Airflow Advanced course
+2025-11-26 10:59:52 [main] INFO : Feature Course List Contains : Python Beginner course
+2025-11-26 10:59:52 [main] INFO : Feature Course List Contains : SQL Beginner course
+2025-11-26 10:59:53 [main] INFO : Feature Course List Contains : Statistics Beginner course
+2025-11-26 10:59:55 [main] INFO : Feature Courses contains Department Name: Data Science and AI
+2025-11-26 10:59:55 [main] INFO : Feature Courses contains Course Level: Beginner
+2025-11-26 10:59:55 [main] INFO : Feature Courses contains Name: Airflow Beginner
+2025-11-26 10:59:55 [main] INFO : Feature Courses contains Video Count: 🎥 34 Videos
+2025-11-26 10:59:55 [main] INFO : Feature Courses contains Duration: ⏱ 27 hrs 1 mins
+2025-11-26 10:59:57 [main] ERROR: Course Enrollment Failed message: An error occurred during enrollment. Please try again.
+2025-11-26 11:00:00 [main] INFO : Home Page Browse Course By Department test
+2025-11-26 11:00:06 [main] INFO : Data Science and AI department is available
+2025-11-26 11:00:06 [main] INFO : Total Courses count for Data Science and AI: 45 courses
+2025-11-26 11:00:07 [main] INFO : ERP Application department is available
+2025-11-26 11:00:07 [main] INFO : Total Courses count for ERP Application: 35 courses
+2025-11-26 11:00:08 [main] INFO : Product Engineering Services department is available
+2025-11-26 11:00:08 [main] INFO : Total Courses count for Product Engineering Services: 29 courses
+2025-11-26 11:00:09 [main] INFO : Hardware and Validation department is available
+2025-11-26 11:00:10 [main] INFO : Total Courses count for Hardware and Validation: 21 courses
+2025-11-26 11:00:10 [main] INFO : H1B Staffing department is available
+2025-11-26 11:00:11 [main] INFO : Total Courses count for H1B Staffing: 21 courses
+2025-11-26 11:00:11 [main] INFO : Salesforce department is available
+2025-11-26 11:00:12 [main] INFO : Total Courses count for Salesforce: 28 courses
+2025-11-26 11:00:12 [main] INFO : DSIL department is available
+2025-11-26 11:00:13 [main] INFO : Total Courses count for DSIL: 49 courses
+2025-11-26 11:00:13 [main] INFO : Enterprise Architecture department is available
+2025-11-26 11:00:14 [main] INFO : Total Courses count for Enterprise Architecture: 34 courses
+2025-11-26 11:00:14 [main] INFO : Global Engineering Org department is available
+2025-11-26 11:00:15 [main] INFO : Total Courses count for Global Engineering Org: 70 courses
+2025-11-26 11:00:15 [main] INFO : Enterprise Integration department is available
+2025-11-26 11:00:16 [main] INFO : Total Courses count for Enterprise Integration: 27 courses
+2025-11-26 11:00:16 [main] INFO : India Public Sector department is available
+2025-11-26 11:00:17 [main] INFO : Total Courses count for India Public Sector: 36 courses
+2025-11-26 11:00:18 [main] INFO : Energy & Water department is available
+2025-11-26 11:00:18 [main] INFO : Total Courses count for Energy & Water: 18 courses
+2025-11-26 11:00:19 [main] INFO : Business Process Services department is available
+2025-11-26 11:00:19 [main] INFO : Total Courses count for Business Process Services: 23 courses
+2025-11-26 11:00:20 [main] INFO : Enabling Team department is available
+2025-11-26 11:00:20 [main] INFO : Total Courses count for Enabling Team: 29 courses
+2025-11-26 11:00:21 [main] INFO : Others department is available
+2025-11-26 11:00:21 [main] INFO : Total Courses count for Others: 4 courses
+2025-11-26 11:00:22 [main] INFO : Business Technology Group department is available
+2025-11-26 11:00:22 [main] INFO : Total Courses count for Business Technology Group: 1 courses
+2025-11-26 11:00:23 [main] INFO : Click View All Department Link
+2025-11-26 11:00:25 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-11-26 11:00:26 [main] INFO : Navigated to /Home
+2025-11-26 11:00:32 [main] INFO : Verify clicking on department card
+2025-11-26 11:00:38 [main] INFO : Navigated to Data Science and AI Department
+2025-11-26 11:00:43 [main] INFO : Navigated to /Home
+2025-11-26 11:00:46 [main] INFO : Navigated to Salesforce Department
+2025-11-26 11:00:51 [main] INFO : Navigated to /Home
+2025-11-26 11:00:52 [main] INFO : Verify Why Criticalriver Academy Info
+2025-11-26 11:00:52 [main] INFO : Academy Header :Why CriticalRiver Academy?
+2025-11-26 11:00:52 [main] INFO : Academy Reason youtube :▶️
+Learn from YouTube
+Access curated YouTube content organized by departments and skills, making it easy to find relevant learning materials.
+2025-11-26 11:00:52 [main] INFO : Academy Reason Certificates :📜
+Earn Certificates
+Complete courses and assessments to earn certificates that demonstrate your skills and expertise.
+2025-11-26 11:00:52 [main] INFO : Academy Reason Learning paths :🗺️
+Structured Learning Paths
+Follow department-specific learning paths designed to help you grow in your role and advance your career.
+2025-11-26 11:00:54 [main] INFO : Ready To StartReady to start learning?
+Take the first step in your learning journey with CriticalRiver Academy
+Explore All Courses
+2025-11-26 11:00:54 [main] INFO : Explore all courses
+2025-11-26 11:00:56 [main] INFO : Navigate to Profile Page
+2025-11-26 11:00:59 [main] INFO : Profile Page Information: Personal Information
+2025-11-26 11:00:59 [main] INFO : Profile Page Information: Full Name:
+Phani Kumar Maddi
+2025-11-26 11:00:59 [main] INFO : Profile Page Information: Email:
+phani.maddi@criticalriver.com
+2025-11-26 11:00:59 [main] INFO : Profile Page Information: Department:
+Business Technology Group
+2025-11-26 11:00:59 [main] INFO : Profile Page Information: Job Title:
+Software Engineer
+2025-11-26 11:00:59 [main] INFO : Profile Page Information: Certifications
+2025-11-26 11:00:59 [main] INFO : Profile Page Information: No certifications
+2025-11-26 11:01:00 [main] INFO : Reserve Rigths: © 2025 CriticalRiver. All rights reserved. Version 1.0.4
+2025-11-26 11:01:01 [main] INFO : Navigated to /my-courses
+2025-11-26 11:01:01 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/my-courses/mycourses
+2025-11-26 11:01:06 [main] INFO : Navigated to /departments
+2025-11-26 11:01:06 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/departments
+2025-11-26 11:01:10 [main] INFO : Navigated to /help-center
+2025-11-26 11:01:10 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/help-center
+2025-11-26 11:01:15 [main] INFO : Navigated to /feedback
+2025-11-26 11:01:15 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/feedback
+2025-11-26 11:01:19 [main] INFO : Navigated to /certificates
+2025-11-26 11:01:19 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/certificates
+2025-11-26 11:01:24 [main] INFO : Navigated to /profile
+2025-11-26 11:01:24 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/profile
+2025-11-26 11:01:28 [main] INFO : Social Media Links
+2025-11-26 11:01:28 [main] INFO : Navigated to Facebook
+2025-11-26 11:01:30 [main] INFO :  Url is Valid :https://www.facebook.com/criticalriver/
+2025-11-26 11:01:35 [main] INFO : Navigated to LinkedIn
+2025-11-26 11:01:37 [main] INFO :  Url is Valid :https://in.linkedin.com/company/criticalriver
+2025-11-26 11:01:44 [main] INFO : Navigated to Instagram
+2025-11-26 11:01:45 [main] INFO :  Url is Valid :https://www.instagram.com/criticalriver/?hl=en
+2025-11-26 11:01:50 [main] INFO : Navigated to Twitter
+2025-11-26 11:01:54 [main] INFO :  Url is Valid :https://x.com/CriticalRiver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+2025-11-26 11:01:58 [main] INFO : Navigated to /Home
+2025-11-26 11:02:01 [main] INFO : Searching the non existing department test
+2025-11-26 11:02:01 [main] INFO : Navigated to /departments
+2025-11-26 11:02:03 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-11-26 11:02:03 [main] INFO : No Department Found Message: No departments found matching "@#$%^&*(#$%^"
+2025-11-26 11:02:09 [main] INFO : Searching the non existing course test
+2025-11-26 11:02:09 [main] INFO : Navigated to /departments
+2025-11-26 11:02:10 [main] INFO : Searching Data Science and AI Name
+2025-11-26 11:02:12 [main] INFO : Exploring Data Science and AI Name
+2025-11-26 11:02:13 [main] INFO : Searching @#$%^&*(#$%^ Name
+2025-11-26 11:02:13 [main] INFO : No Course Found Message: No courses found
+2025-11-26 11:02:21 [main] INFO : Explore Department and Enroll Course test
+2025-11-26 11:02:23 [main] INFO : Navigated to /departments
+2025-11-26 11:02:25 [main] INFO : Searching Data Science and AI Name
+2025-11-26 11:02:28 [main] INFO : Exploring Data Science and AI Name
+2025-11-26 11:02:29 [main] INFO : Searching Azure Beginner Name
+2025-11-26 11:02:31 [main] INFO : Enrolling Azure Beginner Course
+2025-11-26 11:02:31 [main] INFO : Course Enrollment message: Successfully enrolled in the course
+2025-11-26 11:02:36 [main] INFO : Navigated to /my-courses
+2025-11-26 11:02:41 [main] INFO : Selecting Pagination: 30
+2025-11-26 11:02:42 [main] INFO : Enrolled Course Card Details test
+2025-11-26 11:02:42 [main] INFO : Course Category for Azure Beginner: Cloud
+2025-11-26 11:02:42 [main] INFO : Course Level for Azure Beginner: Beginner
+2025-11-26 11:02:42 [main] INFO : Course Video Count for Azure Beginner: 🎥 Videos: 40
+2025-11-26 11:02:42 [main] INFO : Course Duration for Azure Beginner: ⏱ Duration: 7 hrs 15 mins
+2025-11-26 11:02:42 [main] INFO : Course Progress percent for Azure Beginner: Progress: 0%
+2025-11-26 11:02:42 [main] INFO : Course Enrolled Successful:Azure Beginner
+2025-11-26 11:02:47 [main] INFO : Header : My Courses
+2025-11-26 11:02:47 [main] INFO : Description for My courses: Continue learning where you left off
+2025-11-26 11:02:48 [main] ERROR: Test Failed :element click intercepted: Element <a class="mcn-nav-tab" href="/my-courses/mylearningpath">...</a> is not clickable at point (217, 21). Other element would receive the click: <img src="/static/media/critical-river_logo.c718dd4a00d1d9df2444.png" alt="CriticalRiver Logo" class="logo">
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5ad7002de99deb4482eb2ce819b038f5, clickElement {id=f.AAAF0ADF2968749645733344A44350FA.d.42A8B9286A17CACE103E8A4D1DBD1A31.e.639}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64471}, goog:processID: 3772, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64471/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5ad7002de99deb4482eb2ce819b038f5)] -> xpath: //div[@class='mcn-nav-container']/descendant::li/a[@href='/my-courses/mylearningpath']]
+Session ID: 5ad7002de99deb4482eb2ce819b038f5
+2025-11-26 11:03:50 [main] ERROR: Header Not Found
+2025-11-26 11:03:54 [main] ERROR: Test Failed :element click intercepted: Element <a class="mcn-nav-tab mcn-nav-tab-active" href="/my-courses/mycourses" aria-current="page">...</a> is not clickable at point (75, 23). Other element would receive the click: <img src="/static/media/critical-river_logo.c718dd4a00d1d9df2444.png" alt="CriticalRiver Logo" class="logo">
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5ad7002de99deb4482eb2ce819b038f5, clickElement {id=f.AAAF0ADF2968749645733344A44350FA.d.42A8B9286A17CACE103E8A4D1DBD1A31.e.641}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64471}, goog:processID: 3772, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64471/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5ad7002de99deb4482eb2ce819b038f5)] -> xpath: //div[@class='mcn-nav-container']/descendant::li/a[@href='/my-courses/mycourses']]
+Session ID: 5ad7002de99deb4482eb2ce819b038f5
+2025-11-26 11:03:58 [main] INFO : Inside In progress Tab
+2025-11-26 11:03:59 [main] INFO : Inside Completed Tab
+2025-11-26 11:04:00 [main] INFO : Inside All courses Tab
+2025-11-26 11:04:06 [main] INFO : Un Enrolling Azure Beginner Course
+2025-11-26 11:04:07 [main] INFO : Course Enrollment message: User unenrolled successfully
+2025-11-26 11:04:11 [main] INFO : Continue and update progress for Course test
+2025-11-26 11:04:12 [main] INFO : Progress Percent :Progress: 44%
+2025-11-26 11:04:21 [main] INFO :  Url is Valid :https://crlndportal-frontend-dev.salmonground-e485a14f.eastus.azurecontainerapps.io/course-videos
+2025-11-26 11:04:25 [main] INFO : Video List Count :Video List (23/50) - Video List (23/50)
+2025-11-26 11:04:25 [main] INFO : Video Available in the list:24
+Selenium
+2025-11-26 11:04:26 [main] INFO : Select Video from video list
+2025-11-26 11:05:29 [main] INFO : Click Play Video
+2025-11-26 11:05:52 [main] INFO : Video playback moved to the end.
+2025-11-26 11:05:53 [main] INFO : Select Video from video list
+2025-11-26 11:05:58 [main] INFO : Video Completed: Completed
+2025-11-26 11:06:07 [main] INFO : Video List Count :Video List (24/50) - Video List (24/50)
+2025-11-26 11:06:07 [main] INFO : Navigated to /my-courses
+2025-11-26 11:06:08 [main] INFO : Progress Percent :Progress: 46%
+2025-11-26 11:06:09 [main] INFO : Navigated to /admin
+2025-11-26 11:06:11 [main] INFO : Verify Admin page cards in dashboard tab
+2025-11-26 11:06:14 [main] INFO : Certificates card Value: 7
+2025-11-26 11:06:14 [main] INFO : Departments card Value: 16
+2025-11-26 11:06:14 [main] INFO : Active Courses card Value: 470
+2025-11-26 11:06:14 [main] INFO : Users card Value: 38
+2025-11-26 11:06:15 [main] INFO : Verify Admin page certificates details in dashboard tab
+2025-11-26 11:06:16 [main] INFO : Certificates Details: anwar anwar_hussain@skillsynccr.onmicrosoft.com Airflow Beginner 0cdc709d-4f5e-423c-9738-17e06322a8e4 01-08-2025
+2025-11-26 11:06:16 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Airflow Beginner 19ad9540-791c-4982-aa1f-7ded3ca2f025 19-08-2025
+2025-11-26 11:06:16 [main] INFO : Certificates Details: Anwar Hussain anwar.hussain@criticalriver.com Airflow Beginner 55ab3dc1-faa2-4a14-8279-394a7380e623 26-08-2025
+2025-11-26 11:06:16 [main] INFO : Certificates Details: BTG SUPPORT BTG.Support@CriticalRiver.com Airflow Beginner dc89c4e5-0578-4629-9150-1f842475457a 26-08-2025
+2025-11-26 11:06:16 [main] INFO : Certificates Details: chandan chandanlohith.pydi@criticalriver.com Airflow Beginner 923a82ca-31fe-431e-b807-a90c0960dcd8 21-08-2025
+2025-11-26 11:06:16 [main] INFO : Certificates Details: chandan chandanlohith.pydi@criticalriver.com Airflow Intermediate 0a922bcf-35eb-4bd6-a19c-0a46fe004870 25-08-2025
+2025-11-26 11:06:16 [main] INFO : Certificates Details: nishanka nishanka.peesari@criticalriver.com Gen AI Beginner d7f5c9e5-c58c-4f57-be35-64bce41875f9 26-08-2025
+2025-11-26 11:06:16 [main] INFO : Certificates Admin card Values Match 7
+2025-11-26 11:06:17 [main] INFO : View Certificates
+2025-11-26 11:06:28 [main] INFO : Close Certificate
+2025-11-26 11:06:30 [main] INFO : Search Functionality for Certificates table
+2025-11-26 11:06:30 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-11-26 11:06:30 [main] INFO : Search Functionality for Course Statistics table
+2025-11-26 11:06:31 [main] INFO : ✅ Search validation passed. All Values match: Energy & Water
+2025-11-26 11:06:33 [main] INFO : Search Functionality for Feedback Overview table
+2025-11-26 11:06:34 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-11-26 11:06:37 [main] INFO : Get Users for Course by using Course statistics table test
+2025-11-26 11:06:37 [main] INFO : Click Total Users
+2025-11-26 11:06:38 [main] ERROR: Course Statistics Data Values Not match 11
+2025-11-26 11:06:39 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-11-26 11:06:43 [main] INFO : Get Certificate List for Course by using Course statistics table test
+2025-11-26 11:06:45 [main] INFO : Course Statistics Data Values Match 5
+2025-11-26 11:06:46 [main] INFO : ✅ Search validation passed. All Values match: Airflow Beginner
+2025-11-26 11:06:51 [main] INFO : Verify Export Functionality for Dashboard Tables
+2025-11-26 11:06:52 [main] INFO : Exporting CSV for Certificates Table
+2025-11-26 11:06:54 [main] INFO : Exporting PDF for Certificates Table
+2025-11-26 11:06:56 [main] INFO : Exporting CSV for Course Statistics Table
+2025-11-26 11:06:57 [main] INFO : Exporting PDF for Course Statistics Table
+2025-11-26 11:06:59 [main] INFO : Exporting CSV for Feedback Overview Table
+2025-11-26 11:07:00 [main] INFO : Exporting PDF for Feedback Overview Table
+2025-11-26 11:07:01 [main] INFO : Verify Searching Non existing data functionality for Dashboard Tables
+2025-11-26 11:07:02 [main] INFO : Non Existing Search for Certificates : No records found
+2025-11-26 11:07:03 [main] INFO : Non Existing Search for Course Statistics : No records found
+2025-11-26 11:07:04 [main] INFO : Non Existing Search for Feedback Overview : No records found
+2025-11-26 11:07:05 [main] INFO : Navigated to /admin/tests
+2025-11-26 11:07:10 [main] INFO : Search Functionality for Assessment Request Notifications table
+2025-11-26 11:07:14 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-11-26 11:07:14 [main] INFO : Search Functionality for Course Assessments table
+2025-11-26 11:07:15 [main] INFO : ✅ Search validation passed. All Values match: Meter Data Management Beginner
+2025-11-26 11:07:18 [main] INFO : Verify Export Functionality for Tests Tables
+2025-11-26 11:07:18 [main] INFO : Exporting CSV for Assessment Request Notifications Table
+2025-11-26 11:07:19 [main] INFO : Exporting PDF for Assessment Request Notifications Table
+2025-11-26 11:07:21 [main] INFO : Exporting CSV for Course Assessments Table
+2025-11-26 11:07:22 [main] INFO : Exporting PDF for Course Assessments Table
+2025-11-26 11:07:23 [main] INFO : Verify Searching Non existing data functionality for Tests Tables
+2025-11-26 11:07:24 [main] INFO : Non Existing Search for Assessment Request Notifications : No records found
+2025-11-26 11:07:25 [main] INFO : Non Existing Search for Course Assessments : No records found
+2025-11-26 11:07:31 [main] INFO : Navigated to /admin/roles
+2025-11-26 11:07:32 [main] INFO : Search Functionality for User Management table
+2025-11-26 11:07:32 [main] INFO : ✅ Search validation passed. All Values match: phani.maddi@criticalriver.com
+2025-11-26 11:07:33 [main] INFO : Verify Export Functionality for Roles Tables
+2025-11-26 11:07:34 [main] INFO : Exporting CSV for User Management Table
+2025-11-26 11:07:35 [main] INFO : Exporting PDF for User Management Table
+2025-11-26 11:07:36 [main] INFO : Verify Searching Non existing data functionality for Roles Tables
+2025-11-26 11:07:37 [main] INFO : Non Existing Search for User Management : No records found
+2025-11-26 11:07:38 [main] INFO : Navigated to /admin/tests
+2025-11-26 11:07:42 [main] INFO : Selecting Course from dropdown: 210 - Airflow Beginner
+2025-11-26 11:07:44 [main] INFO : Selecting Assessment Number from dropdown: Assessment 1
+2025-11-26 11:07:45 [main] INFO : Enter Assessment or User Id: a6cb19b2-7acb-4ff3-9b4b-76572900d73e
+2025-11-26 11:07:46 [main] INFO : Click Generated button for: Create New Assessment
+2025-11-26 11:07:47 [main] INFO : Assessment Generated message: Self-assessment successfully created for course 210, test_id1
+2025-11-26 11:07:54 [main] INFO : Selecting Course from dropdown: 210-Airflow Beginner
+2025-11-26 11:07:55 [main] INFO : Enter Assessment or User Id: 32
+2025-11-26 11:07:55 [main] INFO : Selecting Assessment Number from dropdown: Assessment 1
+2025-11-26 11:07:57 [main] INFO : Click Generated button for: Generate Assessment Link For User
+2025-11-26 11:07:58 [main] INFO : Assessment Generated message: Assessment link generated successfully: https://assess.wecreateproblems.com/tests/c2014a23-5a0a-4bf6-9ed0-ef73a1986867/instructions
+2025-11-26 11:08:01 [main] INFO : Navigated to /certificates
+2025-11-26 11:08:03 [main] INFO : Verify Certificate Header: My Certificates
+2025-11-26 11:08:03 [main] INFO : Verify Certificate List: Start building your certification portfolio. Complete a course and earn your first certificate!
+2025-11-26 11:08:05 [main] INFO : Navigated to /feedback
+2025-11-26 11:08:06 [main] INFO : Feedback not Submitted / Submission  Failed: 
+2025-11-26 11:08:13 [main] INFO : Logout From L and D
+2025-11-26 11:08:13 [main] INFO : Logged out Successfully
+2025-11-26 11:08:19 [main] INFO : Testing Ended
+2025-11-26 11:08:19 [main] INFO : ***********
+2025-11-26 16:58:43 [main] INFO : Launching Chrome Browser
+2025-11-26 16:58:43 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-26 16:58:58 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-26 16:59:06 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-26 16:59:34 [main] INFO : Logged in to Intelli Serve Application
+2025-11-26 16:59:34 [main] INFO : Verify the Home and Profile Page test
+2025-11-26 16:59:35 [main] INFO : Verifying Side Bar Collapse Functionality
+2025-11-26 16:59:37 [main] INFO : Side Bar collapsed
+2025-11-26 16:59:37 [main] INFO : Verifying Side Bar Expand Functionality
+2025-11-26 16:59:37 [main] INFO : Side Bar expanded
+2025-11-26 16:59:39 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-11-26 16:59:39 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-11-26 16:59:43 [main] INFO : Navigated to Profile Page
+2025-11-26 16:59:43 [main] INFO : Header valid :Profile
+2025-11-26 16:59:44 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-11-26 16:59:44 [main] INFO : Department Name: Business Technology Group
+2025-11-26 16:59:45 [main] INFO : User Roles: BTG Approver
+2025-11-26 16:59:45 [main] INFO : User Roles: Admin
+2025-11-26 16:59:45 [main] INFO : User Roles: IT Member
+2025-11-26 16:59:45 [main] INFO : User Roles: IT Approver
+2025-11-26 16:59:45 [main] INFO : User Roles: BTG Member
+2025-11-26 16:59:46 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-11-26 16:59:46 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-11-26 16:59:46 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-11-26 16:59:46 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-11-26 16:59:46 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-11-26 16:59:47 [main] INFO : Version :Version 2.0.0
+2025-11-26 16:59:52 [main] INFO : Admin role Available
+2025-11-26 16:59:52 [main] INFO : Verify the Admin Role Pages
+2025-11-26 16:59:57 [main] INFO : Navigated to /admin
+2025-11-26 17:00:02 [main] INFO : Inside /admin Page 
+2025-11-26 17:00:02 [main] INFO : /admin Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/admin
+2025-11-26 17:00:03 [main] INFO : Ticketing Dashboard Page Title is Valid :Ticketing Dashboard | CriticalRiver Ticketing System
+2025-11-26 17:00:12 [main] INFO : Navigated to /tickets
+2025-11-26 17:00:17 [main] INFO : Inside /tickets Page 
+2025-11-26 17:00:17 [main] INFO : /tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/tickets
+2025-11-26 17:00:18 [main] INFO : All Tickets Page Title is Valid :All Tickets | CriticalRiver Ticketing System
+2025-11-26 17:00:27 [main] INFO : Navigated to /approver-management
+2025-11-26 17:00:32 [main] INFO : Inside /approver-management Page 
+2025-11-26 17:00:32 [main] INFO : /approver-management Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-management
+2025-11-26 17:00:33 [main] INFO : Approver Management Page Title is Valid :Approver Management | CriticalRiver Ticketing System
+2025-11-26 17:00:42 [main] INFO : Navigated to /roles
+2025-11-26 17:00:47 [main] INFO : Inside /roles Page 
+2025-11-26 17:00:47 [main] INFO : /roles Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/roles
+2025-11-26 17:00:48 [main] INFO : Roles Management Page Title is Valid :Roles Management | CriticalRiver Ticketing System
+2025-11-26 17:00:57 [main] INFO : Navigated to /user/tickets
+2025-11-26 17:01:02 [main] INFO : Inside /user/tickets Page 
+2025-11-26 17:01:02 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-26 17:01:03 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-26 17:01:17 [main] INFO : IT Approver role Available
+2025-11-26 17:01:17 [main] INFO : Verify the IT Approver Role Pages
+2025-11-26 17:01:41 [main] INFO : Navigated to /approver/dashboard
+2025-11-26 17:01:46 [main] INFO : Inside /approver/dashboard Page 
+2025-11-26 17:01:46 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-26 17:01:47 [main] INFO : Approver Dashboard Page Title is Valid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-26 17:01:55 [main] INFO : Navigated to /approver-tickets
+2025-11-26 17:02:00 [main] INFO : Inside /approver-tickets Page 
+2025-11-26 17:02:00 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-26 17:02:02 [main] INFO : Approver Worklist Page Title is Valid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-26 17:02:10 [main] INFO : Navigated to /user/tickets
+2025-11-26 17:02:15 [main] INFO : Inside /user/tickets Page 
+2025-11-26 17:02:15 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-26 17:02:17 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-26 17:02:30 [main] INFO : IT Member role Available
+2025-11-26 17:02:30 [main] INFO : Verify the IT Member Role Pages
+2025-11-26 17:02:57 [main] INFO : Navigated to /implementation-queue
+2025-11-26 17:03:02 [main] INFO : Inside /implementation-queue Page 
+2025-11-26 17:03:02 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-11-26 17:03:04 [main] ERROR: Implementation Queue Page Title is InValid :IntelliServe
+2025-11-26 17:03:12 [main] INFO : Navigated to /user/tickets
+2025-11-26 17:03:17 [main] INFO : Inside /user/tickets Page 
+2025-11-26 17:03:17 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-26 17:03:18 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-26 17:03:32 [main] INFO : BTG Approver role Available
+2025-11-26 17:03:32 [main] INFO : Verify the BTG Approver Role Pages
+2025-11-26 17:03:36 [main] INFO : Navigated to /approver/dashboard
+2025-11-26 17:03:41 [main] INFO : Inside /approver/dashboard Page 
+2025-11-26 17:03:41 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-26 17:03:43 [main] INFO : Approver Dashboard Page Title is Valid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-26 17:03:51 [main] INFO : Navigated to /approver-tickets
+2025-11-26 17:03:56 [main] INFO : Inside /approver-tickets Page 
+2025-11-26 17:03:56 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-26 17:03:58 [main] INFO : Approver Worklist Page Title is Valid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-26 17:04:06 [main] INFO : Navigated to /user/tickets
+2025-11-26 17:04:11 [main] INFO : Inside /user/tickets Page 
+2025-11-26 17:04:12 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-26 17:04:13 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-26 17:04:27 [main] INFO : BTG Member role Available
+2025-11-26 17:04:27 [main] INFO : Verify the BTG Member Role Pages
+2025-11-26 17:04:31 [main] INFO : Navigated to /implementation-queue
+2025-11-26 17:04:36 [main] INFO : Inside /implementation-queue Page 
+2025-11-26 17:04:36 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-11-26 17:04:37 [main] ERROR: Implementation Queue Page Title is InValid :IntelliServe
+2025-11-26 17:04:45 [main] INFO : Navigated to /user/tickets
+2025-11-26 17:04:50 [main] INFO : Inside /user/tickets Page 
+2025-11-26 17:04:50 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-26 17:04:52 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-26 17:05:05 [main] INFO : Testing Ended
+2025-11-26 17:05:05 [main] INFO : ***********
+2025-11-26 17:31:10 [main] INFO : Launching Chrome Browser
+2025-11-26 17:31:11 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-26 17:31:22 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-26 17:31:24 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-26 17:32:00 [main] INFO : Logged in to Intelli Serve Application
+2025-11-26 17:32:13 [main] ERROR: Test Failed :Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f174adc2ba553fd2950e625ec69ead4f, findElements [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59105}, goog:processID: 15688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59105/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f174adc2ba553fd2950e625ec69ead4f
+2025-11-26 17:32:13 [main] ERROR: Test Failed :Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f174adc2ba553fd2950e625ec69ead4f, setTimeout [implicit]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59105}, goog:processID: 15688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59105/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f174adc2ba553fd2950e625ec69ead4f
+2025-11-26 17:32:13 [main] INFO : Approver Role Not Available for logged User
+2025-11-26 17:32:13 [main] ERROR: Test Failed :Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f174adc2ba553fd2950e625ec69ead4f, setTimeout [implicit]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59105}, goog:processID: 15688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59105/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f174adc2ba553fd2950e625ec69ead4f
+2025-11-26 17:32:13 [main] INFO : Member Role Not Available for logged User
+2025-11-26 17:32:14 [main] INFO : Testing Ended
+2025-11-26 17:32:14 [main] INFO : ***********
+2025-11-27 10:11:43 [main] INFO : Launching Chrome Browser
+2025-11-27 10:11:43 [main] INFO : Report Name :IntelliServePage_Report.html
+2025-11-27 10:11:46 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-27 10:11:48 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-27 10:12:24 [main] INFO : Logged in to Intelli Serve Application
+2025-11-27 10:12:24 [main] INFO : Verify the Home and Profile Page test
+2025-11-27 10:12:25 [main] INFO : Verifying Side Bar Collapse Functionality
+2025-11-27 10:12:25 [main] INFO : Side Bar collapsed
+2025-11-27 10:12:26 [main] INFO : Verifying Side Bar Expand Functionality
+2025-11-27 10:12:26 [main] INFO : Side Bar expanded
+2025-11-27 10:12:28 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-11-27 10:12:28 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-11-27 10:12:31 [main] INFO : Navigated to Profile Page
+2025-11-27 10:12:32 [main] INFO : Header valid :Profile
+2025-11-27 10:12:32 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-11-27 10:12:33 [main] INFO : Department Name: Business Technology Group
+2025-11-27 10:12:33 [main] INFO : User Roles: BTG Approver
+2025-11-27 10:12:33 [main] INFO : User Roles: Admin
+2025-11-27 10:12:33 [main] INFO : User Roles: IT Member
+2025-11-27 10:12:33 [main] INFO : User Roles: IT Approver
+2025-11-27 10:12:33 [main] INFO : User Roles: BTG Member
+2025-11-27 10:12:34 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-11-27 10:12:34 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-11-27 10:12:34 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-11-27 10:12:34 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-11-27 10:12:35 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-11-27 10:12:35 [main] INFO : Version :Version 2.0.0
+2025-11-27 10:12:40 [main] INFO : Admin role Available
+2025-11-27 10:12:40 [main] INFO : Verify the Admin Role Pages
+2025-11-27 10:12:43 [main] INFO : Navigated to /admin
+2025-11-27 10:12:48 [main] INFO : Inside /admin Page 
+2025-11-27 10:12:48 [main] INFO : /admin Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/admin
+2025-11-27 10:12:50 [main] INFO : Ticketing Dashboard Page Title is Valid :Ticketing Dashboard | CriticalRiver Ticketing System
+2025-11-27 10:12:58 [main] INFO : Navigated to /tickets
+2025-11-27 10:13:03 [main] INFO : Inside /tickets Page 
+2025-11-27 10:13:03 [main] INFO : /tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/tickets
+2025-11-27 10:13:05 [main] INFO : All Tickets Page Title is Valid :All Tickets | CriticalRiver Ticketing System
+2025-11-27 10:13:13 [main] INFO : Navigated to /approver-management
+2025-11-27 10:13:18 [main] INFO : Inside /approver-management Page 
+2025-11-27 10:13:18 [main] INFO : /approver-management Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-management
+2025-11-27 10:13:20 [main] INFO : Approver Management Page Title is Valid :Approver Management | CriticalRiver Ticketing System
+2025-11-27 10:13:28 [main] INFO : Navigated to /roles
+2025-11-27 10:13:33 [main] INFO : Inside /roles Page 
+2025-11-27 10:13:33 [main] INFO : /roles Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/roles
+2025-11-27 10:13:35 [main] INFO : Roles Management Page Title is Valid :Roles Management | CriticalRiver Ticketing System
+2025-11-27 10:13:43 [main] INFO : Navigated to /user/tickets
+2025-11-27 10:13:48 [main] INFO : Inside /user/tickets Page 
+2025-11-27 10:13:48 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-27 10:13:50 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-27 10:14:03 [main] INFO : IT Approver role Available
+2025-11-27 10:14:03 [main] INFO : Verify the IT Approver Role Pages
+2025-11-27 10:14:06 [main] INFO : Navigated to /approver/dashboard
+2025-11-27 10:14:11 [main] INFO : Inside /approver/dashboard Page 
+2025-11-27 10:14:11 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-27 10:14:13 [main] INFO : Approver Dashboard Page Title is Valid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-27 10:14:21 [main] INFO : Navigated to /approver-tickets
+2025-11-27 10:14:26 [main] INFO : Inside /approver-tickets Page 
+2025-11-27 10:14:26 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-27 10:14:28 [main] INFO : Approver Worklist Page Title is Valid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-27 10:14:36 [main] INFO : Navigated to /user/tickets
+2025-11-27 10:14:41 [main] INFO : Inside /user/tickets Page 
+2025-11-27 10:14:41 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-27 10:14:43 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-27 10:14:56 [main] INFO : IT Member role Available
+2025-11-27 10:14:56 [main] INFO : Verify the IT Member Role Pages
+2025-11-27 10:14:59 [main] INFO : Navigated to /implementation-queue
+2025-11-27 10:15:04 [main] INFO : Inside /implementation-queue Page 
+2025-11-27 10:15:04 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-11-27 10:15:06 [main] INFO : Implementation Queue Page Title is Valid :Implementation Queue | CriticalRiver Ticketing System
+2025-11-27 10:15:14 [main] INFO : Navigated to /user/tickets
+2025-11-27 10:15:19 [main] INFO : Inside /user/tickets Page 
+2025-11-27 10:15:19 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-27 10:15:21 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-27 10:15:34 [main] INFO : BTG Approver role Available
+2025-11-27 10:15:34 [main] INFO : Verify the BTG Approver Role Pages
+2025-11-27 10:15:37 [main] INFO : Navigated to /approver/dashboard
+2025-11-27 10:15:42 [main] INFO : Inside /approver/dashboard Page 
+2025-11-27 10:15:42 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-27 10:15:44 [main] INFO : Approver Dashboard Page Title is Valid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-27 10:15:52 [main] INFO : Navigated to /approver-tickets
+2025-11-27 10:15:57 [main] INFO : Inside /approver-tickets Page 
+2025-11-27 10:15:57 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-27 10:15:59 [main] INFO : Approver Worklist Page Title is Valid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-27 10:16:07 [main] INFO : Navigated to /user/tickets
+2025-11-27 10:16:12 [main] INFO : Inside /user/tickets Page 
+2025-11-27 10:16:12 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-27 10:16:14 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-27 10:16:27 [main] INFO : BTG Member role Available
+2025-11-27 10:16:27 [main] INFO : Verify the BTG Member Role Pages
+2025-11-27 10:16:30 [main] INFO : Navigated to /implementation-queue
+2025-11-27 10:16:35 [main] INFO : Inside /implementation-queue Page 
+2025-11-27 10:16:35 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-11-27 10:16:37 [main] INFO : Implementation Queue Page Title is Valid :Implementation Queue | CriticalRiver Ticketing System
+2025-11-27 10:16:45 [main] INFO : Navigated to /user/tickets
+2025-11-27 10:16:50 [main] INFO : Inside /user/tickets Page 
+2025-11-27 10:16:50 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-27 10:16:52 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-27 10:17:10 [main] INFO : IT Approver role Available
+2025-11-27 10:17:11 [main] INFO : BTG Approver role Available
+2025-11-27 10:17:14 [main] INFO : Navigated to /approver-tickets
+2025-11-27 10:17:14 [main] INFO : Approver Worklist Page Configure Columns Options Filters
+2025-11-27 10:17:15 [main] INFO : Header is valid: IT Approver Worklist
+2025-11-27 10:17:22 [main] INFO : Header is valid: Column Options
+2025-11-27 10:17:22 [main] INFO : Verifying Ticket ID Column Option
+2025-11-27 10:17:22 [main] WARN : Column Option visibility is View
+2025-11-27 10:17:24 [main] INFO : Column Option visibility is View 
+2025-11-27 10:17:25 [main] INFO : Verifying Status Column Option
+2025-11-27 10:17:26 [main] WARN : Column Option visibility is View
+2025-11-27 10:17:27 [main] INFO : Column Option visibility is View 
+2025-11-27 10:17:34 [main] INFO : Header is valid: Column Options
+2025-11-27 10:17:37 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-27 10:17:44 [main] INFO : Refresh Successful Messgae: Tickets refreshed successfully. Found 706 tickets.
+2025-11-27 10:17:45 [main] INFO : Approver Worklist Page Status Filter Test
+2025-11-27 10:17:46 [main] INFO : Approver Worklist Page Pending Status Filter Test
+2025-11-27 10:18:46 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Select All']/parent::label/input"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [214d6a7dffe3550c9e16a9f65492017e, findElement {using=xpath, value=//span[text()='Select All']/parent::label/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60312}, goog:processID: 9244, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60312/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 214d6a7dffe3550c9e16a9f65492017e
+2025-11-27 10:18:47 [main] INFO : ✅ Search validation passed. All Values match: Pending
+2025-11-27 10:18:47 [main] INFO : Approver Worklist Page Rejected Status Filter Test
+2025-11-27 10:19:48 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Select All']/parent::label/input"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [214d6a7dffe3550c9e16a9f65492017e, findElement {using=xpath, value=//span[text()='Select All']/parent::label/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60312}, goog:processID: 9244, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60312/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 214d6a7dffe3550c9e16a9f65492017e
+2025-11-27 10:19:48 [main] ERROR: ❌ Search validation failed. Mismatched Value found or no Records Available: Rejected
+2025-11-27 10:19:49 [main] INFO : Approver Worklist Page Resolved Status Filter Test
+2025-11-27 10:20:49 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Select All']/parent::label/input"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [214d6a7dffe3550c9e16a9f65492017e, findElement {using=xpath, value=//span[text()='Select All']/parent::label/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60312}, goog:processID: 9244, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60312/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 214d6a7dffe3550c9e16a9f65492017e
+2025-11-27 10:20:50 [main] ERROR: ❌ Search validation failed. Mismatched Value found or no Records Available: Resolved
+2025-11-27 10:20:50 [main] INFO : Approver Worklist Page Closed Status Filter Test
+2025-11-27 10:21:50 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Select All']/parent::label/input"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [214d6a7dffe3550c9e16a9f65492017e, findElement {using=xpath, value=//span[text()='Select All']/parent::label/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60312}, goog:processID: 9244, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60312/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 214d6a7dffe3550c9e16a9f65492017e
+2025-11-27 10:21:51 [main] ERROR: ❌ Search validation failed. Mismatched Value found or no Records Available: Closed
+2025-11-27 10:21:53 [main] INFO : Approver Worklist Page Priority Filter Test
+2025-11-27 10:21:54 [main] INFO : Approver Worklist Page High Priority Filter Test
+2025-11-27 10:21:56 [main] INFO : ✅ Search validation passed. All Values match: High
+2025-11-27 10:21:56 [main] INFO : Approver Worklist Page Low Priority Filter Test
+2025-11-27 10:21:58 [main] INFO : ✅ Search validation passed. All Values match: Low
+2025-11-27 10:21:58 [main] INFO : Approver Worklist Page Medium Priority Filter Test
+2025-11-27 10:22:00 [main] INFO : ✅ Search validation passed. All Values match: Medium
+2025-11-27 10:22:03 [main] INFO : Approver Worklist Page Department Filter Test
+2025-11-27 10:22:03 [main] INFO : Approver Worklist Page Business Technology Group Department Filter Test
+2025-11-27 10:22:05 [main] INFO : ✅ Search validation passed. All Values match: Business Technology Group
+2025-11-27 10:22:05 [main] INFO : Approver Worklist Page DSIL Department Filter Test
+2025-11-27 10:22:07 [main] INFO : ✅ Search validation passed. All Values match: DSIL
+2025-11-27 10:22:07 [main] INFO : Approver Worklist Page Data Science and AI Department Filter Test
+2025-11-27 10:22:09 [main] INFO : ✅ Search validation passed. All Values match: Data Science and AI
+2025-11-27 10:22:11 [main] INFO : Approver Worklist Page Stages Filter Test
+2025-11-27 10:22:12 [main] INFO : Approver Worklist Page Department Approver Stages Filter Test
+2025-11-27 10:22:13 [main] INFO : ✅ Search validation passed. All Values match: Department Approver
+2025-11-27 10:22:14 [main] INFO : Approver Worklist Page BTG Approver Stages Filter Test
+2025-11-27 10:22:15 [main] INFO : ✅ Search validation passed. All Values match: BTG Approver
+2025-11-27 10:22:16 [main] INFO : Approver Worklist Page IT Approver Stages Filter Test
+2025-11-27 10:22:17 [main] INFO : ✅ Search validation passed. All Values match: IT Approver
+2025-11-27 10:22:20 [main] INFO : Approver Worklist Search Functionality Test
+2025-11-27 10:22:22 [main] INFO : ✅ Search validation passed. All Values match: Phani Kumar Maddi
+2025-11-27 10:22:24 [main] INFO : Approver Worklist Search Non existing  Functionality Test
+2025-11-27 10:22:26 [main] INFO : No records Found :No Records Found
+2025-11-27 10:22:28 [main] INFO : Navigated to /user/tickets
+2025-11-27 10:22:36 [main] INFO : Header is valid: Column Options
+2025-11-27 10:22:36 [main] INFO : Column Option Department visibility is already Hidden 
+2025-11-27 10:22:37 [main] INFO : Column Option Manager visibility is already Hidden 
+2025-11-27 10:22:37 [main] INFO : Column Option Priority visibility is Hidden 
+2025-11-27 10:22:43 [main] INFO : My Tickets Page Priority Filter Test
+2025-11-27 10:22:45 [main] INFO : Header is valid: My Tickets
+2025-11-27 10:22:46 [main] INFO : My Tickets Page High Priority Filter Test
+2025-11-27 10:22:48 [main] INFO : ✅ Search validation passed. All Values match: High
+2025-11-27 10:22:48 [main] INFO : My Tickets Page Low Priority Filter Test
+2025-11-27 10:22:50 [main] INFO : ✅ Search validation passed. All Values match: Low
+2025-11-27 10:22:50 [main] INFO : My Tickets Page Medium Priority Filter Test
+2025-11-27 10:22:52 [main] INFO : ✅ Search validation passed. All Values match: Medium
+2025-11-27 10:22:56 [main] INFO : My Tickets Page Current Stages Filter Test
+2025-11-27 10:22:57 [main] INFO : My Tickets Page Department Approver Stages Filter Test
+2025-11-27 10:22:59 [main] INFO : ✅ Search validation passed. All Values match: Department Approver
+2025-11-27 10:22:59 [main] INFO : My Tickets Page BTG Approver Stages Filter Test
+2025-11-27 10:23:01 [main] INFO : ✅ Search validation passed. All Values match: BTG Approver
+2025-11-27 10:23:01 [main] INFO : My Tickets Page IT Approver Stages Filter Test
+2025-11-27 10:23:03 [main] INFO : ✅ Search validation passed. All Values match: IT Approver
+2025-11-27 10:23:06 [main] INFO : My Tickets Page Stages Filter Test
+2025-11-27 10:23:07 [main] INFO : My Tickets Page Pending Status Filter Test
+2025-11-27 10:23:09 [main] INFO : ✅ Search validation passed. All Values match: Pending
+2025-11-27 10:23:09 [main] INFO : My Tickets Page Rejected Status Filter Test
+2025-11-27 10:23:11 [main] INFO : ✅ Search validation passed. All Values match: Rejected
+2025-11-27 10:23:11 [main] INFO : My Tickets Page Closed Status Filter Test
+2025-11-27 10:23:13 [main] INFO : ✅ Search validation passed. All Values match: Closed
+2025-11-27 10:23:16 [main] INFO : My Tickets Search Functionality Test
+2025-11-27 10:23:18 [main] INFO : ✅ Search validation passed. All Values match: Phani Kumar Maddi
+2025-11-27 10:23:20 [main] INFO : My Tickets Search Non existing  Functionality Test
+2025-11-27 10:23:21 [main] INFO : No records Found :No Records Found
+2025-11-27 10:23:28 [main] INFO : Navigated to /approver/dashboard
+2025-11-27 10:23:34 [main] INFO : Approver Dashboard Page test
+2025-11-27 10:23:37 [main] INFO : Header is valid: Dashboard Overview
+2025-11-27 10:23:38 [main] INFO : Header is valid: Ticket Analytics
+2025-11-27 10:23:38 [main] INFO : Approver Dashboard Page Cards test
+2025-11-27 10:23:39 [main] INFO : Card Detail: TOTAL TICKETS
+680
+2025-11-27 10:23:39 [main] INFO : Card Detail: RESOLVED
+52
+2025-11-27 10:23:39 [main] INFO : Card Detail: APPROVED
+108
+2025-11-27 10:23:39 [main] INFO : Card Detail: PENDING
+453
+2025-11-27 10:23:39 [main] INFO : Card Detail: REJECTED
+67
+2025-11-27 10:23:39 [main] INFO : Approver Dashboard Page  Chart Title test
+2025-11-27 10:23:40 [main] INFO : Chart Title in Dashboard: Ticket Type Distribution
+2025-11-27 10:23:40 [main] INFO : Chart Title in Dashboard: Tickets by Status
+2025-11-27 10:23:40 [main] INFO : Chart Title in Dashboard: Pending Tickets by Stage
+2025-11-27 10:23:40 [main] INFO : Chart Title in Dashboard: Tickets by Priority
+2025-11-27 10:23:40 [main] INFO : Chart Title in Dashboard: Monthly Ticket Trends
+2025-11-27 10:23:42 [main] INFO : IT Member role Available
+2025-11-27 10:23:42 [main] INFO : Implementation Queue Configure Columns Options Filters
+2025-11-27 10:23:45 [main] INFO : Navigated to /implementation-queue
+2025-11-27 10:23:53 [main] INFO : Header is valid: Implementation Queue
+2025-11-27 10:24:00 [main] INFO : Header is valid: Column Options
+2025-11-27 10:24:00 [main] INFO : Verifying Ticket ID Column Option
+2025-11-27 10:24:00 [main] WARN : Column Option visibility is View
+2025-11-27 10:24:01 [main] INFO : Column Option visibility is View 
+2025-11-27 10:24:03 [main] INFO : Verifying Status Column Option
+2025-11-27 10:24:03 [main] WARN : Column Option visibility is View
+2025-11-27 10:24:05 [main] INFO : Column Option visibility is View 
+2025-11-27 10:24:11 [main] INFO : Header is valid: Column Options
+2025-11-27 10:24:15 [main] INFO : Implementation Queue Page Status Filter Test
+2025-11-27 10:24:16 [main] INFO : Implementation Queue Page Resolved Status Filter Test
+2025-11-27 10:25:16 [main] ERROR: Selected Filter not Available
+2025-11-27 10:25:17 [main] ERROR: ❌ Search validation failed. Mismatched Value found or no Records Available: Resolved
+2025-11-27 10:25:17 [main] INFO : Implementation Queue Page Pending Status Filter Test
+2025-11-27 10:26:18 [main] ERROR: Selected Filter not Available
+2025-11-27 10:26:18 [main] INFO : ✅ Search validation passed. All Values match: Pending
+2025-11-27 10:26:19 [main] INFO : Implementation Queue Page Closed Status Filter Test
+2025-11-27 10:27:19 [main] ERROR: Selected Filter not Available
+2025-11-27 10:27:20 [main] ERROR: ❌ Search validation failed. Mismatched Value found or no Records Available: Closed
+2025-11-27 10:28:20 [main] ERROR: Selected Filter not Available
+2025-11-27 10:28:21 [main] INFO : Implementation Queue Page Priority Filter Test
+2025-11-27 10:28:22 [main] INFO : Implementation Queue Page High Priority Filter Test
+2025-11-27 10:28:24 [main] INFO : ✅ Search validation passed. All Values match: High
+2025-11-27 10:28:24 [main] INFO : Implementation Queue Page Low Priority Filter Test
+2025-11-27 10:28:26 [main] INFO : ✅ Search validation passed. All Values match: Low
+2025-11-27 10:28:26 [main] INFO : Implementation Queue Page Critical Priority Filter Test
+2025-11-27 10:28:28 [main] INFO : ✅ Search validation passed. All Values match: Critical
+2025-11-27 10:28:30 [main] INFO : Implementation Queue Search Functionality Test
+2025-11-27 10:28:32 [main] INFO : ✅ Search validation passed. All Values match: Phani Kumar Maddi
+2025-11-27 10:28:34 [main] INFO : Implementation Queue Search Non existing  Functionality Test
+2025-11-27 10:28:36 [main] INFO : No records Found :No Records Found
+2025-11-27 10:28:39 [main] INFO : Testing Ended
+2025-11-27 10:28:39 [main] INFO : ***********
+2025-11-27 13:19:14 [main] INFO : Launching Chrome Browser
+2025-11-27 13:19:15 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-27 13:19:18 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-27 13:19:20 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-27 13:19:57 [main] INFO : Logged in to Intelli Serve Application
+2025-11-27 13:20:03 [main] INFO : IT Approver role Available
+2025-11-27 13:20:04 [main] INFO : BTG Approver role Available
+2025-11-27 13:20:29 [main] INFO : Navigated to /approver-tickets
+2025-11-27 13:20:29 [main] INFO : Approver Worklist Page Configure Columns Options Filters
+2025-11-27 13:20:30 [main] INFO : Header is valid: IT Approver Worklist
+2025-11-27 13:20:38 [main] INFO : Header is valid: Column Options
+2025-11-27 13:20:38 [main] INFO : Verifying Ticket ID Column Option
+2025-11-27 13:20:40 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-27 13:20:40 [main] INFO : Column Option visibility is View 
+2025-11-27 13:20:42 [main] INFO : Verifying Status Column Option
+2025-11-27 13:20:44 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-27 13:20:45 [main] INFO : Column Option visibility is View 
+2025-11-27 13:20:52 [main] INFO : Header is valid: Column Options
+2025-11-27 13:20:56 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-27 13:20:58 [main] INFO : Refresh Successful Messgae: Column preferences saved successfully
+2025-11-27 13:20:59 [main] INFO : Approver Worklist Page Status Filter Test
+2025-11-27 13:20:59 [main] INFO : Approver Worklist Page Pending Status Filter Test
+2025-11-27 13:22:00 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Select All']/parent::label/input"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [809b85f344b39e1a66136e47ca917850, findElement {value=//span[text()='Select All']/parent::label/input, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49968}, goog:processID: 7944, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49968/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 809b85f344b39e1a66136e47ca917850
+2025-11-27 13:22:01 [main] INFO : ✅ Search validation passed. All Values match: Pending
+2025-11-27 13:22:01 [main] INFO : Approver Worklist Page Rejected Status Filter Test
+2025-11-27 13:23:02 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Select All']/parent::label/input"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [809b85f344b39e1a66136e47ca917850, findElement {value=//span[text()='Select All']/parent::label/input, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49968}, goog:processID: 7944, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49968/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 809b85f344b39e1a66136e47ca917850
+2025-11-27 13:23:02 [main] ERROR: ❌ Search validation failed. Mismatched Value found or no Records Available: Rejected
+2025-11-27 13:23:03 [main] INFO : Approver Worklist Page Resolved Status Filter Test
+2025-11-27 13:24:03 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Select All']/parent::label/input"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [809b85f344b39e1a66136e47ca917850, findElement {value=//span[text()='Select All']/parent::label/input, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49968}, goog:processID: 7944, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49968/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 809b85f344b39e1a66136e47ca917850
+2025-11-27 13:24:04 [main] ERROR: ❌ Search validation failed. Mismatched Value found or no Records Available: Resolved
+2025-11-27 13:24:04 [main] INFO : Approver Worklist Page Closed Status Filter Test
+2025-11-27 13:25:05 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Select All']/parent::label/input"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [809b85f344b39e1a66136e47ca917850, findElement {value=//span[text()='Select All']/parent::label/input, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49968}, goog:processID: 7944, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49968/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 809b85f344b39e1a66136e47ca917850
+2025-11-27 13:25:05 [main] ERROR: ❌ Search validation failed. Mismatched Value found or no Records Available: Closed
+2025-11-27 13:25:08 [main] INFO : Approver Worklist Page Priority Filter Test
+2025-11-27 13:25:08 [main] INFO : Approver Worklist Page High Priority Filter Test
+2025-11-27 13:25:10 [main] INFO : ✅ Search validation passed. All Values match: High
+2025-11-27 13:25:10 [main] INFO : Approver Worklist Page Low Priority Filter Test
+2025-11-27 13:25:12 [main] INFO : ✅ Search validation passed. All Values match: Low
+2025-11-27 13:25:13 [main] INFO : Approver Worklist Page Medium Priority Filter Test
+2025-11-27 13:25:15 [main] INFO : ✅ Search validation passed. All Values match: Medium
+2025-11-27 13:25:17 [main] INFO : Approver Worklist Page Department Filter Test
+2025-11-27 13:25:18 [main] INFO : Approver Worklist Page Business Technology Group Department Filter Test
+2025-11-27 13:25:20 [main] INFO : ✅ Search validation passed. All Values match: Business Technology Group
+2025-11-27 13:25:20 [main] INFO : Approver Worklist Page DSIL Department Filter Test
+2025-11-27 13:25:21 [main] INFO : ✅ Search validation passed. All Values match: DSIL
+2025-11-27 13:25:22 [main] INFO : Approver Worklist Page Data Science and AI Department Filter Test
+2025-11-27 13:25:24 [main] INFO : ✅ Search validation passed. All Values match: Data Science and AI
+2025-11-27 13:25:26 [main] INFO : Approver Worklist Page Stages Filter Test
+2025-11-27 13:25:27 [main] INFO : Approver Worklist Page Department Approver Stages Filter Test
+2025-11-27 13:25:28 [main] INFO : ✅ Search validation passed. All Values match: Department Approver
+2025-11-27 13:25:29 [main] INFO : Approver Worklist Page BTG Approver Stages Filter Test
+2025-11-27 13:25:30 [main] INFO : ✅ Search validation passed. All Values match: BTG Approver
+2025-11-27 13:25:31 [main] INFO : Approver Worklist Page IT Approver Stages Filter Test
+2025-11-27 13:25:33 [main] INFO : ✅ Search validation passed. All Values match: IT Approver
+2025-11-27 13:25:35 [main] INFO : Approver Worklist Search Functionality Test
+2025-11-27 13:25:37 [main] INFO : ✅ Search validation passed. All Values match: Phani Kumar Maddi
+2025-11-27 13:25:39 [main] INFO : Approver Worklist Search Non existing  Functionality Test
+2025-11-27 13:25:41 [main] INFO : No records Found :No Records Found
+2025-11-27 13:25:44 [main] INFO : Navigated to /user/tickets
+2025-11-27 13:25:53 [main] INFO : Header is valid: Column Options
+2025-11-27 13:25:53 [main] ERROR: Column Option Department visibility is already Hidden 
+2025-11-27 13:25:53 [main] ERROR: Column Option Manager visibility is already Hidden 
+2025-11-27 13:25:54 [main] INFO : Column Option Priority visibility is Hidden 
+2025-11-27 13:25:59 [main] INFO : My Tickets Page Priority Filter Test
+2025-11-27 13:26:02 [main] INFO : Header is valid: My Tickets
+2025-11-27 13:26:02 [main] INFO : My Tickets Page High Priority Filter Test
+2025-11-27 13:26:04 [main] INFO : ✅ Search validation passed. All Values match: High
+2025-11-27 13:26:04 [main] INFO : My Tickets Page Low Priority Filter Test
+2025-11-27 13:26:06 [main] INFO : ✅ Search validation passed. All Values match: Low
+2025-11-27 13:26:06 [main] INFO : My Tickets Page Medium Priority Filter Test
+2025-11-27 13:26:08 [main] INFO : ✅ Search validation passed. All Values match: Medium
+2025-11-27 13:26:13 [main] INFO : My Tickets Page Current Stages Filter Test
+2025-11-27 13:26:13 [main] INFO : My Tickets Page Department Approver Stages Filter Test
+2025-11-27 13:26:15 [main] INFO : ✅ Search validation passed. All Values match: Department Approver
+2025-11-27 13:26:15 [main] INFO : My Tickets Page BTG Approver Stages Filter Test
+2025-11-27 13:26:17 [main] INFO : ✅ Search validation passed. All Values match: BTG Approver
+2025-11-27 13:26:17 [main] INFO : My Tickets Page IT Approver Stages Filter Test
+2025-11-27 13:26:19 [main] INFO : ✅ Search validation passed. All Values match: IT Approver
+2025-11-27 13:26:23 [main] INFO : My Tickets Page Stages Filter Test
+2025-11-27 13:26:23 [main] INFO : My Tickets Page Pending Status Filter Test
+2025-11-27 13:26:25 [main] INFO : ✅ Search validation passed. All Values match: Pending
+2025-11-27 13:26:25 [main] INFO : My Tickets Page Rejected Status Filter Test
+2025-11-27 13:26:27 [main] INFO : ✅ Search validation passed. All Values match: Rejected
+2025-11-27 13:26:27 [main] INFO : My Tickets Page Closed Status Filter Test
+2025-11-27 13:26:29 [main] INFO : ✅ Search validation passed. All Values match: Closed
+2025-11-27 13:26:33 [main] INFO : My Tickets Search Functionality Test
+2025-11-27 13:26:35 [main] INFO : ✅ Search validation passed. All Values match: Phani Kumar Maddi
+2025-11-27 13:26:36 [main] INFO : My Tickets Search Non existing  Functionality Test
+2025-11-27 13:26:38 [main] INFO : No records Found :No Records Found
+2025-11-27 13:26:45 [main] INFO : Navigated to /approver/dashboard
+2025-11-27 13:26:50 [main] INFO : Approver Dashboard Page test
+2025-11-27 13:26:57 [main] INFO : Header is valid: Dashboard Overview
+2025-11-27 13:26:58 [main] INFO : Header is valid: Ticket Analytics
+2025-11-27 13:26:58 [main] INFO : Approver Dashboard Page Cards test
+2025-11-27 13:26:59 [main] INFO : Card Detail: TOTAL TICKETS
+680
+2025-11-27 13:26:59 [main] INFO : Card Detail: RESOLVED
+53
+2025-11-27 13:26:59 [main] INFO : Card Detail: APPROVED
+108
+2025-11-27 13:26:59 [main] INFO : Card Detail: PENDING
+452
+2025-11-27 13:26:59 [main] INFO : Card Detail: REJECTED
+67
+2025-11-27 13:27:00 [main] INFO : Approver Dashboard Page  Chart Title test
+2025-11-27 13:27:00 [main] INFO : Chart Title in Dashboard: Ticket Type Distribution
+2025-11-27 13:27:00 [main] INFO : Chart Title in Dashboard: Tickets by Status
+2025-11-27 13:27:00 [main] INFO : Chart Title in Dashboard: Pending Tickets by Stage
+2025-11-27 13:27:00 [main] INFO : Chart Title in Dashboard: Tickets by Priority
+2025-11-27 13:27:00 [main] INFO : Chart Title in Dashboard: Monthly Ticket Trends
+2025-11-27 13:27:02 [main] INFO : IT Member role Available
+2025-11-27 13:27:02 [main] INFO : Implementation Queue Configure Columns Options Filters
+2025-11-27 13:27:05 [main] INFO : Navigated to /implementation-queue
+2025-11-27 13:27:25 [main] INFO : Header is valid: Implementation Queue
+2025-11-27 13:27:33 [main] INFO : Header is valid: Column Options
+2025-11-27 13:27:33 [main] INFO : Verifying Ticket ID Column Option
+2025-11-27 13:27:34 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-27 13:27:35 [main] INFO : Column Option visibility is View 
+2025-11-27 13:27:37 [main] INFO : Verifying Status Column Option
+2025-11-27 13:27:38 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-27 13:27:39 [main] INFO : Column Option visibility is View 
+2025-11-27 13:27:46 [main] INFO : Header is valid: Column Options
+2025-11-27 13:27:50 [main] INFO : Implementation Queue Page Status Filter Test
+2025-11-27 13:27:50 [main] INFO : Implementation Queue Page Resolved Status Filter Test
+2025-11-27 13:28:51 [main] ERROR: Selected Filter not Available
+2025-11-27 13:28:51 [main] ERROR: ❌ Search validation failed. Mismatched Value found or no Records Available: Resolved
+2025-11-27 13:28:52 [main] INFO : Implementation Queue Page Pending Status Filter Test
+2025-11-27 13:29:52 [main] ERROR: Selected Filter not Available
+2025-11-27 13:29:53 [main] INFO : ✅ Search validation passed. All Values match: Pending
+2025-11-27 13:29:53 [main] INFO : Implementation Queue Page Closed Status Filter Test
+2025-11-27 13:30:54 [main] ERROR: Selected Filter not Available
+2025-11-27 13:30:54 [main] ERROR: ❌ Search validation failed. Mismatched Value found or no Records Available: Closed
+2025-11-27 13:31:55 [main] ERROR: Selected Filter not Available
+2025-11-27 13:31:56 [main] INFO : Implementation Queue Page Priority Filter Test
+2025-11-27 13:31:57 [main] INFO : Implementation Queue Page High Priority Filter Test
+2025-11-27 13:31:59 [main] INFO : ✅ Search validation passed. All Values match: High
+2025-11-27 13:31:59 [main] INFO : Implementation Queue Page Low Priority Filter Test
+2025-11-27 13:32:01 [main] INFO : ✅ Search validation passed. All Values match: Low
+2025-11-27 13:32:01 [main] INFO : Implementation Queue Page Critical Priority Filter Test
+2025-11-27 13:32:03 [main] INFO : ✅ Search validation passed. All Values match: Critical
+2025-11-27 13:32:06 [main] INFO : Implementation Queue Search Functionality Test
+2025-11-27 13:32:08 [main] INFO : ✅ Search validation passed. All Values match: Phani Kumar Maddi
+2025-11-27 13:32:09 [main] INFO : Implementation Queue Search Non existing  Functionality Test
+2025-11-27 13:32:11 [main] INFO : No records Found :No Records Found
+2025-11-27 13:32:14 [main] INFO : Testing Ended
+2025-11-27 13:32:14 [main] INFO : ***********
+2025-11-27 14:47:03 [main] INFO : Launching Chrome Browser
+2025-11-27 14:47:03 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-27 14:47:06 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-27 14:47:08 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-27 14:47:42 [main] INFO : Logged in to Intelli Serve Application
+2025-11-27 14:47:48 [main] INFO : IT Approver role Available
+2025-11-27 14:47:49 [main] INFO : BTG Approver role Available
+2025-11-27 14:47:52 [main] INFO : Navigated to /approver-tickets
+2025-11-27 14:47:52 [main] INFO : Approver Worklist Page Configure Columns Options Filters
+2025-11-27 14:47:53 [main] INFO : Header is valid: IT Approver Worklist
+2025-11-27 14:48:00 [main] INFO : Header is valid: Column Options
+2025-11-27 14:48:00 [main] INFO : Verifying Ticket ID Column Option
+2025-11-27 14:48:00 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-27 14:48:02 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-27 14:48:03 [main] INFO : Column Option Ticket ID visibility is View 
+2025-11-27 14:48:04 [main] INFO : Verifying Status Column Option
+2025-11-27 14:48:05 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-27 14:48:06 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-27 14:48:07 [main] INFO : Column Option Status visibility is View 
+2025-11-27 14:48:14 [main] INFO : Header is valid: Column Options
+2025-11-27 14:48:17 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-27 14:48:19 [main] INFO : Refresh Successful Messgae: Column preferences saved successfully
+2025-11-27 14:48:20 [main] INFO : Approver Worklist Page Status Filter Test
+2025-11-27 14:48:21 [main] INFO : Approver Worklist Page Pending Status Filter Test
+2025-11-27 14:48:22 [main] ERROR: Test Failed :invalid selector: Unable to locate an element with the xpath expression //span[text()='Select All]/preceding-sibling::input[@type='checkbox'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[text()='Select All]/preceding-sibling::input[@type='checkbox']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [168600af455bdfddb53c7db5a9e1a7fd, findElements {using=xpath, value=//span[text()='Select All]/preceding-sibling::input[@type='checkbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60470}, goog:processID: 18928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60470/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 168600af455bdfddb53c7db5a9e1a7fd
+2025-11-27 14:48:22 [main] ERROR: Test Failed :invalid selector: Unable to locate an element with the xpath expression //span[text()='Select All]/preceding-sibling::input[@type='checkbox'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[text()='Select All]/preceding-sibling::input[@type='checkbox']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [168600af455bdfddb53c7db5a9e1a7fd, findElements {using=xpath, value=//span[text()='Select All]/preceding-sibling::input[@type='checkbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60470}, goog:processID: 18928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60470/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 168600af455bdfddb53c7db5a9e1a7fd
+2025-11-27 14:48:22 [main] ERROR: Test Failed :invalid selector: Unable to locate an element with the xpath expression //span[text()='Pending]/preceding-sibling::input[@type='checkbox'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[text()='Pending]/preceding-sibling::input[@type='checkbox']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [168600af455bdfddb53c7db5a9e1a7fd, findElements {using=xpath, value=//span[text()='Pending]/preceding-sibling::input[@type='checkbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60470}, goog:processID: 18928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60470/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 168600af455bdfddb53c7db5a9e1a7fd
+2025-11-27 14:48:23 [main] ERROR: ❌ Filter validation failed. Mismatched Value found or no Records Available: Pending
+2025-11-27 14:48:24 [main] INFO : Approver Worklist Page Rejected Status Filter Test
+2025-11-27 14:48:25 [main] ERROR: Test Failed :invalid selector: Unable to locate an element with the xpath expression //span[text()='Select All]/preceding-sibling::input[@type='checkbox'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[text()='Select All]/preceding-sibling::input[@type='checkbox']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [168600af455bdfddb53c7db5a9e1a7fd, findElements {using=xpath, value=//span[text()='Select All]/preceding-sibling::input[@type='checkbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60470}, goog:processID: 18928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60470/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 168600af455bdfddb53c7db5a9e1a7fd
+2025-11-27 14:48:25 [main] ERROR: Test Failed :invalid selector: Unable to locate an element with the xpath expression //span[text()='Select All]/preceding-sibling::input[@type='checkbox'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[text()='Select All]/preceding-sibling::input[@type='checkbox']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [168600af455bdfddb53c7db5a9e1a7fd, findElements {using=xpath, value=//span[text()='Select All]/preceding-sibling::input[@type='checkbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60470}, goog:processID: 18928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60470/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 168600af455bdfddb53c7db5a9e1a7fd
+2025-11-27 14:48:25 [main] ERROR: Test Failed :invalid selector: Unable to locate an element with the xpath expression //span[text()='Rejected]/preceding-sibling::input[@type='checkbox'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[text()='Rejected]/preceding-sibling::input[@type='checkbox']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [168600af455bdfddb53c7db5a9e1a7fd, findElements {using=xpath, value=//span[text()='Rejected]/preceding-sibling::input[@type='checkbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60470}, goog:processID: 18928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60470/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 168600af455bdfddb53c7db5a9e1a7fd
+2025-11-27 14:48:27 [main] ERROR: ❌ Filter validation failed. Mismatched Value found or no Records Available: Rejected
+2025-11-27 14:48:27 [main] INFO : Approver Worklist Page Resolved Status Filter Test
+2025-11-27 14:48:28 [main] ERROR: Test Failed :invalid selector: Unable to locate an element with the xpath expression //span[text()='Select All]/preceding-sibling::input[@type='checkbox'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[text()='Select All]/preceding-sibling::input[@type='checkbox']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [168600af455bdfddb53c7db5a9e1a7fd, findElements {using=xpath, value=//span[text()='Select All]/preceding-sibling::input[@type='checkbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60470}, goog:processID: 18928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60470/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 168600af455bdfddb53c7db5a9e1a7fd
+2025-11-27 14:48:28 [main] ERROR: Test Failed :invalid selector: Unable to locate an element with the xpath expression //span[text()='Select All]/preceding-sibling::input[@type='checkbox'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[text()='Select All]/preceding-sibling::input[@type='checkbox']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [168600af455bdfddb53c7db5a9e1a7fd, findElements {using=xpath, value=//span[text()='Select All]/preceding-sibling::input[@type='checkbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60470}, goog:processID: 18928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60470/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 168600af455bdfddb53c7db5a9e1a7fd
+2025-11-27 14:48:28 [main] ERROR: Test Failed :invalid selector: Unable to locate an element with the xpath expression //span[text()='Resolved]/preceding-sibling::input[@type='checkbox'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[text()='Resolved]/preceding-sibling::input[@type='checkbox']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [168600af455bdfddb53c7db5a9e1a7fd, findElements {using=xpath, value=//span[text()='Resolved]/preceding-sibling::input[@type='checkbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60470}, goog:processID: 18928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60470/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 168600af455bdfddb53c7db5a9e1a7fd
+2025-11-27 14:48:30 [main] ERROR: ❌ Filter validation failed. Mismatched Value found or no Records Available: Resolved
+2025-11-27 14:48:30 [main] INFO : Approver Worklist Page Closed Status Filter Test
+2025-11-27 14:48:31 [main] ERROR: Test Failed :invalid selector: Unable to locate an element with the xpath expression //span[text()='Select All]/preceding-sibling::input[@type='checkbox'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[text()='Select All]/preceding-sibling::input[@type='checkbox']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [168600af455bdfddb53c7db5a9e1a7fd, findElements {using=xpath, value=//span[text()='Select All]/preceding-sibling::input[@type='checkbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60470}, goog:processID: 18928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60470/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 168600af455bdfddb53c7db5a9e1a7fd
+2025-11-27 14:48:31 [main] ERROR: Test Failed :invalid selector: Unable to locate an element with the xpath expression //span[text()='Select All]/preceding-sibling::input[@type='checkbox'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[text()='Select All]/preceding-sibling::input[@type='checkbox']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [168600af455bdfddb53c7db5a9e1a7fd, findElements {using=xpath, value=//span[text()='Select All]/preceding-sibling::input[@type='checkbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60470}, goog:processID: 18928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60470/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 168600af455bdfddb53c7db5a9e1a7fd
+2025-11-27 14:48:32 [main] ERROR: Test Failed :invalid selector: Unable to locate an element with the xpath expression //span[text()='Closed]/preceding-sibling::input[@type='checkbox'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[text()='Closed]/preceding-sibling::input[@type='checkbox']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [168600af455bdfddb53c7db5a9e1a7fd, findElements {using=xpath, value=//span[text()='Closed]/preceding-sibling::input[@type='checkbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60470}, goog:processID: 18928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60470/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 168600af455bdfddb53c7db5a9e1a7fd
+2025-11-27 14:48:33 [main] ERROR: ❌ Filter validation failed. Mismatched Value found or no Records Available: Closed
+2025-11-27 14:48:35 [main] INFO : Approver Worklist Page Priority Filter Test
+2025-11-27 14:48:36 [main] INFO : Approver Worklist Page High Priority Filter Test
+2025-11-27 14:48:37 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-11-27 14:48:38 [main] INFO : Approver Worklist Page Low Priority Filter Test
+2025-11-27 14:48:39 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-11-27 14:48:40 [main] INFO : Approver Worklist Page Medium Priority Filter Test
+2025-11-27 14:49:29 [main] INFO : Launching Chrome Browser
+2025-11-27 14:49:30 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-27 14:49:32 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-27 14:49:34 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-27 14:50:13 [main] INFO : Logged in to Intelli Serve Application
+2025-11-27 14:50:19 [main] INFO : IT Approver role Available
+2025-11-27 14:50:19 [main] INFO : BTG Approver role Available
+2025-11-27 14:50:23 [main] INFO : Navigated to /approver-tickets
+2025-11-27 14:50:23 [main] INFO : Approver Worklist Page Configure Columns Options Filters
+2025-11-27 14:50:24 [main] INFO : Header is valid: IT Approver Worklist
+2025-11-27 14:50:31 [main] INFO : Header is valid: Column Options
+2025-11-27 14:50:31 [main] INFO : Verifying Ticket ID Column Option
+2025-11-27 14:50:31 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-27 14:50:33 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-27 14:50:33 [main] INFO : Column Option Ticket ID visibility is View 
+2025-11-27 14:50:35 [main] INFO : Verifying Status Column Option
+2025-11-27 14:50:35 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-27 14:50:37 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-27 14:50:38 [main] INFO : Column Option Status visibility is View 
+2025-11-27 14:50:44 [main] INFO : Header is valid: Column Options
+2025-11-27 14:50:48 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-27 14:50:50 [main] INFO : Refresh Successful Messgae: Column preferences saved successfully
+2025-11-27 14:50:51 [main] INFO : Approver Worklist Page Status Filter Test
+2025-11-27 14:50:52 [main] INFO : Approver Worklist Page Pending Status Filter Test
+2025-11-27 14:50:55 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-11-27 14:50:55 [main] INFO : Approver Worklist Page Rejected Status Filter Test
+2025-11-27 14:50:58 [main] INFO : ✅ Filter validation passed. All Values match: Rejected
+2025-11-27 14:50:58 [main] INFO : Approver Worklist Page Resolved Status Filter Test
+2025-11-27 14:51:02 [main] INFO : ✅ Filter validation passed. All Values match: Resolved
+2025-11-27 14:51:02 [main] INFO : Approver Worklist Page Closed Status Filter Test
+2025-11-27 14:51:05 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-11-27 14:51:07 [main] INFO : Approver Worklist Page Priority Filter Test
+2025-11-27 14:51:08 [main] INFO : Approver Worklist Page High Priority Filter Test
+2025-11-27 14:51:10 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-11-27 14:51:10 [main] INFO : Approver Worklist Page Low Priority Filter Test
+2025-11-27 14:51:12 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-11-27 14:51:12 [main] INFO : Approver Worklist Page Medium Priority Filter Test
+2025-11-27 14:51:14 [main] INFO : ✅ Filter validation passed. All Values match: Medium
+2025-11-27 14:51:17 [main] INFO : Approver Worklist Page Department Filter Test
+2025-11-27 14:51:17 [main] INFO : Approver Worklist Page Business Technology Group Department Filter Test
+2025-11-27 14:51:19 [main] INFO : ✅ Filter validation passed. All Values match: Business Technology Group
+2025-11-27 14:51:19 [main] INFO : Approver Worklist Page DSIL Department Filter Test
+2025-11-27 14:51:21 [main] INFO : ✅ Filter validation passed. All Values match: DSIL
+2025-11-27 14:51:21 [main] INFO : Approver Worklist Page Data Science and AI Department Filter Test
+2025-11-27 14:51:23 [main] INFO : ✅ Filter validation passed. All Values match: Data Science and AI
+2025-11-27 14:51:25 [main] INFO : Approver Worklist Page Stages Filter Test
+2025-11-27 14:51:26 [main] INFO : Approver Worklist Page Department Approver Stages Filter Test
+2025-11-27 14:51:28 [main] INFO : ✅ Filter validation passed. All Values match: Department Approver
+2025-11-27 14:51:28 [main] INFO : Approver Worklist Page BTG Approver Stages Filter Test
+2025-11-27 14:51:30 [main] INFO : ✅ Filter validation passed. All Values match: BTG Approver
+2025-11-27 14:51:30 [main] INFO : Approver Worklist Page IT Approver Stages Filter Test
+2025-11-27 14:51:32 [main] INFO : ✅ Filter validation passed. All Values match: IT Approver
+2025-11-27 14:51:34 [main] INFO : Approver Worklist Search Functionality Test
+2025-11-27 14:51:36 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-11-27 14:51:38 [main] INFO : Approver Worklist Search Non existing  Functionality Test
+2025-11-27 14:51:40 [main] INFO : No records Found :No Records Found
+2025-11-27 14:51:43 [main] INFO : Navigated to /user/tickets
+2025-11-27 14:51:50 [main] INFO : Header is valid: Column Options
+2025-11-27 14:51:50 [main] ERROR: Column Option Department visibility is already Hidden 
+2025-11-27 14:51:51 [main] ERROR: Column Option Manager visibility is already Hidden 
+2025-11-27 14:51:52 [main] INFO : Column Option Priority visibility is Hidden 
+2025-11-27 14:51:57 [main] INFO : My Tickets Page Priority Filter Test
+2025-11-27 14:52:00 [main] INFO : Header is valid: My Tickets
+2025-11-27 14:52:00 [main] INFO : My Tickets Page High Priority Filter Test
+2025-11-27 14:52:02 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-11-27 14:52:02 [main] INFO : My Tickets Page Low Priority Filter Test
+2025-11-27 14:52:04 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-11-27 14:52:04 [main] INFO : My Tickets Page Medium Priority Filter Test
+2025-11-27 14:52:06 [main] INFO : ✅ Filter validation passed. All Values match: Medium
+2025-11-27 14:52:10 [main] INFO : My Tickets Page Current Stages Filter Test
+2025-11-27 14:52:11 [main] INFO : My Tickets Page Department Approver Stages Filter Test
+2025-11-27 14:52:13 [main] INFO : ✅ Filter validation passed. All Values match: Department Approver
+2025-11-27 14:52:13 [main] INFO : My Tickets Page BTG Approver Stages Filter Test
+2025-11-27 14:52:15 [main] INFO : ✅ Filter validation passed. All Values match: BTG Approver
+2025-11-27 14:52:15 [main] INFO : My Tickets Page IT Approver Stages Filter Test
+2025-11-27 14:52:17 [main] INFO : ✅ Filter validation passed. All Values match: IT Approver
+2025-11-27 14:52:20 [main] INFO : My Tickets Page Stages Filter Test
+2025-11-27 14:52:21 [main] INFO : My Tickets Page Pending Status Filter Test
+2025-11-27 14:52:22 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-11-27 14:52:23 [main] INFO : My Tickets Page Rejected Status Filter Test
+2025-11-27 14:52:24 [main] INFO : ✅ Filter validation passed. All Values match: Rejected
+2025-11-27 14:52:25 [main] INFO : My Tickets Page Closed Status Filter Test
+2025-11-27 14:52:26 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-11-27 14:52:30 [main] INFO : My Tickets Search Functionality Test
+2025-11-27 14:52:32 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-11-27 14:52:33 [main] INFO : My Tickets Search Non existing  Functionality Test
+2025-11-27 14:52:35 [main] INFO : No records Found :No Records Found
+2025-11-27 14:52:41 [main] INFO : Navigated to /approver/dashboard
+2025-11-27 14:52:47 [main] INFO : Approver Dashboard Page test
+2025-11-27 14:52:52 [main] INFO : Header is valid: Dashboard Overview
+2025-11-27 14:52:53 [main] INFO : Header is valid: Ticket Analytics
+2025-11-27 14:52:53 [main] INFO : Approver Dashboard Page Cards test
+2025-11-27 14:52:54 [main] INFO : Card Detail: TOTAL TICKETS
+680
+2025-11-27 14:52:54 [main] INFO : Card Detail: RESOLVED
+53
+2025-11-27 14:52:54 [main] INFO : Card Detail: APPROVED
+108
+2025-11-27 14:52:54 [main] INFO : Card Detail: PENDING
+452
+2025-11-27 14:52:54 [main] INFO : Card Detail: REJECTED
+67
+2025-11-27 14:52:54 [main] INFO : Approver Dashboard Page  Chart Title test
+2025-11-27 14:52:55 [main] INFO : Chart Title in Dashboard: Ticket Type Distribution
+2025-11-27 14:52:55 [main] INFO : Chart Title in Dashboard: Tickets by Status
+2025-11-27 14:52:55 [main] INFO : Chart Title in Dashboard: Pending Tickets by Stage
+2025-11-27 14:52:55 [main] INFO : Chart Title in Dashboard: Tickets by Priority
+2025-11-27 14:52:55 [main] INFO : Chart Title in Dashboard: Monthly Ticket Trends
+2025-11-27 14:52:56 [main] INFO : Testing Ended
+2025-11-27 14:52:56 [main] INFO : ***********
+2025-11-27 15:03:09 [main] INFO : Launching Chrome Browser
+2025-11-27 15:03:10 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-27 15:03:13 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-27 15:03:15 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-27 15:03:55 [main] INFO : Logged in to Intelli Serve Application
+2025-11-27 15:04:01 [main] INFO : IT Approver role Available
+2025-11-27 15:04:01 [main] INFO : BTG Approver role Available
+2025-11-27 15:04:04 [main] INFO : Navigated to /approver-tickets
+2025-11-27 15:04:04 [main] INFO : Approver Worklist Page Configure Columns Options Filters
+2025-11-27 15:04:05 [main] INFO : Header is valid: IT Approver Worklist
+2025-11-27 15:04:12 [main] INFO : Header is valid: Column Options
+2025-11-27 15:04:12 [main] INFO : Verifying Ticket ID Column Option
+2025-11-27 15:04:13 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-27 15:04:14 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-27 15:04:15 [main] INFO : Column Option Ticket ID visibility is View 
+2025-11-27 15:04:17 [main] INFO : Verifying Status Column Option
+2025-11-27 15:04:17 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-27 15:04:19 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-27 15:04:19 [main] INFO : Column Option Status visibility is View 
+2025-11-27 15:04:26 [main] INFO : Header is valid: Column Options
+2025-11-27 15:04:29 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-27 15:04:36 [main] INFO : Refresh Successful Messgae: Tickets refreshed successfully. Found 708 tickets.
+2025-11-27 15:04:38 [main] INFO : Approver Worklist Page Status Filter Test
+2025-11-27 15:04:38 [main] INFO : Approver Worklist Page Pending Status Filter Test
+2025-11-27 15:04:41 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-11-27 15:04:41 [main] INFO : Approver Worklist Page Rejected Status Filter Test
+2025-11-27 15:04:44 [main] INFO : ✅ Filter validation passed. All Values match: Rejected
+2025-11-27 15:04:45 [main] INFO : Approver Worklist Page Resolved Status Filter Test
+2025-11-27 15:04:48 [main] INFO : ✅ Filter validation passed. All Values match: Resolved
+2025-11-27 15:04:48 [main] INFO : Approver Worklist Page Closed Status Filter Test
+2025-11-27 15:04:51 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-11-27 15:04:53 [main] INFO : Approver Worklist Page Priority Filter Test
+2025-11-27 15:04:54 [main] INFO : Approver Worklist Page High Priority Filter Test
+2025-11-27 15:04:56 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-11-27 15:04:56 [main] INFO : Approver Worklist Page Low Priority Filter Test
+2025-11-27 15:04:57 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-11-27 15:04:58 [main] INFO : Approver Worklist Page Medium Priority Filter Test
+2025-11-27 15:04:59 [main] INFO : ✅ Filter validation passed. All Values match: Medium
+2025-11-27 15:05:02 [main] INFO : Approver Worklist Page Department Filter Test
+2025-11-27 15:05:02 [main] INFO : Approver Worklist Page Business Technology Group Department Filter Test
+2025-11-27 15:05:04 [main] INFO : ✅ Filter validation passed. All Values match: Business Technology Group
+2025-11-27 15:05:04 [main] INFO : Approver Worklist Page DSIL Department Filter Test
+2025-11-27 15:05:06 [main] INFO : ✅ Filter validation passed. All Values match: DSIL
+2025-11-27 15:05:06 [main] INFO : Approver Worklist Page Data Science and AI Department Filter Test
+2025-11-27 15:05:08 [main] INFO : ✅ Filter validation passed. All Values match: Data Science and AI
+2025-11-27 15:05:10 [main] INFO : Approver Worklist Page Stages Filter Test
+2025-11-27 15:05:11 [main] INFO : Approver Worklist Page Department Approver Stages Filter Test
+2025-11-27 15:05:12 [main] INFO : ✅ Filter validation passed. All Values match: Department Approver
+2025-11-27 15:05:12 [main] INFO : Approver Worklist Page BTG Approver Stages Filter Test
+2025-11-27 15:05:14 [main] INFO : ✅ Filter validation passed. All Values match: BTG Approver
+2025-11-27 15:05:14 [main] INFO : Approver Worklist Page IT Approver Stages Filter Test
+2025-11-27 15:05:16 [main] INFO : ✅ Filter validation passed. All Values match: IT Approver
+2025-11-27 15:05:18 [main] INFO : Approver Worklist Search Functionality Test
+2025-11-27 15:05:20 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-11-27 15:05:23 [main] INFO : Approver Worklist Search Non existing  Functionality Test
+2025-11-27 15:05:24 [main] INFO : No records Found :No Records Found
+2025-11-27 15:05:27 [main] INFO : Navigated to /user/tickets
+2025-11-27 15:05:35 [main] INFO : Header is valid: Column Options
+2025-11-27 15:05:35 [main] ERROR: Column Option Department visibility is already Hidden 
+2025-11-27 15:05:35 [main] ERROR: Column Option Manager visibility is already Hidden 
+2025-11-27 15:05:36 [main] INFO : Column Option Priority visibility is Hidden 
+2025-11-27 15:05:41 [main] INFO : My Tickets Page Priority Filter Test
+2025-11-27 15:05:44 [main] INFO : Header is valid: My Tickets
+2025-11-27 15:05:44 [main] INFO : My Tickets Page High Priority Filter Test
+2025-11-27 15:05:46 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-11-27 15:05:46 [main] INFO : My Tickets Page Low Priority Filter Test
+2025-11-27 15:05:48 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-11-27 15:05:48 [main] INFO : My Tickets Page Medium Priority Filter Test
+2025-11-27 15:05:50 [main] INFO : ✅ Filter validation passed. All Values match: Medium
+2025-11-27 15:05:54 [main] INFO : My Tickets Page Current Stages Filter Test
+2025-11-27 15:05:55 [main] INFO : My Tickets Page Department Approver Stages Filter Test
+2025-11-27 15:05:56 [main] INFO : ✅ Filter validation passed. All Values match: Department Approver
+2025-11-27 15:05:57 [main] INFO : My Tickets Page BTG Approver Stages Filter Test
+2025-11-27 15:05:58 [main] INFO : ✅ Filter validation passed. All Values match: BTG Approver
+2025-11-27 15:05:59 [main] INFO : My Tickets Page IT Approver Stages Filter Test
+2025-11-27 15:06:00 [main] INFO : ✅ Filter validation passed. All Values match: IT Approver
+2025-11-27 15:06:04 [main] INFO : My Tickets Page Stages Filter Test
+2025-11-27 15:06:04 [main] INFO : My Tickets Page Pending Status Filter Test
+2025-11-27 15:06:06 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-11-27 15:06:06 [main] INFO : My Tickets Page Rejected Status Filter Test
+2025-11-27 15:06:08 [main] INFO : ✅ Filter validation passed. All Values match: Rejected
+2025-11-27 15:06:08 [main] INFO : My Tickets Page Closed Status Filter Test
+2025-11-27 15:06:10 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-11-27 15:06:13 [main] INFO : My Tickets Search Functionality Test
+2025-11-27 15:06:15 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-11-27 15:06:16 [main] INFO : My Tickets Search Non existing  Functionality Test
+2025-11-27 15:06:18 [main] INFO : No records Found :No Records Found
+2025-11-27 15:06:25 [main] INFO : Navigated to /approver/dashboard
+2025-11-27 15:06:30 [main] INFO : Approver Dashboard Page test
+2025-11-27 15:06:34 [main] INFO : Header is valid: Dashboard Overview
+2025-11-27 15:06:35 [main] INFO : Header is valid: Ticket Analytics
+2025-11-27 15:06:35 [main] INFO : Approver Dashboard Page Cards test
+2025-11-27 15:06:36 [main] INFO : Card Detail: TOTAL TICKETS
+680
+2025-11-27 15:06:36 [main] INFO : Card Detail: RESOLVED
+53
+2025-11-27 15:06:36 [main] INFO : Card Detail: APPROVED
+108
+2025-11-27 15:06:36 [main] INFO : Card Detail: PENDING
+452
+2025-11-27 15:06:36 [main] INFO : Card Detail: REJECTED
+67
+2025-11-27 15:06:37 [main] INFO : Approver Dashboard Page  Chart Title test
+2025-11-27 15:06:37 [main] INFO : Chart Title in Dashboard: Ticket Type Distribution
+2025-11-27 15:06:37 [main] INFO : Chart Title in Dashboard: Tickets by Status
+2025-11-27 15:06:37 [main] INFO : Chart Title in Dashboard: Pending Tickets by Stage
+2025-11-27 15:06:37 [main] INFO : Chart Title in Dashboard: Tickets by Priority
+2025-11-27 15:06:37 [main] INFO : Chart Title in Dashboard: Monthly Ticket Trends
+2025-11-27 15:06:39 [main] INFO : IT Member role Available
+2025-11-27 15:06:39 [main] INFO : Implementation Queue Configure Columns Options Filters
+2025-11-27 15:06:42 [main] INFO : Navigated to /implementation-queue
+2025-11-27 15:06:48 [main] INFO : Header is valid: Implementation Queue
+2025-11-27 15:06:55 [main] INFO : Header is valid: Column Options
+2025-11-27 15:06:55 [main] INFO : Verifying Ticket ID Column Option
+2025-11-27 15:06:55 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-27 15:06:57 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-27 15:06:58 [main] INFO : Column Option Ticket ID visibility is View 
+2025-11-27 15:06:59 [main] INFO : Verifying Status Column Option
+2025-11-27 15:06:59 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-27 15:07:01 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-27 15:07:02 [main] INFO : Column Option Status visibility is View 
+2025-11-27 15:07:08 [main] INFO : Header is valid: Column Options
+2025-11-27 15:07:12 [main] INFO : Implementation Queue Page Status Filter Test
+2025-11-27 15:07:13 [main] INFO : Implementation Queue Page Resolved Status Filter Test
+2025-11-27 15:07:16 [main] INFO : ✅ Filter validation passed. All Values match: Resolved
+2025-11-27 15:07:17 [main] INFO : Implementation Queue Page Pending Status Filter Test
+2025-11-27 15:07:20 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-11-27 15:07:21 [main] INFO : Implementation Queue Page Closed Status Filter Test
+2025-11-27 15:07:24 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-11-27 15:08:25 [main] ERROR: Selected Filter not Available
+2025-11-27 15:08:26 [main] INFO : Implementation Queue Page Priority Filter Test
+2025-11-27 15:08:26 [main] INFO : Implementation Queue Page High Priority Filter Test
+2025-11-27 15:08:28 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-11-27 15:08:29 [main] INFO : Implementation Queue Page Low Priority Filter Test
+2025-11-27 15:08:30 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-11-27 15:08:31 [main] INFO : Implementation Queue Page Critical Priority Filter Test
+2025-11-27 15:08:32 [main] INFO : ✅ Filter validation passed. All Values match: Critical
+2025-11-27 15:08:35 [main] INFO : Implementation Queue Search Functionality Test
+2025-11-27 15:08:37 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-11-27 15:08:38 [main] INFO : Implementation Queue Search Non existing  Functionality Test
+2025-11-27 15:08:40 [main] INFO : No records Found :No Records Found
+2025-11-27 15:08:42 [main] INFO : Testing Ended
+2025-11-27 15:08:42 [main] INFO : ***********
+2025-11-27 15:10:08 [main] INFO : Launching Chrome Browser
+2025-11-27 15:10:09 [main] INFO : Report Name :IntelliServePage_Report.html
+2025-11-27 15:10:11 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-27 15:10:13 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-27 15:10:38 [main] INFO : Logged in to Intelli Serve Application
+2025-11-27 15:10:38 [main] INFO : Verify the Home and Profile Page test
+2025-11-27 15:10:38 [main] INFO : Verifying Side Bar Collapse Functionality
+2025-11-27 15:11:07 [main] INFO : Side Bar collapsed
+2025-11-27 15:11:08 [main] INFO : Verifying Side Bar Expand Functionality
+2025-11-27 15:11:08 [main] INFO : Side Bar expanded
+2025-11-27 15:11:10 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-11-27 15:11:10 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-11-27 15:11:13 [main] INFO : Navigated to Profile Page
+2025-11-27 15:11:14 [main] INFO : Header valid :Profile
+2025-11-27 15:11:14 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-11-27 15:11:15 [main] INFO : Department Name: Business Technology Group
+2025-11-27 15:11:15 [main] INFO : User Roles: BTG Approver
+2025-11-27 15:11:15 [main] INFO : User Roles: Admin
+2025-11-27 15:11:15 [main] INFO : User Roles: IT Member
+2025-11-27 15:11:15 [main] INFO : User Roles: IT Approver
+2025-11-27 15:11:15 [main] INFO : User Roles: BTG Member
+2025-11-27 15:11:16 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-11-27 15:11:16 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-11-27 15:11:16 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-11-27 15:11:16 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-11-27 15:11:16 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-11-27 15:11:17 [main] INFO : Version :Version 2.0.0
+2025-11-27 15:11:22 [main] INFO : Admin role Available
+2025-11-27 15:11:22 [main] INFO : Verify the Admin Role Pages
+2025-11-27 15:11:25 [main] INFO : Navigated to /admin
+2025-11-27 15:11:30 [main] INFO : Inside /admin Page 
+2025-11-27 15:11:30 [main] INFO : /admin Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/admin
+2025-11-27 15:11:31 [main] INFO : Ticketing Dashboard Page Title is Valid :Ticketing Dashboard | CriticalRiver Ticketing System
+2025-11-27 15:11:40 [main] INFO : Navigated to /tickets
+2025-11-27 15:11:45 [main] INFO : Inside /tickets Page 
+2025-11-27 15:11:45 [main] INFO : /tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/tickets
+2025-11-27 15:11:46 [main] INFO : All Tickets Page Title is Valid :All Tickets | CriticalRiver Ticketing System
+2025-11-27 15:11:55 [main] INFO : Navigated to /approver-management
+2025-11-27 15:12:00 [main] INFO : Inside /approver-management Page 
+2025-11-27 15:12:00 [main] INFO : /approver-management Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-management
+2025-11-27 15:12:01 [main] INFO : Approver Management Page Title is Valid :Approver Management | CriticalRiver Ticketing System
+2025-11-27 15:12:10 [main] INFO : Navigated to /roles
+2025-11-27 15:12:15 [main] INFO : Inside /roles Page 
+2025-11-27 15:12:15 [main] INFO : /roles Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/roles
+2025-11-27 15:12:16 [main] INFO : Roles Management Page Title is Valid :Roles Management | CriticalRiver Ticketing System
+2025-11-27 15:12:24 [main] INFO : Navigated to /user/tickets
+2025-11-27 15:12:29 [main] INFO : Inside /user/tickets Page 
+2025-11-27 15:12:29 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-27 15:12:31 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-27 15:12:44 [main] INFO : IT Approver role Available
+2025-11-27 15:12:44 [main] INFO : Verify the IT Approver Role Pages
+2025-11-27 15:12:48 [main] INFO : Navigated to /approver/dashboard
+2025-11-27 15:12:53 [main] INFO : Inside /approver/dashboard Page 
+2025-11-27 15:12:53 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-27 15:12:54 [main] INFO : Approver Dashboard Page Title is Valid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-27 15:13:02 [main] INFO : Navigated to /approver-tickets
+2025-11-27 15:13:07 [main] INFO : Inside /approver-tickets Page 
+2025-11-27 15:13:08 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-27 15:13:09 [main] INFO : Approver Worklist Page Title is Valid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-27 15:13:17 [main] INFO : Navigated to /user/tickets
+2025-11-27 15:13:22 [main] INFO : Inside /user/tickets Page 
+2025-11-27 15:13:22 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-27 15:13:24 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-27 15:13:37 [main] INFO : IT Member role Available
+2025-11-27 15:13:37 [main] INFO : Verify the IT Member Role Pages
+2025-11-27 15:13:40 [main] INFO : Navigated to /implementation-queue
+2025-11-27 15:13:45 [main] INFO : Inside /implementation-queue Page 
+2025-11-27 15:13:45 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-11-27 15:13:47 [main] INFO : Implementation Queue Page Title is Valid :Implementation Queue | CriticalRiver Ticketing System
+2025-11-27 15:13:55 [main] INFO : Navigated to /user/tickets
+2025-11-27 15:14:00 [main] INFO : Inside /user/tickets Page 
+2025-11-27 15:14:00 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-27 15:14:02 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-27 15:14:15 [main] INFO : BTG Approver role Available
+2025-11-27 15:14:15 [main] INFO : Verify the BTG Approver Role Pages
+2025-11-27 15:14:18 [main] INFO : Navigated to /approver/dashboard
+2025-11-27 15:14:23 [main] INFO : Inside /approver/dashboard Page 
+2025-11-27 15:14:23 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-27 15:14:25 [main] INFO : Approver Dashboard Page Title is Valid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-27 15:14:33 [main] INFO : Navigated to /approver-tickets
+2025-11-27 15:14:38 [main] INFO : Inside /approver-tickets Page 
+2025-11-27 15:14:38 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-27 15:14:40 [main] INFO : Approver Worklist Page Title is Valid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-27 15:14:48 [main] INFO : Navigated to /user/tickets
+2025-11-27 15:14:53 [main] INFO : Inside /user/tickets Page 
+2025-11-27 15:14:53 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-27 15:14:55 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-27 15:15:08 [main] INFO : BTG Member role Available
+2025-11-27 15:15:08 [main] INFO : Verify the BTG Member Role Pages
+2025-11-27 15:15:12 [main] INFO : Navigated to /implementation-queue
+2025-11-27 15:15:17 [main] INFO : Inside /implementation-queue Page 
+2025-11-27 15:15:17 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-11-27 15:15:18 [main] ERROR: Implementation Queue Page Title is InValid :IntelliServe
+2025-11-27 15:15:26 [main] INFO : Navigated to /user/tickets
+2025-11-27 15:15:31 [main] INFO : Inside /user/tickets Page 
+2025-11-27 15:15:31 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-27 15:15:32 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-27 15:15:51 [main] INFO : IT Approver role Available
+2025-11-27 15:15:52 [main] INFO : BTG Approver role Available
+2025-11-27 15:15:54 [main] INFO : Navigated to /approver-tickets
+2025-11-27 15:15:54 [main] INFO : Approver Worklist Page Configure Columns Options Filters
+2025-11-27 15:15:55 [main] INFO : Header is valid: IT Approver Worklist
+2025-11-27 15:16:03 [main] INFO : Header is valid: Column Options
+2025-11-27 15:16:03 [main] INFO : Verifying Ticket ID Column Option
+2025-11-27 15:16:03 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-27 15:16:04 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-27 15:16:05 [main] INFO : Column Option Ticket ID visibility is View 
+2025-11-27 15:16:07 [main] INFO : Verifying Status Column Option
+2025-11-27 15:16:07 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-27 15:16:09 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-27 15:16:09 [main] INFO : Column Option Status visibility is View 
+2025-11-27 15:16:16 [main] INFO : Header is valid: Column Options
+2025-11-27 15:16:19 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-27 15:16:21 [main] INFO : Refresh Successful Messgae: Column preferences saved successfully
+2025-11-27 15:16:22 [main] INFO : Approver Worklist Page Status Filter Test
+2025-11-27 15:16:23 [main] INFO : Approver Worklist Page Pending Status Filter Test
+2025-11-27 15:16:26 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-11-27 15:16:26 [main] INFO : Approver Worklist Page Rejected Status Filter Test
+2025-11-27 15:16:30 [main] INFO : ✅ Filter validation passed. All Values match: Rejected
+2025-11-27 15:16:30 [main] INFO : Approver Worklist Page Resolved Status Filter Test
+2025-11-27 15:16:33 [main] INFO : ✅ Filter validation passed. All Values match: Resolved
+2025-11-27 15:16:33 [main] INFO : Approver Worklist Page Closed Status Filter Test
+2025-11-27 15:16:36 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-11-27 15:16:39 [main] INFO : Approver Worklist Page Priority Filter Test
+2025-11-27 15:16:39 [main] INFO : Approver Worklist Page High Priority Filter Test
+2025-11-27 15:16:41 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-11-27 15:16:42 [main] INFO : Approver Worklist Page Low Priority Filter Test
+2025-11-27 15:16:43 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-11-27 15:16:44 [main] INFO : Approver Worklist Page Medium Priority Filter Test
+2025-11-27 15:16:45 [main] INFO : ✅ Filter validation passed. All Values match: Medium
+2025-11-27 15:16:48 [main] INFO : Approver Worklist Page Department Filter Test
+2025-11-27 15:16:48 [main] INFO : Approver Worklist Page Business Technology Group Department Filter Test
+2025-11-27 15:16:50 [main] INFO : ✅ Filter validation passed. All Values match: Business Technology Group
+2025-11-27 15:16:50 [main] INFO : Approver Worklist Page DSIL Department Filter Test
+2025-11-27 15:16:52 [main] INFO : ✅ Filter validation passed. All Values match: DSIL
+2025-11-27 15:16:52 [main] INFO : Approver Worklist Page Data Science and AI Department Filter Test
+2025-11-27 15:16:54 [main] INFO : ✅ Filter validation passed. All Values match: Data Science and AI
+2025-11-27 15:16:57 [main] INFO : Approver Worklist Page Stages Filter Test
+2025-11-27 15:16:57 [main] INFO : Approver Worklist Page Department Approver Stages Filter Test
+2025-11-27 15:16:59 [main] INFO : ✅ Filter validation passed. All Values match: Department Approver
+2025-11-27 15:16:59 [main] INFO : Approver Worklist Page BTG Approver Stages Filter Test
+2025-11-27 15:17:01 [main] INFO : ✅ Filter validation passed. All Values match: BTG Approver
+2025-11-27 15:17:01 [main] INFO : Approver Worklist Page IT Approver Stages Filter Test
+2025-11-27 15:17:03 [main] INFO : ✅ Filter validation passed. All Values match: IT Approver
+2025-11-27 15:17:05 [main] INFO : Approver Worklist Search Functionality Test
+2025-11-27 15:17:07 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-11-27 15:17:10 [main] INFO : Approver Worklist Search Non existing  Functionality Test
+2025-11-27 15:17:11 [main] INFO : No records Found :No Records Found
+2025-11-27 15:17:14 [main] INFO : Navigated to /user/tickets
+2025-11-27 15:17:22 [main] INFO : Header is valid: Column Options
+2025-11-27 15:17:22 [main] ERROR: Column Option Department visibility is already Hidden 
+2025-11-27 15:17:22 [main] ERROR: Column Option Manager visibility is already Hidden 
+2025-11-27 15:17:23 [main] INFO : Column Option Priority visibility is Hidden 
+2025-11-27 15:17:28 [main] INFO : My Tickets Page Priority Filter Test
+2025-11-27 15:17:31 [main] INFO : Header is valid: My Tickets
+2025-11-27 15:17:31 [main] INFO : My Tickets Page High Priority Filter Test
+2025-11-27 15:17:33 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-11-27 15:17:33 [main] INFO : My Tickets Page Low Priority Filter Test
+2025-11-27 15:17:35 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-11-27 15:17:35 [main] INFO : My Tickets Page Medium Priority Filter Test
+2025-11-27 15:17:37 [main] INFO : ✅ Filter validation passed. All Values match: Medium
+2025-11-27 15:17:41 [main] INFO : My Tickets Page Current Stages Filter Test
+2025-11-27 15:17:42 [main] INFO : My Tickets Page Department Approver Stages Filter Test
+2025-11-27 15:17:44 [main] INFO : ✅ Filter validation passed. All Values match: Department Approver
+2025-11-27 15:17:44 [main] INFO : My Tickets Page BTG Approver Stages Filter Test
+2025-11-27 15:17:46 [main] INFO : ✅ Filter validation passed. All Values match: BTG Approver
+2025-11-27 15:17:46 [main] INFO : My Tickets Page IT Approver Stages Filter Test
+2025-11-27 15:17:48 [main] INFO : ✅ Filter validation passed. All Values match: IT Approver
+2025-11-27 15:17:52 [main] INFO : My Tickets Page Stages Filter Test
+2025-11-27 15:17:52 [main] INFO : My Tickets Page Pending Status Filter Test
+2025-11-27 15:17:54 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-11-27 15:17:54 [main] INFO : My Tickets Page Rejected Status Filter Test
+2025-11-27 15:17:56 [main] INFO : ✅ Filter validation passed. All Values match: Rejected
+2025-11-27 15:17:56 [main] INFO : My Tickets Page Closed Status Filter Test
+2025-11-27 15:17:58 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-11-27 15:18:02 [main] INFO : My Tickets Search Functionality Test
+2025-11-27 15:18:04 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-11-27 15:18:05 [main] INFO : My Tickets Search Non existing  Functionality Test
+2025-11-27 15:18:07 [main] INFO : No records Found :No Records Found
+2025-11-27 15:18:14 [main] INFO : Navigated to /approver/dashboard
+2025-11-27 15:18:19 [main] INFO : Approver Dashboard Page test
+2025-11-27 15:18:24 [main] INFO : Header is valid: Dashboard Overview
+2025-11-27 15:18:24 [main] INFO : Header is valid: Ticket Analytics
+2025-11-27 15:18:25 [main] INFO : Approver Dashboard Page Cards test
+2025-11-27 15:18:25 [main] INFO : Card Detail: TOTAL TICKETS
+680
+2025-11-27 15:18:25 [main] INFO : Card Detail: RESOLVED
+53
+2025-11-27 15:18:25 [main] INFO : Card Detail: APPROVED
+108
+2025-11-27 15:18:25 [main] INFO : Card Detail: PENDING
+452
+2025-11-27 15:18:25 [main] INFO : Card Detail: REJECTED
+67
+2025-11-27 15:18:26 [main] INFO : Approver Dashboard Page  Chart Title test
+2025-11-27 15:18:26 [main] INFO : Chart Title in Dashboard: Ticket Type Distribution
+2025-11-27 15:18:26 [main] INFO : Chart Title in Dashboard: Tickets by Status
+2025-11-27 15:18:26 [main] INFO : Chart Title in Dashboard: Pending Tickets by Stage
+2025-11-27 15:18:26 [main] INFO : Chart Title in Dashboard: Tickets by Priority
+2025-11-27 15:18:26 [main] INFO : Chart Title in Dashboard: Monthly Ticket Trends
+2025-11-27 15:18:28 [main] INFO : IT Member role Available
+2025-11-27 15:18:28 [main] INFO : Implementation Queue Configure Columns Options Filters
+2025-11-27 15:18:31 [main] INFO : Navigated to /implementation-queue
+2025-11-27 15:18:36 [main] INFO : Header is valid: Implementation Queue
+2025-11-27 15:18:44 [main] INFO : Header is valid: Column Options
+2025-11-27 15:18:44 [main] INFO : Verifying Ticket ID Column Option
+2025-11-27 15:18:44 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-27 15:18:46 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-27 15:18:46 [main] INFO : Column Option Ticket ID visibility is View 
+2025-11-27 15:18:48 [main] INFO : Verifying Status Column Option
+2025-11-27 15:18:48 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-27 15:18:50 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-27 15:18:51 [main] INFO : Column Option Status visibility is View 
+2025-11-27 15:18:57 [main] INFO : Header is valid: Column Options
+2025-11-27 15:19:01 [main] INFO : Implementation Queue Page Status Filter Test
+2025-11-27 15:19:02 [main] INFO : Implementation Queue Page Resolved Status Filter Test
+2025-11-27 15:19:05 [main] INFO : ✅ Filter validation passed. All Values match: Resolved
+2025-11-27 15:19:06 [main] INFO : Implementation Queue Page Pending Status Filter Test
+2025-11-27 15:19:10 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-11-27 15:19:10 [main] INFO : Implementation Queue Page Closed Status Filter Test
+2025-11-27 15:19:14 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-11-27 15:19:15 [main] INFO : Implementation Queue Page Priority Filter Test
+2025-11-27 15:19:15 [main] INFO : Implementation Queue Page High Priority Filter Test
+2025-11-27 15:19:17 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-11-27 15:19:17 [main] INFO : Implementation Queue Page Low Priority Filter Test
+2025-11-27 15:19:19 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-11-27 15:19:19 [main] INFO : Implementation Queue Page Critical Priority Filter Test
+2025-11-27 15:19:21 [main] INFO : ✅ Filter validation passed. All Values match: Critical
+2025-11-27 15:19:23 [main] INFO : Implementation Queue Search Functionality Test
+2025-11-27 15:19:25 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-11-27 15:19:27 [main] INFO : Implementation Queue Search Non existing  Functionality Test
+2025-11-27 15:19:28 [main] INFO : No records Found :No Records Found
+2025-11-27 15:19:31 [main] INFO : Testing Ended
+2025-11-27 15:19:31 [main] INFO : ***********

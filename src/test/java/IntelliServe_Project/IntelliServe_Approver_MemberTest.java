@@ -338,8 +338,6 @@ public class IntelliServe_Approver_MemberTest extends IntelliServe_TestInitializ
 		verifyImplementation_StatusFilter(dataKeys.pending_StatusFilter);
 		verifyImplementation_StatusFilter(dataKeys.closed_StatusFilter);
 		waitTime(driver);
-		appr_member_Page.selectFilter(dataKeys.statusFilter, "All Statuses");
-		waitTime(driver);
 
 		grep.testCreate("Implementation Queue Page Priority Filter Test", "Implementation Queue Page Priority Filters");
 		waitTime(driver);
@@ -386,25 +384,37 @@ public class IntelliServe_Approver_MemberTest extends IntelliServe_TestInitializ
 		grep.infoTest("Approver Worklist Page " + option + " Status Filter Test");
 		logger.info("Approver Worklist Page " + option + " Status Filter Test");
 		waitTime(driver);
-		appr_member_Page.selectStatusFilter(dataKeys.statusFilter, option);
-//		appr_member_Page.selectMultiStatusFilter(dataKeys.statusFilter, option);
+		appr_member_Page.expandStatusFilter();
+		waitTime(driver);
+		appr_member_Page.selectStatusFilter(dataKeys.selectAllSatusFilter);
+		appr_member_Page.selectStatusFilter(dataKeys.selectAllSatusFilter);
+		waitTime(driver);
+		appr_member_Page.selectStatusFilter(option);
+		waitTime(driver);
+		appr_member_Page.collapseStatusFilter();
 		waitTime(driver);
 		appr_member_Page.verifyWorklist_FilterInTable(option);
 		grep.captureScreenshot("pass", option + " Status Filter", option + "StatusFilter_Worklist");
 
 	}
 
-	public void verifyWorklistMultiStatusFilter(String... option) throws Exception {
-		grep.infoTest("Approver Worklist Page " + option + " Status Filter Test");
-		logger.info("Approver Worklist Page " + option + " Status Filter Test");
-		waitTime(driver);
-		appr_member_Page.selectMultiStatusFilter(dataKeys.statusFilter, option);
-//		appr_member_Page.selectMultiStatusFilter(dataKeys.statusFilter, option);
-		waitTime(driver);
-//		appr_member_Page.verifyWorklist_FilterInTable(option);
-		grep.captureScreenshot("pass", option + " Status Filter", option + "StatusFilter_Worklist");
-
-	}
+//	public void verifyWorklistMultiStatusFilter(String... option) throws Exception {
+//		grep.infoTest("Approver Worklist Page " + option + " Status Filter Test");
+//		logger.info("Approver Worklist Page " + option + " Status Filter Test");
+//		waitTime(driver);
+//		appr_member_Page.expandStatusFilter();
+//		waitTime(driver);
+//		appr_member_Page.selectStatusFilter(dataKeys.selectAllSatusFilter);
+//		appr_member_Page.selectStatusFilter(dataKeys.selectAllSatusFilter);
+//		waitTime(driver);
+//		appr_member_Page.selectMultiStatusFilter(option);
+//		waitTime(driver);
+//		appr_member_Page.collapseStatusFilter();
+//		waitTime(driver);
+//		appr_member_Page.verifyWorklist_MultiFilterInTable(option);
+//		grep.captureScreenshot("pass", option + " Status Filter", option + "StatusFilter_Worklist");
+//
+//	}
 
 	public void verifyWorklistPriorityFilter(String option) throws Exception {
 		grep.infoTest("Approver Worklist Page " + option + " Priority Filter Test");
@@ -476,7 +486,17 @@ public class IntelliServe_Approver_MemberTest extends IntelliServe_TestInitializ
 		grep.infoTest("Implementation Queue Page " + option + " Status Filter Test");
 		logger.info("Implementation Queue Page " + option + " Status Filter Test");
 		waitTime(driver);
-		appr_member_Page.selectFilter(dataKeys.statusFilter, option);
+//		appr_member_Page.selectFilter(dataKeys.statusFilter, option);
+		appr_member_Page.expandStatusFilter();
+		waitTime(driver);
+		appr_member_Page.selectStatusFilter(dataKeys.selectAllSatusFilter);
+		appr_member_Page.selectStatusFilter(dataKeys.selectAllSatusFilter);
+		waitTime(driver);
+		appr_member_Page.selectStatusFilter(option);
+		waitTime(driver);
+		appr_member_Page.collapseStatusFilter();
+		waitTime(driver);
+
 		waitTime(driver);
 		appr_member_Page.verifyImplementationQueue_FilterInTable(option);
 		grep.captureScreenshot("pass", option + " Status Filter", option + "StatusFilter_ImplementationQueue");

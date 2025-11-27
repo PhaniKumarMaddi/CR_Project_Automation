@@ -1099,6 +1099,7 @@ public class L_And_D_OtherPages extends WaitsManager {
 				selectCtg.selectByVisibleText(category);
 				waitTime(driver);
 				driver.findElement(By.cssSelector("button.submitbutton")).click();
+				waitForElementToBePopulated(By.cssSelector("div.message"), 10);
 				String getsuccessMessage = driver.findElement(By.cssSelector("div.message")).getText();
 
 				if (getsuccessMessage.equals("Feedback submitted successfully")) {

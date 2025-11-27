@@ -51,7 +51,7 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 				String header = driver.findElement(coursesHeader).getText();
 				String desc = driver.findElement(coursesDesc).getText();
 
-				if (header.equals("My Learning Paths")) {
+				if (header.equals("My Courses")) {
 					grep.passTest("Header : " + header);
 					logger.info("Header : " + header);
 
@@ -116,6 +116,7 @@ public class L_And_D_MyCoursesPage extends WaitsManager {
 			if (elementExist) {
 
 				driver.findElement(coursestabs).click();
+				waitTime(driver);
 				grep.passTest("Inside " + tabName + " Tab");
 				logger.info("Inside " + tabName + " Tab");
 			} else {
