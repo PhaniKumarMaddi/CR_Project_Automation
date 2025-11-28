@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-IntelliServe_Suite" class="navigator-link">
-              <span class="suite-name border-passed">IntelliServe_Suite</span>
+              <span class="suite-name border-failed">IntelliServe_Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-IntelliServe_Suite" class="hide-methods failed suite-IntelliServe_Suite"> (hide)</a> <!-- hide-methods failed suite-IntelliServe_Suite -->
+                      <a href="#" panel-name="suite-IntelliServe_Suite" class="show-methods failed suite-IntelliServe_Suite"> (show)</a> <!-- show-methods failed suite-IntelliServe_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-IntelliServe_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IntelliServe_Suite" title="IntelliServe_Project.IntelliServe_CreateTicket_Test" class="method navigator-link" hash-for-method="createTicketTest">createTicketTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-IntelliServe_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -133,6 +147,29 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-IntelliServe_Suite" class="panel IntelliServe_Suite">
+          <div class="suite-IntelliServe_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">IntelliServe_Project.IntelliServe_CreateTicket_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createTicketTest">
+                  </a> <!-- createTicketTest -->
+                  <span class="method-name">createTicketTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Driver must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:63)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:67)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:63)
+	at IntelliServe_Project.IntelliServe_CreateTicket_Test.createTicketTest(IntelliServe_CreateTicket_Test.java:81)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-IntelliServe_Suite-class-failed -->
           <div class="suite-IntelliServe_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -192,6 +229,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;IntelliServe_Project.IntelliServe_Page_UI_Test&quot;/&gt;
       &lt;class name=&quot;IntelliServe_Project.IntelliServe_Approver_MemberTest&quot;/&gt;
+      &lt;class name=&quot;IntelliServe_Project.IntelliServe_CreateTicket_Test&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- IntelliServe_Test --&gt;
 &lt;/suite&gt; &lt;!-- IntelliServe_Suite --&gt;
@@ -205,7 +243,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">IntelliServe_Test (2 classes)</span>
+                <span class="test-name">IntelliServe_Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -231,23 +269,27 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyRoleBasedPages')
 data.setCell(0, 2, 'IntelliServe_Project.IntelliServe_Page_UI_Test')
-data.setCell(0, 3, 270514);
+data.setCell(0, 3, 265156);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'approver_Role_Test')
 data.setCell(1, 2, 'IntelliServe_Project.IntelliServe_Approver_MemberTest')
-data.setCell(1, 3, 165093);
+data.setCell(1, 3, 159287);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'member_Role_Test')
 data.setCell(2, 2, 'IntelliServe_Project.IntelliServe_Approver_MemberTest')
-data.setCell(2, 3, 65100);
+data.setCell(2, 3, 64402);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'IntelliServe__UI_Test')
-data.setCell(3, 2, 'IntelliServe_Project.IntelliServe_Page_UI_Test')
-data.setCell(3, 3, 13632);
+data.setCell(3, 1, 'createTicketTest')
+data.setCell(3, 2, 'IntelliServe_Project.IntelliServe_CreateTicket_Test')
+data.setCell(3, 3, 32303);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'IntelliServe__UI_Test')
+data.setCell(4, 2, 'IntelliServe_Project.IntelliServe_Page_UI_Test')
+data.setCell(4, 3, 12991);
 window.suiteTableData['IntelliServe_Suite']= { tableData: data, tableDiv: 'times-div-IntelliServe_Suite'}
 return data;
 }
@@ -267,7 +309,7 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-IntelliServe_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">3 ignored methods</span>
+            <span class="header-content">5 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -279,6 +321,15 @@ return data;
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">IntelliServe_Project.IntelliServe_Approver_MemberTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">IntelliServe_Project.IntelliServe_CreateTicket_Test</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">tearDown</span>
                 <br/>
@@ -301,29 +352,38 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">IntelliServe__UI_Test</span>
-                <span class="method-start">54219 ms</span>
+                <span class="method-start">38422 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyRoleBasedPages</span>
-                <span class="method-start">67859 ms</span>
+                <span class="method-start">51422 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">IntelliServe_Project.IntelliServe_Approver_MemberTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">approver_Role_Test</span>
-                <span class="method-start">338380 ms</span>
+                <span class="method-start">316578 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">member_Role_Test</span>
-                <span class="method-start">503476 ms</span>
+                <span class="method-start">475871 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">IntelliServe_Project.IntelliServe_CreateTicket_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createTicketTest</span>
+                <span class="method-start">540275 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">IntelliServe_Project.IntelliServe_Page_UI_Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">568580 ms</span>
+                <span class="method-start">572580 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

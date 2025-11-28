@@ -5,6 +5,8 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 import Utility.DriverManager;
 import Utility.GenerateReports;
@@ -37,8 +39,14 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 	By incidentDetail = By.xpath(
 			"//div[@class='rich-text-editor min-h-[6rem] p-3 bg-white dark:bg-gray-700 text-gray-900 dark:text-white rounded-b-md focus:outline-none relative']");
 
+	By incidentTitleError = By.xpath("//input[@id='incidentTitle']/following-sibling::p");
+	By incidentDetailerror = By.xpath("//label[@for='incidentDetails']/following-sibling::p");
+
 	By choosefile = By.xpath("//label[normalize-space()='Choose files (Up to 30MB)']");
 	By inputFile = By.xpath("//input[@type='file']");
+
+	By createTicketmsg = By.xpath(
+			"//div[@class='bg-red-600 text-white px-6 py-4 rounded-lg shadow-lg max-w-md flex items-center space-x-3']/span");
 
 //	By boldText = By.cssSelector("button[title='Bold']");
 //	By italicText = By.cssSelector("button[title='Italic']");
@@ -215,6 +223,29 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 
 	}
 
+	public void getIncidentTitleError() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(incidentTitleError).isEmpty();
+			if (elementExists) {
+				String errorMsg = driver.findElement(incidentTitleError).getText();
+				grep.passTest("Incident Title Error Message :" + errorMsg);
+				logger.info("Incident Title Error Message :" + errorMsg);
+				waitTime(driver);
+			} else {
+				grep.failTest("Incident Title Error Message Not found");
+				logger.error("Incident Title Error Message Not found");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+
+	}
+
 	public void insertIncidentDetail(String incidentDescVal) throws Exception {
 		try {
 			implWait(driver);
@@ -226,6 +257,29 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 				driver.findElement(incidentDetail).sendKeys(incidentDescVal);
 
 			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+
+	}
+
+	public void getIncidentDetailError() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(incidentDetailerror).isEmpty();
+			if (elementExists) {
+				String errorMsg = driver.findElement(incidentDetailerror).getText();
+				grep.passTest("Incident Detail Error Message :" + errorMsg);
+				logger.info("Incident Detail Error Message :" + errorMsg);
+				waitTime(driver);
+			} else {
+				grep.failTest("Incident Title Error Message Not found");
+				logger.error("Incident Title Error Message Not found");
+			}
+
 		} catch (Exception e) {
 			e.printStackTrace();
 			grep.failTest("Test Failed :" + e.getMessage());
@@ -252,14 +306,22 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 
 	}
 
-	
-	public void chooseFileIn_NewTicket(String file) throws Exception {
+	public void chooseFileIn_NewTicket(String[] files) throws Exception {
 		try {
 			implWait(driver);
 
-			boolean elementExists = !driver.findElements(choosefile).isEmpty();
+//			boolean elementExists = !driver.findElements(choosefile).isEmpty();
+			boolean elementExists = !driver.findElements(inputFile).isEmpty();
 			if (elementExists) {
-				driver.findElement(choosefile).click();
+				scrollView(choosefile);
+				waitTime(driver);
+				WebElement upload = driver.findElement(inputFile);
+
+				for (String f : files) {
+					upload.sendKeys(f);
+					waitTime(driver);
+				}
+
 			}
 
 		} catch (Exception e) {
@@ -311,4 +373,29 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 
 	}
 
+	public void getCreateTicketpopupMessage() throws Exception {
+		try {
+//			implWait(driver);
+			waitForElement(createTicketmsg, 90);
+			boolean elementExists = !driver.findElements(createTicketmsg).isEmpty();
+			if (elementExists) {
+				String message = driver.findElement(createTicketmsg).getText();
+				grep.passTest("Message :" + message);
+				logger.info("Message :" + message);
+				waitTime(driver);
+			} else {
+				grep.failTest("Snackbar message is not available in create ticket popup");
+				logger.error("Snackbar message is not available in create ticket popup");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+
+	}
+
+	
 }

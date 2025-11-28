@@ -1777,11 +1777,11 @@ public class CSAT_SurveyPage extends WaitsManager {
 //		}
 //	}
 
-	// for scroll to view
-	public void scrollView(By locator) throws Exception {
-		waitTime3(driver);
-		WebElement element = driver.findElement(locator);
-		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-
-	}
+//	// for scroll to view
+//	public void scrollView(By locator) throws Exception {
+//		waitTime3(driver);
+//		WebElement element = driver.findElement(locator);
+//		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+//
+//	}
 }

@@ -6506,3 +6506,740 @@ Business Technology Group
 2025-11-27 18:27:19 [main] INFO : No records Found :No Records Found
 2025-11-27 18:27:23 [main] INFO : Testing Ended
 2025-11-27 18:27:23 [main] INFO : ***********
+2025-11-28 09:48:44 [main] INFO : Launching Chrome Browser
+2025-11-28 09:48:44 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-28 09:48:47 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-28 09:48:49 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-28 09:49:20 [main] INFO : Logged in to Intelli Serve Application
+2025-11-28 09:49:20 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-28 09:49:21 [main] INFO : Navigated to /user/tickets
+2025-11-28 09:49:28 [main] INFO : Header is valid: Create New Ticket
+2025-11-28 09:49:28 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-28 09:49:29 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-28 09:49:30 [main] INFO : Selected Software Ticket Type
+2025-11-28 09:49:30 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-11-28 09:49:30 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-11-28 09:49:30 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-11-28 09:49:30 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-11-28 09:49:30 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-11-28 09:49:30 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-11-28 09:49:31 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 09:49:32 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 09:49:34 [main] ERROR: Test Failed :invalid argument: File not found : C:\Users\PhaniKumarMaddi\Downloads\Invoice_20251111.pngC:\Users\PhaniKumarMaddi\Downloads\Tickets Word  New.docxC:\Users\PhaniKumarMaddi\Downloads\Total_Assets_2025-11-05.pdfC:\Users\PhaniKumarMaddi\Downloads\Tickets Excel File.xlsx
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e121ce7009eb86b28629b2c6bd912910, sendKeysToElement {id=f.B4213C538FC904BC59E2BBA2803B6C95.d.102E61204365426087A5BE0723A5931A.e.129, value=[Ljava.lang.CharSequence;@72b6832e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54373}, goog:processID: 19668, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54373/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e121ce7009eb86b28629b2c6bd912910)] -> xpath: //input[@type='file']]
+Session ID: e121ce7009eb86b28629b2c6bd912910
+2025-11-28 09:49:35 [main] INFO : Testing Ended
+2025-11-28 09:49:35 [main] INFO : ***********
+2025-11-28 09:54:24 [main] INFO : Launching Chrome Browser
+2025-11-28 09:54:24 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-28 09:54:27 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-28 09:54:29 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-28 09:55:01 [main] INFO : Logged in to Intelli Serve Application
+2025-11-28 09:55:01 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-28 09:55:02 [main] INFO : Navigated to /user/tickets
+2025-11-28 09:55:09 [main] INFO : Header is valid: Create New Ticket
+2025-11-28 09:55:09 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-28 09:55:09 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-28 09:55:10 [main] INFO : Selected Software Ticket Type
+2025-11-28 09:55:11 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-11-28 09:55:11 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-11-28 09:55:11 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-11-28 09:55:11 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-11-28 09:55:11 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-11-28 09:55:11 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-11-28 09:55:12 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 09:55:12 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 09:55:16 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 09:55:17 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [977f6ef15b26e3c29bcb3bc8666ded45, sendKeysToElement {value=[Ljava.lang.CharSequence;@1b482cbf, id=f.2293ADC047D4CAFF8B72226CC2DA430F.d.8DF30B0A86740AD193548E98C4E234E4.e.130}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52510}, goog:processID: 4996, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52510/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (977f6ef15b26e3c29bcb3bc8666ded45)] -> xpath: //input[@type='file']]
+Session ID: 977f6ef15b26e3c29bcb3bc8666ded45
+2025-11-28 09:55:17 [main] INFO : Testing Ended
+2025-11-28 09:55:17 [main] INFO : ***********
+2025-11-28 09:56:05 [main] INFO : Launching Chrome Browser
+2025-11-28 09:56:05 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-28 09:56:08 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-28 09:56:10 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-28 09:56:41 [main] INFO : Logged in to Intelli Serve Application
+2025-11-28 09:56:42 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-28 09:56:42 [main] INFO : Navigated to /user/tickets
+2025-11-28 09:56:49 [main] INFO : Header is valid: Create New Ticket
+2025-11-28 09:56:50 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-28 09:56:50 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-28 09:56:51 [main] INFO : Selected Software Ticket Type
+2025-11-28 09:56:52 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-11-28 09:56:52 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-11-28 09:56:52 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-11-28 09:56:52 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-11-28 09:56:52 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-11-28 09:56:52 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-11-28 09:56:52 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 09:56:53 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 09:56:58 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 09:56:59 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [63c1c9f507b7b6ec26e339fd0b4c658e, sendKeysToElement {id=f.4720B6BDAFBBB7820BF217C5758C0084.d.B1BB01471A6231B2EDD989BE746EDCAF.e.131, value=[Ljava.lang.CharSequence;@a6e4897}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56106}, goog:processID: 18756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56106/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (63c1c9f507b7b6ec26e339fd0b4c658e)] -> xpath: //input[@type='file']]
+Session ID: 63c1c9f507b7b6ec26e339fd0b4c658e
+2025-11-28 09:57:00 [main] INFO : Testing Ended
+2025-11-28 09:57:00 [main] INFO : ***********
+2025-11-28 09:59:08 [main] INFO : Launching Chrome Browser
+2025-11-28 09:59:09 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-28 09:59:12 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-28 09:59:14 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-28 09:59:45 [main] INFO : Logged in to Intelli Serve Application
+2025-11-28 09:59:46 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-28 09:59:46 [main] INFO : Navigated to /user/tickets
+2025-11-28 09:59:53 [main] INFO : Header is valid: Create New Ticket
+2025-11-28 09:59:54 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-28 09:59:54 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-28 09:59:55 [main] INFO : Selected Software Ticket Type
+2025-11-28 09:59:56 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-11-28 09:59:56 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-11-28 09:59:56 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-11-28 09:59:56 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-11-28 09:59:56 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-11-28 09:59:56 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-11-28 09:59:56 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 09:59:57 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 10:00:02 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 10:00:04 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [912cbd8b9c423508a42d33ff08fc8df0, sendKeysToElement {id=f.3766CEE68747422C5CAC17CB5F182302.d.8C7D70E72F2BC749370B654A8EC2FB90.e.130, value=[Ljava.lang.CharSequence;@628b819d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52074}, goog:processID: 8520, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52074/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (912cbd8b9c423508a42d33ff08fc8df0)] -> xpath: //input[@type='file']]
+Session ID: 912cbd8b9c423508a42d33ff08fc8df0
+2025-11-28 10:00:04 [main] INFO : Testing Ended
+2025-11-28 10:00:04 [main] INFO : ***********
+2025-11-28 10:05:30 [main] INFO : Launching Chrome Browser
+2025-11-28 10:05:30 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-28 10:05:33 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-28 10:05:35 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-28 10:06:06 [main] INFO : Logged in to Intelli Serve Application
+2025-11-28 10:06:07 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-28 10:06:07 [main] INFO : Navigated to /user/tickets
+2025-11-28 10:06:14 [main] INFO : Header is valid: Create New Ticket
+2025-11-28 10:06:15 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-28 10:06:15 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-28 10:06:16 [main] INFO : Selected Software Ticket Type
+2025-11-28 10:06:16 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-11-28 10:06:16 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-11-28 10:06:16 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-11-28 10:06:16 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-11-28 10:06:16 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-11-28 10:06:16 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-11-28 10:06:17 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 10:06:18 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 10:06:23 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 10:06:25 [main] ERROR: Test Failed :stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8055d27d57b19ae48144bf31f0d292a1, sendKeysToElement {id=f.1CB9D0CD2D86F430B5537225D838D89C.d.48A1BB693065528F3B1522643728C62E.e.130, value=[Ljava.lang.CharSequence;@628b819d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57967}, goog:processID: 17892, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57967/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8055d27d57b19ae48144bf31f0d292a1)] -> xpath: //input[@type='file']]
+Session ID: 8055d27d57b19ae48144bf31f0d292a1
+2025-11-28 10:06:25 [main] INFO : Testing Ended
+2025-11-28 10:06:25 [main] INFO : ***********
+2025-11-28 10:09:15 [main] INFO : Launching Chrome Browser
+2025-11-28 10:09:15 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-28 10:09:18 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-28 10:09:20 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-28 10:09:46 [main] INFO : Logged in to Intelli Serve Application
+2025-11-28 10:09:47 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-28 10:09:47 [main] INFO : Navigated to /user/tickets
+2025-11-28 10:09:54 [main] INFO : Header is valid: Create New Ticket
+2025-11-28 10:09:54 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-28 10:09:55 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-28 10:09:56 [main] INFO : Selected Software Ticket Type
+2025-11-28 10:09:56 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-11-28 10:09:56 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-11-28 10:09:56 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-11-28 10:09:56 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-11-28 10:09:56 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-11-28 10:09:56 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-11-28 10:09:57 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 10:09:58 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 10:10:03 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 10:10:06 [main] INFO : Testing Ended
+2025-11-28 10:10:06 [main] INFO : ***********
+2025-11-28 10:24:05 [main] INFO : Launching Chrome Browser
+2025-11-28 10:24:05 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-28 10:24:09 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-28 10:24:11 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-28 10:24:38 [main] INFO : Logged in to Intelli Serve Application
+2025-11-28 10:24:38 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-28 10:24:39 [main] INFO : Navigated to /user/tickets
+2025-11-28 10:24:49 [main] INFO : Header is valid: Create New Ticket
+2025-11-28 10:24:50 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-28 10:24:50 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-28 10:24:51 [main] INFO : Selected Software Ticket Type
+2025-11-28 10:24:52 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-11-28 10:24:52 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-11-28 10:24:52 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-11-28 10:24:52 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-11-28 10:24:52 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-11-28 10:24:52 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-11-28 10:24:52 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 10:24:53 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 10:24:59 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 10:25:02 [main] INFO : Testing Ended
+2025-11-28 10:25:02 [main] INFO : ***********
+2025-11-28 11:11:01 [main] INFO : Launching Chrome Browser
+2025-11-28 11:11:02 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-28 11:11:05 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-28 11:11:07 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-28 11:11:39 [main] INFO : Logged in to Intelli Serve Application
+2025-11-28 11:11:40 [main] INFO : Verify keeping all required fields blank in create ticket page test
+2025-11-28 11:11:40 [main] INFO : Navigated to /user/tickets
+2025-11-28 11:11:47 [main] INFO : Header is valid: Create New Ticket
+2025-11-28 11:11:48 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-28 11:11:48 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-28 11:11:49 [main] INFO : Selected Software Ticket Type
+2025-11-28 11:11:50 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-11-28 11:11:50 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-11-28 11:11:50 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-11-28 11:11:50 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-11-28 11:11:50 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-11-28 11:11:50 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-11-28 11:11:50 [main] INFO : Verify Error Message
+2025-11-28 11:11:50 [main] INFO : Incident Title Error Message :Incident title is required
+2025-11-28 11:11:51 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-11-28 11:11:53 [main] INFO : Entering incident details in create new ticket popup Test
+2025-11-28 11:11:53 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 11:11:54 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:11:59 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:12:01 [main] INFO : Entering more than limit file in create new ticket popup Test
+2025-11-28 11:12:03 [main] INFO : Entering invalid file format in create new ticket popup Test
+2025-11-28 11:12:05 [main] INFO : Attaching Multiple Files in create new ticket popup Test
+2025-11-28 11:12:07 [main] INFO : Testing Ended
+2025-11-28 11:12:07 [main] INFO : ***********
+2025-11-28 11:18:22 [main] INFO : Launching Chrome Browser
+2025-11-28 11:18:22 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-28 11:18:26 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-28 11:18:28 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-28 11:19:01 [main] INFO : Logged in to Intelli Serve Application
+2025-11-28 11:19:02 [main] INFO : Verify keeping all required fields blank in create ticket page test
+2025-11-28 11:19:02 [main] INFO : Navigated to /user/tickets
+2025-11-28 11:19:09 [main] INFO : Header is valid: Create New Ticket
+2025-11-28 11:19:10 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-28 11:19:10 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-28 11:19:11 [main] INFO : Selected Software Ticket Type
+2025-11-28 11:19:12 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-11-28 11:19:12 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-11-28 11:19:12 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-11-28 11:19:12 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-11-28 11:19:12 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-11-28 11:19:12 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-11-28 11:19:12 [main] INFO : Verify Error Message
+2025-11-28 11:19:12 [main] INFO : Incident Title Error Message :Incident title is required
+2025-11-28 11:19:13 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-11-28 11:19:15 [main] INFO : Entering incident details in create new ticket popup Test
+2025-11-28 11:19:15 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 11:19:16 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:19:21 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:19:24 [main] INFO : Entering more than limit file in create new ticket popup Test
+2025-11-28 11:19:27 [main] INFO : Entering invalid file format in create new ticket popup Test
+2025-11-28 11:19:30 [main] INFO : Attaching Multiple Files in create new ticket popup Test
+2025-11-28 11:19:33 [main] INFO : Testing Ended
+2025-11-28 11:19:33 [main] INFO : ***********
+2025-11-28 11:20:27 [main] INFO : Launching Chrome Browser
+2025-11-28 11:20:27 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-28 11:20:30 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-28 11:20:32 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-28 11:21:03 [main] INFO : Logged in to Intelli Serve Application
+2025-11-28 11:21:04 [main] INFO : Verify keeping all required fields blank in create ticket page test
+2025-11-28 11:21:05 [main] INFO : Navigated to /user/tickets
+2025-11-28 11:21:14 [main] INFO : Header is valid: Create New Ticket
+2025-11-28 11:21:14 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-28 11:21:14 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-28 11:21:15 [main] INFO : Selected Software Ticket Type
+2025-11-28 11:21:16 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-11-28 11:21:16 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-11-28 11:21:16 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-11-28 11:21:16 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-11-28 11:21:16 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-11-28 11:21:16 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-11-28 11:21:17 [main] INFO : Verify Error Message
+2025-11-28 11:21:17 [main] INFO : Incident Title Error Message :Incident title is required
+2025-11-28 11:21:17 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-11-28 11:21:19 [main] INFO : Entering incident details in create new ticket popup Test
+2025-11-28 11:21:20 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 11:21:21 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:21:26 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:21:28 [main] INFO : Attaching Multiple Files in create new ticket popup Test
+2025-11-28 11:21:31 [main] INFO : Entering more than limit file in create new ticket popup Test
+2025-11-28 11:21:34 [main] INFO : Entering invalid file format in create new ticket popup Test
+2025-11-28 11:21:37 [main] INFO : Testing Ended
+2025-11-28 11:21:37 [main] INFO : ***********
+2025-11-28 11:22:08 [main] INFO : Launching Chrome Browser
+2025-11-28 11:22:08 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-28 11:22:12 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-28 11:22:14 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-28 11:22:46 [main] INFO : Logged in to Intelli Serve Application
+2025-11-28 11:22:46 [main] INFO : Verify keeping all required fields blank in create ticket page test
+2025-11-28 11:22:47 [main] INFO : Navigated to /user/tickets
+2025-11-28 11:22:54 [main] INFO : Header is valid: Create New Ticket
+2025-11-28 11:22:54 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-28 11:22:54 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-28 11:22:56 [main] INFO : Selected Software Ticket Type
+2025-11-28 11:22:56 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-11-28 11:22:56 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-11-28 11:22:56 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-11-28 11:22:56 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-11-28 11:22:56 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-11-28 11:22:56 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-11-28 11:22:57 [main] INFO : Verify Error Message
+2025-11-28 11:22:57 [main] INFO : Incident Title Error Message :Incident title is required
+2025-11-28 11:22:57 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-11-28 11:23:00 [main] INFO : Entering incident details in create new ticket popup Test
+2025-11-28 11:23:00 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 11:23:01 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:23:07 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:23:09 [main] INFO : Attaching Multiple Files in create new ticket popup Test
+2025-11-28 11:23:11 [main] INFO : Entering more than limit file in create new ticket popup Test
+2025-11-28 11:23:19 [main] INFO : Entering invalid file format in create new ticket popup Test
+2025-11-28 11:23:27 [main] INFO : Testing Ended
+2025-11-28 11:23:27 [main] INFO : ***********
+2025-11-28 11:26:08 [main] INFO : Launching Chrome Browser
+2025-11-28 11:26:08 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-28 11:26:11 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-28 11:26:13 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-28 11:26:45 [main] INFO : Logged in to Intelli Serve Application
+2025-11-28 11:26:46 [main] INFO : Verify keeping all required fields blank in create ticket page test
+2025-11-28 11:26:46 [main] INFO : Navigated to /user/tickets
+2025-11-28 11:26:53 [main] INFO : Header is valid: Create New Ticket
+2025-11-28 11:26:54 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-28 11:26:54 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-28 11:26:55 [main] INFO : Selected Software Ticket Type
+2025-11-28 11:26:55 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-11-28 11:26:55 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-11-28 11:26:55 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-11-28 11:26:55 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-11-28 11:26:55 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-11-28 11:26:55 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-11-28 11:26:56 [main] INFO : Verify Error Message
+2025-11-28 11:26:56 [main] INFO : Incident Title Error Message :Incident title is required
+2025-11-28 11:26:57 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-11-28 11:26:59 [main] INFO : Entering incident details in create new ticket popup Test
+2025-11-28 11:26:59 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 11:27:00 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:27:05 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:27:08 [main] INFO : Attaching Multiple Files in create new ticket popup Test
+2025-11-28 11:27:11 [main] INFO : Entering more than limit file in create new ticket popup Test
+2025-11-28 11:27:19 [main] INFO : Entering invalid file format in create new ticket popup Test
+2025-11-28 11:27:31 [main] INFO : Testing Ended
+2025-11-28 11:27:31 [main] INFO : ***********
+2025-11-28 11:35:09 [main] INFO : Launching Chrome Browser
+2025-11-28 11:35:10 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-28 11:35:13 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-28 11:35:15 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-28 11:35:51 [main] INFO : Logged in to Intelli Serve Application
+2025-11-28 11:35:52 [main] INFO : Verify keeping all required fields blank in create ticket page test
+2025-11-28 11:35:52 [main] INFO : Navigated to /user/tickets
+2025-11-28 11:36:07 [main] INFO : Header is valid: Create New Ticket
+2025-11-28 11:36:08 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-28 11:36:08 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-28 11:36:09 [main] INFO : Selected Software Ticket Type
+2025-11-28 11:36:10 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-11-28 11:36:10 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-11-28 11:36:10 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-11-28 11:36:10 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-11-28 11:36:10 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-11-28 11:36:10 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-11-28 11:36:10 [main] INFO : Verify Error Message
+2025-11-28 11:36:10 [main] INFO : Incident Title Error Message :Incident title is required
+2025-11-28 11:36:11 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-11-28 11:36:13 [main] INFO : Entering incident details in create new ticket popup Test
+2025-11-28 11:36:14 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 11:36:14 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:36:20 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:36:22 [main] INFO : Attaching Multiple Files in create new ticket popup Test
+2025-11-28 11:36:26 [main] INFO : Entering more than limit file in create new ticket popup Test
+2025-11-28 11:36:28 [main] INFO : Message :File size should be less than 30 MB.
+2025-11-28 11:36:36 [main] INFO : Entering invalid file format in create new ticket popup Test
+2025-11-28 11:36:40 [main] INFO : Message :File size should be less than 30 MB.
+2025-11-28 11:36:51 [main] INFO : Testing Ended
+2025-11-28 11:36:51 [main] INFO : ***********
+2025-11-28 11:37:24 [main] INFO : Launching Chrome Browser
+2025-11-28 11:37:24 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-28 11:37:27 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-28 11:37:29 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-28 11:38:00 [main] INFO : Logged in to Intelli Serve Application
+2025-11-28 11:38:01 [main] INFO : Verify keeping all required fields blank in create ticket page test
+2025-11-28 11:38:02 [main] INFO : Navigated to /user/tickets
+2025-11-28 11:38:14 [main] INFO : Header is valid: Create New Ticket
+2025-11-28 11:38:14 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-28 11:38:14 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-28 11:38:15 [main] INFO : Selected Software Ticket Type
+2025-11-28 11:38:16 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-11-28 11:38:16 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-11-28 11:38:16 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-11-28 11:38:16 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-11-28 11:38:16 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-11-28 11:38:16 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-11-28 11:38:17 [main] INFO : Verify Error Message
+2025-11-28 11:38:17 [main] INFO : Incident Title Error Message :Incident title is required
+2025-11-28 11:38:17 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-11-28 11:38:19 [main] INFO : Entering incident details in create new ticket popup Test
+2025-11-28 11:38:20 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 11:38:20 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:38:26 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:38:28 [main] INFO : Entering more than limit file in create new ticket popup Test
+2025-11-28 11:38:30 [main] INFO : Message :File size should be less than 30 MB.
+2025-11-28 11:38:38 [main] INFO : Entering invalid file format in create new ticket popup Test
+2025-11-28 11:38:42 [main] INFO : Message :File size should be less than 30 MB.
+2025-11-28 11:38:53 [main] INFO : Attaching Multiple Files in create new ticket popup Test
+2025-11-28 11:38:56 [main] INFO : Testing Ended
+2025-11-28 11:38:56 [main] INFO : ***********
+2025-11-28 11:44:03 [main] INFO : Launching Chrome Browser
+2025-11-28 11:44:03 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-28 11:44:06 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-28 11:44:08 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-28 11:44:41 [main] INFO : Logged in to Intelli Serve Application
+2025-11-28 11:44:42 [main] INFO : Verify keeping all required fields blank in create ticket page test
+2025-11-28 11:44:43 [main] INFO : Navigated to /user/tickets
+2025-11-28 11:44:49 [main] INFO : Header is valid: Create New Ticket
+2025-11-28 11:44:50 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-28 11:44:50 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-28 11:44:51 [main] INFO : Selected Software Ticket Type
+2025-11-28 11:44:52 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-11-28 11:44:52 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-11-28 11:44:52 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-11-28 11:44:52 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-11-28 11:44:52 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-11-28 11:44:52 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-11-28 11:44:52 [main] INFO : Verify Error Message
+2025-11-28 11:44:52 [main] INFO : Incident Title Error Message :Incident title is required
+2025-11-28 11:44:53 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-11-28 11:44:55 [main] INFO : Entering incident details in create new ticket popup Test
+2025-11-28 11:44:56 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 11:44:56 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:45:02 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:45:04 [main] INFO : Entering more than limit file in create new ticket popup Test
+2025-11-28 11:45:06 [main] INFO : Message :File size should be less than 30 MB.
+2025-11-28 11:45:15 [main] INFO : Entering invalid file format in create new ticket popup Test
+2025-11-28 11:45:20 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 11:45:21 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:45:25 [main] INFO : Message :This file type is not supported. Please upload PDF, DOC, DOCX, XLS, XLSX, JPG, PNG, or TXT files only.
+2025-11-28 11:45:38 [main] INFO : Attaching Multiple Files in create new ticket popup Test
+2025-11-28 11:45:57 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 11:45:58 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:46:03 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:46:07 [main] INFO : Testing Ended
+2025-11-28 11:46:07 [main] INFO : ***********
+2025-11-28 11:47:16 [main] INFO : Launching Chrome Browser
+2025-11-28 11:47:16 [main] INFO : Report Name :Ticketing_Page.html
+2025-11-28 11:47:20 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-28 11:47:22 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-28 11:47:54 [main] INFO : Logged in to Intelli Serve Application
+2025-11-28 11:47:54 [main] INFO : Verify keeping all required fields blank in create ticket page test
+2025-11-28 11:47:55 [main] INFO : Navigated to /user/tickets
+2025-11-28 11:48:05 [main] INFO : Header is valid: Create New Ticket
+2025-11-28 11:48:06 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-28 11:48:06 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-28 11:48:07 [main] INFO : Selected Software Ticket Type
+2025-11-28 11:48:08 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-11-28 11:48:08 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-11-28 11:48:08 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-11-28 11:48:08 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-11-28 11:48:08 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-11-28 11:48:08 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-11-28 11:48:08 [main] INFO : Verify Error Message
+2025-11-28 11:48:08 [main] INFO : Incident Title Error Message :Incident title is required
+2025-11-28 11:48:09 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-11-28 11:48:11 [main] INFO : Entering incident details in create new ticket popup Test
+2025-11-28 11:48:12 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 11:48:12 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:48:18 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:48:20 [main] INFO : Entering more than limit file in create new ticket popup Test
+2025-11-28 11:48:22 [main] INFO : Message :File size should be less than 30 MB.
+2025-11-28 11:48:29 [main] INFO : Entering invalid file format in create new ticket popup Test
+2025-11-28 11:48:38 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 11:48:39 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:48:43 [main] INFO : Message :This file type is not supported. Please upload PDF, DOC, DOCX, XLS, XLSX, JPG, PNG, or TXT files only.
+2025-11-28 11:48:48 [main] INFO : Attaching Multiple Files in create new ticket popup Test
+2025-11-28 11:48:56 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 11:48:56 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:49:02 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 11:49:06 [main] INFO : Testing Ended
+2025-11-28 11:49:06 [main] INFO : ***********
+2025-11-28 11:56:08 [main] INFO : Launching Chrome Browser
+2025-11-28 11:56:08 [main] INFO : Report Name :IntelliServePage_Report.html
+2025-11-28 11:56:11 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-11-28 11:56:13 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-11-28 11:56:44 [main] INFO : Logged in to Intelli Serve Application
+2025-11-28 11:56:44 [main] INFO : Verify the Home and Profile Page test
+2025-11-28 11:56:45 [main] INFO : Verifying Side Bar Collapse Functionality
+2025-11-28 11:56:45 [main] INFO : Side Bar collapsed
+2025-11-28 11:56:46 [main] INFO : Verifying Side Bar Expand Functionality
+2025-11-28 11:56:46 [main] INFO : Side Bar expanded
+2025-11-28 11:56:48 [main] INFO : Profile Name :Phani Kumar Maddi
+2025-11-28 11:56:48 [main] INFO : Profile Email :phani.maddi@criticalriver.com
+2025-11-28 11:56:51 [main] INFO : Navigated to Profile Page
+2025-11-28 11:56:52 [main] INFO : Header valid :Profile
+2025-11-28 11:56:52 [main] INFO : Profile Name: Phani Kumar Maddi
+2025-11-28 11:56:53 [main] INFO : Department Name: Business Technology Group
+2025-11-28 11:56:53 [main] INFO : User Roles: BTG Approver
+2025-11-28 11:56:53 [main] INFO : User Roles: Admin
+2025-11-28 11:56:53 [main] INFO : User Roles: IT Member
+2025-11-28 11:56:54 [main] INFO : User Roles: IT Approver
+2025-11-28 11:56:54 [main] INFO : User Roles: BTG Member
+2025-11-28 11:56:54 [main] INFO : Profile Page Personal Information: First Name
+Phani
+2025-11-28 11:56:54 [main] INFO : Profile Page Personal Information: Last Name
+Kumar Maddi
+2025-11-28 11:56:54 [main] INFO : Profile Page Personal Information: Email address
+phani.maddi@criticalriver.com
+2025-11-28 11:56:54 [main] INFO : Profile Page Personal Information: Department
+Business Technology Group
+2025-11-28 11:56:55 [main] INFO : Rights :© 2025 CriticalRiver. All Rights Reserved.
+2025-11-28 11:56:55 [main] INFO : Version :Version 2.0.0
+2025-11-28 11:57:00 [main] INFO : Admin role Available
+2025-11-28 11:57:00 [main] INFO : Verify the Admin Role Pages
+2025-11-28 11:57:03 [main] INFO : Navigated to /admin
+2025-11-28 11:57:08 [main] INFO : Inside /admin Page 
+2025-11-28 11:57:08 [main] INFO : /admin Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/admin
+2025-11-28 11:57:10 [main] INFO : Ticketing Dashboard Page Title is Valid :Ticketing Dashboard | CriticalRiver Ticketing System
+2025-11-28 11:57:18 [main] INFO : Navigated to /tickets
+2025-11-28 11:57:23 [main] INFO : Inside /tickets Page 
+2025-11-28 11:57:23 [main] INFO : /tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/tickets
+2025-11-28 11:57:25 [main] INFO : All Tickets Page Title is Valid :All Tickets | CriticalRiver Ticketing System
+2025-11-28 11:57:33 [main] INFO : Navigated to /approver-management
+2025-11-28 11:57:38 [main] INFO : Inside /approver-management Page 
+2025-11-28 11:57:38 [main] INFO : /approver-management Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-management
+2025-11-28 11:57:39 [main] INFO : Approver Management Page Title is Valid :Approver Management | CriticalRiver Ticketing System
+2025-11-28 11:57:48 [main] INFO : Navigated to /roles
+2025-11-28 11:57:53 [main] INFO : Inside /roles Page 
+2025-11-28 11:57:53 [main] INFO : /roles Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/roles
+2025-11-28 11:57:54 [main] INFO : Roles Management Page Title is Valid :Roles Management | CriticalRiver Ticketing System
+2025-11-28 11:58:03 [main] INFO : Navigated to /user/tickets
+2025-11-28 11:58:08 [main] INFO : Inside /user/tickets Page 
+2025-11-28 11:58:08 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-28 11:58:09 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-28 11:58:23 [main] INFO : IT Approver role Available
+2025-11-28 11:58:23 [main] INFO : Verify the IT Approver Role Pages
+2025-11-28 11:58:26 [main] INFO : Navigated to /approver/dashboard
+2025-11-28 11:58:31 [main] INFO : Inside /approver/dashboard Page 
+2025-11-28 11:58:31 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-28 11:58:32 [main] INFO : Approver Dashboard Page Title is Valid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-28 11:58:41 [main] INFO : Navigated to /approver-tickets
+2025-11-28 11:58:46 [main] INFO : Inside /approver-tickets Page 
+2025-11-28 11:58:46 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-28 11:58:47 [main] INFO : Approver Worklist Page Title is Valid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-28 11:58:56 [main] INFO : Navigated to /user/tickets
+2025-11-28 11:59:01 [main] INFO : Inside /user/tickets Page 
+2025-11-28 11:59:01 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-28 11:59:02 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-28 11:59:16 [main] INFO : IT Member role Available
+2025-11-28 11:59:16 [main] INFO : Verify the IT Member Role Pages
+2025-11-28 11:59:19 [main] INFO : Navigated to /implementation-queue
+2025-11-28 11:59:24 [main] INFO : Inside /implementation-queue Page 
+2025-11-28 11:59:24 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-11-28 11:59:25 [main] ERROR: Implementation Queue Page Title is InValid :IntelliServe
+2025-11-28 11:59:33 [main] INFO : Navigated to /user/tickets
+2025-11-28 11:59:38 [main] INFO : Inside /user/tickets Page 
+2025-11-28 11:59:38 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-28 11:59:39 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-28 11:59:53 [main] INFO : BTG Approver role Available
+2025-11-28 11:59:53 [main] INFO : Verify the BTG Approver Role Pages
+2025-11-28 11:59:56 [main] INFO : Navigated to /approver/dashboard
+2025-11-28 12:00:01 [main] INFO : Inside /approver/dashboard Page 
+2025-11-28 12:00:01 [main] INFO : /approver/dashboard Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver/dashboard
+2025-11-28 12:00:02 [main] INFO : Approver Dashboard Page Title is Valid :Approver Dashboard | CriticalRiver Ticketing System
+2025-11-28 12:00:11 [main] INFO : Navigated to /approver-tickets
+2025-11-28 12:00:16 [main] INFO : Inside /approver-tickets Page 
+2025-11-28 12:00:16 [main] INFO : /approver-tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/approver-tickets
+2025-11-28 12:00:17 [main] INFO : Approver Worklist Page Title is Valid :Approver Worklist | CriticalRiver Ticketing System
+2025-11-28 12:00:26 [main] INFO : Navigated to /user/tickets
+2025-11-28 12:00:31 [main] INFO : Inside /user/tickets Page 
+2025-11-28 12:00:31 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-28 12:00:32 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-28 12:00:46 [main] INFO : BTG Member role Available
+2025-11-28 12:00:46 [main] INFO : Verify the BTG Member Role Pages
+2025-11-28 12:00:48 [main] INFO : Navigated to /implementation-queue
+2025-11-28 12:00:53 [main] INFO : Inside /implementation-queue Page 
+2025-11-28 12:00:53 [main] INFO : /implementation-queue Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/implementation-queue
+2025-11-28 12:00:55 [main] INFO : Implementation Queue Page Title is Valid :Implementation Queue | CriticalRiver Ticketing System
+2025-11-28 12:01:03 [main] INFO : Navigated to /user/tickets
+2025-11-28 12:01:08 [main] INFO : Inside /user/tickets Page 
+2025-11-28 12:01:08 [main] INFO : /user/tickets Url is Valid :https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/user/tickets
+2025-11-28 12:01:10 [main] INFO : My Tickets Page Title is Valid :My Tickets | CriticalRiver Ticketing System
+2025-11-28 12:01:28 [main] INFO : IT Approver role Available
+2025-11-28 12:01:29 [main] INFO : BTG Approver role Available
+2025-11-28 12:01:32 [main] INFO : Navigated to /approver-tickets
+2025-11-28 12:01:32 [main] INFO : Approver Worklist Page Configure Columns Options Filters
+2025-11-28 12:01:33 [main] INFO : Header is valid: IT Approver Worklist
+2025-11-28 12:01:40 [main] INFO : Header is valid: Column Options
+2025-11-28 12:01:40 [main] INFO : Verifying Ticket ID Column Option
+2025-11-28 12:01:40 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-28 12:01:42 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-28 12:01:42 [main] INFO : Column Option Ticket ID visibility is View 
+2025-11-28 12:01:44 [main] INFO : Verifying Status Column Option
+2025-11-28 12:01:44 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-28 12:01:46 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-28 12:01:47 [main] INFO : Column Option Status visibility is View 
+2025-11-28 12:01:53 [main] INFO : Header is valid: Column Options
+2025-11-28 12:01:57 [main] INFO : Approver Worklist Refresh Button Test
+2025-11-28 12:02:01 [main] INFO : Refresh Successful Messgae: Tickets refreshed successfully. Found 716 tickets.
+2025-11-28 12:02:03 [main] INFO : Approver Worklist Page Status Filter Test
+2025-11-28 12:02:03 [main] INFO : Approver Worklist Page Pending Status Filter Test
+2025-11-28 12:02:06 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-11-28 12:02:06 [main] INFO : Approver Worklist Page Rejected Status Filter Test
+2025-11-28 12:02:10 [main] INFO : ✅ Filter validation passed. All Values match: Rejected
+2025-11-28 12:02:10 [main] INFO : Approver Worklist Page Resolved Status Filter Test
+2025-11-28 12:02:13 [main] INFO : ✅ Filter validation passed. All Values match: Resolved
+2025-11-28 12:02:13 [main] INFO : Approver Worklist Page Closed Status Filter Test
+2025-11-28 12:02:16 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-11-28 12:02:19 [main] INFO : Approver Worklist Page Priority Filter Test
+2025-11-28 12:02:19 [main] INFO : Approver Worklist Page High Priority Filter Test
+2025-11-28 12:02:21 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-11-28 12:02:21 [main] INFO : Approver Worklist Page Low Priority Filter Test
+2025-11-28 12:02:23 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-11-28 12:02:23 [main] INFO : Approver Worklist Page Medium Priority Filter Test
+2025-11-28 12:02:25 [main] INFO : ✅ Filter validation passed. All Values match: Medium
+2025-11-28 12:02:27 [main] INFO : Approver Worklist Page Department Filter Test
+2025-11-28 12:02:28 [main] INFO : Approver Worklist Page Business Technology Group Department Filter Test
+2025-11-28 12:02:29 [main] INFO : ✅ Filter validation passed. All Values match: Business Technology Group
+2025-11-28 12:02:30 [main] INFO : Approver Worklist Page DSIL Department Filter Test
+2025-11-28 12:02:31 [main] INFO : ✅ Filter validation passed. All Values match: DSIL
+2025-11-28 12:02:32 [main] INFO : Approver Worklist Page Data Science and AI Department Filter Test
+2025-11-28 12:02:33 [main] INFO : ✅ Filter validation passed. All Values match: Data Science and AI
+2025-11-28 12:02:36 [main] INFO : Approver Worklist Page Stages Filter Test
+2025-11-28 12:02:36 [main] INFO : Approver Worklist Page Department Approver Stages Filter Test
+2025-11-28 12:02:38 [main] INFO : ✅ Filter validation passed. All Values match: Department Approver
+2025-11-28 12:02:38 [main] INFO : Approver Worklist Page BTG Approver Stages Filter Test
+2025-11-28 12:02:40 [main] INFO : ✅ Filter validation passed. All Values match: BTG Approver
+2025-11-28 12:02:40 [main] INFO : Approver Worklist Page IT Approver Stages Filter Test
+2025-11-28 12:02:42 [main] INFO : ✅ Filter validation passed. All Values match: IT Approver
+2025-11-28 12:02:44 [main] INFO : Approver Worklist Search Functionality Test
+2025-11-28 12:02:46 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-11-28 12:02:48 [main] INFO : Approver Worklist Search Non existing  Functionality Test
+2025-11-28 12:02:50 [main] INFO : No records Found :No Records Found
+2025-11-28 12:02:52 [main] INFO : Navigated to /user/tickets
+2025-11-28 12:03:00 [main] INFO : Header is valid: Column Options
+2025-11-28 12:03:00 [main] ERROR: Column Option Department visibility is already Hidden 
+2025-11-28 12:03:01 [main] ERROR: Column Option Manager visibility is already Hidden 
+2025-11-28 12:03:01 [main] INFO : Column Option Priority visibility is Hidden 
+2025-11-28 12:03:07 [main] INFO : My Tickets Page Priority Filter Test
+2025-11-28 12:03:09 [main] INFO : Header is valid: My Tickets
+2025-11-28 12:03:10 [main] INFO : My Tickets Page High Priority Filter Test
+2025-11-28 12:03:12 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-11-28 12:03:12 [main] INFO : My Tickets Page Low Priority Filter Test
+2025-11-28 12:03:13 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-11-28 12:03:14 [main] INFO : My Tickets Page Medium Priority Filter Test
+2025-11-28 12:03:15 [main] INFO : ✅ Filter validation passed. All Values match: Medium
+2025-11-28 12:03:20 [main] INFO : My Tickets Page Current Stages Filter Test
+2025-11-28 12:03:20 [main] INFO : My Tickets Page Department Approver Stages Filter Test
+2025-11-28 12:03:22 [main] INFO : ✅ Filter validation passed. All Values match: Department Approver
+2025-11-28 12:03:22 [main] INFO : My Tickets Page BTG Approver Stages Filter Test
+2025-11-28 12:03:24 [main] INFO : ✅ Filter validation passed. All Values match: BTG Approver
+2025-11-28 12:03:24 [main] INFO : My Tickets Page IT Approver Stages Filter Test
+2025-11-28 12:03:26 [main] INFO : ✅ Filter validation passed. All Values match: IT Approver
+2025-11-28 12:03:29 [main] INFO : My Tickets Page Stages Filter Test
+2025-11-28 12:03:30 [main] INFO : My Tickets Page Pending Status Filter Test
+2025-11-28 12:03:32 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-11-28 12:03:32 [main] INFO : My Tickets Page Rejected Status Filter Test
+2025-11-28 12:03:34 [main] INFO : ✅ Filter validation passed. All Values match: Rejected
+2025-11-28 12:03:34 [main] INFO : My Tickets Page Closed Status Filter Test
+2025-11-28 12:03:36 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-11-28 12:03:39 [main] INFO : My Tickets Search Functionality Test
+2025-11-28 12:03:41 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-11-28 12:03:42 [main] INFO : My Tickets Search Non existing  Functionality Test
+2025-11-28 12:03:44 [main] INFO : No records Found :No Records Found
+2025-11-28 12:03:50 [main] INFO : Navigated to /approver/dashboard
+2025-11-28 12:03:56 [main] INFO : Approver Dashboard Page test
+2025-11-28 12:03:58 [main] INFO : Header is valid: Dashboard Overview
+2025-11-28 12:03:59 [main] INFO : Header is valid: Ticket Analytics
+2025-11-28 12:03:59 [main] INFO : Approver Dashboard Page Cards test
+2025-11-28 12:04:00 [main] INFO : Card Detail: TOTAL TICKETS
+688
+2025-11-28 12:04:00 [main] INFO : Card Detail: RESOLVED
+53
+2025-11-28 12:04:00 [main] INFO : Card Detail: APPROVED
+108
+2025-11-28 12:04:00 [main] INFO : Card Detail: PENDING
+460
+2025-11-28 12:04:00 [main] INFO : Card Detail: REJECTED
+67
+2025-11-28 12:04:01 [main] INFO : Approver Dashboard Page  Chart Title test
+2025-11-28 12:04:01 [main] INFO : Chart Title in Dashboard: Ticket Type Distribution
+2025-11-28 12:04:01 [main] INFO : Chart Title in Dashboard: Tickets by Status
+2025-11-28 12:04:01 [main] INFO : Chart Title in Dashboard: Pending Tickets by Stage
+2025-11-28 12:04:01 [main] INFO : Chart Title in Dashboard: Tickets by Priority
+2025-11-28 12:04:01 [main] INFO : Chart Title in Dashboard: Monthly Ticket Trends
+2025-11-28 12:04:03 [main] INFO : IT Member role Available
+2025-11-28 12:04:03 [main] INFO : Implementation Queue Configure Columns Options Filters
+2025-11-28 12:04:05 [main] INFO : Navigated to /implementation-queue
+2025-11-28 12:04:12 [main] INFO : Header is valid: Implementation Queue
+2025-11-28 12:04:19 [main] INFO : Header is valid: Column Options
+2025-11-28 12:04:19 [main] INFO : Verifying Ticket ID Column Option
+2025-11-28 12:04:19 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-28 12:04:21 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-11-28 12:04:21 [main] INFO : Column Option Ticket ID visibility is View 
+2025-11-28 12:04:23 [main] INFO : Verifying Status Column Option
+2025-11-28 12:04:23 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-28 12:04:25 [main] INFO : Column Option Status visibility is Hidden 
+2025-11-28 12:04:26 [main] INFO : Column Option Status visibility is View 
+2025-11-28 12:04:32 [main] INFO : Header is valid: Column Options
+2025-11-28 12:04:36 [main] INFO : Implementation Queue Page Status Filter Test
+2025-11-28 12:04:37 [main] INFO : Implementation Queue Page Resolved Status Filter Test
+2025-11-28 12:04:41 [main] INFO : ✅ Filter validation passed. All Values match: Resolved
+2025-11-28 12:04:41 [main] INFO : Implementation Queue Page Pending Status Filter Test
+2025-11-28 12:04:45 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-11-28 12:04:45 [main] INFO : Implementation Queue Page Closed Status Filter Test
+2025-11-28 12:04:49 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-11-28 12:04:50 [main] INFO : Implementation Queue Page Priority Filter Test
+2025-11-28 12:04:51 [main] INFO : Implementation Queue Page High Priority Filter Test
+2025-11-28 12:04:53 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-11-28 12:04:53 [main] INFO : Implementation Queue Page Low Priority Filter Test
+2025-11-28 12:04:55 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-11-28 12:04:55 [main] INFO : Implementation Queue Page Critical Priority Filter Test
+2025-11-28 12:04:57 [main] INFO : ✅ Filter validation passed. All Values match: Critical
+2025-11-28 12:04:59 [main] INFO : Implementation Queue Search Functionality Test
+2025-11-28 12:05:01 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-11-28 12:05:02 [main] INFO : Implementation Queue Search Non existing  Functionality Test
+2025-11-28 12:05:04 [main] INFO : No records Found :No Records Found
+2025-11-28 12:05:07 [main] INFO : Verify keeping all required fields blank in create ticket page test
+2025-11-28 12:05:07 [main] INFO : Navigated to /user/tickets
+2025-11-28 12:05:29 [main] INFO : Header is valid: Create New Ticket
+2025-11-28 12:05:29 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-11-28 12:05:29 [main] INFO : Selected Infrastructure Ticket Type
+2025-11-28 12:05:30 [main] INFO : Selected Software Ticket Type
+2025-11-28 12:05:31 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-11-28 12:05:31 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-11-28 12:05:31 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-11-28 12:05:31 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-11-28 12:05:31 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-11-28 12:05:31 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-11-28 12:05:32 [main] INFO : Verify Error Message
+2025-11-28 12:05:32 [main] INFO : Incident Title Error Message :Incident title is required
+2025-11-28 12:05:32 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-11-28 12:05:35 [main] INFO : Entering incident details in create new ticket popup Test
+2025-11-28 12:05:35 [main] INFO : Entering incident title: Testing Intelliserve
+2025-11-28 12:05:36 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-11-28 12:05:39 [main] INFO : Testing Ended
+2025-11-28 12:05:39 [main] INFO : ***********

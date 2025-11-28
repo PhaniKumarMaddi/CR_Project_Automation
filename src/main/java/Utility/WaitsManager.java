@@ -206,6 +206,12 @@ public class WaitsManager {
 	        driver.get(currentURL);
 	}
 	
+	public void actionEntered() {
+		Actions act = new Actions(driver);
+		act.sendKeys(Keys.ARROW_RIGHT).build().perform();
+		act.sendKeys(Keys.ENTER).build().perform();
+	}
+	
 //	public void actionsRelated() {
 //		Actions act = new Actions(driver);
 //		WebElement element = driver.findElement(By.id("Test"));
@@ -237,5 +243,10 @@ public class WaitsManager {
 		switchToMainFrame();
 		// Switch the focus to the UI Map Pop-up
 		driver.switchTo().frame(frameName);
+	}
+	
+	public void scrollView(By locator) {
+		WebElement element = driver.findElement(locator);
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 	}
 }

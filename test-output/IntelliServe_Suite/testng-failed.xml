@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [IntelliServe_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="IntelliServe_Test(failed)">
+    <parameter name="FileName" value="IntelliServePage_Report.html"/>
+    <classes>
+      <class name="IntelliServe_Project.IntelliServe_CreateTicket_Test">
+        <methods>
+          <include name="createTicketTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- IntelliServe_Project.IntelliServe_CreateTicket_Test -->
+    </classes>
+  </test> <!-- IntelliServe_Test(failed) -->
+</suite> <!-- Failed suite [IntelliServe_Suite] -->
