@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="IntelliServe_Project.IntelliServe_Page_UI_Test">
+      <class name="IntelliServe_Project.IntelliServe_CreateTicket_Test">
         <methods>
-          <include name="IntelliServe__Signout_Test"/>
           <include name="setup"/>
+          <include name="validatingCreateTicketByApproverOrMemberFieldsTest"/>
           <include name="tearDown"/>
+          <include name="createTicketByApproverOrMemberTest"/>
         </methods>
-      </class> <!-- IntelliServe_Project.IntelliServe_Page_UI_Test -->
+      </class> <!-- IntelliServe_Project.IntelliServe_CreateTicket_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

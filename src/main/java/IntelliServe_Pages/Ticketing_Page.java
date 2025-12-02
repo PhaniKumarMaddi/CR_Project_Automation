@@ -280,6 +280,31 @@ public class Ticketing_Page extends WaitsManager {
 
 		}
 	}
+	
+	public String getSelectedUserRole() throws Exception {
+		String selectedRole=null;
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(profileLogo).isEmpty();
+			if (elementExists) {
+				driver.findElement(profileLogo).click();
+				waitTime(driver);
+				WebElement role = driver.findElement(selectRole);
+				Select select = new Select(role);
+				selectedRole =select.getFirstSelectedOption().getText();
+			} else {
+				grep.failTest("Select role not available");
+				logger.error("Select role not available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+		return selectedRole;
+	}
 
 	public boolean verifyUserRole(String roleValue) throws Exception {
 

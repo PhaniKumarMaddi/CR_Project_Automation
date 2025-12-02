@@ -61,7 +61,7 @@ public class IntelliServe_TestInitializer extends WaitsManager {
 		driver.manage().window().maximize();
 
 		String url = configFile.getProperty("IntelliServe_DevUrl"); // DEV
-//		String url = configFile.getProperty("IntelliServe_UarUrl"); // UAT
+//		String url = configFile.getProperty("IntelliServe_UatUrl"); // UAT
 
 		grep.setupExtentReport(nameForReport);
 		grep.testCreate("Login Page", "Login test");

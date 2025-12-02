@@ -1,12 +1,17 @@
 package IntelliServe_Pages;
 
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import javax.imageio.ImageIO;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 
 import Utility.DriverManager;
 import Utility.GenerateReports;
@@ -29,11 +34,16 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 
 	By req_Name = By.xpath("//input[@id='RequestorName']");
 	By req_Email = By.xpath("//input[@id='RequestorEmail']");
-	By req_Dept = By.xpath("//input[@id='DepartmentTeam']");
+	By req_Dept = By.xpath("//*[@id='DepartmentTeam']");
+	By select_Dept = By.xpath("//select[@id='DepartmentTeam']");
 	By req_Mobile = By.xpath("//input[@id='MobilePhone']");
 	By req_MgrName = By.xpath("//input[@id='ManagerName']");
 	By req_MgrEmail = By.xpath("//input[@id='ManagerEmail']");
 	By priorityLevel = By.xpath("//select[@id='PriorityLevel']");
+
+	By req_Name_Error = By.xpath("//p[normalize-space()='Name is required']");
+	By req_Email_Error = By.xpath("//p[normalize-space()='Email is required']");
+	By req_Dept_Error = By.xpath("//p[normalize-space()='Department is required']");
 
 	By incidentTitle = By.xpath("//input[@id='incidentTitle']");
 	By incidentDetail = By.xpath(
@@ -45,16 +55,21 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 	By choosefile = By.xpath("//label[normalize-space()='Choose files (Up to 30MB)']");
 	By inputFile = By.xpath("//input[@type='file']");
 
-	By createTicketmsg = By.xpath(
+	By createTicketErrorMsg = By.xpath(
 			"//div[@class='bg-red-600 text-white px-6 py-4 rounded-lg shadow-lg max-w-md flex items-center space-x-3']/span");
+	By createTicketSucessMsg = By.xpath(
+			"//div[@class='bg-green-600 text-white px-6 py-4 rounded-lg shadow-lg max-w-md flex items-center space-x-3']/span");
 
-//	By boldText = By.cssSelector("button[title='Bold']");
-//	By italicText = By.cssSelector("button[title='Italic']");
-//	By underlineText = By.cssSelector("button[title='Underline']");
-//	By strikeText = By.cssSelector("button[title='Strikethrough']");
-
-//	By cancelTicket = By.xpath("//button[text()='Cancel']");
-
+	
+	// Ticket Details 
+	By ticketID_InTable = By.xpath("//tbody/tr/td/button");
+	By ticketId_InPopup = By.xpath("//h2[@class='text-xl font-bold text-white']");
+	By ticketDetail_InPopup = By.xpath("//td[normalize-space()='Ticket ID']/following-sibling::td");
+	
+	By incidentTitle_InPopup= By.xpath("//h4[text()='Heading']/following-sibling::div");
+	By incidentDetail_InPopup= By.xpath("//h4[text()='Detail']/following-sibling::div");
+	
+	
 	// verify header
 	public void verifyCreateTicketPageHeader(String headerVal) throws Exception {
 		try {
@@ -166,7 +181,6 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 				String requestorMobile = driver.findElement(req_Mobile).getAttribute("value");
 				String requestor_MgrName = driver.findElement(req_MgrName).getAttribute("value");
 				String requestor_MgrEmail = driver.findElement(req_MgrEmail).getAttribute("value");
-//				String priority = driver.findElement(priorityLevel).getText();
 
 				grep.infoTest("Requestor Name in Create ticket Popup: " + requestorName);
 				logger.info("Requestor Name in Create ticket Popup: " + requestorName);
@@ -186,12 +200,186 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 				grep.infoTest("Requestor Manager Email in Create ticket Popup: " + requestor_MgrEmail);
 				logger.info("Requestor Manager Email in Create ticket Popup: " + requestor_MgrEmail);
 
-//				grep.infoTest("Seleted Priority in Create ticket Popup: " + priority);
-//				logger.info("Seleted Priority in Create ticket Popup: " + priority);
-
 			} else {
 				grep.failTest("Ticket Type Not Available");
 				logger.error("Ticket Type Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+
+	}
+
+	public void insertRequestorName(String reqNameVal) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(req_Name).isEmpty();
+			scrollView(req_Name);
+			if (elementExists) {
+				grep.infoTest("Entering Requestor Name: " + reqNameVal);
+				logger.info("Entering Requestor Name: " + reqNameVal);
+				waitTime(driver);
+
+				driver.findElement(req_Name).click();
+				driver.findElement(req_Name).sendKeys(reqNameVal);
+
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+
+	}
+
+	public void insertRequestorEmail(String reqEmailVal) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(req_Email).isEmpty();
+			if (elementExists) {
+				grep.infoTest("Entering Requestor Email: " + reqEmailVal);
+				logger.info("Entering Requestor Email: " + reqEmailVal);
+				waitTime(driver);
+				driver.findElement(req_Email).click();
+				driver.findElement(req_Email).sendKeys(reqEmailVal);
+
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+
+	}
+
+	public void selectPriorityLevel(String priorityVal) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(priorityLevel).isEmpty();
+			if (elementExist) {
+				WebElement selectPrior = driver.findElement(priorityLevel);
+				Select selectValue = new Select(selectPrior);
+				selectValue.selectByValue(priorityVal);
+				waitTime(driver);
+
+				grep.passTest("Selecting Priority from dropdown: " + selectValue.getFirstSelectedOption().getText());
+				logger.info("Selecting Priority from dropdown: " + selectValue.getFirstSelectedOption().getText());
+			} else {
+				grep.failTest("Selecting Priority from dropdown Failed");
+				logger.error("Selecting Priority from dropdown Failed");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void selectDepartment(String deptVal) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExist = !driver.findElements(select_Dept).isEmpty();
+			if (elementExist) {
+				WebElement selectDept = driver.findElement(select_Dept);
+				Select selectValue = new Select(selectDept);
+				selectValue.selectByValue(deptVal);
+				waitTime(driver);
+
+				grep.passTest("Selecting Department from dropdown: " + selectValue.getFirstSelectedOption().getText());
+				logger.info("Selecting Department from dropdown: " + selectValue.getFirstSelectedOption().getText());
+			} else {
+				grep.failTest("Selecting Department from dropdown Failed");
+				logger.error("Selecting Department from dropdown Failed");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void getRequestorNameError() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(req_Name_Error).isEmpty();
+			if (elementExists) {
+				scrollView(req_Name_Error);
+				String errorMsg = driver.findElement(req_Name_Error).getText();
+				if (errorMsg.equals("Name is required")) {
+					grep.passTest("Requestor Name Error Message :" + errorMsg);
+					logger.info("Requestor Name Error Message :" + errorMsg);
+					waitTime(driver);
+				} else {
+					grep.failTest("Requestor Name Error Message is not correct");
+					logger.error("Requestor Name Error Message is not correct");
+				}
+			} else {
+				grep.failTest("Requestor Name Error Message Not found");
+				logger.error("Requestor Name Error Message Not found");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+
+	}
+
+	public void getRequestorEmailError() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(req_Email_Error).isEmpty();
+			if (elementExists) {
+				String errorMsg = driver.findElement(req_Email_Error).getText();
+				if (errorMsg.equals("Email is required")) {
+					grep.passTest("Requestor Email Error Message :" + errorMsg);
+					logger.info("Requestor Email Error Message :" + errorMsg);
+					waitTime(driver);
+				} else {
+					grep.failTest("Requestor Email Error Message is not correct");
+					logger.error("Requestor Email Error Message is not correct");
+				}
+			} else {
+				grep.failTest("Requestor Email Error Message Not found");
+				logger.error("Requestor Email Error Message Not found");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+
+	}
+
+	public void getDepartmentError() throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(req_Dept_Error).isEmpty();
+			if (elementExists) {
+				String errorMsg = driver.findElement(req_Dept_Error).getText();
+				if (errorMsg.equals("Department is required")) {
+					grep.passTest("Department Error Message :" + errorMsg);
+					logger.info("Department Error Message :" + errorMsg);
+					waitTime(driver);
+				} else {
+					grep.failTest("Department Error Message is not correct");
+					logger.error("Department Error Message is not correct");
+				}
+			} else {
+				grep.failTest("Department Error Message Not found");
+				logger.error("Department Error Message Not found");
 			}
 
 		} catch (Exception e) {
@@ -229,9 +417,14 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 			boolean elementExists = !driver.findElements(incidentTitleError).isEmpty();
 			if (elementExists) {
 				String errorMsg = driver.findElement(incidentTitleError).getText();
-				grep.passTest("Incident Title Error Message :" + errorMsg);
-				logger.info("Incident Title Error Message :" + errorMsg);
-				waitTime(driver);
+				if (errorMsg.equals("Incident title is required")) {
+					grep.passTest("Incident Title Error Message :" + errorMsg);
+					logger.info("Incident Title Error Message :" + errorMsg);
+					waitTime(driver);
+				} else {
+					grep.failTest("Incident Title Error Message is not correct");
+					logger.error("Incident Title Error Message is not correct");
+				}
 			} else {
 				grep.failTest("Incident Title Error Message Not found");
 				logger.error("Incident Title Error Message Not found");
@@ -266,18 +459,46 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 
 	}
 
+	public void pasteImageInIncidentDetail(String files) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(incidentDetail).isEmpty();
+			if (elementExists) {
+				BufferedImage img = ImageIO.read(new File(files));
+				TransferableImage trans = new TransferableImage(img);
+				Toolkit.getDefaultToolkit().getSystemClipboard().setContents(trans, null);
+
+				WebElement image = driver.findElement(incidentDetail);
+				image.click();
+				image.sendKeys(Keys.CONTROL, "v");
+
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+
+	}
+
 	public void getIncidentDetailError() throws Exception {
 		try {
 			implWait(driver);
 			boolean elementExists = !driver.findElements(incidentDetailerror).isEmpty();
 			if (elementExists) {
 				String errorMsg = driver.findElement(incidentDetailerror).getText();
-				grep.passTest("Incident Detail Error Message :" + errorMsg);
-				logger.info("Incident Detail Error Message :" + errorMsg);
-				waitTime(driver);
+				if (errorMsg.equals("Incident details cannot be empty or only spaces")) {
+					grep.passTest("Incident Detail Error Message :" + errorMsg);
+					logger.info("Incident Detail Error Message :" + errorMsg);
+					waitTime(driver);
+				} else {
+					grep.failTest("Incident Detail Error Message is not correct");
+					logger.error("Incident Detail Error Message is not correct");
+				}
 			} else {
-				grep.failTest("Incident Title Error Message Not found");
-				logger.error("Incident Title Error Message Not found");
+				grep.failTest("Incident Detail Error Message Not found");
+				logger.error("Incident Detail Error Message Not found");
 			}
 
 		} catch (Exception e) {
@@ -373,16 +594,21 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 
 	}
 
-	public void getCreateTicketpopupMessage() throws Exception {
+	public void getCreateTicketpopupErrorMessage(String messageVal) throws Exception {
 		try {
 //			implWait(driver);
-			waitForElement(createTicketmsg, 90);
-			boolean elementExists = !driver.findElements(createTicketmsg).isEmpty();
+			waitForElement(createTicketErrorMsg, 90);
+			boolean elementExists = !driver.findElements(createTicketErrorMsg).isEmpty();
 			if (elementExists) {
-				String message = driver.findElement(createTicketmsg).getText();
-				grep.passTest("Message :" + message);
-				logger.info("Message :" + message);
-				waitTime(driver);
+				String message = driver.findElement(createTicketErrorMsg).getText();
+				if (message.contains(messageVal)) {
+					grep.passTest("Message :" + message);
+					logger.info("Message :" + message);
+					waitTime(driver);
+				} else {
+					grep.failTest("Invalid error message in create ticket popup: " + message);
+					logger.error("Invalid error message in create ticket popup: " + message);
+				}
 			} else {
 				grep.failTest("Snackbar message is not available in create ticket popup");
 				logger.error("Snackbar message is not available in create ticket popup");
@@ -397,5 +623,35 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 
 	}
 
-	
+	public void getCreateTicketpopupSucessMessage() throws Exception {
+		try {
+//			implWait(driver);
+			waitForElement(createTicketSucessMsg, 90);
+			boolean elementExists = !driver.findElements(createTicketSucessMsg).isEmpty();
+			if (elementExists) {
+				String message = driver.findElement(createTicketSucessMsg).getText();
+				if (message.equals("Ticket created successfully!")) {
+
+					grep.passTest("Message :" + message);
+					logger.info("Message :" + message);
+					waitTime(driver);
+				} else {
+					grep.failTest("Invalid Message :" + message);
+					logger.error("Invalid Message :" + message);
+					waitTime(driver);
+				}
+			} else {
+				grep.failTest("Snackbar message is not available in create ticket popup");
+				logger.error("Snackbar message is not available in create ticket popup");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+
+	}
+
 }

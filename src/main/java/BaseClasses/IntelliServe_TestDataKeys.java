@@ -66,4 +66,12 @@ public class IntelliServe_TestDataKeys {
 	public String stageFilter = "Stages";
 	public String currentStage = "Current Stage";
 
+	// create ticket
+	public String limitExceedMsg ="File size should be less than 30 MB.";
+	public String invalidFileMsg ="This file type is not supported. Please upload PDF, DOC, DOCX, XLS, XLSX, JPG, PNG, or TXT files only.";
+	
+	
+	public String cancelTicket="Cancel";
+	public String createTicket="Create Ticket";
+	
 }
