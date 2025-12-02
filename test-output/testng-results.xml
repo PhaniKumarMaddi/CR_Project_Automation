@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-02T13:39:28 IST" name="Default suite" finished-at="2025-12-02T13:45:03 IST" duration-ms="335129">
+  <suite started-at="2025-12-02T17:17:27 IST" name="Default suite" finished-at="2025-12-02T17:21:26 IST" duration-ms="238163">
     <groups>
     </groups>
-    <test started-at="2025-12-02T13:39:28 IST" name="Default test" finished-at="2025-12-02T13:45:03 IST" duration-ms="335129">
+    <test started-at="2025-12-02T17:17:27 IST" name="Default test" finished-at="2025-12-02T17:21:26 IST" duration-ms="238163">
       <class name="IntelliServe_Project.IntelliServe_CreateTicket_Test">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:IntelliServe_Project.IntelliServe_CreateTicket_Test@31d0e481]" started-at="2025-12-02T13:39:28 IST" name="setup" description="Setup and Login To Browser" finished-at="2025-12-02T13:40:04 IST" duration-ms="36591" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:IntelliServe_Project.IntelliServe_CreateTicket_Test@1d470d0]" started-at="2025-12-02T17:17:27 IST" name="setup" description="Setup and Login To Browser" finished-at="2025-12-02T17:18:18 IST" duration-ms="50705" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,23 +18,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validatingCreateTicketFieldsTest()[pri:1, instance:IntelliServe_Project.IntelliServe_CreateTicket_Test@31d0e481]" started-at="2025-12-02T13:40:04 IST" name="validatingCreateTicketFieldsTest" finished-at="2025-12-02T13:41:03 IST" duration-ms="58469" status="PASS">
+        <test-method signature="validatingCreateTicketFieldsTest()[pri:1, instance:IntelliServe_Project.IntelliServe_CreateTicket_Test@1d470d0]" started-at="2025-12-02T17:18:18 IST" name="validatingCreateTicketFieldsTest" finished-at="2025-12-02T17:19:10 IST" duration-ms="51574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatingCreateTicketFieldsTest -->
-        <test-method signature="validatingCreateTicketByApproverOrMemberFieldsTest()[pri:2, instance:IntelliServe_Project.IntelliServe_CreateTicket_Test@31d0e481]" started-at="2025-12-02T13:41:03 IST" name="validatingCreateTicketByApproverOrMemberFieldsTest" finished-at="2025-12-02T13:42:36 IST" duration-ms="93435" status="PASS">
+        <test-method signature="validatingCreateTicketByApproverOrMemberFieldsTest()[pri:2, instance:IntelliServe_Project.IntelliServe_CreateTicket_Test@1d470d0]" started-at="2025-12-02T17:19:10 IST" name="validatingCreateTicketByApproverOrMemberFieldsTest" finished-at="2025-12-02T17:20:17 IST" duration-ms="67177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatingCreateTicketByApproverOrMemberFieldsTest -->
-        <test-method signature="createTicketByApproverOrMemberTest()[pri:3, instance:IntelliServe_Project.IntelliServe_CreateTicket_Test@31d0e481]" started-at="2025-12-02T13:42:36 IST" name="createTicketByApproverOrMemberTest" finished-at="2025-12-02T13:42:59 IST" duration-ms="22530" status="PASS">
+        <test-method signature="createTicketByApproverOrMemberTest()[pri:3, instance:IntelliServe_Project.IntelliServe_CreateTicket_Test@1d470d0]" started-at="2025-12-02T17:20:17 IST" name="createTicketByApproverOrMemberTest" finished-at="2025-12-02T17:20:40 IST" duration-ms="22660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTicketByApproverOrMemberTest -->
-        <test-method signature="createTicketWithMultipleFilesTest()[pri:4, instance:IntelliServe_Project.IntelliServe_CreateTicket_Test@31d0e481]" started-at="2025-12-02T13:42:59 IST" name="createTicketWithMultipleFilesTest" finished-at="2025-12-02T13:45:02 IST" duration-ms="123653" status="PASS">
+        <test-method signature="createTicketWithMultipleFilesTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:IntelliServe_Project.IntelliServe_CreateTicket_Test@1d470d0]" started-at="2025-12-02T17:20:40 IST" name="createTicketWithMultipleFilesTest" data-provider="CreateTicket" finished-at="2025-12-02T17:21:25 IST" duration-ms="44833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testing Intelliserve Automation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Entering Incident Detail Through Automation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C:\\Users\\PhaniKumarMaddi\\Downloads\\images1.jpg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Intelliserve Incident Detail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\\Users\\PhaniKumarMaddi\\Downloads\\images.jpg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Testing Intelliserve]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTicketWithMultipleFilesTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:IntelliServe_Project.IntelliServe_CreateTicket_Test@31d0e481]" started-at="2025-12-02T13:45:02 IST" name="tearDown" description="Quit Browser" finished-at="2025-12-02T13:45:03 IST" duration-ms="408" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:IntelliServe_Project.IntelliServe_CreateTicket_Test@1d470d0]" started-at="2025-12-02T17:21:25 IST" name="tearDown" description="Quit Browser" finished-at="2025-12-02T17:21:26 IST" duration-ms="478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

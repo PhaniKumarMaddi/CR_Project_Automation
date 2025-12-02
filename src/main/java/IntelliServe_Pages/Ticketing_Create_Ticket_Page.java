@@ -3,6 +3,8 @@ package IntelliServe_Pages;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.util.List;
+
 import javax.imageio.ImageIO;
 
 import org.apache.logging.log4j.LogManager;
@@ -60,16 +62,22 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 	By createTicketSucessMsg = By.xpath(
 			"//div[@class='bg-green-600 text-white px-6 py-4 rounded-lg shadow-lg max-w-md flex items-center space-x-3']/span");
 
-	
-	// Ticket Details 
+	// Ticket Details
 	By ticketID_InTable = By.xpath("//tbody/tr/td/button");
 	By ticketId_InPopup = By.xpath("//h2[@class='text-xl font-bold text-white']");
-	By ticketDetail_InPopup = By.xpath("//td[normalize-space()='Ticket ID']/following-sibling::td");
-	
-	By incidentTitle_InPopup= By.xpath("//h4[text()='Heading']/following-sibling::div");
-	By incidentDetail_InPopup= By.xpath("//h4[text()='Detail']/following-sibling::div");
-	
-	
+
+	By incidentTitle_InPopup = By.xpath("//h4[text()='Heading']/following-sibling::div");
+	By incidentDetail_InPopup = By.xpath("//h4[text()='Detail']/following-sibling::div");
+
+	// Ticket Detail Audit Table
+	By stage_InAudit = By.xpath("//h3[text()='Ticket Audit']/parent::div/descendant::table/tbody/tr/td[1]");
+	By status_InAudit = By.xpath("//h3[text()='Ticket Audit']/parent::div/descendant::table/tbody/tr/td[2]");
+	By nextStage_InAudit = By.xpath("//h3[text()='Ticket Audit']/parent::div/descendant::table/tbody/tr/td[3]");
+	By actionDate_InAudit = By.xpath("//h3[text()='Ticket Audit']/parent::div/descendant::table/tbody/tr/td[4]");
+	By comments_InAudit = By.xpath("//h3[text()='Ticket Audit']/parent::div/descendant::table/tbody/tr/td[5]");
+
+	By closeDetailPopup = By.xpath("//button[@title='Close']");
+
 	// verify header
 	public void verifyCreateTicketPageHeader(String headerVal) throws Exception {
 		try {
@@ -643,6 +651,281 @@ public class Ticketing_Create_Ticket_Page extends WaitsManager {
 			} else {
 				grep.failTest("Snackbar message is not available in create ticket popup");
 				logger.error("Snackbar message is not available in create ticket popup");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+
+	}
+
+	// Ticket Details
+
+	public String getTicketIdfromTable() throws Exception {
+		String ticketIdVal = null;
+		try {
+			implWait(driver);
+
+			List<WebElement> ticketId = driver.findElements(ticketID_InTable);
+			if (ticketId.size() > 0) {
+				ticketIdVal = ticketId.getFirst().getText();
+				waitTime(driver);
+
+			} else {
+				grep.failTest("Ticket ID Not available");
+				logger.error("Ticket ID Not available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+		return ticketIdVal;
+	}
+
+	public void clickTicketId(String ticketNum) throws Exception {
+		try {
+			implWait(driver);
+			By selectTicket = By.xpath("//tbody/tr/td/button[text()='" + ticketNum + "']");
+			boolean elementExists = !driver.findElements(selectTicket).isEmpty();
+			if (elementExists) {
+				driver.findElement(selectTicket).click();
+				waitTime(driver);
+
+			} else {
+				grep.failTest("Ticket Not available");
+				logger.error("Ticket Not available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public String verifyTicketIdFromDetailPopup() throws Exception {
+		String ticketIdVal = null;
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(ticketId_InPopup).isEmpty();
+			if (elementExists) {
+				ticketIdVal = driver.findElement(ticketId_InPopup).getText();
+				waitTime(driver);
+
+			} else {
+				grep.failTest("Ticket ID Not available in Ticket Detail Popup");
+				logger.error("Ticket ID Not available in Ticket Detail Popup");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+		return ticketIdVal;
+	}
+
+	public String verifyTicketDetailsFromDetailPopup(String fieldName) throws Exception {
+		String detailVal = null;
+		try {
+			implWait(driver);
+			By ticketDetail_InPopup = By.xpath("//td[normalize-space()='" + fieldName + "']/following-sibling::td");
+
+			boolean elementExists = !driver.findElements(ticketDetail_InPopup).isEmpty();
+			if (elementExists) {
+				detailVal = driver.findElement(ticketDetail_InPopup).getText();
+				waitTime(driver);
+
+			} else {
+				grep.failTest(fieldName + " Not available in Ticket Detail Popup");
+				logger.error(fieldName + " Not available in Ticket Detail Popup");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+		return detailVal;
+	}
+
+	public void getIncidentDetailsFromDetailPopup(String title) throws Exception {
+		try {
+			implWait(driver);
+			boolean elementExists = !driver.findElements(incidentTitle_InPopup).isEmpty();
+			if (elementExists) {
+				String inc_title = driver.findElement(incidentTitle_InPopup).getText();
+				String details = driver.findElement(incidentDetail_InPopup).getText();
+				if (inc_title.contains(title)) {
+
+					grep.passTest("Incident Title: " + inc_title);
+					logger.info("Incident Title: " + inc_title);
+					waitTime(driver);
+					grep.infoTest("Incident Details: " + details);
+					logger.info("Incident Details: " + details);
+					waitTime(driver);
+
+				} else {
+					grep.failTest("Invalid Message :" + inc_title);
+					logger.error("Invalid Message :" + inc_title);
+					waitTime(driver);
+				}
+			} else {
+				grep.failTest("Incident Details not available in ticket detail popup");
+				logger.error("Incident Details not available in ticket detail popup");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+
+	}
+
+	// Ticket Audit Details
+
+	public String getStageFromAuditTable() throws Exception {
+		String stageVal = null;
+		try {
+			implWait(driver);
+
+			List<WebElement> stage = driver.findElements(stage_InAudit);
+			if (stage.size() > 0) {
+				stageVal = stage.getLast().getText();
+				waitTime(driver);
+
+			} else {
+				grep.failTest("Stage in Audit Not available");
+				logger.error("Stage in Audit Not available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+		return stageVal;
+	}
+
+	public String getStatusFromAuditTable() throws Exception {
+		String statusVal = null;
+		try {
+			implWait(driver);
+
+			List<WebElement> status = driver.findElements(status_InAudit);
+			if (status.size() > 0) {
+				statusVal = status.getLast().getText();
+				waitTime(driver);
+
+			} else {
+				grep.failTest("Status in Audit Not available");
+				logger.error("Status in Audit Not available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+		return statusVal;
+	}
+
+	public String getNextStageFromAuditTable() throws Exception {
+		String nextStageVal = null;
+		try {
+			implWait(driver);
+
+			List<WebElement> nextStage = driver.findElements(nextStage_InAudit);
+			if (nextStage.size() > 0) {
+				nextStageVal = nextStage.getLast().getText();
+				waitTime(driver);
+
+			} else {
+				grep.failTest("Next Stage in Audit Not available");
+				logger.error("Next Stage in Audit Not available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+		return nextStageVal;
+	}
+
+	public String getActionDateFromAuditTable() throws Exception {
+		String actionDateVal = null;
+		try {
+			implWait(driver);
+
+			List<WebElement> actiondate = driver.findElements(actionDate_InAudit);
+			if (actiondate.size() > 0) {
+				actionDateVal = actiondate.getLast().getText();
+				waitTime(driver);
+
+			} else {
+				grep.failTest("Action in Audit Not available");
+				logger.error("Action in Audit Not available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+		return actionDateVal;
+	}
+
+	public String getCommentsFromAuditTable() throws Exception {
+		String commentVal = null;
+		try {
+			implWait(driver);
+
+			List<WebElement> comments = driver.findElements(comments_InAudit);
+			if (comments.size() > 0) {
+				commentVal = comments.getLast().getText();
+				waitTime(driver);
+
+			} else {
+				grep.failTest("Comments in Audit Not available");
+				logger.error("Comments in Audit Not available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+		return commentVal;
+	}
+
+	public void clickCloseDetailPopup() throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(closeDetailPopup).isEmpty();
+			if (elementExists) {
+				driver.findElement(closeDetailPopup).click();
+			} else {
+				grep.failTest("Close Button Not Available");
+				logger.error("Close Buttont Not Available");
 			}
 
 		} catch (Exception e) {

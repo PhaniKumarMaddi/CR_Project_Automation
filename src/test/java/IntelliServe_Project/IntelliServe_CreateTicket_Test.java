@@ -2,6 +2,7 @@ package IntelliServe_Project;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import BaseClasses.IntelliServe_TestDataKeys;
@@ -9,7 +10,10 @@ import BaseClasses.IntelliServe_TestInitializer;
 import IntelliServe_Pages.Ticketing_Approver_Member_Page;
 import IntelliServe_Pages.Ticketing_Create_Ticket_Page;
 import IntelliServe_Pages.Ticketing_Page;
+import Utility.ExcelDataProvider;
 import Utility.GenerateReports;
+import Utility.ValidatingAssertions;
+import lombok.val;
 
 public class IntelliServe_CreateTicket_Test extends IntelliServe_TestInitializer {
 	private static final Logger logger = LogManager.getLogger(IntelliServe_CreateTicket_Test.class);
@@ -18,6 +22,14 @@ public class IntelliServe_CreateTicket_Test extends IntelliServe_TestInitializer
 	Ticketing_Page ticketpage;
 	Ticketing_Create_Ticket_Page createTict;
 	Ticketing_Approver_Member_Page appr_member_Page;
+	ValidatingAssertions validAssert = new ValidatingAssertions();
+
+	@DataProvider(name = "CreateTicket")
+	public Object[][] getData() {
+		// Get Excel Test Data passing Excel File Name and Sheet Name
+		Object data[][] = ExcelDataProvider.testData("AutomationFile", "Create Ticket");
+		return data;
+	}
 
 	@Test(priority = 1)
 	public void validatingCreateTicketFieldsTest() throws Exception {
@@ -132,9 +144,9 @@ public class IntelliServe_CreateTicket_Test extends IntelliServe_TestInitializer
 
 	@Test(priority = 2)
 	public void validatingCreateTicketByApproverOrMemberFieldsTest() throws Exception {
-		ticketpage = new Ticketing_Page();
-		appr_member_Page = new Ticketing_Approver_Member_Page();
-		createTict = new Ticketing_Create_Ticket_Page();
+//		ticketpage = new Ticketing_Page();
+//		appr_member_Page = new Ticketing_Approver_Member_Page();
+//		createTict = new Ticketing_Create_Ticket_Page();
 
 		waitTime2(driver);
 
@@ -344,8 +356,15 @@ public class IntelliServe_CreateTicket_Test extends IntelliServe_TestInitializer
 
 	}
 
-	@Test(priority = 4)
-	public void createTicketWithMultipleFilesTest() throws Exception {
+	@Test(priority = 4, dataProvider = "CreateTicket")
+	public void createTicketWithMultipleFilesTest(String incTitle, String incDetail1, String imcImage1,
+			String incDetail2, String imcImage2, String incDetail3) throws Exception {
+		ticketpage = new Ticketing_Page();
+		appr_member_Page = new Ticketing_Approver_Member_Page();
+		createTict = new Ticketing_Create_Ticket_Page();
+		refreshPage();
+		waitTime2(driver);
+
 		boolean it_approver = ticketpage.verifyUserRole(dataKeys.itApprover_Role);
 		boolean btg_approver = ticketpage.verifyUserRole(dataKeys.btgApprover_Role);
 		if (it_approver || btg_approver) {
@@ -376,7 +395,7 @@ public class IntelliServe_CreateTicket_Test extends IntelliServe_TestInitializer
 		waitTime(driver);
 		grep.infoTest("Creating an Ticket with attaching multiple files in create new ticket popup Test");
 		logger.info("Creating an Ticket with attaching multiple files in create new ticket popup Test");
-		waitTime(driver);
+		waitTime5(driver);
 		createTict.clickCreateTicketLink();
 		String selectedRole = ticketpage.getSelectedUserRole();
 		if (selectedRole.equals(dataKeys.itApprover_Role)) {
@@ -389,8 +408,10 @@ public class IntelliServe_CreateTicket_Test extends IntelliServe_TestInitializer
 		waitTime3(driver);
 //		createTict.selectPriorityLevel("Low");
 		waitTime(driver);
-		createTict.insertIncidentTitle("Testing Intelliserve Automation");
-		createTict.insertIncidentDetail("Entering Incident Detail Through Automation");
+//		createTict.insertIncidentTitle("Testing Intelliserve Automation");
+//		createTict.insertIncidentDetail("Entering Incident Detail Through Automation");
+		createTict.insertIncidentTitle(incTitle);
+		createTict.insertIncidentDetail(incDetail1);
 
 		waitTime(driver);
 		createTict.selectAllIncidentDetail();
@@ -402,7 +423,8 @@ public class IntelliServe_CreateTicket_Test extends IntelliServe_TestInitializer
 		// click enter
 		actionEntered();
 		waitTime(driver);
-		createTict.pasteImageInIncidentDetail("C:\\Users\\PhaniKumarMaddi\\Downloads\\images1.jpg");
+//		createTict.pasteImageInIncidentDetail("C:\\Users\\PhaniKumarMaddi\\Downloads\\images1.jpg");
+		createTict.pasteImageInIncidentDetail(imcImage1);
 
 		waitTime(driver);
 		createTict.fontStyles_NewTicket("Bold");
@@ -410,11 +432,14 @@ public class IntelliServe_CreateTicket_Test extends IntelliServe_TestInitializer
 		createTict.fontStyles_NewTicket("Underline");
 		createTict.fontStyles_NewTicket("Strikethrough");
 		waitTime2(driver);
-		createTict.insertIncidentDetail("Testing Intelliserve Incident Detail");
+//		createTict.insertIncidentDetail("Testing Intelliserve Incident Detail");
+		createTict.insertIncidentDetail(incDetail2);
 		waitTime(driver);
-		createTict.pasteImageInIncidentDetail("C:\\Users\\PhaniKumarMaddi\\Downloads\\images.jpg");
+//		createTict.pasteImageInIncidentDetail("C:\\Users\\PhaniKumarMaddi\\Downloads\\images.jpg");
+		createTict.pasteImageInIncidentDetail(imcImage2);
 		waitTime(driver);
-		createTict.insertIncidentDetail("Testing Intelliserve");
+//		createTict.insertIncidentDetail("Testing Intelliserve");
+		createTict.insertIncidentDetail(incDetail3);
 
 		String[] files = { "C:\\Users\\PhaniKumarMaddi\\Downloads\\Invoice_20251111.png" + "\n"
 				+ "C:\\Users\\PhaniKumarMaddi\\Downloads\\Tickets Word New.docx" + "\n"
@@ -424,11 +449,128 @@ public class IntelliServe_CreateTicket_Test extends IntelliServe_TestInitializer
 		createTict.chooseFileIn_NewTicket(files);
 
 		waitTime(driver);
-		grep.captureScreenshot("pass", "Multiple Files in Create Ticket popup Test", "MultipleFilesAttachment");
+		grep.captureScreenshot("pass", "Multiple Files in Create Ticket popup Test",
+				"ticketCreatedWith_MultiAttachments");
 		waitTime(driver);
 		createTict.clickButton(dataKeys.cancelTicket);
 //		createTict.clickButton(dataKeys.createTicket);
 //		createTict.getCreateTicketpopupSucessMessage();
+
+		grep.testCreate("Verify the Ticket details and Audit Details in Ticket Details popup Test",
+				"Verify the Ticket details and Audit Details in Ticket Details popup");
+		waitTime(driver);
+		grep.infoTest("Verify the Ticket details and Audit Details in Ticket Details popup Test");
+		logger.info("Verify the Ticket details and Audit Details in Ticket Details popup Test");
+		waitTime5(driver);
+
+		String getTicketId = createTict.getTicketIdfromTable();
+		grep.infoTest("Ticket ID from Table:" + getTicketId);
+		logger.info("Ticket ID from Table:" + getTicketId);
+
+		createTict.clickTicketId(getTicketId);
+
+		String verifyTicketId = createTict.verifyTicketIdFromDetailPopup();
+		grep.infoTest("Ticket ID in Ticket Detail Popup: " + verifyTicketId);
+		logger.info("Ticket ID in Ticket Detail Popup: " + verifyTicketId);
+
+		String ticketId_inDetail = createTict.verifyTicketDetailsFromDetailPopup(dataKeys.ticketId_InDetailPopup);
+		grep.infoTest("Ticket ID in Ticket Detail Popup : " + ticketId_inDetail);
+		logger.info("Ticket ID in Ticket Detail Popup :" + ticketId_inDetail);
+
+		validAssert.equalsAssert(ticketId_inDetail, verifyTicketId);
+
+//		if (ticketId_inDetail.equals(getTicketId)) {
+//			grep.passTest("Ticket ID in Ticket Detail Popup is Valid:" + ticketId_inDetail);
+//			logger.info("Ticket ID in Ticket Detail Popup is Valid:" + ticketId_inDetail);
+//
+//		} else {
+//			grep.failTest("Ticket ID in Ticket Detail Popup is inValid:" + ticketId_inDetail);
+//			logger.info("Ticket ID in Ticket Detail Popup is inValid:" + ticketId_inDetail);
+//
+//		}
+
+		String ticketType_inDetail = createTict.verifyTicketDetailsFromDetailPopup(dataKeys.ticketType_InDetailPopup);
+		grep.infoTest("Ticket Type in Ticket Detail Popup: " + ticketType_inDetail);
+		logger.info("Ticket Type in Ticket Detail Popup: " + ticketType_inDetail);
+
+		String status_inDetail = createTict.verifyTicketDetailsFromDetailPopup(dataKeys.status_InDetailPopup);
+		grep.infoTest("Status in Ticket Detail Popup: " + status_inDetail);
+		logger.info("Status in Ticket Detail Popup: " + status_inDetail);
+		validAssert.equalsAssert(status_inDetail, "Pending");
+
+		String stage_inDetail = createTict.verifyTicketDetailsFromDetailPopup(dataKeys.stage_InDetailPopup);
+		grep.infoTest("Stage in Ticket Detail Popup: " + stage_inDetail);
+		logger.info("Stage in Ticket Detail Popup: " + stage_inDetail);
+
+		String priority_inDetail = createTict.verifyTicketDetailsFromDetailPopup(dataKeys.priority_InDetailPopup);
+		grep.infoTest("Priority in Ticket Detail Popup: " + priority_inDetail);
+		logger.info("Priority in Ticket Detail Popup: " + priority_inDetail);
+
+		String req_name_inDetail = createTict.verifyTicketDetailsFromDetailPopup(dataKeys.requestor_InDetailPopup);
+		grep.infoTest("Requestor Name in Ticket Detail Popup: " + req_name_inDetail);
+		logger.info("Requestor Name in Ticket Detail Popup: " + req_name_inDetail);
+
+		String req_email_inDetail = createTict
+				.verifyTicketDetailsFromDetailPopup(dataKeys.requestorEmail_InDetailPopup);
+		grep.infoTest("Requestor Email in Ticket Detail Popup: " + req_email_inDetail);
+		logger.info("Requestor Email in Ticket Detail Popup: " + req_email_inDetail);
+
+		String req_mobile_inDetail = createTict
+				.verifyTicketDetailsFromDetailPopup(dataKeys.requestorMobile_InDetailPopup);
+		grep.infoTest("Requestor Mobile in Ticket Detail Popup: " + req_mobile_inDetail);
+		logger.info("Requestor Mobile in Ticket Detail Popup: " + req_mobile_inDetail);
+
+		String dept_inDetail = createTict.verifyTicketDetailsFromDetailPopup(dataKeys.department_InDetailPopup);
+		grep.infoTest("Department in Ticket Detail Popup: " + dept_inDetail);
+		logger.info("Department in Ticket Detail Popup: " + dept_inDetail);
+
+		String manager_name_inDetail = createTict.verifyTicketDetailsFromDetailPopup(dataKeys.manager_InDetailPopup);
+		grep.infoTest("Manager Name ID in Ticket Detail Popup: " + manager_name_inDetail);
+		logger.info("Manager Name in Ticket Detail Popup: " + manager_name_inDetail);
+
+		String manager_email_inDetail = createTict
+				.verifyTicketDetailsFromDetailPopup(dataKeys.managerEmail_InDetailPopup);
+		grep.infoTest("Manager Email in Ticket Detail Popup: " + manager_email_inDetail);
+		logger.info("Manager Email in Ticket Detail Popup: " + manager_email_inDetail);
+
+		String created_inDetail = createTict.verifyTicketDetailsFromDetailPopup(dataKeys.created_InDetailPopup);
+		grep.infoTest("Created Date in Ticket Detail Popup: " + created_inDetail);
+		logger.info("Created Date in Ticket Detail Popup: " + created_inDetail);
+
+		createTict.getIncidentDetailsFromDetailPopup(incTitle);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Tickets and Incident Details in Ticket Detail Popup",
+				"Ticket_And_IncidentDetails_inDetailPopup");
+		waitTime(driver);
+
+		String stage_InAudit = createTict.getStageFromAuditTable();
+		grep.infoTest("Stage from Audit table in Ticket Detail Popup: " + stage_InAudit);
+		logger.info("Stage from Audit table in Ticket Detail Popup: " + stage_InAudit);
+		validAssert.equalsAssert(stage_InAudit, "New");
+
+		String status_InAudit = createTict.getStatusFromAuditTable();
+		grep.infoTest("Status from Audit table in Ticket Detail Popup: " + status_InAudit);
+		logger.info("Status from Audit table in Ticket Detail Popup: " + status_InAudit);
+		validAssert.equalsAssert(status_InAudit, "Ticket Created");
+
+		String next_Stage_InAudit = createTict.getNextStageFromAuditTable();
+		grep.infoTest("Next Stage from Audit table in Ticket Detail Popup: " + next_Stage_InAudit);
+		logger.info("Next Stage from Audit table in Ticket Detail Popup: " + next_Stage_InAudit);
+
+		String action_InAudit = createTict.getActionDateFromAuditTable();
+		grep.infoTest("Action from Audit table in Ticket Detail Popup: " + action_InAudit);
+		logger.info("Action from Audit table in Ticket Detail Popup: " + action_InAudit);
+
+		String comments_InAudit = createTict.getCommentsFromAuditTable();
+		grep.infoTest("Comments from Audit table in Ticket Detail Popup: " + comments_InAudit);
+		logger.info("Comments from Audit table in Ticket Detail Popup: " + comments_InAudit);
+		validAssert.equalsAssert(comments_InAudit, "Ticket Created Successfully");
+
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Audit Details in Ticket Detail Popup", "AuditDetails_inDetailPopup");
+		waitTime(driver);
+
+		createTict.clickCloseDetailPopup();
 
 	}
 

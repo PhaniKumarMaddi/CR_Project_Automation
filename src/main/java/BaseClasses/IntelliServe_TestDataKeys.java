@@ -27,8 +27,7 @@ public class IntelliServe_TestDataKeys {
 	public String approverMgmtTitle = "Approver Management";
 	public String rolesTitle = "Roles Management";
 	public String implementationQueueTitle = "Implementation Queue";
-	
-	
+
 	// roles
 	public String admin_Role = "Admin";
 	public String itApprover_Role = "IT Approver";
@@ -67,11 +66,24 @@ public class IntelliServe_TestDataKeys {
 	public String currentStage = "Current Stage";
 
 	// create ticket
-	public String limitExceedMsg ="File size should be less than 30 MB.";
-	public String invalidFileMsg ="This file type is not supported. Please upload PDF, DOC, DOCX, XLS, XLSX, JPG, PNG, or TXT files only.";
-	
-	
-	public String cancelTicket="Cancel";
-	public String createTicket="Create Ticket";
-	
+	public String limitExceedMsg = "File size should be less than 30 MB.";
+	public String invalidFileMsg = "This file type is not supported. Please upload PDF, DOC, DOCX, XLS, XLSX, JPG, PNG, or TXT files only.";
+
+	public String cancelTicket = "Cancel";
+	public String createTicket = "Create Ticket";
+
+	// Fields in Ticket Detail Popup
+
+	public String ticketId_InDetailPopup = "Ticket ID";
+	public String ticketType_InDetailPopup = "Ticket Type";
+	public String status_InDetailPopup = "Status";
+	public String stage_InDetailPopup = "Current Stage";
+	public String priority_InDetailPopup = "Priority";
+	public String requestor_InDetailPopup = "Requestor";
+	public String requestorEmail_InDetailPopup = "Requestor Email";
+	public String requestorMobile_InDetailPopup="Requestor Mobile";
+	public String department_InDetailPopup = "Department";
+	public String manager_InDetailPopup = "Manager";
+	public String managerEmail_InDetailPopup = "Manager Email";
+	public String created_InDetailPopup = "Created";
 }

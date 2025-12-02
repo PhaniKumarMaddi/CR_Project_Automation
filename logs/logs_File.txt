@@ -8742,3 +8742,559 @@ Driver info: driver.version: unknown
 2025-12-02 13:44:59 [main] INFO : Entering incident Detail: Testing Intelliserve
 2025-12-02 13:45:03 [main] INFO : Testing Ended
 2025-12-02 13:45:03 [main] INFO : ***********
+2025-12-02 14:58:56 [main] INFO : Launching Chrome Browser
+2025-12-02 14:58:57 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-02 14:59:08 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-02 14:59:16 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-02 15:00:05 [main] INFO : Logged in to Intelli Serve Application
+2025-12-02 15:00:06 [main] INFO : Verify keeping all required fields blank in create ticket page test
+2025-12-02 15:00:06 [main] INFO : Navigated to /user/tickets
+2025-12-02 15:01:13 [main] INFO : Header is valid: Create New Ticket
+2025-12-02 15:01:14 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-12-02 15:01:14 [main] INFO : Selected Infrastructure Ticket Type
+2025-12-02 15:01:15 [main] INFO : Selected Software Ticket Type
+2025-12-02 15:01:16 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-12-02 15:01:16 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-12-02 15:01:16 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-12-02 15:01:16 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-12-02 15:01:16 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-12-02 15:01:16 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-12-02 15:01:16 [main] INFO : Verify Error Message
+2025-12-02 15:01:16 [main] INFO : Incident Title Error Message :Incident title is required
+2025-12-02 15:01:17 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-12-02 15:01:19 [main] INFO : Entering incident details in create new ticket popup Test
+2025-12-02 15:01:20 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 15:01:20 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 15:01:24 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 15:01:26 [main] INFO : Entering more than limit file in create new ticket popup Test
+2025-12-02 15:01:28 [main] INFO : Message :File size should be less than 30 MB.
+2025-12-02 15:01:35 [main] INFO : Entering invalid file format in create new ticket popup Test
+2025-12-02 15:01:57 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 15:01:57 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 15:02:02 [main] INFO : Message :This file type is not supported. Please upload PDF, DOC, DOCX, XLS, XLSX, JPG, PNG, or TXT files only.
+2025-12-02 15:02:09 [main] INFO : IT Approver role Available
+2025-12-02 15:02:10 [main] INFO : BTG Approver role Available
+2025-12-02 15:02:55 [main] INFO : Navigated to /approver-tickets
+2025-12-02 15:02:56 [main] INFO : Header is valid: IT Approver Worklist
+2025-12-02 15:02:57 [main] INFO : Verify keeping all required fields blank in approver create ticket page test
+2025-12-02 15:03:31 [main] INFO : Header is valid: Create New Ticket
+2025-12-02 15:03:32 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-12-02 15:03:32 [main] INFO : Selected Infrastructure Ticket Type
+2025-12-02 15:03:33 [main] INFO : Verify Error Message
+2025-12-02 15:03:33 [main] INFO : Incident Title Error Message :Incident title is required
+2025-12-02 15:03:34 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-12-02 15:03:35 [main] INFO : Requestor Name Error Message :Name is required
+2025-12-02 15:03:35 [main] INFO : Requestor Email Error Message :Email is required
+2025-12-02 15:03:36 [main] INFO : Department Error Message :Department is required
+2025-12-02 15:03:40 [main] INFO : Navigated to /approver-tickets
+2025-12-02 15:03:43 [main] INFO : Entering Valid details in create new ticket popup Test
+2025-12-02 15:04:03 [main] INFO : Entering Requestor Name: Phani Kumar Maddi
+2025-12-02 15:04:04 [main] INFO : Entering Requestor Email: phani.maddi@criticalriver.com
+2025-12-02 15:04:26 [main] INFO : Selecting Department from dropdown: Business Technology Group
+2025-12-02 15:04:26 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 15:04:27 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 15:04:30 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 15:04:33 [main] INFO : Entering more than limit file in approver create new ticket popup Test
+2025-12-02 15:04:35 [main] INFO : Message :File size should be less than 30 MB.
+2025-12-02 15:04:42 [main] INFO : Navigated to /approver-tickets
+2025-12-02 15:04:46 [main] INFO : Entering invalid file format in approver create new ticket popup Test
+2025-12-02 15:04:50 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 15:04:51 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 15:04:56 [main] INFO : Message :This file type is not supported. Please upload PDF, DOC, DOCX, XLS, XLSX, JPG, PNG, or TXT files only.
+2025-12-02 15:05:01 [main] INFO : Creating an Ticket by approver or member with attaching multiple files in create new ticket popup Test
+2025-12-02 15:05:01 [main] INFO : Navigated to /approver-tickets
+2025-12-02 15:05:08 [main] INFO : Entering Requestor Name: Phani Kumar Maddi
+2025-12-02 15:05:09 [main] INFO : Entering Requestor Email: phani.maddi@criticalriver.com
+2025-12-02 15:05:13 [main] INFO : Selecting Department from dropdown: Business Technology Group
+2025-12-02 15:05:14 [main] INFO : Selecting Priority from dropdown: Low
+2025-12-02 15:05:14 [main] INFO : Entering incident title: Testing Intelliserve Automation
+2025-12-02 15:05:15 [main] INFO : Entering incident Detail: Entering Incident Detail Through Automation
+2025-12-02 15:05:22 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 15:05:24 [main] INFO : Entering incident Detail: Testing Intelliserve
+2025-12-02 15:05:29 [main] INFO : IT Approver role Available
+2025-12-02 15:05:29 [main] INFO : BTG Approver role Available
+2025-12-02 15:05:31 [main] INFO : Navigated to /approver-tickets
+2025-12-02 15:05:33 [main] INFO : Header is valid: IT Approver Worklist
+2025-12-02 15:05:33 [main] INFO : Navigated to /user/tickets
+2025-12-02 15:05:33 [main] INFO : Creating an Ticket with attaching multiple files in create new ticket popup Test
+2025-12-02 15:06:34 [main] ERROR: Create Ticket Not Available
+2025-12-02 15:07:35 [main] ERROR: Ticket Type Not Available
+2025-12-02 15:16:42 [main] INFO : Launching Chrome Browser
+2025-12-02 15:16:43 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-02 15:17:07 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-02 15:17:12 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-02 15:17:45 [main] INFO : Logged in to Intelli Serve Application
+2025-12-02 15:17:45 [main] INFO : Verify keeping all required fields blank in create ticket page test
+2025-12-02 15:17:46 [main] INFO : Navigated to /user/tickets
+2025-12-02 15:18:30 [main] INFO : Header is valid: Create New Ticket
+2025-12-02 15:18:31 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-12-02 15:18:31 [main] INFO : Selected Infrastructure Ticket Type
+2025-12-02 15:18:32 [main] INFO : Selected Software Ticket Type
+2025-12-02 15:18:33 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-12-02 15:18:33 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-12-02 15:18:33 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-12-02 15:18:33 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-12-02 15:18:33 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-12-02 15:18:33 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-12-02 15:18:33 [main] INFO : Verify Error Message
+2025-12-02 15:18:33 [main] INFO : Incident Title Error Message :Incident title is required
+2025-12-02 15:18:34 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-12-02 15:18:36 [main] INFO : Entering incident details in create new ticket popup Test
+2025-12-02 15:18:37 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 15:18:37 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 15:18:41 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 15:18:43 [main] INFO : Entering more than limit file in create new ticket popup Test
+2025-12-02 15:18:46 [main] INFO : Message :File size should be less than 30 MB.
+2025-12-02 15:18:52 [main] INFO : Entering invalid file format in create new ticket popup Test
+2025-12-02 15:19:34 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 15:19:35 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 15:19:39 [main] INFO : Message :This file type is not supported. Please upload PDF, DOC, DOCX, XLS, XLSX, JPG, PNG, or TXT files only.
+2025-12-02 15:19:47 [main] INFO : IT Approver role Available
+2025-12-02 15:19:47 [main] INFO : BTG Approver role Available
+2025-12-02 15:20:01 [main] INFO : Navigated to /approver-tickets
+2025-12-02 15:20:02 [main] INFO : Header is valid: IT Approver Worklist
+2025-12-02 15:20:03 [main] INFO : Verify keeping all required fields blank in approver create ticket page test
+2025-12-02 15:20:12 [main] INFO : Header is valid: Create New Ticket
+2025-12-02 15:20:12 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-12-02 15:20:12 [main] INFO : Selected Infrastructure Ticket Type
+2025-12-02 15:20:13 [main] INFO : Verify Error Message
+2025-12-02 15:20:13 [main] INFO : Incident Title Error Message :Incident title is required
+2025-12-02 15:20:14 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-12-02 15:20:15 [main] INFO : Requestor Name Error Message :Name is required
+2025-12-02 15:20:15 [main] INFO : Requestor Email Error Message :Email is required
+2025-12-02 15:20:16 [main] INFO : Department Error Message :Department is required
+2025-12-02 15:20:19 [main] INFO : Navigated to /approver-tickets
+2025-12-02 15:20:23 [main] INFO : Entering Valid details in create new ticket popup Test
+2025-12-02 15:20:28 [main] INFO : Entering Requestor Name: Phani Kumar Maddi
+2025-12-02 15:20:28 [main] INFO : Entering Requestor Email: phani.maddi@criticalriver.com
+2025-12-02 15:20:34 [main] INFO : Selecting Department from dropdown: Business Technology Group
+2025-12-02 15:20:34 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 15:20:35 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 15:20:38 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 15:20:40 [main] INFO : Entering more than limit file in approver create new ticket popup Test
+2025-12-02 15:20:43 [main] INFO : Message :File size should be less than 30 MB.
+2025-12-02 15:20:49 [main] INFO : Navigated to /approver-tickets
+2025-12-02 15:20:52 [main] INFO : Entering invalid file format in approver create new ticket popup Test
+2025-12-02 15:20:57 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 15:20:58 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 15:21:02 [main] INFO : Message :This file type is not supported. Please upload PDF, DOC, DOCX, XLS, XLSX, JPG, PNG, or TXT files only.
+2025-12-02 15:21:07 [main] INFO : Creating an Ticket by approver or member with attaching multiple files in create new ticket popup Test
+2025-12-02 15:21:07 [main] INFO : Navigated to /approver-tickets
+2025-12-02 15:21:16 [main] INFO : Entering Requestor Name: Phani Kumar Maddi
+2025-12-02 15:21:16 [main] INFO : Entering Requestor Email: phani.maddi@criticalriver.com
+2025-12-02 15:21:23 [main] INFO : Selecting Department from dropdown: Business Technology Group
+2025-12-02 15:21:23 [main] INFO : Selecting Priority from dropdown: Low
+2025-12-02 15:21:24 [main] INFO : Entering incident title: Testing Intelliserve Automation
+2025-12-02 15:21:25 [main] INFO : Entering incident Detail: Entering Incident Detail Through Automation
+2025-12-02 15:21:31 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 15:21:33 [main] INFO : Entering incident Detail: Testing Intelliserve
+2025-12-02 15:21:37 [main] INFO : IT Approver role Available
+2025-12-02 15:21:38 [main] INFO : BTG Approver role Available
+2025-12-02 15:21:40 [main] INFO : Navigated to /approver-tickets
+2025-12-02 15:21:41 [main] INFO : Header is valid: IT Approver Worklist
+2025-12-02 15:21:41 [main] INFO : Navigated to /user/tickets
+2025-12-02 15:21:41 [main] INFO : Creating an Ticket with attaching multiple files in create new ticket popup Test
+2025-12-02 15:22:42 [main] ERROR: Create Ticket Not Available
+2025-12-02 15:23:08 [main] INFO : Launching Chrome Browser
+2025-12-02 15:23:08 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-02 15:23:30 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-02 15:23:37 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-02 15:24:16 [main] INFO : Logged in to Intelli Serve Application
+2025-12-02 15:24:17 [main] INFO : Verify keeping all required fields blank in create ticket page test
+2025-12-02 15:24:18 [main] INFO : Navigated to /user/tickets
+2025-12-02 15:25:21 [main] ERROR: Create Ticket Not Available
+2025-12-02 15:56:44 [main] INFO : Launching Chrome Browser
+2025-12-02 15:56:44 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-02 15:56:55 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-02 15:57:08 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-02 15:57:55 [main] INFO : Logged in to Intelli Serve Application
+2025-12-02 15:57:55 [main] INFO : Verify keeping all required fields blank in create ticket page test
+2025-12-02 15:57:56 [main] INFO : Navigated to /user/tickets
+2025-12-02 15:58:45 [main] INFO : Header is valid: Create New Ticket
+2025-12-02 15:58:46 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-12-02 15:58:46 [main] INFO : Selected Infrastructure Ticket Type
+2025-12-02 15:58:47 [main] INFO : Selected Software Ticket Type
+2025-12-02 15:58:48 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-12-02 15:58:48 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-12-02 15:58:48 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-12-02 15:58:48 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-12-02 15:58:48 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-12-02 15:58:48 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-12-02 15:58:49 [main] INFO : Verify Error Message
+2025-12-02 15:58:49 [main] INFO : Incident Title Error Message :Incident title is required
+2025-12-02 15:58:49 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-12-02 15:58:52 [main] INFO : Entering incident details in create new ticket popup Test
+2025-12-02 15:58:52 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 15:58:53 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 15:58:57 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 15:58:59 [main] INFO : Entering more than limit file in create new ticket popup Test
+2025-12-02 15:59:02 [main] INFO : Message :File size should be less than 30 MB.
+2025-12-02 15:59:09 [main] INFO : Entering invalid file format in create new ticket popup Test
+2025-12-02 15:59:35 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 15:59:36 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 15:59:40 [main] INFO : Message :This file type is not supported. Please upload PDF, DOC, DOCX, XLS, XLSX, JPG, PNG, or TXT files only.
+2025-12-02 15:59:48 [main] INFO : IT Approver role Available
+2025-12-02 15:59:49 [main] INFO : BTG Approver role Available
+2025-12-02 15:59:58 [main] INFO : Navigated to /approver-tickets
+2025-12-02 15:59:59 [main] INFO : Header is valid: IT Approver Worklist
+2025-12-02 16:00:00 [main] INFO : Verify keeping all required fields blank in approver create ticket page test
+2025-12-02 16:00:06 [main] INFO : Header is valid: Create New Ticket
+2025-12-02 16:00:07 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-12-02 16:00:07 [main] INFO : Selected Infrastructure Ticket Type
+2025-12-02 16:00:08 [main] INFO : Verify Error Message
+2025-12-02 16:00:08 [main] INFO : Incident Title Error Message :Incident title is required
+2025-12-02 16:00:09 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-12-02 16:00:09 [main] INFO : Requestor Name Error Message :Name is required
+2025-12-02 16:00:10 [main] INFO : Requestor Email Error Message :Email is required
+2025-12-02 16:00:11 [main] INFO : Department Error Message :Department is required
+2025-12-02 16:00:14 [main] INFO : Navigated to /approver-tickets
+2025-12-02 16:00:18 [main] INFO : Entering Valid details in create new ticket popup Test
+2025-12-02 16:00:26 [main] INFO : Entering Requestor Name: Phani Kumar Maddi
+2025-12-02 16:00:27 [main] INFO : Entering Requestor Email: phani.maddi@criticalriver.com
+2025-12-02 16:00:45 [main] INFO : Selecting Department from dropdown: Business Technology Group
+2025-12-02 16:00:45 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 16:00:46 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 16:00:50 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 16:00:52 [main] INFO : Entering more than limit file in approver create new ticket popup Test
+2025-12-02 16:00:54 [main] INFO : Message :File size should be less than 30 MB.
+2025-12-02 16:01:01 [main] INFO : Navigated to /approver-tickets
+2025-12-02 16:01:05 [main] INFO : Entering invalid file format in approver create new ticket popup Test
+2025-12-02 16:01:19 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 16:01:20 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 16:01:24 [main] INFO : Message :This file type is not supported. Please upload PDF, DOC, DOCX, XLS, XLSX, JPG, PNG, or TXT files only.
+2025-12-02 16:01:29 [main] INFO : Creating an Ticket by approver or member with attaching multiple files in create new ticket popup Test
+2025-12-02 16:01:30 [main] INFO : Navigated to /approver-tickets
+2025-12-02 16:01:37 [main] INFO : Entering Requestor Name: Phani Kumar Maddi
+2025-12-02 16:01:38 [main] INFO : Entering Requestor Email: phani.maddi@criticalriver.com
+2025-12-02 16:01:45 [main] INFO : Selecting Department from dropdown: Business Technology Group
+2025-12-02 16:01:46 [main] INFO : Selecting Priority from dropdown: Low
+2025-12-02 16:01:47 [main] INFO : Entering incident title: Testing Intelliserve Automation
+2025-12-02 16:01:47 [main] INFO : Entering incident Detail: Entering Incident Detail Through Automation
+2025-12-02 16:01:55 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 16:01:57 [main] INFO : Entering incident Detail: Testing Intelliserve
+2025-12-02 16:02:01 [main] INFO : IT Approver role Available
+2025-12-02 16:02:02 [main] INFO : BTG Approver role Available
+2025-12-02 16:02:04 [main] INFO : Navigated to /approver-tickets
+2025-12-02 16:02:05 [main] INFO : Header is valid: IT Approver Worklist
+2025-12-02 16:02:05 [main] INFO : Navigated to /user/tickets
+2025-12-02 16:02:06 [main] INFO : Creating an Ticket with attaching multiple files in create new ticket popup Test
+2025-12-02 16:03:09 [main] INFO : Selected Infrastructure Ticket Type
+2025-12-02 16:03:13 [main] INFO : Entering incident title: Testing Intelliserve Automation
+2025-12-02 16:03:14 [main] INFO : Entering incident Detail: Entering Incident Detail Through Automation
+2025-12-02 16:03:20 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 16:03:23 [main] INFO : Entering incident Detail: Testing Intelliserve
+2025-12-02 16:03:26 [main] INFO : Testing Ended
+2025-12-02 16:03:26 [main] INFO : ***********
+2025-12-02 16:11:13 [main] INFO : Launching Chrome Browser
+2025-12-02 16:11:13 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-02 16:11:27 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-02 16:11:31 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-02 16:11:59 [main] INFO : Logged in to Intelli Serve Application
+2025-12-02 16:12:00 [main] INFO : Testing Ended
+2025-12-02 16:12:00 [main] INFO : ***********
+2025-12-02 16:13:08 [main] INFO : Launching Chrome Browser
+2025-12-02 16:13:09 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-02 16:13:17 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-02 16:13:20 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-02 16:14:14 [main] INFO : Logged in to Intelli Serve Application
+2025-12-02 16:14:21 [main] INFO : IT Approver role Available
+2025-12-02 16:14:22 [main] INFO : BTG Approver role Available
+2025-12-02 16:14:25 [main] INFO : Navigated to /approver-tickets
+2025-12-02 16:14:26 [main] INFO : Header is valid: IT Approver Worklist
+2025-12-02 16:14:26 [main] INFO : Navigated to /user/tickets
+2025-12-02 16:14:27 [main] INFO : Creating an Ticket with attaching multiple files in create new ticket popup Test
+2025-12-02 16:15:08 [main] INFO : Selected Infrastructure Ticket Type
+2025-12-02 16:15:11 [main] INFO : Entering incident title: Testing Intelliserve Automation
+2025-12-02 16:15:12 [main] INFO : Entering incident Detail: Entering Incident Detail Through Automation
+2025-12-02 16:15:19 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 16:15:21 [main] INFO : Entering incident Detail: Testing Intelliserve
+2025-12-02 16:15:25 [main] INFO : Testing Ended
+2025-12-02 16:15:25 [main] INFO : ***********
+2025-12-02 17:02:46 [main] INFO : Launching Chrome Browser
+2025-12-02 17:02:46 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-02 17:02:50 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-02 17:02:52 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-02 17:03:15 [main] INFO : Launching Chrome Browser
+2025-12-02 17:03:16 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-02 17:03:18 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-02 17:03:21 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-02 17:03:57 [main] INFO : Logged in to Intelli Serve Application
+2025-12-02 17:04:03 [main] INFO : IT Approver role Available
+2025-12-02 17:04:04 [main] INFO : BTG Approver role Available
+2025-12-02 17:04:07 [main] INFO : Navigated to /approver-tickets
+2025-12-02 17:04:08 [main] INFO : Header is valid: IT Approver Worklist
+2025-12-02 17:04:08 [main] INFO : Navigated to /user/tickets
+2025-12-02 17:04:08 [main] INFO : Creating an Ticket with attaching multiple files in create new ticket popup Test
+2025-12-02 17:04:26 [main] INFO : Selected Infrastructure Ticket Type
+2025-12-02 17:04:30 [main] INFO : Entering incident title: Testing Intelliserve Automation
+2025-12-02 17:04:30 [main] INFO : Entering incident Detail: Entering Incident Detail Through Automation
+2025-12-02 17:04:37 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:04:38 [main] INFO : Entering incident Detail: Testing Intelliserve
+2025-12-02 17:04:46 [main] INFO : Ticket ID from Table:INC01048
+2025-12-02 17:04:49 [main] INFO : Ticket ID in Ticket Detail Popup:Ticket Details - INC01048
+2025-12-02 17:04:49 [main] INFO : Ticket ID in Ticket Detail Popup is Valid:INC01048
+2025-12-02 17:04:50 [main] INFO : Ticket Type in Ticket Detail Popup:Software
+2025-12-02 17:04:50 [main] INFO : Status in Ticket Detail Popup:Pending
+2025-12-02 17:04:51 [main] INFO : Stage in Ticket Detail Popup:BTG Approver
+2025-12-02 17:04:51 [main] INFO : Priority in Ticket Detail Popup:Medium
+2025-12-02 17:04:52 [main] INFO : Requestor Name in Ticket Detail Popup:Phani Kumar Maddi
+2025-12-02 17:04:52 [main] INFO : Requestor Email in Ticket Detail Popup:phani.maddi@criticalriver.com
+2025-12-02 17:04:53 [main] INFO : Requestor Mobile in Ticket Detail Popup:+91 7386884111
+2025-12-02 17:04:54 [main] INFO : Department in Ticket Detail Popup:Business Technology Group
+2025-12-02 17:04:54 [main] INFO : Manager Name in Ticket Detail Popup:Anwar Hussain
+2025-12-02 17:04:55 [main] INFO : Manager Email in Ticket Detail Popup:anwar.hussain@criticalriver.com
+2025-12-02 17:04:55 [main] INFO : Created Date in Ticket Detail Popup:12/2/2025, 11:32:58 AM
+2025-12-02 17:04:55 [main] INFO : Incident Title: Testing Intelliserve Automation
+2025-12-02 17:04:56 [main] INFO : Incident Details: Entering Incident Detail Through Automation
+Testing Intelliserve Incident Detail
+Testing Intelliserve
+2025-12-02 17:04:57 [main] INFO : Stage from Audit table in Ticket Detail Popup:New
+2025-12-02 17:04:58 [main] INFO : Status from Audit table in Ticket Detail Popup:Ticket Created
+2025-12-02 17:04:58 [main] INFO : Next Stage from Audit table in Ticket Detail Popup:BTG
+2025-12-02 17:04:59 [main] INFO : Action from Audit table in Ticket Detail Popup:Dec 02, 2025 at 11:32 AM
+2025-12-02 17:04:59 [main] INFO : Comments from Audit table in Ticket Detail Popup:Ticket Created Successfully
+2025-12-02 17:05:00 [main] INFO : Testing Ended
+2025-12-02 17:05:00 [main] INFO : ***********
+2025-12-02 17:07:58 [main] INFO : Launching Chrome Browser
+2025-12-02 17:07:59 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-02 17:08:02 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-02 17:08:04 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-02 17:08:37 [main] INFO : Logged in to Intelli Serve Application
+2025-12-02 17:08:37 [main] INFO : Verify keeping all required fields blank in create ticket page test
+2025-12-02 17:08:38 [main] INFO : Navigated to /user/tickets
+2025-12-02 17:08:46 [main] INFO : Header is valid: Create New Ticket
+2025-12-02 17:08:47 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-12-02 17:08:47 [main] INFO : Selected Infrastructure Ticket Type
+2025-12-02 17:08:48 [main] INFO : Selected Software Ticket Type
+2025-12-02 17:08:49 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-12-02 17:08:49 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-12-02 17:08:49 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-12-02 17:08:49 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-12-02 17:08:49 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-12-02 17:08:49 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-12-02 17:08:50 [main] INFO : Verify Error Message
+2025-12-02 17:08:50 [main] INFO : Incident Title Error Message :Incident title is required
+2025-12-02 17:08:50 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-12-02 17:08:52 [main] INFO : Entering incident details in create new ticket popup Test
+2025-12-02 17:08:53 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 17:08:54 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:08:57 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:08:59 [main] INFO : Entering more than limit file in create new ticket popup Test
+2025-12-02 17:09:01 [main] INFO : Message :File size should be less than 30 MB.
+2025-12-02 17:09:08 [main] INFO : Entering invalid file format in create new ticket popup Test
+2025-12-02 17:09:22 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 17:09:23 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:09:27 [main] INFO : Message :This file type is not supported. Please upload PDF, DOC, DOCX, XLS, XLSX, JPG, PNG, or TXT files only.
+2025-12-02 17:09:34 [main] INFO : IT Approver role Available
+2025-12-02 17:09:35 [main] INFO : BTG Approver role Available
+2025-12-02 17:09:46 [main] INFO : Navigated to /approver-tickets
+2025-12-02 17:09:47 [main] INFO : Header is valid: IT Approver Worklist
+2025-12-02 17:09:48 [main] INFO : Verify keeping all required fields blank in approver create ticket page test
+2025-12-02 17:09:54 [main] INFO : Header is valid: Create New Ticket
+2025-12-02 17:09:55 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-12-02 17:09:55 [main] INFO : Selected Infrastructure Ticket Type
+2025-12-02 17:09:56 [main] INFO : Verify Error Message
+2025-12-02 17:09:56 [main] INFO : Incident Title Error Message :Incident title is required
+2025-12-02 17:09:56 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-12-02 17:09:57 [main] INFO : Requestor Name Error Message :Name is required
+2025-12-02 17:09:58 [main] INFO : Requestor Email Error Message :Email is required
+2025-12-02 17:09:58 [main] INFO : Department Error Message :Department is required
+2025-12-02 17:10:01 [main] INFO : Navigated to /approver-tickets
+2025-12-02 17:10:05 [main] INFO : Entering Valid details in create new ticket popup Test
+2025-12-02 17:10:06 [main] INFO : Entering Requestor Name: Phani Kumar Maddi
+2025-12-02 17:10:06 [main] INFO : Entering Requestor Email: phani.maddi@criticalriver.com
+2025-12-02 17:10:20 [main] INFO : Selecting Department from dropdown: Business Technology Group
+2025-12-02 17:10:20 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 17:10:20 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:10:23 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:10:26 [main] INFO : Entering more than limit file in approver create new ticket popup Test
+2025-12-02 17:10:28 [main] INFO : Message :File size should be less than 30 MB.
+2025-12-02 17:10:34 [main] INFO : Navigated to /approver-tickets
+2025-12-02 17:10:38 [main] INFO : Entering invalid file format in approver create new ticket popup Test
+2025-12-02 17:10:41 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 17:10:42 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:10:46 [main] INFO : Message :This file type is not supported. Please upload PDF, DOC, DOCX, XLS, XLSX, JPG, PNG, or TXT files only.
+2025-12-02 17:10:51 [main] INFO : Creating an Ticket by approver or member with attaching multiple files in create new ticket popup Test
+2025-12-02 17:10:52 [main] INFO : Navigated to /approver-tickets
+2025-12-02 17:10:58 [main] INFO : Entering Requestor Name: Phani Kumar Maddi
+2025-12-02 17:10:59 [main] INFO : Entering Requestor Email: phani.maddi@criticalriver.com
+2025-12-02 17:11:02 [main] INFO : Selecting Department from dropdown: Business Technology Group
+2025-12-02 17:11:03 [main] INFO : Selecting Priority from dropdown: Low
+2025-12-02 17:11:04 [main] INFO : Entering incident title: Testing Intelliserve Automation
+2025-12-02 17:11:04 [main] INFO : Entering incident Detail: Entering Incident Detail Through Automation
+2025-12-02 17:11:10 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:11:12 [main] INFO : Entering incident Detail: Testing Intelliserve
+2025-12-02 17:11:20 [main] INFO : IT Approver role Available
+2025-12-02 17:11:20 [main] INFO : BTG Approver role Available
+2025-12-02 17:11:22 [main] INFO : Navigated to /approver-tickets
+2025-12-02 17:11:23 [main] INFO : Header is valid: IT Approver Worklist
+2025-12-02 17:11:24 [main] INFO : Navigated to /user/tickets
+2025-12-02 17:11:24 [main] INFO : Creating an Ticket with attaching multiple files in create new ticket popup Test
+2025-12-02 17:11:42 [main] INFO : Selected Infrastructure Ticket Type
+2025-12-02 17:11:45 [main] INFO : Entering incident title: Testing Intelliserve Automation
+2025-12-02 17:11:46 [main] INFO : Entering incident Detail: Entering Incident Detail Through Automation
+2025-12-02 17:11:52 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:11:54 [main] INFO : Entering incident Detail: Testing Intelliserve
+2025-12-02 17:13:03 [main] INFO : Launching Chrome Browser
+2025-12-02 17:13:03 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-02 17:13:11 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-02 17:13:14 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-02 17:13:49 [main] INFO : Logged in to Intelli Serve Application
+2025-12-02 17:13:50 [main] INFO : Verify keeping all required fields blank in create ticket page test
+2025-12-02 17:13:50 [main] INFO : Navigated to /user/tickets
+2025-12-02 17:14:07 [main] INFO : Header is valid: Create New Ticket
+2025-12-02 17:14:07 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-12-02 17:14:07 [main] INFO : Selected Infrastructure Ticket Type
+2025-12-02 17:14:08 [main] INFO : Selected Software Ticket Type
+2025-12-02 17:14:09 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-12-02 17:14:09 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-12-02 17:14:09 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-12-02 17:14:09 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-12-02 17:14:09 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-12-02 17:14:09 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-12-02 17:14:10 [main] INFO : Verify Error Message
+2025-12-02 17:14:10 [main] INFO : Incident Title Error Message :Incident title is required
+2025-12-02 17:14:10 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-12-02 17:14:12 [main] INFO : Entering incident details in create new ticket popup Test
+2025-12-02 17:14:13 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 17:14:14 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:14:17 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:14:19 [main] INFO : Entering more than limit file in create new ticket popup Test
+2025-12-02 17:14:21 [main] INFO : Message :File size should be less than 30 MB.
+2025-12-02 17:14:28 [main] INFO : Entering invalid file format in create new ticket popup Test
+2025-12-02 17:14:49 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 17:14:50 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:14:54 [main] INFO : Message :This file type is not supported. Please upload PDF, DOC, DOCX, XLS, XLSX, JPG, PNG, or TXT files only.
+2025-12-02 17:15:01 [main] INFO : IT Approver role Available
+2025-12-02 17:15:02 [main] INFO : BTG Approver role Available
+2025-12-02 17:15:07 [main] INFO : Navigated to /approver-tickets
+2025-12-02 17:15:08 [main] INFO : Header is valid: IT Approver Worklist
+2025-12-02 17:15:08 [main] INFO : Verify keeping all required fields blank in approver create ticket page test
+2025-12-02 17:15:12 [main] INFO : Header is valid: Create New Ticket
+2025-12-02 17:15:13 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-12-02 17:15:13 [main] INFO : Selected Infrastructure Ticket Type
+2025-12-02 17:15:14 [main] INFO : Verify Error Message
+2025-12-02 17:15:14 [main] INFO : Incident Title Error Message :Incident title is required
+2025-12-02 17:15:15 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-12-02 17:15:15 [main] INFO : Requestor Name Error Message :Name is required
+2025-12-02 17:15:16 [main] INFO : Requestor Email Error Message :Email is required
+2025-12-02 17:15:17 [main] INFO : Department Error Message :Department is required
+2025-12-02 17:15:20 [main] INFO : Navigated to /approver-tickets
+2025-12-02 17:15:24 [main] INFO : Entering Valid details in create new ticket popup Test
+2025-12-02 17:15:24 [main] INFO : Entering Requestor Name: Phani Kumar Maddi
+2025-12-02 17:15:25 [main] INFO : Entering Requestor Email: phani.maddi@criticalriver.com
+2025-12-02 17:15:27 [main] INFO : Selecting Department from dropdown: Business Technology Group
+2025-12-02 17:15:27 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 17:15:27 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:15:30 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:15:33 [main] INFO : Entering more than limit file in approver create new ticket popup Test
+2025-12-02 17:15:35 [main] INFO : Message :File size should be less than 30 MB.
+2025-12-02 17:15:42 [main] INFO : Navigated to /approver-tickets
+2025-12-02 17:15:45 [main] INFO : Entering invalid file format in approver create new ticket popup Test
+2025-12-02 17:15:51 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 17:15:52 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:15:56 [main] INFO : Message :This file type is not supported. Please upload PDF, DOC, DOCX, XLS, XLSX, JPG, PNG, or TXT files only.
+2025-12-02 17:16:01 [main] INFO : Creating an Ticket by approver or member with attaching multiple files in create new ticket popup Test
+2025-12-02 17:16:02 [main] INFO : Navigated to /approver-tickets
+2025-12-02 17:16:08 [main] INFO : Entering Requestor Name: Phani Kumar Maddi
+2025-12-02 17:16:08 [main] INFO : Entering Requestor Email: phani.maddi@criticalriver.com
+2025-12-02 17:16:10 [main] INFO : Selecting Department from dropdown: Business Technology Group
+2025-12-02 17:16:11 [main] INFO : Selecting Priority from dropdown: Low
+2025-12-02 17:16:11 [main] INFO : Entering incident title: Testing Intelliserve Automation
+2025-12-02 17:16:12 [main] INFO : Entering incident Detail: Entering Incident Detail Through Automation
+2025-12-02 17:16:18 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:16:20 [main] INFO : Entering incident Detail: Testing Intelliserve
+2025-12-02 17:16:27 [main] INFO : IT Approver role Available
+2025-12-02 17:16:28 [main] INFO : BTG Approver role Available
+2025-12-02 17:16:30 [main] INFO : Navigated to /approver-tickets
+2025-12-02 17:16:31 [main] INFO : Header is valid: IT Approver Worklist
+2025-12-02 17:16:31 [main] INFO : Navigated to /user/tickets
+2025-12-02 17:16:31 [main] INFO : Creating an Ticket with attaching multiple files in create new ticket popup Test
+2025-12-02 17:16:37 [main] INFO : Selected Infrastructure Ticket Type
+2025-12-02 17:16:41 [main] INFO : Entering incident title: Testing Intelliserve Automation
+2025-12-02 17:16:41 [main] INFO : Entering incident Detail: Entering Incident Detail Through Automation
+2025-12-02 17:16:47 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:16:49 [main] INFO : Entering incident Detail: Testing Intelliserve
+2025-12-02 17:17:29 [main] INFO : Launching Chrome Browser
+2025-12-02 17:17:30 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-02 17:17:42 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-02 17:17:44 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-02 17:18:18 [main] INFO : Logged in to Intelli Serve Application
+2025-12-02 17:18:19 [main] INFO : Verify keeping all required fields blank in create ticket page test
+2025-12-02 17:18:19 [main] INFO : Navigated to /user/tickets
+2025-12-02 17:18:29 [main] INFO : Header is valid: Create New Ticket
+2025-12-02 17:18:30 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-12-02 17:18:30 [main] INFO : Selected Infrastructure Ticket Type
+2025-12-02 17:18:31 [main] INFO : Selected Software Ticket Type
+2025-12-02 17:18:32 [main] INFO : Requestor Name in Create ticket Popup: Phani Kumar Maddi
+2025-12-02 17:18:32 [main] INFO : Requestor Email in Create ticket Popup: phani.maddi@criticalriver.com
+2025-12-02 17:18:32 [main] INFO : Requestor Department in Create ticket Popup: Business Technology Group
+2025-12-02 17:18:32 [main] INFO : Requestor Mobile in Create ticket Popup: +91 7386884111
+2025-12-02 17:18:32 [main] INFO : Requestor Manager Name in Create ticket Popup: Anwar Hussain
+2025-12-02 17:18:32 [main] INFO : Requestor Manager Email in Create ticket Popup: anwar.hussain@criticalriver.com
+2025-12-02 17:18:32 [main] INFO : Verify Error Message
+2025-12-02 17:18:32 [main] INFO : Incident Title Error Message :Incident title is required
+2025-12-02 17:18:33 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-12-02 17:18:35 [main] INFO : Entering incident details in create new ticket popup Test
+2025-12-02 17:18:36 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 17:18:36 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:18:40 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:18:42 [main] INFO : Entering more than limit file in create new ticket popup Test
+2025-12-02 17:18:44 [main] INFO : Message :File size should be less than 30 MB.
+2025-12-02 17:18:51 [main] INFO : Entering invalid file format in create new ticket popup Test
+2025-12-02 17:19:00 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 17:19:01 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:19:05 [main] INFO : Message :This file type is not supported. Please upload PDF, DOC, DOCX, XLS, XLSX, JPG, PNG, or TXT files only.
+2025-12-02 17:19:12 [main] INFO : IT Approver role Available
+2025-12-02 17:19:13 [main] INFO : BTG Approver role Available
+2025-12-02 17:19:21 [main] INFO : Navigated to /approver-tickets
+2025-12-02 17:19:22 [main] INFO : Header is valid: IT Approver Worklist
+2025-12-02 17:19:23 [main] INFO : Verify keeping all required fields blank in approver create ticket page test
+2025-12-02 17:19:27 [main] INFO : Header is valid: Create New Ticket
+2025-12-02 17:19:27 [main] INFO : Create Ticket Description: Fill in the details below to create a new software ticket
+2025-12-02 17:19:28 [main] INFO : Selected Infrastructure Ticket Type
+2025-12-02 17:19:29 [main] INFO : Verify Error Message
+2025-12-02 17:19:29 [main] INFO : Incident Title Error Message :Incident title is required
+2025-12-02 17:19:29 [main] INFO : Incident Detail Error Message :Incident details cannot be empty or only spaces
+2025-12-02 17:19:30 [main] INFO : Requestor Name Error Message :Name is required
+2025-12-02 17:19:30 [main] INFO : Requestor Email Error Message :Email is required
+2025-12-02 17:19:31 [main] INFO : Department Error Message :Department is required
+2025-12-02 17:19:34 [main] INFO : Navigated to /approver-tickets
+2025-12-02 17:19:38 [main] INFO : Entering Valid details in create new ticket popup Test
+2025-12-02 17:19:38 [main] INFO : Entering Requestor Name: Phani Kumar Maddi
+2025-12-02 17:19:39 [main] INFO : Entering Requestor Email: phani.maddi@criticalriver.com
+2025-12-02 17:19:46 [main] INFO : Selecting Department from dropdown: Business Technology Group
+2025-12-02 17:19:46 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 17:19:46 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:19:50 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:19:52 [main] INFO : Entering more than limit file in approver create new ticket popup Test
+2025-12-02 17:19:54 [main] INFO : Message :File size should be less than 30 MB.
+2025-12-02 17:20:00 [main] INFO : Navigated to /approver-tickets
+2025-12-02 17:20:04 [main] INFO : Entering invalid file format in approver create new ticket popup Test
+2025-12-02 17:20:08 [main] INFO : Entering incident title: Testing Intelliserve
+2025-12-02 17:20:08 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:20:13 [main] INFO : Message :This file type is not supported. Please upload PDF, DOC, DOCX, XLS, XLSX, JPG, PNG, or TXT files only.
+2025-12-02 17:20:17 [main] INFO : Creating an Ticket by approver or member with attaching multiple files in create new ticket popup Test
+2025-12-02 17:20:18 [main] INFO : Navigated to /approver-tickets
+2025-12-02 17:20:24 [main] INFO : Entering Requestor Name: Phani Kumar Maddi
+2025-12-02 17:20:25 [main] INFO : Entering Requestor Email: phani.maddi@criticalriver.com
+2025-12-02 17:20:27 [main] INFO : Selecting Department from dropdown: Business Technology Group
+2025-12-02 17:20:27 [main] INFO : Selecting Priority from dropdown: Low
+2025-12-02 17:20:28 [main] INFO : Entering incident title: Testing Intelliserve Automation
+2025-12-02 17:20:29 [main] INFO : Entering incident Detail: Entering Incident Detail Through Automation
+2025-12-02 17:20:35 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:20:37 [main] INFO : Entering incident Detail: Testing Intelliserve
+2025-12-02 17:20:43 [main] INFO : IT Approver role Available
+2025-12-02 17:20:44 [main] INFO : BTG Approver role Available
+2025-12-02 17:20:46 [main] INFO : Navigated to /approver-tickets
+2025-12-02 17:20:47 [main] INFO : Header is valid: IT Approver Worklist
+2025-12-02 17:20:47 [main] INFO : Navigated to /user/tickets
+2025-12-02 17:20:48 [main] INFO : Creating an Ticket with attaching multiple files in create new ticket popup Test
+2025-12-02 17:21:05 [main] INFO : Selected Infrastructure Ticket Type
+2025-12-02 17:21:09 [main] INFO : Entering incident title: Testing Intelliserve Automation
+2025-12-02 17:21:09 [main] INFO : Entering incident Detail: Entering Incident Detail Through Automation
+2025-12-02 17:21:15 [main] INFO : Entering incident Detail: Testing Intelliserve Incident Detail
+2025-12-02 17:21:17 [main] INFO : Entering incident Detail: Testing Intelliserve
+2025-12-02 17:21:25 [main] INFO : Message :Ticket created successfully!
+2025-12-02 17:21:26 [main] INFO : Testing Ended
+2025-12-02 17:21:26 [main] INFO : ***********
