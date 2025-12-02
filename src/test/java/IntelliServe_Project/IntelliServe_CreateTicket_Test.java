@@ -477,7 +477,7 @@ public class IntelliServe_CreateTicket_Test extends IntelliServe_TestInitializer
 		grep.infoTest("Ticket ID in Ticket Detail Popup : " + ticketId_inDetail);
 		logger.info("Ticket ID in Ticket Detail Popup :" + ticketId_inDetail);
 
-		validAssert.equalsAssert(ticketId_inDetail, verifyTicketId);
+		validAssert.equalsAssert(ticketId_inDetail, getTicketId);
 
 //		if (ticketId_inDetail.equals(getTicketId)) {
 //			grep.passTest("Ticket ID in Ticket Detail Popup is Valid:" + ticketId_inDetail);
