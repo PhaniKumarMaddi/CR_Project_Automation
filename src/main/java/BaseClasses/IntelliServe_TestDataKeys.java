@@ -86,4 +86,16 @@ public class IntelliServe_TestDataKeys {
 	public String manager_InDetailPopup = "Manager";
 	public String managerEmail_InDetailPopup = "Manager Email";
 	public String created_InDetailPopup = "Created";
+	
+	
+	//Admin Dashbaord 
+	
+	public String adminDashboardOverview="Dashboard Overview";
+	public String adminAdvanceDashboard="Advanced Dashboard";
+	public String ticketAnalytics="Ticket Analytics";
+	public String slaResolution="SLA Resolution";
+	public String slaResponse="SLA Response";
+	public String monthlyTrends="Monthly Trends";
+	public String statusBreached="Breached";
+	public String statusMet="Met";
 }

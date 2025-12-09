@@ -571,6 +571,8 @@ public class IntelliServe_CreateTicket_Test extends IntelliServe_TestInitializer
 		waitTime(driver);
 
 		createTict.clickCloseDetailPopup();
+		waitTime(driver);
+		validAssert.assertAllFunction();
 
 	}
 

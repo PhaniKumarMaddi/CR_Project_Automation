@@ -1,10 +1,10 @@
 package IntelliServe_Pages;
 
-import java.lang.classfile.CodeBuilder.CatchBuilder;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.apache.xmlbeans.impl.inst2xsd.SalamiSliceStrategy;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,7 +14,6 @@ import Utility.DriverManager;
 import Utility.GenerateReports;
 import Utility.ValidatingAssertions;
 import Utility.WaitsManager;
-import lombok.val;
 
 public class Ticketing_Admin_Page extends WaitsManager {
 	static WebDriver driver;
@@ -52,6 +51,11 @@ public class Ticketing_Admin_Page extends WaitsManager {
 	By slaNoRecords = By.xpath("//div[@class='flex flex-col items-center justify-center']/p");
 	By noDataExport = By
 			.xpath("//div[@class='fixed bottom-4 right-4 bg-gray-800 text-white px-4 py-2 rounded-md shadow-lg']");
+
+	By resolutionComment = By.xpath("//h3[text()='Resolution Comments']/following-sibling::div");
+	By slaMetricDetails = By.xpath("//h3[text()='SLA Metrics']/parent::div/following-sibling::div/div");
+	By slaStatusDetails = By.xpath("//h3[text()='SLA Metrics']/parent::div/following-sibling::div/div[3]/div[2]");
+	By closeDetailPopup = By.xpath("//button[@title='Close']");
 
 	// verify header
 	public void verifyAllTicketsHeader(String headerVal) throws Exception {
@@ -489,6 +493,58 @@ public class Ticketing_Admin_Page extends WaitsManager {
 		}
 	}
 
+	public void allTicketsExport(String option) throws Exception {
+		try {
+			By ticketsExport = By.xpath("//button[text()='Download']");
+			By ticketsCSV_PDF_Export = By.xpath("//button[text()='Export as " + option + "']");
+			String opt = option == null ? "" : option.trim().toUpperCase();
+			if (!opt.contains("CSV") && !opt.contains("PDF")) {
+				throw new IllegalArgumentException("option must be 'CSV' or 'PDF'");
+			}
+
+			boolean elementExists = !driver.findElements(ticketsExport).isEmpty();
+			if (elementExists) {
+				driver.findElement(ticketsExport).click();
+				waitTime(driver);
+				driver.findElement(ticketsCSV_PDF_Export).click();
+			} else {
+				grep.failTest("No " + option + " button available");
+				logger.error("No " + option + " button available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void selectAllTicketsPagination(String optionValue) throws Exception {
+		try {
+			implWait(driver);
+			By ticketsPagination = By.xpath("//div[@class='flex items-center space-x-4']/select");
+
+			boolean elementExists = !driver.findElements(ticketsPagination).isEmpty();
+			if (elementExists) {
+				WebElement pageDropdown = driver.findElement(ticketsPagination);
+				waitTime(driver);
+				Select select = new Select(pageDropdown);
+				select.selectByVisibleText(optionValue);
+				grep.infoTest("Selecting " + optionValue + " in pagination");
+				logger.info("Selecting " + optionValue + " in pagination");
+			} else {
+				grep.failTest("Selected Filter not Available");
+				logger.error("Selected Filter not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
 	// dashbaord overview page
 
 	public void selectAdminDashboard(String dashboardVal) throws Exception {
@@ -604,6 +660,8 @@ public class Ticketing_Admin_Page extends WaitsManager {
 		try {
 
 			By searchSLA = By.xpath("//h2[text()='" + slaVal + "']/following-sibling::div/descendant::input");
+			scrollView(searchSLA);
+
 			WebElement input = waitVisible(searchSLA);
 			input.clear();
 			input.sendKeys(query);
@@ -618,8 +676,11 @@ public class Ticketing_Admin_Page extends WaitsManager {
 	public void clearSlaSearch(String slaVal) throws Exception {
 		try {
 			By searchSLA = By.xpath("//h2[text()='" + slaVal + "']/following-sibling::div/descendant::input");
+			scrollView(searchSLA);
 			WebElement input = waitVisible(searchSLA);
+			waitTime(driver);
 			input.clear();
+			waitTime2(driver);
 		} catch (Exception e) {
 			e.printStackTrace();
 			grep.failTest("Test Failed :" + e.getMessage());
@@ -632,13 +693,16 @@ public class Ticketing_Admin_Page extends WaitsManager {
 		try {
 			implWait(driver);
 			By slaPagination = By.xpath("//h2[text()='" + slaVal + "']/following-sibling::div/descendant::select");
+			scrollView(slaPagination);
 
 			boolean elementExists = !driver.findElements(slaPagination).isEmpty();
 			if (elementExists) {
-				WebElement slaDropdwon = driver.findElement(slaPagination);
+				WebElement slaDropdown = driver.findElement(slaPagination);
 				waitTime(driver);
-				Select select = new Select(slaDropdwon);
+				Select select = new Select(slaDropdown);
 				select.selectByVisibleText(optionValue);
+				grep.infoTest("Selecting " + optionValue + " in pagination");
+				logger.info("Selecting " + optionValue + " in pagination");
 			} else {
 				grep.failTest("Selected Filter not Available");
 				logger.error("Selected Filter not Available");
@@ -656,7 +720,10 @@ public class Ticketing_Admin_Page extends WaitsManager {
 			By slaExport = By.xpath("//h2[text()='" + slaVal + "']/following-sibling::div/descendant::button[1]");
 			By slaCSV_PDF_Export = By.xpath("//h2[text()='" + slaVal
 					+ "']/following-sibling::div/descendant::button[text()='Export as " + option + "']");
+
+			scrollView(slaExport);
 			String opt = option == null ? "" : option.trim().toUpperCase();
+
 			if (!opt.contains("CSV") && !opt.contains("PDF")) {
 				throw new IllegalArgumentException("option must be 'CSV' or 'PDF'");
 			}
@@ -685,6 +752,8 @@ public class Ticketing_Admin_Page extends WaitsManager {
 			By sla_TableButtons = By.xpath("//h2[text()='" + slaVal
 					+ "']/following-sibling::div/descendant::button/span[text()='" + btnVal + "']");
 
+			scrollView(sla_TableButtons);
+
 			boolean elementExists = !driver.findElements(sla_TableButtons).isEmpty();
 			if (elementExists) {
 				driver.findElement(sla_TableButtons).click();
@@ -703,12 +772,14 @@ public class Ticketing_Admin_Page extends WaitsManager {
 		}
 	}
 
-	public void noRecordsMsg_MyTickets() throws Exception {
+	public void noRecordsMsg_SLA() throws Exception {
 		try {
 			implWait(driver);
 
 			boolean elementExists = !driver.findElements(slaNoRecords).isEmpty();
 			if (elementExists) {
+				scrollView(slaNoRecords);
+
 				String msg = driver.findElement(slaNoRecords).getText();
 				validAssert.equalsAssert(msg, "No Records Found");
 
@@ -771,6 +842,45 @@ public class Ticketing_Admin_Page extends WaitsManager {
 		return ticketIdVal;
 	}
 
+	public void getStatusFromTable(String slaVal, String searchVal) throws Exception {
+		try {
+			implWait(driver);
+			By searchValidation = By.xpath("//h2[text()='" + slaVal + "']/parent::div/descendant::tbody/tr");
+
+			List<WebElement> table = driver.findElements(searchValidation);
+			if (table.size() > 0) {
+				boolean isValid = true;
+				for (WebElement rows : table) {
+					String rowvalues = rows.getText();
+					if (!rowvalues.contains(searchVal)) {
+						isValid = false;
+						break;
+					}
+				}
+				if (isValid && table.size() > 0) {
+					System.out.println("✅ Search validation passed. All Values match: " + searchVal);
+					grep.passTest("✅ Search validation passed. All Values match: " + searchVal);
+					logger.info("✅ Search validation passed. All Values match: " + searchVal);
+				} else {
+					System.out.println(
+							"❌ Search validation failed. Mismatched Value found or no Records Available: " + searchVal);
+					grep.warnTest(
+							"❌ Search validation failed. Mismatched Value found or no Records Available: " + searchVal);
+					logger.error(
+							"❌ Search validation failed. Mismatched Value found or no Records Available: " + searchVal);
+				}
+			} else {
+				grep.failTest("Table not exists");
+				logger.error("Table not exists");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
 	public void clickTicketId(String slaVal, String ticketNum) throws Exception {
 		try {
 			implWait(driver);
@@ -793,6 +903,129 @@ public class Ticketing_Admin_Page extends WaitsManager {
 			logger.error("Test Failed :" + e.getMessage());
 
 		}
+	}
+
+	public String verifyTicketDetailsFromDetailPopup(String fieldName) throws Exception {
+		String detailVal = null;
+		try {
+			implWait(driver);
+			By ticketDetail_InPopup = By.xpath("//td[normalize-space()='" + fieldName + "']/following-sibling::td");
+
+			boolean elementExists = !driver.findElements(ticketDetail_InPopup).isEmpty();
+			if (elementExists) {
+				detailVal = driver.findElement(ticketDetail_InPopup).getText();
+				waitTime(driver);
+
+			} else {
+				grep.failTest(fieldName + " Not available in Ticket Detail Popup");
+				logger.error(fieldName + " Not available in Ticket Detail Popup");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+		return detailVal;
+	}
+
+	public void getResolutionCommentsFromTicket() throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(resolutionComment).isEmpty();
+			if (elementExists) {
+				String msg = driver.findElement(resolutionComment).getText();
+
+				grep.passTest("Resolution Comment from Ticket Detail Popup: " + msg);
+				logger.info("Resolution Comment from Ticket Detail Popup: " + msg);
+			} else {
+				grep.failTest("Resolution Not Available");
+				logger.error("Resolution Not Available");
+
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void getSlaMetricFromTicket() throws Exception {
+		try {
+			implWait(driver);
+
+			List<WebElement> slaMetric = driver.findElements(slaMetricDetails);
+			if (slaMetric.size() > 0) {
+				for (WebElement sla : slaMetric) {
+					String msg = sla.getText();
+
+					grep.passTest("SLA Metric from Ticket Detail Popup: " + msg);
+					logger.info("SLA Metric from Ticket Detail Popup: " + msg);
+
+				}
+			} else {
+				grep.failTest("Sla Metrics Not Available");
+				logger.error("Sla Metrics Not Available");
+
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void verifySlaStatusInTicketDetail(String verifyStatus) throws Exception {
+		try {
+			implWait(driver);
+
+			List<WebElement> slaStatus = driver.findElements(slaStatusDetails);
+			if (slaStatus.size() > 0) {
+				String msg = slaStatus.getFirst().getText();
+
+				grep.passTest("SLA Status from Ticket Detail Popup: " + msg);
+				logger.info("SLA Status from Ticket Detail Popup: " + msg);
+				validAssert.equalsAssert(msg, verifyStatus);
+
+			} else {
+				grep.failTest("Sla Status Not Available");
+				logger.error("Sla Status Not Available");
+
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void clickCloseTicketPopup() throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(closeDetailPopup).isEmpty();
+			if (elementExists) {
+				driver.findElement(closeDetailPopup).click();
+			} else {
+				grep.failTest("Close Button Not Available");
+				logger.error("Close Buttont Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+
 	}
 
 }

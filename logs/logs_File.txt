@@ -9987,3 +9987,530 @@ Business Technology Group
 2025-12-09 10:38:38 [main] INFO : No records Found :No Records Found
 2025-12-09 10:38:41 [main] INFO : Testing Ended
 2025-12-09 10:38:41 [main] INFO : ***********
+2025-12-09 16:47:36 [main] INFO : Launching Chrome Browser
+2025-12-09 16:47:37 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-09 16:47:39 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-09 16:47:41 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-09 16:48:15 [main] INFO : Logged in to Intelli Serve Application
+2025-12-09 16:48:21 [main] INFO : Admin role Available
+2025-12-09 16:48:21 [main] INFO : Admin All Tickets Page Configure Columns Options Filters Test
+2025-12-09 16:48:28 [main] INFO : Navigated to /tickets
+2025-12-09 16:48:35 [main] INFO : Header is valid: All Tickets
+2025-12-09 16:48:38 [main] INFO : Header is valid: Column Options
+2025-12-09 16:48:38 [main] INFO : Verifying Ticket ID Column Option
+2025-12-09 16:48:38 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-09 16:48:40 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-09 16:48:41 [main] INFO : Column Option Ticket ID visibility is View 
+2025-12-09 16:48:43 [main] INFO : Verifying Status Column Option
+2025-12-09 16:48:43 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-09 16:48:45 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-09 16:48:45 [main] INFO : Column Option Status visibility is View 
+2025-12-09 16:48:52 [main] INFO : Header is valid: Column Options
+2025-12-09 16:48:56 [main] INFO : All Tickets Page Status Filter Test
+2025-12-09 16:48:56 [main] INFO : All Tickets Page Pending Status Filter Test
+2025-12-09 16:48:59 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-12-09 16:49:01 [main] INFO : All Tickets Page Rejected Status Filter Test
+2025-12-09 16:49:05 [main] INFO : ✅ Filter validation passed. All Values match: Rejected
+2025-12-09 16:49:07 [main] INFO : All Tickets Page Resolved Status Filter Test
+2025-12-09 16:49:10 [main] INFO : ✅ Filter validation passed. All Values match: Resolved
+2025-12-09 16:49:12 [main] INFO : All Tickets Page Closed Status Filter Test
+2025-12-09 16:49:14 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-12-09 16:49:17 [main] INFO : All Tickets Page Priority Filter Test
+2025-12-09 16:49:17 [main] INFO : All Tickets Page High Priority Filter Test
+2025-12-09 16:49:19 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-12-09 16:49:19 [main] INFO : All Tickets Page Low Priority Filter Test
+2025-12-09 16:49:21 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-12-09 16:49:21 [main] INFO : All Tickets Page Medium Priority Filter Test
+2025-12-09 16:49:23 [main] INFO : ✅ Filter validation passed. All Values match: Medium
+2025-12-09 16:49:25 [main] INFO : All Tickets Page Department Filter Test
+2025-12-09 16:49:26 [main] INFO : All Tickets Page Business Technology Group Department Filter Test
+2025-12-09 16:49:28 [main] INFO : ✅ Filter validation passed. All Values match: Business Technology Group
+2025-12-09 16:49:28 [main] INFO : All Tickets Page DSIL Department Filter Test
+2025-12-09 16:49:30 [main] INFO : ✅ Filter validation passed. All Values match: DSIL
+2025-12-09 16:49:30 [main] INFO : All Tickets Page Data Science and AI Department Filter Test
+2025-12-09 16:49:32 [main] INFO : ✅ Filter validation passed. All Values match: Data Science and AI
+2025-12-09 16:49:34 [main] INFO : All Tickets Search Functionality Test
+2025-12-09 16:49:36 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-12-09 16:49:38 [main] INFO : All Tickets Search Non existing  Functionality Test
+2025-12-09 16:49:40 [main] INFO : No records Found :No Records Found
+2025-12-09 16:49:42 [main] INFO : All Tickets Export and Pagination Functionality Test
+2025-12-09 16:49:46 [main] ERROR: Test Failed :element click intercepted: Element <button class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600">...</button> is not clickable at point (401, 338). Other element would receive the click: <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">...</th>
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45b525d5956b959dd202b79420cc0d2f, clickElement {id=f.6DCF8A28E70933B281412B0AF7215744.d.DEDCB8240418D361BEC86BFC0EE91180.e.1013}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62216}, goog:processID: 19528, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62216/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (45b525d5956b959dd202b79420cc0d2f)] -> xpath: //button[text()='Export as PDF']]
+Session ID: 45b525d5956b959dd202b79420cc0d2f
+2025-12-09 16:49:50 [main] INFO : Testing Ended
+2025-12-09 16:49:50 [main] INFO : ***********
+2025-12-09 17:50:11 [main] INFO : Launching Chrome Browser
+2025-12-09 17:50:12 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-09 17:50:19 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-09 17:50:23 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-09 17:50:58 [main] INFO : Logged in to Intelli Serve Application
+2025-12-09 17:51:04 [main] INFO : Admin role Available
+2025-12-09 17:51:05 [main] INFO : Admin All Tickets Page Configure Columns Options Filters Test
+2025-12-09 17:51:12 [main] INFO : Navigated to /tickets
+2025-12-09 17:51:34 [main] INFO : Header is valid: All Tickets
+2025-12-09 17:51:37 [main] INFO : Header is valid: Column Options
+2025-12-09 17:51:37 [main] INFO : Verifying Ticket ID Column Option
+2025-12-09 17:51:37 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-09 17:51:39 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-09 17:51:40 [main] INFO : Column Option Ticket ID visibility is View 
+2025-12-09 17:51:42 [main] INFO : Verifying Status Column Option
+2025-12-09 17:51:42 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-09 17:51:44 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-09 17:51:44 [main] INFO : Column Option Status visibility is View 
+2025-12-09 17:51:51 [main] INFO : Header is valid: Column Options
+2025-12-09 17:51:55 [main] INFO : All Tickets Page Status Filter Test
+2025-12-09 17:51:55 [main] INFO : All Tickets Page Pending Status Filter Test
+2025-12-09 17:51:58 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-12-09 17:52:00 [main] INFO : All Tickets Page Rejected Status Filter Test
+2025-12-09 17:52:03 [main] INFO : ✅ Filter validation passed. All Values match: Rejected
+2025-12-09 17:52:05 [main] INFO : All Tickets Page Resolved Status Filter Test
+2025-12-09 17:52:08 [main] INFO : ✅ Filter validation passed. All Values match: Resolved
+2025-12-09 17:52:09 [main] INFO : All Tickets Page Closed Status Filter Test
+2025-12-09 17:52:12 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-12-09 17:52:14 [main] INFO : All Tickets Page Priority Filter Test
+2025-12-09 17:52:15 [main] INFO : All Tickets Page High Priority Filter Test
+2025-12-09 17:52:17 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-12-09 17:52:17 [main] INFO : All Tickets Page Low Priority Filter Test
+2025-12-09 17:52:19 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-12-09 17:52:20 [main] INFO : All Tickets Page Medium Priority Filter Test
+2025-12-09 17:52:22 [main] INFO : ✅ Filter validation passed. All Values match: Medium
+2025-12-09 17:52:24 [main] INFO : All Tickets Page Department Filter Test
+2025-12-09 17:52:25 [main] INFO : All Tickets Page Business Technology Group Department Filter Test
+2025-12-09 17:52:27 [main] INFO : ✅ Filter validation passed. All Values match: Business Technology Group
+2025-12-09 17:52:27 [main] INFO : All Tickets Page DSIL Department Filter Test
+2025-12-09 17:52:29 [main] INFO : ✅ Filter validation passed. All Values match: DSIL
+2025-12-09 17:52:29 [main] INFO : All Tickets Page Data Science and AI Department Filter Test
+2025-12-09 17:52:31 [main] INFO : ✅ Filter validation passed. All Values match: Data Science and AI
+2025-12-09 17:52:34 [main] INFO : All Tickets Search Functionality Test
+2025-12-09 17:52:36 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-12-09 17:52:38 [main] INFO : All Tickets Search Non existing  Functionality Test
+2025-12-09 17:52:40 [main] INFO : No records Found :No Records Found
+2025-12-09 17:52:42 [main] INFO : All Tickets Export and Pagination Functionality Test
+2025-12-09 17:52:45 [main] ERROR: Test Failed :element click intercepted: Element <button class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600">...</button> is not clickable at point (401, 338). Other element would receive the click: <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">...</th>
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [302af1823266a6e4a270792d112c7e19, clickElement {id=f.32AB295E4809E2E8D9914F204BD64219.d.554CEA89187F98376C6E02D1392D1FDC.e.898}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51999}, goog:processID: 8024, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51999/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (302af1823266a6e4a270792d112c7e19)] -> xpath: //button[text()='Export as PDF']]
+Session ID: 302af1823266a6e4a270792d112c7e19
+2025-12-09 17:52:47 [main] INFO : Selecting 20 in pagination
+2025-12-09 17:52:47 [main] INFO : Selecting 50 in pagination
+2025-12-09 17:52:48 [main] INFO : Selecting 70 in pagination
+2025-12-09 17:52:49 [main] INFO : Selecting 10 in pagination
+2025-12-09 17:53:50 [main] ERROR: /approver/dashboard Not Available
+2025-12-09 17:53:55 [main] INFO : Admin Dashboard Overview Test
+2025-12-09 17:53:57 [main] INFO : Inside Dashboard Overview Dashboard
+2025-12-09 17:53:57 [main] INFO : Dashboard Overview Page Cards test
+2025-12-09 17:53:58 [main] INFO : Card Detail: 
+2025-12-09 17:53:58 [main] INFO : Card Detail: 
+2025-12-09 17:53:58 [main] INFO : Card Detail: 
+2025-12-09 17:53:58 [main] INFO : Card Detail: 
+2025-12-09 17:53:58 [main] INFO : Card Detail: 
+2025-12-09 17:53:58 [main] INFO : Card Detail: 
+2025-12-09 17:53:58 [main] INFO : Card Detail: 
+2025-12-09 17:53:58 [main] INFO : Card Detail: 
+2025-12-09 17:53:59 [main] INFO : Dashboard Overview Page Chart Title test
+2025-12-09 17:53:59 [main] INFO : Chart Title in Dashboard: Ticket Distribution
+2025-12-09 17:53:59 [main] INFO : Chart Title in Dashboard: Average Approval Time
+2025-12-09 17:53:59 [main] INFO : Chart Title in Dashboard: Resolution Details
+2025-12-09 17:53:59 [main] INFO : Chart Title in Dashboard: SLA Response
+2025-12-09 17:53:59 [main] INFO : Chart Title in Dashboard: Monthly Ticket Trends
+2025-12-09 17:54:01 [main] INFO : Admin Dashboard Search for non existing for SLA Resolution Table Test
+2025-12-09 17:54:02 [main] INFO : Expected :No Records Found and Actual :No Records Found
+2025-12-09 17:54:02 [main] INFO : Expected :No Records Found and Actual :No Records Found both are same
+2025-12-09 17:54:02 [main] INFO : No records Found :No Records Found
+2025-12-09 17:54:04 [main] INFO : Admin Dashboard Exporting with no data for SLA Resolution Table Test
+2025-12-09 17:54:05 [main] INFO : Exporting with No Data: No data available to export.
+2025-12-09 17:54:37 [main] INFO : Launching Chrome Browser
+2025-12-09 17:54:37 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-09 17:54:45 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-09 17:54:48 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-09 17:55:22 [main] INFO : Logged in to Intelli Serve Application
+2025-12-09 17:55:28 [main] INFO : Admin role Available
+2025-12-09 17:55:28 [main] INFO : Admin All Tickets Page Configure Columns Options Filters Test
+2025-12-09 17:55:35 [main] INFO : Navigated to /tickets
+2025-12-09 17:55:56 [main] INFO : Header is valid: All Tickets
+2025-12-09 17:55:59 [main] INFO : Header is valid: Column Options
+2025-12-09 17:55:59 [main] INFO : Verifying Ticket ID Column Option
+2025-12-09 17:55:59 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-09 17:56:01 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-09 17:56:02 [main] INFO : Column Option Ticket ID visibility is View 
+2025-12-09 17:56:03 [main] INFO : Verifying Status Column Option
+2025-12-09 17:56:04 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-09 17:56:05 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-09 17:56:06 [main] INFO : Column Option Status visibility is View 
+2025-12-09 17:56:13 [main] INFO : Header is valid: Column Options
+2025-12-09 17:56:17 [main] INFO : Navigated to /admin
+2025-12-09 17:56:22 [main] INFO : Admin Dashboard Overview Test
+2025-12-09 17:56:23 [main] INFO : Inside Dashboard Overview Dashboard
+2025-12-09 17:56:23 [main] INFO : Dashboard Overview Page Cards test
+2025-12-09 17:56:24 [main] INFO : Card Detail: TOTAL TICKETS
+1115
+2025-12-09 17:56:24 [main] INFO : Card Detail: PENDING TICKETS
+727
+2025-12-09 17:56:24 [main] INFO : Card Detail: RESOLVED
+34
+2025-12-09 17:56:24 [main] INFO : Card Detail: CLOSED
+152
+2025-12-09 17:56:24 [main] INFO : Card Detail: FORWARDED
+36
+2025-12-09 17:56:24 [main] INFO : Card Detail: IMPLEMENTATION SCHEDULED
+40
+2025-12-09 17:56:24 [main] INFO : Card Detail: WORK IN PROGRESS
+29
+2025-12-09 17:56:24 [main] INFO : Card Detail: SLA BREACHED
+18
+2025-12-09 17:56:25 [main] INFO : Dashboard Overview Page Chart Title test
+2025-12-09 17:56:25 [main] INFO : Chart Title in Dashboard: Ticket Distribution
+2025-12-09 17:56:25 [main] INFO : Chart Title in Dashboard: Average Approval Time
+2025-12-09 17:56:25 [main] INFO : Chart Title in Dashboard: Monthly Ticket Trends
+2025-12-09 17:56:27 [main] INFO : Admin Dashboard Search for non existing for SLA Resolution Table Test
+2025-12-09 17:56:28 [main] INFO : Expected :No Records Found and Actual :No Records Found
+2025-12-09 17:56:28 [main] INFO : Expected :No Records Found and Actual :No Records Found both are same
+2025-12-09 17:56:28 [main] INFO : No records Found :No Records Found
+2025-12-09 17:56:29 [main] INFO : Admin Dashboard Exporting with no data for SLA Resolution Table Test
+2025-12-09 17:56:31 [main] INFO : Exporting with No Data: No data available to export.
+2025-12-09 17:56:32 [main] INFO : Admin Dashboard Exporting data for SLA Resolution Table Test
+2025-12-09 17:56:33 [main] INFO : Admin Dashboard Exporting data to CSV for SLA Resolution Table Test
+2025-12-09 17:56:35 [main] INFO : Admin Dashboard Exporting data to PDF for SLA Resolution Table Test
+2025-12-09 17:56:35 [main] INFO : Admin Dashboard Pagination for SLA Resolution Table Test
+2025-12-09 17:56:36 [main] INFO : Selecting 20 in pagination
+2025-12-09 17:56:37 [main] INFO : Selecting 50 in pagination
+2025-12-09 17:56:38 [main] INFO : Selecting 10 in pagination
+2025-12-09 17:56:39 [main] INFO : Selecting 5 in pagination
+2025-12-09 17:56:41 [main] INFO : Admin Dashboard Pagination buttons for SLA Resolution Table Test
+2025-12-09 17:56:41 [main] ERROR: Test Failed :option must be 'CSV' or 'PDF'
+2025-12-09 17:56:41 [main] ERROR: Test Failed :option must be 'CSV' or 'PDF'
+2025-12-09 17:56:41 [main] ERROR: Test Failed :option must be 'CSV' or 'PDF'
+2025-12-09 17:56:42 [main] INFO : Admin Dashboard Search and verify Breached tickets for SLA Resolution Table Test
+2025-12-09 17:56:44 [main] INFO : ✅ Search validation passed. All Values match: Breached
+2025-12-09 17:56:45 [main] INFO : Ticket ID from Table:INC00995
+2025-12-09 17:56:48 [main] INFO : Ticket ID in Ticket Detail Popup :INC00995
+2025-12-09 17:56:48 [main] INFO : Expected :INC00995 and Actual :INC00995
+2025-12-09 17:56:48 [main] INFO : Expected :INC00995 and Actual :INC00995 both are same
+2025-12-09 17:56:49 [main] INFO : Resolution Comment from Ticket Detail Popup: resolve breached ticket
+2025-12-09 17:56:49 [main] INFO : SLA Metric from Ticket Detail Popup: SLA Limit
+4 hr 0 min
+2025-12-09 17:56:49 [main] INFO : SLA Metric from Ticket Detail Popup: Resolution Time
+25 hr 16 min
+2025-12-09 17:56:49 [main] INFO : SLA Metric from Ticket Detail Popup: SLA Status
+Breached
+2025-12-09 17:56:49 [main] INFO : SLA Status from Ticket Detail Popup: Breached
+2025-12-09 17:56:49 [main] INFO : Expected :Breached and Actual :Breached
+2025-12-09 17:56:49 [main] INFO : Expected :Breached and Actual :Breached both are same
+2025-12-09 17:56:51 [main] INFO : Admin Dashboard Search and verify Met tickets for SLA Resolution Table Test
+2025-12-09 17:56:52 [main] INFO : ✅ Search validation passed. All Values match: Met
+2025-12-09 17:56:54 [main] INFO : Ticket ID from Table:INC01078
+2025-12-09 17:56:57 [main] INFO : Ticket ID in Ticket Detail Popup :INC01078
+2025-12-09 17:56:57 [main] INFO : Expected :INC01078 and Actual :INC01078
+2025-12-09 17:56:57 [main] INFO : Expected :INC01078 and Actual :INC01078 both are same
+2025-12-09 17:56:58 [main] INFO : Resolution Comment from Ticket Detail Popup: done
+2025-12-09 17:56:58 [main] INFO : SLA Metric from Ticket Detail Popup: SLA Limit
+72 hr 0 min
+2025-12-09 17:56:58 [main] INFO : SLA Metric from Ticket Detail Popup: Resolution Time
+0 hr 21 min
+2025-12-09 17:56:58 [main] INFO : SLA Metric from Ticket Detail Popup: SLA Status
+Met
+2025-12-09 17:56:58 [main] INFO : SLA Status from Ticket Detail Popup: Met
+2025-12-09 17:56:58 [main] INFO : Expected :Met and Actual :Met
+2025-12-09 17:56:58 [main] INFO : Expected :Met and Actual :Met both are same
+2025-12-09 17:57:00 [main] INFO : Admin Dashboard Search for non existing for SLA Response Table Test
+2025-12-09 17:57:01 [main] INFO : Expected :No Records Found and Actual :No Records Found
+2025-12-09 17:57:01 [main] INFO : Expected :No Records Found and Actual :No Records Found both are same
+2025-12-09 17:57:01 [main] INFO : No records Found :No Records Found
+2025-12-09 17:57:03 [main] INFO : Admin Dashboard Exporting with no data for SLA Response Table Test
+2025-12-09 17:57:04 [main] INFO : Exporting with No Data: No data available to export.
+2025-12-09 17:57:05 [main] INFO : Admin Dashboard Exporting data for SLA Response Table Test
+2025-12-09 17:57:06 [main] INFO : Admin Dashboard Exporting data to CSV for SLA Response Table Test
+2025-12-09 17:57:08 [main] INFO : Admin Dashboard Exporting data to PDF for SLA Response Table Test
+2025-12-09 17:57:09 [main] INFO : Admin Dashboard Pagination for SLA Response Table Test
+2025-12-09 17:57:09 [main] INFO : Selecting 20 in pagination
+2025-12-09 17:57:10 [main] INFO : Selecting 50 in pagination
+2025-12-09 17:57:11 [main] INFO : Selecting 10 in pagination
+2025-12-09 17:57:12 [main] INFO : Selecting 5 in pagination
+2025-12-09 17:57:14 [main] INFO : Admin Dashboard Pagination buttons for SLA Response Table Test
+2025-12-09 17:57:14 [main] ERROR: Test Failed :option must be 'CSV' or 'PDF'
+2025-12-09 17:57:14 [main] ERROR: Test Failed :option must be 'CSV' or 'PDF'
+2025-12-09 17:57:14 [main] ERROR: Test Failed :option must be 'CSV' or 'PDF'
+2025-12-09 17:57:15 [main] INFO : Admin Dashboard Search and verify Breached tickets for SLA Response Table Test
+2025-12-09 17:57:16 [main] INFO : ✅ Search validation passed. All Values match: Breached
+2025-12-09 17:57:18 [main] INFO : Ticket ID from Table:INC00995
+2025-12-09 17:57:23 [main] INFO : Ticket ID in Ticket Detail Popup :INC00995
+2025-12-09 17:57:23 [main] INFO : Expected :INC01076 and Actual :INC01076
+2025-12-09 17:57:23 [main] INFO : Expected :INC01076 and Actual :INC01076 both are same
+2025-12-09 17:57:24 [main] INFO : Resolution Comment from Ticket Detail Popup: resolved
+2025-12-09 17:57:24 [main] INFO : SLA Metric from Ticket Detail Popup: SLA Limit
+120 hr 0 min
+2025-12-09 17:57:24 [main] INFO : SLA Metric from Ticket Detail Popup: Resolution Time
+27 hr 23 min
+2025-12-09 17:57:24 [main] INFO : SLA Metric from Ticket Detail Popup: SLA Status
+Met
+2025-12-09 17:57:27 [main] INFO : Admin Dashboard Search and verify Met tickets for SLA Response Table Test
+2025-12-09 17:57:28 [main] ERROR: ❌ Search validation failed. Mismatched Value found or no Records Available: Met
+2025-12-09 17:57:29 [main] INFO : Ticket ID from Table:INC01078
+2025-12-09 17:57:32 [main] INFO : Ticket ID in Ticket Detail Popup :INC01078
+2025-12-09 17:57:32 [main] INFO : Expected :INC01078 and Actual :INC01078
+2025-12-09 17:57:32 [main] INFO : Expected :INC01078 and Actual :INC01078 both are same
+2025-12-09 17:57:33 [main] INFO : Resolution Comment from Ticket Detail Popup: done
+2025-12-09 17:57:33 [main] INFO : SLA Metric from Ticket Detail Popup: SLA Limit
+72 hr 0 min
+2025-12-09 17:57:33 [main] INFO : SLA Metric from Ticket Detail Popup: Resolution Time
+0 hr 21 min
+2025-12-09 17:57:33 [main] INFO : SLA Metric from Ticket Detail Popup: SLA Status
+Met
+2025-12-09 17:57:37 [main] INFO : Testing Ended
+2025-12-09 17:57:37 [main] INFO : ***********
+2025-12-09 17:59:26 [main] INFO : Launching Chrome Browser
+2025-12-09 17:59:27 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-09 17:59:35 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-09 17:59:37 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-09 18:00:13 [main] INFO : Logged in to Intelli Serve Application
+2025-12-09 18:00:19 [main] INFO : Admin role Available
+2025-12-09 18:00:19 [main] INFO : Admin All Tickets Page Configure Columns Options Filters Test
+2025-12-09 18:00:26 [main] INFO : Navigated to /tickets
+2025-12-09 18:00:46 [main] INFO : Header is valid: All Tickets
+2025-12-09 18:00:49 [main] INFO : Header is valid: Column Options
+2025-12-09 18:00:49 [main] INFO : Verifying Ticket ID Column Option
+2025-12-09 18:00:49 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-09 18:00:51 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-09 18:00:51 [main] INFO : Column Option Ticket ID visibility is View 
+2025-12-09 18:00:53 [main] INFO : Verifying Status Column Option
+2025-12-09 18:00:53 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-09 18:00:55 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-09 18:00:56 [main] INFO : Column Option Status visibility is View 
+2025-12-09 18:01:02 [main] INFO : Header is valid: Column Options
+2025-12-09 18:01:06 [main] INFO : Navigated to /admin
+2025-12-09 18:01:12 [main] INFO : Admin Dashboard Overview Test
+2025-12-09 18:01:12 [main] INFO : Inside Dashboard Overview Dashboard
+2025-12-09 18:01:13 [main] INFO : Dashboard Overview Page Cards test
+2025-12-09 18:01:14 [main] INFO : Card Detail: TOTAL TICKETS
+1115
+2025-12-09 18:01:14 [main] INFO : Card Detail: PENDING TICKETS
+727
+2025-12-09 18:01:14 [main] INFO : Card Detail: RESOLVED
+34
+2025-12-09 18:01:14 [main] INFO : Card Detail: CLOSED
+152
+2025-12-09 18:01:14 [main] INFO : Card Detail: FORWARDED
+36
+2025-12-09 18:01:14 [main] INFO : Card Detail: IMPLEMENTATION SCHEDULED
+40
+2025-12-09 18:01:14 [main] INFO : Card Detail: WORK IN PROGRESS
+29
+2025-12-09 18:01:14 [main] INFO : Card Detail: SLA BREACHED
+18
+2025-12-09 18:01:14 [main] INFO : Dashboard Overview Page Chart Title test
+2025-12-09 18:01:15 [main] INFO : Chart Title in Dashboard: Ticket Distribution
+2025-12-09 18:01:15 [main] INFO : Chart Title in Dashboard: Average Approval Time
+2025-12-09 18:01:15 [main] INFO : Chart Title in Dashboard: Monthly Ticket Trends
+2025-12-09 18:01:17 [main] INFO : Admin Dashboard Search for non existing for SLA Resolution Table Test
+2025-12-09 18:01:18 [main] INFO : Expected :No Records Found and Actual :No Records Found
+2025-12-09 18:01:18 [main] INFO : Expected :No Records Found and Actual :No Records Found both are same
+2025-12-09 18:01:18 [main] INFO : No records Found :No Records Found
+2025-12-09 18:01:19 [main] INFO : Admin Dashboard Exporting with no data for SLA Resolution Table Test
+2025-12-09 18:01:21 [main] INFO : Exporting with No Data: No data available to export.
+2025-12-09 18:01:22 [main] INFO : Admin Dashboard Exporting data for SLA Resolution Table Test
+2025-12-09 18:01:23 [main] INFO : Admin Dashboard Exporting data to CSV for SLA Resolution Table Test
+2025-12-09 18:01:24 [main] INFO : Admin Dashboard Exporting data to PDF for SLA Resolution Table Test
+2025-12-09 18:01:25 [main] INFO : Admin Dashboard Pagination for SLA Resolution Table Test
+2025-12-09 18:01:26 [main] INFO : Selecting 20 in pagination
+2025-12-09 18:01:27 [main] INFO : Selecting 50 in pagination
+2025-12-09 18:01:28 [main] INFO : Selecting 10 in pagination
+2025-12-09 18:01:28 [main] INFO : Selecting 5 in pagination
+2025-12-09 18:01:30 [main] INFO : Admin Dashboard Pagination buttons for SLA Resolution Table Test
+2025-12-09 18:02:31 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//h2[text()='SLA Resolution']/following-sibling::div/descendant::button/span[text()='Next']"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [59225340747c1bf8b1dff1a55b69f26c, findElement {value=//h2[text()='SLA Resolution']/following-sibling::div/descendant::button/span[text()='Next'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51740}, goog:processID: 21996, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51740/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59225340747c1bf8b1dff1a55b69f26c
+2025-12-09 18:05:32 [main] INFO : Launching Chrome Browser
+2025-12-09 18:05:33 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-09 18:05:40 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-09 18:05:42 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-09 18:06:19 [main] INFO : Logged in to Intelli Serve Application
+2025-12-09 18:06:25 [main] INFO : Admin role Available
+2025-12-09 18:06:25 [main] INFO : Admin All Tickets Page Configure Columns Options Filters Test
+2025-12-09 18:06:32 [main] INFO : Navigated to /tickets
+2025-12-09 18:06:54 [main] INFO : Header is valid: All Tickets
+2025-12-09 18:06:57 [main] INFO : Header is valid: Column Options
+2025-12-09 18:06:57 [main] INFO : Verifying Ticket ID Column Option
+2025-12-09 18:06:57 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-09 18:06:59 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-09 18:06:59 [main] INFO : Column Option Ticket ID visibility is View 
+2025-12-09 18:07:01 [main] INFO : Verifying Status Column Option
+2025-12-09 18:07:01 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-09 18:07:03 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-09 18:07:04 [main] INFO : Column Option Status visibility is View 
+2025-12-09 18:07:11 [main] INFO : Header is valid: Column Options
+2025-12-09 18:07:15 [main] INFO : Navigated to /admin
+2025-12-09 18:07:20 [main] INFO : Admin Dashboard Overview Test
+2025-12-09 18:07:21 [main] INFO : Inside Dashboard Overview Dashboard
+2025-12-09 18:07:21 [main] INFO : Dashboard Overview Page Cards test
+2025-12-09 18:07:22 [main] INFO : Card Detail: TOTAL TICKETS
+1116
+2025-12-09 18:07:22 [main] INFO : Card Detail: PENDING TICKETS
+728
+2025-12-09 18:07:22 [main] INFO : Card Detail: RESOLVED
+34
+2025-12-09 18:07:22 [main] INFO : Card Detail: CLOSED
+152
+2025-12-09 18:07:22 [main] INFO : Card Detail: FORWARDED
+36
+2025-12-09 18:07:22 [main] INFO : Card Detail: IMPLEMENTATION SCHEDULED
+40
+2025-12-09 18:07:22 [main] INFO : Card Detail: WORK IN PROGRESS
+29
+2025-12-09 18:07:22 [main] INFO : Card Detail: SLA BREACHED
+18
+2025-12-09 18:07:23 [main] INFO : Dashboard Overview Page Chart Title test
+2025-12-09 18:07:23 [main] INFO : Chart Title in Dashboard: Ticket Distribution
+2025-12-09 18:07:23 [main] INFO : Chart Title in Dashboard: Average Approval Time
+2025-12-09 18:07:23 [main] INFO : Chart Title in Dashboard: Monthly Ticket Trends
+2025-12-09 18:07:25 [main] INFO : Admin Dashboard Search for non existing for SLA Resolution Table Test
+2025-12-09 18:07:26 [main] INFO : Expected :No Records Found and Actual :No Records Found
+2025-12-09 18:07:26 [main] INFO : Expected :No Records Found and Actual :No Records Found both are same
+2025-12-09 18:07:26 [main] INFO : No records Found :No Records Found
+2025-12-09 18:07:28 [main] INFO : Admin Dashboard Exporting with no data for SLA Resolution Table Test
+2025-12-09 18:07:29 [main] INFO : Exporting with No Data: No data available to export.
+2025-12-09 18:07:32 [main] INFO : Admin Dashboard Exporting data for SLA Resolution Table Test
+2025-12-09 18:07:33 [main] INFO : Admin Dashboard Exporting data to CSV for SLA Resolution Table Test
+2025-12-09 18:07:34 [main] INFO : Admin Dashboard Exporting data to PDF for SLA Resolution Table Test
+2025-12-09 18:07:35 [main] INFO : Admin Dashboard Pagination for SLA Resolution Table Test
+2025-12-09 18:07:36 [main] INFO : Selecting 20 in pagination
+2025-12-09 18:07:37 [main] INFO : Selecting 50 in pagination
+2025-12-09 18:07:38 [main] INFO : Selecting 10 in pagination
+2025-12-09 18:07:39 [main] INFO : Selecting 5 in pagination
+2025-12-09 18:07:41 [main] INFO : Admin Dashboard Pagination buttons for SLA Resolution Table Test
+2025-12-09 18:07:59 [main] INFO : Launching Chrome Browser
+2025-12-09 18:07:59 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-09 18:08:07 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-09 18:08:10 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-09 18:08:38 [main] INFO : Logged in to Intelli Serve Application
+2025-12-09 18:08:44 [main] INFO : Admin role Available
+2025-12-09 18:08:45 [main] INFO : Admin All Tickets Page Configure Columns Options Filters Test
+2025-12-09 18:08:52 [main] INFO : Navigated to /tickets
+2025-12-09 18:09:12 [main] INFO : Header is valid: All Tickets
+2025-12-09 18:09:15 [main] INFO : Header is valid: Column Options
+2025-12-09 18:09:15 [main] INFO : Verifying Ticket ID Column Option
+2025-12-09 18:09:15 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-09 18:09:17 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-09 18:09:18 [main] INFO : Column Option Ticket ID visibility is View 
+2025-12-09 18:09:20 [main] INFO : Verifying Status Column Option
+2025-12-09 18:09:20 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-09 18:09:22 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-09 18:09:22 [main] INFO : Column Option Status visibility is View 
+2025-12-09 18:09:29 [main] INFO : Header is valid: Column Options
+2025-12-09 18:09:33 [main] INFO : Navigated to /admin
+2025-12-09 18:09:38 [main] INFO : Admin Dashboard Overview Test
+2025-12-09 18:09:39 [main] INFO : Inside Dashboard Overview Dashboard
+2025-12-09 18:09:39 [main] INFO : Dashboard Overview Page Cards test
+2025-12-09 18:09:40 [main] INFO : Card Detail: TOTAL TICKETS
+1116
+2025-12-09 18:09:40 [main] INFO : Card Detail: PENDING TICKETS
+728
+2025-12-09 18:09:40 [main] INFO : Card Detail: RESOLVED
+34
+2025-12-09 18:09:40 [main] INFO : Card Detail: CLOSED
+152
+2025-12-09 18:09:40 [main] INFO : Card Detail: FORWARDED
+36
+2025-12-09 18:09:40 [main] INFO : Card Detail: IMPLEMENTATION SCHEDULED
+40
+2025-12-09 18:09:40 [main] INFO : Card Detail: WORK IN PROGRESS
+29
+2025-12-09 18:09:40 [main] INFO : Card Detail: SLA BREACHED
+18
+2025-12-09 18:09:41 [main] INFO : Dashboard Overview Page Chart Title test
+2025-12-09 18:09:41 [main] INFO : Chart Title in Dashboard: Ticket Distribution
+2025-12-09 18:09:41 [main] INFO : Chart Title in Dashboard: Average Approval Time
+2025-12-09 18:09:41 [main] INFO : Chart Title in Dashboard: Monthly Ticket Trends
+2025-12-09 18:09:43 [main] INFO : Admin Dashboard Search for non existing for SLA Resolution Table Test
+2025-12-09 18:09:44 [main] INFO : Expected :No Records Found and Actual :No Records Found
+2025-12-09 18:09:44 [main] INFO : Expected :No Records Found and Actual :No Records Found both are same
+2025-12-09 18:09:44 [main] INFO : No records Found :No Records Found
+2025-12-09 18:09:46 [main] INFO : Admin Dashboard Exporting with no data for SLA Resolution Table Test
+2025-12-09 18:09:47 [main] INFO : Exporting with No Data: No data available to export.
+2025-12-09 18:09:50 [main] INFO : Admin Dashboard Exporting data for SLA Resolution Table Test
+2025-12-09 18:09:51 [main] INFO : Admin Dashboard Exporting data to CSV for SLA Resolution Table Test
+2025-12-09 18:09:53 [main] INFO : Admin Dashboard Exporting data to PDF for SLA Resolution Table Test
+2025-12-09 18:09:53 [main] INFO : Admin Dashboard Pagination for SLA Resolution Table Test
+2025-12-09 18:09:54 [main] INFO : Selecting 20 in pagination
+2025-12-09 18:09:55 [main] INFO : Selecting 50 in pagination
+2025-12-09 18:11:00 [main] INFO : Launching Chrome Browser
+2025-12-09 18:11:01 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-09 18:11:08 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-09 18:11:11 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-09 18:11:44 [main] INFO : Logged in to Intelli Serve Application
+2025-12-09 18:11:50 [main] INFO : Admin role Available
+2025-12-09 18:11:51 [main] INFO : Admin All Tickets Page Configure Columns Options Filters Test
+2025-12-09 18:11:58 [main] INFO : Navigated to /tickets
+2025-12-09 18:12:19 [main] INFO : Header is valid: All Tickets
+2025-12-09 18:12:21 [main] INFO : Header is valid: Column Options
+2025-12-09 18:12:21 [main] INFO : Verifying Ticket ID Column Option
+2025-12-09 18:12:22 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-09 18:12:24 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-09 18:12:24 [main] INFO : Column Option Ticket ID visibility is View 
+2025-12-09 18:12:26 [main] INFO : Verifying Status Column Option
+2025-12-09 18:12:26 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-09 18:12:28 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-09 18:12:29 [main] INFO : Column Option Status visibility is View 
+2025-12-09 18:12:35 [main] INFO : Header is valid: Column Options
+2025-12-09 18:12:39 [main] INFO : Navigated to /admin
+2025-12-09 18:12:45 [main] INFO : Admin Dashboard Overview Test
+2025-12-09 18:12:45 [main] INFO : Inside Dashboard Overview Dashboard
+2025-12-09 18:12:46 [main] INFO : Dashboard Overview Page Cards test
+2025-12-09 18:12:46 [main] INFO : Card Detail: TOTAL TICKETS
+1116
+2025-12-09 18:12:46 [main] INFO : Card Detail: PENDING TICKETS
+728
+2025-12-09 18:12:46 [main] INFO : Card Detail: RESOLVED
+34
+2025-12-09 18:12:46 [main] INFO : Card Detail: CLOSED
+152
+2025-12-09 18:12:46 [main] INFO : Card Detail: FORWARDED
+36
+2025-12-09 18:12:46 [main] INFO : Card Detail: IMPLEMENTATION SCHEDULED
+40
+2025-12-09 18:12:46 [main] INFO : Card Detail: WORK IN PROGRESS
+29
+2025-12-09 18:12:46 [main] INFO : Card Detail: SLA BREACHED
+18
+2025-12-09 18:12:47 [main] INFO : Dashboard Overview Page Chart Title test
+2025-12-09 18:12:47 [main] INFO : Chart Title in Dashboard: Ticket Distribution
+2025-12-09 18:12:47 [main] INFO : Chart Title in Dashboard: Average Approval Time
+2025-12-09 18:12:48 [main] INFO : Chart Title in Dashboard: Monthly Ticket Trends
+2025-12-09 18:12:49 [main] INFO : Admin Dashboard Search for non existing for SLA Resolution Table Test
+2025-12-09 18:12:50 [main] INFO : Expected :No Records Found and Actual :No Records Found
+2025-12-09 18:12:50 [main] INFO : Expected :No Records Found and Actual :No Records Found both are same
+2025-12-09 18:12:50 [main] INFO : No records Found :No Records Found
+2025-12-09 18:12:52 [main] INFO : Admin Dashboard Exporting with no data for SLA Resolution Table Test
+2025-12-09 18:12:53 [main] INFO : Exporting with No Data: No data available to export.
+2025-12-09 18:13:00 [main] INFO : Admin Dashboard Exporting data for SLA Resolution Table Test
+2025-12-09 18:13:01 [main] INFO : Admin Dashboard Exporting data to CSV for SLA Resolution Table Test
+2025-12-09 18:13:03 [main] ERROR: Test Failed :element click intercepted: Element <button class="inline-flex items-center px-3 py-2 border border-gray-300 shadow-sm text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:bg-gray-600">...</button> is not clickable at point (2129, 76). Other element would receive the click: <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 border border-gray-100 dark:border-gray-700">...</div>
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee908421452967b1be097cf8e30a28de, clickElement {id=f.07017CD0F19694A29D1BADD67D51B1FB.d.0D6C274FEEC9400A8174DFDE84A9BC35.e.451}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63629}, goog:processID: 23332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63629/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ee908421452967b1be097cf8e30a28de)] -> xpath: //h2[text()='SLA Resolution']/following-sibling::div/descendant::button[1]]
+Session ID: ee908421452967b1be097cf8e30a28de
+2025-12-09 18:13:03 [main] INFO : Admin Dashboard Exporting data to PDF for SLA Resolution Table Test
+2025-12-09 18:13:04 [main] INFO : Admin Dashboard Pagination for SLA Resolution Table Test
+2025-12-09 18:13:05 [main] INFO : Selecting 20 in pagination
+2025-12-09 18:13:05 [main] INFO : Selecting 50 in pagination
+2025-12-09 18:13:06 [main] INFO : Selecting 10 in pagination
+2025-12-09 18:13:07 [main] INFO : Selecting 5 in pagination
