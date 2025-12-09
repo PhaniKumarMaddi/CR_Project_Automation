@@ -40,7 +40,7 @@ public class Ticketing_Page extends WaitsManager {
 	By deptName = By
 			.xpath("//div[@class='flex flex-col items-center gap-1 text-center xl:flex-row xl:gap-3 xl:text-left']/p");
 	By reserveRights = By.xpath("//div[@class='text-gray-600 dark:text-gray-400 text-sm whitespace-nowrap']");
-	By version = By.xpath("//div[@class='text-gray-600 dark:text-gray-400 text-sm mt-2 sm:mt-0 whitespace-nowrap']");
+	By version = By.xpath("//div[@class='absolute right-4 bottom-4 text-sm whitespace-nowrap text-gray-600 dark:text-gray-400']");
 
 	By selectRole = By.xpath("//span[text()='Role']/following-sibling::select");
 
@@ -49,17 +49,20 @@ public class Ticketing_Page extends WaitsManager {
 
 		try {
 			implWait(driver);
+//
+//			By sidebarProfile = By
+//					.xpath("//div[@class='p-4 border-t border-gray-200 dark:border-gray-800 flex justify-center']");
 
 			By sidebarProfile = By
-					.xpath("//div[@class='p-4 border-t border-gray-200 dark:border-gray-800 flex justify-center']");
+					.xpath("//div[@class='p-4 border-t border-gray-200 dark:border-gray-800 flex justify-center items-center']/div");
 
 			logger.info("Verifying Side Bar Collapse Functionality");
 			grep.infoTest("Verifying Side Bar Collapse Functionality");
 
 			driver.findElement(sideToggle).click();
-			String sidebartext = driver.findElement(sidebarProfile).getText();
+			String sidebartext = driver.findElement(sidebarProfile).getAttribute("class");
 			System.out.println(sidebartext);
-			if (sidebartext.equalsIgnoreCase("PK")) {
+			if (sidebartext.equalsIgnoreCase("flex justify-center items-center")) {
 				logger.info("Side Bar collapsed");
 				grep.passTest("Side Bar collapsed");
 			} else {
