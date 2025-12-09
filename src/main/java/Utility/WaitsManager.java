@@ -32,7 +32,6 @@ public class WaitsManager {
 		WaitsManager.driver = DriverManager.getDriver();
 	}
 
-
 	/**
 	 * This method will switch the focus from the current window to the new window.
 	 */
@@ -78,6 +77,11 @@ public class WaitsManager {
 		wait.until(ExpectedConditions.not(ExpectedConditions.attributeToBe(webElement, "value", "")));
 	}
 
+	public WebElement waitVisible(By locator) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+	}
+
 	public void waitForWindow(int numberOfWindows, int duration) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(duration));
 		wait.until(ExpectedConditions.numberOfWindowsToBe(numberOfWindows));
@@ -92,17 +96,16 @@ public class WaitsManager {
 			return false;
 		}
 	}
- 
+
 	public void acceptalert() {
 		try {
 			driver.switchTo().alert().accept();
-			
+
 		} catch (NoAlertPresentException e) {
 			e.printStackTrace();
 		}
 	}
- 
-	 
+
 	public void populateDateField(LocalDate date, By dateElement) {
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(dateFormat);
 		String formattedDate = date.format(formatter);
@@ -158,10 +161,10 @@ public class WaitsManager {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 	}
 
-	
 	public void closeCurrentTab() {
 		driver.close();
 	}
+
 	public void switchToLastTab() {
 
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
@@ -185,33 +188,31 @@ public class WaitsManager {
 		driver.get(url);
 	}
 
-
 	public String getTitleMethod() {
-		String title=driver.getTitle();
+		String title = driver.getTitle();
 		return title;
 	}
 
-
 	public String getURL() {
-		String urlVal=driver.getCurrentUrl();
-	return urlVal;
+		String urlVal = driver.getCurrentUrl();
+		return urlVal;
 	}
-	
+
 	public void refreshPage() {
 		driver.navigate().refresh();
 	}
 
 	public void refreshPageUrl() {
-		 String currentURL = driver.getCurrentUrl();
-	        driver.get(currentURL);
+		String currentURL = driver.getCurrentUrl();
+		driver.get(currentURL);
 	}
-	
+
 	public void actionEntered() {
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.ARROW_RIGHT).build().perform();
 		act.sendKeys(Keys.ENTER).build().perform();
 	}
-	
+
 //	public void actionsRelated() {
 //		Actions act = new Actions(driver);
 //		WebElement element = driver.findElement(By.id("Test"));
@@ -233,7 +234,7 @@ public class WaitsManager {
 //		// control v
 //		act.keyDown(Keys.CONTROL).sendKeys("v").keyUp(Keys.CONTROL).perform();
 //	}
-	
+
 	public void switchToMainFrame() {
 		// Switch the focus to the main frame
 		driver.switchTo().defaultContent();
@@ -244,7 +245,7 @@ public class WaitsManager {
 		// Switch the focus to the UI Map Pop-up
 		driver.switchTo().frame(frameName);
 	}
-	
+
 	public void scrollView(By locator) {
 		WebElement element = driver.findElement(locator);
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);

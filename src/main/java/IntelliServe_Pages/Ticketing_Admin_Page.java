@@ -1,5 +1,6 @@
 package IntelliServe_Pages;
 
+import java.lang.classfile.CodeBuilder.CatchBuilder;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
@@ -48,6 +49,9 @@ public class Ticketing_Admin_Page extends WaitsManager {
 	By dashboard_overview_Cards = By.xpath("//div[@class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6']/div");
 	By dashboard_overview_Charts = By.xpath(
 			"//div[@class='bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 border border-gray-100 dark:border-gray-700']/descendant::h3");
+	By slaNoRecords = By.xpath("//div[@class='flex flex-col items-center justify-center']/p");
+	By noDataExport = By
+			.xpath("//div[@class='fixed bottom-4 right-4 bg-gray-800 text-white px-4 py-2 rounded-md shadow-lg']");
 
 	// verify header
 	public void verifyAllTicketsHeader(String headerVal) throws Exception {
@@ -595,22 +599,200 @@ public class Ticketing_Admin_Page extends WaitsManager {
 			logger.error("Test Failed :" + e.getMessage());
 		}
 	}
-	
-	
 
-	By searchSLA = By.xpath("//h2[text()='SLA Resolution']/following-sibling::div/descendant::input");
-	By slaPagination = By.xpath("//h2[text()='SLA Resolution']/following-sibling::div/descendant::select");
-	By slaExport = By.xpath("//h2[text()='SLA Resolution']/following-sibling::div/descendant::button[1]");
-	By slaCSV_PDF_Export = By
-			.xpath("//h2[text()='SLA Resolution']/following-sibling::div/descendant::button[text()='Export as CSV']");
-	By sla_TableButtons = By
-			.xpath("//h2[text()='SLA Resolution']/following-sibling::div/descendant::button/span[text()='Previous']");
-	By slaNoRecords = By.xpath("//div[@class='flex flex-col items-center justify-center']/p");
-	By noDataExport = By
-			.xpath("//div[@class='fixed bottom-4 right-4 bg-gray-800 text-white px-4 py-2 rounded-md shadow-lg']");
+	public void searchSla(String slaVal, String query) throws Exception {
+		try {
 
-	By selectTicket_In_Table = By
-			.xpath("//h2[text()='SLA Resolution']/following-sibling::div/descendant::table/tbody/tr/td/button");
+			By searchSLA = By.xpath("//h2[text()='" + slaVal + "']/following-sibling::div/descendant::input");
+			WebElement input = waitVisible(searchSLA);
+			input.clear();
+			input.sendKeys(query);
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
 
+	}
+
+	public void clearSlaSearch(String slaVal) throws Exception {
+		try {
+			By searchSLA = By.xpath("//h2[text()='" + slaVal + "']/following-sibling::div/descendant::input");
+			WebElement input = waitVisible(searchSLA);
+			input.clear();
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+
+	}
+
+	public void selectSLAPagination(String slaVal, String optionValue) throws Exception {
+		try {
+			implWait(driver);
+			By slaPagination = By.xpath("//h2[text()='" + slaVal + "']/following-sibling::div/descendant::select");
+
+			boolean elementExists = !driver.findElements(slaPagination).isEmpty();
+			if (elementExists) {
+				WebElement slaDropdwon = driver.findElement(slaPagination);
+				waitTime(driver);
+				Select select = new Select(slaDropdwon);
+				select.selectByVisibleText(optionValue);
+			} else {
+				grep.failTest("Selected Filter not Available");
+				logger.error("Selected Filter not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void clickSlaExportAndChoose(String slaVal, String option) throws Exception {
+		try {
+			By slaExport = By.xpath("//h2[text()='" + slaVal + "']/following-sibling::div/descendant::button[1]");
+			By slaCSV_PDF_Export = By.xpath("//h2[text()='" + slaVal
+					+ "']/following-sibling::div/descendant::button[text()='Export as " + option + "']");
+			String opt = option == null ? "" : option.trim().toUpperCase();
+			if (!opt.contains("CSV") && !opt.contains("PDF")) {
+				throw new IllegalArgumentException("option must be 'CSV' or 'PDF'");
+			}
+
+			boolean elementExists = !driver.findElements(slaExport).isEmpty();
+			if (elementExists) {
+				driver.findElement(slaExport).click();
+				waitTime(driver);
+				driver.findElement(slaCSV_PDF_Export).click();
+			} else {
+				grep.failTest("No " + option + " button available");
+				logger.error("No " + option + " button available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void sla_Prev_Next_Button(String slaVal, String btnVal) throws Exception {
+		try {
+
+			By sla_TableButtons = By.xpath("//h2[text()='" + slaVal
+					+ "']/following-sibling::div/descendant::button/span[text()='" + btnVal + "']");
+
+			boolean elementExists = !driver.findElements(sla_TableButtons).isEmpty();
+			if (elementExists) {
+				driver.findElement(sla_TableButtons).click();
+				waitTime(driver);
+				driver.findElement(sla_TableButtons).click();
+			} else {
+				grep.failTest("No " + btnVal + " button available");
+				logger.error("No " + btnVal + " button available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void noRecordsMsg_MyTickets() throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(slaNoRecords).isEmpty();
+			if (elementExists) {
+				String msg = driver.findElement(slaNoRecords).getText();
+				validAssert.equalsAssert(msg, "No Records Found");
+
+				grep.passTest("No records Found :" + msg);
+				logger.info("No records Found :" + msg);
+			} else {
+				grep.failTest("Records available");
+				logger.error("Records available");
+
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void getNoDataToExportMsg() throws Exception {
+		try {
+
+			waitForElement(noDataExport, 60);
+
+			String message = driver.findElement(noDataExport).getText();
+			grep.passTest("Exporting with No Data" + message);
+			logger.info("Exporting with No Data: " + message);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public String getTicketIdfromTable(String slaVal) throws Exception {
+		String ticketIdVal = null;
+		try {
+			implWait(driver);
+			By selectTicket_In_Table = By
+					.xpath("//h2[text()='" + slaVal + "']/following-sibling::div/descendant::table/tbody/tr/td/button");
+
+			List<WebElement> ticketId = driver.findElements(selectTicket_In_Table);
+			if (ticketId.size() > 0) {
+				ticketIdVal = ticketId.getFirst().getText();
+				waitTime(driver);
+
+			} else {
+				grep.failTest("Ticket ID Not available");
+				logger.error("Ticket ID Not available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+		return ticketIdVal;
+	}
+
+	public void clickTicketId(String slaVal, String ticketNum) throws Exception {
+		try {
+			implWait(driver);
+			By selectTicket_In_Table = By
+					.xpath("//h2[text()='" + slaVal + "']/following-sibling::div/descendant::table/tbody/tr/td/button");
+
+			boolean elementExists = !driver.findElements(selectTicket_In_Table).isEmpty();
+			if (elementExists) {
+				driver.findElement(selectTicket_In_Table).click();
+				waitTime(driver);
+
+			} else {
+				grep.failTest("Ticket Not available");
+				logger.error("Ticket Not available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
 
 }
