@@ -11701,3 +11701,689 @@ Session ID: 68451f022a7d2bec3cdc939883aefda7
 2025-12-10 14:55:41 [main] INFO : No records Found :No Records Found
 2025-12-10 14:55:46 [main] INFO : Testing Ended
 2025-12-10 14:55:46 [main] INFO : ***********
+2025-12-10 16:18:38 [main] INFO : Launching Chrome Browser
+2025-12-10 16:18:38 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-10 16:18:41 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-10 16:18:43 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-10 16:19:15 [main] INFO : Launching Chrome Browser
+2025-12-10 16:19:15 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-10 16:19:18 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-10 16:19:20 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-10 16:19:54 [main] INFO : Logged in to Intelli Serve Application
+2025-12-10 16:19:59 [main] INFO : Admin role Available
+2025-12-10 16:20:00 [main] INFO : Admin All Tickets Page Configure Columns Options Filters Test
+2025-12-10 16:20:07 [main] INFO : Navigated to /tickets
+2025-12-10 16:20:13 [main] INFO : Expected :All Tickets and Actual :All Tickets
+2025-12-10 16:20:13 [main] INFO : Expected :All Tickets and Actual :All Tickets both are same
+2025-12-10 16:20:16 [main] INFO : Expected :Column Options and Actual :Column Options
+2025-12-10 16:20:16 [main] INFO : Expected :Column Options and Actual :Column Options both are same
+2025-12-10 16:20:16 [main] INFO : Verifying Ticket ID Column Option
+2025-12-10 16:20:16 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-10 16:20:18 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-10 16:20:18 [main] INFO : Column Option Ticket ID visibility is View 
+2025-12-10 16:20:20 [main] INFO : Verifying Status Column Option
+2025-12-10 16:20:20 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-10 16:20:22 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-10 16:20:23 [main] INFO : Column Option Status visibility is View 
+2025-12-10 16:20:29 [main] INFO : Expected :Column Options and Actual :Column Options
+2025-12-10 16:20:29 [main] INFO : Expected :Column Options and Actual :Column Options both are same
+2025-12-10 16:20:35 [main] INFO : Navigated to /approver-management
+2025-12-10 16:20:40 [main] INFO : Admin Approver Management Export, Pagination Test
+2025-12-10 16:20:45 [main] INFO : Expected :Approver Management and Actual :Approver Management
+2025-12-10 16:20:45 [main] INFO : Expected :Approver Management and Actual :Approver Management both are same
+2025-12-10 16:20:46 [main] INFO : Selecting 15 in pagination
+2025-12-10 16:20:48 [main] INFO : Selecting 10 in pagination
+2025-12-10 16:20:49 [main] INFO : Selecting 5 in pagination
+2025-12-10 16:20:51 [main] INFO : Admin Approver Management Department Filter Test
+2025-12-10 16:20:54 [main] INFO : Selecting Business Technology Group Department
+2025-12-10 16:20:55 [main] INFO : ✅ Filter validation passed. All Values match: Business Technology Group
+2025-12-10 16:20:58 [main] INFO : Admin Approver Management Roles Filter Test
+2025-12-10 16:21:00 [main] INFO : Selecting IT Approver Roles
+2025-12-10 16:21:01 [main] INFO : ✅ Filter validation passed. All Values match: IT Approver
+2025-12-10 16:21:04 [main] INFO : Selecting Admin Roles
+2025-12-10 16:21:05 [main] INFO : ✅ Filter validation passed. All Values match: Admin
+2025-12-10 16:21:07 [main] INFO : Admin Approver Management Search by Email Filter Test
+2025-12-10 16:21:11 [main] INFO : ✅ Filter validation passed. All Values match: phani.maddi@criticalriver.com
+2025-12-10 16:21:13 [main] INFO : Admin Approver Management Search by Name Filter Test
+2025-12-10 16:21:16 [main] INFO : ✅ Filter validation passed. All Values match: phani
+2025-12-10 16:21:19 [main] INFO : Admin Approver Management Search for Non Existing Test
+2025-12-10 16:21:22 [main] INFO : No records Found :No Records Found
+2025-12-10 16:21:25 [main] INFO : Keeping required fields blank for new approver management popup Test
+2025-12-10 16:21:28 [main] INFO : Expected :Add Approver or Member and Actual :Add Approver or Member
+2025-12-10 16:21:28 [main] INFO : Expected :Add Approver or Member and Actual :Add Approver or Member both are same
+2025-12-10 16:21:30 [main] INFO : Expected :Role is required and Actual :Role is required
+2025-12-10 16:21:30 [main] INFO : Expected :Role is required and Actual :Role is required both are same
+2025-12-10 16:21:30 [main] INFO : Expected :Name is required and Actual :Name is required
+2025-12-10 16:21:30 [main] INFO : Expected :Name is required and Actual :Name is required both are same
+2025-12-10 16:21:30 [main] INFO : Expected :Email is required and Actual :Email is required
+2025-12-10 16:21:30 [main] INFO : Expected :Email is required and Actual :Email is required both are same
+2025-12-10 16:21:30 [main] INFO : Expected :Department is required and Actual :Department is required
+2025-12-10 16:21:30 [main] INFO : Expected :Department is required and Actual :Department is required both are same
+2025-12-10 16:21:31 [main] INFO : Entering invalid email format in new approver management popup Test
+2025-12-10 16:21:36 [main] INFO : Expected :Invalid email format and Actual :Invalid email format
+2025-12-10 16:21:36 [main] INFO : Expected :Invalid email format and Actual :Invalid email format both are same
+2025-12-10 16:21:39 [main] INFO : Adding new Approver from approver management page test
+2025-12-10 16:21:47 [main] INFO : Added Approver message: Approver added successfully!✕
+2025-12-10 16:21:47 [main] INFO : Expected :Approver added successfully! and Actual :Approver added successfully!✕
+2025-12-10 16:21:47 [main] ERROR: Expected and Actual are not same Expected [Approver added successfully! ], but found [Approver added successfully!✕]
+2025-12-10 16:21:49 [main] INFO : Selecting Business Technology Group Department
+2025-12-10 16:21:50 [main] INFO : Selecting Operations Approver Roles
+2025-12-10 16:21:52 [main] INFO : Adding existing role for Approver from approver management page test
+2025-12-10 16:21:59 [main] INFO : Existing role error message: Same Role already exists for this user✕
+2025-12-10 16:21:59 [main] INFO : Expected :Same Role already exists for this user and Actual :Same Role already exists for this user✕
+2025-12-10 16:21:59 [main] ERROR: Expected and Actual are not same Expected [Same Role already exists for this user ], but found [Same Role already exists for this user✕]
+2025-12-10 16:22:02 [main] INFO : Selecting Business Technology Group Department
+2025-12-10 16:22:02 [main] INFO : Selecting Operations Approver Roles
+2025-12-10 16:22:03 [main] INFO : Deleting the existing approver Test
+2025-12-10 16:22:08 [main] INFO : Existing role error message: Approver deleted successfully!✕
+2025-12-10 16:22:08 [main] INFO : Expected :Approver deleted successfully! and Actual :Approver deleted successfully!✕
+2025-12-10 16:22:08 [main] ERROR: Expected and Actual are not same Expected [Approver deleted successfully! ], but found [Approver deleted successfully!✕]
+2025-12-10 16:22:10 [main] INFO : Navigated to /roles
+2025-12-10 16:22:15 [main] INFO : Admin Roles Management Pagination Test
+2025-12-10 16:22:21 [main] INFO : Expected :Roles Management and Actual :Roles Management
+2025-12-10 16:22:21 [main] INFO : Expected :Roles Management and Actual :Roles Management both are same
+2025-12-10 16:22:22 [main] INFO : Selecting 20 in pagination
+2025-12-10 16:22:24 [main] INFO : Selecting 30 in pagination
+2025-12-10 16:22:25 [main] INFO : Selecting 10 in pagination
+2025-12-10 16:22:26 [main] INFO : Admin Roles Management Search by Email Filter Test
+2025-12-10 16:22:29 [main] INFO : ✅ Filter validation passed. All Values match: phani.maddi@criticalriver.com
+2025-12-10 16:22:34 [main] INFO : Admin Roles Management Search by Name Filter Test
+2025-12-10 16:22:37 [main] INFO : ✅ Filter validation passed. All Values match: phani
+2025-12-10 16:22:42 [main] INFO : Admin Roles Management Search for Non Existing Test
+2025-12-10 16:22:45 [main] INFO : No records Found :No Records Found
+2025-12-10 16:22:49 [main] INFO : Testing Ended
+2025-12-10 16:22:49 [main] INFO : ***********
+2025-12-10 16:30:24 [main] INFO : Launching Chrome Browser
+2025-12-10 16:30:24 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-10 16:30:27 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-10 16:30:29 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-10 16:31:03 [main] INFO : Logged in to Intelli Serve Application
+2025-12-10 16:31:08 [main] INFO : Admin role Available
+2025-12-10 16:31:09 [main] INFO : Admin All Tickets Page Configure Columns Options Filters Test
+2025-12-10 16:31:16 [main] INFO : Navigated to /tickets
+2025-12-10 16:31:21 [main] INFO : Expected :All Tickets and Actual :All Tickets
+2025-12-10 16:31:21 [main] INFO : Expected :All Tickets and Actual :All Tickets both are same
+2025-12-10 16:31:23 [main] INFO : Expected :Column Options and Actual :Column Options
+2025-12-10 16:31:23 [main] INFO : Expected :Column Options and Actual :Column Options both are same
+2025-12-10 16:31:23 [main] INFO : Verifying Ticket ID Column Option
+2025-12-10 16:31:23 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-10 16:31:25 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-10 16:31:26 [main] INFO : Column Option Ticket ID visibility is View 
+2025-12-10 16:31:27 [main] INFO : Verifying Status Column Option
+2025-12-10 16:31:28 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-10 16:31:29 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-10 16:31:30 [main] INFO : Column Option Status visibility is View 
+2025-12-10 16:31:37 [main] INFO : Expected :Column Options and Actual :Column Options
+2025-12-10 16:31:37 [main] INFO : Expected :Column Options and Actual :Column Options both are same
+2025-12-10 16:31:42 [main] INFO : Navigated to /approver-management
+2025-12-10 16:31:48 [main] INFO : Admin Approver Management Export, Pagination Test
+2025-12-10 16:31:53 [main] INFO : Expected :Approver Management and Actual :Approver Management
+2025-12-10 16:31:53 [main] INFO : Expected :Approver Management and Actual :Approver Management both are same
+2025-12-10 16:31:54 [main] INFO : Selecting 15 in pagination
+2025-12-10 16:31:55 [main] INFO : Selecting 10 in pagination
+2025-12-10 16:31:56 [main] INFO : Selecting 5 in pagination
+2025-12-10 16:31:59 [main] INFO : Admin Approver Management Department Filter Test
+2025-12-10 16:32:02 [main] INFO : Selecting Business Technology Group Department
+2025-12-10 16:32:02 [main] INFO : ✅ Filter validation passed. All Values match: Business Technology Group
+2025-12-10 16:32:05 [main] INFO : Admin Approver Management Roles Filter Test
+2025-12-10 16:32:08 [main] INFO : Selecting IT Approver Roles
+2025-12-10 16:32:08 [main] INFO : ✅ Filter validation passed. All Values match: IT Approver
+2025-12-10 16:32:12 [main] INFO : Selecting Admin Roles
+2025-12-10 16:32:12 [main] INFO : ✅ Filter validation passed. All Values match: Admin
+2025-12-10 16:32:15 [main] INFO : Admin Approver Management Search by Email Filter Test
+2025-12-10 16:32:18 [main] INFO : ✅ Filter validation passed. All Values match: phani.maddi@criticalriver.com
+2025-12-10 16:32:21 [main] INFO : Admin Approver Management Search by Name Filter Test
+2025-12-10 16:32:24 [main] INFO : ✅ Filter validation passed. All Values match: phani
+2025-12-10 16:32:27 [main] INFO : Admin Approver Management Search for Non Existing Test
+2025-12-10 16:32:30 [main] INFO : No records Found :No Records Found
+2025-12-10 16:32:33 [main] INFO : Keeping required fields blank for new approver management popup Test
+2025-12-10 16:32:36 [main] INFO : Expected :Add Approver or Member and Actual :Add Approver or Member
+2025-12-10 16:32:36 [main] INFO : Expected :Add Approver or Member and Actual :Add Approver or Member both are same
+2025-12-10 16:32:38 [main] INFO : Expected :Role is required and Actual :Role is required
+2025-12-10 16:32:38 [main] INFO : Expected :Role is required and Actual :Role is required both are same
+2025-12-10 16:32:38 [main] INFO : Expected :Name is required and Actual :Name is required
+2025-12-10 16:32:38 [main] INFO : Expected :Name is required and Actual :Name is required both are same
+2025-12-10 16:32:38 [main] INFO : Expected :Email is required and Actual :Email is required
+2025-12-10 16:32:38 [main] INFO : Expected :Email is required and Actual :Email is required both are same
+2025-12-10 16:32:38 [main] INFO : Expected :Department is required and Actual :Department is required
+2025-12-10 16:32:38 [main] INFO : Expected :Department is required and Actual :Department is required both are same
+2025-12-10 16:32:39 [main] INFO : Entering invalid email format in new approver management popup Test
+2025-12-10 16:32:44 [main] INFO : Expected :Invalid email format and Actual :Invalid email format
+2025-12-10 16:32:44 [main] INFO : Expected :Invalid email format and Actual :Invalid email format both are same
+2025-12-10 16:32:47 [main] INFO : Adding new Approver from approver management page test
+2025-12-10 16:32:55 [main] INFO : Added Approver message: Approver added successfully!
+2025-12-10 16:32:55 [main] INFO : Expected :Approver added successfully! and Actual :Approver added successfully!
+2025-12-10 16:32:55 [main] INFO : Expected :Approver added successfully! and Actual :Approver added successfully! both are same
+2025-12-10 16:32:57 [main] INFO : Selecting Business Technology Group Department
+2025-12-10 16:32:58 [main] INFO : Selecting Operations Approver Roles
+2025-12-10 16:33:01 [main] INFO : Adding existing role for Approver from approver management page test
+2025-12-10 16:33:08 [main] INFO : Existing role error message: Same Role already exists for this user✕
+2025-12-10 16:33:08 [main] INFO : Expected :Same Role already exists for this user and Actual :Same Role already exists for this user✕
+2025-12-10 16:33:08 [main] ERROR: Expected and Actual are not same Expected [Same Role already exists for this user ], but found [Same Role already exists for this user✕]
+2025-12-10 16:33:10 [main] INFO : Selecting Business Technology Group Department
+2025-12-10 16:33:11 [main] INFO : Selecting Operations Approver Roles
+2025-12-10 16:33:12 [main] INFO : Deleting the existing approver Test
+2025-12-10 16:33:17 [main] INFO : Existing role error message: Approver deleted successfully!✕
+2025-12-10 16:33:17 [main] INFO : Expected :Approver deleted successfully! and Actual :Approver deleted successfully!✕
+2025-12-10 16:33:17 [main] ERROR: Expected and Actual are not same Expected [Approver deleted successfully! ], but found [Approver deleted successfully!✕]
+2025-12-10 16:33:19 [main] INFO : Navigated to /roles
+2025-12-10 16:33:25 [main] INFO : Admin Roles Management Pagination Test
+2025-12-10 16:33:30 [main] INFO : Expected :Roles Management and Actual :Roles Management
+2025-12-10 16:33:30 [main] INFO : Expected :Roles Management and Actual :Roles Management both are same
+2025-12-10 16:33:31 [main] INFO : Selecting 20 in pagination
+2025-12-10 16:33:33 [main] INFO : Selecting 30 in pagination
+2025-12-10 16:33:34 [main] INFO : Selecting 10 in pagination
+2025-12-10 16:33:35 [main] INFO : Admin Roles Management Search by Email Filter Test
+2025-12-10 16:33:38 [main] INFO : ✅ Filter validation passed. All Values match: phani.maddi@criticalriver.com
+2025-12-10 16:33:43 [main] INFO : Admin Roles Management Search by Name Filter Test
+2025-12-10 16:33:46 [main] INFO : ✅ Filter validation passed. All Values match: phani
+2025-12-10 16:33:51 [main] INFO : Admin Roles Management Search for Non Existing Test
+2025-12-10 16:33:54 [main] INFO : No records Found :No Records Found
+2025-12-10 16:33:59 [main] INFO : Testing Ended
+2025-12-10 16:33:59 [main] INFO : ***********
+2025-12-10 16:35:04 [main] INFO : Launching Chrome Browser
+2025-12-10 16:35:04 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-10 16:35:08 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-10 16:35:10 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-10 16:35:47 [main] INFO : Logged in to Intelli Serve Application
+2025-12-10 16:35:52 [main] INFO : Admin role Available
+2025-12-10 16:35:53 [main] INFO : Admin All Tickets Page Configure Columns Options Filters Test
+2025-12-10 16:36:00 [main] INFO : Navigated to /tickets
+2025-12-10 16:36:12 [main] INFO : Expected :All Tickets and Actual :All Tickets
+2025-12-10 16:36:12 [main] INFO : Expected :All Tickets and Actual :All Tickets both are same
+2025-12-10 16:36:14 [main] INFO : Expected :Column Options and Actual :Column Options
+2025-12-10 16:36:14 [main] INFO : Expected :Column Options and Actual :Column Options both are same
+2025-12-10 16:36:14 [main] INFO : Verifying Ticket ID Column Option
+2025-12-10 16:36:14 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-10 16:36:16 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-10 16:36:17 [main] INFO : Column Option Ticket ID visibility is View 
+2025-12-10 16:36:18 [main] INFO : Verifying Status Column Option
+2025-12-10 16:36:19 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-10 16:36:20 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-10 16:36:21 [main] INFO : Column Option Status visibility is View 
+2025-12-10 16:36:28 [main] INFO : Expected :Column Options and Actual :Column Options
+2025-12-10 16:36:28 [main] INFO : Expected :Column Options and Actual :Column Options both are same
+2025-12-10 16:36:31 [main] INFO : All Tickets Page Status Filter Test
+2025-12-10 16:36:32 [main] INFO : All Tickets Page Pending Status Filter Test
+2025-12-10 16:36:35 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-12-10 16:36:36 [main] INFO : All Tickets Page Rejected Status Filter Test
+2025-12-10 16:36:39 [main] INFO : ✅ Filter validation passed. All Values match: Rejected
+2025-12-10 16:36:40 [main] INFO : All Tickets Page Resolved Status Filter Test
+2025-12-10 16:36:43 [main] INFO : ✅ Filter validation passed. All Values match: Resolved
+2025-12-10 16:36:44 [main] INFO : All Tickets Page Closed Status Filter Test
+2025-12-10 16:36:46 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-12-10 16:36:49 [main] INFO : All Tickets Page Priority Filter Test
+2025-12-10 16:36:49 [main] INFO : All Tickets Page High Priority Filter Test
+2025-12-10 16:36:51 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-12-10 16:36:51 [main] INFO : All Tickets Page Low Priority Filter Test
+2025-12-10 16:36:53 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-12-10 16:36:53 [main] INFO : All Tickets Page Medium Priority Filter Test
+2025-12-10 16:36:55 [main] INFO : ✅ Filter validation passed. All Values match: Medium
+2025-12-10 16:36:57 [main] INFO : All Tickets Page Department Filter Test
+2025-12-10 16:36:58 [main] INFO : All Tickets Page Business Technology Group Department Filter Test
+2025-12-10 16:37:00 [main] INFO : ✅ Filter validation passed. All Values match: Business Technology Group
+2025-12-10 16:37:00 [main] INFO : All Tickets Page DSIL Department Filter Test
+2025-12-10 16:37:02 [main] INFO : ✅ Filter validation passed. All Values match: DSIL
+2025-12-10 16:37:02 [main] INFO : All Tickets Page Data Science and AI Department Filter Test
+2025-12-10 16:37:04 [main] INFO : ✅ Filter validation passed. All Values match: Data Science and AI
+2025-12-10 16:37:06 [main] INFO : All Tickets Search Functionality Test
+2025-12-10 16:37:08 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-12-10 16:37:10 [main] INFO : All Tickets Search Non existing  Functionality Test
+2025-12-10 16:37:12 [main] INFO : No records Found :No Records Found
+2025-12-10 16:37:14 [main] INFO : All Tickets Export and Pagination Functionality Test
+2025-12-10 16:37:17 [main] ERROR: Test Failed :element click intercepted: Element <button class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600">...</button> is not clickable at point (401, 338). Other element would receive the click: <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">...</th>
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7b4fe4a64db39d99a5e3b211da9ef43c, clickElement {id=f.3515EFCF331E9C8282C79236C19FA918.d.437191530C2B2DC64AD332D0DABCCD75.e.889}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58126}, goog:processID: 22188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58126/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7b4fe4a64db39d99a5e3b211da9ef43c)] -> xpath: //button[text()='Export as PDF']]
+Session ID: 7b4fe4a64db39d99a5e3b211da9ef43c
+2025-12-10 16:37:18 [main] INFO : Selecting 20 in pagination
+2025-12-10 16:37:19 [main] INFO : Selecting 50 in pagination
+2025-12-10 16:37:20 [main] INFO : Selecting 70 in pagination
+2025-12-10 16:37:21 [main] INFO : Selecting 10 in pagination
+2025-12-10 16:37:22 [main] INFO : Navigated to /admin
+2025-12-10 16:37:27 [main] INFO : Admin Dashboard Overview Test
+2025-12-10 16:37:57 [main] INFO : Inside Dashboard Overview Dashboard
+2025-12-10 16:37:58 [main] INFO : Dashboard Overview Page Cards test
+2025-12-10 16:37:58 [main] INFO : Card Detail: 
+2025-12-10 16:37:58 [main] INFO : Card Detail: 
+2025-12-10 16:37:58 [main] INFO : Card Detail: 
+2025-12-10 16:37:58 [main] INFO : Card Detail: 
+2025-12-10 16:37:58 [main] INFO : Card Detail: 
+2025-12-10 16:37:58 [main] INFO : Card Detail: 
+2025-12-10 16:37:58 [main] INFO : Card Detail: 
+2025-12-10 16:37:58 [main] INFO : Card Detail: 
+2025-12-10 16:37:59 [main] INFO : Dashboard Overview Page Chart Title test
+2025-12-10 16:37:59 [main] INFO : Chart Title in Dashboard: Ticket Distribution
+2025-12-10 16:37:59 [main] INFO : Chart Title in Dashboard: Average Approval Time
+2025-12-10 16:38:00 [main] INFO : Chart Title in Dashboard: Resolution Details
+2025-12-10 16:38:00 [main] INFO : Chart Title in Dashboard: SLA Response
+2025-12-10 16:38:00 [main] INFO : Chart Title in Dashboard: Monthly Ticket Trends
+2025-12-10 16:38:01 [main] INFO : Admin Dashboard Overview Cards Test for Total Ticket
+2025-12-10 16:38:02 [main] INFO : Inside Total Tickets Card Popup
+2025-12-10 16:38:11 [main] INFO : Launching Chrome Browser
+2025-12-10 16:38:11 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-10 16:38:15 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-10 16:38:17 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-10 16:38:54 [main] INFO : Logged in to Intelli Serve Application
+2025-12-10 16:38:59 [main] INFO : Admin role Available
+2025-12-10 16:39:00 [main] INFO : Admin All Tickets Page Configure Columns Options Filters Test
+2025-12-10 16:39:07 [main] INFO : Navigated to /tickets
+2025-12-10 16:39:20 [main] INFO : Expected :All Tickets and Actual :All Tickets
+2025-12-10 16:39:20 [main] INFO : Expected :All Tickets and Actual :All Tickets both are same
+2025-12-10 16:39:23 [main] INFO : Expected :Column Options and Actual :Column Options
+2025-12-10 16:39:23 [main] INFO : Expected :Column Options and Actual :Column Options both are same
+2025-12-10 16:39:23 [main] INFO : Verifying Ticket ID Column Option
+2025-12-10 16:39:23 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-10 16:39:25 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-10 16:39:25 [main] INFO : Column Option Ticket ID visibility is View 
+2025-12-10 16:39:27 [main] INFO : Verifying Status Column Option
+2025-12-10 16:39:27 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-10 16:39:29 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-10 16:39:30 [main] INFO : Column Option Status visibility is View 
+2025-12-10 16:39:36 [main] INFO : Expected :Column Options and Actual :Column Options
+2025-12-10 16:39:36 [main] INFO : Expected :Column Options and Actual :Column Options both are same
+2025-12-10 16:39:40 [main] INFO : All Tickets Page Status Filter Test
+2025-12-10 16:39:41 [main] INFO : All Tickets Page Pending Status Filter Test
+2025-12-10 16:39:43 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-12-10 16:39:44 [main] INFO : All Tickets Page Rejected Status Filter Test
+2025-12-10 16:39:47 [main] INFO : ✅ Filter validation passed. All Values match: Rejected
+2025-12-10 16:39:48 [main] INFO : All Tickets Page Resolved Status Filter Test
+2025-12-10 16:39:51 [main] INFO : ✅ Filter validation passed. All Values match: Resolved
+2025-12-10 16:39:52 [main] INFO : All Tickets Page Closed Status Filter Test
+2025-12-10 16:39:55 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-12-10 16:39:57 [main] INFO : All Tickets Page Priority Filter Test
+2025-12-10 16:39:58 [main] INFO : All Tickets Page High Priority Filter Test
+2025-12-10 16:39:59 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-12-10 16:40:00 [main] INFO : All Tickets Page Low Priority Filter Test
+2025-12-10 16:40:01 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-12-10 16:40:02 [main] INFO : All Tickets Page Medium Priority Filter Test
+2025-12-10 16:40:03 [main] INFO : ✅ Filter validation passed. All Values match: Medium
+2025-12-10 16:40:06 [main] INFO : All Tickets Page Department Filter Test
+2025-12-10 16:40:06 [main] INFO : All Tickets Page Business Technology Group Department Filter Test
+2025-12-10 16:40:08 [main] INFO : ✅ Filter validation passed. All Values match: Business Technology Group
+2025-12-10 16:40:08 [main] INFO : All Tickets Page DSIL Department Filter Test
+2025-12-10 16:40:10 [main] INFO : ✅ Filter validation passed. All Values match: DSIL
+2025-12-10 16:40:10 [main] INFO : All Tickets Page Data Science and AI Department Filter Test
+2025-12-10 16:40:12 [main] INFO : ✅ Filter validation passed. All Values match: Data Science and AI
+2025-12-10 16:40:14 [main] INFO : All Tickets Search Functionality Test
+2025-12-10 16:40:16 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-12-10 16:40:19 [main] INFO : All Tickets Search Non existing  Functionality Test
+2025-12-10 16:40:20 [main] INFO : No records Found :No Records Found
+2025-12-10 16:40:22 [main] INFO : All Tickets Export and Pagination Functionality Test
+2025-12-10 16:40:25 [main] ERROR: Test Failed :element click intercepted: Element <button class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600">...</button> is not clickable at point (401, 338). Other element would receive the click: <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">...</th>
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c4ad0cbb1cbc31c5f46470319be4195f, clickElement {id=f.F276A35588B9E43D1E1B23EC2A9EDF1D.d.1A5C32019FB60BA6075B8867F84D5AA3.e.889}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57892}, goog:processID: 8220, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57892/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c4ad0cbb1cbc31c5f46470319be4195f)] -> xpath: //button[text()='Export as PDF']]
+Session ID: c4ad0cbb1cbc31c5f46470319be4195f
+2025-12-10 16:40:27 [main] INFO : Selecting 20 in pagination
+2025-12-10 16:40:27 [main] INFO : Selecting 50 in pagination
+2025-12-10 16:40:28 [main] INFO : Selecting 70 in pagination
+2025-12-10 16:40:29 [main] INFO : Selecting 10 in pagination
+2025-12-10 16:40:30 [main] INFO : Navigated to /admin
+2025-12-10 16:40:36 [main] INFO : Admin Dashboard Overview Test
+2025-12-10 16:40:42 [main] INFO : Inside Dashboard Overview Dashboard
+2025-12-10 16:40:42 [main] INFO : Dashboard Overview Page Cards test
+2025-12-10 16:40:43 [main] INFO : Card Detail: 
+2025-12-10 16:40:43 [main] INFO : Card Detail: 
+2025-12-10 16:40:43 [main] INFO : Card Detail: 
+2025-12-10 16:40:43 [main] INFO : Card Detail: 
+2025-12-10 16:40:43 [main] INFO : Card Detail: 
+2025-12-10 16:40:43 [main] INFO : Card Detail: 
+2025-12-10 16:40:43 [main] INFO : Card Detail: 
+2025-12-10 16:40:43 [main] INFO : Card Detail: 
+2025-12-10 16:40:43 [main] INFO : Dashboard Overview Page Chart Title test
+2025-12-10 16:40:44 [main] INFO : Chart Title in Dashboard: Ticket Distribution
+2025-12-10 16:40:44 [main] INFO : Chart Title in Dashboard: Average Approval Time
+2025-12-10 16:40:44 [main] INFO : Chart Title in Dashboard: Resolution Details
+2025-12-10 16:40:44 [main] INFO : Chart Title in Dashboard: SLA Response
+2025-12-10 16:40:44 [main] INFO : Chart Title in Dashboard: Monthly Ticket Trends
+2025-12-10 16:40:45 [main] INFO : Admin Dashboard Overview Cards Test for Total Ticket
+2025-12-10 16:40:46 [main] INFO : Inside Total Tickets Card Popup
+2025-12-10 16:41:47 [main] ERROR: Test Failed :Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='mb-4 text-sm text-gray-600 dark:text-gray-400'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57892}, goog:processID: 8220, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57892/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c4ad0cbb1cbc31c5f46470319be4195f
+2025-12-10 16:42:07 [main] INFO : Launching Chrome Browser
+2025-12-10 16:42:08 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-10 16:42:10 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-10 16:42:12 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-10 16:42:48 [main] INFO : Logged in to Intelli Serve Application
+2025-12-10 16:42:53 [main] INFO : Admin role Available
+2025-12-10 16:42:54 [main] INFO : Admin All Tickets Page Configure Columns Options Filters Test
+2025-12-10 16:43:01 [main] INFO : Navigated to /tickets
+2025-12-10 16:43:07 [main] INFO : Expected :All Tickets and Actual :All Tickets
+2025-12-10 16:43:07 [main] INFO : Expected :All Tickets and Actual :All Tickets both are same
+2025-12-10 16:43:09 [main] INFO : Expected :Column Options and Actual :Column Options
+2025-12-10 16:43:09 [main] INFO : Expected :Column Options and Actual :Column Options both are same
+2025-12-10 16:43:09 [main] INFO : Verifying Ticket ID Column Option
+2025-12-10 16:43:10 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-10 16:43:11 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-10 16:43:12 [main] INFO : Column Option Ticket ID visibility is View 
+2025-12-10 16:43:14 [main] INFO : Verifying Status Column Option
+2025-12-10 16:43:14 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-10 16:43:16 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-10 16:43:16 [main] INFO : Column Option Status visibility is View 
+2025-12-10 16:43:23 [main] INFO : Expected :Column Options and Actual :Column Options
+2025-12-10 16:43:23 [main] INFO : Expected :Column Options and Actual :Column Options both are same
+2025-12-10 16:43:27 [main] INFO : All Tickets Page Status Filter Test
+2025-12-10 16:43:27 [main] INFO : All Tickets Page Pending Status Filter Test
+2025-12-10 16:43:30 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-12-10 16:43:31 [main] INFO : All Tickets Page Rejected Status Filter Test
+2025-12-10 16:43:34 [main] INFO : ✅ Filter validation passed. All Values match: Rejected
+2025-12-10 16:43:35 [main] INFO : All Tickets Page Resolved Status Filter Test
+2025-12-10 16:43:37 [main] INFO : ✅ Filter validation passed. All Values match: Resolved
+2025-12-10 16:43:39 [main] INFO : All Tickets Page Closed Status Filter Test
+2025-12-10 16:43:41 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-12-10 16:43:44 [main] INFO : All Tickets Page Priority Filter Test
+2025-12-10 16:43:44 [main] INFO : All Tickets Page High Priority Filter Test
+2025-12-10 16:43:46 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-12-10 16:43:46 [main] INFO : All Tickets Page Low Priority Filter Test
+2025-12-10 16:43:48 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-12-10 16:43:48 [main] INFO : All Tickets Page Medium Priority Filter Test
+2025-12-10 16:43:50 [main] INFO : ✅ Filter validation passed. All Values match: Medium
+2025-12-10 16:43:52 [main] INFO : All Tickets Page Department Filter Test
+2025-12-10 16:43:53 [main] INFO : All Tickets Page Business Technology Group Department Filter Test
+2025-12-10 16:43:55 [main] INFO : ✅ Filter validation passed. All Values match: Business Technology Group
+2025-12-10 16:43:55 [main] INFO : All Tickets Page DSIL Department Filter Test
+2025-12-10 16:43:57 [main] INFO : ✅ Filter validation passed. All Values match: DSIL
+2025-12-10 16:43:57 [main] INFO : All Tickets Page Data Science and AI Department Filter Test
+2025-12-10 16:43:59 [main] INFO : ✅ Filter validation passed. All Values match: Data Science and AI
+2025-12-10 16:44:02 [main] INFO : All Tickets Search Functionality Test
+2025-12-10 16:44:04 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-12-10 16:44:06 [main] INFO : All Tickets Search Non existing  Functionality Test
+2025-12-10 16:44:08 [main] INFO : No records Found :No Records Found
+2025-12-10 16:44:10 [main] INFO : All Tickets Export and Pagination Functionality Test
+2025-12-10 16:44:13 [main] ERROR: Test Failed :element click intercepted: Element <button class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600">...</button> is not clickable at point (401, 338). Other element would receive the click: <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">...</th>
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6869d56dd421dea0d9bccc0aadd49a2c, clickElement {id=f.12236224FE5D116D4E7F61512B78D26C.d.3BA53D022DF2C61803A0B67543F9AAD9.e.1110}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52817}, goog:processID: 15796, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52817/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6869d56dd421dea0d9bccc0aadd49a2c)] -> xpath: //button[text()='Export as PDF']]
+Session ID: 6869d56dd421dea0d9bccc0aadd49a2c
+2025-12-10 16:44:15 [main] INFO : Selecting 20 in pagination
+2025-12-10 16:44:15 [main] INFO : Selecting 50 in pagination
+2025-12-10 16:44:16 [main] INFO : Selecting 70 in pagination
+2025-12-10 16:44:17 [main] INFO : Selecting 10 in pagination
+2025-12-10 16:44:21 [main] INFO : Admin Dashboard Search for non existing for SLA Resolution Table Test
+2025-12-10 16:45:22 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//h2[text()='SLA Resolution']/following-sibling::div/descendant::input"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6869d56dd421dea0d9bccc0aadd49a2c, findElement {using=xpath, value=//h2[text()='SLA Resolution']/following-sibling::div/descendant::input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52817}, goog:processID: 15796, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52817/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6869d56dd421dea0d9bccc0aadd49a2c
+2025-12-10 16:46:22 [main] ERROR: Records available
+2025-12-10 16:46:24 [main] INFO : Admin Dashboard Exporting with no data for SLA Resolution Table Test
+2025-12-10 16:47:24 [main] ERROR: Test Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//h2[text()='SLA Resolution']/following-sibling::div/descendant::button[1]"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6869d56dd421dea0d9bccc0aadd49a2c, findElement {using=xpath, value=//h2[text()='SLA Resolution']/following-sibling::div/descendant::button[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52817}, goog:processID: 15796, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52817/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6869d56dd421dea0d9bccc0aadd49a2c
+2025-12-10 16:48:24 [main] ERROR: Test Failed :Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='fixed bottom-4 right-4 bg-gray-800 text-white px-4 py-2 rounded-md shadow-lg'] (tried for 60 second(s) with 500 milliseconds interval)
+2025-12-10 16:48:45 [main] INFO : Launching Chrome Browser
+2025-12-10 16:48:45 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-10 16:48:48 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-10 16:48:50 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-10 16:49:25 [main] INFO : Logged in to Intelli Serve Application
+2025-12-10 16:49:30 [main] INFO : Admin role Available
+2025-12-10 16:49:31 [main] INFO : Admin All Tickets Page Configure Columns Options Filters Test
+2025-12-10 16:49:38 [main] INFO : Navigated to /tickets
+2025-12-10 16:49:48 [main] INFO : Expected :All Tickets and Actual :All Tickets
+2025-12-10 16:49:48 [main] INFO : Expected :All Tickets and Actual :All Tickets both are same
+2025-12-10 16:49:51 [main] INFO : Expected :Column Options and Actual :Column Options
+2025-12-10 16:49:51 [main] INFO : Expected :Column Options and Actual :Column Options both are same
+2025-12-10 16:49:51 [main] INFO : Verifying Ticket ID Column Option
+2025-12-10 16:49:51 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-10 16:49:53 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-10 16:49:53 [main] INFO : Column Option Ticket ID visibility is View 
+2025-12-10 16:49:55 [main] INFO : Verifying Status Column Option
+2025-12-10 16:49:55 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-10 16:49:57 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-10 16:49:58 [main] INFO : Column Option Status visibility is View 
+2025-12-10 16:50:04 [main] INFO : Expected :Column Options and Actual :Column Options
+2025-12-10 16:50:04 [main] INFO : Expected :Column Options and Actual :Column Options both are same
+2025-12-10 16:50:08 [main] INFO : All Tickets Page Status Filter Test
+2025-12-10 16:50:08 [main] INFO : All Tickets Page Pending Status Filter Test
+2025-12-10 16:50:11 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-12-10 16:50:12 [main] INFO : All Tickets Page Rejected Status Filter Test
+2025-12-10 16:50:15 [main] INFO : ✅ Filter validation passed. All Values match: Rejected
+2025-12-10 16:50:16 [main] INFO : All Tickets Page Resolved Status Filter Test
+2025-12-10 16:50:19 [main] INFO : ✅ Filter validation passed. All Values match: Resolved
+2025-12-10 16:50:20 [main] INFO : All Tickets Page Closed Status Filter Test
+2025-12-10 16:50:22 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-12-10 16:50:25 [main] INFO : All Tickets Page Priority Filter Test
+2025-12-10 16:50:25 [main] INFO : All Tickets Page High Priority Filter Test
+2025-12-10 16:50:27 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-12-10 16:50:27 [main] INFO : All Tickets Page Low Priority Filter Test
+2025-12-10 16:50:29 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-12-10 16:50:29 [main] INFO : All Tickets Page Medium Priority Filter Test
+2025-12-10 16:50:31 [main] INFO : ✅ Filter validation passed. All Values match: Medium
+2025-12-10 16:50:34 [main] INFO : All Tickets Page Department Filter Test
+2025-12-10 16:50:34 [main] INFO : All Tickets Page Business Technology Group Department Filter Test
+2025-12-10 16:50:36 [main] INFO : ✅ Filter validation passed. All Values match: Business Technology Group
+2025-12-10 16:50:36 [main] INFO : All Tickets Page DSIL Department Filter Test
+2025-12-10 16:50:38 [main] INFO : ✅ Filter validation passed. All Values match: DSIL
+2025-12-10 16:50:38 [main] INFO : All Tickets Page Data Science and AI Department Filter Test
+2025-12-10 16:50:40 [main] INFO : ✅ Filter validation passed. All Values match: Data Science and AI
+2025-12-10 16:50:42 [main] INFO : All Tickets Search Functionality Test
+2025-12-10 16:50:44 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-12-10 16:50:46 [main] INFO : All Tickets Search Non existing  Functionality Test
+2025-12-10 16:50:48 [main] INFO : No records Found :No Records Found
+2025-12-10 16:50:50 [main] INFO : All Tickets Export and Pagination Functionality Test
+2025-12-10 16:50:53 [main] ERROR: Test Failed :element click intercepted: Element <button class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600">...</button> is not clickable at point (401, 338). Other element would receive the click: <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">...</th>
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9955402a124f43d36dea6fd8db1a260c, clickElement {id=f.042CFBBC9131DB90A7D4908651F6C508.d.13C97525D8357133A2384FF1B4CEBFEF.e.908}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\PHANIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61341}, goog:processID: 8716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61341/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9955402a124f43d36dea6fd8db1a260c)] -> xpath: //button[text()='Export as PDF']]
+Session ID: 9955402a124f43d36dea6fd8db1a260c
+2025-12-10 16:50:55 [main] INFO : Selecting 20 in pagination
+2025-12-10 16:50:55 [main] INFO : Selecting 50 in pagination
+2025-12-10 16:50:56 [main] INFO : Selecting 70 in pagination
+2025-12-10 16:50:57 [main] INFO : Selecting 10 in pagination
+2025-12-10 16:51:02 [main] INFO : Navigated to /approver-management
+2025-12-10 16:51:08 [main] INFO : Admin Approver Management Export, Pagination Test
+2025-12-10 16:51:13 [main] INFO : Expected :Approver Management and Actual :Approver Management
+2025-12-10 16:51:13 [main] INFO : Expected :Approver Management and Actual :Approver Management both are same
+2025-12-10 16:51:14 [main] INFO : Selecting 15 in pagination
+2025-12-10 16:51:15 [main] INFO : Selecting 10 in pagination
+2025-12-10 16:51:16 [main] INFO : Selecting 5 in pagination
+2025-12-10 16:51:19 [main] INFO : Admin Approver Management Department Filter Test
+2025-12-10 16:51:22 [main] INFO : Selecting Business Technology Group Department
+2025-12-10 16:51:22 [main] INFO : ✅ Filter validation passed. All Values match: Business Technology Group
+2025-12-10 16:51:25 [main] INFO : Admin Approver Management Roles Filter Test
+2025-12-10 16:51:28 [main] INFO : Selecting IT Approver Roles
+2025-12-10 16:51:28 [main] INFO : ✅ Filter validation passed. All Values match: IT Approver
+2025-12-10 16:51:32 [main] INFO : Selecting Admin Roles
+2025-12-10 16:51:32 [main] INFO : ✅ Filter validation passed. All Values match: Admin
+2025-12-10 16:51:35 [main] INFO : Admin Approver Management Search by Email Filter Test
+2025-12-10 16:51:38 [main] INFO : ✅ Filter validation passed. All Values match: phani.maddi@criticalriver.com
+2025-12-10 16:51:41 [main] INFO : Admin Approver Management Search by Name Filter Test
+2025-12-10 16:51:44 [main] INFO : ✅ Filter validation passed. All Values match: phani
+2025-12-10 16:51:47 [main] INFO : Admin Approver Management Search for Non Existing Test
+2025-12-10 16:51:50 [main] INFO : No records Found :No Records Found
+2025-12-10 16:51:53 [main] INFO : Keeping required fields blank for new approver management popup Test
+2025-12-10 16:51:55 [main] INFO : Expected :Add Approver or Member and Actual :Add Approver or Member
+2025-12-10 16:51:55 [main] INFO : Expected :Add Approver or Member and Actual :Add Approver or Member both are same
+2025-12-10 16:51:57 [main] INFO : Expected :Role is required and Actual :Role is required
+2025-12-10 16:51:57 [main] INFO : Expected :Role is required and Actual :Role is required both are same
+2025-12-10 16:51:57 [main] INFO : Expected :Name is required and Actual :Name is required
+2025-12-10 16:51:57 [main] INFO : Expected :Name is required and Actual :Name is required both are same
+2025-12-10 16:51:57 [main] INFO : Expected :Email is required and Actual :Email is required
+2025-12-10 16:51:57 [main] INFO : Expected :Email is required and Actual :Email is required both are same
+2025-12-10 16:51:57 [main] INFO : Expected :Department is required and Actual :Department is required
+2025-12-10 16:51:57 [main] INFO : Expected :Department is required and Actual :Department is required both are same
+2025-12-10 16:51:59 [main] INFO : Entering invalid email format in new approver management popup Test
+2025-12-10 16:52:04 [main] INFO : Expected :Invalid email format and Actual :Invalid email format
+2025-12-10 16:52:04 [main] INFO : Expected :Invalid email format and Actual :Invalid email format both are same
+2025-12-10 16:52:06 [main] INFO : Adding new Approver from approver management page test
+2025-12-10 16:52:15 [main] INFO : Added Approver message: Approver added successfully!
+2025-12-10 16:52:15 [main] INFO : Expected :Approver added successfully! and Actual :Approver added successfully!
+2025-12-10 16:52:15 [main] INFO : Expected :Approver added successfully! and Actual :Approver added successfully! both are same
+2025-12-10 16:52:17 [main] INFO : Selecting Business Technology Group Department
+2025-12-10 16:52:18 [main] INFO : Selecting Operations Approver Roles
+2025-12-10 16:52:20 [main] INFO : Adding existing role for Approver from approver management page test
+2025-12-10 16:52:27 [main] INFO : Existing role error message: Same Role already exists for this user
+2025-12-10 16:52:27 [main] INFO : Expected :Same Role already exists for this user and Actual :Same Role already exists for this user
+2025-12-10 16:52:27 [main] INFO : Expected :Same Role already exists for this user and Actual :Same Role already exists for this user both are same
+2025-12-10 16:52:30 [main] INFO : Selecting Business Technology Group Department
+2025-12-10 16:52:30 [main] INFO : Selecting Operations Approver Roles
+2025-12-10 16:52:32 [main] INFO : Deleting the existing approver Test
+2025-12-10 16:52:37 [main] INFO : Existing role error message: Approver deleted successfully!
+2025-12-10 16:52:37 [main] INFO : Expected :Approver deleted successfully! and Actual :Approver deleted successfully!
+2025-12-10 16:52:37 [main] INFO : Expected :Approver deleted successfully! and Actual :Approver deleted successfully! both are same
+2025-12-10 16:52:39 [main] INFO : Navigated to /roles
+2025-12-10 16:52:44 [main] INFO : Admin Roles Management Pagination Test
+2025-12-10 16:52:49 [main] INFO : Expected :Roles Management and Actual :Roles Management
+2025-12-10 16:52:49 [main] INFO : Expected :Roles Management and Actual :Roles Management both are same
+2025-12-10 16:52:51 [main] INFO : Selecting 20 in pagination
+2025-12-10 16:52:53 [main] INFO : Selecting 30 in pagination
+2025-12-10 16:52:54 [main] INFO : Selecting 10 in pagination
+2025-12-10 16:52:55 [main] INFO : Admin Roles Management Search by Email Filter Test
+2025-12-10 16:52:58 [main] INFO : ✅ Filter validation passed. All Values match: phani.maddi@criticalriver.com
+2025-12-10 16:53:03 [main] INFO : Admin Roles Management Search by Name Filter Test
+2025-12-10 16:53:06 [main] INFO : ✅ Filter validation passed. All Values match: phani
+2025-12-10 16:53:11 [main] INFO : Admin Roles Management Search for Non Existing Test
+2025-12-10 16:53:14 [main] INFO : No records Found :No Records Found
+2025-12-10 16:53:18 [main] INFO : Testing Ended
+2025-12-10 16:53:18 [main] INFO : ***********
+2025-12-10 16:53:45 [main] INFO : Launching Chrome Browser
+2025-12-10 16:53:45 [main] INFO : Report Name :Ticketing_Page.html
+2025-12-10 16:53:47 [main] INFO : Web Page URL: https://crticketingsystem-frontend-dev.icyfield-14eece6f.eastus.azurecontainerapps.io/login
+2025-12-10 16:53:50 [main] INFO : Inside Login Page: Sign in with your Microsoft account to access the ticketing system
+2025-12-10 16:54:24 [main] INFO : Logged in to Intelli Serve Application
+2025-12-10 16:54:30 [main] INFO : Admin role Available
+2025-12-10 16:54:31 [main] INFO : Admin All Tickets Page Configure Columns Options Filters Test
+2025-12-10 16:54:37 [main] INFO : Navigated to /tickets
+2025-12-10 16:54:42 [main] INFO : Expected :All Tickets and Actual :All Tickets
+2025-12-10 16:54:42 [main] INFO : Expected :All Tickets and Actual :All Tickets both are same
+2025-12-10 16:54:45 [main] INFO : Expected :Column Options and Actual :Column Options
+2025-12-10 16:54:45 [main] INFO : Expected :Column Options and Actual :Column Options both are same
+2025-12-10 16:54:45 [main] INFO : Verifying Ticket ID Column Option
+2025-12-10 16:54:45 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-10 16:54:47 [main] INFO : Column Option Ticket ID visibility is Hidden 
+2025-12-10 16:54:48 [main] INFO : Column Option Ticket ID visibility is View 
+2025-12-10 16:54:50 [main] INFO : Verifying Status Column Option
+2025-12-10 16:54:50 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-10 16:54:51 [main] INFO : Column Option Status visibility is Hidden 
+2025-12-10 16:54:52 [main] INFO : Column Option Status visibility is View 
+2025-12-10 16:54:59 [main] INFO : Expected :Column Options and Actual :Column Options
+2025-12-10 16:54:59 [main] INFO : Expected :Column Options and Actual :Column Options both are same
+2025-12-10 16:55:02 [main] INFO : All Tickets Page Status Filter Test
+2025-12-10 16:55:03 [main] INFO : All Tickets Page Pending Status Filter Test
+2025-12-10 16:55:06 [main] INFO : ✅ Filter validation passed. All Values match: Pending
+2025-12-10 16:55:07 [main] INFO : All Tickets Page Rejected Status Filter Test
+2025-12-10 16:55:09 [main] INFO : ✅ Filter validation passed. All Values match: Rejected
+2025-12-10 16:55:11 [main] INFO : All Tickets Page Resolved Status Filter Test
+2025-12-10 16:55:13 [main] INFO : ✅ Filter validation passed. All Values match: Resolved
+2025-12-10 16:55:15 [main] INFO : All Tickets Page Closed Status Filter Test
+2025-12-10 16:55:17 [main] INFO : ✅ Filter validation passed. All Values match: Closed
+2025-12-10 16:55:19 [main] INFO : All Tickets Page Priority Filter Test
+2025-12-10 16:55:20 [main] INFO : All Tickets Page High Priority Filter Test
+2025-12-10 16:55:22 [main] INFO : ✅ Filter validation passed. All Values match: High
+2025-12-10 16:55:22 [main] INFO : All Tickets Page Low Priority Filter Test
+2025-12-10 16:55:24 [main] INFO : ✅ Filter validation passed. All Values match: Low
+2025-12-10 16:55:24 [main] INFO : All Tickets Page Medium Priority Filter Test
+2025-12-10 16:55:26 [main] INFO : ✅ Filter validation passed. All Values match: Medium
+2025-12-10 16:55:28 [main] INFO : All Tickets Page Department Filter Test
+2025-12-10 16:55:29 [main] INFO : All Tickets Page Business Technology Group Department Filter Test
+2025-12-10 16:55:31 [main] INFO : ✅ Filter validation passed. All Values match: Business Technology Group
+2025-12-10 16:55:31 [main] INFO : All Tickets Page DSIL Department Filter Test
+2025-12-10 16:55:33 [main] INFO : ✅ Filter validation passed. All Values match: DSIL
+2025-12-10 16:55:33 [main] INFO : All Tickets Page Data Science and AI Department Filter Test
+2025-12-10 16:55:35 [main] INFO : ✅ Filter validation passed. All Values match: Data Science and AI
+2025-12-10 16:55:37 [main] INFO : All Tickets Search Functionality Test
+2025-12-10 16:55:39 [main] INFO : ✅ Filter validation passed. All Values match: Phani Kumar Maddi
+2025-12-10 16:55:41 [main] INFO : All Tickets Search Non existing  Functionality Test
+2025-12-10 16:55:43 [main] INFO : No records Found :No Records Found
+2025-12-10 16:55:45 [main] INFO : All Tickets Export and Pagination Functionality Test
+2025-12-10 16:55:48 [main] INFO : Selecting 20 in pagination
+2025-12-10 16:55:49 [main] INFO : Selecting 50 in pagination
+2025-12-10 16:55:50 [main] INFO : Selecting 70 in pagination
+2025-12-10 16:55:50 [main] INFO : Selecting 10 in pagination
+2025-12-10 16:55:56 [main] INFO : Navigated to /approver-management
+2025-12-10 16:56:01 [main] INFO : Admin Approver Management Export, Pagination Test
+2025-12-10 16:56:06 [main] INFO : Expected :Approver Management and Actual :Approver Management
+2025-12-10 16:56:06 [main] INFO : Expected :Approver Management and Actual :Approver Management both are same
+2025-12-10 16:56:07 [main] INFO : Selecting 15 in pagination
+2025-12-10 16:56:09 [main] INFO : Selecting 10 in pagination
+2025-12-10 16:56:10 [main] INFO : Selecting 5 in pagination
+2025-12-10 16:56:12 [main] INFO : Admin Approver Management Department Filter Test
+2025-12-10 16:56:15 [main] INFO : Selecting Business Technology Group Department
+2025-12-10 16:56:16 [main] INFO : ✅ Filter validation passed. All Values match: Business Technology Group
+2025-12-10 16:56:18 [main] INFO : Admin Approver Management Roles Filter Test
+2025-12-10 16:56:21 [main] INFO : Selecting IT Approver Roles
+2025-12-10 16:56:22 [main] INFO : ✅ Filter validation passed. All Values match: IT Approver
+2025-12-10 16:56:25 [main] INFO : Selecting Admin Roles
+2025-12-10 16:56:26 [main] INFO : ✅ Filter validation passed. All Values match: Admin
+2025-12-10 16:56:28 [main] INFO : Admin Approver Management Search by Email Filter Test
+2025-12-10 16:56:32 [main] INFO : ✅ Filter validation passed. All Values match: phani.maddi@criticalriver.com
+2025-12-10 16:56:34 [main] INFO : Admin Approver Management Search by Name Filter Test
+2025-12-10 16:56:37 [main] INFO : ✅ Filter validation passed. All Values match: phani
+2025-12-10 16:56:40 [main] INFO : Admin Approver Management Search for Non Existing Test
+2025-12-10 16:56:43 [main] INFO : No records Found :No Records Found
+2025-12-10 16:56:46 [main] INFO : Keeping required fields blank for new approver management popup Test
+2025-12-10 16:56:49 [main] INFO : Expected :Add Approver or Member and Actual :Add Approver or Member
+2025-12-10 16:56:49 [main] INFO : Expected :Add Approver or Member and Actual :Add Approver or Member both are same
+2025-12-10 16:56:50 [main] INFO : Expected :Role is required and Actual :Role is required
+2025-12-10 16:56:50 [main] INFO : Expected :Role is required and Actual :Role is required both are same
+2025-12-10 16:56:50 [main] INFO : Expected :Name is required and Actual :Name is required
+2025-12-10 16:56:50 [main] INFO : Expected :Name is required and Actual :Name is required both are same
+2025-12-10 16:56:50 [main] INFO : Expected :Email is required and Actual :Email is required
+2025-12-10 16:56:50 [main] INFO : Expected :Email is required and Actual :Email is required both are same
+2025-12-10 16:56:50 [main] INFO : Expected :Department is required and Actual :Department is required
+2025-12-10 16:56:50 [main] INFO : Expected :Department is required and Actual :Department is required both are same
+2025-12-10 16:56:52 [main] INFO : Entering invalid email format in new approver management popup Test
+2025-12-10 16:56:57 [main] INFO : Expected :Invalid email format and Actual :Invalid email format
+2025-12-10 16:56:57 [main] INFO : Expected :Invalid email format and Actual :Invalid email format both are same
+2025-12-10 16:57:00 [main] INFO : Adding new Approver from approver management page test
+2025-12-10 16:57:09 [main] INFO : Added Approver message: Approver added successfully!
+2025-12-10 16:57:09 [main] INFO : Expected :Approver added successfully! and Actual :Approver added successfully!
+2025-12-10 16:57:09 [main] INFO : Expected :Approver added successfully! and Actual :Approver added successfully! both are same
+2025-12-10 16:57:11 [main] INFO : Selecting Business Technology Group Department
+2025-12-10 16:57:12 [main] INFO : Selecting Operations Approver Roles
+2025-12-10 16:57:14 [main] INFO : Adding existing role for Approver from approver management page test
+2025-12-10 16:57:21 [main] INFO : Existing role error message: Same Role already exists for this user
+2025-12-10 16:57:21 [main] INFO : Expected :Same Role already exists for this user and Actual :Same Role already exists for this user
+2025-12-10 16:57:21 [main] INFO : Expected :Same Role already exists for this user and Actual :Same Role already exists for this user both are same
+2025-12-10 16:57:24 [main] INFO : Selecting Business Technology Group Department
+2025-12-10 16:57:24 [main] INFO : Selecting Operations Approver Roles
+2025-12-10 16:57:26 [main] INFO : Deleting the existing approver Test
+2025-12-10 16:57:31 [main] INFO : Existing role error message: Approver deleted successfully!
+2025-12-10 16:57:31 [main] INFO : Expected :Approver deleted successfully! and Actual :Approver deleted successfully!
+2025-12-10 16:57:31 [main] INFO : Expected :Approver deleted successfully! and Actual :Approver deleted successfully! both are same
+2025-12-10 16:57:33 [main] INFO : Navigated to /roles
+2025-12-10 16:57:39 [main] INFO : Admin Roles Management Pagination Test
+2025-12-10 16:57:44 [main] INFO : Expected :Roles Management and Actual :Roles Management
+2025-12-10 16:57:44 [main] INFO : Expected :Roles Management and Actual :Roles Management both are same
+2025-12-10 16:57:45 [main] INFO : Selecting 20 in pagination
+2025-12-10 16:57:47 [main] INFO : Selecting 30 in pagination
+2025-12-10 16:57:48 [main] INFO : Selecting 10 in pagination
+2025-12-10 16:57:49 [main] INFO : Admin Roles Management Search by Email Filter Test
+2025-12-10 16:57:52 [main] INFO : ✅ Filter validation passed. All Values match: phani.maddi@criticalriver.com
+2025-12-10 16:57:56 [main] INFO : Admin Roles Management Search by Name Filter Test
+2025-12-10 16:58:00 [main] INFO : ✅ Filter validation passed. All Values match: phani
+2025-12-10 16:58:05 [main] INFO : Admin Roles Management Search for Non Existing Test
+2025-12-10 16:58:08 [main] INFO : No records Found :No Records Found
+2025-12-10 16:58:12 [main] INFO : Testing Ended
+2025-12-10 16:58:12 [main] INFO : ***********

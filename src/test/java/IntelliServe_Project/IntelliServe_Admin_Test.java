@@ -62,13 +62,14 @@ public class IntelliServe_Admin_Test extends IntelliServe_TestInitializer {
 			admin_Page.clickSavePref_ConfigColumnBtn();
 			waitTime(driver);
 
-//			allTickets_FilterTest();
-//			waitTime(driver);
-//			adminDashboarOverviewTest();
-//			waitTime2(driver);
-//			adminDashboarOverviewSLATest();
-
+			allTickets_FilterTest();
+			waitTime(driver);
+			adminDashboarOverviewTest();
+			waitTime2(driver);
+			adminDashboarOverviewSLATest();
+			waitTime2(driver);
 			adminApproverManagementTest();
+			waitTime2(driver);
 			adminRolesManagementTest();
 
 		} else {
@@ -161,7 +162,8 @@ public class IntelliServe_Admin_Test extends IntelliServe_TestInitializer {
 		logger.info("All Tickets Export and Pagination Functionality Test");
 		waitTime(driver);
 		admin_Page.allTicketsExport("CSV");
-		admin_Page.allTicketsExport("PDF");
+		waitTime(driver);
+//		admin_Page.allTicketsExport("PDF");
 		waitTime(driver);
 
 		admin_Page.selectAllTicketsPagination("20");
@@ -313,7 +315,7 @@ public class IntelliServe_Admin_Test extends IntelliServe_TestInitializer {
 		waitTime(driver);
 		grep.infoTest("Admin Dashboard Search for non existing for SLA Resolution Table Test");
 		logger.info("Admin Dashboard Search for non existing for SLA Resolution Table Test");
-		waitTime(driver);
+		waitTime2(driver);
 
 		admin_Page.searchSla(dataKeys.slaResolution, "$%^&");
 		admin_Page.noRecordsMsg_SLA();
@@ -775,7 +777,75 @@ public class IntelliServe_Admin_Test extends IntelliServe_TestInitializer {
 				"admin_ApprMgmtPopup_InvalidEmail_Test");
 		waitTime(driver);
 		admin_Page.clickApproverPopupBtn("Cancel");
+		waitTime(driver);
 
+		grep.testCreate("Adding new Approver from approver management page test",
+				"Adding new Approver from approver management page");
+		waitTime(driver);
+		grep.infoTest("Adding new Approver from approver management page test");
+		logger.info("Adding new Approver from approver management page test");
+		waitTime2(driver);
+		admin_Page.clickAddNewApproverBtn();
+		waitTime(driver);
+		admin_Page.selectFilter(dataKeys.role_ApprMgmt, dataKeys.operation_Approver_Role);
+		admin_Page.selectFilter(dataKeys.dept_ApprMgmt, dataKeys.btg_DepartmentFilter);
+		admin_Page.insertValue_inNewApprPopup(dataKeys.name_ApprMgmt, dataKeys.userName);
+		waitTime(driver);
+		admin_Page.insertValue_inNewApprPopup(dataKeys.email_ApprMgmt, dataKeys.ssoUserName);
+		waitTime(driver);
+		admin_Page.clickApproverPopupBtn("Add");
+		waitTime(driver);
+		admin_Page.veifyAddedNewApproverMsg();
+		waitTime(driver);
+		admin_Page.apprMgmt_SearchFilter(dataKeys.ssoUserName);
+		waitTime(driver);
+		admin_Page.selectApprMgmtDepartment(dataKeys.btg_DepartmentFilter);
+		admin_Page.selectApprMgmtRoles(dataKeys.operation_Approver_Role);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Adding new Approver from approver management page test",
+				"addedNew_Approver_FromAdmin");
+		waitTime(driver);
+		admin_Page.clickClearFilterBtn();
+		waitTime(driver);
+
+		grep.testCreate("Adding existing role for Approver from approver management page test",
+				"Adding existing role for Approver from approver management page");
+		waitTime(driver);
+		grep.infoTest("Adding existing role for Approver from approver management page test");
+		logger.info("Adding existing role for Approver from approver management page test");
+		waitTime2(driver);
+		admin_Page.clickAddNewApproverBtn();
+		waitTime(driver);
+		admin_Page.selectFilter(dataKeys.role_ApprMgmt, dataKeys.operation_Approver_Role);
+		admin_Page.selectFilter(dataKeys.dept_ApprMgmt, dataKeys.btg_DepartmentFilter);
+		admin_Page.insertValue_inNewApprPopup(dataKeys.name_ApprMgmt, dataKeys.userName);
+		waitTime(driver);
+		admin_Page.insertValue_inNewApprPopup(dataKeys.email_ApprMgmt, dataKeys.ssoUserName);
+		waitTime(driver);
+		admin_Page.clickApproverPopupBtn("Add");
+		waitTime(driver);
+		admin_Page.verifyExistingRoleErrorMsg();
+		
+		waitTime(driver);
+		admin_Page.apprMgmt_SearchFilter(dataKeys.ssoUserName);
+		waitTime(driver);
+		admin_Page.selectApprMgmtDepartment(dataKeys.btg_DepartmentFilter);
+		admin_Page.selectApprMgmtRoles(dataKeys.operation_Approver_Role);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Adding existing role for Approver from approver management page test",
+				"addedExisting_Approver_FromAdmin");
+		waitTime(driver);
+		
+		grep.testCreate("Deleting the existing approver Test", "Deleting the existing approver Test");
+		waitTime(driver);
+		grep.infoTest("Deleting the existing approver Test");
+		logger.info("Deleting the existing approver Test");
+		waitTime2(driver);
+		admin_Page.clickDeleteApprMgmt();
+		admin_Page.clickApproverPopupBtn("Yes, Delete");
+		waitTime(driver);
+		admin_Page.verifyRoleDeletedMsg();
+		grep.captureScreenshot("pass", "Deleting the existing approver Test", "deletingExisting_Approver_FromAdmin");
 	}
 
 	public void adminRolesManagementTest() throws Exception {

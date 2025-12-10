@@ -7,6 +7,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.xmlbeans.impl.inst2xsd.SalamiSliceStrategy;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -84,6 +85,9 @@ public class Ticketing_Admin_Page extends WaitsManager {
 	By newApproverPopupHeader = By.xpath("//h2[@class='text-xl font-bold text-white dark:text-white']");
 
 	By tableSearch_Appr_role_Mgmt = By.xpath("//table[@class='w-full']/tbody/tr");
+	By apprMgmt_Msg = By
+			.xpath("//div[@class='fixed bottom-4 right-4 p-4 rounded-lg shadow-lg transition-opacity duration-300']");
+	By deleteAction = By.xpath("//table[@class='w-full']/descendant::td/button");
 
 	// Roles
 	By rolesManagement_Header = By.xpath("//h1[@class='text-2xl font-bold text-gray-900 dark:text-white']");
@@ -1368,7 +1372,6 @@ public class Ticketing_Admin_Page extends WaitsManager {
 		}
 	}
 
-
 	public void selectApprMgmtDepartment(String optionValue) throws Exception {
 		try {
 			implWait(driver);
@@ -1520,6 +1523,87 @@ public class Ticketing_Admin_Page extends WaitsManager {
 			} else {
 				grep.failTest(btnVal + " Button Not Available");
 				logger.error(btnVal + " Button Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+
+	}
+
+	public void veifyAddedNewApproverMsg() throws Exception {
+		try {
+
+			waitForElement(apprMgmt_Msg, 60);
+
+			WebElement ele = driver.findElement(apprMgmt_Msg);
+			String textOnly = (String) ((JavascriptExecutor) driver)
+					.executeScript("return arguments[0].childNodes[0].textContent.trim();", ele);
+			grep.infoTest("Added Approver message: " + textOnly);
+			logger.info("Added Approver message: " + textOnly);
+			validAssert.equalsAssert(textOnly, "Approver added successfully!");
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void verifyExistingRoleErrorMsg() throws Exception {
+		try {
+
+			waitForElement(apprMgmt_Msg, 60);
+
+//			String message = driver.findElement(apprMgmt_Msg).getText();
+			WebElement ele = driver.findElement(apprMgmt_Msg);
+			String textOnly = (String) ((JavascriptExecutor) driver)
+					.executeScript("return arguments[0].childNodes[0].textContent.trim();", ele);
+			grep.infoTest("Existing role error message: " + textOnly);
+			logger.info("Existing role error message: " + textOnly);
+			validAssert.equalsAssert(textOnly, "Same Role already exists for this user");
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void verifyRoleDeletedMsg() throws Exception {
+		try {
+
+			waitForElement(apprMgmt_Msg, 60);
+
+//			String message = driver.findElement(apprMgmt_Msg).getText();
+			WebElement ele = driver.findElement(apprMgmt_Msg);
+			String textOnly = (String) ((JavascriptExecutor) driver)
+					.executeScript("return arguments[0].childNodes[0].textContent.trim();", ele);
+			grep.infoTest("Existing role error message: " + textOnly);
+			logger.info("Existing role error message: " + textOnly);
+			validAssert.equalsAssert(textOnly, "Approver deleted successfully!");
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void clickDeleteApprMgmt() throws Exception {
+		try {
+
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(deleteAction).isEmpty();
+			if (elementExists) {
+				driver.findElement(deleteAction).click();
 			}
 
 		} catch (Exception e) {
