@@ -83,7 +83,7 @@ public class Ticketing_Admin_Page extends WaitsManager {
 	By addNewApprover = By.xpath("//button[text()='Add Approver or Member']");
 	By newApproverPopupHeader = By.xpath("//h2[@class='text-xl font-bold text-white dark:text-white']");
 
-	By tableSearch_ApprMgmt = By.xpath("//table[@class='w-full']/tbody/tr");
+	By tableSearch_Appr_role_Mgmt = By.xpath("//table[@class='w-full']/tbody/tr");
 
 	// Roles
 	By rolesManagement_Header = By.xpath("//h1[@class='text-2xl font-bold text-gray-900 dark:text-white']");
@@ -1588,11 +1588,11 @@ public class Ticketing_Admin_Page extends WaitsManager {
 		return errorMsg;
 	}
 
-	public void verifyApprMgmt_FilterInTable(String verifyValue) throws Exception {
+	public void verifyAppr_RoleMgmt_FilterInTable(String verifyValue) throws Exception {
 		try {
 			implWait(driver);
 
-			List<WebElement> table = driver.findElements(tableSearch_ApprMgmt);
+			List<WebElement> table = driver.findElements(tableSearch_Appr_role_Mgmt);
 			if (table.size() > 0) {
 				boolean isValid = true;
 				for (WebElement rows : table) {

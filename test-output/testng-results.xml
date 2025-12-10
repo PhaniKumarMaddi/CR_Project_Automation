@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-10T13:17:31 IST" name="Default suite" finished-at="2025-12-10T13:21:06 IST" duration-ms="215355">
+  <suite started-at="2025-12-10T14:51:52 IST" name="Default suite" finished-at="2025-12-10T14:55:46 IST" duration-ms="233700">
     <groups>
     </groups>
-    <test started-at="2025-12-10T13:17:31 IST" name="Default test" finished-at="2025-12-10T13:21:06 IST" duration-ms="215355">
+    <test started-at="2025-12-10T14:51:52 IST" name="Default test" finished-at="2025-12-10T14:55:46 IST" duration-ms="233700">
       <class name="IntelliServe_Project.IntelliServe_Admin_Test">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:IntelliServe_Project.IntelliServe_Admin_Test@3e821657]" started-at="2025-12-10T13:17:31 IST" name="setup" description="Setup and Login To Browser" finished-at="2025-12-10T13:18:10 IST" duration-ms="39146" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:IntelliServe_Project.IntelliServe_Admin_Test@1d131e1b]" started-at="2025-12-10T14:51:52 IST" name="setup" description="Setup and Login To Browser" finished-at="2025-12-10T14:52:44 IST" duration-ms="52400" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="admin_AllTickets_Test()[pri:1, instance:IntelliServe_Project.IntelliServe_Admin_Test@3e821657]" started-at="2025-12-10T13:18:10 IST" name="admin_AllTickets_Test" finished-at="2025-12-10T13:21:06 IST" duration-ms="175927" status="PASS">
+        <test-method signature="admin_AllTickets_Test()[pri:1, instance:IntelliServe_Project.IntelliServe_Admin_Test@1d131e1b]" started-at="2025-12-10T14:52:44 IST" name="admin_AllTickets_Test" finished-at="2025-12-10T14:55:45 IST" duration-ms="180947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- admin_AllTickets_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:IntelliServe_Project.IntelliServe_Admin_Test@3e821657]" started-at="2025-12-10T13:21:06 IST" name="tearDown" description="Quit Browser" finished-at="2025-12-10T13:21:06 IST" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:IntelliServe_Project.IntelliServe_Admin_Test@1d131e1b]" started-at="2025-12-10T14:55:45 IST" name="tearDown" description="Quit Browser" finished-at="2025-12-10T14:55:46 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -69,6 +69,7 @@ public class IntelliServe_Admin_Test extends IntelliServe_TestInitializer {
 //			adminDashboarOverviewSLATest();
 
 			adminApproverManagementTest();
+			adminRolesManagementTest();
 
 		} else {
 			grep.warnTest("Admin Role Not Available for logged User");
@@ -649,7 +650,7 @@ public class IntelliServe_Admin_Test extends IntelliServe_TestInitializer {
 		waitTime2(driver);
 		admin_Page.selectApprMgmtDepartment(dataKeys.btg_DepartmentFilter);
 		waitTime(driver);
-		admin_Page.verifyApprMgmt_FilterInTable(dataKeys.btg_DepartmentFilter);
+		admin_Page.verifyAppr_RoleMgmt_FilterInTable(dataKeys.btg_DepartmentFilter);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Admin Approver Management Department Filter Test",
 				"admin_ApprMgmt_Department_Test");
@@ -664,14 +665,14 @@ public class IntelliServe_Admin_Test extends IntelliServe_TestInitializer {
 		waitTime2(driver);
 		admin_Page.selectApprMgmtRoles(dataKeys.itApprover_Role);
 		waitTime(driver);
-		admin_Page.verifyApprMgmt_FilterInTable(dataKeys.itApprover_Role);
+		admin_Page.verifyAppr_RoleMgmt_FilterInTable(dataKeys.itApprover_Role);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Admin Approver Management IT Approver Roles Filter Test",
 				"admin_ApprMgmt_ITAppr_Roles_Test");
 		waitTime2(driver);
 		admin_Page.selectApprMgmtRoles(dataKeys.admin_Role);
 		waitTime(driver);
-		admin_Page.verifyApprMgmt_FilterInTable(dataKeys.admin_Role);
+		admin_Page.verifyAppr_RoleMgmt_FilterInTable(dataKeys.admin_Role);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Admin Approver Management Admin Roles Filter Test",
 				"admin_ApprMgmt_Admin_Roles_Test");
@@ -687,7 +688,7 @@ public class IntelliServe_Admin_Test extends IntelliServe_TestInitializer {
 		waitTime2(driver);
 		admin_Page.apprMgmt_SearchFilter(dataKeys.ssoUserName);
 		waitTime(driver);
-		admin_Page.verifyApprMgmt_FilterInTable(dataKeys.ssoUserName);
+		admin_Page.verifyAppr_RoleMgmt_FilterInTable(dataKeys.ssoUserName);
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Admin Approver Management Search by Email Filter Test",
 				"admin_ApprMgmt_Email_Search_Test");
@@ -699,7 +700,7 @@ public class IntelliServe_Admin_Test extends IntelliServe_TestInitializer {
 		waitTime2(driver);
 		admin_Page.apprMgmt_SearchFilter("phani");
 		waitTime(driver);
-		admin_Page.verifyApprMgmt_FilterInTable("phani");
+		admin_Page.verifyAppr_RoleMgmt_FilterInTable("phani");
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Admin Approver Management Search by Name Filter Test",
 				"admin_ApprMgmt_Name_Search_Test");
@@ -774,6 +775,74 @@ public class IntelliServe_Admin_Test extends IntelliServe_TestInitializer {
 				"admin_ApprMgmtPopup_InvalidEmail_Test");
 		waitTime(driver);
 		admin_Page.clickApproverPopupBtn("Cancel");
+
+	}
+
+	public void adminRolesManagementTest() throws Exception {
+		ticketpage.navigateToPage(dataKeys.rolesPage);
+		waitTime5(driver);
+
+		grep.testCreate("Admin Roles Management Pagination Test", "Admin Roles Management Pagination");
+		waitTime(driver);
+		grep.infoTest("Admin Roles Management Pagination Test");
+		logger.info("Admin Roles Management Pagination Test");
+		waitTime5(driver);
+
+		admin_Page.verifyRolesManagementHeader(dataKeys.rolesTitle);
+		waitTime(driver);
+		waitTime(driver);
+		admin_Page.selectAllTicketsPagination("20");
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Admin Roles Management Pagination -20 Test", "admin_Roles_Pagination_15");
+
+		admin_Page.selectAllTicketsPagination("30");
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Admin Roles Management Pagination -30 Test", "admin_Roles_Pagination_10");
+
+		admin_Page.selectAllTicketsPagination("10");
+		waitTime(driver);
+
+		grep.testCreate("Admin Roles Management Search Filter Test", "Admin Roles Management Search Filter");
+		waitTime(driver);
+		grep.infoTest("Admin Roles Management Search by Email Filter Test");
+		logger.info("Admin Roles Management Search by Email Filter Test");
+		waitTime2(driver);
+		admin_Page.roles_SearchFilter(dataKeys.ssoUserName);
+		waitTime(driver);
+		admin_Page.verifyAppr_RoleMgmt_FilterInTable(dataKeys.ssoUserName);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Admin Roles Management Search by Email Filter Test",
+				"admin_Roles_Email_Search_Test");
+		waitTime(driver);
+		admin_Page.clearRolesSearch();
+		waitTime(driver);
+		grep.infoTest("Admin Roles Management Search by Name Filter Test");
+		logger.info("Admin Roles Management Search by Name Filter Test");
+		waitTime2(driver);
+		admin_Page.roles_SearchFilter("phani");
+		waitTime(driver);
+		admin_Page.verifyAppr_RoleMgmt_FilterInTable("phani");
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Admin Roles Management Search by Name Filter Test",
+				"admin_Roles_Name_Search_Test");
+		waitTime(driver);
+		admin_Page.clearRolesSearch();
+		waitTime(driver);
+
+		grep.testCreate("Admin Roles Management Search for Non Existing Test",
+				"Admin Roles Management Search for Non Existing");
+		waitTime(driver);
+		grep.infoTest("Admin Roles Management Search for Non Existing Test");
+		logger.info("Admin Roles Management Search for Non Existing Test");
+		waitTime2(driver);
+		admin_Page.roles_SearchFilter("$%^&*");
+		waitTime(driver);
+		admin_Page.noRecordsMsg_InAdmin();
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Admin Approver Management Search for Non Existing Test",
+				"admin_Roles_NonExisting_Search_Test");
+		waitTime(driver);
+		admin_Page.clearRolesSearch();
 
 	}
 
