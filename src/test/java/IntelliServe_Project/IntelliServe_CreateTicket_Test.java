@@ -350,9 +350,9 @@ public class IntelliServe_CreateTicket_Test extends IntelliServe_TestInitializer
 		waitTime(driver);
 		grep.captureScreenshot("pass", "Multiple Files in Create Ticket popup Test", "createTicket_Approvertest");
 		waitTime(driver);
-		createTict.clickButton(dataKeys.cancelTicket);
-//		createTict.clickButton(dataKeys.createTicket);
-//		createTict.getCreateTicketpopupSucessMessage();
+//		createTict.clickButton(dataKeys.cancelTicket);
+		createTict.clickButton(dataKeys.createTicket);
+		createTict.getCreateTicketpopupSucessMessage();
 
 	}
 

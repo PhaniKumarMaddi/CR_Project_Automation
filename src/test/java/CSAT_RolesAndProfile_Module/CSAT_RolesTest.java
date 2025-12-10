@@ -5,7 +5,6 @@ import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Test;
 
 import Pages.CSAT_Roles_Page;
-import Pages.CSAT_SurveyPage;
 import Pages.CSAT_Survey_AllPages;
 import Utility.CSAT_TestInitializer;
 import Utility.GenerateReports;

@@ -59,14 +59,16 @@ public class IntelliServe_Admin_Test extends IntelliServe_TestInitializer {
 			admin_Page.selectViewColumnOption("Current Stage");
 			admin_Page.selectViewColumnOption("Priority");
 			waitTime(driver);
-//			appr_member_Page.clickCloseConfigColumnBtn();
 			admin_Page.clickSavePref_ConfigColumnBtn();
 			waitTime(driver);
 
 //			allTickets_FilterTest();
-			waitTime(driver);
-			adminDashboarOverviewTest();
-			waitTime2(driver);
+//			waitTime(driver);
+//			adminDashboarOverviewTest();
+//			waitTime2(driver);
+//			adminDashboarOverviewSLATest();
+
+			adminApproverManagementTest();
 
 		} else {
 			grep.warnTest("Admin Role Not Available for logged User");
@@ -144,7 +146,7 @@ public class IntelliServe_Admin_Test extends IntelliServe_TestInitializer {
 		waitTime(driver);
 		admin_Page.insertSearchFilter("W%^&*(");
 		waitTime(driver);
-		admin_Page.noRecordsMsg_InAllTickets();
+		admin_Page.noRecordsMsg_InAdmin();
 		grep.captureScreenshot("pass", " All Tickets Search Non existing  Filter",
 				"NonExisting_SearchFilter_AllTickets");
 		waitTime(driver);
@@ -171,7 +173,6 @@ public class IntelliServe_Admin_Test extends IntelliServe_TestInitializer {
 		admin_Page.selectAllTicketsPagination("10");
 		waitTime(driver);
 	}
-	
 
 	public void adminDashboarOverviewTest() throws Exception {
 
@@ -196,7 +197,114 @@ public class IntelliServe_Admin_Test extends IntelliServe_TestInitializer {
 		admin_Page.dashboardOverview_Charts_Details();
 		waitTime(driver);
 
-		grep.captureScreenshot("pass", "Admin Dashboard Overview test", "adminDashboardOverviewPage");
+		grep.captureScreenshot("pass", "Admin Dashboard Overview Test", "adminDashboardOverviewPage");
+
+		grep.testCreate("Admin Dashboard Overview Cards Test", "Admin Dashboard Overview Cards");
+
+		waitTime(driver);
+		grep.infoTest("Admin Dashboard Overview Cards Test Total Ticket");
+		logger.info("Admin Dashboard Overview Cards Test for Total Ticket");
+		waitTime(driver);
+
+		admin_Page.verifyCardsCountInPopup(dataKeys.totalTickets_Card);
+		waitTime(driver);
+		admin_Page.verifyCardPopupHeader(dataKeys.allTicketsTitle);
+		waitTime(driver);
+
+		grep.captureScreenshot("pass", "Admin Dashboard Total Tickets Test", "adminDashboardTotalTicketsPopup");
+		waitTime(driver);
+		admin_Page.selectDeptInPopup(dataKeys.btg_DepartmentFilter);
+		waitTime(driver);
+		admin_Page.verifyDeptInPopupTable(dataKeys.btg_DepartmentFilter);
+		waitTime(driver);
+		admin_Page.selectDeptInPopup(dataKeys.allDepartmentsFilter);
+		waitTime(driver);
+		admin_Page.exportInCardPopup("CSV");
+		waitTime(driver);
+		admin_Page.exportInCardPopup("PDF");
+		waitTime(driver);
+
+		admin_Page.clickConfigColumnBtn_InCardPopup();
+		admin_Page.selectColumnOption_InCardPopups(dataKeys.ticketId_InDetailPopup);
+		admin_Page.selectColumnOption_InCardPopups(dataKeys.manager_InDetailPopup);
+		admin_Page.selectColumnOption_InCardPopups(dataKeys.ticketId_InDetailPopup);
+		admin_Page.selectColumnOption_InCardPopups(dataKeys.manager_InDetailPopup);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Admin Dashboard Total Tickets Popup Column Configure Test",
+				"TotalTicketsPopup_ColumnOptions");
+		waitTime(driver);
+		admin_Page.clickCloseConfigColumnBtn_InCardPopup();
+		waitTime(driver);
+		admin_Page.clickCloseCardPopupBtn();
+		waitTime5(driver);
+
+		waitTime(driver);
+		grep.infoTest("Admin Dashboard Overview Cards Test Resolved Ticket");
+		logger.info("Admin Dashboard Overview Cards Test for Resolved Ticket");
+		waitTime(driver);
+
+		admin_Page.verifyCardsCountInPopup(dataKeys.resolved_Card);
+		waitTime(driver);
+		admin_Page.verifyCardPopupHeader(dataKeys.resolved_Card);
+		waitTime(driver);
+
+		grep.captureScreenshot("pass", "Admin Dashboard Resolved Tickets Test", "adminDashboardResolvedTicketsPopup");
+
+		waitTime2(driver);
+		admin_Page.exportInCardPopup("CSV");
+		waitTime(driver);
+		admin_Page.exportInCardPopup("PDF");
+		waitTime(driver);
+
+		admin_Page.clickConfigColumnBtn_InCardPopup();
+		admin_Page.selectColumnOption_InCardPopups(dataKeys.ticketId_InDetailPopup);
+		admin_Page.selectColumnOption_InCardPopups(dataKeys.manager_InDetailPopup);
+		admin_Page.selectColumnOption_InCardPopups(dataKeys.ticketId_InDetailPopup);
+		admin_Page.selectColumnOption_InCardPopups(dataKeys.manager_InDetailPopup);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Admin Dashboard Resolved Tickets Popup Column Configure Test",
+				"ResolvedTicketsPopup_ColumnOptions");
+		waitTime(driver);
+		admin_Page.clickCloseConfigColumnBtn_InCardPopup();
+		waitTime(driver);
+		admin_Page.clickCloseCardPopupBtn();
+		waitTime5(driver);
+
+		waitTime(driver);
+		grep.infoTest("Admin Dashboard Overview Cards Test Sla Breached Ticket");
+		logger.info("Admin Dashboard Overview Cards Test for Sla Breached Ticket");
+		waitTime(driver);
+
+		admin_Page.verifyCardsCountInPopup(dataKeys.slaBreached_Card);
+		waitTime(driver);
+		admin_Page.verifyCardPopupHeader(dataKeys.slaBreached_Card);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Admin Dashboard Sla Breached Tickets Test",
+				"adminDashboardBreachedTicketsPopup");
+
+		waitTime(driver);
+		admin_Page.exportInCardPopup("CSV");
+		waitTime(driver);
+		admin_Page.exportInCardPopup("PDF");
+		waitTime(driver);
+
+		admin_Page.clickConfigColumnBtn_InCardPopup();
+		admin_Page.selectColumnOption_InCardPopups(dataKeys.ticketId_InDetailPopup);
+		admin_Page.selectColumnOption_InCardPopups(dataKeys.manager_InDetailPopup);
+		admin_Page.selectColumnOption_InCardPopups(dataKeys.ticketId_InDetailPopup);
+		admin_Page.selectColumnOption_InCardPopups(dataKeys.manager_InDetailPopup);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Admin Dashboard Breached Tickets Popup Column Configure Test",
+				"BreachedTicketsPopup_ColumnOptions");
+		waitTime(driver);
+		admin_Page.clickCloseConfigColumnBtn_InCardPopup();
+		waitTime5(driver);
+		admin_Page.clickCloseCardPopupBtn();
+		waitTime5(driver);
+
+	}
+
+	public void adminDashboarOverviewSLATest() throws Exception {
 
 		waitTime(driver);
 		grep.testCreate("Admin Dashboard Search for non existing for SLA Resolution Table Test",
@@ -442,15 +550,15 @@ public class IntelliServe_Admin_Test extends IntelliServe_TestInitializer {
 		waitTime(driver);
 
 		String getTicketId_response = admin_Page.getTicketIdfromTable(dataKeys.slaResponse);
-		grep.infoTest("Ticket ID from Table:" + getTicketId);
-		logger.info("Ticket ID from Table:" + getTicketId);
+		grep.infoTest("Ticket ID from Table:" + getTicketId_response);
+		logger.info("Ticket ID from Table:" + getTicketId_response);
 
 		admin_Page.clickTicketId(dataKeys.slaResponse, getTicketId_response);
 
 		String ticketId_inDetail_response = admin_Page
 				.verifyTicketDetailsFromDetailPopup(dataKeys.ticketId_InDetailPopup);
-		grep.infoTest("Ticket ID in Ticket Detail Popup : " + ticketId_inDetail);
-		logger.info("Ticket ID in Ticket Detail Popup :" + ticketId_inDetail);
+		grep.infoTest("Ticket ID in Ticket Detail Popup : " + ticketId_inDetail_response);
+		logger.info("Ticket ID in Ticket Detail Popup :" + ticketId_inDetail_response);
 
 		validAssert.equalsAssert(ticketId_inDetail_response, getTicketId_response);
 		waitTime(driver);
@@ -471,10 +579,10 @@ public class IntelliServe_Admin_Test extends IntelliServe_TestInitializer {
 		waitTime(driver);
 		grep.infoTest("Admin Dashboard Search and verify Met tickets for SLA Response Table Test");
 		logger.info("Admin Dashboard Search and verify Met tickets for SLA Response Table Test");
-		waitTime(driver);
+		waitTime2(driver);
 		admin_Page.searchSla(dataKeys.slaResponse, dataKeys.statusMet);
-		waitTime(driver);
-		admin_Page.getStatusFromTable(dataKeys.slaResponse, dataKeys.statusMet);
+		waitTime2(driver);
+		admin_Page.getStatusFromTable(dataKeys.slaResponse, dataKeys.statusMET);
 		waitTime(driver);
 
 		grep.captureScreenshot("pass", "Search Met tickets for SLA Response ", "SearchMet_SLAResponse");
@@ -505,6 +613,170 @@ public class IntelliServe_Admin_Test extends IntelliServe_TestInitializer {
 
 	}
 
+	public void adminApproverManagementTest() throws Exception {
+
+		ticketpage.navigateToPage(dataKeys.approverMgmtPage);
+		waitTime5(driver);
+
+		grep.testCreate("Admin Approver Management Export, Pagination Test",
+				"Admin Approver Management Export, Pagination");
+		waitTime(driver);
+		grep.infoTest("Admin Approver Management Export, Pagination Test");
+		logger.info("Admin Approver Management Export, Pagination Test");
+		waitTime5(driver);
+
+		admin_Page.verifyApproverManagementHeader(dataKeys.approverMgmtTitle);
+		waitTime(driver);
+		admin_Page.selectApprMgmtPagination("15");
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Admin Approver Management Pagination -15 Test", "admin_ApprMgmt_Pagination_15");
+
+		admin_Page.selectApprMgmtPagination("10");
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Admin Approver Management Pagination -10 Test", "admin_ApprMgmt_Pagination_10");
+
+		admin_Page.selectApprMgmtPagination("5");
+
+		waitTime(driver);
+		admin_Page.appr_Mgmt_Export("CSV");
+		admin_Page.appr_Mgmt_Export("PDF");
+
+		grep.testCreate("Admin Approver Management Department Filter Test",
+				"Admin Approver Management Department Filter");
+		waitTime(driver);
+		grep.infoTest("Admin Approver Management Department Filter Test");
+		logger.info("Admin Approver Management Department Filter Test");
+		waitTime2(driver);
+		admin_Page.selectApprMgmtDepartment(dataKeys.btg_DepartmentFilter);
+		waitTime(driver);
+		admin_Page.verifyApprMgmt_FilterInTable(dataKeys.btg_DepartmentFilter);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Admin Approver Management Department Filter Test",
+				"admin_ApprMgmt_Department_Test");
+		waitTime(driver);
+		admin_Page.clickClearFilterBtn();
+		waitTime(driver);
+
+		grep.testCreate("Admin Approver Management Roles Filter Test", "Admin Approver Management Roles Filter");
+		waitTime(driver);
+		grep.infoTest("Admin Approver Management Roles Filter Test");
+		logger.info("Admin Approver Management Roles Filter Test");
+		waitTime2(driver);
+		admin_Page.selectApprMgmtRoles(dataKeys.itApprover_Role);
+		waitTime(driver);
+		admin_Page.verifyApprMgmt_FilterInTable(dataKeys.itApprover_Role);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Admin Approver Management IT Approver Roles Filter Test",
+				"admin_ApprMgmt_ITAppr_Roles_Test");
+		waitTime2(driver);
+		admin_Page.selectApprMgmtRoles(dataKeys.admin_Role);
+		waitTime(driver);
+		admin_Page.verifyApprMgmt_FilterInTable(dataKeys.admin_Role);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Admin Approver Management Admin Roles Filter Test",
+				"admin_ApprMgmt_Admin_Roles_Test");
+		waitTime(driver);
+
+		admin_Page.clickClearFilterBtn();
+		waitTime(driver);
+
+		grep.testCreate("Admin Approver Management Search Filter Test", "Admin Approver Management Search Filter");
+		waitTime(driver);
+		grep.infoTest("Admin Approver Management Search by Email Filter Test");
+		logger.info("Admin Approver Management Search by Email Filter Test");
+		waitTime2(driver);
+		admin_Page.apprMgmt_SearchFilter(dataKeys.ssoUserName);
+		waitTime(driver);
+		admin_Page.verifyApprMgmt_FilterInTable(dataKeys.ssoUserName);
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Admin Approver Management Search by Email Filter Test",
+				"admin_ApprMgmt_Email_Search_Test");
+		waitTime(driver);
+		admin_Page.clickClearFilterBtn();
+		waitTime(driver);
+		grep.infoTest("Admin Approver Management Search by Name Filter Test");
+		logger.info("Admin Approver Management Search by Name Filter Test");
+		waitTime2(driver);
+		admin_Page.apprMgmt_SearchFilter("phani");
+		waitTime(driver);
+		admin_Page.verifyApprMgmt_FilterInTable("phani");
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Admin Approver Management Search by Name Filter Test",
+				"admin_ApprMgmt_Name_Search_Test");
+		waitTime(driver);
+		admin_Page.clickClearFilterBtn();
+		waitTime(driver);
+
+		grep.testCreate("Admin Approver Management Search for Non Existing Test",
+				"Admin Approver Management Search for Non Existing");
+		waitTime(driver);
+		grep.infoTest("Admin Approver Management Search for Non Existing Test");
+		logger.info("Admin Approver Management Search for Non Existing Test");
+		waitTime2(driver);
+		admin_Page.apprMgmt_SearchFilter("$%^&*");
+		waitTime(driver);
+		admin_Page.noRecordsMsg_InAdmin();
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Admin Approver Management Search for Non Existing Test",
+				"admin_ApprMgmt_NonExisting_Search_Test");
+		waitTime(driver);
+		admin_Page.clickClearFilterBtn();
+
+		waitTime(driver);
+		grep.testCreate("Keeping required fields blank for new approver management popup Test",
+				"Keeping required fields blank for new approver management popup");
+		waitTime(driver);
+		grep.infoTest("Keeping required fields blank for new approver management popup Test");
+		logger.info("Keeping required fields blank for new approver management popup Test");
+		waitTime2(driver);
+		admin_Page.clickAddNewApproverBtn();
+		waitTime(driver);
+		admin_Page.verifyNewApproverPopupHeader("Add Approver or Member");
+		waitTime(driver);
+		admin_Page.clickApproverPopupBtn("Add");
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Keeping required fields blank for new approver management popup Test",
+				"admin_ApprMgmtPopup_Blank_Test");
+		waitTime(driver);
+		String roleError = admin_Page.verifyNewApproverErrorMsg(dataKeys.role_ApprMgmt);
+		String nameError = admin_Page.verifyNewApproverErrorMsg(dataKeys.name_ApprMgmt);
+		String emailError = admin_Page.verifyNewApproverErrorMsg(dataKeys.email_ApprMgmt);
+		String deptError = admin_Page.verifyNewApproverErrorMsg(dataKeys.dept_ApprMgmt);
+
+		validAssert.equalsAssert(roleError, dataKeys.role_ApprMgmt + "is required");
+		validAssert.equalsAssert(nameError, dataKeys.name_ApprMgmt + "is required");
+		validAssert.equalsAssert(emailError, dataKeys.email_ApprMgmt + "is required");
+		validAssert.equalsAssert(deptError, dataKeys.dept_ApprMgmt + "is required");
+
+		waitTime(driver);
+//		admin_Page.clickApproverPopupBtn("Cancel");
+		waitTime(driver);
+
+		grep.testCreate("Entering invalid email format in new approver management popup Test",
+				"Entering invalid email format in new approver management popup");
+		waitTime(driver);
+		grep.infoTest("Entering invalid email format in new approver management popup Test");
+		logger.info("Entering invalid email format in new approver management popup Test");
+		waitTime2(driver);
+//		admin_Page.clickAddNewApproverBtn();
+		waitTime(driver);
+		admin_Page.selectFilter(dataKeys.role_ApprMgmt, dataKeys.itApprover_Role);
+		admin_Page.selectFilter(dataKeys.dept_ApprMgmt, dataKeys.btg_DepartmentFilter);
+		admin_Page.insertValue_inNewApprPopup(dataKeys.name_ApprMgmt, dataKeys.userName);
+		waitTime(driver);
+		admin_Page.insertValue_inNewApprPopup(dataKeys.email_ApprMgmt, dataKeys.userName);
+		waitTime(driver);
+		String invalidEmailError = admin_Page.verifyNewApproverErrorMsg(dataKeys.email_ApprMgmt);
+
+		validAssert.equalsAssert(invalidEmailError, "Invalid email format");
+		waitTime(driver);
+		grep.captureScreenshot("pass", "Entering invalid email format in new approver management popup Test",
+				"admin_ApprMgmtPopup_InvalidEmail_Test");
+		waitTime(driver);
+		admin_Page.clickApproverPopupBtn("Cancel");
+
+	}
+
 	public void verifyAllTicketsStatusFilter(String option) throws Exception {
 		grep.infoTest("All Tickets Page " + option + " Status Filter Test");
 		logger.info("All Tickets Page " + option + " Status Filter Test");
@@ -519,24 +791,6 @@ public class IntelliServe_Admin_Test extends IntelliServe_TestInitializer {
 		grep.captureScreenshot("pass", option + " Status Filter", option + "StatusFilter_AllTickets");
 
 	}
-
-//	public void verifyWorklistMultiStatusFilter(String... option) throws Exception {
-//		grep.infoTest("All Tickets Page " + option + " Status Filter Test");
-//		logger.info("All Tickets Page " + option + " Status Filter Test");
-//		waitTime(driver);
-//		appr_member_Page.expandStatusFilter();
-//		waitTime(driver);
-//		appr_member_Page.selectStatusFilter(dataKeys.selectAllSatusFilter);
-//		appr_member_Page.selectStatusFilter(dataKeys.selectAllSatusFilter);
-//		waitTime(driver);
-//		appr_member_Page.selectMultiStatusFilter(option);
-//		waitTime(driver);
-//		appr_member_Page.collapseStatusFilter();
-//		waitTime(driver);
-//		appr_member_Page.verifyWorklist_MultiFilterInTable(option);
-//		grep.captureScreenshot("pass", option + " Status Filter", option + "StatusFilter_Worklist");
-//
-//	}
 
 	public void verifyAllTicketsPriorityFilter(String option) throws Exception {
 		grep.infoTest("All Tickets Page " + option + " Priority Filter Test");

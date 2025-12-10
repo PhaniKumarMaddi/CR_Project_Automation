@@ -1,11 +1,13 @@
 package IntelliServe_Pages;
 
+import java.lang.classfile.instruction.ReturnInstruction;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.xmlbeans.impl.inst2xsd.SalamiSliceStrategy;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -32,7 +34,11 @@ public class Ticketing_Admin_Page extends WaitsManager {
 	By savePreference_ColOption = By.xpath("//button[text()='Save Preferences']");
 	By closeColumn = By.xpath("//button[@class='text-white hover:text-blue-200 p-1']");
 	By searchFilter = By.xpath("//span[text()='Search']/following-sibling::input");
-	By noRecords_Worklist = By.xpath("//div[@class='flex flex-col items-center justify-center']/descendant::p[1]");
+	By noRecords_Message_Admin = By.xpath("//div[@class='flex flex-col items-center justify-center']/descendant::p[1]");
+	By tableSearch_AllTickets = By
+			.xpath("//table[@class='min-w-full divide-y divide-gray-200 dark:divide-gray-700']/tbody/tr");
+	By allTicketsExport = By.xpath("//button[text()='Download']");
+	By allTicketsPagination = By.xpath("//div[@class='flex items-center space-x-4']/select");
 
 	// Dashboard
 
@@ -57,6 +63,32 @@ public class Ticketing_Admin_Page extends WaitsManager {
 	By slaStatusDetails = By.xpath("//h3[text()='SLA Metrics']/parent::div/following-sibling::div/div[3]/div[2]");
 	By closeDetailPopup = By.xpath("//button[@title='Close']");
 
+	// Card popup
+	By cardCountInPopup = By.xpath("//div[@class='mb-4 text-sm text-gray-600 dark:text-gray-400']");
+	By popupHeader = By.xpath("//h2[@class='text-xl font-bold text-gray-900 dark:text-white']");
+	By departmentInPopup = By.xpath("//div[@class='flex items-center space-x-2']/select");
+	By tableInPopup = By.xpath("//table[@class='min-w-full divide-y divide-gray-200 dark:divide-gray-700']/tbody/tr");
+	By closePopup = By.xpath("//button[@class='text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 ml-4']");
+	By configColumn_InPopup = By.xpath("//button[contains(text(),'Configure Columns')]");
+	By closeColumnOption_InPopup = By.xpath("//h3[text()='Column Options']/following-sibling::button");
+
+	// Approver Management
+	By approverManagement_Header = By.xpath("//h1[@class='text-2xl font-bold text-gray-900 dark:text-white']");
+	By searchFilter_ApprMgmt = By.xpath("//div[@class='col-span-4']/input");
+	By selectDept_ApprMgmt = By.xpath("//div[@class='grid grid-cols-12 gap-4']/div[2]/select");
+	By selectRoles_ApprMgmt = By.xpath("//div[@class='grid grid-cols-12 gap-4']/div[3]/select");
+	By apprMgmtPagination = By.xpath("//div[@class='flex space-x-2']/select");
+	By apprMgmtExport = By.xpath("//button[text()='Download']");
+	// add new approver
+	By addNewApprover = By.xpath("//button[text()='Add Approver or Member']");
+	By newApproverPopupHeader = By.xpath("//h2[@class='text-xl font-bold text-white dark:text-white']");
+
+	By tableSearch_ApprMgmt = By.xpath("//table[@class='w-full']/tbody/tr");
+
+	// Roles
+	By rolesManagement_Header = By.xpath("//h1[@class='text-2xl font-bold text-gray-900 dark:text-white']");
+	By searchFilter_RoleMgmt = By.xpath("//div[@class='relative']/input");
+
 	// verify header
 	public void verifyAllTicketsHeader(String headerVal) throws Exception {
 		try {
@@ -65,14 +97,15 @@ public class Ticketing_Admin_Page extends WaitsManager {
 			boolean elementExists = !driver.findElements(allTickets_Header).isEmpty();
 			if (elementExists) {
 				String header = driver.findElement(allTickets_Header).getText().trim();
-				if (header.contains(headerVal)) {
-					waitTime(driver);
-					grep.passTest("Header is valid: " + header);
-					logger.info("Header is valid: " + header);
-				} else {
-					grep.failTest("Header is not valid: " + header);
-					logger.error("Header is not valid: " + header);
-				}
+//				if (header.contains(headerVal)) {
+//					waitTime(driver);
+//					grep.passTest("Header is valid: " + header);
+//					logger.info("Header is valid: " + header);
+//				} else {
+//					grep.failTest("Header is not valid: " + header);
+//					logger.error("Header is not valid: " + header);
+//				}
+				validAssert.equalsAssert(header, headerVal);
 			} else {
 				grep.failTest("Header Not Available");
 				logger.error("Header Not Available");
@@ -98,8 +131,8 @@ public class Ticketing_Admin_Page extends WaitsManager {
 				waitTime(driver);
 
 			} else {
-				grep.failTest("Refresh Button Not Available");
-				logger.error("Refresh Button Not Available");
+				grep.failTest("Search Field Not Available");
+				logger.error("Search Field Not Available");
 			}
 
 		} catch (Exception e) {
@@ -110,13 +143,13 @@ public class Ticketing_Admin_Page extends WaitsManager {
 		}
 	}
 
-	public void noRecordsMsg_InAllTickets() throws Exception {
+	public void noRecordsMsg_InAdmin() throws Exception {
 		try {
 			implWait(driver);
 
-			boolean elementExists = !driver.findElements(noRecords_Worklist).isEmpty();
+			boolean elementExists = !driver.findElements(noRecords_Message_Admin).isEmpty();
 			if (elementExists) {
-				String msg = driver.findElement(noRecords_Worklist).getText();
+				String msg = driver.findElement(noRecords_Message_Admin).getText();
 				grep.passTest("No records Found :" + msg);
 				logger.info("No records Found :" + msg);
 			} else {
@@ -164,14 +197,15 @@ public class Ticketing_Admin_Page extends WaitsManager {
 				driver.findElement(configColumn).click();
 				waitTime2(driver);
 				String header = driver.findElement(By.cssSelector("h2.text-lg.font-semibold.text-white")).getText();
-				if (header.equals("Column Options")) {
-					grep.passTest("Header is valid: " + header);
-					logger.info("Header is valid: " + header);
-				} else {
-					grep.failTest("Header is not valid: " + header);
-					logger.error("Header is not valid: " + header);
-				}
+//				if (header.equals("Column Options")) {
+//					grep.passTest("Header is valid: " + header);
+//					logger.info("Header is valid: " + header);
+//				} else {
+//					grep.failTest("Header is not valid: " + header);
+//					logger.error("Header is not valid: " + header);
+//				}
 
+				validAssert.equalsAssert(header, "Column Options");
 			} else {
 				grep.failTest("Configure Column Button Not Available");
 				logger.error("Configure Column Button Not Available");
@@ -455,11 +489,8 @@ public class Ticketing_Admin_Page extends WaitsManager {
 	public void verifyAllTickets_FilterInTable(String verifyValue) throws Exception {
 		try {
 			implWait(driver);
-			By tableSearch = By
-					.xpath("//table[@class='min-w-full divide-y divide-gray-200 dark:divide-gray-700']/tbody/tr");
-			implWait(driver);
 
-			List<WebElement> table = driver.findElements(tableSearch);
+			List<WebElement> table = driver.findElements(tableSearch_AllTickets);
 			if (table.size() > 0) {
 				boolean isValid = true;
 				for (WebElement rows : table) {
@@ -495,16 +526,16 @@ public class Ticketing_Admin_Page extends WaitsManager {
 
 	public void allTicketsExport(String option) throws Exception {
 		try {
-			By ticketsExport = By.xpath("//button[text()='Download']");
+
 			By ticketsCSV_PDF_Export = By.xpath("//button[text()='Export as " + option + "']");
 			String opt = option == null ? "" : option.trim().toUpperCase();
 			if (!opt.contains("CSV") && !opt.contains("PDF")) {
 				throw new IllegalArgumentException("option must be 'CSV' or 'PDF'");
 			}
 
-			boolean elementExists = !driver.findElements(ticketsExport).isEmpty();
+			boolean elementExists = !driver.findElements(allTicketsExport).isEmpty();
 			if (elementExists) {
-				driver.findElement(ticketsExport).click();
+				driver.findElement(allTicketsExport).click();
 				waitTime(driver);
 				driver.findElement(ticketsCSV_PDF_Export).click();
 			} else {
@@ -523,11 +554,10 @@ public class Ticketing_Admin_Page extends WaitsManager {
 	public void selectAllTicketsPagination(String optionValue) throws Exception {
 		try {
 			implWait(driver);
-			By ticketsPagination = By.xpath("//div[@class='flex items-center space-x-4']/select");
 
-			boolean elementExists = !driver.findElements(ticketsPagination).isEmpty();
+			boolean elementExists = !driver.findElements(allTicketsPagination).isEmpty();
 			if (elementExists) {
-				WebElement pageDropdown = driver.findElement(ticketsPagination);
+				WebElement pageDropdown = driver.findElement(allTicketsPagination);
 				waitTime(driver);
 				Select select = new Select(pageDropdown);
 				select.selectByVisibleText(optionValue);
@@ -679,7 +709,8 @@ public class Ticketing_Admin_Page extends WaitsManager {
 			scrollView(searchSLA);
 			WebElement input = waitVisible(searchSLA);
 			waitTime(driver);
-			input.clear();
+			input.sendKeys(Keys.CONTROL + "a");
+			input.sendKeys(Keys.DELETE);
 			waitTime2(driver);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -751,8 +782,6 @@ public class Ticketing_Admin_Page extends WaitsManager {
 
 			By sla_TableButtons = By.xpath("//h2[text()='" + slaVal
 					+ "']/following-sibling::div/descendant::button/span[text()='" + btnVal + "']");
-
-			scrollView(sla_TableButtons);
 
 			boolean elementExists = !driver.findElements(sla_TableButtons).isEmpty();
 			if (elementExists) {
@@ -1024,6 +1053,636 @@ public class Ticketing_Admin_Page extends WaitsManager {
 			grep.failTest("Test Failed :" + e.getMessage());
 			logger.error("Test Failed :" + e.getMessage());
 
+		}
+
+	}
+
+	// clicking cards in dashboard
+	public void verifyCardsCountInPopup(String cardNameVal) throws Exception {
+		try {
+			implWait(driver);
+			By cardName = By.xpath("//div/descendant::p[text()='" + cardNameVal + "']/following-sibling::p");
+
+			WebElement clickCard = driver.findElement(cardName);
+			if (clickCard.isDisplayed()) {
+				String cardCount = clickCard.getText();
+				if ("0".equals(cardCount)) {
+					grep.infoTest(cardNameVal + " Card count is " + cardCount);
+					logger.info(cardNameVal + " Card count is " + cardCount);
+				}
+				clickCard.click();
+				grep.infoTest("Inside " + cardNameVal + " Card Popup");
+				logger.info("Inside " + cardNameVal + " Card Popup");
+
+				waitTime(driver);
+				waitVisible(cardCountInPopup);
+
+				String countInPopup = driver.findElement(cardCountInPopup).getText();
+				if (countInPopup.contains(cardCount)) {
+					grep.passTest("Card Count Matched :" + countInPopup);
+					logger.info("Card Count Matched :" + countInPopup);
+
+				} else {
+					grep.failTest("Card Count Not Matched :" + countInPopup);
+					logger.error("Card Count Not Matched :" + countInPopup);
+				}
+			} else {
+				grep.failTest(cardNameVal + " Card Not Available");
+				logger.error(cardNameVal + " Card Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void verifyCardPopupHeader(String headerVal) throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(popupHeader).isEmpty();
+			if (elementExists) {
+				String header = driver.findElement(popupHeader).getText().trim();
+
+				if (header.startsWith(headerVal)) {
+					grep.passTest("Card Header Matched :" + header);
+					logger.info("Card Header Matched :" + header);
+
+				} else {
+					grep.failTest("Card Header Not Matched :" + header);
+					logger.error("Card Header Not Matched :" + header);
+				}
+			} else {
+				grep.failTest("Header Not Available");
+				logger.error("Header Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void selectDeptInPopup(String deptVal) throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(departmentInPopup).isEmpty();
+			if (elementExists) {
+				waitVisible(cardCountInPopup);
+				WebElement dept = driver.findElement(departmentInPopup);
+				Select deptSelect = new Select(dept);
+				deptSelect.selectByVisibleText(deptVal);
+
+			} else {
+				grep.failTest("Header Not Available");
+				logger.error("Header Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void verifyDeptInPopupTable(String deptVal) throws Exception {
+		try {
+			implWait(driver);
+
+			List<WebElement> table = driver.findElements(tableInPopup);
+			if (table.size() > 0) {
+				waitVisible(tableInPopup);
+				boolean isValid = true;
+				for (WebElement rows : table) {
+					String rowvalues = rows.getText();
+					if (!rowvalues.contains(deptVal)) {
+						isValid = false;
+						break;
+					}
+				}
+				if (isValid && table.size() > 0) {
+					System.out.println("✅ Department Filter validation passed. All Values match: " + deptVal);
+					grep.passTest("✅ Department Filter validation passed. All Values match: " + deptVal);
+					logger.info("✅ Department Filter validation passed. All Values match: " + deptVal);
+				} else {
+					System.out.println(
+							"❌ Department Filter validation failed. Mismatched Value found or no Records Available: "
+									+ deptVal);
+					grep.warnTest(
+							"❌ Department Filter validation failed. Mismatched Value found or no Records Available: "
+									+ deptVal);
+					logger.error(
+							"❌ Department Filter validation failed. Mismatched Value found or no Records Available: "
+									+ deptVal);
+				}
+			} else {
+				grep.failTest("Table not exists");
+				logger.error("Table not exists");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void exportInCardPopup(String option) throws Exception {
+		try {
+			By ticketsExport = By.xpath("//button[text()='" + option + "']");
+			String opt = option == null ? "" : option.trim().toUpperCase();
+			if (!opt.contains("CSV") && !opt.contains("PDF")) {
+				throw new IllegalArgumentException("option must be 'CSV' or 'PDF'");
+			}
+
+			boolean elementExists = !driver.findElements(ticketsExport).isEmpty();
+			if (elementExists) {
+				waitVisible(cardCountInPopup);
+				driver.findElement(ticketsExport).click();
+				waitTime(driver);
+				grep.passTest("Exporting to " + option);
+				logger.info("Exporting to " + option);
+			} else {
+				grep.failTest("No " + option + " button available");
+				logger.error("No " + option + " button available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void clickCloseCardPopupBtn() throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(closePopup).isEmpty();
+			if (elementExists) {
+				driver.findElement(closePopup).click();
+				waitTime2(driver);
+			} else {
+				grep.failTest("Close Popup Not Available");
+				logger.error("Close Popup Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// Configure columns in popup
+
+	public void clickConfigColumnBtn_InCardPopup() throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(configColumn_InPopup).isEmpty();
+			if (elementExists) {
+				driver.findElement(configColumn_InPopup).click();
+				waitTime2(driver);
+				String header = driver.findElement(By.xpath("//h3[@class='text-lg font-semibold']")).getText();
+//				if (header.equals("Column Options")) {
+//					grep.passTest("Header is valid: " + header);
+//					logger.info("Header is valid: " + header);
+//				} else {
+//					grep.failTest("Header is not valid: " + header);
+//					logger.error("Header is not valid: " + header);
+//				}
+
+				validAssert.equalsAssert(header, "Column Options");
+			} else {
+				grep.failTest("Configure Column Button Not Available in Card Popup");
+				logger.error("Configure Column Button Not Available in Card Popup");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void clickCloseConfigColumnBtn_InCardPopup() throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(closeColumnOption_InPopup).isEmpty();
+			if (elementExists) {
+				driver.findElement(closeColumnOption_InPopup).click();
+				waitTime2(driver);
+			} else {
+				grep.failTest("Configure Column Button Not Available in Card Popup");
+				logger.error("Configure Column Button Not Available in Card Popup");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void selectColumnOption_InCardPopups(String option) throws Exception {
+		try {
+			implWait(driver);
+			By columnOption_inpopup = By.xpath("//div[@class='p-4 space-y-3']/descendant::span[text()='" + option
+					+ "']/following-sibling::button");
+
+			boolean elementexists = !driver.findElements(columnOption_inpopup).isEmpty();
+			if (elementexists) {
+				driver.findElement(columnOption_inpopup).click();
+				grep.infoTest("Selecting Column Option :" + option);
+				logger.info("Selecting Column Option : " + option);
+			} else {
+				grep.warnTest("Column Options " + option + " Not Working");
+				logger.error("Column Options " + option + " Not Working");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+	}
+
+	// Approver management
+
+	public void verifyApproverManagementHeader(String headerVal) throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(approverManagement_Header).isEmpty();
+			if (elementExists) {
+				String header = driver.findElement(approverManagement_Header).getText().trim();
+				validAssert.equalsAssert(header, headerVal);
+			} else {
+				grep.failTest("Header Not Available");
+				logger.error("Header Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void apprMgmt_SearchFilter(String value) throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(searchFilter_ApprMgmt).isEmpty();
+			if (elementExists) {
+				driver.findElement(searchFilter_ApprMgmt).clear();
+				driver.findElement(searchFilter_ApprMgmt).sendKeys(value);
+
+				waitTime(driver);
+
+			} else {
+				grep.failTest("Search Filter Not Available");
+				logger.error("Search Filter Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+
+	public void selectApprMgmtDepartment(String optionValue) throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(selectDept_ApprMgmt).isEmpty();
+			if (elementExists) {
+				WebElement deptDropdown = driver.findElement(selectDept_ApprMgmt);
+				waitTime(driver);
+				Select select = new Select(deptDropdown);
+				select.selectByVisibleText(optionValue);
+				grep.infoTest("Selecting " + optionValue + " Department");
+				logger.info("Selecting " + optionValue + " Department");
+			} else {
+				grep.failTest("Selected Department Filter not Available");
+				logger.error("Selected Department Filter not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void selectApprMgmtRoles(String optionValue) throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(selectRoles_ApprMgmt).isEmpty();
+			if (elementExists) {
+				WebElement rolesDropdown = driver.findElement(selectRoles_ApprMgmt);
+				waitTime(driver);
+				Select select = new Select(rolesDropdown);
+				select.selectByVisibleText(optionValue);
+				grep.infoTest("Selecting " + optionValue + " Role");
+				logger.info("Selecting " + optionValue + " Roles");
+			} else {
+				grep.failTest("Selected Role Filter not Available");
+				logger.error("Selected Role Filter not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void selectApprMgmtPagination(String optionValue) throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(apprMgmtPagination).isEmpty();
+			if (elementExists) {
+				WebElement pageDropdown = driver.findElement(apprMgmtPagination);
+				waitTime(driver);
+				Select select = new Select(pageDropdown);
+				select.selectByVisibleText(optionValue);
+				grep.infoTest("Selecting " + optionValue + " in pagination");
+				logger.info("Selecting " + optionValue + " in pagination");
+			} else {
+				grep.failTest("Selected Pagination not Available");
+				logger.error("Selected pagination not Available");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void appr_Mgmt_Export(String option) throws Exception {
+		try {
+
+			By apprmgmt_CSV_PDF_Export = By.xpath("//button[text()='Download " + option + "']");
+			String opt = option == null ? "" : option.trim().toUpperCase();
+			if (!opt.contains("CSV") && !opt.contains("PDF")) {
+				throw new IllegalArgumentException("option must be 'CSV' or 'PDF'");
+			}
+
+			boolean elementExists = !driver.findElements(apprMgmtExport).isEmpty();
+			if (elementExists) {
+				driver.findElement(apprMgmtExport).click();
+				waitTime(driver);
+				driver.findElement(apprmgmt_CSV_PDF_Export).click();
+			} else {
+				grep.failTest("No " + option + " button available");
+				logger.error("No " + option + " button available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void clickAddNewApproverBtn() throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(addNewApprover).isEmpty();
+			if (elementExists) {
+				driver.findElement(addNewApprover).click();
+			} else {
+				grep.failTest("Add New Approver Button Not Available");
+				logger.error("Add New Approver Button Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+
+	}
+
+	public void verifyNewApproverPopupHeader(String headerVal) throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(newApproverPopupHeader).isEmpty();
+			if (elementExists) {
+				String header = driver.findElement(newApproverPopupHeader).getText().trim();
+				validAssert.equalsAssert(header, headerVal);
+			} else {
+				grep.failTest("Header Not Available");
+				logger.error("Header Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void clickApproverPopupBtn(String btnVal) throws Exception {
+		try {
+			implWait(driver);
+			By newApproverPopupButtons = By.xpath("//button[text()='" + btnVal + "']");
+			boolean elementExists = !driver.findElements(newApproverPopupButtons).isEmpty();
+			if (elementExists) {
+				driver.findElement(newApproverPopupButtons).click();
+			} else {
+				grep.failTest(btnVal + " Button Not Available");
+				logger.error(btnVal + " Button Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+
+	}
+
+	public void insertValue_inNewApprPopup(String field, String value) throws Exception {
+		try {
+
+			By approverPopupInput = By.xpath("//span[text()='" + field + "']/following-sibling::input");
+
+			WebElement input = waitVisible(approverPopupInput);
+			input.clear();
+			input.sendKeys(value);
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+
+	}
+
+	public void clearValue_inNewApprPopup(String field, String value) throws Exception {
+		try {
+			By approverPopupInput = By.xpath("//span[text()='" + field + "']/following-sibling::input");
+			WebElement input = waitVisible(approverPopupInput);
+			waitTime(driver);
+			input.sendKeys(Keys.CONTROL + "a");
+			input.sendKeys(Keys.DELETE);
+			waitTime2(driver);
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+		}
+
+	}
+
+	public String verifyNewApproverErrorMsg(String field) throws Exception {
+		String errorMsg = null;
+		try {
+			implWait(driver);
+			By errorMsgInPopup = By.xpath("//span[text()='" + field + "']/following-sibling::p");
+
+			boolean elementExists = !driver.findElements(errorMsgInPopup).isEmpty();
+			if (elementExists) {
+				errorMsg = driver.findElement(errorMsgInPopup).getText().trim();
+
+			} else {
+				errorMsg = "Error Message Not Available";
+				grep.failTest("Error Message Not Available");
+				logger.error("Error Message Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+		return errorMsg;
+	}
+
+	public void verifyApprMgmt_FilterInTable(String verifyValue) throws Exception {
+		try {
+			implWait(driver);
+
+			List<WebElement> table = driver.findElements(tableSearch_ApprMgmt);
+			if (table.size() > 0) {
+				boolean isValid = true;
+				for (WebElement rows : table) {
+					String rowvalues = rows.getText();
+					if (!rowvalues.contains(verifyValue)) {
+						isValid = false;
+						break;
+					}
+				}
+				if (isValid && table.size() > 0) {
+					System.out.println("✅ Filter validation passed. All Values match: " + verifyValue);
+					grep.passTest("✅ Filter validation passed. All Values match: " + verifyValue);
+					logger.info("✅ Filter validation passed. All Values match: " + verifyValue);
+				} else {
+					System.out.println("❌ Filter validation failed. Mismatched Value found or no Records Available: "
+							+ verifyValue);
+					grep.warnTest("❌ Filter validation failed. Mismatched Value found or no Records Available: "
+							+ verifyValue);
+					logger.error("❌ Filter validation failed. Mismatched Value found or no Records Available: "
+							+ verifyValue);
+				}
+			} else {
+				grep.failTest("Table not exists");
+				logger.error("Table not exists");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	// Roles Management
+	public void verifyRolesManagementHeader(String headerVal) throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(rolesManagement_Header).isEmpty();
+			if (elementExists) {
+				String header = driver.findElement(rolesManagement_Header).getText().trim();
+				validAssert.equalsAssert(header, headerVal);
+			} else {
+				grep.failTest("Header Not Available");
+				logger.error("Header Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void roles_SearchFilter(String value) throws Exception {
+		try {
+			implWait(driver);
+
+			boolean elementExists = !driver.findElements(searchFilter_RoleMgmt).isEmpty();
+			if (elementExists) {
+				driver.findElement(searchFilter_RoleMgmt).clear();
+				driver.findElement(searchFilter_RoleMgmt).sendKeys(value);
+
+				waitTime(driver);
+
+			} else {
+				grep.failTest("Search Filter Not Available");
+				logger.error("Search Filter Not Available");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
+
+		}
+	}
+
+	public void clearRolesSearch() throws Exception {
+		try {
+			WebElement input = waitVisible(searchFilter_RoleMgmt);
+			waitTime(driver);
+			input.sendKeys(Keys.CONTROL + "a");
+			input.sendKeys(Keys.DELETE);
+			waitTime2(driver);
+		} catch (Exception e) {
+			e.printStackTrace();
+			grep.failTest("Test Failed :" + e.getMessage());
+			logger.error("Test Failed :" + e.getMessage());
 		}
 
 	}

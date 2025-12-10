@@ -78,7 +78,7 @@ public class WaitsManager {
 	}
 
 	public WebElement waitVisible(By locator) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
 		return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 	}
 

@@ -7,6 +7,7 @@
 			<class name="IntelliServe_Project.IntelliServe_Page_UI_Test" />
 			<class name="IntelliServe_Project.IntelliServe_Approver_MemberTest" />
 			<class name="IntelliServe_Project.IntelliServe_CreateTicket_Test" />
+			<class name="IntelliServe_Project.IntelliServe_Admin_Test" />
 		</classes>
 	</test> 
 </suite>

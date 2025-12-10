@@ -22,7 +22,9 @@ public class ValidatingAssertions extends WaitsManager {
 		System.out.println("Expected :" + expectedResult + " and Actual :" + actualResult);
 		logger.info("Expected :" + expectedResult + " and Actual :" + actualResult);
 		assertPassOrFail(actualResult, expectedResult);
+	
 	}
+	
 
 	// Validate Not equal assert
 	public void notEqualsAssert(String actualResult, String expectedResult) throws Exception {

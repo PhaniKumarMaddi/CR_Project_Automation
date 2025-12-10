@@ -64,6 +64,7 @@ public class IntelliServe_TestDataKeys {
 	public String departmentFilter = "Department";
 	public String stageFilter = "Stages";
 	public String currentStage = "Current Stage";
+	public String allDepartmentsFilter = "All Departments";
 
 	// create ticket
 	public String limitExceedMsg = "File size should be less than 30 MB.";
@@ -89,7 +90,6 @@ public class IntelliServe_TestDataKeys {
 	
 	
 	//Admin Dashbaord 
-	
 	public String adminDashboardOverview="Dashboard Overview";
 	public String adminAdvanceDashboard="Advanced Dashboard";
 	public String ticketAnalytics="Ticket Analytics";
@@ -98,4 +98,22 @@ public class IntelliServe_TestDataKeys {
 	public String monthlyTrends="Monthly Trends";
 	public String statusBreached="Breached";
 	public String statusMet="Met";
+	public String statusMET="MET";
+	
+	//Dashboard Cards
+	public String totalTickets_Card="Total Tickets";
+	public String pendingTickets_Card="Pending Tickets";
+	public String resolved_Card="Resolved";
+	public String closed_Card="Closed";
+	public String forwarded_Card="Forwarded";
+	public String implementationSchedule_Card="Implementation Scheduled";
+	public String workInProgress_Card="Work In Progress";
+	public String slaBreached_Card="SLA Breached";
+
+	//Approver Management fields
+	public String name_ApprMgmt ="Name ";
+	public String role_ApprMgmt ="Role ";
+	public String email_ApprMgmt ="Email ";
+	public String dept_ApprMgmt="Department ";
+
 }
